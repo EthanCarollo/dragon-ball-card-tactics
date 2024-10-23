@@ -87,7 +87,7 @@ public class AStarPathfinding
     private List<Node> GetNeighbors(Node node)
     {
         List<Node> neighbors = new List<Node>();
-        Vector2Int[] directions = { Vector2Int.up, Vector2Int.down, Vector2Int.left, Vector2Int.right };
+        Vector2Int[] directions = { Vector2Int.left, Vector2Int.right, Vector2Int.up, Vector2Int.down, };
 
         foreach (var direction in directions)
         {

@@ -41,7 +41,6 @@ public class DefaultCharacterState : BoardCharacterState
                 if (boardObject == null) continue;
                 if (boardObject is BoardCharacter character && character.isPlayerCharacter != boardCharacter.isPlayerCharacter)
                 {
-                    
                     Vector2Int? emptyPosition = BoardUtils.GetFirstEmptyAround(boardCharacters, this.boardCharacter,  character);
                     if (emptyPosition.HasValue)
                     {
@@ -62,7 +61,6 @@ public class DefaultCharacterState : BoardCharacterState
                             if (path.Count > pathLengthToTarget) continue;
                         
                             pathLengthToTarget = path.Count;
-                            Debug.Log(path[0]);
                             boardCharacter.nextPosition = path[0];
                         }
                         catch (Exception e)

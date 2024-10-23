@@ -7,8 +7,6 @@ public class BoardCharacter : BoardObject
     public CharacterData character;
 
     public int actualHealth;
-    public GameObject gameObject;
-    public Board board;
     public BoardCharacterState state;
     public bool isPlayerCharacter;
     public Vector2 direction;

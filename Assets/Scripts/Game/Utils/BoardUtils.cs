@@ -39,6 +39,7 @@ public static class BoardUtils
     {
         Vector2Int fromPosition = GetCharacterPosition(boardCharacters, fromCharacter);
         Vector2Int toPosition = GetCharacterPosition(boardCharacters, toCharacter);
+        var aStar = new AStarPathfinding(boardCharacters);
 
         if (fromPosition.x == -1 && fromPosition.y == -1)
         {
@@ -71,11 +72,10 @@ public static class BoardUtils
                 }
                 if (boardCharacters[neighborPosition.x, neighborPosition.y] == null)
                 {
-                    float distance = Vector2Int.Distance(fromPosition, neighborPosition);
-
-                    if (distance < closestDistance)
+                    var tempPath = aStar.FindPath(fromPosition, neighborPosition);
+                    if (tempPath != null && tempPath.Count < closestDistance)
                     {
-                        closestDistance = distance;
+                        closestDistance = tempPath.Count;
                         closestEmptyPosition = neighborPosition;
                     }
                 }
