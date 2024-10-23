@@ -1,32 +1,55 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class Board : MonoBehaviour
 {
-    private int width = 11; 
-    private int height = 7; 
     public GameObject tilePrefab;  
-    public GameObject[,] boardArray; 
+    public GameObject[,] BoardArray; 
+    float _tileWidth = 1.0f;
+    float _tileHeight = 1.0f;
 
     void Start()
     {
-        boardArray = new GameObject[width, height];
+        BoardArray = new GameObject[GameManager.BoardWidth, GameManager.BoardHeight];
         CreateBoard();
+        InitializeCharacter();
     }
 
-    void CreateBoard()
+    private void CreateBoard()
     {
-        float tileWidth = 1.0f;
-        float tileHeight = 1.0f;
-        for (int x = 0; x < width; x++)
+        for (int x = 0; x < GameManager.BoardWidth; x++)
         {
-            for (int y = 0; y < height; y++)
+            for (int y = 0; y < GameManager.BoardHeight; y++)
             {
-                float posX = x * tileWidth;
-                float posY = y * tileHeight;
+                float posX = x * _tileWidth;
+                float posY = y * _tileHeight;
                 Vector3 position = new Vector3(posX, posY, 0);
                 GameObject tile = Instantiate(tilePrefab, position, Quaternion.identity, this.transform);
                 tile.name = $"Tile {x},{y}";
-                boardArray[x, y] = tile;
+                BoardArray[x, y] = tile;
+            }
+        }
+    }
+
+    private void InitializeCharacter()
+    {
+        for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
+        {
+            for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
+            {
+                var character = GameManager.Instance.boardCharacterArray[x, y];
+                if (character == null) continue;
+                
+                float posX = x * _tileWidth;
+                float posY = y * _tileHeight + 0.05f;
+                Vector3 position = new Vector3(posX, posY, 0);
+                try {
+                    GameObject characterGameObject = Instantiate(character.character.characterPrefab, position, Quaternion.identity, this.transform);
+                    characterGameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().sortingOrder = 1;
+                }
+                catch (Exception e) {
+                    Debug.Log("Exception when instantiating game object of character : " + character.character.characterName);
+                }
             }
         }
     }
