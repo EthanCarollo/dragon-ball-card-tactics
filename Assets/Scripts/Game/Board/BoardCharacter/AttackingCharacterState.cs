@@ -26,6 +26,7 @@ public class AttackingCharacterState : BoardCharacterState
     
     public override void Attack()
     {
+        ParticleManager.Instance.InstantiateParticle(characterTarget.gameObject.transform.position ,ParticleData.Instance.sparkParticlePrefab);
         characterTarget.HitDamage(boardCharacter.character.baseDamage);
     }
 }

@@ -60,6 +60,6 @@ public class BoardCharacter : BoardObject
 
     public void SetCharacterSlider()
     {
-        gameObject.GetComponent<CharacterPrefabScript>().healthSlider.value = actualHealth;
+        gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().healthSlider.value = actualHealth;
     }
 }
