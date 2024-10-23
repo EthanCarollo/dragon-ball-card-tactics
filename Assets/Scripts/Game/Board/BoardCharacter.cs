@@ -46,4 +46,20 @@ public class BoardCharacter : BoardObject
         }
         state.Update();
     }
+
+    public void Attack()
+    {
+        state.Attack();
+    }
+
+    public void HitDamage(int damageAmount)
+    {
+        actualHealth -= damageAmount;
+        SetCharacterSlider();
+    }
+
+    public void SetCharacterSlider()
+    {
+        gameObject.GetComponent<CharacterPrefabScript>().healthSlider.value = actualHealth;
+    }
 }

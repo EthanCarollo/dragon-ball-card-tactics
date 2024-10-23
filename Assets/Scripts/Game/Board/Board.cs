@@ -50,7 +50,11 @@ public class Board : MonoBehaviour
                         GameObject characterGameObject = Instantiate(character.character.characterPrefab, position, Quaternion.identity, transform);
                         character.SetGameObject(characterGameObject);
                         character.SetBoard(this);
-                        characterGameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().sortingOrder = 1;
+                        var charPrefabScript = characterGameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
+                        charPrefabScript.boardCharacter = character;
+                        charPrefabScript.spriteRenderer.sortingOrder = 1;
+                        charPrefabScript.healthSlider.maxValue = character.character.maxHealth;
+                        charPrefabScript.healthSlider.value = character.actualHealth;
                     }
                 }
                 catch (Exception e) {

@@ -86,4 +86,9 @@ public class DefaultCharacterState : BoardCharacterState
             boardCharacter.nextPosition = new Vector2Int(-1, -1);
         }
     }
+    
+    public override void Attack()
+    {
+        Debug.LogWarning("Launch attack if default character");
+    }
 }

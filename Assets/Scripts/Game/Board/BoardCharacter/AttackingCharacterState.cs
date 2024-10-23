@@ -23,4 +23,9 @@ public class AttackingCharacterState : BoardCharacterState
             timeSinceLastAttack = 0f;
         }
     }
+    
+    public override void Attack()
+    {
+        characterTarget.HitDamage(boardCharacter.character.baseDamage);
+    }
 }
