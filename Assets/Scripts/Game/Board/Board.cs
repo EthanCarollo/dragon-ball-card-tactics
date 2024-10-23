@@ -44,14 +44,29 @@ public class Board : MonoBehaviour
                 float posY = y * _tileHeight + 0.05f;
                 Vector3 position = new Vector3(posX, posY, 0);
                 try {
-                    GameObject characterGameObject = Instantiate(character.character.characterPrefab, position, Quaternion.identity, this.transform);
+                    GameObject characterGameObject = Instantiate(character.character.characterPrefab, position, Quaternion.identity, transform);
+                    character.SetGameObject(characterGameObject);
+                    character.SetBoard(this);
                     characterGameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().sortingOrder = 1;
                 }
                 catch (Exception e) {
+                    Debug.LogError(e);
                     Debug.Log("Exception when instantiating game object of character : " + character.character.characterName);
                 }
             }
         }
     }
 
+    private void Update()
+    {
+        for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
+        {
+            for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
+            {
+                var character = GameManager.Instance.boardCharacterArray[x, y];
+                if (character == null) continue;
+                character.Update();
+            }
+        }
+    }
 }
