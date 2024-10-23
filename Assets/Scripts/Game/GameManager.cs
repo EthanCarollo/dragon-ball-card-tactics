@@ -27,11 +27,8 @@ public class GameManager
         boardCharacterArray = new BoardObject[BoardWidth, BoardHeight];
         if (DebugMode)
         {
-            boardCharacterArray[0, 0] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Freezer"), true);
-            boardCharacterArray[0, 2] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Freezer"), true);
-            boardCharacterArray[0, 5] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Freezer"), true);
-            boardCharacterArray[9, 2] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Freezer"), false);
-            boardCharacterArray[7, 4] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Freezer"), false);
+            boardCharacterArray[0, 5] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/SonGoku"), true);
+            boardCharacterArray[7, 4] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/SonGoku"), false);
         }
         var astart = new AStarPathfinding(boardCharacterArray);
     }

@@ -29,6 +29,10 @@ public class BoardCharacter : BoardObject
         }
     }
 
+    public void UpdateState(BoardCharacterState newState)
+    {
+        state = newState;
+    }
 
     public override void Update()
     {

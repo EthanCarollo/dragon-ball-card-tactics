@@ -5,13 +5,11 @@ using UnityEngine;
 public class DefaultCharacterState : BoardCharacterState
 {
     public DefaultCharacterState(BoardCharacter character) : base(character) { }
-    public BoardCharacter characterTarget;
     
     public override void Update()
     {
         if (boardCharacter.nextPosition.x == -1 && boardCharacter.nextPosition.y == -1)
         {
-            // Debug.Log("Find target");
             FindTarget();
         }
         else
@@ -44,10 +42,11 @@ public class DefaultCharacterState : BoardCharacterState
                     Vector2Int? emptyPosition = BoardUtils.GetFirstEmptyAround(boardCharacters, this.boardCharacter,  character);
                     if (emptyPosition.HasValue)
                     {
-                        // If he is already in front of a character, just return.
+                        // If he is already in front of a character, just put it in AttackState so !
                         if (characterPosition == emptyPosition.Value)
                         {
                             boardCharacter.nextPosition = new Vector2Int(-1, -1);
+                            boardCharacter.UpdateState(new AttackingCharacterState(boardCharacter, character));
                             return;
                         }
                         try
@@ -78,10 +77,12 @@ public class DefaultCharacterState : BoardCharacterState
     {
         Vector2 targetPosition = boardCharacter.nextPosition;
         float step = boardCharacter.character.baseSpeed * Time.deltaTime;
+        boardCharacter.gameObject.transform.GetChild(0).GetComponent<Animator>().SetBool("move", true);
         boardCharacter.gameObject.transform.position = Vector3.MoveTowards(boardCharacter.gameObject.transform.position, targetPosition, step);
         if (Vector3.Distance(boardCharacter.gameObject.transform.position, targetPosition) < 0.001f)
         {
             boardCharacter.gameObject.transform.position = targetPosition;
+            boardCharacter.gameObject.transform.GetChild(0).GetComponent<Animator>().SetBool("move", false);
             boardCharacter.nextPosition = new Vector2Int(-1, -1);
         }
     }

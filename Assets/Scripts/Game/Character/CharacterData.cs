@@ -14,4 +14,9 @@ public class CharacterData : ScriptableObject
     public int baseDamage;
     public int baseArmor;
     public int baseSpeed;
+    public int baseAttackSpeed;
+
+    public AnimationClip idle;
+    public AnimationClip run;
+    public AnimationClip attack;
 }
