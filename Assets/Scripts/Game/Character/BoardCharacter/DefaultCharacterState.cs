@@ -29,38 +29,51 @@ public class DefaultCharacterState : BoardCharacterState
 
     private void FindTarget()
     {
-        BoardCharacter[,] boardCharacters = GameManager.Instance.boardCharacterArray;
+        BoardObject[,] boardCharacters = GameManager.Instance.boardCharacterArray;
         Vector2Int characterPosition = BoardUtils.GetCharacterPosition(boardCharacters, boardCharacter);
         var aStar = new AStarPathfinding(boardCharacters);
+        var pathLengthToTarget = 9999;
         for (int x = 0; x < boardCharacters.GetLength(0); x++)
         {
             for (int y = 0; y < boardCharacters.GetLength(1); y++)
             {
-                var character = boardCharacters[x, y];
-                if (character == null || character.isPlayerCharacter == boardCharacter.isPlayerCharacter) continue;
-                Vector2Int? emptyPosition = BoardUtils.GetFirstEmptyAround(boardCharacters, this.boardCharacter,  character);
-
-                if (emptyPosition.HasValue && characterPosition != emptyPosition.Value)
+                var boardObject = boardCharacters[x, y];
+                if (boardObject == null) continue;
+                if (boardObject is BoardCharacter character && character.isPlayerCharacter != boardCharacter.isPlayerCharacter)
                 {
-                    try
+                    
+                    Vector2Int? emptyPosition = BoardUtils.GetFirstEmptyAround(boardCharacters, this.boardCharacter,  character);
+                    if (emptyPosition.HasValue)
                     {
-                        var path = aStar.FindPath(characterPosition, emptyPosition.Value);
-                        if (path == null && path.Count <= 1)
+                        // If he is already in front of a character, just return.
+                        if (characterPosition == emptyPosition.Value)
                         {
-                            continue;
+                            boardCharacter.nextPosition = new Vector2Int(-1, -1);
+                            return;
                         }
-                        Debug.Log(path[0]);
-                        boardCharacter.nextPosition = path[0];
-                        BoardUtils.MoveCharacter(boardCharacters, boardCharacter, path[0]);
-                    }
-                    catch (Exception e)
-                    {
-                        Debug.LogError("Got an error on finding path from " + boardCharacter.character.name + " to " + character.character.name + ": " + e);
+                        try
+                        {
+                            var path = aStar.FindPath(characterPosition, emptyPosition.Value);
+                            if (path == null && path.Count < 1)
+                            {
+                                continue;
+                            }
+
+                            if (path.Count > pathLengthToTarget) continue;
+                        
+                            pathLengthToTarget = path.Count;
+                            Debug.Log(path[0]);
+                            boardCharacter.nextPosition = path[0];
+                        }
+                        catch (Exception e)
+                        {
+                            Debug.LogError("Got an error on finding path from " + boardCharacter.character.name + " to " + character.character.name + ": " + e);
+                        }
                     }
                 }
-                
             }
         }
+        BoardUtils.MoveCharacter(boardCharacters, boardCharacter, boardCharacter.nextPosition);
     }
     
     private void MoveTowardsTarget()

@@ -20,16 +20,17 @@ public class GameManager
         }
     }
     
-    public BoardCharacter[,] boardCharacterArray;
+    public BoardObject[,] boardCharacterArray;
 
     private GameManager()
     {
-        boardCharacterArray = new BoardCharacter[BoardWidth, BoardHeight];
+        boardCharacterArray = new BoardObject[BoardWidth, BoardHeight];
         if (DebugMode)
         {
             boardCharacterArray[0, 0] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Freezer"), true);
             boardCharacterArray[0, 2] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Freezer"), true);
-            boardCharacterArray[9, 3] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Freezer"), false);
+            boardCharacterArray[0, 5] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Freezer"), true);
+            boardCharacterArray[9, 2] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Freezer"), false);
             boardCharacterArray[7, 4] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Freezer"), false);
         }
         var astart = new AStarPathfinding(boardCharacterArray);

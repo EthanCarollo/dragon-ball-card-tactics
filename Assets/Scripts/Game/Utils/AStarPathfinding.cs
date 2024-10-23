@@ -4,11 +4,11 @@ using UnityEngine;
 // This a star implementation should works well with our BoardCharacter 2D array
 public class AStarPathfinding
 {
-    private readonly BoardCharacter[,] _grid;
+    private readonly BoardObject[,] _grid;
     private readonly int _width;
     private readonly int _height;
 
-    public AStarPathfinding(BoardCharacter[,] grid)
+    public AStarPathfinding(BoardObject[,] grid)
     {
         _grid = grid;
         _width = grid.GetLength(0);

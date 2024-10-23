@@ -2,7 +2,7 @@
 
 public static class BoardUtils
 {
-    public static Vector2Int GetCharacterPosition(BoardCharacter[,] board, BoardCharacter character)
+    public static Vector2Int GetCharacterPosition(BoardObject[,] board, BoardObject character)
     {
         for (int x = 0; x < board.GetLength(0); x++)
         {
@@ -17,7 +17,7 @@ public static class BoardUtils
         return new Vector2Int(-1, -1); 
     }
 
-    public static bool MoveCharacter(BoardCharacter[,] board, BoardCharacter character, Vector2Int targetPosition)
+    public static bool MoveCharacter(BoardObject[,] board, BoardObject character, Vector2Int targetPosition)
     {
         Vector2Int currentPosition = BoardUtils.GetCharacterPosition(board, character);
         if (targetPosition.x < 0 || targetPosition.x >= board.GetLength(0) || targetPosition.y < 0 || targetPosition.y >= board.GetLength(1))
@@ -35,7 +35,7 @@ public static class BoardUtils
         return true; 
     }
     
-    public static Vector2Int? GetFirstEmptyAround(BoardCharacter[,] boardCharacters, BoardCharacter fromCharacter, BoardCharacter toCharacter)
+    public static Vector2Int? GetFirstEmptyAround(BoardObject[,] boardCharacters, BoardObject fromCharacter, BoardObject toCharacter)
     {
         Vector2Int fromPosition = GetCharacterPosition(boardCharacters, fromCharacter);
         Vector2Int toPosition = GetCharacterPosition(boardCharacters, toCharacter);
@@ -51,11 +51,7 @@ public static class BoardUtils
             new Vector2Int(-1, 0), 
             new Vector2Int(1, 0), 
             new Vector2Int(0, -1), 
-            new Vector2Int(0, 1),  
-            new Vector2Int(-1, -1), 
-            new Vector2Int(-1, 1),  
-            new Vector2Int(1, -1), 
-            new Vector2Int(1, 1)  
+            new Vector2Int(0, 1)  
         };
 
         Vector2Int? closestEmptyPosition = null;
@@ -70,6 +66,7 @@ public static class BoardUtils
             {
                 if (boardCharacters[neighborPosition.x, neighborPosition.y] == fromCharacter)
                 {
+                    Debug.LogWarning("Is directly on the neighbor position");
                     return neighborPosition;
                 }
                 if (boardCharacters[neighborPosition.x, neighborPosition.y] == null)

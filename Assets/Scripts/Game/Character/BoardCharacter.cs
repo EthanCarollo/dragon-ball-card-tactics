@@ -2,7 +2,7 @@
 using UnityEngine;
 
 [Serializable]
-public class BoardCharacter
+public class BoardCharacter : BoardObject
 {
     public CharacterData character;
 
@@ -31,20 +31,8 @@ public class BoardCharacter
         }
     }
 
-    public BoardCharacter SetGameObject(GameObject gameObject)
-    {
-        this.gameObject = gameObject;
-        return this;
-    }
 
-    public BoardCharacter SetBoard(Board board)
-    {
-        this.board = board;
-        return this;
-    }
-
-
-    public void Update()
+    public override void Update()
     {
         try
         {

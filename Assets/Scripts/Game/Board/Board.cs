@@ -37,21 +37,31 @@ public class Board : MonoBehaviour
         {
             for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
             {
-                var character = GameManager.Instance.boardCharacterArray[x, y];
-                if (character == null) continue;
+                var boardObject = GameManager.Instance.boardCharacterArray[x, y];
+                if (boardObject == null) continue;
                 
                 float posX = x * _tileWidth;
                 float posY = y * _tileHeight + 0.05f;
                 Vector3 position = new Vector3(posX, posY, 0);
                 try {
-                    GameObject characterGameObject = Instantiate(character.character.characterPrefab, position, Quaternion.identity, transform);
-                    character.SetGameObject(characterGameObject);
-                    character.SetBoard(this);
-                    characterGameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().sortingOrder = 1;
+                    if (boardObject is BoardCharacter character)
+                    {
+                        GameObject characterGameObject = Instantiate(character.character.characterPrefab, position, Quaternion.identity, transform);
+                        character.SetGameObject(characterGameObject);
+                        character.SetBoard(this);
+                        characterGameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().sortingOrder = 1;
+                    }
                 }
                 catch (Exception e) {
                     Debug.LogError(e);
-                    Debug.Log("Exception when instantiating game object of character : " + character.character.characterName);
+                    if (boardObject is BoardCharacter character)
+                    {
+                        Debug.Log("Exception when instantiating game object of character : " + character.character.characterName);
+                    }
+                    else
+                    {
+                        Debug.Log("Exception when instantiating game object of board object");
+                    }
                 }
             }
         }
@@ -78,9 +88,19 @@ public class Board : MonoBehaviour
         {
             for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
             {
-                var character = GameManager.Instance.boardCharacterArray[x, y];
-                if (character == null) continue;
-                Gizmos.color = new Color(1f, 0f, 0f, 0.3f); 
+                var boardObject = GameManager.Instance.boardCharacterArray[x, y];
+                if (boardObject == null) continue;
+                if (boardObject is BoardCharacter character)
+                {
+                    if (character.isPlayerCharacter)
+                    {
+                        Gizmos.color = new Color(1f, 0f, 0f, 0.3f); 
+                    }
+                    else
+                    {
+                        Gizmos.color = new Color(0f, 0f, 1f, 0.3f); 
+                    }
+                }
                 Gizmos.DrawCube(new Vector3(x, y+0.25f, 0), new Vector3(size, size, 0));
             }
         }
