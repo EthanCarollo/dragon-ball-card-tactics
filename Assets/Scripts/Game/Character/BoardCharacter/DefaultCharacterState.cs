@@ -1,12 +1,77 @@
 ﻿
+using System;
 using UnityEngine;
 
 public class DefaultCharacterState : BoardCharacterState
 {
     public DefaultCharacterState(BoardCharacter character) : base(character) { }
+    public BoardCharacter characterTarget;
     
     public override void Update()
     {
-        Debug.Log("DefaultCharacterState.Update");
+        if (boardCharacter.nextPosition.x == -1 && boardCharacter.nextPosition.y == -1)
+        {
+            // Debug.Log("Find target");
+            FindTarget();
+        }
+        else
+        {
+            try
+            {
+                MoveTowardsTarget();
+            }
+            catch (Exception e)
+            {
+                Debug.LogError("Try to move character to : " + boardCharacter.nextPosition.ToString() + " got error : " + e.ToString());
+            }
+        }
+    }
+
+    private void FindTarget()
+    {
+        BoardCharacter[,] boardCharacters = GameManager.Instance.boardCharacterArray;
+        Vector2Int characterPosition = BoardUtils.GetCharacterPosition(boardCharacters, boardCharacter);
+        var aStar = new AStarPathfinding(boardCharacters);
+        for (int x = 0; x < boardCharacters.GetLength(0); x++)
+        {
+            for (int y = 0; y < boardCharacters.GetLength(1); y++)
+            {
+                var character = boardCharacters[x, y];
+                if (character == null || character.isPlayerCharacter == boardCharacter.isPlayerCharacter) continue;
+                Vector2Int? emptyPosition = BoardUtils.GetFirstEmptyAround(boardCharacters, this.boardCharacter,  character);
+
+                if (emptyPosition.HasValue && characterPosition != emptyPosition.Value)
+                {
+                    try
+                    {
+                        var path = aStar.FindPath(characterPosition, emptyPosition.Value);
+                        if (path == null && path.Count <= 1)
+                        {
+                            continue;
+                        }
+                        Debug.Log(path[0]);
+                        boardCharacter.nextPosition = path[0];
+                        BoardUtils.MoveCharacter(boardCharacters, boardCharacter, path[0]);
+                    }
+                    catch (Exception e)
+                    {
+                        Debug.LogError("Got an error on finding path from " + boardCharacter.character.name + " to " + character.character.name + ": " + e);
+                    }
+                }
+                
+            }
+        }
+    }
+    
+    private void MoveTowardsTarget()
+    {
+        Vector2 targetPosition = boardCharacter.nextPosition;
+        float step = boardCharacter.character.baseSpeed * Time.deltaTime;
+        boardCharacter.gameObject.transform.position = Vector3.MoveTowards(boardCharacter.gameObject.transform.position, targetPosition, step);
+        if (Vector3.Distance(boardCharacter.gameObject.transform.position, targetPosition) < 0.001f)
+        {
+            boardCharacter.gameObject.transform.position = targetPosition;
+            boardCharacter.nextPosition = new Vector2Int(-1, -1);
+        }
     }
 }

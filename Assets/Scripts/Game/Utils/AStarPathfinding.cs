@@ -19,6 +19,7 @@ public class AStarPathfinding
     {
         Node startNode = new Node(start, null);
         Node endNode = new Node(end, null);
+        startNode.GCost = 0; // Set start node GCost to 0
 
         List<Node> openList = new List<Node>();
         HashSet<Node> closedList = new HashSet<Node>();
@@ -32,7 +33,7 @@ public class AStarPathfinding
             for (int i = 1; i < openList.Count; i++)
             {
                 if (openList[i].FCost < currentNode.FCost || 
-                   (openList[i].FCost == currentNode.FCost && openList[i].HCost < currentNode.HCost))
+                    (openList[i].FCost == currentNode.FCost && openList[i].HCost < currentNode.HCost))
                 {
                     currentNode = openList[i];
                 }
@@ -64,8 +65,10 @@ public class AStarPathfinding
             }
         }
 
+        // Path not found
         return null;
     }
+
 
     private List<Vector2Int> RetracePath(Node startNode, Node endNode)
     {
@@ -105,30 +108,41 @@ public class AStarPathfinding
 
     private bool IsWalkable(Vector2Int position)
     {
-        return _grid[position.x, position.y] == null; // Null means walkable
+        return _grid[position.x, position.y] == null; 
     }
 
     private int GetDistance(Node a, Node b)
     {
         int dstX = Mathf.Abs(a.Position.x - b.Position.x);
         int dstY = Mathf.Abs(a.Position.y - b.Position.y);
-        return dstX + dstY; // Manhattan distance
+        return dstX + dstY;
     }
 
     private class Node
     {
         public Vector2Int Position;
         public Node Parent;
-        public int GCost; // Cost from start to this node
-        public int HCost; // Heuristic cost to end node
-        public int FCost => GCost + HCost; // Total cost
+        public int GCost; 
+        public int HCost; 
+        public int FCost => GCost + HCost; 
 
         public Node(Vector2Int position, Node parent)
         {
             Position = position;
             Parent = parent;
-            GCost = int.MaxValue; // Initialize to a high value
+            GCost = int.MaxValue;
             HCost = 0;
         }
+
+        public override bool Equals(object obj)
+        {
+            return obj is Node node && Position.Equals(node.Position);
+        }
+
+        public override int GetHashCode()
+        {
+            return Position.GetHashCode();
+        }
     }
+
 }

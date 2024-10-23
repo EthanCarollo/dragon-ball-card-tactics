@@ -12,14 +12,15 @@ public class BoardCharacter
     public BoardCharacterState state;
     public bool isPlayerCharacter;
     public Vector2 direction;
-    public Vector2 nextPosition;
+    // If the nextPosition is to negative infinity, it just don't have a next position at all
+    public Vector2Int nextPosition = new Vector2Int(-1, -1);
 
     public BoardCharacter(CharacterData character, bool isPlayerCharacter)
     {
         this.character = character;
         actualHealth = this.character.maxHealth;
         state = new DefaultCharacterState(this);
-        isPlayerCharacter = isPlayerCharacter;
+        this.isPlayerCharacter = isPlayerCharacter;
         if (!isPlayerCharacter)
         {
             direction = Vector2.right;
@@ -53,5 +54,6 @@ public class BoardCharacter
         {
             Console.WriteLine(e);
         }
+        state.Update();
     }
 }

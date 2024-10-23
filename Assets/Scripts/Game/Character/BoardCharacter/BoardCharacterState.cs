@@ -1,10 +1,10 @@
 ﻿public abstract class BoardCharacterState
 {
-    BoardCharacter _boardCharacter;
+    protected BoardCharacter boardCharacter;
     
     public BoardCharacterState(BoardCharacter boardCharacter)
     {
-        this._boardCharacter = boardCharacter;    
+        this.boardCharacter = boardCharacter;    
     }
     
     public abstract void Update();

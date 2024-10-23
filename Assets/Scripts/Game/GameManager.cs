@@ -28,9 +28,10 @@ public class GameManager
         if (DebugMode)
         {
             boardCharacterArray[0, 0] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Freezer"), true);
-            boardCharacterArray[0, 1] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Freezer"), true);
+            boardCharacterArray[0, 2] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Freezer"), true);
             boardCharacterArray[9, 3] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Freezer"), false);
             boardCharacterArray[7, 4] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Freezer"), false);
         }
+        var astart = new AStarPathfinding(boardCharacterArray);
     }
 }
