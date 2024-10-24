@@ -87,6 +87,11 @@ public class BoardCharacter : BoardObject
         SetCharacterSlider();
     }
 
+    public void Disappear()
+    {
+        
+    }
+
     public void AddKi(int kiAmount)
     {
         actualKi += kiAmount;
