@@ -8,6 +8,7 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler
     public SpriteRenderer spriteRenderer;
     public SpriteRenderer spriteSocle;
     public Slider healthSlider;
+    public Slider kiSlider;
 
     public void HitDamage(int damageMultiplicator)
     {

@@ -11,6 +11,7 @@ public class CharacterData : ScriptableObject
     public GameObject characterPrefab;
     
     public int maxHealth;
+    public int maxKi = 50;
     
     public int baseDamage;
     public int baseArmor;

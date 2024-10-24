@@ -7,6 +7,7 @@ public class BoardCharacter : BoardObject
     public CharacterData character;
 
     public int actualHealth;
+    public int actualKi;
     public BoardCharacterState state;
     public bool isPlayerCharacter;
     public Vector2 direction;
@@ -34,6 +35,7 @@ public class BoardCharacter : BoardObject
     {
         this.character = character;
         actualHealth = this.character.maxHealth;
+        actualKi = 0;
         state = new DefaultCharacterState(this);
         this.isPlayerCharacter = isPlayerCharacter;
         if (!isPlayerCharacter)
@@ -82,6 +84,11 @@ public class BoardCharacter : BoardObject
 
     public void SetCharacterSlider()
     {
-        gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().healthSlider.value = actualHealth;
+        var charPrefabScript = gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
+        
+        charPrefabScript.kiSlider.maxValue = character.maxHealth;
+        charPrefabScript.kiSlider.value = actualKi;
+        charPrefabScript.healthSlider.maxValue = character.maxHealth;
+        charPrefabScript.healthSlider.value = actualHealth;
     }
 }

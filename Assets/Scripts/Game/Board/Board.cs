@@ -73,8 +73,7 @@ public class Board : MonoBehaviour
                             new Color(character.isPlayerCharacter? 0f: 1f, 0f, character.isPlayerCharacter? 1f: 0f, 0.2f);
                         charPrefabScript.spriteRenderer.sortingOrder = 1;
                         charPrefabScript.spriteRenderer.flipX = !character.isPlayerCharacter;
-                        charPrefabScript.healthSlider.maxValue = character.character.maxHealth;
-                        charPrefabScript.healthSlider.value = character.actualHealth;
+                        character.SetCharacterSlider();
                     }
                 }
                 catch (Exception e) {
