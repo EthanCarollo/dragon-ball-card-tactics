@@ -14,6 +14,11 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler
     {
         boardCharacter.Attack();
     }
+
+    public void HitSpecialDamage(int damageMultiplicator)
+    {
+        boardCharacter.SpecialAttack();
+    }
     
     public void OnPointerClick(PointerEventData eventData)
     {

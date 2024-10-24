@@ -11,4 +11,5 @@ public abstract class BoardCharacterState
     
     public abstract void Update();
     public abstract void Attack();
+    public abstract void SpecialAttack();
 }

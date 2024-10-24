@@ -76,17 +76,31 @@ public class BoardCharacter : BoardObject
         state.Attack();
     }
 
+    public void SpecialAttack()
+    {
+        state.SpecialAttack();
+    }
+
     public void HitDamage(int damageAmount)
     {
         actualHealth -= damageAmount;
         SetCharacterSlider();
     }
 
+    public void AddKi(int kiAmount)
+    {
+        actualKi += kiAmount;
+        if (actualKi > character.maxKi)
+        {
+            actualKi = character.maxKi;
+        }
+    }
+
     public void SetCharacterSlider()
     {
         var charPrefabScript = gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
         
-        charPrefabScript.kiSlider.maxValue = character.maxHealth;
+        charPrefabScript.kiSlider.maxValue = character.maxKi;
         charPrefabScript.kiSlider.value = actualKi;
         charPrefabScript.healthSlider.maxValue = character.maxHealth;
         charPrefabScript.healthSlider.value = actualHealth;

@@ -12,7 +12,8 @@ public class Board : MonoBehaviour
 
     void Start()
     {
-        state = new DefaultBoardState(this);
+        // state = new DefaultBoardState(this);
+        state = new FightBoardState(this);
         BoardArray = new GameObject[GameManager.BoardWidth, GameManager.BoardHeight];
         CreateBoard();
         InitializeCharacter();

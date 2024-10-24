@@ -4,7 +4,7 @@ using UnityEngine;
 public class AttackingCharacterState : BoardCharacterState
 {
     BoardCharacter characterTarget;
-    private float attackCooldown = 1.5f;   // Example cooldown for attack
+    private float attackCooldown = 0.75f;   // Example cooldown for attack
     private float timeSinceLastAttack = 0f;
     private Animator animator;
     
@@ -19,12 +19,28 @@ public class AttackingCharacterState : BoardCharacterState
         timeSinceLastAttack += Time.deltaTime;
         if (timeSinceLastAttack >= attackCooldown)
         {
-            animator.SetTrigger("attack");
+            if (boardCharacter.actualKi >= boardCharacter.character.maxKi)
+            {
+                animator.SetTrigger("special_attack");
+                boardCharacter.actualKi = 0;
+            }
+            else
+            {
+                animator.SetTrigger("attack");
+                boardCharacter.AddKi(15);
+            }
             timeSinceLastAttack = 0f;
         }
+        boardCharacter.SetCharacterSlider();
     }
     
     public override void Attack()
+    {
+        ParticleManager.Instance.InstantiateParticle(characterTarget.gameObject.transform.position ,ParticleData.Instance.sparkParticlePrefab);
+        characterTarget.HitDamage(boardCharacter.character.baseDamage);
+    }
+    
+    public override void SpecialAttack()
     {
         ParticleManager.Instance.InstantiateParticle(characterTarget.gameObject.transform.position ,ParticleData.Instance.sparkParticlePrefab);
         characterTarget.HitDamage(boardCharacter.character.baseDamage);

@@ -311,6 +311,94 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: son-goku_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 189
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.49598986, y: 0.01236145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7896e708799494184412b40a48be2f
+      internalID: 1452221654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: son-goku_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 189
+        width: 54
+        height: 51
+      alignment: 9
+      pivot: {x: 0.49977776, y: 0.0028973748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce4d124721bf5f4f9d63aebf8a5ead9
+      internalID: 1611023452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: son-goku_8
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 189
+        width: 81
+        height: 50
+      alignment: 9
+      pivot: {x: 0.19302952, y: 0.0032131958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99226f39a88ca945b1c0cce913a3eaa
+      internalID: 1638126653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: son-goku_9
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 201
+        width: 43
+        height: 30
+      alignment: 9
+      pivot: {x: 0.0026543196, y: 0.4891988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dc56c8b4c4a9a4aade32d0668e6b9d
+      internalID: 1912522824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -331,6 +419,10 @@ TextureImporter:
       son-goku_3: 4367443089448301319
       son-goku_4: 6653981442661384162
       son-goku_5: 1412831991072362571
+      son-goku_6: 1452221654
+      son-goku_7: 1611023452
+      son-goku_8: 1638126653
+      son-goku_9: 1912522824
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

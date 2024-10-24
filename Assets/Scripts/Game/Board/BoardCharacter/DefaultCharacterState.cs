@@ -91,4 +91,9 @@ public class DefaultCharacterState : BoardCharacterState
     {
         Debug.LogWarning("Launch attack if default character");
     }
+    
+    public override void SpecialAttack()
+    {
+        Debug.LogWarning("Launch special attack if default character");
+    }
 }
