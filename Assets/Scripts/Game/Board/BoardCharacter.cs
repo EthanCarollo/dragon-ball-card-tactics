@@ -13,6 +13,23 @@ public class BoardCharacter : BoardObject
     // If the nextPosition is to negative infinity, it just don't have a next position at all
     public Vector2Int nextPosition = new Vector2Int(-1, -1);
 
+    public int GetAttackDamage()
+    {
+        return character.baseDamage;
+    }
+    public int GetArmor()
+    {
+        return character.baseArmor;
+    }
+    public int GetSpeed()
+    {
+        return character.baseSpeed;
+    }
+    public int GetAttackSpeed()
+    {
+        return character.baseAttackSpeed;
+    }
+
     public BoardCharacter(CharacterData character, bool isPlayerCharacter)
     {
         this.character = character;

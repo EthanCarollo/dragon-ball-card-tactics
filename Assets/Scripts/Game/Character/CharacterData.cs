@@ -4,6 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewCharacterData", menuName = "Character/CharacterData")]
 public class CharacterData : ScriptableObject
 {
+    public int starNumber = 1;
     public string characterName;
 
     public Sprite characterSprite;
