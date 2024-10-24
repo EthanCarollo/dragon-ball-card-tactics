@@ -16,6 +16,16 @@ public class AttackingCharacterState : BoardCharacterState
     
     public override void Update()
     {
+        if (boardCharacter.IsDead())
+        {
+            return;
+        }
+
+        if (characterTarget.IsDead())
+        {
+            boardCharacter.UpdateState(new DefaultCharacterState(boardCharacter));
+            return;
+        }
         timeSinceLastAttack += Time.deltaTime;
         if (timeSinceLastAttack >= attackCooldown)
         {
@@ -36,12 +46,20 @@ public class AttackingCharacterState : BoardCharacterState
     
     public override void Attack()
     {
+        if (boardCharacter.IsDead())
+        {
+            return;
+        }
         ParticleManager.Instance.InstantiateParticle(characterTarget.gameObject.transform.position ,ParticleData.Instance.sparkParticlePrefab);
         characterTarget.HitDamage(boardCharacter.character.baseDamage);
     }
     
     public override void SpecialAttack()
     {
+        if (boardCharacter.IsDead())
+        {
+            return;
+        }
         ParticleManager.Instance.InstantiateParticle(characterTarget.gameObject.transform.position ,ParticleData.Instance.sparkParticlePrefab);
         characterTarget.HitDamage(boardCharacter.character.baseDamage);
     }

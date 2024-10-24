@@ -14,6 +14,12 @@ public class BoardCharacter : BoardObject
     // If the nextPosition is to negative infinity, it just don't have a next position at all
     public Vector2Int nextPosition = new Vector2Int(-1, -1);
 
+    public bool isDying = false;
+    public bool IsDead()
+    {
+        return actualHealth <= 0;
+    }
+    
     public int GetAttackDamage()
     {
         return character.baseDamage;
@@ -83,13 +89,29 @@ public class BoardCharacter : BoardObject
 
     public void HitDamage(int damageAmount)
     {
+        
         actualHealth -= damageAmount;
         SetCharacterSlider();
+        if (IsDead() && isDying == false)
+        {
+            Disappear();    
+        }
     }
 
     public void Disappear()
     {
-        
+        isDying = true;
+        var spriteRenderer = gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>();
+        spriteRenderer.material = new Material(ShadersDatabase.Instance.disappearMaterial);
+        spriteRenderer.material.SetFloat("_Fade", 1f);
+        LeanTween.value(gameObject, f =>
+        {
+            spriteRenderer.material.SetFloat("_Fade", f);
+        }, 1f, 0f, 1f)
+        .setOnComplete((o =>
+        {
+            GameObject.Destroy(gameObject);
+        }));
     }
 
     public void AddKi(int kiAmount)

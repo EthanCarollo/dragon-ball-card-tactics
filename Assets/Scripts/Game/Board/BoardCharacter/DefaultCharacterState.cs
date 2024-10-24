@@ -8,6 +8,10 @@ public class DefaultCharacterState : BoardCharacterState
     
     public override void Update()
     {
+        if (boardCharacter.IsDead())
+        {
+            return;
+        }
         if (boardCharacter.nextPosition.x == -1 && boardCharacter.nextPosition.y == -1)
         {
             FindTarget();
