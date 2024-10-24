@@ -107,7 +107,7 @@ public class BoardCharacter : BoardObject
         LeanTween.value(gameObject, f =>
         {
             spriteRenderer.material.SetFloat("_Fade", f);
-        }, 1f, 0f, 1f)
+        }, 1f, 0f, 2f)
         .setOnComplete((o =>
         {
             GameObject.Destroy(gameObject);

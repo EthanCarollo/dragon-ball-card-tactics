@@ -16,7 +16,7 @@ MonoBehaviour:
   characterName: SonGoku
   characterSprite: {fileID: -2228038483841953954, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 250
+  maxHealth: 350
   maxKi: 50
   baseDamage: 25
   baseArmor: 30
