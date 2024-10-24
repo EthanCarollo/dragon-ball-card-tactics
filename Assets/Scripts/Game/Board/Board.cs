@@ -5,17 +5,34 @@ using UnityEngine.InputSystem;
 public class Board : MonoBehaviour
 {
     public GameObject tilePrefab;  
-    public GameObject[,] BoardArray; 
+    public GameObject[,] BoardArray;
+    public BoardState state;
     float _tileWidth = 1.0f;
     float _tileHeight = 1.0f;
 
     void Start()
     {
+        state = new DefaultBoardState(this);
         BoardArray = new GameObject[GameManager.BoardWidth, GameManager.BoardHeight];
         CreateBoard();
         InitializeCharacter();
     }
 
+    private void Update()
+    {
+        state.Update();
+    }
+
+    public void UpdateState(BoardState newState)
+    {
+        state = newState;
+    }
+
+    public void LaunchFight()
+    {
+        state.LaunchFight();
+    }
+    
     private void CreateBoard()
     {
         for (int x = 0; x < GameManager.BoardWidth; x++)
@@ -52,7 +69,10 @@ public class Board : MonoBehaviour
                         character.SetBoard(this);
                         var charPrefabScript = characterGameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
                         charPrefabScript.boardCharacter = character;
+                        charPrefabScript.spriteSocle.color = 
+                            new Color(character.isPlayerCharacter? 0f: 1f, 0f, character.isPlayerCharacter? 1f: 0f, 0.2f);
                         charPrefabScript.spriteRenderer.sortingOrder = 1;
+                        charPrefabScript.spriteRenderer.flipX = !character.isPlayerCharacter;
                         charPrefabScript.healthSlider.maxValue = character.character.maxHealth;
                         charPrefabScript.healthSlider.value = character.actualHealth;
                     }
@@ -68,19 +88,6 @@ public class Board : MonoBehaviour
                         Debug.Log("Exception when instantiating game object of board object");
                     }
                 }
-            }
-        }
-    }
-
-    private void Update()
-    {
-        for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
-        {
-            for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
-            {
-                var character = GameManager.Instance.boardCharacterArray[x, y];
-                if (character == null) continue;
-                character.Update();
             }
         }
     }

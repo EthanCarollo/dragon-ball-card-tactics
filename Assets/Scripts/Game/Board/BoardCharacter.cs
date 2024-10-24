@@ -34,6 +34,11 @@ public class BoardCharacter : BoardObject
         state = newState;
     }
 
+    public override void UpdateUi()
+    {
+        
+    }
+
     public override void Update()
     {
         try

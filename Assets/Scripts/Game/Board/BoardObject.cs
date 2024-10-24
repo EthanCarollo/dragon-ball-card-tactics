@@ -17,5 +17,6 @@ public abstract class BoardObject
         return this;
     }
     
+    public abstract void UpdateUi();
     public abstract void Update();
 }

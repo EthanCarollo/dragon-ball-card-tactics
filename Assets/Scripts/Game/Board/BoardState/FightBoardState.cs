@@ -1,0 +1,31 @@
+﻿
+public class FightBoardState : BoardState
+{
+    public FightBoardState(Board board) : base(board) { }
+
+    public override void Update()
+    {
+        UpdateBoardForFight();
+    }
+
+    private void UpdateBoardForFight()
+    {
+        for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
+        {
+            for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
+            {
+                var character = GameManager.Instance.boardCharacterArray[x, y];
+                if (character == null) continue;
+                character.UpdateUi();
+                character.Update();
+            }
+        }
+    }
+
+    public override void LaunchFight()
+    {
+        
+    }
+}
+
+
