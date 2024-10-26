@@ -30,23 +30,23 @@ public class AttackingCharacterState : BoardCharacterState
         {
             if (boardCharacter.actualKi >= boardCharacter.character.maxKi)
             {
-                boardCharacter.PlayAnimation(boardCharacter.character.superAttackSprites);
+                boardCharacter.PlayAnimation(boardCharacter.character.specialAttackAnimation);
                 boardCharacter.actualKi = 0;
             }
             else
             {
                 if(IsCritical(boardCharacter.GetCriticalChance()) == true)
                 {
-                    boardCharacter.PlayAnimation(boardCharacter.character.criticalAttackSprites);
+                    boardCharacter.PlayAnimation(boardCharacter.character.criticalAttackAnimation);
                     boardCharacter.AddKi(15);    
                 } else {
-                    boardCharacter.PlayAnimation(boardCharacter.character.attackSprites);
+                    boardCharacter.PlayAnimation(boardCharacter.character.attackAnimation);
                     boardCharacter.AddKi(15);
                 }
             }
             timeSinceLastAttack = 0f;
         }
-        boardCharacter.PlayAnimationIfNotRunning(boardCharacter.character.idleSprites);
+        boardCharacter.PlayAnimationIfNotRunning(boardCharacter.character.idleAnimation);
         boardCharacter.SetCharacterSlider();
     }
     

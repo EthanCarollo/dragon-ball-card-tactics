@@ -20,9 +20,14 @@ public class CharacterData : ScriptableObject
     // baseCriticalChance is a percentage
     public int baseCriticalChance;
 
-    public Sprite[] idleSprites;
-    public Sprite[] runSprites;
-    public Sprite[] attackSprites;
-    public Sprite[] criticalAttackSprites;
-    public Sprite[] superAttackSprites;
+    [SerializeReference, SubclassSelector]
+    public BoardAnimation idleAnimation;
+    [SerializeReference, SubclassSelector]
+    public BoardAnimation runAnimation;
+    [SerializeReference, SubclassSelector]
+    public BoardAnimation attackAnimation;
+    [SerializeReference, SubclassSelector]
+    public BoardAnimation criticalAttackAnimation;
+    [SerializeReference, SubclassSelector]
+    public BoardAnimation specialAttackAnimation;
 }

@@ -23,30 +23,66 @@ MonoBehaviour:
   baseSpeed: 2
   baseAttackSpeed: 0.6
   baseCriticalChance: 90
-  idleSprites:
-  - {fileID: 6706494007726779490, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  - {fileID: 6706494007726779490, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  - {fileID: 6706494007726779490, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  - {fileID: 6706494007726779490, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  - {fileID: -4702700919613018773, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  - {fileID: -6265311406626370769, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  - {fileID: -4702700919613018773, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  - {fileID: 6706494007726779490, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  - {fileID: 6706494007726779490, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  - {fileID: 6706494007726779490, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  runSprites:
-  - {fileID: 946800513, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  - {fileID: 135910636, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  - {fileID: -1273556271, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  attackSprites:
-  - {fileID: 272133884369728683, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  - {fileID: -1105085172639128626, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  - {fileID: -6954148007391845124, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  criticalAttackSprites:
-  - {fileID: -7837581485286616581, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  - {fileID: 4404476141685350812, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  - {fileID: -2700617654505648548, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  superAttackSprites:
-  - {fileID: 1471508838260862914, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  - {fileID: -8799643425093672969, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  - {fileID: -8799643425093672969, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+  idleAnimation:
+    rid: 7759870985394454602
+  runAnimation:
+    rid: 7759870985394454603
+  attackAnimation:
+    rid: 7759870985394454604
+  criticalAttackAnimation:
+    rid: 7759870985394454605
+  specialAttackAnimation:
+    rid: 7759870985394454606
+  references:
+    version: 2
+    RefIds:
+    - rid: 7759870985394454602
+      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: 6706494007726779490, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+          time: 1.5
+        - sprite: {fileID: -4702700919613018773, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+          time: 0.2
+        - sprite: {fileID: -6265311406626370769, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+          time: 0.2
+        - sprite: {fileID: -4702700919613018773, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+          time: 0.2
+    - rid: 7759870985394454603
+      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: 946800513, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+          time: 0.2
+        - sprite: {fileID: 135910636, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+          time: 0.2
+        - sprite: {fileID: -1273556271, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+          time: 0.2
+    - rid: 7759870985394454604
+      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: 272133884369728683, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+          time: 0.1
+        - sprite: {fileID: -1105085172639128626, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+          time: 0.1
+        - sprite: {fileID: -6954148007391845124, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+          time: 0.1
+    - rid: 7759870985394454605
+      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: -7837581485286616581, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+          time: 0.2
+        - sprite: {fileID: 4404476141685350812, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+          time: 0.2
+        - sprite: {fileID: -2700617654505648548, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+          time: 0.1
+    - rid: 7759870985394454606
+      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: 1471508838260862914, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+          time: 0.2
+        - sprite: {fileID: -8799643425093672969, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+          time: 0.3

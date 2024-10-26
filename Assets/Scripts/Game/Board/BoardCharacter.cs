@@ -14,7 +14,7 @@ public class BoardCharacter : BoardObject
     public Vector2 direction;
     // If the nextPosition is to negative infinity, it just don't have a next position at all
     public Vector2Int nextPosition = new Vector2Int(-1, -1);
-    private bool isAnimating = false;
+    public bool isAnimating = false;
 
     public bool isDying = false;
     public bool IsDead()
@@ -144,28 +144,17 @@ public class BoardCharacter : BoardObject
         charPrefabScript.healthSlider.value = actualHealth;
     }
 
-    public void PlayAnimation(Sprite[] sprites)
+    public void PlayAnimation(BoardAnimation animation)
     {
         gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().StopAllCoroutines();
-        gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().StartCoroutine(PlayAnimationCoroutine(sprites));
+        gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().StartCoroutine(animation.PlayAnimationCoroutine(this));
     }
 
-    public void PlayAnimationIfNotRunning(Sprite[] sprites)
+    public void PlayAnimationIfNotRunning(BoardAnimation animation)
     {
         if (!isAnimating)
         {
-            gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().StartCoroutine(PlayAnimationCoroutine(sprites));
+            gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().StartCoroutine(animation.PlayAnimationCoroutine(this));
         }
-    }
-
-    private IEnumerator PlayAnimationCoroutine(Sprite[] sprites)
-    {
-        isAnimating = true;
-        foreach (Sprite sprite in sprites)
-        {
-            gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = sprite;
-            yield return new WaitForSeconds(0.2f); 
-        }
-        isAnimating = false;
     }
 }
