@@ -79,12 +79,17 @@ public class BoardCharacter : BoardObject
 
     public void Attack()
     {
-        state.Attack();
+        state.Attack(GetAttackDamage(), ParticleData.Instance.sparkParticlePrefab);
+    }
+
+    public void CriticalAttack()
+    {
+        state.Attack(GetAttackDamage() * 2, ParticleData.Instance.sparkParticlePrefab);
     }
 
     public void SpecialAttack()
     {
-        state.SpecialAttack();
+        state.Attack(GetAttackDamage(), ParticleData.Instance.sparkParticlePrefab);
     }
 
     public void HitDamage(int damageAmount)

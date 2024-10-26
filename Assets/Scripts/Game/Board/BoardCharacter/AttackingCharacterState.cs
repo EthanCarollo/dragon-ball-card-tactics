@@ -44,17 +44,7 @@ public class AttackingCharacterState : BoardCharacterState
         boardCharacter.SetCharacterSlider();
     }
     
-    public override void Attack()
-    {
-        if (boardCharacter.IsDead())
-        {
-            return;
-        }
-        ParticleManager.Instance.InstantiateParticle(characterTarget.gameObject.transform.position ,ParticleData.Instance.sparkParticlePrefab);
-        characterTarget.HitDamage(boardCharacter.character.baseDamage);
-    }
-    
-    public override void SpecialAttack()
+    public override void Attack(int damage, GameObject particle)
     {
         if (boardCharacter.IsDead())
         {

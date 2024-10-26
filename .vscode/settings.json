@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Dragon Ball Omega Tactics.sln"
+    "dotnet.defaultSolution": "dragon-ball-omega-tactics.sln"
 }

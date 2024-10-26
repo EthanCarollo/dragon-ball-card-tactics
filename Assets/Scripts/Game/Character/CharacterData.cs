@@ -17,6 +17,8 @@ public class CharacterData : ScriptableObject
     public int baseArmor;
     public int baseSpeed;
     public int baseAttackSpeed;
+    // baseCriticalChance is a percentage
+    public int baseCriticalChance;
 
     public AnimationClip idle;
     public AnimationClip run;

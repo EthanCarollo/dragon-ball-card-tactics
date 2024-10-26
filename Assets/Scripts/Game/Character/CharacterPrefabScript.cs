@@ -10,12 +10,18 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler
     public Slider healthSlider;
     public Slider kiSlider;
 
-    public void HitDamage(int damageMultiplicator)
+    public void HitDamage()
     {
         boardCharacter.Attack();
     }
 
-    public void HitSpecialDamage(int damageMultiplicator)
+    public void HitCriticalAttack()
+    {
+        boardCharacter.CriticalAttack();
+    }
+    
+
+    public void HitSpecialDamage()
     {
         boardCharacter.SpecialAttack();
     }

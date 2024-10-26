@@ -91,13 +91,8 @@ public class DefaultCharacterState : BoardCharacterState
         }
     }
     
-    public override void Attack()
+    public override void Attack(int damage, GameObject particle)
     {
         Debug.LogWarning("Launch attack if default character");
-    }
-    
-    public override void SpecialAttack()
-    {
-        Debug.LogWarning("Launch special attack if default character");
     }
 }

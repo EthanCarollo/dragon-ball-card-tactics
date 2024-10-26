@@ -12,12 +12,7 @@ public class DeadCharacterState : BoardCharacterState
         
     }
     
-    public override void Attack()
-    {
-        
-    }
-    
-    public override void SpecialAttack()
+    public override void Attack(int damage, GameObject particle)
     {
         
     }
