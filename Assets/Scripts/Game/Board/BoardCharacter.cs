@@ -36,6 +36,10 @@ public class BoardCharacter : BoardObject
     {
         return character.baseAttackSpeed;
     }
+    public int GetCriticalChance()
+    {
+        return character.baseCriticalChance;
+    }
 
     public BoardCharacter(CharacterData character, bool isPlayerCharacter)
     {

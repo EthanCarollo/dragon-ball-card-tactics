@@ -1,4 +1,4 @@
-﻿
+﻿using System;
 using UnityEngine;
 
 public class AttackingCharacterState : BoardCharacterState
@@ -35,8 +35,14 @@ public class AttackingCharacterState : BoardCharacterState
             }
             else
             {
-                animator.SetTrigger("attack");
-                boardCharacter.AddKi(15);
+                if(IsCritical(boardCharacter.GetCriticalChance()) == true)
+                {
+                    animator.SetTrigger("critical_attack");
+                    boardCharacter.AddKi(15);    
+                } else {
+                    animator.SetTrigger("attack");
+                    boardCharacter.AddKi(15);
+                }
             }
             timeSinceLastAttack = 0f;
         }
@@ -51,5 +57,12 @@ public class AttackingCharacterState : BoardCharacterState
         }
         ParticleManager.Instance.InstantiateParticle(characterTarget.gameObject.transform.position, ParticleData.Instance.sparkParticlePrefab);
         characterTarget.HitDamage(boardCharacter.character.baseDamage);
+    }
+
+    static bool IsCritical(int chance)
+    {
+        System.Random random = new System.Random();
+        int randomValue = random.Next(0, 100); 
+        return randomValue < chance; 
     }
 }
