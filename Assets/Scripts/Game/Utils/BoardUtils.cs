@@ -67,7 +67,7 @@ public static class BoardUtils
             {
                 if (boardCharacters[neighborPosition.x, neighborPosition.y] == fromCharacter)
                 {
-                    Debug.LogWarning("Is directly on the neighbor position");
+                    // Debug.LogWarning("Is directly on the neighbor position");
                     return neighborPosition;
                 }
                 if (boardCharacters[neighborPosition.x, neighborPosition.y] == null)
