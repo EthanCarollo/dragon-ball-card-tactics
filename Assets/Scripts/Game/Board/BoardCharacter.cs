@@ -32,7 +32,7 @@ public class BoardCharacter : BoardObject
     {
         return character.baseSpeed;
     }
-    public int GetAttackSpeed()
+    public float GetAttackSpeed()
     {
         return character.baseAttackSpeed;
     }

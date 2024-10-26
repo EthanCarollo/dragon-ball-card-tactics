@@ -21,7 +21,8 @@ MonoBehaviour:
   baseDamage: 25
   baseArmor: 30
   baseSpeed: 3
-  baseAttackSpeed: 0
+  baseAttackSpeed: 0.55
+  baseCriticalChance: 0
   idle: {fileID: 7400000, guid: 986e064e628401840b81fed08b8c976a, type: 2}
   run: {fileID: 7400000, guid: b13b9f9396599384ab9e42833f409dd5, type: 2}
   attack: {fileID: 7400000, guid: 266a7ce8c3ae91548b3791318ea3851e, type: 2}

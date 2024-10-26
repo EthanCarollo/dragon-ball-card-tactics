@@ -1,0 +1,654 @@
+fileFormatVersion: 2
+guid: 9a14e3b8834244eb782b019489f17331
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 22021521889097179
+    second: black-goku_0
+  - first:
+      213: -8590198778215293590
+    second: black-goku_1
+  - first:
+      213: 1591140691136765841
+    second: black-goku_2
+  - first:
+      213: -6137957459257809126
+    second: black-goku_3
+  - first:
+      213: -808836393704553343
+    second: black-goku_4
+  - first:
+      213: -2231337429691621588
+    second: black-goku_5
+  - first:
+      213: -5967792995211446037
+    second: black-goku_6
+  - first:
+      213: 6706494007726779490
+    second: black-goku_7
+  - first:
+      213: -4702700919613018773
+    second: black-goku_8
+  - first:
+      213: -6265311406626370769
+    second: black-goku_9
+  - first:
+      213: 272133884369728683
+    second: black-goku_10
+  - first:
+      213: -1105085172639128626
+    second: black-goku_11
+  - first:
+      213: -6954148007391845124
+    second: black-goku_12
+  - first:
+      213: -7837581485286616581
+    second: black-goku_13
+  - first:
+      213: 4404476141685350812
+    second: black-goku_14
+  - first:
+      213: -2700617654505648548
+    second: black-goku_15
+  - first:
+      213: 1471508838260862914
+    second: black-goku_16
+  - first:
+      213: -8799643425093672969
+    second: black-goku_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: black-goku_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 269
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5fc9d157c3e4000800000000000000
+      internalID: 22021521889097179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 269
+        width: 31
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d9b7a59bb79c880800000000000000
+      internalID: -8590198778215293590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 269
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f50e2470ed41610800000000000000
+      internalID: 1591140691136765841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 269
+        width: 53
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17aa7a063891daa0800000000000000
+      internalID: -6137957459257809126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_4
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 269
+        width: 65
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18405d7d59f66c4f0800000000000000
+      internalID: -808836393704553343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_5
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 269
+        width: 67
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f92390e62b801e0800000000000000
+      internalID: -2231337429691621588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_6
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 269
+        width: 69
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be87b5bb3e32e2da0800000000000000
+      internalID: -5967792995211446037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 199
+        width: 31
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c27da74c0421d50800000000000000
+      internalID: 6706494007726779490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 199
+        width: 31
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d2099fd66acbeb0800000000000000
+      internalID: -4702700919613018773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_9
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 199
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b05d088742d09a0800000000000000
+      internalID: -6265311406626370769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 139
+        width: 35
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba474357350d6c300800000000000000
+      internalID: 272133884369728683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 139
+        width: 45
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec32b46f3e2f9a0f0800000000000000
+      internalID: -1105085172639128626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_12
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 139
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf42bef5b37ed7f90800000000000000
+      internalID: -6954148007391845124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 77
+        width: 31
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf110571a215b3390800000000000000
+      internalID: -7837581485286616581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_14
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 77
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91a6d607b7df1d30800000000000000
+      internalID: 4404476141685350812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 77
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5eca0d3d8a758ad0800000000000000
+      internalID: -2700617654505648548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 9
+        width: 43
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfe264fd79db6410800000000000000
+      internalID: 1471508838260862914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_17
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 10
+        width: 60
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff90396de261e580800000000000000
+      internalID: -8799643425093672969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_18
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 208
+        width: 50
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b968a29ec50ff410dadd689030d88801
+      internalID: 946800513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_19
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 206
+        width: 54
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459460763c251479b884e405c7065edf
+      internalID: 135910636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-goku_20
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 206
+        width: 49
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b17a32f876941a9b199d30892f1b62
+      internalID: -1273556271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dc9e735c80669499e8b59dc6bf411ad4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      black-goku_0: 22021521889097179
+      black-goku_1: -8590198778215293590
+      black-goku_10: 272133884369728683
+      black-goku_11: -1105085172639128626
+      black-goku_12: -6954148007391845124
+      black-goku_13: -7837581485286616581
+      black-goku_14: 4404476141685350812
+      black-goku_15: -2700617654505648548
+      black-goku_16: 1471508838260862914
+      black-goku_17: -8799643425093672969
+      black-goku_18: 946800513
+      black-goku_19: 135910636
+      black-goku_2: 1591140691136765841
+      black-goku_20: -1273556271
+      black-goku_3: -6137957459257809126
+      black-goku_4: -808836393704553343
+      black-goku_5: -2231337429691621588
+      black-goku_6: -5967792995211446037
+      black-goku_7: 6706494007726779490
+      black-goku_8: -4702700919613018773
+      black-goku_9: -6265311406626370769
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

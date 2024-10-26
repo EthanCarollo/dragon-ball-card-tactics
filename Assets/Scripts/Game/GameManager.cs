@@ -28,7 +28,7 @@ public class GameManager
         if (DebugMode)
         {
             boardCharacterArray[0, 5] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/SonGoku"), true);
-            boardCharacterArray[7, 4] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/SonGoku"), false);
+            boardCharacterArray[7, 4] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/BlackGoku"), false);
         }
         var astart = new AStarPathfinding(boardCharacterArray);
     }
