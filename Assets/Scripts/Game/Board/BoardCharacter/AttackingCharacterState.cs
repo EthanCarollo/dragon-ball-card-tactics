@@ -10,7 +10,7 @@ public class AttackingCharacterState : BoardCharacterState
     public AttackingCharacterState(BoardCharacter character, BoardCharacter characterTarget) : base(character)
     {
         this.characterTarget = characterTarget;
-        this.animator = boardCharacter.gameObject.transform.GetChild(0).GetComponent<Animator>();
+        //this.animator = boardCharacter.gameObject.transform.GetChild(0).GetComponent<Animator>();
     }
     
     public override void Update()
@@ -30,22 +30,23 @@ public class AttackingCharacterState : BoardCharacterState
         {
             if (boardCharacter.actualKi >= boardCharacter.character.maxKi)
             {
-                animator.SetTrigger("special_attack");
+                boardCharacter.PlayAnimation(boardCharacter.character.superAttackSprites);
                 boardCharacter.actualKi = 0;
             }
             else
             {
                 if(IsCritical(boardCharacter.GetCriticalChance()) == true)
                 {
-                    animator.SetTrigger("critical_attack");
+                    boardCharacter.PlayAnimation(boardCharacter.character.criticalAttackSprites);
                     boardCharacter.AddKi(15);    
                 } else {
-                    animator.SetTrigger("attack");
+                    boardCharacter.PlayAnimation(boardCharacter.character.attackSprites);
                     boardCharacter.AddKi(15);
                 }
             }
             timeSinceLastAttack = 0f;
         }
+        boardCharacter.PlayAnimationIfNotRunning(boardCharacter.character.idleSprites);
         boardCharacter.SetCharacterSlider();
     }
     

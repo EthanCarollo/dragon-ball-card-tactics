@@ -27,7 +27,7 @@ public class GameManager
         boardCharacterArray = new BoardObject[BoardWidth, BoardHeight];
         if (DebugMode)
         {
-            boardCharacterArray[0, 5] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/SonGoku"), true);
+            boardCharacterArray[0, 5] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/BlackGoku"), true);
             boardCharacterArray[7, 4] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/BlackGoku"), false);
         }
         var astart = new AStarPathfinding(boardCharacterArray);

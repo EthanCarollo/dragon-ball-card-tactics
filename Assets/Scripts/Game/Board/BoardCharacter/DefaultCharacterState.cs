@@ -50,6 +50,7 @@ public class DefaultCharacterState : BoardCharacterState
                         if (characterPosition == emptyPosition.Value)
                         {
                             boardCharacter.nextPosition = new Vector2Int(-1, -1);
+                            boardCharacter.PlayAnimation(boardCharacter.character.idleSprites);
                             boardCharacter.UpdateState(new AttackingCharacterState(boardCharacter, character));
                             return;
                         }
@@ -81,12 +82,11 @@ public class DefaultCharacterState : BoardCharacterState
     {
         Vector2 targetPosition = boardCharacter.nextPosition;
         float step = boardCharacter.character.baseSpeed * Time.deltaTime;
-        boardCharacter.gameObject.transform.GetChild(0).GetComponent<Animator>().SetBool("move", true);
+        boardCharacter.PlayAnimationIfNotRunning(boardCharacter.character.runSprites);
         boardCharacter.gameObject.transform.position = Vector3.MoveTowards(boardCharacter.gameObject.transform.position, targetPosition, step);
         if (Vector3.Distance(boardCharacter.gameObject.transform.position, targetPosition) < 0.001f)
         {
             boardCharacter.gameObject.transform.position = targetPosition;
-            boardCharacter.gameObject.transform.GetChild(0).GetComponent<Animator>().SetBool("move", false);
             boardCharacter.nextPosition = new Vector2Int(-1, -1);
         }
     }
