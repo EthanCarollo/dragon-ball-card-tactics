@@ -14,7 +14,7 @@ public class Particle : ScriptableObject
         Vector2 randomOffset = new Vector2(Random.Range(-0.5f, 0.5f), Random.Range(-0.5f, 0.5f));
         particleObject.transform.position = position + randomOffset + new Vector2(0, 0.5f);
 
-        float randomScale = Random.Range(0.5f, 1.5f);
+        float randomScale = Random.Range(0.3f, 0.8f);
         particleObject.transform.localScale = new Vector3(randomScale, randomScale, 1);
 
         SpriteRenderer spriteRenderer = particleObject.AddComponent<SpriteRenderer>();

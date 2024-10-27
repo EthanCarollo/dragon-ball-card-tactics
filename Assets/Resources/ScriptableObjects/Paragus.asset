@@ -97,5 +97,5 @@ MonoBehaviour:
           time: 0.6
         attackFrameIndex: 3
         projectile: {fileID: 83447786, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
-        particleAttack: {fileID: 11400000, guid: a05d66441daab4e42b62f1079ed76f45, type: 2}
+        particleAttack: {fileID: 11400000, guid: a174c22b4147b4a269d29116e2a370cd, type: 2}
         startMargin: {x: 0.5, y: 0.65}
