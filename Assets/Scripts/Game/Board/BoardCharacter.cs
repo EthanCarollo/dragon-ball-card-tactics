@@ -94,9 +94,13 @@ public class BoardCharacter : BoardObject
         state.Update();
     }
 
-    public void Attack()
+    public void Attack(GameObject particle = null)
     {
-        state.Attack(GetAttackDamage(), ParticleData.Instance.sparkParticlePrefab);
+        if(particle == null){
+            Debug.LogWarning("Particle isn't set, taking the basic spark particle GameObject.");
+            particle = ParticleData.Instance.sparkParticlePrefab;
+        }
+        state.Attack(GetAttackDamage(), particle);
     }
 
     public void CriticalAttack()
