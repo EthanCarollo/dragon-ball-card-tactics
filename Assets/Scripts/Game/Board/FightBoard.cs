@@ -12,11 +12,10 @@ public class FightBoard : Board
 
     void Start()
     {
-        // state = new DefaultBoardState(this);
-        state = new FightBoardState(this);
+        state = new DefaultBoardState(this);
+        // state = new FightBoardState(this);
         BoardArray = new GameObject[GameManager.BoardWidth, GameManager.BoardHeight];
         CreateBoard();
-        InitializeCharacter();
     }
 
     private void Update()
@@ -34,8 +33,13 @@ public class FightBoard : Board
         state.LaunchFight();
     }
     
-    private void CreateBoard()
+    public override void CreateBoard()
     {
+        foreach (Transform child in transform)
+        {
+            Destroy(child.gameObject);
+        }
+
         for (int x = 0; x < GameManager.BoardWidth; x++)
         {
             for (int y = 0; y < GameManager.BoardHeight; y++)
@@ -44,10 +48,14 @@ public class FightBoard : Board
                 float posY = y * _tileHeight;
                 Vector3 position = new Vector3(posX, posY, 0);
                 GameObject tile = Instantiate(tilePrefab, position, Quaternion.identity, this.transform);
+                var tileScript = tile.AddComponent<TileBehaviour>();
+                tileScript.assignedBoard = this;
+                tileScript.position = new Vector2Int(x, y);
                 tile.name = $"Tile {x},{y}";
                 BoardArray[x, y] = tile;
             }
         }
+        InitializeCharacter();
     }
 
     private void InitializeCharacter()
@@ -90,6 +98,40 @@ public class FightBoard : Board
                     }
                 }
             }
+        }
+    }
+
+    public override bool AddCharacterFromBoard(BoardCharacter character, Vector2Int position)
+    {
+        GameManager.Instance.boardCharacterArray[position.x, position.y] = character;
+        return true;
+    }
+
+    public override void RemoveCharacterFromBoard(BoardCharacter character)
+    {
+        bool characterFound = false;
+
+        for (int i = 0; i < GameManager.Instance.boardCharacterArray.GetLength(0); i++)
+        {
+            for (int j = 0; j < GameManager.Instance.boardCharacterArray.GetLength(1); j++)
+            {
+                if (GameManager.Instance.boardCharacterArray[i, j] == character)
+                {
+                    GameManager.Instance.boardCharacterArray[i, j] = null; 
+                    characterFound = true;
+                    break;
+                }
+            }
+    
+            if (characterFound)
+            {
+                break; 
+            }
+        }
+
+        if (!characterFound)
+        {
+            Debug.LogWarning("Character not found on the board.");
         }
     }
     

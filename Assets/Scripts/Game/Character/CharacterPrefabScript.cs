@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler
+public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragHandler, IEndDragHandler
 {
     public BoardCharacter boardCharacter;
     public SpriteRenderer spriteRenderer;
@@ -19,7 +19,6 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler
     {
         boardCharacter.CriticalAttack();
     }
-    
 
     public void HitSpecialDamage()
     {
@@ -30,4 +29,59 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler
     {
         BoardGameUiManager.Instance.characterBoardUi.ShowCharacterBoard(boardCharacter);
     }
+
+    public void OnDrag(PointerEventData eventData)
+    {
+        if (CharacterDragInfo.draggedObject == null)
+        {
+            Debug.Log("Drag a character");
+            CharacterDragInfo.draggedObject = new GameObject("DraggedCharacter");
+            SpriteRenderer spRenderer = CharacterDragInfo.draggedObject.AddComponent<SpriteRenderer>();
+            spRenderer.sprite = boardCharacter.character.characterSprite;
+            spRenderer.sortingOrder = 10;
+        }
+        else
+        {
+            Vector3 mousePosition = Input.mousePosition;
+            mousePosition.z = 10f; 
+            CharacterDragInfo.draggedObject.transform.position = Camera.main.ScreenToWorldPoint(mousePosition);
+        }
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        if (CharacterDragInfo.draggedObject != null)
+        {
+            MonoBehaviour.DestroyImmediate(CharacterDragInfo.draggedObject);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
+            
+            if (hit.collider != null)
+            {
+                TileBehaviour tileScript = hit.collider.GetComponent<TileBehaviour>();
+
+                if (tileScript != null)
+                {
+                    Debug.Log("TilePrefabScript trouvé sur l'objet: " + hit.collider.gameObject.name);
+                    boardCharacter.board.RemoveCharacterFromBoard(boardCharacter);
+                    tileScript.assignedBoard.AddCharacterFromBoard(boardCharacter, tileScript.position);
+                    boardCharacter.board.CreateBoard();
+                    tileScript.assignedBoard.CreateBoard();
+                }
+                else
+                {
+                    Debug.Log("Pas de TilePrefabScript sur l'objet: " + hit.collider.gameObject.name);
+                }
+            }
+            else
+            {
+                Debug.Log("Aucun objet sous la souris");
+            }
+        }
+    }
+}
+
+public static class CharacterDragInfo
+{
+    public static GameObject draggedObject;
 }

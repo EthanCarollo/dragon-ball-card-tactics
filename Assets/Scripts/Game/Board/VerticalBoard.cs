@@ -13,22 +13,28 @@ public class VerticalBoard : Board {
     {
         BoardArray = new GameObject[BoardSize];
         CreateBoard();
-        InitializeCharacter();
     }
     
-    private void CreateBoard()
+    public override void CreateBoard()
     {
+        foreach (Transform child in transform)
+        {
+            Destroy(child.gameObject);
+        }
+        
         for (int i = 0; i < BoardSize; i++)
         {
             float posY = i * _tileHeight;
             Vector3 position = new Vector3(this.gameObject.transform.position.x, this.gameObject.transform.position.y + posY, 0);
             GameObject tile = Instantiate(tilePrefab, position, Quaternion.identity, this.transform);
+            var tileScript = tile.AddComponent<TileBehaviour>();
+            tileScript.assignedBoard = this;
+            tileScript.position = new Vector2Int(i, 0);
             tile.name = $"Tile vertical {i}";
             BoardArray[i] = tile;
-            
         }
+        InitializeCharacter();
     }
-
 
     private void InitializeCharacter()
     {
@@ -68,6 +74,31 @@ public class VerticalBoard : Board {
                 }
             }
             
+        }
+    }
+
+    public override bool AddCharacterFromBoard(BoardCharacter character, Vector2Int position)
+    {
+        GameManager.Instance.boardUsableCharacterArray[position.x] = character;
+        return true;
+    }
+
+    public override void RemoveCharacterFromBoard(BoardCharacter character)
+    {
+        bool characterFound = false;
+
+        for (int i = 0; i < GameManager.Instance.boardUsableCharacterArray.Length; i++)
+        {
+            if (GameManager.Instance.boardUsableCharacterArray[i] == character)
+            {
+                GameManager.Instance.boardUsableCharacterArray[i] = null;
+                characterFound = true;
+                break;
+            }
+        }
+        if (!characterFound)
+        {
+            Debug.LogWarning("Character not found on the board.");
         }
     }
 
