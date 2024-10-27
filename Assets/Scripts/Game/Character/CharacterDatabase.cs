@@ -1,0 +1,26 @@
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "NewCharacterDatabase", menuName = "Character/CharacterDatabase")]
+public class CharacterDatabase : ScriptableObject
+{
+    private static CharacterDatabase _instance;
+    
+    // TODO : update this into a dict it should be better IMO
+    public CharacterData[] characterDatas;
+
+    public static CharacterDatabase Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = Resources.Load<CharacterDatabase>("CharacterDatabase");
+                if (_instance == null)
+                {
+                    Debug.LogError("CharacterDatabase instance not found in Resources folder!");
+                }
+            }
+            return _instance;
+        }
+    }
+}
