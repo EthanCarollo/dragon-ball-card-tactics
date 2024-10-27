@@ -28,11 +28,11 @@ MonoBehaviour:
   runAnimation:
     rid: 7759870985394454603
   attackAnimation:
-    rid: 7759870985394454604
+    rid: 7759870985394454607
   criticalAttackAnimation:
-    rid: 7759870985394454605
+    rid: 7759870992407330890
   specialAttackAnimation:
-    rid: 7759870985394454606
+    rid: 7759870992407330892
   references:
     version: 2
     RefIds:
@@ -58,8 +58,8 @@ MonoBehaviour:
           time: 0.2
         - sprite: {fileID: -1273556271, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
           time: 0.2
-    - rid: 7759870985394454604
-      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+    - rid: 7759870985394454607
+      type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
       data:
         frameSprites:
         - sprite: {fileID: 272133884369728683, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
@@ -68,8 +68,9 @@ MonoBehaviour:
           time: 0.1
         - sprite: {fileID: -6954148007391845124, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
           time: 0.1
-    - rid: 7759870985394454605
-      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+        attackFrameIndex: 2
+    - rid: 7759870992407330890
+      type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
       data:
         frameSprites:
         - sprite: {fileID: -7837581485286616581, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
@@ -78,11 +79,13 @@ MonoBehaviour:
           time: 0.2
         - sprite: {fileID: -2700617654505648548, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
           time: 0.1
-    - rid: 7759870985394454606
-      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+        attackFrameIndex: 2
+    - rid: 7759870992407330892
+      type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
       data:
         frameSprites:
         - sprite: {fileID: 1471508838260862914, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
           time: 0.2
         - sprite: {fileID: -8799643425093672969, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
           time: 0.3
+        attackFrameIndex: 1

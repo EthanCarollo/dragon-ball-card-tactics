@@ -1,8 +1,8 @@
 ﻿public abstract class BoardState
 {
-    protected Board board;
+    protected FightBoard board;
     
-    public BoardState(Board board)
+    public BoardState(FightBoard board)
     {
         this.board = board;  
     }

@@ -1,7 +1,7 @@
 ﻿
 public class FightBoardState : BoardState
 {
-    public FightBoardState(Board board) : base(board) { }
+    public FightBoardState(FightBoard board) : base(board) { }
 
     public override void Update()
     {

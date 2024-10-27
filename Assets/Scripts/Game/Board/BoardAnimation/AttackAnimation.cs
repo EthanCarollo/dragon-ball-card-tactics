@@ -2,25 +2,24 @@ using UnityEngine;
 using System.Collections;
 using System;
 
-[Serializable]
-public class BoardAnimation {
-    [SerializeField]
-    public FrameSprite[] frameSprites;
 
-    public virtual IEnumerator PlayAnimationCoroutine(BoardCharacter character)
+[Serializable]
+public class AttackAnimation : BoardAnimation {
+    public int attackFrameIndex;
+
+    public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         character.isAnimating = true;
+        var index = 0;
         foreach (FrameSprite frameSprite in frameSprites)
         {
             character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = frameSprite.sprite;
             yield return new WaitForSeconds(frameSprite.time); 
+            index++;
+            if(index == attackFrameIndex){
+                character.Attack();
+            }
         }
         character.isAnimating = false;
     }
-}
-
-[Serializable]
-public class FrameSprite {
-    public Sprite sprite;
-    public float time;
 }
