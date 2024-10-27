@@ -36,8 +36,12 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
         {
             Debug.Log("Drag a character");
             CharacterDragInfo.draggedObject = new GameObject("DraggedCharacter");
+            Vector3 mousePosition = Input.mousePosition;
+            mousePosition.z = 10f; 
+            CharacterDragInfo.draggedObject.transform.position = Camera.main.ScreenToWorldPoint(mousePosition);
             SpriteRenderer spRenderer = CharacterDragInfo.draggedObject.AddComponent<SpriteRenderer>();
             spRenderer.sprite = boardCharacter.character.characterSprite;
+            spRenderer.color = new Color(1f, 1f, 1f, 0.5f);
             spRenderer.sortingOrder = 10;
         }
         else
@@ -62,20 +66,11 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
 
                 if (tileScript != null)
                 {
-                    Debug.Log("TilePrefabScript trouvé sur l'objet: " + hit.collider.gameObject.name);
                     boardCharacter.board.RemoveCharacterFromBoard(boardCharacter);
                     tileScript.assignedBoard.AddCharacterFromBoard(boardCharacter, tileScript.position);
                     boardCharacter.board.CreateBoard();
                     tileScript.assignedBoard.CreateBoard();
                 }
-                else
-                {
-                    Debug.Log("Pas de TilePrefabScript sur l'objet: " + hit.collider.gameObject.name);
-                }
-            }
-            else
-            {
-                Debug.Log("Aucun objet sous la souris");
             }
         }
     }
