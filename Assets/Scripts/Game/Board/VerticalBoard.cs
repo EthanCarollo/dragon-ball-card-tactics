@@ -6,7 +6,6 @@ public class VerticalBoard : Board {
 
     public GameObject tilePrefab;  
     public GameObject[] BoardArray;
-    float _tileWidth = 1.0f;
     float _tileHeight = 1.0f;
     int BoardSize = 9;
 

@@ -43,7 +43,7 @@ public class DefaultCharacterState : BoardCharacterState
                 if (boardObject == null) continue;
                 if (boardObject is BoardCharacter character && character.isPlayerCharacter != boardCharacter.isPlayerCharacter)
                 {
-                    Vector2Int? emptyPosition = BoardUtils.GetFirstEmptyAround(boardCharacters, this.boardCharacter,  character);
+                    Vector2Int? emptyPosition = BoardUtils.GetFirstEmptyAround(boardCharacters, this.boardCharacter,  character, character.GetRange());
                     if (emptyPosition.HasValue)
                     {
                         // If he is already in front of a character, just put it in AttackState so !

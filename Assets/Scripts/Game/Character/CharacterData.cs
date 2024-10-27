@@ -13,6 +13,7 @@ public class CharacterData : ScriptableObject
     public int maxHealth;
     public int maxKi = 50;
     
+    public int baseRange = 1;
     public int baseDamage;
     public int baseArmor;
     public int baseSpeed;

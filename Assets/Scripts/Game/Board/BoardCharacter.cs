@@ -42,6 +42,10 @@ public class BoardCharacter : BoardObject
     {
         return character.baseCriticalChance;
     }
+    public int GetRange()
+    {
+        return character.baseRange;
+    }
 
     public BoardCharacter(CharacterData character, bool isPlayerCharacter)
     {

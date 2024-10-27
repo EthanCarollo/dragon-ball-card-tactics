@@ -35,7 +35,7 @@ public static class BoardUtils
         return true; 
     }
     
-    public static Vector2Int? GetFirstEmptyAround(BoardObject[,] boardCharacters, BoardObject fromCharacter, BoardObject toCharacter)
+    public static Vector2Int? GetFirstEmptyAround(BoardObject[,] boardCharacters, BoardObject fromCharacter, BoardObject toCharacter, int range)
     {
         Vector2Int fromPosition = GetCharacterPosition(boardCharacters, fromCharacter);
         Vector2Int toPosition = GetCharacterPosition(boardCharacters, toCharacter);
@@ -47,36 +47,36 @@ public static class BoardUtils
             return null;
         }
 
-        Vector2Int[] directions = new Vector2Int[]
-        {
-            new Vector2Int(-1, 0), 
-            new Vector2Int(1, 0), 
-            new Vector2Int(0, -1), 
-            new Vector2Int(0, 1)  
-        };
-
         Vector2Int? closestEmptyPosition = null;
         float closestDistance = float.MaxValue;
 
-        foreach (var direction in directions)
+        for (int x = -range; x <= range; x++)
         {
-            Vector2Int neighborPosition = toPosition + direction;
-
-            if (neighborPosition.x >= 0 && neighborPosition.x < boardCharacters.GetLength(0) &&
-                neighborPosition.y >= 0 && neighborPosition.y < boardCharacters.GetLength(1))
+            for (int y = -range; y <= range; y++)
             {
-                if (boardCharacters[neighborPosition.x, neighborPosition.y] == fromCharacter)
+                // Skip positions that are outside the diamond shape
+                if (Mathf.Abs(x) + Mathf.Abs(y) > range) continue;
+                if (x == 0 && y == 0) continue; // Skip the toPosition itself
+
+                Vector2Int neighborPosition = toPosition + new Vector2Int(x, y);
+
+                if (neighborPosition.x >= 0 && neighborPosition.x < boardCharacters.GetLength(0) &&
+                    neighborPosition.y >= 0 && neighborPosition.y < boardCharacters.GetLength(1))
                 {
-                    // Debug.LogWarning("Is directly on the neighbor position");
-                    return neighborPosition;
-                }
-                if (boardCharacters[neighborPosition.x, neighborPosition.y] == null)
-                {
-                    var tempPath = aStar.FindPath(fromPosition, neighborPosition);
-                    if (tempPath != null && tempPath.Count < closestDistance)
+                    if (boardCharacters[neighborPosition.x, neighborPosition.y] == fromCharacter)
                     {
-                        closestDistance = tempPath.Count;
-                        closestEmptyPosition = neighborPosition;
+                        // Direct neighbor position found
+                        return neighborPosition;
+                    }
+
+                    if (boardCharacters[neighborPosition.x, neighborPosition.y] == null)
+                    {
+                        var tempPath = aStar.FindPath(fromPosition, neighborPosition);
+                        if (tempPath != null && tempPath.Count < closestDistance)
+                        {
+                            closestDistance = tempPath.Count;
+                            closestEmptyPosition = neighborPosition;
+                        }
                     }
                 }
             }
