@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [Serializable]
@@ -21,7 +22,6 @@ public class BoardCharacter : BoardObject
     {
         return actualHealth <= 0;
     }
-    
     public int GetAttackDamage()
     {
         return character.baseDamage;
@@ -45,6 +45,13 @@ public class BoardCharacter : BoardObject
     public int GetRange()
     {
         return character.baseRange;
+    }
+    public BoardCharacter GetCharacterTarget()
+    {
+        if(state is AttackingCharacterState fightState){
+            return fightState.characterTarget;
+        }
+        return null;
     }
 
     public BoardCharacter(CharacterData character, bool isPlayerCharacter)

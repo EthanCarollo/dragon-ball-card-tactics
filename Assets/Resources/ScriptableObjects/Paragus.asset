@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Paragus
+  m_EditorClassIdentifier: 
+  starNumber: 1
+  characterName: Paragus
+  characterSprite: {fileID: 1722288111, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 350
+  maxKi: 300
+  baseRange: 4
+  baseDamage: 35
+  baseArmor: 20
+  baseSpeed: 2
+  baseAttackSpeed: 1
+  baseCriticalChance: 20
+  idleAnimation:
+    rid: 7759871009407631360
+  runAnimation:
+    rid: 7759871009407631361
+  attackAnimation:
+    rid: 7759871009407631439
+  criticalAttackAnimation:
+    rid: 7759871009407631440
+  specialAttackAnimation:
+    rid: 7759871009407631364
+  references:
+    version: 2
+    RefIds:
+    - rid: 7759871009407631360
+      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: 1722288111, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+          time: 1
+    - rid: 7759871009407631361
+      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: 865948686, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+          time: 1
+    - rid: 7759871009407631364
+      type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: 1676634993, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+          time: 0.2
+        - sprite: {fileID: 327955742, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+          time: 0.2
+        - sprite: {fileID: 1036511369, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+          time: 0.2
+        - sprite: {fileID: 2081176719, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+          time: 0.2
+        - sprite: {fileID: -1325386089, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+          time: 0.2
+        attackFrameIndex: 0
+    - rid: 7759871009407631439
+      type: {class: DistanceAttackAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: 2129762814, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+          time: 0.2
+        - sprite: {fileID: 528243501, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+          time: 0.2
+        - sprite: {fileID: 156687560, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+          time: 0.2
+        - sprite: {fileID: -521566568, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+          time: 0.4
+        attackFrameIndex: 2
+        projectile: {fileID: 2074704928, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+        startMargin: {x: 0.5, y: 0.65}
+    - rid: 7759871009407631440
+      type: {class: DistanceAttackAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: 1676634993, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+          time: 0.2
+        - sprite: {fileID: 327955742, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+          time: 0.1
+        - sprite: {fileID: 1036511369, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+          time: 0.1
+        - sprite: {fileID: 2081176719, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+          time: 0.2
+        - sprite: {fileID: -1325386089, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+          time: 0.6
+        attackFrameIndex: 3
+        projectile: {fileID: 83447786, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+        startMargin: {x: 0.5, y: 0.65}

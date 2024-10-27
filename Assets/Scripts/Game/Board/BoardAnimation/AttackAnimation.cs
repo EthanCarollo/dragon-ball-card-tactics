@@ -15,10 +15,10 @@ public class AttackAnimation : BoardAnimation {
         {
             character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = frameSprite.sprite;
             yield return new WaitForSeconds(frameSprite.time); 
-            index++;
             if(index == attackFrameIndex){
                 character.Attack();
             }
+            index++;
         }
         character.isAnimating = false;
     }

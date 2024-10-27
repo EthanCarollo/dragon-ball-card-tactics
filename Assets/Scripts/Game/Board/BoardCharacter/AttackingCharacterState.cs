@@ -3,14 +3,12 @@ using UnityEngine;
 
 public class AttackingCharacterState : BoardCharacterState
 {
-    BoardCharacter characterTarget;
+    public BoardCharacter characterTarget;
     private float timeSinceLastAttack = 0f;
-    private Animator animator;
     
     public AttackingCharacterState(BoardCharacter character, BoardCharacter characterTarget) : base(character)
     {
         this.characterTarget = characterTarget;
-        //this.animator = boardCharacter.gameObject.transform.GetChild(0).GetComponent<Animator>();
     }
     
     public override void Update()
