@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System;
+using UnityEditor.UIElements;
 
 [Serializable]
 public class BoardAnimation {
@@ -23,4 +24,11 @@ public class BoardAnimation {
 public class FrameSprite {
     public Sprite sprite;
     public float time;
+}
+
+public enum AttackType
+{
+    Normal,
+    Critical,
+    Special,
 }

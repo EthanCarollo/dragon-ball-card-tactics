@@ -8,6 +8,7 @@ public class DistanceAttackAnimation : BoardAnimation {
     public int attackFrameIndex;
     public Sprite projectile;
     public Particle particleAttack;
+    public AttackType attackType;
     public Vector2 startMargin;
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
@@ -36,7 +37,18 @@ public class DistanceAttackAnimation : BoardAnimation {
         {
             LeanTween.move(newGameObject, character.GetCharacterTarget().gameObject.transform.position + new Vector3(0, 0.5f), 0.7f)
             .setOnComplete(() => {
-                character.Attack(particleAttack);
+                switch (attackType)
+                {
+                    case AttackType.Normal :
+                        character.Attack(particleAttack);
+                        break;
+                    case AttackType.Critical :
+                        character.CriticalAttack(particleAttack);
+                        break;
+                    case AttackType.Special :
+                        character.SpecialAttack(particleAttack);
+                        break;
+                }
                 MonoBehaviour.Destroy(newGameObject);
             });
         }

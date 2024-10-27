@@ -99,14 +99,14 @@ public class BoardCharacter : BoardObject
         state.Attack(GetAttackDamage(), particle);
     }
 
-    public void CriticalAttack()
+    public void CriticalAttack(Particle particle = null)
     {
-        state.Attack(GetAttackDamage() * 2);
+        state.Attack(GetAttackDamage() * 2, particle);
     }
 
-    public void SpecialAttack()
+    public void SpecialAttack(Particle particle = null)
     {
-        state.Attack(GetAttackDamage());
+        state.Attack(GetAttackDamage(), particle);
     }
 
     public void HitDamage(int damageAmount)

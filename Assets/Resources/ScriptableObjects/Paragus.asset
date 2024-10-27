@@ -64,6 +64,7 @@ MonoBehaviour:
         - sprite: {fileID: -1325386089, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
           time: 0.2
         attackFrameIndex: 0
+        attackType: 0
         particleAttack: {fileID: 0}
     - rid: 7759871009407631439
       type: {class: DistanceAttackAnimation, ns: , asm: Assembly-CSharp}
@@ -80,6 +81,7 @@ MonoBehaviour:
         attackFrameIndex: 2
         projectile: {fileID: 2074704928, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
         particleAttack: {fileID: 11400000, guid: a05d66441daab4e42b62f1079ed76f45, type: 2}
+        attackType: 0
         startMargin: {x: 0.5, y: 0.65}
     - rid: 7759871009407631440
       type: {class: DistanceAttackAnimation, ns: , asm: Assembly-CSharp}
@@ -98,4 +100,5 @@ MonoBehaviour:
         attackFrameIndex: 3
         projectile: {fileID: 83447786, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
         particleAttack: {fileID: 11400000, guid: a174c22b4147b4a269d29116e2a370cd, type: 2}
+        attackType: 1
         startMargin: {x: 0.5, y: 0.65}
