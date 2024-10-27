@@ -6,6 +6,7 @@ using System;
 [Serializable]
 public class AttackAnimation : BoardAnimation {
     public int attackFrameIndex;
+    public Particle particleAttack;
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
@@ -16,7 +17,7 @@ public class AttackAnimation : BoardAnimation {
             character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = frameSprite.sprite;
             yield return new WaitForSeconds(frameSprite.time); 
             if(index == attackFrameIndex){
-                character.Attack();
+                character.Attack(particleAttack);
             }
             index++;
         }

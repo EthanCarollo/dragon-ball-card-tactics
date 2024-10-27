@@ -10,5 +10,5 @@ public abstract class BoardCharacterState
     }
     
     public abstract void Update();
-    public abstract void Attack(int damage, GameObject particle);
+    public abstract void Attack(int damage, Particle particle = null);
 }

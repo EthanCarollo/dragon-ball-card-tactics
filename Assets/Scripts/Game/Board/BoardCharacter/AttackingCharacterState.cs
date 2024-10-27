@@ -48,13 +48,15 @@ public class AttackingCharacterState : BoardCharacterState
         boardCharacter.SetCharacterSlider();
     }
     
-    public override void Attack(int damage, GameObject particle)
+    public override void Attack(int damage, Particle particle = null)
     {
         if (boardCharacter.IsDead())
         {
             return;
         }
-        ParticleManager.Instance.InstantiateParticle(characterTarget.gameObject.transform.position, ParticleData.Instance.sparkParticlePrefab);
+        if (particle != null) {
+            particle.StartParticle(characterTarget.gameObject.transform.position);
+        }
         characterTarget.HitDamage(boardCharacter.character.baseDamage);
     }
 

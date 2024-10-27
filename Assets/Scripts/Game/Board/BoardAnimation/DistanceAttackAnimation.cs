@@ -7,6 +7,7 @@ using System;
 public class DistanceAttackAnimation : BoardAnimation {
     public int attackFrameIndex;
     public Sprite projectile;
+    public Particle particleAttack;
     public Vector2 startMargin;
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
@@ -26,7 +27,7 @@ public class DistanceAttackAnimation : BoardAnimation {
     }
 
     private void LaunchAttack(BoardCharacter character){
-        GameObject newGameObject = new GameObject("MySpriteObject");
+        GameObject newGameObject = new GameObject("Projectile");
         SpriteRenderer spriteRenderer = newGameObject.AddComponent<SpriteRenderer>();
         spriteRenderer.sprite = projectile;
         spriteRenderer.sortingOrder = 3;
@@ -35,7 +36,7 @@ public class DistanceAttackAnimation : BoardAnimation {
         {
             LeanTween.move(newGameObject, character.GetCharacterTarget().gameObject.transform.position + new Vector3(0, 0.5f), 0.7f)
             .setOnComplete(() => {
-                character.Attack();
+                character.Attack(particleAttack);
                 MonoBehaviour.Destroy(newGameObject);
             });
         }
