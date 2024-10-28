@@ -12,6 +12,7 @@ public class CampaignButton : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     public void OnPointerClick(PointerEventData eventData)
     {
         GameManager.Instance.campaignManager.SetCampaign(campaign);
+        SceneTransitor.Instance.LoadScene(1);
     }
 
     public void OnPointerEnter(PointerEventData pointerEventData)

@@ -3,8 +3,9 @@ using UnityEngine;
 
 public class SceneTransitor : MonoBehaviour
 {
-    [NonSerialized]
-    public SceneTransitor Instance;
+    public static SceneTransitor Instance;
+    
+    public GameObject loadingScreen;
 
     public void Awake()
     {
@@ -14,5 +15,10 @@ public class SceneTransitor : MonoBehaviour
         }
         Instance = this;
         DontDestroyOnLoad(this);
+    }
+    
+    public void LoadScene(int sceneToLoad){
+        var loadingScreenPrefab = GameObject.Instantiate(loadingScreen);
+        loadingScreenPrefab.GetComponent<LoadingScreenManager>().StartToLoadScene(sceneToLoad);
     }
 }
