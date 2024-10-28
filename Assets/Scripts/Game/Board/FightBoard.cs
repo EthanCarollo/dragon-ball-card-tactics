@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 
 public class FightBoard : Board
 {
+    public static FightBoard Instance;
     public GameObject tilePrefab;  
     public GameObject[,] BoardArray;
     public BoardState state;
@@ -12,6 +13,7 @@ public class FightBoard : Board
 
     void Start()
     {
+        Instance = this;
         //state = new DefaultBoardState(this);
         state = new FightBoardState(this);
         BoardArray = new GameObject[GameManager.BoardWidth, GameManager.BoardHeight];

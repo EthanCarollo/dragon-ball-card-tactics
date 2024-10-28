@@ -87,14 +87,14 @@ public static class BoardUtils
 
     public static bool AddCharacter(BoardObject[] board, BoardCharacter character)
     {
-            for (int i = 0; i < board.Length; i++)
+        for (int i = 0; i < board.Length; i++)
+        {
+            if (board[i] == null)
             {
-                    if (board[i] == null)
-                    {
-                            board[i] = character;
-                            return true;
-                    }
+                board[i] = character;
+                return true;
             }
-            return false;
+        }
+        return false;
     }
 }

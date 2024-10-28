@@ -1,7 +1,9 @@
 using System;
 using UnityEngine;
 
-public class VerticalBoard : Board {
+public class VerticalBoard : Board 
+{
+    public static VerticalBoard Instance;
     public GameObject tilePrefab;  
     public GameObject[] BoardArray;
     float _tileHeight = 1.0f;
@@ -9,6 +11,7 @@ public class VerticalBoard : Board {
 
     void Start()
     {
+        Instance = this;
         BoardArray = new GameObject[BoardSize];
         CreateBoard();
     }

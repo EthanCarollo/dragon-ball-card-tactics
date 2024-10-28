@@ -17,7 +17,10 @@ public class CharacterCardBehaviour : MonoBehaviour
     {
         if(hasBeenUsed == false)
         {
+            // TODO : update this logics cause it is actually stupid
             BoardUtils.AddCharacter(GameManager.Instance.boardUsableCharacterArray, new BoardCharacter(character, true));
+            VerticalBoard.Instance.CreateBoard();
+            hasBeenUsed = true;
         }
     }
 }
