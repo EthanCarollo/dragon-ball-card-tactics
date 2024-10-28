@@ -22,16 +22,22 @@ public class GameManager
     
     public BoardObject[] boardUsableCharacterArray;
     public BoardObject[,] boardCharacterArray;
+    public CampaignManager campaignManager;
     public int CurrentMana = 1;
     public int MaxMana = 1;
 
     private GameManager()
     {
+        campaignManager = new CampaignManager();
+        
         boardCharacterArray = new BoardObject[BoardWidth, BoardHeight];
         // TODO : add a global config value for the board object outside of the fight board "the reserve"
         // TODO : cause actually it's the value in vertical board lol
         boardUsableCharacterArray = new BoardObject[8]; 
-        if (DebugMode)
+        
+        // TODO : temporary
+        // if (DebugMode)
+        if(false)
         {
             boardCharacterArray[1, 5] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/BlackGoku"), true);
             boardCharacterArray[0, 2] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Paragus"), true);
