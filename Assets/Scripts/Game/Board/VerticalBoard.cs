@@ -1,9 +1,7 @@
 using System;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class VerticalBoard : Board {
-
     public GameObject tilePrefab;  
     public GameObject[] BoardArray;
     float _tileHeight = 1.0f;
