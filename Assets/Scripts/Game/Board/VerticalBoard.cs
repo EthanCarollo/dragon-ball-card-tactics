@@ -7,7 +7,7 @@ public class VerticalBoard : Board
     public GameObject tilePrefab;  
     public GameObject[] BoardArray;
     float _tileHeight = 1.0f;
-    int BoardSize = 9;
+    int BoardSize = 8;
 
     void Start()
     {
@@ -57,7 +57,7 @@ public class VerticalBoard : Board
                     charPrefabScript.boardCharacter = character;
                     charPrefabScript.spriteSocle.color = 
                         new Color(character.isPlayerCharacter? 0f: 1f, 0f, character.isPlayerCharacter? 1f: 0f, 0.2f);
-                    charPrefabScript.spriteRenderer.sortingOrder = 1;
+                    charPrefabScript.spriteRenderer.sortingOrder = 4;
                     charPrefabScript.spriteRenderer.flipX = !character.isPlayerCharacter;
                     charPrefabScript.spriteRenderer.sprite = character.character.characterSprite;
                     character.SetCharacterSlider();

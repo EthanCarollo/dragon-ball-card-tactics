@@ -4,6 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewCharacterData", menuName = "Character/CharacterData")]
 public class CharacterData : ScriptableObject
 {
+    // The starNumber is also the cost of the "card"
     public int starNumber = 1;
     public string characterName;
 

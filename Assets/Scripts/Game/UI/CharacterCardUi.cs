@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class CharacterCardUi : MonoBehaviour
@@ -5,6 +6,7 @@ public class CharacterCardUi : MonoBehaviour
     public CharacterData[] characterData;
     public GameObject cardContainer;
     public GameObject cardPrefab;
+    public TextMeshProUGUI manaText;
     
     public void Start()
     {
@@ -13,6 +15,7 @@ public class CharacterCardUi : MonoBehaviour
 
     public void SetupCards()
     {
+        manaText.text = GameManager.Instance.CurrentMana.ToString() + "/" + GameManager.Instance.MaxMana.ToString() + "C";
         foreach (Transform child in cardContainer.transform)
         {
             Destroy(child.gameObject);

@@ -26,6 +26,12 @@ public class CharacterCardBehaviour : MonoBehaviour
             BoardUtils.AddCharacter(GameManager.Instance.boardUsableCharacterArray, new BoardCharacter(character, true));
             VerticalBoard.Instance.CreateBoard();
             hasBeenUsed = true;
+            DisableCard();
         }
+    }
+
+    public void DisableCard()
+    {
+        cardImage.color = new Color(1, 1, 1, 0.5f);
     }
 }

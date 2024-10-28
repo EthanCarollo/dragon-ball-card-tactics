@@ -18,7 +18,7 @@ public class Particle : ScriptableObject
         particleObject.transform.localScale = new Vector3(randomScale, randomScale, 1);
 
         SpriteRenderer spriteRenderer = particleObject.AddComponent<SpriteRenderer>();
-        spriteRenderer.sortingOrder = 3;
+        spriteRenderer.sortingOrder = 6;
 
         float randomSpeed = Random.Range(0.05f, 0.15f);
         ParticleManager.Instance.StartCoroutine(AnimateParticle(particleObject, spriteRenderer, randomSpeed));
