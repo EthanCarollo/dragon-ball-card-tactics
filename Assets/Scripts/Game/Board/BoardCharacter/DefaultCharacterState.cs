@@ -41,7 +41,7 @@ public class DefaultCharacterState : BoardCharacterState
             {
                 var boardObject = boardCharacters[x, y];
                 if (boardObject == null) continue;
-                if (boardObject is BoardCharacter character && character.isPlayerCharacter != boardCharacter.isPlayerCharacter)
+                if (boardObject is BoardCharacter character && character.isPlayerCharacter != boardCharacter.isPlayerCharacter && character.IsDead() == false)
                 {
                     Vector2Int? emptyPosition = BoardUtils.GetFirstEmptyAround(boardCharacters, boardCharacter,  character, boardCharacter.GetRange());
                     if (emptyPosition.HasValue)

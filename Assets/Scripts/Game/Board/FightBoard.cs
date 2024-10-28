@@ -75,6 +75,7 @@ public class FightBoard : Board
                 try {
                     if (boardObject is BoardCharacter character)
                     {
+                        if (character.IsDead()) continue;
                         GameObject characterGameObject = Instantiate(character.character.characterPrefab, position, Quaternion.identity, transform);
                         character.SetGameObject(characterGameObject);
                         character.SetBoard(this);

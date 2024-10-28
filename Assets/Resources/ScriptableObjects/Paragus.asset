@@ -15,6 +15,7 @@ MonoBehaviour:
   starNumber: 1
   characterName: Paragus
   characterSprite: {fileID: 1722288111, guid: 5be614319165a4c0d8fc4b455cc4c2c3, type: 3}
+  characterIcon: {fileID: -1748984875160285144, guid: c92857c63e2770c42b2c67d6552c1687, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
   maxHealth: 350
   maxKi: 300

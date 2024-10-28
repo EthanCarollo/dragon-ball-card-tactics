@@ -8,6 +8,7 @@ public class CharacterData : ScriptableObject
     public string characterName;
 
     public Sprite characterSprite;
+    public Sprite characterIcon;
     public GameObject characterPrefab;
     
     public int maxHealth;

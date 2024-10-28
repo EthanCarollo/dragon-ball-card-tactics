@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -5,12 +6,16 @@ public class CharacterCardBehaviour : MonoBehaviour
 {
     private CharacterData character;
     public Image cardImage;
+    public TextMeshProUGUI nameText;
+    public TextMeshProUGUI costText;
     public bool hasBeenUsed = false;
 
     public void Setup(CharacterData characterData)
     {
         character = characterData;
-        cardImage.sprite = characterData.characterSprite;
+        cardImage.sprite = characterData.characterIcon;
+        nameText.text = characterData.characterName;
+        costText.text = characterData.starNumber.ToString();
     }
 
     public void Clicked()
