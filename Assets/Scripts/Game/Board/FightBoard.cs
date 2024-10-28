@@ -80,7 +80,9 @@ public class FightBoard : Board
                         character.SetGameObject(characterGameObject);
                         character.SetBoard(this);
                         var charPrefabScript = characterGameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
+                        charPrefabScript.assignedBoard = this;
                         charPrefabScript.boardCharacter = character;
+                        charPrefabScript.position = new Vector2Int(x, y);
                         charPrefabScript.spriteSocle.color = 
                             new Color(character.isPlayerCharacter? 0f: 1f, 0f, character.isPlayerCharacter? 1f: 0f, 0.2f);
                         charPrefabScript.spriteRenderer.sprite = character.character.characterSprite;

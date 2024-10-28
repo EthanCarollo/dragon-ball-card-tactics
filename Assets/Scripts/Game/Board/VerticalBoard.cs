@@ -54,6 +54,8 @@ public class VerticalBoard : Board
                     character.SetGameObject(characterGameObject);
                     character.SetBoard(this);
                     var charPrefabScript = characterGameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
+                    charPrefabScript.assignedBoard = this;
+                    charPrefabScript.position = new Vector2Int(i, 0);
                     charPrefabScript.boardCharacter = character;
                     charPrefabScript.spriteSocle.color = 
                         new Color(character.isPlayerCharacter? 0f: 1f, 0f, character.isPlayerCharacter? 1f: 0f, 0.2f);

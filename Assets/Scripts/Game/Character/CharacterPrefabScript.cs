@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
@@ -9,6 +10,8 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
     public SpriteRenderer spriteSocle;
     public Slider healthSlider;
     public Slider kiSlider;
+    public Board assignedBoard;
+    public Vector2Int position;
 
     public void HitDamage()
     {
@@ -70,6 +73,22 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
                     tileScript.assignedBoard.AddCharacterFromBoard(boardCharacter, tileScript.position);
                     boardCharacter.board.CreateBoard();
                     tileScript.assignedBoard.CreateBoard();
+                    return;
+                }
+                
+                CharacterPrefabScript characterScript = hit.collider.GetComponentInChildren<CharacterPrefabScript>();
+
+                if (characterScript != null)
+                {
+                    Debug.Log(characterScript);
+                    this.assignedBoard.RemoveCharacterFromBoard(boardCharacter);
+                    characterScript.assignedBoard.RemoveCharacterFromBoard(characterScript.boardCharacter);
+                    
+                    characterScript.assignedBoard.AddCharacterFromBoard(boardCharacter, characterScript.position);
+                    this.assignedBoard.AddCharacterFromBoard(characterScript.boardCharacter, this.position);
+                    characterScript.assignedBoard.CreateBoard();
+                    this.assignedBoard.CreateBoard();
+                    // TODO : Implement swap logics here   
                 }
             }
         }
