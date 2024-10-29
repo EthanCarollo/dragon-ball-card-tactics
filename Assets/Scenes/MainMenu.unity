@@ -520,6 +520,7 @@ GameObject:
   - component: {fileID: 472655464}
   - component: {fileID: 472655463}
   - component: {fileID: 472655462}
+  - component: {fileID: 472655465}
   m_Layer: 5
   m_Name: ButtonPanel
   m_TagString: Untagged
@@ -612,6 +613,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 472655460}
   m_CullTransparentMesh: 1
+--- !u!114 &472655465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472655460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5daf1b17719845e48f3307b983d61160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  campaignMenu: {fileID: 1167861873}
 --- !u!1 &495778756
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,10 +996,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1167861873}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 472655465}
+        m_TargetAssemblyTypeName: MainMenuUi, Assembly-CSharp
+        m_MethodName: QuitCampaignMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1287,6 +1301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5daf1b17719845e48f3307b983d61160, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  campaignMenu: {fileID: 0}
 --- !u!4 &1141428486
 Transform:
   m_ObjectHideFlags: 0
@@ -1507,10 +1522,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1167861873}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 472655465}
+        m_TargetAssemblyTypeName: MainMenuUi, Assembly-CSharp
+        m_MethodName: OpenCampaignMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

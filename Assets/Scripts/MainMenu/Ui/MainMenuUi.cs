@@ -3,15 +3,20 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuUi : MonoBehaviour
 {
-    void StartGame()
+    public GameObject campaignMenu;
+    
+    public void OpenCampaignMenu()
     {
-        // Assuming your game scene is named "GameScene"
-        SceneManager.LoadScene("GameScene");
+        campaignMenu.transform.GetComponent<RectTransform>().anchoredPosition = new Vector2(-Screen.width, 0);
+        campaignMenu.SetActive(true);
+        LeanTween.moveX(campaignMenu.transform.GetComponent<RectTransform>(), 0f, 0.5f)
+            .setEase(LeanTweenType.easeOutCirc);
     }
 
-    void QuitGame()
+    public void QuitCampaignMenu()
     {
-        Debug.Log("Quitting game...");
-        Application.Quit();
+        LeanTween.moveX(campaignMenu.transform.GetComponent<RectTransform>(), -Screen.width, 0.5f)
+            .setEase(LeanTweenType.easeOutCirc)
+            .setOnComplete(f => campaignMenu.SetActive(false));
     }
 }
