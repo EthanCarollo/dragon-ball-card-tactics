@@ -5,7 +5,6 @@ public class CharacterDatabase : ScriptableObject
 {
     private static CharacterDatabase _instance;
     
-    // TODO : update this into a dict it should be better IMO
     public CharacterData[] characterDatas;
 
     public static CharacterDatabase Instance

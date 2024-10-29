@@ -22,12 +22,14 @@ public class GameManager
     
     public BoardObject[] boardUsableCharacterArray;
     public BoardObject[,] boardCharacterArray;
+    public CharacterDeck characterDeck;
     public CampaignManager campaignManager;
     public int CurrentMana = 1;
     public int MaxMana = 1;
 
     private GameManager()
     {
+        characterDeck = new CharacterDeck();
         campaignManager = new CampaignManager();
         
         boardCharacterArray = new BoardObject[BoardWidth, BoardHeight];
