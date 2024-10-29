@@ -3,8 +3,19 @@ using System;
 [Serializable]
 public class CharacterDeck
 {
-    public CharacterData[] oneStarCharacters = new CharacterData[4];
-    public CharacterData[] twoStarCharacters = new CharacterData[3];
-    public CharacterData[] threeStarCharacters = new CharacterData[2];
-    public CharacterData[] fourStarCharacters = new CharacterData[1];
+    public CharactersContainer oneStarCharacters = new CharactersContainer(4);
+    public CharactersContainer twoStarCharacters = new CharactersContainer(3);
+    public CharactersContainer threeStarCharacters = new CharactersContainer(2);
+    public CharactersContainer fourStarCharacters = new CharactersContainer(1);
+}
+
+[Serializable]
+public class CharactersContainer
+{
+    public CharacterData[] characters;
+
+    public CharactersContainer(int size)
+    {
+        characters = new CharacterData[size];
+    }
 }

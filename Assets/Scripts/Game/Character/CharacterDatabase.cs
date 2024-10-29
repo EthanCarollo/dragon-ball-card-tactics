@@ -5,7 +5,7 @@ public class CharacterDatabase : ScriptableObject
 {
     private static CharacterDatabase _instance;
     
-    public CharacterData[] characterDatas;
+    public CharactersContainer characterDatas;
 
     public static CharacterDatabase Instance
     {

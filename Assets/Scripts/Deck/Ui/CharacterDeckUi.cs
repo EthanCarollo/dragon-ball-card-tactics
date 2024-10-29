@@ -39,51 +39,51 @@ public class CharacterDeckUi : MonoBehaviour
             Destroy(child.gameObject);
         }
         
-        for (int i = 0; i < CharacterDatabase.Instance.characterDatas.Length; i++)
+        for (int i = 0; i < CharacterDatabase.Instance.characterDatas.characters.Length; i++)
         {
             GameObject characterInstance = Instantiate(characterCardPrefab, allCardsCharacter.transform);
             CharacterDeckCardUi characterComponent = characterInstance.GetComponent<CharacterDeckCardUi>();
-            if (characterComponent != null && CharacterDatabase.Instance.characterDatas[i] != null)
+            if (characterComponent != null && CharacterDatabase.Instance.characterDatas.characters[i] != null)
             {
-                characterComponent.Setup(CharacterDatabase.Instance.characterDatas[i]);
+                characterComponent.Setup(CharacterDatabase.Instance.characterDatas.characters[i]);
             }
         }
         
-        for (int i = 0; i < GameManager.Instance.characterDeck.oneStarCharacters.Length; i++)
+        for (int i = 0; i < GameManager.Instance.characterDeck.oneStarCharacters.characters.Length; i++)
         {
             GameObject characterInstance = Instantiate(characterCardPrefab, characterOneStarRow.transform);
             CharacterDeckCardUi characterComponent = characterInstance.GetComponent<CharacterDeckCardUi>();
-            if (characterComponent != null && GameManager.Instance.characterDeck.oneStarCharacters[i] != null)
+            if (characterComponent != null && GameManager.Instance.characterDeck.oneStarCharacters.characters[i] != null)
             {
-                characterComponent.Setup(GameManager.Instance.characterDeck.oneStarCharacters[i]);
+                characterComponent.Setup(GameManager.Instance.characterDeck.oneStarCharacters.characters[i]);
             }
         }
         
-        for (int i = 0; i < GameManager.Instance.characterDeck.twoStarCharacters.Length; i++)
+        for (int i = 0; i < GameManager.Instance.characterDeck.twoStarCharacters.characters.Length; i++)
         {
             GameObject characterInstance = Instantiate(characterCardPrefab, characterTwoStarRow.transform);
             CharacterDeckCardUi characterComponent = characterInstance.GetComponent<CharacterDeckCardUi>();
-            if (characterComponent != null && GameManager.Instance.characterDeck.twoStarCharacters[i] != null)
+            if (characterComponent != null && GameManager.Instance.characterDeck.twoStarCharacters.characters[i] != null)
             {
-                characterComponent.Setup(GameManager.Instance.characterDeck.twoStarCharacters[i]);
+                characterComponent.Setup(GameManager.Instance.characterDeck.twoStarCharacters.characters[i]);
             }
         }
-        for (int i = 0; i < GameManager.Instance.characterDeck.threeStarCharacters.Length; i++)
+        for (int i = 0; i < GameManager.Instance.characterDeck.threeStarCharacters.characters.Length; i++)
         {
             GameObject characterInstance = Instantiate(characterCardPrefab, characterThreeAndFourStarRow.transform);
             CharacterDeckCardUi characterComponent = characterInstance.GetComponent<CharacterDeckCardUi>();
-            if (characterComponent != null && GameManager.Instance.characterDeck.threeStarCharacters[i] != null)
+            if (characterComponent != null && GameManager.Instance.characterDeck.threeStarCharacters.characters[i] != null)
             {
-                characterComponent.Setup(GameManager.Instance.characterDeck.threeStarCharacters[i]);
+                characterComponent.Setup(GameManager.Instance.characterDeck.threeStarCharacters.characters[i]);
             }
         }
-        for (int i = 0; i < GameManager.Instance.characterDeck.fourStarCharacters.Length; i++)
+        for (int i = 0; i < GameManager.Instance.characterDeck.fourStarCharacters.characters.Length; i++)
         {
             GameObject characterInstance = Instantiate(characterCardPrefab, characterThreeAndFourStarRow.transform);
             CharacterDeckCardUi characterComponent = characterInstance.GetComponent<CharacterDeckCardUi>();
-            if (characterComponent != null && GameManager.Instance.characterDeck.fourStarCharacters[i] != null)
+            if (characterComponent != null && GameManager.Instance.characterDeck.fourStarCharacters.characters[i] != null)
             {
-                characterComponent.Setup(GameManager.Instance.characterDeck.fourStarCharacters[i]);
+                characterComponent.Setup(GameManager.Instance.characterDeck.fourStarCharacters.characters[i]);
             }
         }
     }
