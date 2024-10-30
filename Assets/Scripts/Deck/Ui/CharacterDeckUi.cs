@@ -43,9 +43,10 @@ public class CharacterDeckUi : MonoBehaviour
         {
             GameObject characterInstance = Instantiate(characterCardPrefab, allCardsCharacter.transform);
             CharacterDeckCardUi characterComponent = characterInstance.GetComponent<CharacterDeckCardUi>();
-            if (characterComponent != null && CharacterDatabase.Instance.characterDatas.characters[i] != null)
+            if (characterComponent != null)
             {
-                characterComponent.Setup(CharacterDatabase.Instance.characterDatas.characters[i]);
+                characterComponent.Setup(CharacterDatabase.Instance.characterDatas.characters[i], 
+                    CharacterDatabase.Instance.characterDatas, this, i);
             }
         }
         
@@ -53,9 +54,10 @@ public class CharacterDeckUi : MonoBehaviour
         {
             GameObject characterInstance = Instantiate(characterCardPrefab, characterOneStarRow.transform);
             CharacterDeckCardUi characterComponent = characterInstance.GetComponent<CharacterDeckCardUi>();
-            if (characterComponent != null && GameManager.Instance.characterDeck.oneStarCharacters.characters[i] != null)
+            if (characterComponent != null)
             {
-                characterComponent.Setup(GameManager.Instance.characterDeck.oneStarCharacters.characters[i]);
+                characterComponent.Setup(GameManager.Instance.characterDeck.oneStarCharacters.characters[i], 
+                    GameManager.Instance.characterDeck.oneStarCharacters, this, i);
             }
         }
         
@@ -63,27 +65,30 @@ public class CharacterDeckUi : MonoBehaviour
         {
             GameObject characterInstance = Instantiate(characterCardPrefab, characterTwoStarRow.transform);
             CharacterDeckCardUi characterComponent = characterInstance.GetComponent<CharacterDeckCardUi>();
-            if (characterComponent != null && GameManager.Instance.characterDeck.twoStarCharacters.characters[i] != null)
+            if (characterComponent != null)
             {
-                characterComponent.Setup(GameManager.Instance.characterDeck.twoStarCharacters.characters[i]);
+                characterComponent.Setup(GameManager.Instance.characterDeck.twoStarCharacters.characters[i], 
+                    GameManager.Instance.characterDeck.twoStarCharacters, this, i);
             }
         }
         for (int i = 0; i < GameManager.Instance.characterDeck.threeStarCharacters.characters.Length; i++)
         {
             GameObject characterInstance = Instantiate(characterCardPrefab, characterThreeAndFourStarRow.transform);
             CharacterDeckCardUi characterComponent = characterInstance.GetComponent<CharacterDeckCardUi>();
-            if (characterComponent != null && GameManager.Instance.characterDeck.threeStarCharacters.characters[i] != null)
+            if (characterComponent != null)
             {
-                characterComponent.Setup(GameManager.Instance.characterDeck.threeStarCharacters.characters[i]);
+                characterComponent.Setup(GameManager.Instance.characterDeck.threeStarCharacters.characters[i], 
+                    GameManager.Instance.characterDeck.threeStarCharacters, this, i);
             }
         }
         for (int i = 0; i < GameManager.Instance.characterDeck.fourStarCharacters.characters.Length; i++)
         {
             GameObject characterInstance = Instantiate(characterCardPrefab, characterThreeAndFourStarRow.transform);
             CharacterDeckCardUi characterComponent = characterInstance.GetComponent<CharacterDeckCardUi>();
-            if (characterComponent != null && GameManager.Instance.characterDeck.fourStarCharacters.characters[i] != null)
+            if (characterComponent != null)
             {
-                characterComponent.Setup(GameManager.Instance.characterDeck.fourStarCharacters.characters[i]);
+                characterComponent.Setup(GameManager.Instance.characterDeck.fourStarCharacters.characters[i], 
+                    GameManager.Instance.characterDeck.fourStarCharacters, this, i);
             }
         }
     }

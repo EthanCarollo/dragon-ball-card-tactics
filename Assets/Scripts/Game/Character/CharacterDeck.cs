@@ -18,4 +18,11 @@ public class CharactersContainer
     {
         characters = new CharacterData[size];
     }
+    
+    
+
+    public void AddCharacter(CharacterData character, int index)
+    {
+        this.characters[index] = character;
+    }
 }

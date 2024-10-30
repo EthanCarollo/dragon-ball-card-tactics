@@ -1,5 +1,6 @@
 
-using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -8,15 +9,24 @@ public class CharacterDeckCardUi : MonoBehaviour, IDragHandler, IEndDragHandler,
 {
     public Image characterSprite;
     public Canvas parentCanvas;
+    public CharactersContainer charactersContainer;
+    public CharacterData characterData;
+    public int characterIndexInContainer;
     public static GameObject characterDraggedGameObject;
+    public CharacterDeckUi characterDeckUi;
 
     public void Awake()
     {
         this.parentCanvas = GetComponentInParent<Canvas>();
     }
 
-    public void Setup(CharacterData character)
+    public void Setup(CharacterData character, CharactersContainer attachedContainer, CharacterDeckUi charDeckUi, int index)
     {
+        this.characterDeckUi = charDeckUi;
+        this.charactersContainer = attachedContainer;
+        this.characterIndexInContainer = index;
+        if (character == null) return;
+        this.characterData = character;
         this.characterSprite.sprite = character.characterIcon;
         this.characterSprite.enabled = true;
     }
@@ -50,6 +60,21 @@ public class CharacterDeckCardUi : MonoBehaviour, IDragHandler, IEndDragHandler,
         {
             Destroy(characterDraggedGameObject); 
             characterDraggedGameObject = null;
+        }
+        
+        List<RaycastResult> raycastResults = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventData, raycastResults);
+
+        foreach (var result in raycastResults)
+        {
+            if (result.gameObject.GetComponent<CharacterDeckCardUi>() != null)
+            {
+                var charTarget = result.gameObject.GetComponent<CharacterDeckCardUi>();
+                charTarget.charactersContainer.AddCharacter(characterData, charTarget.characterIndexInContainer);
+                charTarget.characterDeckUi.SetupCharacterCards();
+                Debug.Log("Dropped on a GameObject with CharacterDeckCardUI.");
+                break;
+            }
         }
     }
 }
