@@ -9,10 +9,12 @@ public class CharacterDeckUi : MonoBehaviour
     public GameObject characterOneStarRow;
     public GameObject characterTwoStarRow;
     public GameObject characterThreeAndFourStarRow;
+    public CharactersContainer charAllDataCloned;
 
     public void Awake()
     {
         Instance = this;
+        charAllDataCloned = CharacterDatabase.Instance.characterDatas.Clone();
     }
 
     public void Start()
@@ -38,15 +40,14 @@ public class CharacterDeckUi : MonoBehaviour
         {
             Destroy(child.gameObject);
         }
-        
-        for (int i = 0; i < CharacterDatabase.Instance.characterDatas.characters.Length; i++)
+
+        for (int i = 0; i < charAllDataCloned.characters.Length; i++)
         {
             GameObject characterInstance = Instantiate(characterCardPrefab, allCardsCharacter.transform);
             CharacterDeckCardUi characterComponent = characterInstance.GetComponent<CharacterDeckCardUi>();
             if (characterComponent != null)
             {
-                characterComponent.Setup(CharacterDatabase.Instance.characterDatas.characters[i], 
-                    CharacterDatabase.Instance.characterDatas, this, i);
+                characterComponent.Setup(charAllDataCloned.characters[i], charAllDataCloned, this, i);
             }
         }
         

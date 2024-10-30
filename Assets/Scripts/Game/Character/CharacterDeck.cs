@@ -24,12 +24,21 @@ public class CharactersContainer
         this.characters[index] = character;
     }
 
-    public void SwapCharacter(CharactersContainer charContainer, int indexFrom, int indexTarget)
+    public bool SwapCharacter(CharactersContainer charContainer, int indexFrom, int indexTarget)
     {
         var character1 = characters[indexFrom];
         var character2 = charContainer.characters[indexTarget];
         
         AddCharacter(character2, indexFrom);
         charContainer.AddCharacter(character1, indexTarget);
+
+        return true;
+    }
+    
+    public CharactersContainer Clone()
+    {
+        CharactersContainer clone = new CharactersContainer(characters.Length);
+        clone.characters = (CharacterData[])this.characters.Clone();
+        return clone;
     }
 }

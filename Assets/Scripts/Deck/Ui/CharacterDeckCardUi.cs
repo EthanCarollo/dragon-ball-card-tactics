@@ -72,7 +72,6 @@ public class CharacterDeckCardUi : MonoBehaviour, IDragHandler, IEndDragHandler,
                 var charTarget = result.gameObject.GetComponent<CharacterDeckCardUi>();
                 charactersContainer.SwapCharacter(charTarget.charactersContainer, characterIndexInContainer, charTarget.characterIndexInContainer);
                 charTarget.characterDeckUi.SetupCharacterCards();
-                Debug.Log("Dropped on a GameObject with CharacterDeckCardUI.");
                 break;
             }
         }
