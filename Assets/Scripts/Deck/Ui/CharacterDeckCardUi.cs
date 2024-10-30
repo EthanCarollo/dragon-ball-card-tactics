@@ -70,7 +70,7 @@ public class CharacterDeckCardUi : MonoBehaviour, IDragHandler, IEndDragHandler,
             if (result.gameObject.GetComponent<CharacterDeckCardUi>() != null)
             {
                 var charTarget = result.gameObject.GetComponent<CharacterDeckCardUi>();
-                charTarget.charactersContainer.AddCharacter(characterData, charTarget.characterIndexInContainer);
+                charactersContainer.SwapCharacter(charTarget.charactersContainer, characterIndexInContainer, charTarget.characterIndexInContainer);
                 charTarget.characterDeckUi.SetupCharacterCards();
                 Debug.Log("Dropped on a GameObject with CharacterDeckCardUI.");
                 break;
