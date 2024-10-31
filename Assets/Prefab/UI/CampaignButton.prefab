@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 1896114178894403996}
   - component: {fileID: 7216960586510240429}
   - component: {fileID: 898116035284110893}
-  - component: {fileID: 4131956236388496993}
+  - component: {fileID: 4671986328700393503}
   m_Layer: 5
-  m_Name: SaveButton
+  m_Name: CampaignButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &4131956236388496993
+--- !u!114 &4671986328700393503
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,10 +131,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3975836905567468192}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c851a9c4f624de2a88e0a3cc7750534, type: 3}
+  m_Script: {fileID: 11500000, guid: e1ea60d9f9be41c19c99cf62c7747f50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 4113970288227916020}
+  campaignTextName: {fileID: 4113970288227916020}
 --- !u!1 &5230926132603663687
 GameObject:
   m_ObjectHideFlags: 0
