@@ -97,4 +97,29 @@ public static class BoardUtils
         }
         return false;
     }
+    
+    public static Vector2 GetDirectionVector(Vector2 direction)
+    {
+        direction.Normalize();
+        if (Vector2.Dot(direction, Vector2.right) > 0.7f)
+        {
+            return Vector2.right; 
+        }
+        else if (Vector2.Dot(direction, Vector2.left) > 0.7f)
+        {
+            return Vector2.left;  
+        }
+        else if (Vector2.Dot(direction, Vector2.up) > 0.7f)
+        {
+            return Vector2.up;    
+        }
+        else if (Vector2.Dot(direction, Vector2.down) > 0.7f)
+        {
+            return Vector2.down;   
+        }
+        else
+        {
+            return direction;     
+        }
+    }
 }

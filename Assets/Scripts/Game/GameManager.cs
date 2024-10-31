@@ -38,12 +38,12 @@ public class GameManager
         boardUsableCharacterArray = new BoardObject[8]; 
         
         // TODO : temporary
-        // if (DebugMode)
-        if(false)
+        if (DebugMode)
+        // if(false)
         {
-            boardCharacterArray[1, 5] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/BlackGoku"), true);
-            boardCharacterArray[0, 2] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Paragus"), true);
-            boardUsableCharacterArray[0] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/BlackGoku"), true);
+            boardCharacterArray[1, 5] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/GohanSSJ"), true);
+            //boardCharacterArray[0, 2] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Paragus"), true);
+            //boardUsableCharacterArray[0] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/BlackGoku"), true);
             boardCharacterArray[7, 4] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/BlackGoku"), false);
         }
     }

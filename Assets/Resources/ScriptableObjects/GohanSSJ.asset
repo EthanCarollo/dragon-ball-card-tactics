@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: GohanSSJ
+  m_EditorClassIdentifier: 
+  starNumber: 1
+  characterName: Gohan
+  characterSprite: {fileID: -6129443209975810001, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+  characterIcon: {fileID: -6129443209975810001, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 3500
+  maxKi: 50
+  baseRange: 1
+  baseDamage: 50
+  baseArmor: 25
+  baseSpeed: 4
+  baseAttackSpeed: 1.2
+  baseCriticalChance: 10
+  idleAnimation:
+    rid: 6661928477140451414
+  runAnimation:
+    rid: 6661928477140451415
+  attackAnimation:
+    rid: 6661928477140451416
+  criticalAttackAnimation:
+    rid: 6661928477140451417
+  specialAttackAnimation:
+    rid: 6661928477140451430
+  references:
+    version: 2
+    RefIds:
+    - rid: 6661928477140451414
+      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: -6129443209975810001, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+    - rid: 6661928477140451415
+      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: -4911505518144406568, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        - sprite: {fileID: 2907494467255508172, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        - sprite: {fileID: 2425588094029528141, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+    - rid: 6661928477140451416
+      type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: 7927931163457721105, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        - sprite: {fileID: 8467475521906723134, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        - sprite: {fileID: 1875139424243380663, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        attackFrameIndex: 1
+        attackType: 0
+        particleAttack: {fileID: 0}
+    - rid: 6661928477140451417
+      type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: -5739544054305123066, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        - sprite: {fileID: 1247856849139079212, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        - sprite: {fileID: -5862576213824055372, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        attackFrameIndex: 1
+        attackType: 0
+        particleAttack: {fileID: 0}
+    - rid: 6661928477140451430
+      type: {class: ChargedKiAttackAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: 3130256964880042318, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        - sprite: {fileID: 8871699531088988631, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        - sprite: {fileID: -1005147814648490545, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.6
+        attackFrameIndex: 1
+        kikoha: {fileID: 609456551750124685, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+        particleAttack: {fileID: 0}
+        attackType: 0
+        startMargin: {x: 0.4, y: 0.8}
+        kikohaSize: {x: 0, y: 0}

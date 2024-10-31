@@ -13,6 +13,9 @@ public class AttackingCharacterState : BoardCharacterState
     
     public override void Update()
     {
+        boardCharacter.direction = BoardUtils.GetDirectionVector(
+            characterTarget.gameObject.transform.position - boardCharacter.gameObject.transform.position);
+        
         if (boardCharacter.IsDead())
         {
             return;
