@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Gohan
+  m_EditorClassIdentifier: 
+  starNumber: 1
+  characterName: Gohan
+  characterSprite: {fileID: 2183385103973273245, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+  characterIcon: {fileID: 2183385103973273245, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 250
+  maxKi: 50
+  baseRange: 1
+  baseDamage: 50
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 0.5
+  baseCriticalChance: 10
+  idleAnimation:
+    rid: 6661928477140451414
+  runAnimation:
+    rid: 6661928477140451415
+  attackAnimation:
+    rid: 6661928477140451416
+  criticalAttackAnimation:
+    rid: 6661928477140451417
+  specialAttackAnimation:
+    rid: 6661928477140451418
+  references:
+    version: 2
+    RefIds:
+    - rid: 6661928477140451414
+      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: 2183385103973273245, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+    - rid: 6661928477140451415
+      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: -2667063198287405737, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        - sprite: {fileID: -2606773911926212930, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        - sprite: {fileID: -6444060111939548669, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+    - rid: 6661928477140451416
+      type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: 4445349327760026777, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        - sprite: {fileID: -2065692271600578802, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        - sprite: {fileID: 8148118596288246230, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        attackFrameIndex: 1
+        attackType: 0
+        particleAttack: {fileID: 0}
+    - rid: 6661928477140451417
+      type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: -729411553592679245, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        - sprite: {fileID: -2666541067648208597, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        - sprite: {fileID: -2947491894940927097, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        attackFrameIndex: 1
+        attackType: 0
+        particleAttack: {fileID: 0}
+    - rid: 6661928477140451418
+      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: 550230174701136562, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        - sprite: {fileID: -5908641612302316025, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        - sprite: {fileID: 8941342110910167320, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2
+        - sprite: {fileID: 4203582555193336223, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
+          time: 0.2

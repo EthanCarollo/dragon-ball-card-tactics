@@ -12,16 +12,16 @@ public class CharacterData : ScriptableObject
     public Sprite characterIcon;
     public GameObject characterPrefab;
     
-    public int maxHealth;
+    public int maxHealth = 250;
     public int maxKi = 50;
     
     public int baseRange = 1;
-    public int baseDamage;
-    public int baseArmor;
-    public int baseSpeed;
-    public float baseAttackSpeed;
+    public int baseDamage = 50;
+    public int baseArmor = 25;
+    public int baseSpeed= 2;
+    public float baseAttackSpeed = 0.5f;
     // baseCriticalChance is a percentage
-    public int baseCriticalChance;
+    public int baseCriticalChance = 10;
 
     [SerializeReference, SubclassSelector]
     public BoardAnimation idleAnimation;

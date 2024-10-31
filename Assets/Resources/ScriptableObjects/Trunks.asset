@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Trunks
+  m_EditorClassIdentifier: 
+  starNumber: 1
+  characterName: Trunks
+  characterSprite: {fileID: -6613110224840712069, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+  characterIcon: {fileID: 6189606471496407223, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 250
+  maxKi: 50
+  baseRange: 1
+  baseDamage: 50
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 0.5
+  baseCriticalChance: 10
+  idleAnimation:
+    rid: 6661928477140451425
+  runAnimation:
+    rid: 6661928477140451426
+  attackAnimation:
+    rid: 6661928477140451427
+  criticalAttackAnimation:
+    rid: 6661928477140451428
+  specialAttackAnimation:
+    rid: 6661928477140451429
+  references:
+    version: 2
+    RefIds:
+    - rid: 6661928477140451425
+      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: -6613110224840712069, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+          time: 0.2
+    - rid: 6661928477140451426
+      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: -3144224037550029206, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+          time: 0.2
+        - sprite: {fileID: -8044378571693499475, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+          time: 0.2
+        - sprite: {fileID: 1943602873183761189, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+          time: 0.2
+    - rid: 6661928477140451427
+      type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: 1395501738064049528, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+          time: 0.2
+        - sprite: {fileID: 8173226838720576352, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+          time: 0.2
+        - sprite: {fileID: -6623246536555215861, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+          time: 0.2
+        attackFrameIndex: 1
+        attackType: 0
+        particleAttack: {fileID: 0}
+    - rid: 6661928477140451428
+      type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: -1172744273237750189, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+          time: 0.2
+        - sprite: {fileID: 1105966412935180507, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+          time: 0.2
+        - sprite: {fileID: 2614768097098002562, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+          time: 0.2
+        attackFrameIndex: 1
+        attackType: 1
+        particleAttack: {fileID: 0}
+    - rid: 6661928477140451429
+      type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: -6069511524702210823, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+          time: 0.1
+        - sprite: {fileID: -6627766666743873364, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+          time: 0.1
+        - sprite: {fileID: -6564541239428762856, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+          time: 0.1
+        - sprite: {fileID: 1360398022926549206, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+          time: 0.1
+        - sprite: {fileID: 7706237634378680210, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+          time: 0.1
+        - sprite: {fileID: 4749406984242668052, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+          time: 0.1
+        - sprite: {fileID: -7704948739808279571, guid: 920d3430e177e0342a18fb759d185155, type: 3}
+          time: 0.3
+        attackFrameIndex: 5
+        attackType: 2
+        particleAttack: {fileID: 0}

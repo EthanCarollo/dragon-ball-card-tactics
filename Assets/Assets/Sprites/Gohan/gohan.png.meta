@@ -172,7 +172,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -303,12 +303,12 @@ TextureImporter:
       name: gohan_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 451
-        width: 31
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 7
+        y: 452
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -325,12 +325,12 @@ TextureImporter:
       name: gohan_1
       rect:
         serializedVersion: 2
-        x: 44
-        y: 469
-        width: 53
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 45
+        y: 470
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -347,12 +347,12 @@ TextureImporter:
       name: gohan_2
       rect:
         serializedVersion: 2
-        x: 101
-        y: 472
-        width: 53
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 102
+        y: 473
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -369,12 +369,12 @@ TextureImporter:
       name: gohan_3
       rect:
         serializedVersion: 2
-        x: 153
-        y: 462
-        width: 44
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 154
+        y: 463
+        width: 42
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -391,12 +391,12 @@ TextureImporter:
       name: gohan_4
       rect:
         serializedVersion: 2
-        x: 6
-        y: 391
-        width: 31
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 7
+        y: 392
+        width: 29
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -413,12 +413,12 @@ TextureImporter:
       name: gohan_5
       rect:
         serializedVersion: 2
-        x: 41
-        y: 393
-        width: 44
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 42
+        y: 394
+        width: 42
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -435,12 +435,12 @@ TextureImporter:
       name: gohan_6
       rect:
         serializedVersion: 2
-        x: 95
-        y: 393
-        width: 37
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 394
+        width: 35
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -457,12 +457,12 @@ TextureImporter:
       name: gohan_7
       rect:
         serializedVersion: 2
-        x: 141
-        y: 393
-        width: 34
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 142
+        y: 394
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -479,12 +479,12 @@ TextureImporter:
       name: gohan_8
       rect:
         serializedVersion: 2
-        x: 184
-        y: 393
-        width: 45
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 185
+        y: 394
+        width: 43
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -501,12 +501,12 @@ TextureImporter:
       name: gohan_9
       rect:
         serializedVersion: 2
-        x: 244
-        y: 393
-        width: 43
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 245
+        y: 394
+        width: 41
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -523,12 +523,12 @@ TextureImporter:
       name: gohan_10
       rect:
         serializedVersion: 2
-        x: 7
-        y: 327
-        width: 29
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 8
+        y: 328
+        width: 27
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -545,12 +545,12 @@ TextureImporter:
       name: gohan_11
       rect:
         serializedVersion: 2
-        x: 51
-        y: 328
-        width: 30
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 52
+        y: 329
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -567,12 +567,12 @@ TextureImporter:
       name: gohan_12
       rect:
         serializedVersion: 2
-        x: 94
-        y: 328
-        width: 30
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 95
+        y: 329
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -589,12 +589,12 @@ TextureImporter:
       name: gohan_13
       rect:
         serializedVersion: 2
-        x: 139
-        y: 327
-        width: 30
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 140
+        y: 328
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -611,12 +611,12 @@ TextureImporter:
       name: gohan_14
       rect:
         serializedVersion: 2
-        x: 177
-        y: 327
-        width: 34
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 178
+        y: 328
+        width: 32
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -633,12 +633,12 @@ TextureImporter:
       name: gohan_15
       rect:
         serializedVersion: 2
-        x: 218
-        y: 327
-        width: 34
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 219
+        y: 328
+        width: 32
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -655,12 +655,12 @@ TextureImporter:
       name: gohan_16
       rect:
         serializedVersion: 2
-        x: 263
-        y: 328
-        width: 48
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 264
+        y: 329
+        width: 46
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -677,12 +677,12 @@ TextureImporter:
       name: gohan_17
       rect:
         serializedVersion: 2
-        x: 318
-        y: 329
-        width: 48
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 319
+        y: 330
+        width: 46
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -699,12 +699,12 @@ TextureImporter:
       name: gohan_18
       rect:
         serializedVersion: 2
-        x: 4
-        y: 260
-        width: 48
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5
+        y: 261
+        width: 46
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -721,12 +721,12 @@ TextureImporter:
       name: gohan_19
       rect:
         serializedVersion: 2
-        x: 52
-        y: 278
-        width: 150
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 53
+        y: 279
+        width: 148
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -743,12 +743,12 @@ TextureImporter:
       name: gohan_20
       rect:
         serializedVersion: 2
-        x: 4
-        y: 199
-        width: 31
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5
+        y: 200
+        width: 29
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -765,12 +765,12 @@ TextureImporter:
       name: gohan_21
       rect:
         serializedVersion: 2
-        x: 44
-        y: 199
-        width: 47
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 45
+        y: 200
+        width: 45
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -787,12 +787,12 @@ TextureImporter:
       name: gohan_22
       rect:
         serializedVersion: 2
-        x: 102
-        y: 199
-        width: 47
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 103
+        y: 200
+        width: 45
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -809,12 +809,12 @@ TextureImporter:
       name: gohan_23
       rect:
         serializedVersion: 2
-        x: 2
-        y: 117
-        width: 55
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3
+        y: 118
+        width: 53
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -831,12 +831,12 @@ TextureImporter:
       name: gohan_24
       rect:
         serializedVersion: 2
-        x: 62
-        y: 117
-        width: 51
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 63
+        y: 118
+        width: 49
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -853,12 +853,12 @@ TextureImporter:
       name: gohan_25
       rect:
         serializedVersion: 2
-        x: 126
-        y: 116
-        width: 46
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 127
+        y: 117
+        width: 44
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -875,12 +875,12 @@ TextureImporter:
       name: gohan_26
       rect:
         serializedVersion: 2
-        x: 184
-        y: 116
-        width: 65
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 185
+        y: 117
+        width: 63
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -897,12 +897,12 @@ TextureImporter:
       name: gohan_27
       rect:
         serializedVersion: 2
-        x: 257
-        y: 116
-        width: 25
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 258
+        y: 117
+        width: 23
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -919,12 +919,12 @@ TextureImporter:
       name: gohan_28
       rect:
         serializedVersion: 2
-        x: 293
-        y: 116
-        width: 25
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 294
+        y: 117
+        width: 23
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -941,12 +941,12 @@ TextureImporter:
       name: gohan_29
       rect:
         serializedVersion: 2
-        x: 327
-        y: 118
-        width: 53
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 328
+        y: 119
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -963,12 +963,12 @@ TextureImporter:
       name: gohan_30
       rect:
         serializedVersion: 2
-        x: 384
-        y: 121
-        width: 53
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 385
+        y: 122
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -985,12 +985,12 @@ TextureImporter:
       name: gohan_31
       rect:
         serializedVersion: 2
-        x: 437
-        y: 114
-        width: 44
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 115
+        width: 42
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1007,12 +1007,12 @@ TextureImporter:
       name: gohan_32
       rect:
         serializedVersion: 2
-        x: 487
-        y: 130
-        width: 33
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 488
+        y: 131
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1029,12 +1029,12 @@ TextureImporter:
       name: gohan_33
       rect:
         serializedVersion: 2
-        x: 527
-        y: 120
-        width: 45
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 528
+        y: 121
+        width: 43
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1051,12 +1051,12 @@ TextureImporter:
       name: gohan_34
       rect:
         serializedVersion: 2
-        x: 575
-        y: 127
-        width: 35
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 576
+        y: 128
+        width: 33
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1073,12 +1073,12 @@ TextureImporter:
       name: gohan_35
       rect:
         serializedVersion: 2
-        x: 625
-        y: 120
-        width: 25
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 626
+        y: 121
+        width: 23
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1095,12 +1095,12 @@ TextureImporter:
       name: gohan_36
       rect:
         serializedVersion: 2
-        x: 657
-        y: 120
-        width: 46
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 658
+        y: 121
+        width: 44
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1117,12 +1117,12 @@ TextureImporter:
       name: gohan_37
       rect:
         serializedVersion: 2
-        x: 708
-        y: 123
-        width: 44
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 709
+        y: 124
+        width: 42
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1139,12 +1139,12 @@ TextureImporter:
       name: gohan_38
       rect:
         serializedVersion: 2
-        x: 14
-        y: 31
-        width: 39
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 15
+        y: 32
+        width: 37
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1161,12 +1161,12 @@ TextureImporter:
       name: gohan_39
       rect:
         serializedVersion: 2
-        x: 59
-        y: 31
-        width: 30
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 60
+        y: 32
+        width: 28
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1183,12 +1183,12 @@ TextureImporter:
       name: gohan_40
       rect:
         serializedVersion: 2
-        x: 96
-        y: 32
-        width: 26
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 97
+        y: 33
+        width: 24
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1205,12 +1205,12 @@ TextureImporter:
       name: gohan_41
       rect:
         serializedVersion: 2
-        x: 128
-        y: 32
-        width: 36
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 129
+        y: 33
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1227,12 +1227,12 @@ TextureImporter:
       name: gohan_42
       rect:
         serializedVersion: 2
-        x: 168
-        y: 21
-        width: 230
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 169
+        y: 22
+        width: 228
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1249,12 +1249,12 @@ TextureImporter:
       name: gohan_43
       rect:
         serializedVersion: 2
-        x: 408
-        y: 58
-        width: 33
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 409
+        y: 59
+        width: 31
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1271,12 +1271,12 @@ TextureImporter:
       name: gohan_44
       rect:
         serializedVersion: 2
-        x: 448
-        y: 59
-        width: 42
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 449
+        y: 60
+        width: 40
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1293,12 +1293,12 @@ TextureImporter:
       name: gohan_45
       rect:
         serializedVersion: 2
-        x: 490
-        y: 59
-        width: 41
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 491
+        y: 60
+        width: 39
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1315,7 +1315,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a153bceafbe88a4438089d6d38fd1d5e
     internalID: 0
     vertices: []
     indices: 
@@ -1324,7 +1324,53 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gohan_0: 2183385103973273245
+      gohan_1: -6444060111939548669
+      gohan_10: -9061220894463530336
+      gohan_11: 7332887790730454184
+      gohan_12: -2728036501305158479
+      gohan_13: 1303122798944560635
+      gohan_14: -7407477422712259849
+      gohan_15: 3604769645411785254
+      gohan_16: -6317563074517588675
+      gohan_17: -423202810773302825
+      gohan_18: 384508038738565732
+      gohan_19: -1074578365954071121
+      gohan_2: -2606773911926212930
+      gohan_20: -729411553592679245
+      gohan_21: -2666541067648208597
+      gohan_22: -2947491894940927097
+      gohan_23: 550230174701136562
+      gohan_24: -5908641612302316025
+      gohan_25: 8941342110910167320
+      gohan_26: 4203582555193336223
+      gohan_27: -6129443209975810001
+      gohan_28: 7019748780303211449
+      gohan_29: 2907494467255508172
+      gohan_3: -2667063198287405737
+      gohan_30: 2425588094029528141
+      gohan_31: -4911505518144406568
+      gohan_32: -5739544054305123066
+      gohan_33: 1247856849139079212
+      gohan_34: -5862576213824055372
+      gohan_35: 7927931163457721105
+      gohan_36: 8467475521906723134
+      gohan_37: 1875139424243380663
+      gohan_38: 6752865101414601915
+      gohan_39: 3130256964880042318
+      gohan_4: 4445349327760026777
+      gohan_40: 8871699531088988631
+      gohan_41: -1005147814648490545
+      gohan_42: 609456551750124685
+      gohan_43: 2522127397015090978
+      gohan_44: 2835646308934940800
+      gohan_45: 7767256120297475905
+      gohan_5: -2065692271600578802
+      gohan_6: 8148118596288246230
+      gohan_7: -171436719707051066
+      gohan_8: 6896659135810134390
+      gohan_9: -1372862851228779606
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

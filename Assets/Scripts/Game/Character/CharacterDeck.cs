@@ -3,10 +3,7 @@ using System;
 [Serializable]
 public class CharacterDeck
 {
-    public CharactersContainer oneStarCharacters = new CharactersContainer(4);
-    public CharactersContainer twoStarCharacters = new CharactersContainer(3);
-    public CharactersContainer threeStarCharacters = new CharactersContainer(2);
-    public CharactersContainer fourStarCharacters = new CharactersContainer(1);
+    public CharactersContainer characters = new CharactersContainer(12);
 }
 
 [Serializable]
