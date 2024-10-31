@@ -183,10 +183,10 @@ TextureImporter:
       name: son-goku_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 64
-        width: 31
-        height: 53
+        x: 4
+        y: 464
+        width: 36
+        height: 45
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,10 +205,10 @@ TextureImporter:
       name: son-goku_1
       rect:
         serializedVersion: 2
-        x: 73
-        y: 69
-        width: 46
-        height: 25
+        x: 2
+        y: 421
+        width: 51
+        height: 29
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,10 +227,10 @@ TextureImporter:
       name: son-goku_2
       rect:
         serializedVersion: 2
-        x: 134
-        y: 73
+        x: 59
+        y: 424
         width: 51
-        height: 19
+        height: 22
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +249,10 @@ TextureImporter:
       name: son-goku_3
       rect:
         serializedVersion: 2
-        x: 17
-        y: 3
-        width: 31
-        height: 49
+        x: 112
+        y: 418
+        width: 47
+        height: 37
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,10 +271,10 @@ TextureImporter:
       name: son-goku_4
       rect:
         serializedVersion: 2
-        x: 78
-        y: 6
-        width: 35
-        height: 51
+        x: 12
+        y: 355
+        width: 34
+        height: 52
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,10 +293,10 @@ TextureImporter:
       name: son-goku_5
       rect:
         serializedVersion: 2
-        x: 141
-        y: 5
-        width: 32
-        height: 51
+        x: 60
+        y: 355
+        width: 34
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,12 +315,12 @@ TextureImporter:
       name: son-goku_6
       rect:
         serializedVersion: 2
-        x: 11
-        y: 189
-        width: 32
-        height: 50
-      alignment: 9
-      pivot: {x: 0.49598986, y: 0.01236145}
+        x: 109
+        y: 355
+        width: 46
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -337,12 +337,12 @@ TextureImporter:
       name: son-goku_7
       rect:
         serializedVersion: 2
-        x: 56
-        y: 189
-        width: 54
-        height: 51
-      alignment: 9
-      pivot: {x: 0.49977776, y: 0.0028973748}
+        x: 161
+        y: 355
+        width: 39
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -359,12 +359,12 @@ TextureImporter:
       name: son-goku_8
       rect:
         serializedVersion: 2
-        x: 115
-        y: 189
-        width: 81
-        height: 50
-      alignment: 9
-      pivot: {x: 0.19302952, y: 0.0032131958}
+        x: 209
+        y: 355
+        width: 43
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -381,12 +381,12 @@ TextureImporter:
       name: son-goku_9
       rect:
         serializedVersion: 2
-        x: 205
-        y: 201
-        width: 43
-        height: 30
-      alignment: 9
-      pivot: {x: 0.0026543196, y: 0.4891988}
+        x: 263
+        y: 355
+        width: 35
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -395,6 +395,94 @@ TextureImporter:
       bones: []
       spriteID: 35dc56c8b4c4a9a4aade32d0668e6b9d
       internalID: 1912522824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: son-goku_10
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 355
+        width: 45
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9cfc6c12883de459527cde7e44503f
+      internalID: -668899572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: son-goku_11
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 355
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cf8ea1ebd24464d893db8e862cac8e
+      internalID: -845581695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: son-goku_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 270
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dc38b6977820a4e9a49ad500d777b9
+      internalID: -1838078424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: son-goku_13
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 267
+        width: 65
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d096a16feae9344c8eff5dac147217c
+      internalID: 1828134852
       vertices: []
       indices: 
       edges: []
@@ -415,6 +503,10 @@ TextureImporter:
     nameFileIdTable:
       son-goku_0: -2228038483841953954
       son-goku_1: -2003225697594452761
+      son-goku_10: -668899572
+      son-goku_11: -845581695
+      son-goku_12: -1838078424
+      son-goku_13: 1828134852
       son-goku_2: -2552363584548547819
       son-goku_3: 4367443089448301319
       son-goku_4: 6653981442661384162

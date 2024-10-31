@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Goku
+  m_EditorClassIdentifier: 
+  starNumber: 1
+  characterName: Goku
+  characterSprite: {fileID: -2228038483841953954, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+  characterIcon: {fileID: -2228038483841953954, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+  characterPrefab: {fileID: 0}
+  maxHealth: 0
+  maxKi: 50
+  baseRange: 1
+  baseDamage: 0
+  baseArmor: 0
+  baseSpeed: 0
+  baseAttackSpeed: 0
+  baseCriticalChance: 0
+  idleAnimation:
+    rid: 6661928477140451328
+  runAnimation:
+    rid: 6661928477140451330
+  attackAnimation:
+    rid: 6661928477140451331
+  criticalAttackAnimation:
+    rid: 6661928477140451332
+  specialAttackAnimation:
+    rid: 6661928477140451333
+  references:
+    version: 2
+    RefIds:
+    - rid: 6661928477140451328
+      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: -2228038483841953954, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+          time: 0.2
+    - rid: 6661928477140451330
+      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: 4367443089448301319, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+          time: 0.2
+        - sprite: {fileID: -2552363584548547819, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+          time: 0.2
+        - sprite: {fileID: -2003225697594452761, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+          time: 0.2
+    - rid: 6661928477140451331
+      type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: 6653981442661384162, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+          time: 0.2
+        - sprite: {fileID: 1412831991072362571, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+          time: 0.2
+        - sprite: {fileID: 1452221654, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+          time: 0.2
+        attackFrameIndex: 1
+        attackType: 0
+        particleAttack: {fileID: 11400000, guid: a05d66441daab4e42b62f1079ed76f45, type: 2}
+    - rid: 6661928477140451332
+      type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: 1912522824, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+          time: 0.2
+        - sprite: {fileID: -668899572, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+          time: 0.2
+        - sprite: {fileID: -845581695, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+          time: 0.2
+        attackFrameIndex: 1
+        attackType: 1
+        particleAttack: {fileID: 0}
+    - rid: 6661928477140451333
+      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+      data:
+        frameSprites:
+        - sprite: {fileID: -1838078424, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+          time: 0.2
+        - sprite: {fileID: 1828134852, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+          time: 0.2

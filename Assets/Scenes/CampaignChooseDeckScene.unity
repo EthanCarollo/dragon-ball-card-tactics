@@ -1043,6 +1043,8 @@ MonoBehaviour:
   characterOneStarRow: {fileID: 1634924986}
   characterTwoStarRow: {fileID: 821783114}
   characterThreeAndFourStarRow: {fileID: 1677089426}
+  charAllDataCloned:
+    characters: []
 --- !u!1001 &956255667
 PrefabInstance:
   m_ObjectHideFlags: 0
