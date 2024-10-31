@@ -56,10 +56,7 @@ public class BoardCharacter : BoardObject
 
     public BoardCharacter(CharacterData character, bool isPlayerCharacter)
     {
-        this.character = character;
-        actualHealth = this.character.maxHealth;
-        actualKi = 0;
-        state = new DefaultCharacterState(this);
+        SetupCharacter(character);
         this.isPlayerCharacter = isPlayerCharacter;
         if (!isPlayerCharacter)
         {
@@ -69,6 +66,15 @@ public class BoardCharacter : BoardObject
         {
             direction = Vector2.right;
         }
+    }
+
+    public void SetupCharacter(CharacterData character)
+    {
+        this.character = character;
+        actualHealth = this.character.maxHealth;
+        actualKi = 0;
+        state = new DefaultCharacterState(this);
+        
     }
 
     public void UpdateState(BoardCharacterState newState)

@@ -17,8 +17,8 @@ MonoBehaviour:
   characterSprite: {fileID: 2183385103973273245, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
   characterIcon: {fileID: 2183385103973273245, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 250
-  maxKi: 50
+  maxHealth: 1250
+  maxKi: 20
   baseRange: 1
   baseDamage: 50
   baseArmor: 25
@@ -34,7 +34,7 @@ MonoBehaviour:
   criticalAttackAnimation:
     rid: 6661928477140451417
   specialAttackAnimation:
-    rid: 6661928477140451418
+    rid: 6661928477140451431
   references:
     version: 2
     RefIds:
@@ -80,8 +80,8 @@ MonoBehaviour:
         attackFrameIndex: 1
         attackType: 0
         particleAttack: {fileID: 0}
-    - rid: 6661928477140451418
-      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+    - rid: 6661928477140451431
+      type: {class: TransformAnimation, ns: , asm: Assembly-CSharp}
       data:
         frameSprites:
         - sprite: {fileID: 550230174701136562, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
@@ -92,3 +92,4 @@ MonoBehaviour:
           time: 0.2
         - sprite: {fileID: 4203582555193336223, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
           time: 0.2
+        newCharacterData: {fileID: 11400000, guid: b83b9b6454f4df849abb4f62e07221ef, type: 2}
