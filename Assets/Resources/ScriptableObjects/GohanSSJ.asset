@@ -94,5 +94,7 @@ MonoBehaviour:
         kikoha: {fileID: 609456551750124685, guid: 4473f6939c6aacb4dbaf4bcf4c37f1cd, type: 3}
         particleAttack: {fileID: 0}
         attackType: 0
+        attackMultiplicator: 10
         startMargin: {x: 0.4, y: 0.8}
-        kikohaSize: {x: 0, y: 0}
+        kikohaSize: {x: 5, y: 3}
+        dangerTileSprite: {fileID: 8717166587758634932, guid: 43810dc05c4eb654b9f2094c171a9ee1, type: 3}

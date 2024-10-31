@@ -63,11 +63,11 @@ public class BoardCharacter : BoardObject
         this.isPlayerCharacter = isPlayerCharacter;
         if (!isPlayerCharacter)
         {
-            direction = Vector2.right;
+            direction = Vector2.left;
         }
         else
         {
-            direction = Vector2.left;
+            direction = Vector2.right;
         }
     }
 
@@ -85,7 +85,7 @@ public class BoardCharacter : BoardObject
     {
         try
         {
-            gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().flipX = direction == Vector2.right;
+            gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().flipX = direction == Vector2.left;
         }
         catch (Exception e)
         {

@@ -122,4 +122,21 @@ public static class BoardUtils
             return direction;     
         }
     }
+
+    public static void InflictDamageInZone(Vector2Int[] tiles, int damage)
+    {
+        BoardObject[,] boardChar = GameManager.Instance.boardCharacterArray;
+
+        foreach (Vector2Int tile in tiles)
+        {
+            if (tile.x >= 0 && tile.x < boardChar.GetLength(0) && tile.y >= 0 && tile.y < boardChar.GetLength(1))
+            {
+                BoardObject boardObject = boardChar[tile.x, tile.y];
+                if (boardObject is BoardCharacter character)
+                {
+                    character.HitDamage(damage);
+                }
+            }
+        }
+    }
 }
