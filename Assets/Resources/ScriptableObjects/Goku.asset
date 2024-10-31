@@ -16,15 +16,15 @@ MonoBehaviour:
   characterName: Goku
   characterSprite: {fileID: -2228038483841953954, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
   characterIcon: {fileID: -2228038483841953954, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
-  characterPrefab: {fileID: 0}
-  maxHealth: 0
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 560
   maxKi: 50
   baseRange: 1
-  baseDamage: 0
-  baseArmor: 0
-  baseSpeed: 0
-  baseAttackSpeed: 0
-  baseCriticalChance: 0
+  baseDamage: 60
+  baseArmor: 10
+  baseSpeed: 2
+  baseAttackSpeed: 1
+  baseCriticalChance: 20
   idleAnimation:
     rid: 6661928477140451328
   runAnimation:
