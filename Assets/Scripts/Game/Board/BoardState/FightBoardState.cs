@@ -31,6 +31,11 @@ public class FightBoardState : BoardState
     {
         
     }
+
+    public override void EndFight()
+    {
+        board.UpdateState(new DefaultBoardState(board));
+    }
 }
 
 

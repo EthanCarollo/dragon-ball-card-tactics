@@ -141,4 +141,12 @@ public class BoardCharacter : BoardObject
             gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().StartCoroutine(animation.PlayAnimationCoroutine(this));
         }
     }
+
+    public override BoardObject Clone()
+    {
+        BoardCharacter clonedCharacter = new BoardCharacter(character, isPlayerCharacter);
+        clonedCharacter.SetGameObject(this.gameObject);
+        clonedCharacter.SetBoard(this.board); 
+        return clonedCharacter;
+    }
 }

@@ -19,4 +19,6 @@ public abstract class BoardObject
     
     public abstract void UpdateUi();
     public abstract void Update();
+    public abstract BoardObject Clone();
+
 }

@@ -39,6 +39,11 @@ public class FightBoard : Board
     {
         return state.IsFighting();
     }
+
+    public void EndFight()
+    {
+        state.EndFight();
+    }
     
     public override void CreateBoard()
     {

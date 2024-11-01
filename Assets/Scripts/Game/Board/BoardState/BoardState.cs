@@ -14,5 +14,6 @@
     
     public abstract void Update();
     public abstract void LaunchFight();
+    public abstract void EndFight();
 
 }
