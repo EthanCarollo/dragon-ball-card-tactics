@@ -8,6 +8,11 @@ public class FightBoardState : BoardState
         UpdateBoardForFight();
     }
 
+    public override bool IsFighting()
+    {
+        return true;
+    }
+
     private void UpdateBoardForFight()
     {
         for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)

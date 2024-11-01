@@ -35,6 +35,10 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
 
     public void OnDrag(PointerEventData eventData)
     {
+        if (FightBoard.Instance.IsFighting())
+        {
+            return;
+        }
         if (CharacterDragInfo.draggedObject == null)
         {
             Debug.Log("Drag a character");
@@ -57,6 +61,10 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        if (FightBoard.Instance.IsFighting())
+        {
+            return;
+        }
         if (CharacterDragInfo.draggedObject != null)
         {
             MonoBehaviour.DestroyImmediate(CharacterDragInfo.draggedObject);

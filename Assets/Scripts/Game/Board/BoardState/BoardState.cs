@@ -7,6 +7,12 @@
         this.board = board;  
     }
     
+    public virtual bool IsFighting()
+    {
+        return false;
+    }
+    
     public abstract void Update();
     public abstract void LaunchFight();
+
 }
