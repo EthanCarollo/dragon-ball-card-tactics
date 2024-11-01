@@ -54,4 +54,17 @@ public class GameManager
         }
         */
     }
+
+    public void SetupGameBoardForLevel(Level level, CharacterContainer[] playerCharacter)
+    {
+        foreach (var child in level.characters)
+        {
+            boardCharacterArray[child.position.x, child.position.y] = new BoardCharacter(new CharacterContainer(child.character.id), false);
+        }
+
+        for (int i = 0; i < playerCharacter.Length; i++)
+        {
+            boardUsableCharacterArray[i] = new BoardCharacter(playerCharacter[i], true);
+        }
+    }
 }

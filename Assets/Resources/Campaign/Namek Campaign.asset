@@ -16,4 +16,4 @@ MonoBehaviour:
   levels:
   - characters:
     - character: {fileID: 11400000, guid: 3b654c067b79c4fa4ab95152657c001e, type: 2}
-      position: {x: 0, y: 0}
+      position: {x: 8, y: 5}
