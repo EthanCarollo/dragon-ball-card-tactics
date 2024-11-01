@@ -67,16 +67,16 @@ public class FightBoard : Board
                 BoardArray[x, y] = tile;
             }
         }
-        InitializeCharacter();
+        InitializeCharacter(GameManager.Instance.boardCharacterArray);
     }
 
-    private void InitializeCharacter()
+    private void InitializeCharacter(BoardObject[,] characters)
     {
-        for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
+        for (int x = 0; x < characters.GetLength(0); x++)
         {
-            for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
+            for (int y = 0; y < characters.GetLength(1); y++)
             {
-                var boardObject = GameManager.Instance.boardCharacterArray[x, y];
+                var boardObject = characters[x, y];
                 if (boardObject == null) continue;
                 
                 float posX = x * _tileWidth;

@@ -139,4 +139,19 @@ public static class BoardUtils
             }
         }
     }
+
+    public static BoardObject[,] DuplicateBoardObjectGrid(BoardObject[,] board)
+    {
+        BoardObject[,] duplicateBoard = new BoardObject[board.GetLength(0), board.GetLength(1)];
+        
+        for (int i = 0; i < duplicateBoard.GetLength(0); i++)
+        {
+            for (int j = 0; j < duplicateBoard.GetLength(1); j++)
+            {
+                // Use the Clone method to duplicate each BoardObject
+                duplicateBoard[i, j] = board[i, j]?.Clone();
+            }
+        }
+        return duplicateBoard;
+    }
 }

@@ -32,10 +32,10 @@ public class DistanceAttackAnimation : BoardAnimation {
         SpriteRenderer spriteRenderer = newGameObject.AddComponent<SpriteRenderer>();
         spriteRenderer.sprite = projectile;
         spriteRenderer.sortingOrder = 3;
-        newGameObject.transform.position = character.gameObject.transform.position + new Vector3(startMargin.x, startMargin.y);
+        newGameObject.transform.position = character.gameObject.transform.position + new Vector3((startMargin.x * character.direction.x), startMargin.y);
         try
         {
-            LeanTween.move(newGameObject, character.GetCharacterTarget().gameObject.transform.position + new Vector3(0, 0.5f), 0.7f)
+            LeanTween.move(newGameObject, character.GetCharacterTarget().gameObject.transform.position + new Vector3(0, 0.5f), 0.1f)
             .setOnComplete(() => {
                 switch (attackType)
                 {
