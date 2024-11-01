@@ -17,6 +17,7 @@ public class CharacterContainer
     public CharacterContainer(int characterId)
     {
         this.characterId = characterId;
+        this.actualHealth = GetCharacterData().maxHealth;
     }
 
     public CharacterData GetCharacterData()
