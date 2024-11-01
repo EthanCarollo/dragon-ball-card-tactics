@@ -32,10 +32,10 @@ public class AttackingCharacterState : BoardCharacterState
         timeSinceLastAttack += Time.deltaTime;
         if (timeSinceLastAttack >= (1 / boardCharacter.character.GetAttackSpeed()))
         {
-            if (boardCharacter.actualKi >= boardCharacter.character.GetCharacterData().maxKi)
+            if (boardCharacter.character.actualKi >= boardCharacter.character.GetCharacterData().maxKi)
             {
                 boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterData().specialAttackAnimation);
-                boardCharacter.actualKi = 0;
+                boardCharacter.character.actualKi = 0;
             }
             else
             {

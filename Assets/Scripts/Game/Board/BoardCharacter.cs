@@ -7,9 +7,6 @@ using UnityEngine;
 public class BoardCharacter : BoardObject
 {
     public CharacterContainer character;
-
-    public int actualHealth;
-    public int actualKi;
     public BoardCharacterState state;
     public bool isPlayerCharacter;
     public Vector2 direction;
@@ -43,8 +40,6 @@ public class BoardCharacter : BoardObject
     public void SetupCharacter(CharacterContainer character)
     {
         this.character = character;
-        actualHealth = this.character.GetCharacterData().maxHealth;
-        actualKi = 0;
         state = new DefaultCharacterState(this);
         
     }
@@ -90,7 +85,7 @@ public class BoardCharacter : BoardObject
     public void HitDamage(int damageAmount)
     {
         
-        actualHealth -= damageAmount;
+        this.character.actualHealth -= damageAmount;
         SetCharacterSlider();
         if (this.character.IsDead() && isDying == false)
         {
@@ -116,10 +111,10 @@ public class BoardCharacter : BoardObject
 
     public void AddKi(int kiAmount)
     {
-        actualKi += kiAmount;
-        if (actualKi > this.character.GetCharacterData().maxKi)
+        this.character.actualKi += kiAmount;
+        if (this.character.actualKi > this.character.GetCharacterData().maxKi)
         {
-            actualKi = this.character.GetCharacterData().maxKi;
+            this.character.actualKi = this.character.GetCharacterData().maxKi;
         }
     }
 
@@ -128,9 +123,9 @@ public class BoardCharacter : BoardObject
         var charPrefabScript = gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
         
         charPrefabScript.kiSlider.maxValue = this.character.GetCharacterData().maxKi;
-        charPrefabScript.kiSlider.value = actualKi;
+        charPrefabScript.kiSlider.value = this.character.actualKi;
         charPrefabScript.healthSlider.maxValue = this.character.GetCharacterData().maxHealth;
-        charPrefabScript.healthSlider.value = actualHealth;
+        charPrefabScript.healthSlider.value = this.character.actualHealth;
     }
 
     public void PlayAnimation(BoardAnimation animation)

@@ -29,10 +29,10 @@ public class CharacterBoardUi : MonoBehaviour
                 characterBoardUi.gameObject.SetActive(true);
                 charNameText.text = boardCharacter.character.GetCharacterData().name;
                 charHealth.maxValue = boardCharacter.character.GetCharacterData().maxHealth;
-                charHealth.value = boardCharacter.actualHealth;
+                charHealth.value = boardCharacter.character.actualHealth;
                 
                 charKi.maxValue = boardCharacter.character.GetCharacterData().maxKi;
-                charKi.value = boardCharacter.actualKi;
+                charKi.value = boardCharacter.character.actualKi;
                 
                 charArmorText.text = boardCharacter.character.GetArmor().ToString();
                 charDamageText.text = boardCharacter.character.GetAttackDamage().ToString();
@@ -41,8 +41,8 @@ public class CharacterBoardUi : MonoBehaviour
                 
                 charStarText.text = boardCharacter.character.GetCharacterData().starNumber + " star";
                 
-                charHealthText.text = boardCharacter.actualHealth + " / " + boardCharacter.character.GetCharacterData().maxHealth;
-                charKiText.text = boardCharacter.actualKi + " / " + boardCharacter.character.GetCharacterData().maxKi;
+                charHealthText.text = boardCharacter.character.actualHealth + " / " + boardCharacter.character.GetCharacterData().maxHealth;
+                charKiText.text = boardCharacter.character.actualKi + " / " + boardCharacter.character.GetCharacterData().maxKi;
                 charImage.sprite = boardCharacter.character.GetCharacterData().characterSprite;
         }
 
