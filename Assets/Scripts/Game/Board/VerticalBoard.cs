@@ -50,7 +50,7 @@ public class VerticalBoard : Board
             try {
                 if (boardObject is BoardCharacter character)
                 {
-                    GameObject characterGameObject = Instantiate(character.character.characterPrefab, position, Quaternion.identity, transform);
+                    GameObject characterGameObject = Instantiate(character.character.GetCharacterData().characterPrefab, position, Quaternion.identity, transform);
                     character.SetGameObject(characterGameObject);
                     character.SetBoard(this);
                     var charPrefabScript = characterGameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
@@ -61,7 +61,7 @@ public class VerticalBoard : Board
                         new Color(character.isPlayerCharacter? 0f: 1f, 0f, character.isPlayerCharacter? 1f: 0f, 0.2f);
                     charPrefabScript.spriteRenderer.sortingOrder = 4;
                     charPrefabScript.spriteRenderer.flipX = !character.isPlayerCharacter;
-                    charPrefabScript.spriteRenderer.sprite = character.character.characterSprite;
+                    charPrefabScript.spriteRenderer.sprite = character.character.GetCharacterData().characterSprite;
                     character.SetCharacterSlider();
                 }
             }
@@ -69,7 +69,7 @@ public class VerticalBoard : Board
                 Debug.LogError(e);
                 if (boardObject is BoardCharacter character)
                 {
-                    Debug.Log("Exception when instantiating game object of character : " + character.character.characterName);
+                    Debug.Log("Exception when instantiating game object of character : " + character.character.GetCharacterData().characterName);
                 }
                 else
                 {

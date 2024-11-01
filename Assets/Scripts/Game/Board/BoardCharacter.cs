@@ -6,7 +6,7 @@ using UnityEngine;
 [Serializable]
 public class BoardCharacter : BoardObject
 {
-    public CharacterData character;
+    public CharacterContainer character;
 
     public int actualHealth;
     public int actualKi;
@@ -18,34 +18,6 @@ public class BoardCharacter : BoardObject
     public bool isAnimating = false;
 
     public bool isDying = false;
-    public bool IsDead()
-    {
-        return actualHealth <= 0;
-    }
-    public int GetAttackDamage()
-    {
-        return character.baseDamage;
-    }
-    public int GetArmor()
-    {
-        return character.baseArmor;
-    }
-    public int GetSpeed()
-    {
-        return character.baseSpeed;
-    }
-    public float GetAttackSpeed()
-    {
-        return character.baseAttackSpeed;
-    }
-    public int GetCriticalChance()
-    {
-        return character.baseCriticalChance;
-    }
-    public int GetRange()
-    {
-        return character.baseRange;
-    }
     public BoardCharacter GetCharacterTarget()
     {
         if(state is AttackingCharacterState fightState){
@@ -54,7 +26,7 @@ public class BoardCharacter : BoardObject
         return null;
     }
 
-    public BoardCharacter(CharacterData character, bool isPlayerCharacter)
+    public BoardCharacter(CharacterContainer character, bool isPlayerCharacter)
     {
         SetupCharacter(character);
         this.isPlayerCharacter = isPlayerCharacter;
@@ -68,10 +40,10 @@ public class BoardCharacter : BoardObject
         }
     }
 
-    public void SetupCharacter(CharacterData character)
+    public void SetupCharacter(CharacterContainer character)
     {
         this.character = character;
-        actualHealth = this.character.maxHealth;
+        actualHealth = this.character.GetCharacterData().maxHealth;
         actualKi = 0;
         state = new DefaultCharacterState(this);
         
@@ -102,17 +74,17 @@ public class BoardCharacter : BoardObject
 
     public void Attack(Particle particle = null)
     {
-        state.Attack(GetAttackDamage(), particle);
+        state.Attack(this.character.GetAttackDamage(), particle);
     }
 
     public void CriticalAttack(Particle particle = null)
     {
-        state.Attack(GetAttackDamage() * 2, particle);
+        state.Attack(this.character.GetAttackDamage() * 2, particle);
     }
 
     public void SpecialAttack(Particle particle = null)
     {
-        state.Attack(GetAttackDamage(), particle);
+        state.Attack(this.character.GetAttackDamage(), particle);
     }
 
     public void HitDamage(int damageAmount)
@@ -120,7 +92,7 @@ public class BoardCharacter : BoardObject
         
         actualHealth -= damageAmount;
         SetCharacterSlider();
-        if (IsDead() && isDying == false)
+        if (this.character.IsDead() && isDying == false)
         {
             Disappear();    
         }
@@ -145,9 +117,9 @@ public class BoardCharacter : BoardObject
     public void AddKi(int kiAmount)
     {
         actualKi += kiAmount;
-        if (actualKi > character.maxKi)
+        if (actualKi > this.character.GetCharacterData().maxKi)
         {
-            actualKi = character.maxKi;
+            actualKi = this.character.GetCharacterData().maxKi;
         }
     }
 
@@ -155,9 +127,9 @@ public class BoardCharacter : BoardObject
     {
         var charPrefabScript = gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
         
-        charPrefabScript.kiSlider.maxValue = character.maxKi;
+        charPrefabScript.kiSlider.maxValue = this.character.GetCharacterData().maxKi;
         charPrefabScript.kiSlider.value = actualKi;
-        charPrefabScript.healthSlider.maxValue = character.maxHealth;
+        charPrefabScript.healthSlider.maxValue = this.character.GetCharacterData().maxHealth;
         charPrefabScript.healthSlider.value = actualHealth;
     }
 

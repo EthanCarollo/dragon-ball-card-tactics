@@ -1,41 +1,55 @@
 using System;
+using System.Collections.Generic;
 
 [Serializable]
-public class CharacterDeck
+public class CharacterInventory
 {
-    public CharactersContainer characters = new CharactersContainer(12);
+    public List<CharacterContainer> characters = new List<CharacterContainer>();
 }
 
 [Serializable]
-public class CharactersContainer
+public class CharacterContainer
 {
-    public CharacterData[] characters;
-
-    public CharactersContainer(int size)
+    public int characterId;
+    public int actualHealth;
+    public int actualKi;
+    
+    public CharacterContainer(int characterId)
     {
-        characters = new CharacterData[size];
+        this.characterId = characterId;
+    }
+
+    public CharacterData GetCharacterData()
+    {
+        return CharacterDatabase.Instance.GetCharacterById(characterId);
     }
     
-    public void AddCharacter(CharacterData character, int index)
+    public bool IsDead()
     {
-        this.characters[index] = character;
+        return actualHealth <= 0;
     }
-
-    public bool SwapCharacter(CharactersContainer charContainer, int indexFrom, int indexTarget)
+    public int GetAttackDamage()
     {
-        var character1 = characters[indexFrom];
-        var character2 = charContainer.characters[indexTarget];
-        
-        AddCharacter(character2, indexFrom);
-        charContainer.AddCharacter(character1, indexTarget);
-
-        return true;
+        return GetCharacterData().baseDamage;
     }
-    
-    public CharactersContainer Clone()
+    public int GetArmor()
     {
-        CharactersContainer clone = new CharactersContainer(characters.Length);
-        clone.characters = (CharacterData[])this.characters.Clone();
-        return clone;
+        return GetCharacterData().baseArmor;
+    }
+    public int GetSpeed()
+    {
+        return GetCharacterData().baseSpeed;
+    }
+    public float GetAttackSpeed()
+    {
+        return GetCharacterData().baseAttackSpeed;
+    }
+    public int GetCriticalChance()
+    {
+        return GetCharacterData().baseCriticalChance;
+    }
+    public int GetRange()
+    {
+        return GetCharacterData().baseRange;
     }
 }

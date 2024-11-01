@@ -43,7 +43,7 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
             mousePosition.z = 10f; 
             CharacterDragInfo.draggedObject.transform.position = Camera.main.ScreenToWorldPoint(mousePosition);
             SpriteRenderer spRenderer = CharacterDragInfo.draggedObject.AddComponent<SpriteRenderer>();
-            spRenderer.sprite = boardCharacter.character.characterSprite;
+            spRenderer.sprite = boardCharacter.character.GetCharacterData().characterSprite;
             spRenderer.color = new Color(1f, 1f, 1f, 0.5f);
             spRenderer.sortingOrder = 10;
         }

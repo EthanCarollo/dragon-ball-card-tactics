@@ -8,7 +8,7 @@ public class DefaultCharacterState : BoardCharacterState
     
     public override void Update()
     {
-        if (boardCharacter.IsDead())
+        if (boardCharacter.character.IsDead())
         {
             return;
         }
@@ -41,16 +41,16 @@ public class DefaultCharacterState : BoardCharacterState
             {
                 var boardObject = boardCharacters[x, y];
                 if (boardObject == null) continue;
-                if (boardObject is BoardCharacter character && character.isPlayerCharacter != boardCharacter.isPlayerCharacter && character.IsDead() == false)
+                if (boardObject is BoardCharacter character && character.isPlayerCharacter != boardCharacter.isPlayerCharacter && character.character.IsDead() == false)
                 {
-                    Vector2Int? emptyPosition = BoardUtils.GetFirstEmptyAround(boardCharacters, boardCharacter,  character, boardCharacter.GetRange());
+                    Vector2Int? emptyPosition = BoardUtils.GetFirstEmptyAround(boardCharacters, boardCharacter,  character, boardCharacter.character.GetRange());
                     if (emptyPosition.HasValue)
                     {
                         // If he is already in front of a character, just put it in AttackState so !
                         if (characterPosition == emptyPosition.Value)
                         {
                             boardCharacter.nextPosition = new Vector2Int(-1, -1);
-                            boardCharacter.PlayAnimation(boardCharacter.character.idleAnimation);
+                            boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterData().idleAnimation);
                             boardCharacter.UpdateState(new AttackingCharacterState(boardCharacter, character));
                             return;
                         }
@@ -69,7 +69,7 @@ public class DefaultCharacterState : BoardCharacterState
                         }
                         catch (Exception e)
                         {
-                            Debug.LogError("Got an error on finding path from " + boardCharacter.character.name + " to " + character.character.name + ": " + e);
+                            Debug.LogError("Got an error on finding path from " + boardCharacter.character.GetCharacterData().name + " to " + character.character.GetCharacterData().name + ": " + e);
                         }
                     }
                 }
@@ -81,8 +81,8 @@ public class DefaultCharacterState : BoardCharacterState
     private void MoveTowardsTarget()
     {
         Vector2 targetPosition = boardCharacter.nextPosition;
-        float step = boardCharacter.character.baseSpeed * Time.deltaTime;
-        boardCharacter.PlayAnimationIfNotRunning(boardCharacter.character.runAnimation);
+        float step = boardCharacter.character.GetCharacterData().baseSpeed * Time.deltaTime;
+        boardCharacter.PlayAnimationIfNotRunning(boardCharacter.character.GetCharacterData().runAnimation);
         boardCharacter.gameObject.transform.position = Vector3.MoveTowards(boardCharacter.gameObject.transform.position, targetPosition, step);
         if (Vector3.Distance(boardCharacter.gameObject.transform.position, targetPosition) < 0.001f)
         {

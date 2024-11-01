@@ -22,14 +22,19 @@ public class GameManager
     
     public BoardObject[] boardUsableCharacterArray;
     public BoardObject[,] boardCharacterArray;
-    public CharacterDeck characterDeck;
+    public CharacterInventory characterInventory;
     public CampaignManager campaignManager;
     public int CurrentMana = 1;
     public int MaxMana = 1;
 
     private GameManager()
     {
-        characterDeck = new CharacterDeck();
+        characterInventory = new CharacterInventory();
+        if (DebugMode)
+        {
+            characterInventory.characters.Add(new CharacterContainer(1));
+            characterInventory.characters.Add(new CharacterContainer(2));
+        }
         campaignManager = new CampaignManager();
         
         boardCharacterArray = new BoardObject[BoardWidth, BoardHeight];
@@ -37,6 +42,7 @@ public class GameManager
         // TODO : cause actually it's the value in vertical board lol
         boardUsableCharacterArray = new BoardObject[8]; 
         
+        /*
         // TODO : temporary
         if (DebugMode)
         // if(false)
@@ -46,5 +52,6 @@ public class GameManager
             //boardUsableCharacterArray[0] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/BlackGoku"), true);
             boardCharacterArray[7, 4] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/BlackGoku"), false);
         }
+        */
     }
 }

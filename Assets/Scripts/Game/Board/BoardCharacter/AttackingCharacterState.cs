@@ -13,57 +13,57 @@ public class AttackingCharacterState : BoardCharacterState
     
     public override void Update()
     {
-        if (characterTarget != null && characterTarget.IsDead() == false && characterTarget.gameObject != null)
+        if (characterTarget != null && characterTarget.character.IsDead() == false && characterTarget.gameObject != null)
         {
             boardCharacter.direction = BoardUtils.GetDirectionVector(
                 characterTarget.gameObject.transform.position - boardCharacter.gameObject.transform.position); 
         }
         
-        if (boardCharacter.IsDead())
+        if (boardCharacter.character.IsDead())
         {
             return;
         }
 
-        if (characterTarget.IsDead())
+        if (characterTarget.character.IsDead())
         {
             boardCharacter.UpdateState(new DefaultCharacterState(boardCharacter));
             return;
         }
         timeSinceLastAttack += Time.deltaTime;
-        if (timeSinceLastAttack >= (1 / boardCharacter.GetAttackSpeed()))
+        if (timeSinceLastAttack >= (1 / boardCharacter.character.GetAttackSpeed()))
         {
-            if (boardCharacter.actualKi >= boardCharacter.character.maxKi)
+            if (boardCharacter.actualKi >= boardCharacter.character.GetCharacterData().maxKi)
             {
-                boardCharacter.PlayAnimation(boardCharacter.character.specialAttackAnimation);
+                boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterData().specialAttackAnimation);
                 boardCharacter.actualKi = 0;
             }
             else
             {
-                if(IsCritical(boardCharacter.GetCriticalChance()) == true)
+                if(IsCritical(boardCharacter.character.GetCriticalChance()) == true)
                 {
-                    boardCharacter.PlayAnimation(boardCharacter.character.criticalAttackAnimation);
+                    boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterData().criticalAttackAnimation);
                     boardCharacter.AddKi(15);    
                 } else {
-                    boardCharacter.PlayAnimation(boardCharacter.character.attackAnimation);
+                    boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterData().attackAnimation);
                     boardCharacter.AddKi(15);
                 }
             }
             timeSinceLastAttack = 0f;
         }
-        boardCharacter.PlayAnimationIfNotRunning(boardCharacter.character.idleAnimation);
+        boardCharacter.PlayAnimationIfNotRunning(boardCharacter.character.GetCharacterData().idleAnimation);
         boardCharacter.SetCharacterSlider();
     }
     
     public override void Attack(int damage, Particle particle = null)
     {
-        if (boardCharacter.IsDead())
+        if (boardCharacter.character.IsDead())
         {
             return;
         }
         if (particle != null) {
             particle.StartParticle(characterTarget.gameObject.transform.position);
         }
-        characterTarget.HitDamage(boardCharacter.character.baseDamage);
+        characterTarget.HitDamage(boardCharacter.character.GetCharacterData().baseDamage);
     }
 
     static bool IsCritical(int chance)

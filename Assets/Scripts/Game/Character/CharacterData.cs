@@ -5,6 +5,7 @@ using UnityEngine;
 public class CharacterData : ScriptableObject
 {
     // The starNumber is also the cost of the "card"
+    public int id = 0;
     public int starNumber = 1;
     public string characterName;
 

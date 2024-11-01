@@ -6,7 +6,7 @@ public class CharacterDatabase : ScriptableObject
 {
     private static CharacterDatabase _instance;
     
-    public CharactersContainer characterDatas;
+    public CharacterData[] characterDatas;
 
     public static CharacterDatabase Instance
     {
@@ -19,8 +19,36 @@ public class CharacterDatabase : ScriptableObject
                 {
                     Debug.LogError("CharacterDatabase instance not found in Resources folder!");
                 }
+                AssignUniqueIDs();
             }
             return _instance;
         }
+    }
+
+    private static void AssignUniqueIDs()
+    {
+        if (_instance.characterDatas != null)
+        {
+            for (int i = 0; i < _instance.characterDatas.Length; i++)
+            {
+                _instance.characterDatas[i].id = i;
+            }
+        }
+    }
+    
+    public CharacterData GetCharacterById(int id)
+    {
+        if (characterDatas != null)
+        {
+            foreach (var character in characterDatas)
+            {
+                if (character.id == id)
+                {
+                    return character;
+                }
+            }
+        }
+        Debug.LogWarning($"Character with ID {id} not found.");
+        return null; 
     }
 }

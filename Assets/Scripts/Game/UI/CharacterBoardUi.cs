@@ -27,23 +27,23 @@ public class CharacterBoardUi : MonoBehaviour
                         return;
                 }
                 characterBoardUi.gameObject.SetActive(true);
-                charNameText.text = boardCharacter.character.name;
-                charHealth.maxValue = boardCharacter.character.maxHealth;
+                charNameText.text = boardCharacter.character.GetCharacterData().name;
+                charHealth.maxValue = boardCharacter.character.GetCharacterData().maxHealth;
                 charHealth.value = boardCharacter.actualHealth;
                 
-                charKi.maxValue = boardCharacter.character.maxKi;
+                charKi.maxValue = boardCharacter.character.GetCharacterData().maxKi;
                 charKi.value = boardCharacter.actualKi;
                 
-                charArmorText.text = boardCharacter.GetArmor().ToString();
-                charDamageText.text = boardCharacter.GetAttackDamage().ToString();
-                charSpeedText.text = boardCharacter.GetSpeed().ToString();
-                charAttackSpeedText.text = boardCharacter.GetAttackSpeed().ToString();
+                charArmorText.text = boardCharacter.character.GetArmor().ToString();
+                charDamageText.text = boardCharacter.character.GetAttackDamage().ToString();
+                charSpeedText.text = boardCharacter.character.GetSpeed().ToString();
+                charAttackSpeedText.text = boardCharacter.character.GetAttackSpeed().ToString();
                 
-                charStarText.text = boardCharacter.character.starNumber + " star";
+                charStarText.text = boardCharacter.character.GetCharacterData().starNumber + " star";
                 
-                charHealthText.text = boardCharacter.actualHealth + " / " + boardCharacter.character.maxHealth;
-                charKiText.text = boardCharacter.actualKi + " / " + boardCharacter.character.maxKi;
-                charImage.sprite = boardCharacter.character.characterSprite;
+                charHealthText.text = boardCharacter.actualHealth + " / " + boardCharacter.character.GetCharacterData().maxHealth;
+                charKiText.text = boardCharacter.actualKi + " / " + boardCharacter.character.GetCharacterData().maxKi;
+                charImage.sprite = boardCharacter.character.GetCharacterData().characterSprite;
         }
 
         public void ShowCharacterBoard(BoardCharacter character)

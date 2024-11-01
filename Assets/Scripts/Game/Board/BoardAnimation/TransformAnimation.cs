@@ -18,7 +18,7 @@ public class TransformAnimation : BoardAnimation {
             index++;
         }
         // Transform the character into a new character
-        character.SetupCharacter(newCharacterData);
+        character.SetupCharacter(new CharacterContainer(newCharacterData.id));
         
         character.isAnimating = false;
     }

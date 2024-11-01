@@ -71,7 +71,7 @@ public class ChargedKiAttackAnimation : BoardAnimation
 
         newGameObject.LeanScale(new Vector3(1, 1, 0), 0.3f).setOnComplete(() =>
         {
-            BoardUtils.InflictDamageInZone(dangerTilesPositions.ToArray(), character.GetAttackDamage() * attackMultiplicator); 
+            BoardUtils.InflictDamageInZone(dangerTilesPositions.ToArray(), character.character.GetAttackDamage() * attackMultiplicator); 
             LeanTween.value(newGameObject, f => spriteRenderer.color = new Color(1f, 1f, 1f, f), 1f, 0f, 0.3f).setOnComplete(() =>
             {
                 foreach (var tile in dangerTiles)
