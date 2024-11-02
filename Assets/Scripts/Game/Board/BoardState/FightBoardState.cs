@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class FightBoardState : BoardState
 {
@@ -69,8 +71,30 @@ public class FightBoardState : BoardState
     {
         // TODO : implement the logics for go to the next fight !
         Debug.Log("Ending fight");
+        board.StartCoroutine(EndFightCoroutine());
+    }
+
+    private bool userClicked = false;
+
+    public IEnumerator EndFightCoroutine(bool win = true)
+    {
+        Debug.Log("Ending fight coroutine called");
+        board.UpdateState(new DefaultBoardState(board));
+        EndFightPanelUi.Instance.SetupEndFightPanel();
+        Button endFightButton = EndFightPanelUi.Instance.EndFightButton;
+        endFightButton.onClick.AddListener(OnUserClick);
+        while (!userClicked)
+        {
+            yield return null; 
+        }
+        endFightButton.onClick.RemoveListener(OnUserClick);
+        EndFightPanelUi.Instance.CloseEndFightPanel();
         GameManager.Instance.boardCharacterArray = boardBeforeFight;
         board.CreateBoard();
-        board.UpdateState(new DefaultBoardState(board));
+    }
+
+    private void OnUserClick()
+    {
+        userClicked = true;
     }
 }
