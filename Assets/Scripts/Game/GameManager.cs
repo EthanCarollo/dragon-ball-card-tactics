@@ -24,6 +24,10 @@ public class GameManager
     public BoardObject[,] boardCharacterArray;
     public CharacterInventory characterInventory;
     public CampaignManager campaignManager;
+
+    public Campaign actualCampaign;
+    public int actualCampaignLevel = 0;
+
     public int CurrentMana = 1;
     public int MaxMana = 1;
 
@@ -55,13 +59,41 @@ public class GameManager
         */
     }
 
-    public void SetupGameBoardForLevel(Level level, CharacterContainer[] playerCharacter)
+    public void SetupCampaign(Campaign campaign){
+        actualCampaignLevel = 0;
+        actualCampaign = campaign;
+        SetupGameBoardForLevel(actualCampaign.levels[actualCampaignLevel], new CharacterContainer[]
+            {
+                characterInventory.characters[0]
+            });
+    }
+
+    public void GoNextLevel(){
+        actualCampaignLevel++;
+        SetupGameBoardForLevel(actualCampaign.levels[actualCampaignLevel]);
+    }
+
+    public void SetupGameBoardForLevel(Level level, CharacterContainer[] playerCharacter = null)
     {
+        // Clean board before going on level.
+        for (int x = 0; x < boardCharacterArray.GetLength(0); x++)
+        {
+            for (int y = 0; y < boardCharacterArray.GetLength(1); y++)
+            {
+                var boardObject = boardCharacterArray[x, y];
+                if (boardObject is BoardCharacter character && character != null && character.character.IsDead())
+                {
+                    boardCharacterArray[x, y] = null;
+                }
+            }
+        }
+
         foreach (var child in level.characters)
         {
             boardCharacterArray[child.position.x, child.position.y] = new BoardCharacter(new CharacterContainer(child.character.id), false);
         }
 
+        if(playerCharacter == null) return;
         for (int i = 0; i < playerCharacter.Length; i++)
         {
             boardUsableCharacterArray[i] = new BoardCharacter(playerCharacter[i], true);

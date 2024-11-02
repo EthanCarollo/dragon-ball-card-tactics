@@ -9,10 +9,7 @@ public static class CampaignUtils
         if (campaign != null)
         {
             SceneTransitor.Instance.LoadScene(0);
-            GameManager.Instance.SetupGameBoardForLevel(campaign.levels[0], new CharacterContainer[]
-            {
-                GameManager.Instance.characterInventory.characters[0]
-            });
+            GameManager.Instance.SetupCampaign(campaign);
         }
         else
         {

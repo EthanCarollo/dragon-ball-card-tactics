@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: BlackGoku
   m_EditorClassIdentifier: 
+  id: 0
   starNumber: 1
   characterName: Black Goku
   characterSprite: {fileID: -4702700919613018773, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
   characterIcon: {fileID: -7078338717840330999, guid: 3407391041a8c6c43aea578c78078f0c, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 3500
+  maxHealth: 240
   maxKi: 25
   baseRange: 1
   baseDamage: 55
