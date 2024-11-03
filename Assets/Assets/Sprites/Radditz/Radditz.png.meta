@@ -549,7 +549,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Radditz_0: -8592258370221348547
+      Radditz_1: 4680703179301430304
+      Radditz_10: 3620815154800865340
+      Radditz_11: 138510935363530231
+      Radditz_12: 1206155726649299318
+      Radditz_13: -5027102514719756393
+      Radditz_14: -571646703329762881
+      Radditz_2: -1590363816094372408
+      Radditz_3: 6086506175407863491
+      Radditz_4: 5967726592985239999
+      Radditz_5: -1947964580739682570
+      Radditz_6: 3796572565971391334
+      Radditz_7: -2366005151250124487
+      Radditz_8: -8036578601282967702
+      Radditz_9: -4226846400686869062
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

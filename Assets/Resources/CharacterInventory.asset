@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characters:
   - characterId: 0
-    actualHealth: 175
+    actualHealth: 450
     actualKi: 50
     selectedUltimateAttack: 0
   - characterId: 1

@@ -410,9 +410,11 @@ MonoBehaviour:
   boardCharacter:
     gameObject: {fileID: 0}
     board: {fileID: 0}
-    character: {fileID: 0}
-    actualHealth: 0
-    actualKi: 0
+    character:
+      characterId: 0
+      actualHealth: 0
+      actualKi: 0
+      selectedUltimateAttack: 0
     isPlayerCharacter: 0
     direction: {x: 0, y: 0}
     nextPosition: {x: 0, y: 0}
@@ -422,6 +424,8 @@ MonoBehaviour:
   spriteSocle: {fileID: 4421751033374305323}
   healthSlider: {fileID: 3010573798188729012}
   kiSlider: {fileID: 9222019158209462536}
+  assignedBoard: {fileID: 0}
+  position: {x: 0, y: 0}
 --- !u!61 &21580123674605596
 BoxCollider2D:
   m_ObjectHideFlags: 0
