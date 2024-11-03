@@ -24,6 +24,7 @@ public class GameManager
     public BoardObject[,] boardCharacterArray;
     public CharacterInventory characterInventory;
     public CampaignManager campaignManager;
+    public Galaxy actualGalaxy;
 
     public Campaign actualCampaign;
     public int actualCampaignLevel = 0;
@@ -33,6 +34,7 @@ public class GameManager
 
     private GameManager()
     {
+        actualGalaxy = GalaxyDatabase.Instance.galaxies[0];
         characterInventory = CharacterInventory.Instance;
         campaignManager = new CampaignManager();
         
