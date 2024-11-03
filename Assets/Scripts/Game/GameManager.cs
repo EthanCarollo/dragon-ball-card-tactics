@@ -33,12 +33,7 @@ public class GameManager
 
     private GameManager()
     {
-        characterInventory = new CharacterInventory();
-        if (DebugMode)
-        {
-            characterInventory.characters.Add(new CharacterContainer(1));
-            characterInventory.characters.Add(new CharacterContainer(2));
-        }
+        characterInventory = CharacterInventory.Instance;
         campaignManager = new CampaignManager();
         
         boardCharacterArray = new BoardObject[BoardWidth, BoardHeight];

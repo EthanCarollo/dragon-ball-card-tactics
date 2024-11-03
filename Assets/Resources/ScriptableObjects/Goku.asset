@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku
   m_EditorClassIdentifier: 
+  id: 3
   starNumber: 1
   characterName: Goku
-  characterSprite: {fileID: -2228038483841953954, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
-  characterIcon: {fileID: -2228038483841953954, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+  characterSprite: {fileID: 4344058998117034605, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
+  characterIcon: {fileID: 7404681743806431914, guid: ad2c3b95b09114d4dbd4fe2ae4522976, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
   maxHealth: 560
   maxKi: 50
@@ -34,7 +35,7 @@ MonoBehaviour:
   criticalAttackAnimation:
     rid: 6661928477140451332
   specialAttackAnimation:
-    rid: 6661928477140451333
+    rid: 8561309989473615946
   references:
     version: 2
     RefIds:
@@ -42,27 +43,25 @@ MonoBehaviour:
       type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
       data:
         frameSprites:
-        - sprite: {fileID: -2228038483841953954, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+        - sprite: {fileID: 4344058998117034605, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
           time: 0.2
     - rid: 6661928477140451330
       type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
       data:
         frameSprites:
-        - sprite: {fileID: 4367443089448301319, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+        - sprite: {fileID: -2087588842383588521, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
           time: 0.2
-        - sprite: {fileID: -2552363584548547819, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+        - sprite: {fileID: -2087588842383588521, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
           time: 0.2
-        - sprite: {fileID: -2003225697594452761, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+        - sprite: {fileID: -2087588842383588521, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
           time: 0.2
     - rid: 6661928477140451331
       type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
       data:
         frameSprites:
-        - sprite: {fileID: 6653981442661384162, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+        - sprite: {fileID: 1377344680800882612, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
           time: 0.2
-        - sprite: {fileID: 1412831991072362571, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
-          time: 0.2
-        - sprite: {fileID: 1452221654, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+        - sprite: {fileID: 9119377417410612069, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
           time: 0.2
         attackFrameIndex: 1
         attackType: 0
@@ -71,20 +70,23 @@ MonoBehaviour:
       type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
       data:
         frameSprites:
-        - sprite: {fileID: 1912522824, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+        - sprite: {fileID: -2649471021478389670, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
           time: 0.2
-        - sprite: {fileID: -668899572, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
-          time: 0.2
-        - sprite: {fileID: -845581695, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+        - sprite: {fileID: -5703896066744673910, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
           time: 0.2
         attackFrameIndex: 1
         attackType: 1
         particleAttack: {fileID: 0}
-    - rid: 6661928477140451333
-      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+    - rid: 8561309989473615946
+      type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
       data:
         frameSprites:
-        - sprite: {fileID: -1838078424, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+        - sprite: {fileID: 4132425920287079562, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
           time: 0.2
-        - sprite: {fileID: 1828134852, guid: f0e1b78ea6d678b4081aecce383645f5, type: 3}
+        - sprite: {fileID: -3575370621817152959, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
           time: 0.2
+        - sprite: {fileID: 4498260699753539763, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
+          time: 0.2
+        attackFrameIndex: 1
+        attackType: 1
+        particleAttack: {fileID: 0}

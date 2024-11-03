@@ -1,10 +1,28 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
-[Serializable]
-public class CharacterInventory
+[CreateAssetMenu(fileName = "CharacterInventory", menuName = "Character/CharacterInventory")]
+public class CharacterInventory : ScriptableObject
 {
     public List<CharacterContainer> characters = new List<CharacterContainer>();
+
+    private static CharacterInventory _instance;
+    public static CharacterInventory Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = Resources.Load<CharacterInventory>("CharacterInventory");
+                if (_instance == null)
+                {
+                    Debug.LogError("CampaignDatabase instance not found in Resources folder!");
+                }
+            }
+            return _instance;
+        }
+    }
 }
 
 [Serializable]

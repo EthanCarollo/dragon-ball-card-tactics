@@ -1,8 +1,9 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class CharacterInfoButton : MonoBehaviour
+public class CharacterInfoButton : MonoBehaviour, IPointerClickHandler
 {
     public TextMeshProUGUI characterName;
     public TextMeshProUGUI characterHp;
@@ -16,5 +17,10 @@ public class CharacterInfoButton : MonoBehaviour
         healthSlider.maxValue = characterData.GetCharacterData().maxHealth;
         healthSlider.value = characterData.actualHealth;
         characterHp.text = characterData.actualHealth + " / " + characterData.GetCharacterData().maxHealth + " HP";
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        
     }
 }
