@@ -1,5 +1,6 @@
 ﻿
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 [CreateAssetMenu(fileName = "NewCharacterData", menuName = "Character/CharacterData")]
 public class CharacterData : ScriptableObject
@@ -8,6 +9,7 @@ public class CharacterData : ScriptableObject
     public int id = 0;
     public int starNumber = 1;
     public string characterName;
+    public CharacterRole role = CharacterRole.DPS;
 
     public Sprite characterSprite;
     public Sprite characterIcon;
@@ -19,7 +21,7 @@ public class CharacterData : ScriptableObject
     public int baseRange = 1;
     public int baseDamage = 50;
     public int baseArmor = 25;
-    public int baseSpeed= 2;
+    public int baseSpeed = 2;
     public float baseAttackSpeed = 0.5f;
     // baseCriticalChance is a percentage
     public int baseCriticalChance = 10;
@@ -34,4 +36,10 @@ public class CharacterData : ScriptableObject
     public BoardAnimation criticalAttackAnimation;
     [SerializeReference, SubclassSelector]
     public BoardAnimation specialAttackAnimation;
+}
+
+public enum CharacterRole
+{
+    DPS,
+    TANK
 }
