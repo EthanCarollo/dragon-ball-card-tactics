@@ -3,7 +3,7 @@ using System.Collections;
 using System;
 
 
-[Serializable]
+[CreateAssetMenu(fileName = "New Distance Attack Animation", menuName = "BoardAnimation/DistanceAttackAnimation")]
 public class DistanceAttackAnimation : BoardAnimation {
     public int attackFrameIndex;
     public Sprite projectile;

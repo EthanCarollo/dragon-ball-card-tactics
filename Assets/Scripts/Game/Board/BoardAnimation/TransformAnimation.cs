@@ -3,7 +3,8 @@ using System.Collections;
 using System;
 
 
-[Serializable]
+
+[CreateAssetMenu(fileName = "New Transform Animation", menuName = "BoardAnimation/ChargedKiAnimation")]
 public class TransformAnimation : BoardAnimation {
     public CharacterData newCharacterData;
 

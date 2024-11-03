@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-[Serializable]
+[CreateAssetMenu(fileName = "New Charged Ki Animation", menuName = "BoardAnimation/ChargedKiAnimation")]
 public class ChargedKiAttackAnimation : BoardAnimation
 {
     public int attackFrameIndex;

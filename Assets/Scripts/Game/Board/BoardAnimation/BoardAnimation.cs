@@ -3,8 +3,9 @@ using System.Collections;
 using System;
 using UnityEditor.UIElements;
 
-[Serializable]
-public class BoardAnimation {
+
+[CreateAssetMenu(fileName = "New Board Animation", menuName = "BoardAnimation/BoardAnimation")]
+public class BoardAnimation : ScriptableObject {
     [SerializeField]
     public FrameSprite[] frameSprites;
 

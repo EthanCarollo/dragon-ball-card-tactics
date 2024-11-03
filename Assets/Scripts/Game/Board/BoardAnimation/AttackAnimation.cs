@@ -3,7 +3,8 @@ using System.Collections;
 using System;
 
 
-[Serializable]
+
+[CreateAssetMenu(fileName = "New Attack Animation", menuName = "BoardAnimation/AttackAnimation")]
 public class AttackAnimation : BoardAnimation
 {
     public int attackFrameIndex;

@@ -15,9 +15,9 @@ MonoBehaviour:
   campaignName: Black Goku Campaign
   levels:
   - characters:
-    - character: {fileID: 11400000, guid: ac72f6a18f0a842688041dbdc2bf8d78, type: 2}
+    - character: {fileID: 11400000, guid: 82da0d1d9b9acaf46adfd8612ab1dabb, type: 2}
       position: {x: 8, y: 5}
     StartDialog:
     - leftCharacter: {fileID: 11400000, guid: 82da0d1d9b9acaf46adfd8612ab1dabb, type: 2}
-      rightCharacter: {fileID: 11400000, guid: ac72f6a18f0a842688041dbdc2bf8d78, type: 2}
+      rightCharacter: {fileID: 11400000, guid: 82da0d1d9b9acaf46adfd8612ab1dabb, type: 2}
       content: Wtf t pa gentil ?

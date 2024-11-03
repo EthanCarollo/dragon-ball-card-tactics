@@ -27,18 +27,11 @@ MonoBehaviour:
   baseSpeed: 2
   baseAttackSpeed: 1
   baseCriticalChance: 20
-  idleAnimation: {fileID: 0}
-  runAnimation: {fileID: 0}
-  attackAnimation: {fileID: 0}
-  criticalAttackAnimation: {fileID: 0}
+  idleAnimation: {fileID: 11400000, guid: 72b948e771d4f4341aba66a216a7e2a4, type: 2}
+  runAnimation: {fileID: 11400000, guid: 29c87a61ba9537f41a86c4a013cec790, type: 2}
+  attackAnimation: {fileID: 11400000, guid: bd65ce635a6e5b1419185cd7c91bcd91, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: e792fb216f499e24692776f1360dbfe1, type: 2}
   specialAttackAnimation:
-  - rid: 8561309989473615950
-  references:
-    version: 2
-    RefIds:
-    - rid: 8561309989473615950
-      type: {class: SpecialAttack, ns: , asm: Assembly-CSharp}
-      data:
-        name: Explode Kikoha
-        description: 
-        animation: {fileID: 0}
+  - name: Little super attack
+    description: A little super attack
+    animation: {fileID: 11400000, guid: 0badf5a831b265d44b42755cd9b173f8, type: 2}
