@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Piccolo
   m_EditorClassIdentifier: 
+  id: 5
   starNumber: 1
   characterName: Piccolo
   characterSprite: {fileID: 5728549180122814596, guid: 040262cacde07854d8a835ef76dd9419, type: 3}
-  characterIcon: {fileID: 5728549180122814596, guid: 040262cacde07854d8a835ef76dd9419, type: 3}
+  characterIcon: {fileID: -2409190750713450014, guid: cd622fe9ce3c46b438c1df36a5f346bd, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
   maxHealth: 250
   maxKi: 50
