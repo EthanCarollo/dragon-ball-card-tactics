@@ -15,6 +15,7 @@ MonoBehaviour:
   id: 3
   starNumber: 1
   characterName: Goku
+  role: 0
   characterSprite: {fileID: 4344058998117034605, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
   characterIcon: {fileID: 7404681743806431914, guid: ad2c3b95b09114d4dbd4fe2ae4522976, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
@@ -26,67 +27,18 @@ MonoBehaviour:
   baseSpeed: 2
   baseAttackSpeed: 1
   baseCriticalChance: 20
-  idleAnimation:
-    rid: 6661928477140451328
-  runAnimation:
-    rid: 6661928477140451330
-  attackAnimation:
-    rid: 6661928477140451331
-  criticalAttackAnimation:
-    rid: 6661928477140451332
+  idleAnimation: {fileID: 0}
+  runAnimation: {fileID: 0}
+  attackAnimation: {fileID: 0}
+  criticalAttackAnimation: {fileID: 0}
   specialAttackAnimation:
-    rid: 8561309989473615946
+  - rid: 8561309989473615950
   references:
     version: 2
     RefIds:
-    - rid: 6661928477140451328
-      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
+    - rid: 8561309989473615950
+      type: {class: SpecialAttack, ns: , asm: Assembly-CSharp}
       data:
-        frameSprites:
-        - sprite: {fileID: 4344058998117034605, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
-          time: 0.2
-    - rid: 6661928477140451330
-      type: {class: BoardAnimation, ns: , asm: Assembly-CSharp}
-      data:
-        frameSprites:
-        - sprite: {fileID: -2087588842383588521, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
-          time: 0.2
-        - sprite: {fileID: -2087588842383588521, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
-          time: 0.2
-        - sprite: {fileID: -2087588842383588521, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
-          time: 0.2
-    - rid: 6661928477140451331
-      type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
-      data:
-        frameSprites:
-        - sprite: {fileID: 1377344680800882612, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
-          time: 0.2
-        - sprite: {fileID: 9119377417410612069, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
-          time: 0.2
-        attackFrameIndex: 1
-        attackType: 0
-        particleAttack: {fileID: 11400000, guid: a05d66441daab4e42b62f1079ed76f45, type: 2}
-    - rid: 6661928477140451332
-      type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
-      data:
-        frameSprites:
-        - sprite: {fileID: -2649471021478389670, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
-          time: 0.2
-        - sprite: {fileID: -5703896066744673910, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
-          time: 0.2
-        attackFrameIndex: 1
-        attackType: 1
-        particleAttack: {fileID: 0}
-    - rid: 8561309989473615946
-      type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
-      data:
-        frameSprites:
-        - sprite: {fileID: 4132425920287079562, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
-          time: 0.2
-        - sprite: {fileID: -3575370621817152959, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
-          time: 0.2
-        - sprite: {fileID: 4498260699753539763, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
-          time: 0.2
-        attackFrameIndex: 1
-        attackType: 1
-        particleAttack: {fileID: 0}
+        name: Explode Kikoha
+        description: 
+        animation: {fileID: 0}

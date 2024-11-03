@@ -15,6 +15,7 @@ MonoBehaviour:
   id: 5
   starNumber: 1
   characterName: Piccolo
+  role: 0
   characterSprite: {fileID: 5728549180122814596, guid: 040262cacde07854d8a835ef76dd9419, type: 3}
   characterIcon: {fileID: -2409190750713450014, guid: cd622fe9ce3c46b438c1df36a5f346bd, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
@@ -35,7 +36,7 @@ MonoBehaviour:
   criticalAttackAnimation:
     rid: 6661928477140451423
   specialAttackAnimation:
-    rid: 6661928477140451424
+  - rid: 8561309989473615948
   references:
     version: 2
     RefIds:
@@ -65,6 +66,8 @@ MonoBehaviour:
           time: 0.2
         - sprite: {fileID: -7612466348583474009, guid: 040262cacde07854d8a835ef76dd9419, type: 3}
           time: 0.2
+        attackName: 
+        attackDescription: 
         attackFrameIndex: 1
         attackType: 0
         particleAttack: {fileID: 0}
@@ -78,10 +81,12 @@ MonoBehaviour:
           time: 0.2
         - sprite: {fileID: -4231633120641193767, guid: 040262cacde07854d8a835ef76dd9419, type: 3}
           time: 0.2
+        attackName: 
+        attackDescription: 
         attackFrameIndex: 1
         attackType: 1
         particleAttack: {fileID: 0}
-    - rid: 6661928477140451424
+    - rid: 8561309989473615948
       type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
       data:
         frameSprites:
@@ -91,6 +96,8 @@ MonoBehaviour:
           time: 0.2
         - sprite: {fileID: -1451351763075104071, guid: 040262cacde07854d8a835ef76dd9419, type: 3}
           time: 0.2
-        attackFrameIndex: 2
-        attackType: 0
-        particleAttack: {fileID: 11400000, guid: a174c22b4147b4a269d29116e2a370cd, type: 2}
+        attackName: Bang bang
+        attackDescription: Bang bang the enemy
+        attackFrameIndex: 1
+        attackType: 2
+        particleAttack: {fileID: 0}

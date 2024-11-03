@@ -15,10 +15,11 @@ MonoBehaviour:
   id: 0
   starNumber: 1
   characterName: Black Goku
+  role: 0
   characterSprite: {fileID: -4702700919613018773, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
   characterIcon: {fileID: -7078338717840330999, guid: 3407391041a8c6c43aea578c78078f0c, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 240
+  maxHealth: 550
   maxKi: 25
   baseRange: 1
   baseDamage: 55
@@ -35,7 +36,7 @@ MonoBehaviour:
   criticalAttackAnimation:
     rid: 7759870992407330890
   specialAttackAnimation:
-    rid: 7759870992407330892
+  - rid: 8561309989473615949
   references:
     version: 2
     RefIds:
@@ -71,6 +72,8 @@ MonoBehaviour:
           time: 0.1
         - sprite: {fileID: -6954148007391845124, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
           time: 0.1
+        attackName: 
+        attackDescription: 
         attackFrameIndex: 2
         attackType: 0
         particleAttack: {fileID: 0}
@@ -84,17 +87,21 @@ MonoBehaviour:
           time: 0.2
         - sprite: {fileID: -2700617654505648548, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
           time: 0.1
+        attackName: 
+        attackDescription: 
         attackFrameIndex: 2
         attackType: 0
         particleAttack: {fileID: 0}
-    - rid: 7759870992407330892
+    - rid: 8561309989473615949
       type: {class: AttackAnimation, ns: , asm: Assembly-CSharp}
       data:
         frameSprites:
         - sprite: {fileID: 1471508838260862914, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
           time: 0.2
         - sprite: {fileID: -8799643425093672969, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-          time: 0.3
+          time: 0.2
+        attackName: Purple Hand Sword
+        attackDescription: the purple hand swooooord
         attackFrameIndex: 1
-        attackType: 0
+        attackType: 2
         particleAttack: {fileID: 0}

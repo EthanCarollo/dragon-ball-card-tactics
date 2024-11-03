@@ -31,6 +31,7 @@ public class CharacterContainer
     public int characterId;
     public int actualHealth;
     public int actualKi;
+    public int selectedUltimateAttack = 0;
     
     public CharacterContainer(int characterId)
     {
@@ -41,6 +42,11 @@ public class CharacterContainer
     public CharacterData GetCharacterData()
     {
         return CharacterDatabase.Instance.GetCharacterById(characterId);
+    }
+
+    public SpecialAttack GetCharacterSpecialAttack()
+    {
+        return CharacterDatabase.Instance.GetCharacterById(characterId).specialAttackAnimation[selectedUltimateAttack];
     }
     
     public bool IsDead()

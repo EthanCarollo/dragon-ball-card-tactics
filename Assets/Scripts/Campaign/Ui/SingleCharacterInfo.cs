@@ -17,6 +17,7 @@ public class SingleCharacterInfo : MonoBehaviour
     public TextMeshProUGUI armorText;
     public TextMeshProUGUI rangeText;
     public TextMeshProUGUI speedText;
+    public TextMeshProUGUI specialAttackText;
 
     public void Awake()
     {
@@ -39,5 +40,6 @@ public class SingleCharacterInfo : MonoBehaviour
         armorText.text = character.GetCharacterData().baseArmor + " AMR";
         rangeText.text = character.GetCharacterData().baseRange + " RNG";
         speedText.text = character.GetCharacterData().baseSpeed + " SPD";
+        specialAttackText.text = character.GetCharacterSpecialAttack().name;
     }
 }

@@ -4,7 +4,8 @@ using System;
 
 
 [Serializable]
-public class AttackAnimation : BoardAnimation {
+public class AttackAnimation : BoardAnimation
+{
     public int attackFrameIndex;
     public AttackType attackType;
     public Particle particleAttack;

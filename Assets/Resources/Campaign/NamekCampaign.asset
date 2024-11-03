@@ -12,25 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ba9f5b66b344fe973199f0d49ecadc, type: 3}
   m_Name: NamekCampaign
   m_EditorClassIdentifier: Assembly-CSharp::Campaign
-  campaignName: Namek Campaign
+  campaignName: Black Goku Campaign
   levels:
   - characters:
-    - character: {fileID: 11400000, guid: 3b654c067b79c4fa4ab95152657c001e, type: 2}
+    - character: {fileID: 11400000, guid: ac72f6a18f0a842688041dbdc2bf8d78, type: 2}
       position: {x: 8, y: 5}
     StartDialog:
     - leftCharacter: {fileID: 11400000, guid: 82da0d1d9b9acaf46adfd8612ab1dabb, type: 2}
       rightCharacter: {fileID: 11400000, guid: ac72f6a18f0a842688041dbdc2bf8d78, type: 2}
-      content: Yo ca va ?
-    - leftCharacter: {fileID: 11400000, guid: 7ebc227e0559b9448b982ad5cc2ad342, type: 2}
-      rightCharacter: {fileID: 11400000, guid: b83b9b6454f4df849abb4f62e07221ef, type: 2}
-      content: Bien et toi mon reuf ?
-  - characters:
-    - character: {fileID: 11400000, guid: ac72f6a18f0a842688041dbdc2bf8d78, type: 2}
-      position: {x: 9, y: 5}
-    StartDialog:
-    - leftCharacter: {fileID: 0}
-      rightCharacter: {fileID: 0}
-      content: "Salut \xE7a va ?"
-    - leftCharacter: {fileID: 0}
-      rightCharacter: {fileID: 0}
-      content: Bien et toi mon garss ?
+      content: Wtf t pa gentil ?

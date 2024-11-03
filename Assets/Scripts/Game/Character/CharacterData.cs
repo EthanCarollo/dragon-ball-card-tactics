@@ -1,4 +1,5 @@
 ﻿
+using System;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 
@@ -35,7 +36,15 @@ public class CharacterData : ScriptableObject
     [SerializeReference, SubclassSelector]
     public BoardAnimation criticalAttackAnimation;
     [SerializeReference, SubclassSelector]
-    public BoardAnimation specialAttackAnimation;
+    public SpecialAttack[] specialAttackAnimation;
+}
+
+[Serializable]
+public class SpecialAttack
+{
+    public string name;
+    public string description;
+    public AttackAnimation animation;
 }
 
 public enum CharacterRole

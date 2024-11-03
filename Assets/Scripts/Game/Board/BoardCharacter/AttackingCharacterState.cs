@@ -34,7 +34,7 @@ public class AttackingCharacterState : BoardCharacterState
         {
             if (boardCharacter.character.actualKi >= boardCharacter.character.GetCharacterData().maxKi)
             {
-                boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterData().specialAttackAnimation);
+                boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterSpecialAttack().animation);
                 boardCharacter.character.actualKi = 0;
             }
             else
