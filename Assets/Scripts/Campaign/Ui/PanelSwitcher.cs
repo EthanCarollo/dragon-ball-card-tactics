@@ -12,6 +12,7 @@ public class PanelSwitcher : MonoBehaviour
         float panelWidth = content.rect.width;
         float targetPositionX = -panelWidth * index;
         
-        content.anchoredPosition = new Vector2(targetPositionX, content.anchoredPosition.y);
+        LeanTween.cancel(content);
+        LeanTween.moveX(content, targetPositionX, 0.4f).setEase(LeanTweenType.easeInOutCubic);
     }
 }
