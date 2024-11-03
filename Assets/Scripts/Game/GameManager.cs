@@ -66,11 +66,15 @@ public class GameManager
             {
                 characterInventory.characters[0]
             });
+        FightBoard.Instance.CreateBoard();
+        VerticalBoard.Instance.CreateBoard();
     }
 
     public void GoNextLevel(){
         actualCampaignLevel++;
         SetupGameBoardForLevel(actualCampaign.levels[actualCampaignLevel]);
+        FightBoard.Instance.CreateBoard();
+        VerticalBoard.Instance.CreateBoard();
     }
 
     public void SetupGameBoardForLevel(Level level, CharacterContainer[] playerCharacter = null)
@@ -98,5 +102,7 @@ public class GameManager
         {
             boardUsableCharacterArray[i] = new BoardCharacter(playerCharacter[i], true);
         }
+        
+        DialogManager.Instance.SetupDialog(level.StartDialog);
     }
 }

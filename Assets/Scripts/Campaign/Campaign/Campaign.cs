@@ -15,6 +15,8 @@ public class Campaign : ScriptableObject
 public class Level
 {
     public CharacterInLevel[] characters;
+
+    [SerializeField] public Dialog[] StartDialog;
 }
 
 [Serializable]

@@ -8,8 +8,10 @@ public static class CampaignUtils
     {
         if (campaign != null)
         {
-            SceneTransitor.Instance.LoadScene(0);
-            GameManager.Instance.SetupCampaign(campaign);
+            SceneTransitor.Instance.LoadScene(0, () =>
+            {
+                GameManager.Instance.SetupCampaign(campaign);
+            });
         }
         else
         {
