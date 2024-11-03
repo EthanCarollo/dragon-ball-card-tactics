@@ -26,7 +26,7 @@ public class GameManager
     public CampaignManager campaignManager;
     public Galaxy actualGalaxy;
 
-    public Campaign actualCampaign;
+    public CampaignContainer actualCampaign;
     public int actualCampaignLevel = 0;
 
     public int CurrentMana = 1;
@@ -56,10 +56,10 @@ public class GameManager
         */
     }
 
-    public void SetupCampaign(Campaign campaign){
+    public void SetupCampaign(CampaignContainer campaign){
         actualCampaignLevel = 0;
         actualCampaign = campaign;
-        SetupGameBoardForLevel(actualCampaign.levels[actualCampaignLevel], new CharacterContainer[]
+        SetupGameBoardForLevel(actualCampaign.GetActualCampaign().levels[actualCampaignLevel], new CharacterContainer[]
             {
                 characterInventory.characters[0]
             });
@@ -69,7 +69,15 @@ public class GameManager
 
     public void GoNextLevel(){
         actualCampaignLevel++;
-        SetupGameBoardForLevel(actualCampaign.levels[actualCampaignLevel]);
+        if (actualCampaignLevel > actualCampaign.GetActualCampaign().levels.Length - 1)
+        {
+            SceneTransitor.Instance.LoadScene(1, () =>
+            {
+                actualCampaign.actualCampaign++;
+            });
+            return;
+        }
+        SetupGameBoardForLevel(actualCampaign.GetActualCampaign().levels[actualCampaignLevel]);
         FightBoard.Instance.CreateBoard();
         VerticalBoard.Instance.CreateBoard();
     }

@@ -4,7 +4,7 @@ using UnityEngine;
 public static class CampaignUtils
 {
     // TODO : launch a campaign with specific character
-    public static void LaunchCampaign(Campaign campaign)
+    public static void LaunchCampaign(CampaignContainer campaign)
     {
         if (campaign != null)
         {
