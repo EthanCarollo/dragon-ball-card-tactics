@@ -39,7 +39,7 @@ public class SpecialAttack
 {
     public string name;
     public string description;
-    public AttackAnimation animation;
+    public BoardAnimation animation;
 }
 
 public enum CharacterRole

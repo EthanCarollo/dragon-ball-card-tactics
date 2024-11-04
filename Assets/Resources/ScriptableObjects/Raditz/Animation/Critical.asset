@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bfefa561a5c490cbc7b464bdfdad3a, type: 3}
+  m_Name: Critical
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: -4226846400686869062, guid: 9c169cfd1805c574fa4cc6f6a5d3defe, type: 3}
+    time: 0.2
+  - sprite: {fileID: 3620815154800865340, guid: 9c169cfd1805c574fa4cc6f6a5d3defe, type: 3}
+    time: 0.2
+  - sprite: {fileID: 3620815154800865340, guid: 9c169cfd1805c574fa4cc6f6a5d3defe, type: 3}
+    time: 0.2
+  attackFrameIndex: 1
+  attackType: 0
+  particleAttack: {fileID: 0}

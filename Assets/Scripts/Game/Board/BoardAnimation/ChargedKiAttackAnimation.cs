@@ -40,7 +40,7 @@ public class ChargedKiAttackAnimation : BoardAnimation
         spriteRenderer.drawMode = SpriteDrawMode.Tiled;
         spriteRenderer.sortingOrder = 5;
 
-        newGameObject.transform.position = character.gameObject.transform.position + new Vector3(startMargin.x, startMargin.y);
+        newGameObject.transform.position = character.gameObject.transform.position + new Vector3((startMargin.x * character.direction.x), startMargin.y);
 
         Vector3 direction = character.direction.normalized;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;

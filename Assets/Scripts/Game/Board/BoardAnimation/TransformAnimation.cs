@@ -4,7 +4,7 @@ using System;
 
 
 
-[CreateAssetMenu(fileName = "New Transform Animation", menuName = "BoardAnimation/ChargedKiAnimation")]
+[CreateAssetMenu(fileName = "New Transform Animation", menuName = "BoardAnimation/TransformAnimation")]
 public class TransformAnimation : BoardAnimation {
     public CharacterData newCharacterData;
 
