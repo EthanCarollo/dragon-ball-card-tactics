@@ -28,6 +28,17 @@ public class CharacterInventory : ScriptableObject
     {
         characters.Add(new CharacterContainer(character.id));
     }
+
+    // By default, a Character Deck is only constitued of Goku & Piccolo
+    [ContextMenu("Reset Value")]
+    public void Reset()
+    {
+        characters = new List<CharacterContainer>()
+        {
+            new CharacterContainer(0),
+            new CharacterContainer(1)
+        };
+    }
 }
 
 [Serializable]
