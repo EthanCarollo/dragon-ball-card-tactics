@@ -34,7 +34,7 @@ public class GameManager
 
     private GameManager()
     {
-        actualGalaxy = GalaxyDatabase.Instance.galaxies[0];
+        SetupGalaxy(GalaxyDatabase.Instance.galaxies[0]);
         characterInventory = CharacterInventory.Instance;
         campaignManager = new CampaignManager();
         
@@ -54,6 +54,15 @@ public class GameManager
             boardCharacterArray[7, 4] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/BlackGoku"), false);
         }
         */
+    }
+
+    public void SetupGalaxy(Galaxy galaxy)
+    {
+        actualGalaxy = galaxy;
+        foreach (var actualGalaxyCampaign in actualGalaxy.campaigns)
+        {
+            actualGalaxyCampaign.actualCampaign = 0;
+        }
     }
 
     public void SetupCampaign(CampaignContainer campaign){

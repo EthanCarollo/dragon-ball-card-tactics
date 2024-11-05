@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bfefa561a5c490cbc7b464bdfdad3a, type: 3}
+  m_Name: Special
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: -9081101406960460476, guid: 34918f97ca611144db28acde26be6092, type: 3}
+    time: 0.1
+  - sprite: {fileID: 1425343827223171520, guid: 34918f97ca611144db28acde26be6092, type: 3}
+    time: 0.1
+  - sprite: {fileID: -9036462071973268575, guid: 34918f97ca611144db28acde26be6092, type: 3}
+    time: 0.1
+  - sprite: {fileID: 1528928447427687015, guid: 34918f97ca611144db28acde26be6092, type: 3}
+    time: 0.1
+  - sprite: {fileID: -8653155774968737423, guid: 34918f97ca611144db28acde26be6092, type: 3}
+    time: 0.1
+  - sprite: {fileID: 8374647874670371955, guid: 34918f97ca611144db28acde26be6092, type: 3}
+    time: 0.1
+  - sprite: {fileID: 4973789169057942397, guid: 34918f97ca611144db28acde26be6092, type: 3}
+    time: 0.1
+  attackFrameIndex: 4
+  attackType: 0
+  particleAttack: {fileID: 0}

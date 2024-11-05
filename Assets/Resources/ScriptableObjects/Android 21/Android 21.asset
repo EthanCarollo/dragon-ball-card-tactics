@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Android 21
+  m_EditorClassIdentifier: 
+  id: 8
+  starNumber: 1
+  characterName: Android 21
+  role: 0
+  characterSprite: {fileID: 9209647031100015636, guid: 34918f97ca611144db28acde26be6092, type: 3}
+  characterIcon: {fileID: -914149968743311941, guid: 54929347257826b43b8abdf24dee4958, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 1050
+  maxKi: 75
+  baseRange: 1
+  baseDamage: 50
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 0.5
+  baseCriticalChance: 10
+  idleAnimation: {fileID: 11400000, guid: 60fa079c90898aa4f87d94e3dd3174ef, type: 2}
+  runAnimation: {fileID: 11400000, guid: 2ca6712233ec2a94b8ce6d852fe4dcf7, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 6dad150d6b673c747966716143549820, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 23a133bd55aefb942ab7b6606237154f, type: 2}
+  specialAttackAnimation:
+  - name: 
+    description: 
+    animation: {fileID: 11400000, guid: 3c2e323e6d75eb34fa80793ed7e78b6d, type: 2}

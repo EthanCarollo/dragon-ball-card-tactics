@@ -23,6 +23,11 @@ public class CharacterInventory : ScriptableObject
             return _instance;
         }
     }
+
+    public void AddCharacter(CharacterData character)
+    {
+        characters.Add(new CharacterContainer(character.id));
+    }
 }
 
 [Serializable]
