@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b12a180c6dca48dfaf129fe2ac5bd2da, type: 3}
-  m_Name: SupranovaGalaxy
+  m_Name: Bardock Empire
   m_EditorClassIdentifier: 
-  galaxyName: Supranova Galaxy
+  galaxyName: Bardock Empire
   galaxyDescription: 
   campaigns:
   - campaignName: Namek Campaign
     campaign:
     - {fileID: 11400000, guid: 6dc31a0af018a440886d173a01c8b5bc, type: 2}
+    - {fileID: 11400000, guid: fdc2d0a35093f9544a550bfcff9dc6a4, type: 2}
     actualCampaign: 0
