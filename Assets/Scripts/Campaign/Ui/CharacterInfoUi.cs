@@ -12,8 +12,10 @@ public class CharacterInfoUi : MonoBehaviour
             Destroy(child.gameObject);
         }
 
+        Debug.Log("Setup every character info");
         foreach (CharacterContainer character in GameManager.Instance.characterInventory.characters)
         {
+            Debug.Log(character.GetCharacterData().name);
             var go = Instantiate(characterInfoButtonPrefab, this.transform);
             go.GetComponent<CharacterInfoButton>().Setup(character);
         }

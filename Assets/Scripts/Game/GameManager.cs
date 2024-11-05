@@ -80,6 +80,7 @@ public class GameManager
         actualCampaignLevel++;
         if (actualCampaignLevel > actualCampaign.GetActualCampaign().levels.Length - 1)
         {
+            actualCampaign.GetActualCampaign().EndCampaign();
             SceneTransitor.Instance.LoadScene(1, () =>
             {
                 actualCampaign.actualCampaign++;

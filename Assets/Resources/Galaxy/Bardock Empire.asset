@@ -25,5 +25,5 @@ MonoBehaviour:
     actualCampaign: 0
   - campaignName: Android 17 Rebellion
     campaign:
-    - {fileID: 11400000, guid: a45f85ff1208d644e9b6e75833321093, type: 2}
+    - {fileID: 11400000, guid: e966936ed33ea0043a7250822316a2e2, type: 2}
     actualCampaign: 0
