@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6dad8ff1b884d2ea3c2a618cd48846, type: 3}
+  m_Name: Attack
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: 6013665499506686844, guid: b54a084a34747524a88a382bbedb0815, type: 3}
+    time: 0.2
+  - sprite: {fileID: -4737605557762340518, guid: b54a084a34747524a88a382bbedb0815, type: 3}
+    time: 0.2
+  - sprite: {fileID: -8547592093620795822, guid: b54a084a34747524a88a382bbedb0815, type: 3}
+    time: 0.2
+  - sprite: {fileID: 3820435066935177511, guid: b54a084a34747524a88a382bbedb0815, type: 3}
+    time: 0.2
+  attackFrameIndex: 3
+  projectile: {fileID: 8887271512359127370, guid: b54a084a34747524a88a382bbedb0815, type: 3}
+  particleAttack: {fileID: 11400000, guid: a05d66441daab4e42b62f1079ed76f45, type: 2}
+  attackType: 0
+  startMargin: {x: 0.5, y: 0.7}

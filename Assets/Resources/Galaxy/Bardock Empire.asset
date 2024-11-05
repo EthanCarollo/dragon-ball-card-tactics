@@ -15,8 +15,11 @@ MonoBehaviour:
   galaxyName: Bardock Empire
   galaxyDescription: 
   campaigns:
-  - campaignName: Namek Campaign
+  - campaignName: Bardock Empire Campaign
     campaign:
+    - {fileID: 11400000, guid: c6271296e5d403a43a8c19c3ac5aab8c, type: 2}
     - {fileID: 11400000, guid: 6dc31a0af018a440886d173a01c8b5bc, type: 2}
     - {fileID: 11400000, guid: fdc2d0a35093f9544a550bfcff9dc6a4, type: 2}
+    - {fileID: 11400000, guid: b9987eae85ab99e40b6061bfef008b4f, type: 2}
+    - {fileID: 11400000, guid: a4b9567e91dff97469cba2815748534d, type: 2}
     actualCampaign: 0

@@ -9,7 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cf4649fd30c44088f6a95146c6e882a, type: 3}
-  m_Name: CampaignDatabase
-  m_EditorClassIdentifier: Assembly-CSharp::CampaignDatabase
-  campaigns: []
+  m_Script: {fileID: 11500000, guid: 03b16787bc87f453d9d2b4fb52cd1a0f, type: 3}
+  m_Name: Idle
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: -7330136625312183955, guid: f96f3b228afc35f4396d6b8143892d55, type: 3}
+    time: 0.2

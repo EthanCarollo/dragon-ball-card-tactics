@@ -74,6 +74,7 @@ public class GameManager
             SceneTransitor.Instance.LoadScene(1, () =>
             {
                 actualCampaign.actualCampaign++;
+                CleanGameBoard();
             });
             return;
         }
@@ -109,5 +110,16 @@ public class GameManager
         }
         
         DialogManager.Instance.SetupDialog(level.StartDialog);
+    }
+
+    private void CleanGameBoard()
+    {
+        for (int x = 0; x < boardCharacterArray.GetLength(0); x++)
+        {
+            for (int y = 0; y < boardCharacterArray.GetLength(1); y++)
+            {
+                boardCharacterArray[x, y] = null;
+            }
+        }
     }
 }

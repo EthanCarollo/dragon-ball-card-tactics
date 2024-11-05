@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: f96f3b228afc35f4396d6b8143892d55
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7330136625312183955
+    second: bardock_0
+  - first:
+      213: -327867822109688213
+    second: bardock_1
+  - first:
+      213: -1501496284018155089
+    second: bardock_2
+  - first:
+      213: 1650806369466503663
+    second: bardock_3
+  - first:
+      213: 2573624975839192150
+    second: bardock_4
+  - first:
+      213: -6958442298513150486
+    second: bardock_5
+  - first:
+      213: 3569345109438242568
+    second: bardock_6
+  - first:
+      213: -2114873971928790793
+    second: bardock_7
+  - first:
+      213: -3488635047137365331
+    second: bardock_8
+  - first:
+      213: -1966475934429530013
+    second: bardock_9
+  - first:
+      213: -8490390114431553186
+    second: bardock_10
+  - first:
+      213: -6329664797129966669
+    second: bardock_11
+  - first:
+      213: -2560459434234638931
+    second: bardock_12
+  - first:
+      213: 1176150045483309301
+    second: bardock_13
+  - first:
+      213: -1360735430550626696
+    second: bardock_14
+  - first:
+      213: 5942407758263216175
+    second: bardock_15
+  - first:
+      213: 4166705465286142419
+    second: bardock_16
+  - first:
+      213: 8190251652555125238
+    second: bardock_17
+  - first:
+      213: -3608644141842056227
+    second: bardock_18
+  - first:
+      213: 1269453255795305071
+    second: bardock_19
+  - first:
+      213: -1397481722461911014
+    second: bardock_20
+  - first:
+      213: 7923455646832112163
+    second: bardock_21
+  - first:
+      213: -4204477888588903707
+    second: bardock_22
+  - first:
+      213: 5428059219265996231
+    second: bardock_23
+  - first:
+      213: 2350205334503260897
+    second: bardock_24
+  - first:
+      213: 5535094864894183469
+    second: bardock_25
+  - first:
+      213: 2551648498593509994
+    second: bardock_26
+  - first:
+      213: -115141995434757463
+    second: bardock_27
+  - first:
+      213: 6955996563149659520
+    second: bardock_28
+  - first:
+      213: -9004823142279590679
+    second: bardock_29
+  - first:
+      213: 1033291028540100568
+    second: bardock_30
+  - first:
+      213: 7860140317479724761
+    second: bardock_31
+  - first:
+      213: 5767387724456880540
+    second: bardock_32
+  - first:
+      213: 4623721324601640627
+    second: bardock_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Linux64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bardock_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 452
+        width: 31
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69cf25739f164a90800000000000000
+      internalID: -7330136625312183955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 452
+        width: 31
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6efed1f3fd237bf0800000000000000
+      internalID: -327867822109688213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 452
+        width: 31
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1678fb51d992be0800000000000000
+      internalID: -1501496284018155089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_3
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 452
+        width: 31
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1d00d85a7d8e610800000000000000
+      internalID: 1650806369466503663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 409
+        width: 50
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654e7f5a74a57b320800000000000000
+      internalID: 2573624975839192150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_5
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 412
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed221fc895ae6f90800000000000000
+      internalID: -6958442298513150486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_6
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 405
+        width: 47
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f18d0477cd88130800000000000000
+      internalID: 3569345109438242568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 327
+        width: 31
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8077ed35576a2e0800000000000000
+      internalID: -2114873971928790793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 327
+        width: 31
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2366088e0e59fc0800000000000000
+      internalID: -3488635047137365331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_9
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 327
+        width: 29
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36839f47e8ca5b4e0800000000000000
+      internalID: -1966475934429530013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_10
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 327
+        width: 32
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51b1d8cc231c2a80800000000000000
+      internalID: -8490390114431553186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_11
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 327
+        width: 37
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbf5cb27638828a0800000000000000
+      internalID: -6329664797129966669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_12
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 327
+        width: 47
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad85a0e5bb677cd0800000000000000
+      internalID: -2560459434234638931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_13
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 327
+        width: 71
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8979f1c36825010800000000000000
+      internalID: 1176150045483309301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 308
+        width: 12
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87eddbcd552bd1de0800000000000000
+      internalID: -1360735430550626696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 226
+        width: 119
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28edc53f5ca77250800000000000000
+      internalID: 5942407758263216175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_16
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 277
+        width: 44
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d92f066b8c13d930800000000000000
+      internalID: 4166705465286142419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_17
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 268
+        width: 37
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1ba93fb7e99a170800000000000000
+      internalID: 8190251652555125238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_18
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 271
+        width: 44
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbb5bcb5458bedc0800000000000000
+      internalID: -3608644141842056227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_19
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 274
+        width: 37
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a64a2a2010e9110800000000000000
+      internalID: 1269453255795305071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_20
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 196
+        width: 112
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5879173, y: 0.0033265431}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a188e8017c52b9ce0800000000000000
+      internalID: -1397481722461911014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_21
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 255
+        width: 18
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322bdf63ee4c5fd60800000000000000
+      internalID: 7923455646832112163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_22
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 248
+        width: 16
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea8ca8f2a1b6a5c0800000000000000
+      internalID: -4204477888588903707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_23
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 237
+        width: 46
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c54220d917545b40800000000000000
+      internalID: 5428059219265996231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 149
+        width: 31
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e28b40cc4b9d9020800000000000000
+      internalID: 2350205334503260897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_25
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 154
+        width: 35
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d284b14147b90dc40800000000000000
+      internalID: 5535094864894183469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_26
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 154
+        width: 46
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62335e4ac6496320800000000000000
+      internalID: 2551648498593509994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_27
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 154
+        width: 45
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2b16717fee66ef0800000000000000
+      internalID: -115141995434757463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_28
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 190
+        width: 48
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d9f5d050aa88060800000000000000
+      internalID: 6955996563149659520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_29
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 188
+        width: 141
+        height: 116
+      alignment: 9
+      pivot: {x: 0.5338784, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec453bcf01780380800000000000000
+      internalID: -9004823142279590679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_30
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 194
+        width: 19
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df0bb147bcf65e00800000000000000
+      internalID: 1033291028540100568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_31
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 85
+        width: 37
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6ea1459f3d41d60800000000000000
+      internalID: 7860140317479724761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_32
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 85
+        width: 46
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9963361490e90050800000000000000
+      internalID: 5767387724456880540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bardock_33
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 85
+        width: 46
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b687451c02ca2040800000000000000
+      internalID: 4623721324601640627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b65093105a1d27d49b54b2312c95f878
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bardock_0: -7330136625312183955
+      bardock_1: -327867822109688213
+      bardock_10: -8490390114431553186
+      bardock_11: -6329664797129966669
+      bardock_12: -2560459434234638931
+      bardock_13: 1176150045483309301
+      bardock_14: -1360735430550626696
+      bardock_15: 5942407758263216175
+      bardock_16: 4166705465286142419
+      bardock_17: 8190251652555125238
+      bardock_18: -3608644141842056227
+      bardock_19: 1269453255795305071
+      bardock_2: -1501496284018155089
+      bardock_20: -1397481722461911014
+      bardock_21: 7923455646832112163
+      bardock_22: -4204477888588903707
+      bardock_23: 5428059219265996231
+      bardock_24: 2350205334503260897
+      bardock_25: 5535094864894183469
+      bardock_26: 2551648498593509994
+      bardock_27: -115141995434757463
+      bardock_28: 6955996563149659520
+      bardock_29: -9004823142279590679
+      bardock_3: 1650806369466503663
+      bardock_30: 1033291028540100568
+      bardock_31: 7860140317479724761
+      bardock_32: 5767387724456880540
+      bardock_33: 4623721324601640627
+      bardock_4: 2573624975839192150
+      bardock_5: -6958442298513150486
+      bardock_6: 3569345109438242568
+      bardock_7: -2114873971928790793
+      bardock_8: -3488635047137365331
+      bardock_9: -1966475934429530013
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

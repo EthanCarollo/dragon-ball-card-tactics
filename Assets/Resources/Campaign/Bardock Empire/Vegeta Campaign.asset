@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89ba9f5b66b344fe973199f0d49ecadc, type: 3}
-  m_Name: Nappa Campaign
+  m_Name: Vegeta Campaign
   m_EditorClassIdentifier: Assembly-CSharp::Campaign
-  campaignName: Nappa Campaign
+  campaignName: Vegeta Campaign
   levels:
   - characters:
-    - character: {fileID: 11400000, guid: 4b18e72afaf0c054c92c32a6593a7892, type: 2}
+    - character: {fileID: 11400000, guid: 28fa8f8e07ecfc243bedd782b907b60d, type: 2}
       position: {x: 8, y: 5}
     StartDialog:
     - leftCharacter: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
-      rightCharacter: {fileID: 11400000, guid: 4b18e72afaf0c054c92c32a6593a7892, type: 2}
-      content: Hummm
+      rightCharacter: {fileID: 11400000, guid: 28fa8f8e07ecfc243bedd782b907b60d, type: 2}
+      content: Why is Raditz here ?...
