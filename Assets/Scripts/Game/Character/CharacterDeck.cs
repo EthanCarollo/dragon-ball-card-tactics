@@ -100,7 +100,7 @@ public class CharacterContainer
     public int GetCharacterPower()
     {
         return 
-            Mathf.FloorToInt(GetAttackDamage()) * 3 +
+            Mathf.FloorToInt(GetAttackDamage() * 3) +
             Mathf.FloorToInt(GetArmor() * 2) +
             GetCriticalChance() +
             Mathf.FloorToInt(GetCharacterMaxHealth() / 25) +
