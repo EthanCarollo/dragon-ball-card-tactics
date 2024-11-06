@@ -16,6 +16,7 @@ MonoBehaviour:
   starNumber: 1
   characterName: Piccolo
   role: 0
+  characterType: 2
   characterSprite: {fileID: 5728549180122814596, guid: 040262cacde07854d8a835ef76dd9419, type: 3}
   characterIcon: {fileID: -2409190750713450014, guid: cd622fe9ce3c46b438c1df36a5f346bd, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}

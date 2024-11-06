@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: 6b0a2ed1b13d46d4cae6dc5488f2de73
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7962816981571868995
+    second: super-buu_0
+  - first:
+      213: -9155658219237614297
+    second: super-buu_1
+  - first:
+      213: 1767588342160928606
+    second: super-buu_2
+  - first:
+      213: 2247695840286254427
+    second: super-buu_3
+  - first:
+      213: 4170998157645355222
+    second: super-buu_4
+  - first:
+      213: -6372490959955103322
+    second: super-buu_5
+  - first:
+      213: -4314274338691705894
+    second: super-buu_6
+  - first:
+      213: 4001341835962038946
+    second: super-buu_7
+  - first:
+      213: -8232437225245228489
+    second: super-buu_8
+  - first:
+      213: -1875333260931733004
+    second: super-buu_9
+  - first:
+      213: -7088451881227548456
+    second: super-buu_10
+  - first:
+      213: -7123432368138675554
+    second: super-buu_11
+  - first:
+      213: 8406921050215242293
+    second: super-buu_12
+  - first:
+      213: -2621606664755853165
+    second: super-buu_13
+  - first:
+      213: -6657403259703371348
+    second: super-buu_14
+  - first:
+      213: -7561606596121926397
+    second: super-buu_15
+  - first:
+      213: 3447980827621641039
+    second: super-buu_16
+  - first:
+      213: 2380061975638702390
+    second: super-buu_17
+  - first:
+      213: 710252988309079251
+    second: super-buu_18
+  - first:
+      213: 4543462596572645826
+    second: super-buu_19
+  - first:
+      213: -5509672195603203308
+    second: super-buu_20
+  - first:
+      213: 137374853299023954
+    second: super-buu_21
+  - first:
+      213: 1444917952569376905
+    second: super-buu_22
+  - first:
+      213: -1506992467847814619
+    second: super-buu_23
+  - first:
+      213: -4258702782581281289
+    second: super-buu_24
+  - first:
+      213: 4463498143825004457
+    second: super-buu_25
+  - first:
+      213: -5052969173732394015
+    second: super-buu_26
+  - first:
+      213: -1274377095695361179
+    second: super-buu_27
+  - first:
+      213: -9003617844978499996
+    second: super-buu_28
+  - first:
+      213: 5206021128799031471
+    second: super-buu_29
+  - first:
+      213: -1357896301631999680
+    second: super-buu_30
+  - first:
+      213: -4106280726109659300
+    second: super-buu_31
+  - first:
+      213: -5799576170359010691
+    second: super-buu_32
+  - first:
+      213: -4444162497105763538
+    second: super-buu_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Linux64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: super-buu_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 456
+        width: 23
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3491a0e1bdb918e60800000000000000
+      internalID: 7962816981571868995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 458
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72dd47dbb5190f080800000000000000
+      internalID: -9155658219237614297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 462
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5faf9b6b3cb78810800000000000000
+      internalID: 1767588342160928606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 465
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55a26b357b613f10800000000000000
+      internalID: 2247695840286254427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 355
+        width: 29
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d89249b9bc52e930800000000000000
+      internalID: 4170998157645355222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_5
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 355
+        width: 35
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1fc7d1c3d5097a0800000000000000
+      internalID: -6372490959955103322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 355
+        width: 45
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad392b2d85e9024c0800000000000000
+      internalID: -4314274338691705894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 401
+        width: 24
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa3d65233f978730800000000000000
+      internalID: 4001341835962038946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 404
+        width: 19
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7324e8106f180cd80800000000000000
+      internalID: -8232437225245228489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_9
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 401
+        width: 24
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f960bac55a79f5e0800000000000000
+      internalID: -1875333260931733004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 24
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d88bfbf192c0ad90800000000000000
+      internalID: -7088451881227548456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 19
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a1393b00c742d90800000000000000
+      internalID: -7123432368138675554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_12
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 352
+        width: 24
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a55d447226ba470800000000000000
+      internalID: 8406921050215242293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 284
+        width: 35
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3984e66d0ae2e9bd0800000000000000
+      internalID: -2621606664755853165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_14
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 284
+        width: 65
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca95adaf1072c93a0800000000000000
+      internalID: -6657403259703371348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 284
+        width: 40
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305e6ea2dd6cf0790800000000000000
+      internalID: -7561606596121926397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_16
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 284
+        width: 39
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bceb66b40b9df20800000000000000
+      internalID: 3447980827621641039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_17
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 302
+        width: 43
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639fb59b1cda70120800000000000000
+      internalID: 2380061975638702390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 222
+        width: 35
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d482dc64535bd900800000000000000
+      internalID: 710252988309079251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_19
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 222
+        width: 34
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c98cf6c82f9d0f30800000000000000
+      internalID: 4543462596572645826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_20
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 222
+        width: 46
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b79306456b983b0800000000000000
+      internalID: -5509672195603203308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_21
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 222
+        width: 32
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250b5f383bd08e100800000000000000
+      internalID: 137374853299023954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_22
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 222
+        width: 43
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9808b7ce8316d0410800000000000000
+      internalID: 1444917952569376905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_23
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 222
+        width: 33
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522edbab556161be0800000000000000
+      internalID: -1506992467847814619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_24
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 222
+        width: 42
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd6640026c06e4c0800000000000000
+      internalID: -4258702782581281289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_25
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 222
+        width: 36
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a70e46c9e781fd30800000000000000
+      internalID: 4463498143825004457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_26
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 222
+        width: 43
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb7eaaee4f30e9b0800000000000000
+      internalID: -5052969173732394015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_27
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 133
+        width: 23
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b1f2d88c0805ee0800000000000000
+      internalID: -1274377095695361179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_28
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 133
+        width: 52
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e30b0f549bc0380800000000000000
+      internalID: -9003617844978499996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_29
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 133
+        width: 63
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa09e3b42a08f3840800000000000000
+      internalID: 5206021128799031471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_30
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 133
+        width: 69
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04178631288c72de0800000000000000
+      internalID: -1357896301631999680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_31
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 35
+        width: 24
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f53348f6f8307c0800000000000000
+      internalID: -4106280726109659300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_32
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 35
+        width: 29
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a4ee55334c38fa0800000000000000
+      internalID: -5799576170359010691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: super-buu_33
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 267
+        height: 122
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 129, y: 0, z: 128, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23e5eb41c92352c0800000000000000
+      internalID: -4444162497105763538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 999b3c31f3f2d2147ad27f202deeb398
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      super-buu_0: 7962816981571868995
+      super-buu_1: -9155658219237614297
+      super-buu_10: -7088451881227548456
+      super-buu_11: -7123432368138675554
+      super-buu_12: 8406921050215242293
+      super-buu_13: -2621606664755853165
+      super-buu_14: -6657403259703371348
+      super-buu_15: -7561606596121926397
+      super-buu_16: 3447980827621641039
+      super-buu_17: 2380061975638702390
+      super-buu_18: 710252988309079251
+      super-buu_19: 4543462596572645826
+      super-buu_2: 1767588342160928606
+      super-buu_20: -5509672195603203308
+      super-buu_21: 137374853299023954
+      super-buu_22: 1444917952569376905
+      super-buu_23: -1506992467847814619
+      super-buu_24: -4258702782581281289
+      super-buu_25: 4463498143825004457
+      super-buu_26: -5052969173732394015
+      super-buu_27: -1274377095695361179
+      super-buu_28: -9003617844978499996
+      super-buu_29: 5206021128799031471
+      super-buu_3: 2247695840286254427
+      super-buu_30: -1357896301631999680
+      super-buu_31: -4106280726109659300
+      super-buu_32: -5799576170359010691
+      super-buu_33: -4444162497105763538
+      super-buu_4: 4170998157645355222
+      super-buu_5: -6372490959955103322
+      super-buu_6: -4314274338691705894
+      super-buu_7: 4001341835962038946
+      super-buu_8: -8232437225245228489
+      super-buu_9: -1875333260931733004
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

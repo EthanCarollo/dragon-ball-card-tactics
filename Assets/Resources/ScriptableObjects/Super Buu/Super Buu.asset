@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Super Buu
+  m_EditorClassIdentifier: 
+  id: 2
+  starNumber: 1
+  characterName: Super Buu
+  role: 1
+  characterType: 0
+  characterSprite: {fileID: 7962816981571868995, guid: 6b0a2ed1b13d46d4cae6dc5488f2de73, type: 3}
+  characterIcon: {fileID: 4199835679713569971, guid: 485fece4df5fb3b489587afd07f83505, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 750
+  maxKi: 75
+  baseRange: 1
+  baseDamage: 50
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 0.5
+  baseCriticalChance: 10
+  idleAnimation: {fileID: 11400000, guid: 9956ce81b9217a04a9cbde35024576b6, type: 2}
+  runAnimation: {fileID: 11400000, guid: f9855dfcf87548f45a6149424d8b9b33, type: 2}
+  attackAnimation: {fileID: 11400000, guid: a2eb637ba517bc44cba78f9f62e0319e, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: d13769781218ae14abbba6d03e6ff782, type: 2}
+  specialAttackAnimation:
+  - name: 
+    description: 
+    animation: {fileID: 11400000, guid: 246cfb881dfdf87459109f0f37b30203, type: 2}

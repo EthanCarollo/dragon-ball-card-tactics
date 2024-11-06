@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03b16787bc87f453d9d2b4fb52cd1a0f, type: 3}
+  m_Name: Move
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: -9155658219237614297, guid: 6b0a2ed1b13d46d4cae6dc5488f2de73, type: 3}
+    time: 0.2
+  - sprite: {fileID: 1767588342160928606, guid: 6b0a2ed1b13d46d4cae6dc5488f2de73, type: 3}
+    time: 0.2
+  - sprite: {fileID: 2247695840286254427, guid: 6b0a2ed1b13d46d4cae6dc5488f2de73, type: 3}
+    time: 0.2

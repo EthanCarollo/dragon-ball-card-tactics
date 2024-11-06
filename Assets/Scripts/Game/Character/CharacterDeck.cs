@@ -54,7 +54,7 @@ public class CharacterContainer
         this.characterId = characterId;
         this.actualHealth = GetCharacterData().maxHealth;
     }
-
+    
     public CharacterData GetCharacterData()
     {
         return CharacterDatabase.Instance.GetCharacterById(characterId);
@@ -68,6 +68,10 @@ public class CharacterContainer
     public bool IsDead()
     {
         return actualHealth <= 0;
+    }
+    public int GetCharacterMaxHealth()
+    {
+        return GetCharacterData().maxHealth;
     }
     public int GetAttackDamage()
     {
@@ -92,5 +96,14 @@ public class CharacterContainer
     public int GetRange()
     {
         return GetCharacterData().baseRange;
+    }
+    public int GetCharacterPower()
+    {
+        return 
+            Mathf.FloorToInt(GetAttackDamage()) * 3 +
+            Mathf.FloorToInt(GetArmor() * 2) +
+            GetCriticalChance() +
+            Mathf.FloorToInt(GetCharacterMaxHealth() / 25) +
+            Mathf.FloorToInt(GetAttackSpeed() * 60);
     }
 }

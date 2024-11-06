@@ -9,6 +9,7 @@ public class SingleCharacterInfo : MonoBehaviour
     public TextMeshProUGUI characterName;
     public Image characterImage;
     public Slider healthSlider;
+    public TextMeshProUGUI typeText;
     public TextMeshProUGUI roleText;
     public TextMeshProUGUI healthText;
     public TextMeshProUGUI maxHealthText;
@@ -32,7 +33,8 @@ public class SingleCharacterInfo : MonoBehaviour
         characterName.text = character.GetCharacterData().name;
         healthText.text = character.actualHealth + " / " + character.GetCharacterData().maxHealth + " HP";
         healthSlider.maxValue = character.GetCharacterData().maxHealth;
-        roleText.text = character.GetCharacterData().role.ToString();
+        typeText.text = "Type : " + character.GetCharacterData().characterType;
+        roleText.text = "Role : " + character.GetCharacterData().role;
         healthSlider.value = character.actualHealth;
         maxHealthText.text = character.GetCharacterData().maxHealth + " MAX HP";
         maxKiText.text = character.GetCharacterData().maxKi + " MAX KI";

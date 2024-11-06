@@ -11,6 +11,7 @@ public class CharacterData : ScriptableObject
     public int starNumber = 1;
     public string characterName;
     public CharacterRole role = CharacterRole.DPS;
+    public CharacterType characterType = CharacterType.Strength;
 
     public Sprite characterSprite;
     public Sprite characterIcon;
@@ -32,6 +33,22 @@ public class CharacterData : ScriptableObject
     public BoardAnimation attackAnimation;
     public BoardAnimation criticalAttackAnimation;
     public SpecialAttack[] specialAttackAnimation;
+
+    public Color GetCharacterColor()
+    {
+        switch (characterType)
+        {
+            case CharacterType.Strength:
+                return Color.red;
+            case CharacterType.Technic:
+                return Color.green;
+            case CharacterType.Intelligence:
+                return Color.magenta;
+            case CharacterType.Endurance:
+                return Color.yellow;
+        }
+        return Color.white;
+    }
 }
 
 [Serializable]
@@ -40,6 +57,14 @@ public class SpecialAttack
     public string name;
     public string description;
     public BoardAnimation animation;
+}
+
+public enum CharacterType
+{
+    Strength,
+    Technic,
+    Intelligence,
+    Endurance
 }
 
 public enum CharacterRole
