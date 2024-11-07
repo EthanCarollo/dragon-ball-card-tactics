@@ -18,7 +18,7 @@ MonoBehaviour:
   - sprite: {fileID: -5062194, guid: 9c169cfd1805c574fa4cc6f6a5d3defe, type: 3}
     time: 0.2
   - sprite: {fileID: 62293443, guid: 9c169cfd1805c574fa4cc6f6a5d3defe, type: 3}
-    time: 0.4
+    time: 2
   attackFrameIndex: 2
   kikoha: {fileID: -286618519, guid: 9c169cfd1805c574fa4cc6f6a5d3defe, type: 3}
   particleAttack: {fileID: 0}

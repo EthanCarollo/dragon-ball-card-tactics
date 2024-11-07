@@ -16,10 +16,11 @@ MonoBehaviour:
   starNumber: 1
   characterName: Raditz
   role: 1
+  characterType: 0
   characterSprite: {fileID: -8592258370221348547, guid: 9c169cfd1805c574fa4cc6f6a5d3defe, type: 3}
   characterIcon: {fileID: 802148583670001276, guid: 25ff1dc7c67f67b44aa5fc2923bd87df, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 750
+  maxHealth: 1900
   maxKi: 75
   baseRange: 1
   baseDamage: 50

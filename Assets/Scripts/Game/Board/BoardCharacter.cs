@@ -134,6 +134,20 @@ public class BoardCharacter : BoardObject
         gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().StartCoroutine(animation.PlayAnimationCoroutine(this));
     }
 
+
+    public void PlayAnimation(BoardAnimation animation, Action onAnimationComplete = null)
+    {
+        var characterScript = gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
+        characterScript.StopAllCoroutines();
+        characterScript.StartCoroutine(PlayAnimationWithCallback(animation, onAnimationComplete));
+    }
+
+    private IEnumerator PlayAnimationWithCallback(BoardAnimation animation, Action onAnimationComplete)
+    {
+        yield return gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().StartCoroutine(animation.PlayAnimationCoroutine(this));
+        onAnimationComplete?.Invoke();
+    }
+
     public void PlayAnimationIfNotRunning(BoardAnimation animation)
     {
         if (!isAnimating)

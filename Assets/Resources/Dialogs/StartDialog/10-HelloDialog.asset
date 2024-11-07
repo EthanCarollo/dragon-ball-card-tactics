@@ -17,3 +17,11 @@ MonoBehaviour:
   content: "Est-ce que tu rigoles ? \xC7a va \xEAtre g\xE9nial ! On est partis, Trunks,
     montre-moi par o\xF9 commencer !"
   leftTalk: 1
+  dialogStrategy:
+    rid: 6158955245534707793
+  references:
+    version: 2
+    RefIds:
+    - rid: 6158955245534707793
+      type: {class: EndOnBoardingStrategy, ns: , asm: Assembly-CSharp}
+      data: 

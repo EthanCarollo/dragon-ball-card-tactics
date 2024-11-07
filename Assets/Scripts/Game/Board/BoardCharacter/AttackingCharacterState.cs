@@ -5,6 +5,7 @@ public class AttackingCharacterState : BoardCharacterState
 {
     public BoardCharacter characterTarget;
     private float timeSinceLastAttack = 0f;
+    private bool isSpecialAttacking = false;
     
     public AttackingCharacterState(BoardCharacter character, BoardCharacter characterTarget) : base(character)
     {
@@ -13,6 +14,9 @@ public class AttackingCharacterState : BoardCharacterState
     
     public override void Update()
     {
+        if (isSpecialAttacking) {
+            return;
+        }
         if (characterTarget != null && characterTarget.character.IsDead() == false && characterTarget.gameObject != null)
         {
             boardCharacter.direction = BoardUtils.GetDirectionVector(
@@ -34,7 +38,10 @@ public class AttackingCharacterState : BoardCharacterState
         {
             if (boardCharacter.character.actualKi >= boardCharacter.character.GetCharacterData().maxKi)
             {
-                boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterSpecialAttack().animation);
+                isSpecialAttacking = true;
+                boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterSpecialAttack().animation, () => {
+                    isSpecialAttacking = false;
+                });
                 boardCharacter.character.actualKi = 0;
             }
             else
