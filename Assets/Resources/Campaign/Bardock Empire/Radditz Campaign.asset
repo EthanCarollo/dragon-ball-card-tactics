@@ -17,10 +17,4 @@ MonoBehaviour:
   - characters:
     - character: {fileID: 11400000, guid: 1b52006df0e58d5428b388a2afed92cb, type: 2}
       position: {x: 8, y: 5}
-    StartDialog:
-    - leftCharacter: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
-      rightCharacter: {fileID: 11400000, guid: 1b52006df0e58d5428b388a2afed92cb, type: 2}
-      content: It seems like something is weird in this galaxy..
-    - leftCharacter: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
-      rightCharacter: {fileID: 11400000, guid: 1b52006df0e58d5428b388a2afed92cb, type: 2}
-      content: Why is Raditz here ?...
+    StartDialog: []

@@ -25,6 +25,7 @@ public class GameManager
     public CharacterInventory characterInventory;
     public CampaignManager campaignManager;
     public Galaxy actualGalaxy;
+    public bool needOnBoarding = true;
 
     public CampaignContainer actualCampaign;
     public int actualCampaignLevel = 0;

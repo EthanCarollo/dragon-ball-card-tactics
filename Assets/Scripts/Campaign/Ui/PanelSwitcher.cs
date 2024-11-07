@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -5,6 +6,14 @@ public class PanelSwitcher : MonoBehaviour
 {
     public RectTransform content;
     private int currentIndex = 0;
+
+    public void Start()
+    {
+        if (GameManager.Instance.needOnBoarding)
+        {
+            DialogManager.Instance.SetupDialog(DialogDatabase.Instance.startDialogs);
+        }
+    }
 
     public void SwitchToPanel(int index)
     {

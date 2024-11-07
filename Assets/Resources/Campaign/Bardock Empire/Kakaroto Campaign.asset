@@ -17,13 +17,4 @@ MonoBehaviour:
   - characters:
     - character: {fileID: 11400000, guid: 2386148d3d4eb0c4bbe6165f0ba94a44, type: 2}
       position: {x: 8, y: 5}
-    StartDialog:
-    - leftCharacter: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
-      rightCharacter: {fileID: 11400000, guid: 2386148d3d4eb0c4bbe6165f0ba94a44, type: 2}
-      content: How is that possible...
-    - leftCharacter: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
-      rightCharacter: {fileID: 11400000, guid: 2386148d3d4eb0c4bbe6165f0ba94a44, type: 2}
-      content: Wtf are you doing there Goku ?...
-    - leftCharacter: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
-      rightCharacter: {fileID: 11400000, guid: 2386148d3d4eb0c4bbe6165f0ba94a44, type: 2}
-      content: Who is Goku ?
+    StartDialog: []

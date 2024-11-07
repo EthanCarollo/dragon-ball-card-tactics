@@ -1,9 +1,17 @@
 using System;
+using UnityEngine;
 
+[CreateAssetMenu(fileName = "NewDialog", menuName = "Dialog System/Dialog")]
 [Serializable]
-public class Dialog
+public class Dialog : ScriptableObject
 {
-        public CharacterData leftCharacter;
-        public CharacterData rightCharacter;
-        public string content;
+    public CharacterData leftCharacter;
+    public CharacterData rightCharacter;
+    [TextArea(3, 10)]
+    public string content;
+
+    public virtual void GoNextDialog()
+    {
+        
+    }
 }

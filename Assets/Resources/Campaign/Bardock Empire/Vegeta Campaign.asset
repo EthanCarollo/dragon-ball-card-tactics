@@ -17,7 +17,4 @@ MonoBehaviour:
   - characters:
     - character: {fileID: 11400000, guid: 28fa8f8e07ecfc243bedd782b907b60d, type: 2}
       position: {x: 8, y: 5}
-    StartDialog:
-    - leftCharacter: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
-      rightCharacter: {fileID: 11400000, guid: 28fa8f8e07ecfc243bedd782b907b60d, type: 2}
-      content: Why is Raditz here ?...
+    StartDialog: []
