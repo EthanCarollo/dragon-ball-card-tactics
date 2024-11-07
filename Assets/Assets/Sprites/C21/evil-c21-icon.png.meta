@@ -199,7 +199,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      evil-c21-icon_0: 1000722348694945793
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

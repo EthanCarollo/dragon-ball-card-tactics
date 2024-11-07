@@ -39,3 +39,12 @@ public class SwitchPanelStrategy : DialogStrategy
         PanelSwitcher.Instance.SwitchToPanel(panel);
     }
 }
+
+[Serializable]
+public class EndOnBoardingStrategy : DialogStrategy
+{
+    public override void ExecuteStrategy(Dialog dialog)
+    {
+        GameManager.Instance.needOnBoarding = false;
+    }
+}
