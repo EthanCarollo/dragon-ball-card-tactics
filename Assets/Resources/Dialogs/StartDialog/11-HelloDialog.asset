@@ -10,10 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38cc636710cf490487012664120255dd, type: 3}
-  m_Name: 01-HelloDialog
+  m_Name: 11-HelloDialog
   m_EditorClassIdentifier: 
   leftCharacter: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
   rightCharacter: {fileID: 11400000, guid: 8c3bfae95351cfd46b3ffd4b507c146d, type: 2}
-  content: "Salut Goku ! Je\u2026 j\u2019ai un gros souci, et j\u2019ai besoin de
-    ton aide. J\u2019ai\u2026 euh\u2026 un peu fait n\u2019importe quoi avec la machine
-    \xE0 voyager dans le temps."
+  content: "Bonne chance ! C\u2019est \xE0 toi de jouer maintenant."
+  leftTalk: 0

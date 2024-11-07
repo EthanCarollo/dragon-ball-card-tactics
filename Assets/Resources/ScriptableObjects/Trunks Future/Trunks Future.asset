@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Trunks Future
+  m_EditorClassIdentifier: 
+  id: 2
+  starNumber: 1
+  characterName: Trunks Future
+  role: 1
+  characterType: 0
+  characterSprite: {fileID: 3542006098375304258, guid: fb35d289ba574c944b564f45b972712e, type: 3}
+  characterIcon: {fileID: 4222025725225743823, guid: 2d5158fc45f38a743913e399d7153dbf, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 750
+  maxKi: 75
+  baseRange: 1
+  baseDamage: 50
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 0.5
+  baseCriticalChance: 10
+  idleAnimation: {fileID: 11400000, guid: 481218fc32f311242940d451655bb1eb, type: 2}
+  runAnimation: {fileID: 11400000, guid: a4f7c0ca5e6d7d243abe48e05d1bb27f, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 506e3f14c1dffb24c8ae6829da9aac4b, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: ec8c960b6b7e11247ba90d2dbb7429c5, type: 2}
+  specialAttackAnimation:
+  - name: 
+    description: 
+    animation: {fileID: 11400000, guid: 761d1e111e79d49489bc9a9276d78eb0, type: 2}

@@ -5,7 +5,13 @@ using UnityEngine.UI;
 public class PanelSwitcher : MonoBehaviour
 {
     public RectTransform content;
+    public static PanelSwitcher Instance;
     private int currentIndex = 0;
+
+    public void Awake()
+    {
+        Instance = this;
+    }
 
     public void Start()
     {

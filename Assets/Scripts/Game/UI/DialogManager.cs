@@ -49,6 +49,14 @@ public class DialogManager : MonoBehaviour
                 {
                         leftCharacterImage.gameObject.SetActive(true);
                         leftCharacterImage.sprite = dialog.leftCharacter.characterIcon;
+                        if (dialog.leftTalk)
+                        {
+                                LeanTween.scale(leftCharacterImage.gameObject.GetComponent<RectTransform>(), new Vector3(1.2f,1.2f,1.2f), 0.2f);
+                        }
+                        else
+                        {
+                                LeanTween.scale(leftCharacterImage.gameObject.GetComponent<RectTransform>(), new Vector3(1f,1f,1f), 0.2f);
+                        }
                 }
                 else
                 {
@@ -59,6 +67,14 @@ public class DialogManager : MonoBehaviour
                 {
                         rightCharacterImage.gameObject.SetActive(true);
                         rightCharacterImage.sprite = dialog.rightCharacter.characterIcon;
+                        if (!dialog.leftTalk)
+                        {
+                                LeanTween.scale(rightCharacterImage.gameObject.GetComponent<RectTransform>(), new Vector3(-1.2f,1.2f,1.2f), 0.2f);
+                        }
+                        else
+                        {
+                                LeanTween.scale(rightCharacterImage.gameObject.GetComponent<RectTransform>(), new Vector3(-1f,1f,1f), 0.2f);
+                        }
                 }
                 else
                 {

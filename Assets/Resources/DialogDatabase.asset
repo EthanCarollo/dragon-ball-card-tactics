@@ -14,3 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDialogs:
   - {fileID: 11400000, guid: a5886b018442bd8479ce6b434d60a935, type: 2}
+  - {fileID: 11400000, guid: 0c2951d42ff1ea643b6bb6cf032878a7, type: 2}
+  - {fileID: 11400000, guid: d6566d6f6a4802b4ba653820057abadf, type: 2}
+  - {fileID: 11400000, guid: 67a1ed14755c61d43a4df71f337e793a, type: 2}
+  - {fileID: 11400000, guid: ab3e72595c13c9949b52abe1002ddca0, type: 2}
+  - {fileID: 11400000, guid: 04c2ad026a2287047ad1dfc90004ff03, type: 2}
+  - {fileID: 11400000, guid: b291ea64dd8aba242a81f9b89c6569eb, type: 2}
+  - {fileID: 11400000, guid: 1c479f7696ba6d94fb61d241491892e6, type: 2}
+  - {fileID: 11400000, guid: ead6a2f08c14fa94eafe2e1ecefc1130, type: 2}
+  - {fileID: 11400000, guid: f69c688c6802e8e4b9b99e1ea5244478, type: 2}
+  - {fileID: 11400000, guid: c7e447630ccc2f94ab471f54959d479b, type: 2}
