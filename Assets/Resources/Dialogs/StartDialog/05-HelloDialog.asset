@@ -18,3 +18,12 @@ MonoBehaviour:
     de s\u2019organiser. Regarde cet \xE9cran ici : tu pourras y voir les personnages
     qu\u2019on a avec nous. Chaque fois qu\u2019on rencontre quelqu\u2019un, il appara\xEEt
     ici pour qu\u2019on puisse les g\xE9rer et savoir o\xF9 ils se trouvent."
+  leftTalk: 0
+  dialogStrategy:
+    rid: 8561310086199246934
+  references:
+    version: 2
+    RefIds:
+    - rid: 8561310086199246934
+      type: {class: DialogStrategy, ns: , asm: Assembly-CSharp}
+      data: 

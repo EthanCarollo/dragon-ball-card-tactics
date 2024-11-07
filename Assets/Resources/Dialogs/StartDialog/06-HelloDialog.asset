@@ -17,3 +17,12 @@ MonoBehaviour:
   content: "Ah, je vois ! Comme une sorte de tableau de bord des copains. Pratique
     ! Et l'autre \xE9cran, l\xE0 ?"
   leftTalk: 1
+  dialogStrategy:
+    rid: 8561310086199246936
+  references:
+    version: 2
+    RefIds:
+    - rid: 8561310086199246936
+      type: {class: SwitchPanelStrategy, ns: , asm: Assembly-CSharp}
+      data:
+        panel: 0

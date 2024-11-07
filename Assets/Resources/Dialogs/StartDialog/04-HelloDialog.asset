@@ -18,3 +18,12 @@ MonoBehaviour:
     g\xE9nial ! \u2026 Enfin, je veux dire, tant qu\u2019on peut trouver comment
     rentrer."
   leftTalk: 1
+  dialogStrategy:
+    rid: 8561310086199246935
+  references:
+    version: 2
+    RefIds:
+    - rid: 8561310086199246935
+      type: {class: SwitchPanelStrategy, ns: , asm: Assembly-CSharp}
+      data:
+        panel: 2

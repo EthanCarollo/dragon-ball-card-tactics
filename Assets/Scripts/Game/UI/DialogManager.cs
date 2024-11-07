@@ -32,6 +32,7 @@ public class DialogManager : MonoBehaviour
 
         public void GoNextDialog()
         {
+                this.dialogList[actualDialog].GoNextDialog();
                 actualDialog++;
                 if (actualDialog >= dialogList.Length)
                 {

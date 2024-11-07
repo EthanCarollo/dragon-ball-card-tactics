@@ -16,3 +16,12 @@ MonoBehaviour:
   rightCharacter: {fileID: 11400000, guid: 8c3bfae95351cfd46b3ffd4b507c146d, type: 2}
   content: "Bonne chance ! C\u2019est \xE0 toi de jouer maintenant."
   leftTalk: 0
+  dialogStrategy:
+    rid: 8561310086199246938
+  references:
+    version: 2
+    RefIds:
+    - rid: 8561310086199246938
+      type: {class: SwitchPanelStrategy, ns: , asm: Assembly-CSharp}
+      data:
+        panel: 1

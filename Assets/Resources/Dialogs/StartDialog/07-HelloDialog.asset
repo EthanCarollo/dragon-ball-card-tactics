@@ -19,3 +19,11 @@ MonoBehaviour:
     explorer. Il faudra qu\u2019on soit prudents, chaque endroit peut avoir des surprises\u2026
     bonnes ou mauvaises."
   leftTalk: 0
+  dialogStrategy:
+    rid: 8561310086199246933
+  references:
+    version: 2
+    RefIds:
+    - rid: 8561310086199246933
+      type: {class: DialogStrategy, ns: , asm: Assembly-CSharp}
+      data: 
