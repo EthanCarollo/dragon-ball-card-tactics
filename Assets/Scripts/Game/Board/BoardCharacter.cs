@@ -82,6 +82,11 @@ public class BoardCharacter : BoardObject
         state.Attack(this.character.GetAttackDamage(), particle);
     }
 
+    public void Dead()
+    {
+        state.Dead();
+    }
+
     public void HitDamage(int damageAmount)
     {
         
@@ -89,31 +94,8 @@ public class BoardCharacter : BoardObject
         SetCharacterSlider();
         if (this.character.IsDead() && isDying == false)
         {
-            isDying = true;
-            if (this.character.GetCharacterData().deadAnimation != null)
-            {
-                PlayAnimation(this.character.GetCharacterData().deadAnimation);
-            }
-            else
-            {
-                Disappear(); 
-            }   
+            this.Dead(); 
         }
-    }
-
-    public void Disappear()
-    {
-        var spriteRenderer = gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>();
-        spriteRenderer.material = new Material(ShadersDatabase.Instance.disappearMaterial);
-        spriteRenderer.material.SetFloat("_Fade", 1f);
-        LeanTween.value(gameObject, f =>
-        {
-            spriteRenderer.material.SetFloat("_Fade", f);
-        }, 1f, 0f, 2f)
-        .setOnComplete((o =>
-        {
-            GameObject.Destroy(gameObject);
-        }));
     }
 
     public void AddKi(int kiAmount)
