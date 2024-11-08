@@ -33,6 +33,7 @@ public class CharacterData : ScriptableObject
     public BoardAnimation attackAnimation;
     public BoardAnimation criticalAttackAnimation;
     public SpecialAttack[] specialAttackAnimation;
+    public BoardAnimation deadAnimation;
 
     public Color GetCharacterColor()
     {

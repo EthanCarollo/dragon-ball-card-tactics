@@ -16,6 +16,7 @@ MonoBehaviour:
   starNumber: 1
   characterName: Bardock
   role: 0
+  characterType: 0
   characterSprite: {fileID: -7330136625312183955, guid: f96f3b228afc35f4396d6b8143892d55, type: 3}
   characterIcon: {fileID: -5238605233198477593, guid: bd2aa6c450846c84a85ea598d1687d0f, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
@@ -35,3 +36,4 @@ MonoBehaviour:
   - name: 
     description: 
     animation: {fileID: 11400000, guid: 6862d7942f7f94a4aa7a1201601a9f0e, type: 2}
+  deadAnimation: {fileID: 11400000, guid: 3118b3fab87a32c4d8970f2fcac5f4ca, type: 2}

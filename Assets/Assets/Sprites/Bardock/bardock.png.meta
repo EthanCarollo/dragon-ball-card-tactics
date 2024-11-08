@@ -1011,6 +1011,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: bardock_34
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 89
+        width: 57
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5806834, y: 0.17064738}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d627c037871774f851ee8847cd4d66
+      internalID: 73910664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -1053,6 +1075,7 @@ TextureImporter:
       bardock_31: 7860140317479724761
       bardock_32: 5767387724456880540
       bardock_33: 4623721324601640627
+      bardock_34: 73910664
       bardock_4: 2573624975839192150
       bardock_5: -6958442298513150486
       bardock_6: 3569345109438242568

@@ -89,13 +89,20 @@ public class BoardCharacter : BoardObject
         SetCharacterSlider();
         if (this.character.IsDead() && isDying == false)
         {
-            Disappear();    
+            isDying = true;
+            if (this.character.GetCharacterData().deadAnimation != null)
+            {
+                PlayAnimation(this.character.GetCharacterData().deadAnimation);
+            }
+            else
+            {
+                Disappear(); 
+            }   
         }
     }
 
     public void Disappear()
     {
-        isDying = true;
         var spriteRenderer = gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>();
         spriteRenderer.material = new Material(ShadersDatabase.Instance.disappearMaterial);
         spriteRenderer.material.SetFloat("_Fade", 1f);
