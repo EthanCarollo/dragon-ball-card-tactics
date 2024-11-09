@@ -470,7 +470,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: -1210346179106896902, guid: a89da15fdcbad9d47b308a72f1932809, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -494,6 +494,7 @@ MonoBehaviour:
     campaignName: 
     campaign: []
     actualCampaign: 0
+    planet: {fileID: 0}
   campaignInfo: {fileID: 3951168192541928245}
   campaignAdvancementSlider: {fileID: 7964807979627185208}
   campaignAdvancementText: {fileID: 7449636847590705004}

@@ -15,6 +15,7 @@ public class CampaignContainer
         public string campaignName;
         public Campaign[] campaign;
         public int actualCampaign = 0;
+        public Sprite planet;
 
         public Campaign GetActualCampaign()
         {

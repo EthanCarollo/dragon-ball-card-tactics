@@ -23,7 +23,9 @@ MonoBehaviour:
     - {fileID: 11400000, guid: b9987eae85ab99e40b6061bfef008b4f, type: 2}
     - {fileID: 11400000, guid: a4b9567e91dff97469cba2815748534d, type: 2}
     actualCampaign: 0
+    planet: {fileID: 3286981313498635835, guid: 3d8f2cd5e378645a788235d1ce1c3bac, type: 3}
   - campaignName: Android 17 Rebellion
     campaign:
     - {fileID: 11400000, guid: e966936ed33ea0043a7250822316a2e2, type: 2}
     actualCampaign: 0
+    planet: {fileID: -8779006815210466723, guid: 4038292e627ae4229aaa5cef6ca5a106, type: 3}
