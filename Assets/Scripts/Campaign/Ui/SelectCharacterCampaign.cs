@@ -1,15 +1,19 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 
 public class SelectCharacterCampaign : MonoBehaviour
 {
     public GameObject selectCharacterPrefab;
+    public GameObject simpleCharacterContainerPrefab;
     public GameObject selectCampaignContainer;
+    public TextMeshProUGUI campaignTitle;
 
     public Transform selectCharacterParent;
+    public Transform enemyCharacterParent;
 
     public static SelectCharacterCampaign Instance;
     [NonSerialized]
@@ -21,6 +25,7 @@ public class SelectCharacterCampaign : MonoBehaviour
     }
 
     public void SetupCampaign(CampaignContainer campaign){
+        campaignTitle.text = campaign.GetActualCampaign().campaignName;
         selectCampaignContainer.SetActive(true);
         foreach (Transform child in selectCharacterParent)
         {
@@ -31,6 +36,17 @@ public class SelectCharacterCampaign : MonoBehaviour
             var go = Instantiate(selectCharacterPrefab, selectCharacterParent);
             go.GetComponent<SelectCharacterScript>().SetupCharacter(i);
         }
+
+        foreach (Transform child in enemyCharacterParent)
+        {
+            Destroy(child.gameObject);
+        }
+
+        for(int i = 0; i < campaign.GetActualCampaign().levels[0].characters.Length; i++){
+            var go = Instantiate(simpleCharacterContainerPrefab, enemyCharacterParent);
+            go.GetComponent<CharacterSimpleContainer>().SetupCharacter(campaign.GetActualCampaign().levels[0].characters[i].character);
+        }
+
         this.campaign = campaign;
     }
 

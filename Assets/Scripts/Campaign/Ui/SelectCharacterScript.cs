@@ -26,7 +26,8 @@ public class SelectCharacterScript : MonoBehaviour, IPointerClickHandler {
             CharacterInventory.Instance.selectedIndexCharacterForCampaign[index] = characterIndexInInventory;
             return;
         }
-        if(CharacterInventory.Instance.selectedIndexCharacterForCampaign.Contains(characterIndexInInventory)){
+        if(CharacterInventory.Instance.selectedIndexCharacterForCampaign.Contains(characterIndexInInventory) && 
+            CharacterInventory.Instance.selectedIndexCharacterForCampaign[index] != characterIndexInInventory){
             return;
         }
         characterIndex = characterIndexInInventory;
