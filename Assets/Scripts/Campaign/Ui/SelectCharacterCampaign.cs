@@ -41,6 +41,10 @@ public class SelectCharacterCampaign : MonoBehaviour
                 charContainerForFight.Add(CharacterInventory.Instance.characters[CharacterInventory.Instance.selectedIndexCharacterForCampaign[i]]);
             }
         }
+        if(charContainerForFight.Count == 0){
+            Debug.LogWarning("PROBLEM : There is no character in the character fight array");
+            return;
+        }
         CampaignUtils.LaunchCampaign(campaign, charContainerForFight.ToArray());
     }
 }
