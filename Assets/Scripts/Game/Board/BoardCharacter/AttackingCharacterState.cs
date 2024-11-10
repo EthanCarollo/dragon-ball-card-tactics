@@ -11,9 +11,14 @@ public class AttackingCharacterState : BoardCharacterState
     {
         this.characterTarget = characterTarget;
     }
-    
+
     public override void Update()
     {
+        // Only for debug
+        if(this.boardCharacter.board is FightBoard fightBoard){
+            fightBoard.LaunchKikohaFight(this.boardCharacter, characterTarget);
+        }
+        return;
         if (isSpecialAttacking) {
             return;
         }

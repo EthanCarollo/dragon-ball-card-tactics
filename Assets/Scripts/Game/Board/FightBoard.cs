@@ -44,6 +44,32 @@ public class FightBoard : Board
     {
         state.EndFight();
     }
+
+    public bool launchedTemp = false;
+
+    public void LaunchKikohaFight(BoardObject boardObject1, BoardObject boardObject2)
+    {
+        if(launchedTemp == true) return;
+        launchedTemp = true;
+
+        if(boardObject1 is BoardCharacter boardPlayer){
+            boardPlayer.LaunchKikoha();
+            if(!boardPlayer.isPlayerCharacter){
+                boardObject1.gameObject.transform.position = BoardArray[BoardArray.GetLength(0)-1, BoardArray.GetLength(1)/2].gameObject.transform.position;
+                boardObject2.gameObject.transform.position = BoardArray[0, BoardArray.GetLength(1)/2].gameObject.transform.position;
+            } else {
+                boardObject1.gameObject.transform.position = BoardArray[0, BoardArray.GetLength(1)/2].gameObject.transform.position;
+                boardObject2.gameObject.transform.position = BoardArray[BoardArray.GetLength(0)-1, BoardArray.GetLength(1)/2].gameObject.transform.position;
+            }
+            var boardAnimation = ScriptableObject.CreateInstance<BoardAnimation>();
+            boardAnimation.frameSprites = boardPlayer.character.GetCharacterData().specialAttackAnimation[0].animation.frameSprites;
+            boardPlayer.PlayAnimation(boardAnimation);
+        }
+        
+        if(boardObject2 is BoardCharacter boardEnemy){
+            boardEnemy.LaunchKikoha();
+        }
+    }
     
     public override void CreateBoard()
     {

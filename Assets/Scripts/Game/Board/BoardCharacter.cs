@@ -145,6 +145,11 @@ public class BoardCharacter : BoardObject
         }
     }
 
+    public void LaunchKikoha() 
+    {
+        state.LaunchKikoha();
+    }
+
     public override BoardObject Clone()
     {
         BoardCharacter clonedCharacter = new BoardCharacter(character, isPlayerCharacter);
