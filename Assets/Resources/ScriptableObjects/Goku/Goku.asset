@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku
   m_EditorClassIdentifier: 
-  id: 3
+  id: 0
   starNumber: 1
   characterName: Goku
   role: 0
@@ -23,7 +23,7 @@ MonoBehaviour:
   maxHealth: 560
   maxKi: 50
   baseRange: 1
-  baseDamage: 450
+  baseDamage: 50
   baseArmor: 10
   baseSpeed: 2
   baseAttackSpeed: 1
@@ -33,6 +33,9 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: bd65ce635a6e5b1419185cd7c91bcd91, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: e792fb216f499e24692776f1360dbfe1, type: 2}
   specialAttackAnimation:
+  - name: Kameha
+    description: A bigger attack
+    animation: {fileID: 11400000, guid: a531f997c43494bbba443a3ecf070a82, type: 2}
   - name: Little super attack
     description: A little super attack
     animation: {fileID: 11400000, guid: 0badf5a831b265d44b42755cd9b173f8, type: 2}
