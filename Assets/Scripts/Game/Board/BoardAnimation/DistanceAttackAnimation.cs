@@ -54,7 +54,7 @@ public class DistanceAttackAnimation : BoardAnimation {
         }
         catch (Exception error)
         {
-            Debug.LogWarning("Error on moving game object of projectile, so delete it.");
+            Debug.LogWarning("Error on moving game object of projectile, so delete it." + error.ToString());
             MonoBehaviour.Destroy(newGameObject);
         }
     }

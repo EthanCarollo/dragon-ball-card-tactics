@@ -17,7 +17,7 @@ public class CampaignButton : MonoBehaviour, IPointerClickHandler, IPointerEnter
         {
             return;
         }
-        CampaignUtils.LaunchCampaign(campaign);
+        SelectCharacterCampaign.Instance.SetupCampaign(campaign);
     }
 
     public void OnPointerEnter(PointerEventData eventData)

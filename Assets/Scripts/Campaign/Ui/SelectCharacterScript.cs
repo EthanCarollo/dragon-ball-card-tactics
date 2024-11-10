@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.TextCore.Text;
@@ -14,12 +15,16 @@ public class SelectCharacterScript : MonoBehaviour, IPointerClickHandler {
         index = selectIndex;
     }
 
+    // This logics shouldn't be there, but in a problem of prototyping, I made this to be more fast
     public void SelectCharacter(int characterIndexInInventory){
         if(characterIndexInInventory == -1){
             CharacterInventory.Instance.selectedIndexCharacterForCampaign[index] = characterIndexInInventory;
             return;
         }
-        character.sprite = CharacterInventory.Instance.characters[characterIndexInInventory].GetCharacterData().characterSprite;
+        if(CharacterInventory.Instance.selectedIndexCharacterForCampaign.Contains(characterIndexInInventory)){
+            return;
+        }
+        character.sprite = CharacterInventory.Instance.characters[characterIndexInInventory].GetCharacterData().characterIcon;
         behindContainer.color = CharacterInventory.Instance.characters[characterIndexInInventory].GetCharacterData().GetCharacterColor();
         CharacterInventory.Instance.selectedIndexCharacterForCampaign[index] = characterIndexInInventory;
     }

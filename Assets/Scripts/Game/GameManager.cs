@@ -43,18 +43,6 @@ public class GameManager
         // TODO : add a global config value for the board object outside of the fight board "the reserve"
         // TODO : cause actually it's the value in vertical board lol
         boardUsableCharacterArray = new BoardObject[8]; 
-        
-        /*
-        // TODO : temporary
-        if (DebugMode)
-        // if(false)
-        {
-            boardCharacterArray[1, 4] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Gohan"), true);
-            //boardCharacterArray[0, 2] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/Paragus"), true);
-            //boardUsableCharacterArray[0] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/BlackGoku"), true);
-            boardCharacterArray[7, 4] = new BoardCharacter(Resources.Load<CharacterData>("ScriptableObjects/BlackGoku"), false);
-        }
-        */
     }
 
     public void SetupGalaxy(Galaxy galaxy)
@@ -66,13 +54,10 @@ public class GameManager
         }
     }
 
-    public void SetupCampaign(CampaignContainer campaign){
+    public void SetupCampaign(CampaignContainer campaign, CharacterContainer[] charContainerForFight){
         actualCampaignLevel = 0;
         actualCampaign = campaign;
-        SetupGameBoardForLevel(actualCampaign.GetActualCampaign().levels[actualCampaignLevel], new CharacterContainer[]
-            {
-                characterInventory.characters[0]
-            });
+        SetupGameBoardForLevel(actualCampaign.GetActualCampaign().levels[actualCampaignLevel], charContainerForFight);
         FightBoard.Instance.CreateBoard();
         VerticalBoard.Instance.CreateBoard();
     }
