@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class GalaxyPanel : MonoBehaviour
 {
     public GameObject planetPrefab; 
+    public Transform galaxyParent;
+    public SelectCharacterCampaign selectCharacterCampaign;
 
     public void Awake()
     {
@@ -18,7 +20,7 @@ public class GalaxyPanel : MonoBehaviour
         {
             var campaigns = GameManager.Instance.actualGalaxy.campaigns;
             RectTransform panelRect = GetComponent<RectTransform>();
-            float panelWidth = panelRect.rect.width - 500;
+            float panelWidth = panelRect.rect.width - 800;
             float panelHeight = panelRect.rect.height - 500;
             float minDistance = 350f; // Minimum distance between planets
 
@@ -33,7 +35,7 @@ public class GalaxyPanel : MonoBehaviour
                 // Keep generating a position until it meets the minimum distance requirement
                 do
                 {
-                    float randomX = UnityEngine.Random.Range(-panelWidth / 2, panelWidth / 2);
+                    float randomX = UnityEngine.Random.Range(-panelWidth / 2, panelWidth / 2) - 300;
                     float randomY = UnityEngine.Random.Range(-panelHeight / 2, panelHeight / 2);
                     randomPosition = new Vector2(randomX, randomY);
 
@@ -49,7 +51,7 @@ public class GalaxyPanel : MonoBehaviour
                 } while (!positionIsValid);
 
                 // Instantiate the planet at the valid position
-                GameObject planet = Instantiate(planetPrefab, randomPosition, Quaternion.identity, transform);
+                GameObject planet = Instantiate(planetPrefab, randomPosition, Quaternion.identity, galaxyParent);
                 planet.GetComponent<CampaignButton>().campaign = campaign;
 
                 if(campaign.planet != null){

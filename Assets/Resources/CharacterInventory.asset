@@ -21,3 +21,4 @@ MonoBehaviour:
     actualHealth: 250
     actualKi: 0
     selectedUltimateAttack: 0
+  selectedIndexCharacterForCampaign: ffffffffffffffffffffffffffffffffffffffffffffffff

@@ -6,6 +6,9 @@ using UnityEngine;
 public class CharacterInventory : ScriptableObject
 {
     public List<CharacterContainer> characters = new List<CharacterContainer>();
+    
+    // this is the index from the character array that is used for a fight
+    public int[] selectedIndexCharacterForCampaign;
 
     private static CharacterInventory _instance;
     public static CharacterInventory Instance
