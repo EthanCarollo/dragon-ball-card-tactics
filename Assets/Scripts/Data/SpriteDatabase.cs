@@ -4,6 +4,8 @@ using UnityEngine;
 public class SpriteDatabase : ScriptableObject
 {
     private static SpriteDatabase _instance;
+    
+    public BoardAnimation disappearAnimation;
 
     public static SpriteDatabase Instance
     {

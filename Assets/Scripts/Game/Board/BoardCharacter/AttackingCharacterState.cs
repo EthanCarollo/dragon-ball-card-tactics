@@ -40,10 +40,12 @@ public class AttackingCharacterState : BoardCharacterState
             {
                 // If the character against the one who has a kikoha also has a kikoha,
                 // launch the kikoha fight
+                var random = new System.Random();
                 if(this.boardCharacter.board is FightBoard fightBoard && 
                    boardCharacter.character.GetCharacterSpecialAttack().animation is ChargedKiAttackAnimation &&
-                   characterTarget.character.GetCharacterSpecialAttack().animation is ChargedKiAttackAnimation){
-                    fightBoard.LaunchKikohaFight(this.boardCharacter, characterTarget);
+                   characterTarget.character.GetCharacterSpecialAttack().animation is ChargedKiAttackAnimation &&
+                   random.Next(5) == 0){ 
+                    fightBoard.LaunchKikohaFight(this.boardCharacter, characterTarget); 
                     return;
                 }
                 isSpecialAttacking = true;

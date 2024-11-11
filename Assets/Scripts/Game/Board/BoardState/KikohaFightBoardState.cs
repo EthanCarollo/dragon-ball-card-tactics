@@ -6,25 +6,50 @@ public class KikohaFightBoardState : BoardState
     private BoardCharacter character1;
     private BoardCharacter character2;
 
-    public KikohaFightBoardState(FightBoard board, BoardObject boardObject1, BoardObject boardObject2) : base(board) {
+    public KikohaFightBoardState(FightBoard board, BoardObject boardObject1, BoardObject boardObject2) : base(board)
+    {
+        if (boardObject1 is BoardCharacter boardPlayer)
+        {
+            boardPlayer.PlayAnimation(SpriteDatabase.Instance.disappearAnimation);
+        }
         
-        if(boardObject1 is BoardCharacter boardPlayer){
-            if(!boardPlayer.isPlayerCharacter){
-                character1 = boardPlayer;
-                boardObject1.gameObject.transform.position = board.BoardArray[board.BoardArray.GetLength(0)-1, board.BoardArray.GetLength(1)/2].gameObject.transform.position;
-                boardObject2.gameObject.transform.position = board.BoardArray[0, board.BoardArray.GetLength(1)/2].gameObject.transform.position;
-            } else {
-                character1 = boardPlayer;
-                boardObject1.gameObject.transform.position = board.BoardArray[0, board.BoardArray.GetLength(1)/2].gameObject.transform.position;
-                boardObject2.gameObject.transform.position = board.BoardArray[board.BoardArray.GetLength(0)-1, board.BoardArray.GetLength(1)/2].gameObject.transform.position;
+        if (boardObject2 is BoardCharacter boardEnemy)
+        {
+            boardEnemy.PlayAnimation(SpriteDatabase.Instance.disappearAnimation);
+        }
+
+        LeanTween.delayedCall(0.4f, o =>
+        {
+            if (boardObject1 is BoardCharacter boardPlayer)
+            {
+                if (!boardPlayer.isPlayerCharacter)
+                {
+                    character1 = boardPlayer;
+                    boardObject1.gameObject.transform.position = board
+                        .BoardArray[board.BoardArray.GetLength(0) - 1, board.BoardArray.GetLength(1) / 2].gameObject
+                        .transform.position;
+                    boardObject2.gameObject.transform.position = board.BoardArray[0, board.BoardArray.GetLength(1) / 2]
+                        .gameObject.transform.position;
+                }
+                else
+                {
+                    character1 = boardPlayer;
+                    boardObject1.gameObject.transform.position = board.BoardArray[0, board.BoardArray.GetLength(1) / 2]
+                        .gameObject.transform.position;
+                    boardObject2.gameObject.transform.position = board
+                        .BoardArray[board.BoardArray.GetLength(0) - 1, board.BoardArray.GetLength(1) / 2].gameObject
+                        .transform.position;
+                }
+
+                InstantiateKikoha(boardPlayer);
             }
-            InstantiateKikoha(boardPlayer);
-        }
-        
-        if(boardObject2 is BoardCharacter boardEnemy){
-            character2 = boardEnemy;
-            InstantiateKikoha(boardEnemy);
-        }
+
+            if (boardObject2 is BoardCharacter boardEnemy)
+            {
+                character2 = boardEnemy;
+                InstantiateKikoha(boardEnemy);
+            }
+        });
     }
 
     private void InstantiateKikoha(BoardCharacter boardChar){
@@ -32,8 +57,10 @@ public class KikohaFightBoardState : BoardState
         if(attackAnimation is ChargedKiAttackAnimation kiAttackAnimation){
             var boardAnimation = ScriptableObject.CreateInstance<BoardAnimation>();
             boardAnimation.frameSprites = boardChar.character.GetCharacterData().specialAttackAnimation[0].animation.frameSprites;
+            
             boardChar.PlayAnimation(boardAnimation);
             boardChar.LaunchKikoha();
+            
         }
     }
 
@@ -43,6 +70,7 @@ public class KikohaFightBoardState : BoardState
     
     public override void Update()
     {
+        if (character1 == null || character2 == null) return;
         character1.Update();
         character1.UpdateUi();
         character2.Update();
@@ -115,8 +143,12 @@ public class KikohaFightBoardState : BoardState
                     }
                 }
             }
-            board.CreateBoard();
-            board.UpdateState(new FightBoardState(board));
+
+            LeanTween.delayedCall(0.4f, () =>
+            {
+                board.CreateBoard();
+                board.UpdateState(new FightBoardState(board));
+            });
         });
     }
 

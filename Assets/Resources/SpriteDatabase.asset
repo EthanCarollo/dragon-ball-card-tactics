@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58c5862ce862845aa9b107d33f6569e7, type: 3}
   m_Name: SpriteDatabase
   m_EditorClassIdentifier: 
+  disappearAnimation: {fileID: 11400000, guid: 521920f75506b40408b067a87956eb81, type: 2}

@@ -41,7 +41,6 @@ public class BoardCharacter : BoardObject
     {
         this.character = character;
         state = new DefaultCharacterState(this);
-        
     }
 
     public void UpdateState(BoardCharacterState newState)
@@ -90,6 +89,11 @@ public class BoardCharacter : BoardObject
     public void Dead()
     {
         state.Dead();
+    }
+
+    public void ResetGameObjectPosition()
+    {
+        
     }
 
     public void HitDamage(int damageAmount)

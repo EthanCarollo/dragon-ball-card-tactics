@@ -68,9 +68,14 @@ public class ChargingCharacterState : BoardCharacterState
     public override int GetKikohaAdvancement(){
         return percentage;
     }
+    
     public override void EndKikoha(){
         MonoBehaviour.Destroy(kikohaGameobject);
-        boardCharacter.UpdateState(new DefaultCharacterState(this.boardCharacter));
+        boardCharacter.PlayAnimation(SpriteDatabase.Instance.disappearAnimation);
+        LeanTween.delayedCall(0.4f, () =>
+        {
+            boardCharacter.UpdateState(new DefaultCharacterState(this.boardCharacter));
+        });
     }
     
     public override void Attack(int damage, Particle particle)
