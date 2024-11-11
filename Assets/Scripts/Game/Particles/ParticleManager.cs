@@ -13,4 +13,27 @@ public class ParticleManager : MonoBehaviour
         {
                 Instantiate(prefab, position, Quaternion.identity);
         }
+
+        public void ShowAttackNumber(BoardCharacter boardCharacter, int number)
+        {
+                Sprite[] particles = SpriteDatabase.Instance.numbers;
+                Transform boardTransform = boardCharacter.gameObject.transform;
+                string numberString = number.ToString();
+                float xOffset = 0f;
+
+                foreach (char digitChar in numberString)
+                {
+                        int digit = int.Parse(digitChar.ToString());
+                        GameObject digitObject = new GameObject("DamageDigit");
+                        SpriteRenderer spriteRenderer = digitObject.AddComponent<SpriteRenderer>();
+                        spriteRenderer.sortingOrder = 10;
+                        spriteRenderer.sprite = particles[digit];
+                        digitObject.transform.position = boardTransform.position + new Vector3(xOffset, 0, 0);
+                        digitObject.transform.SetParent(boardTransform);
+                        LeanTween.alpha(digitObject.gameObject, 0f, 0.5f).setDelay(0.6f);
+                        LeanTween.moveX(digitObject.gameObject, digitObject.transform.position.x + 1f, 1.2f).setOnComplete(
+                                () => { Destroy(digitObject.gameObject); }).setEase(LeanTweenType.easeOutCirc);
+                        xOffset += 0.5f; 
+                }
+        }
 }

@@ -13,3 +13,14 @@ MonoBehaviour:
   m_Name: SpriteDatabase
   m_EditorClassIdentifier: 
   disappearAnimation: {fileID: 11400000, guid: 521920f75506b40408b067a87956eb81, type: 2}
+  numbers:
+  - {fileID: 1371253125844987892, guid: 693ce841faeae6a46bf84ecb743b7f9f, type: 3}
+  - {fileID: -7940436442997111317, guid: 693ce841faeae6a46bf84ecb743b7f9f, type: 3}
+  - {fileID: 1949073815305430723, guid: 693ce841faeae6a46bf84ecb743b7f9f, type: 3}
+  - {fileID: -7172983125784383458, guid: 693ce841faeae6a46bf84ecb743b7f9f, type: 3}
+  - {fileID: 1787989971471089806, guid: 693ce841faeae6a46bf84ecb743b7f9f, type: 3}
+  - {fileID: -8296872276640479414, guid: 693ce841faeae6a46bf84ecb743b7f9f, type: 3}
+  - {fileID: 7428775109295772601, guid: 693ce841faeae6a46bf84ecb743b7f9f, type: 3}
+  - {fileID: -8786190157408040394, guid: 693ce841faeae6a46bf84ecb743b7f9f, type: 3}
+  - {fileID: 126266348122195868, guid: 693ce841faeae6a46bf84ecb743b7f9f, type: 3}
+  - {fileID: 2465565244120213893, guid: 693ce841faeae6a46bf84ecb743b7f9f, type: 3}

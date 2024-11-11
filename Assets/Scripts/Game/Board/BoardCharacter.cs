@@ -99,6 +99,7 @@ public class BoardCharacter : BoardObject
     public void HitDamage(int damageAmount)
     {
         this.character.actualHealth -= damageAmount;
+        ParticleManager.Instance.ShowAttackNumber(this, damageAmount);
         SetCharacterSlider();
         if (this.character.IsDead() && isDying == false)
         {

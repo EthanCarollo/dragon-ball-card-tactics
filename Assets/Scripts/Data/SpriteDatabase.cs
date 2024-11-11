@@ -6,6 +6,7 @@ public class SpriteDatabase : ScriptableObject
     private static SpriteDatabase _instance;
     
     public BoardAnimation disappearAnimation;
+    public Sprite[] numbers;
 
     public static SpriteDatabase Instance
     {
