@@ -78,7 +78,18 @@ public class KikohaFightBoardState : BoardState
 
     public override void EndKikohaFight()
     {
-
+        for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
+        {
+            for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
+            {
+                var character = GameManager.Instance.boardCharacterArray[x, y];
+                if (character == null) continue;
+                if (character is BoardCharacter boardCharacter) {
+                    boardCharacter.EndKikoha();
+                }
+            }
+        }
+        board.UpdateState(new FightBoardState(board));
     }
 
     public override void LaunchFight()

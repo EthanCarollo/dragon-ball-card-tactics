@@ -45,6 +45,11 @@ public class FightBoard : Board
         state.EndFight();
     }
 
+    public void EndKikohaFight()
+    {
+        state.EndKikohaFight();
+    }
+
     public void LaunchKikohaFight(BoardObject boardObject1, BoardObject boardObject2)
     {
         this.state.LaunchKikohaFight(boardObject1, boardObject2);

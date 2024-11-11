@@ -13,12 +13,7 @@ public class AttackingCharacterState : BoardCharacterState
     }
 
     public override void Update()
-    {
-        // Only for debug
-        if(this.boardCharacter.board is FightBoard fightBoard){
-            fightBoard.LaunchKikohaFight(this.boardCharacter, characterTarget);
-        }
-        return;
+    {   
         if (isSpecialAttacking) {
             return;
         }
@@ -43,6 +38,11 @@ public class AttackingCharacterState : BoardCharacterState
         {
             if (boardCharacter.character.actualKi >= boardCharacter.character.GetCharacterData().maxKi)
             {
+                //TEMPORARY
+                if(this.boardCharacter.board is FightBoard fightBoard){
+                    fightBoard.LaunchKikohaFight(this.boardCharacter, characterTarget);
+                }
+                return;
                 isSpecialAttacking = true;
                 boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterSpecialAttack().animation, () => {
                     isSpecialAttacking = false;

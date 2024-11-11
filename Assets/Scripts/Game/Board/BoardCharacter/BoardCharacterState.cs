@@ -25,6 +25,9 @@ public abstract class BoardCharacterState
     public virtual void UpdateKikohaAdvancement(int percentage){
 
     }
+    public virtual void EndKikoha(){
+
+    }
     public virtual int GetKikohaAdvancement(){
         return 0;
     }

@@ -82,6 +82,11 @@ public class BoardCharacter : BoardObject
         state.Attack(this.character.GetAttackDamage(), particle);
     }
 
+    public void EndKikoha()
+    {
+        state.EndKikoha();
+    }
+
     public void Dead()
     {
         state.Dead();
