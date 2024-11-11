@@ -7,7 +7,6 @@ public class CharacterBoardUi : MonoBehaviour
 {
         private BoardCharacter boardCharacter;
         public GameObject characterBoardUi;
-        public TextMeshProUGUI charStarText;
         public TextMeshProUGUI charNameText;
         public TextMeshProUGUI charArmorText;
         public TextMeshProUGUI charDamageText;
@@ -39,11 +38,9 @@ public class CharacterBoardUi : MonoBehaviour
                 charSpeedText.text = boardCharacter.character.GetSpeed().ToString();
                 charAttackSpeedText.text = boardCharacter.character.GetAttackSpeed().ToString();
                 
-                charStarText.text = boardCharacter.character.GetCharacterData().starNumber + " star";
-                
                 charHealthText.text = boardCharacter.character.actualHealth + " / " + boardCharacter.character.GetCharacterData().maxHealth;
                 charKiText.text = boardCharacter.character.actualKi + " / " + boardCharacter.character.GetCharacterData().maxKi;
-                charImage.sprite = boardCharacter.character.GetCharacterData().characterSprite;
+                charImage.sprite = boardCharacter.character.GetCharacterData().characterIcon;
         }
 
         public void ShowCharacterBoard(BoardCharacter character)

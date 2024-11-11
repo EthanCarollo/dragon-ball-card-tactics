@@ -106,10 +106,15 @@ public class KikohaFightBoardState : BoardState
         }
         
         if(character1.GetKikohaAdvancement() >= 95){
+            winner = character1;
+            looser = character2;
             EndKikohaFight();
             return;
         }
-        if(character2.GetKikohaAdvancement() >= 95){
+        if(character2.GetKikohaAdvancement() >= 95)
+        {
+            winner = character2;
+            looser = character1;
             EndKikohaFight();
             return;
         }
@@ -119,6 +124,9 @@ public class KikohaFightBoardState : BoardState
     {
         
     }
+
+    private BoardCharacter winner = null;
+    private BoardCharacter looser = null;
 
     public override void EndKikohaFight()
     {
@@ -132,6 +140,7 @@ public class KikohaFightBoardState : BoardState
             character1.UpdateKikohaAdvancement(Mathf.FloorToInt(f));
         }, character1.GetKikohaAdvancement(), 300, 1f).setOnComplete(() =>
         {
+            looser.HitDamage(winner.character.GetAttackDamage() * 10);
             for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
             {
                 for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
