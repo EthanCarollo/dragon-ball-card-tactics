@@ -7,6 +7,7 @@ public class KikohaFightBoardState : BoardState
     private BoardCharacter character2;
 
     public KikohaFightBoardState(FightBoard board, BoardObject boardObject1, BoardObject boardObject2) : base(board) {
+        
         if(boardObject1 is BoardCharacter boardPlayer){
             if(!boardPlayer.isPlayerCharacter){
                 character1 = boardPlayer;
@@ -38,6 +39,7 @@ public class KikohaFightBoardState : BoardState
 
     private float updateInterval = 0.1f;
     private float timer = 0f;
+    private bool isKikohaFightEnded = false;
     
     public override void Update()
     {
@@ -46,6 +48,11 @@ public class KikohaFightBoardState : BoardState
         character2.Update();
         character2.UpdateUi();
 
+        if (isKikohaFightEnded)
+        {
+            return;
+        }
+        
         timer += Time.deltaTime;
 
         if (timer >= updateInterval)
@@ -69,6 +76,15 @@ public class KikohaFightBoardState : BoardState
                 character2.UpdateKikohaAdvancement(Mathf.Max(currentAdvancement2 - advancementStep2, targetAdvancement2));
             }
         }
+        
+        if(character1.GetKikohaAdvancement() >= 95){
+            EndKikohaFight();
+            return;
+        }
+        if(character2.GetKikohaAdvancement() >= 95){
+            EndKikohaFight();
+            return;
+        }
     }
 
     public override void LaunchKikohaFight(BoardObject boardObject1, BoardObject boardObject2)
@@ -78,18 +94,30 @@ public class KikohaFightBoardState : BoardState
 
     public override void EndKikohaFight()
     {
-        for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
+        isKikohaFightEnded = true;
+        LeanTween.value(character2.gameObject, f =>
         {
-            for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
+            character2.UpdateKikohaAdvancement(Mathf.FloorToInt(f));
+        }, character2.GetKikohaAdvancement(), 0, 0.2f);
+        LeanTween.value(character1.gameObject, f =>
+        {
+            character1.UpdateKikohaAdvancement(Mathf.FloorToInt(f));
+        }, character1.GetKikohaAdvancement(), 300, 1f).setOnComplete(() =>
+        {
+            for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
             {
-                var character = GameManager.Instance.boardCharacterArray[x, y];
-                if (character == null) continue;
-                if (character is BoardCharacter boardCharacter) {
-                    boardCharacter.EndKikoha();
+                for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
+                {
+                    var character = GameManager.Instance.boardCharacterArray[x, y];
+                    if (character == null) continue;
+                    if (character is BoardCharacter boardCharacter) {
+                        boardCharacter.EndKikoha();
+                    }
                 }
             }
-        }
-        board.UpdateState(new FightBoardState(board));
+            board.CreateBoard();
+            board.UpdateState(new FightBoardState(board));
+        });
     }
 
     public override void LaunchFight()

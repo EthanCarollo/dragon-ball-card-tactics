@@ -94,7 +94,6 @@ public class BoardCharacter : BoardObject
 
     public void HitDamage(int damageAmount)
     {
-        
         this.character.actualHealth -= damageAmount;
         SetCharacterSlider();
         if (this.character.IsDead() && isDying == false)

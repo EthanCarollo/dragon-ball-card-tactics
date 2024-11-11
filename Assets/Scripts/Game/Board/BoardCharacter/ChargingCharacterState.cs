@@ -54,16 +54,11 @@ public class ChargingCharacterState : BoardCharacterState
 
     public override void Update()
     {
-        if(animateKikoha == true){
+        if(animateKikoha == true && kikohaGameobject != null){
             SpriteRenderer spriteRenderer = kikohaGameobject.GetComponent<SpriteRenderer>();
             float shakeAmount = Mathf.Sin(Time.time * 50) * 0.003f; 
             float sizeKikoha = maxSize * percentage / 100;
             spriteRenderer.size = new Vector2(sizeKikoha + shakeAmount, spriteRenderer.size.y);
-            if(percentage >= 95){
-                if(boardCharacter.board is FightBoard fightBoard){
-                    fightBoard.EndKikohaFight();
-                }
-            }
         }
     }
 
@@ -75,7 +70,7 @@ public class ChargingCharacterState : BoardCharacterState
     }
     public override void EndKikoha(){
         MonoBehaviour.Destroy(kikohaGameobject);
-        boardCharacter.UpdateState(new DefaultCharacterState(boardCharacter));
+        boardCharacter.UpdateState(new DefaultCharacterState(this.boardCharacter));
     }
     
     public override void Attack(int damage, Particle particle)

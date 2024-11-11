@@ -38,11 +38,14 @@ public class AttackingCharacterState : BoardCharacterState
         {
             if (boardCharacter.character.actualKi >= boardCharacter.character.GetCharacterData().maxKi)
             {
-                //TEMPORARY
-                if(this.boardCharacter.board is FightBoard fightBoard){
+                // If the character against the one who has a kikoha also has a kikoha,
+                // launch the kikoha fight
+                if(this.boardCharacter.board is FightBoard fightBoard && 
+                   boardCharacter.character.GetCharacterSpecialAttack().animation is ChargedKiAttackAnimation &&
+                   characterTarget.character.GetCharacterSpecialAttack().animation is ChargedKiAttackAnimation){
                     fightBoard.LaunchKikohaFight(this.boardCharacter, characterTarget);
+                    return;
                 }
-                return;
                 isSpecialAttacking = true;
                 boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterSpecialAttack().animation, () => {
                     isSpecialAttacking = false;
