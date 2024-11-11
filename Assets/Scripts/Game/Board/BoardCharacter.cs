@@ -150,6 +150,14 @@ public class BoardCharacter : BoardObject
         state.LaunchKikoha();
     }
 
+    public void UpdateKikohaAdvancement(int percentage){
+        state.UpdateKikohaAdvancement(percentage);
+    }
+
+    public int GetKikohaAdvancement(){
+        return state.GetKikohaAdvancement();
+    }
+
     public override BoardObject Clone()
     {
         BoardCharacter clonedCharacter = new BoardCharacter(character, isPlayerCharacter);

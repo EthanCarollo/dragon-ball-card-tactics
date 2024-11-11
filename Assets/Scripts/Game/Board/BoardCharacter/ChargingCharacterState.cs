@@ -46,6 +46,8 @@ public class ChargingCharacterState : BoardCharacterState
         }
     }
     
+    const float maxSize = 9f;
+    private int percentage = 50;
     private GameObject kikohaGameobject = null;
     private bool animateKikoha = false;
 
@@ -54,9 +56,16 @@ public class ChargingCharacterState : BoardCharacterState
         if(animateKikoha == true){
             SpriteRenderer spriteRenderer = kikohaGameobject.GetComponent<SpriteRenderer>();
             float shakeAmount = Mathf.Sin(Time.time * 50) * 0.003f; 
-            spriteRenderer.size = 
-            new Vector2(spriteRenderer.size.x + shakeAmount, spriteRenderer.size.y);
+            float sizeKikoha = maxSize * percentage / 100;
+            spriteRenderer.size = new Vector2(sizeKikoha + shakeAmount, spriteRenderer.size.y);
         }
+    }
+
+    public override void UpdateKikohaAdvancement(int percentage){
+        this.percentage = percentage;
+    }
+    public override int GetKikohaAdvancement(){
+        return percentage;
     }
     
     public override void Attack(int damage, Particle particle)

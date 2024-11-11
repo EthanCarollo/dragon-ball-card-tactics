@@ -12,13 +12,20 @@ public abstract class BoardCharacterState
     public abstract void Update();
     public abstract void Attack(int damage, Particle particle = null);
 
-    public virtual void LaunchKikoha()
-    {
-        boardCharacter.UpdateState(new ChargingCharacterState(boardCharacter));
-    }
 
     public virtual void Dead()
     {
         boardCharacter.UpdateState(new DeadCharacterState(boardCharacter));
+    }
+
+    public virtual void LaunchKikoha()
+    {
+        boardCharacter.UpdateState(new ChargingCharacterState(boardCharacter));
+    }
+    public virtual void UpdateKikohaAdvancement(int percentage){
+
+    }
+    public virtual int GetKikohaAdvancement(){
+        return 0;
     }
 }
