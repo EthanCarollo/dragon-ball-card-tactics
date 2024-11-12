@@ -18,10 +18,12 @@ public class SingleCharacterInfo : MonoBehaviour
     public TextMeshProUGUI armorText;
     public TextMeshProUGUI rangeText;
     public TextMeshProUGUI speedText;
-    public TextMeshProUGUI specialAttackText;
 
     public GameObject passivePrefabContainer;
     public GameObject passiveList;
+
+    public GameObject specialAttackPrefabContainer;
+    public GameObject specialAttackList;
 
     public void Awake()
     {
@@ -45,9 +47,26 @@ public class SingleCharacterInfo : MonoBehaviour
         armorText.text = character.GetCharacterData().baseArmor + " AMR";
         rangeText.text = character.GetCharacterData().baseRange + " RNG";
         speedText.text = character.GetCharacterData().baseSpeed + " SPD";
-        specialAttackText.text = character.GetCharacterSpecialAttack().name;
 
         var tempIndex = 0;
+        foreach (Transform child in specialAttackList.transform)
+        {
+            tempIndex++;
+            if (tempIndex > 1)
+            {
+                Destroy(child.gameObject);
+            }
+        }
+        
+        if (character.GetCharacterData().specialAttackAnimation != null && character.GetCharacterData().specialAttackAnimation.GetLength(0) > 0)
+        {
+            foreach (var specialAttack in character.GetCharacterData().specialAttackAnimation)
+            {
+                Instantiate(specialAttackPrefabContainer, specialAttackList.transform).GetComponent<SpecialAttackContainer>().Setup(specialAttack);
+            }
+        }
+        
+        tempIndex = 0;
         foreach (Transform child in passiveList.transform)
         {
             tempIndex++;
