@@ -78,7 +78,13 @@ public class CharacterContainer
     }
     public int GetAttackDamage()
     {
-        return GetCharacterData().baseDamage;
+        int totalAdditionalAttack = 0;
+
+        foreach (var passive in GetCharacterData().characterPassive)
+        {
+            totalAdditionalAttack += passive.AdditionalAttack(this);
+        }
+        return GetCharacterData().baseDamage + totalAdditionalAttack;
     }
     public int GetArmor()
     {

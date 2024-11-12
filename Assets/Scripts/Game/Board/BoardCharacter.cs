@@ -35,11 +35,6 @@ public class BoardCharacter : BoardObject
         {
             direction = Vector2.right;
         }
-        
-        foreach (var passive in character.GetCharacterData().characterPassive)
-        {
-            passive.Setup(this);
-        }
     }
 
     public void SetupCharacter(CharacterContainer character)

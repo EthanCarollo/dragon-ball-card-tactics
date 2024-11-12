@@ -80,7 +80,7 @@ public class AttackingCharacterState : BoardCharacterState
         if (particle != null) {
             particle.StartParticle(characterTarget.gameObject.transform.position);
         }
-        characterTarget.HitDamage(boardCharacter.character.GetCharacterData().baseDamage);
+        characterTarget.HitDamage(damage);
     }
 
     static bool IsCritical(int chance)

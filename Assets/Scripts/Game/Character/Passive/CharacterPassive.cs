@@ -13,6 +13,11 @@ public class CharacterPassive
         {
                 return "Not a passive";
         }
+
+        public virtual int AdditionalAttack(CharacterContainer character)
+        {
+                return 0;
+        }
         
         public virtual void Setup(BoardCharacter character)
         {

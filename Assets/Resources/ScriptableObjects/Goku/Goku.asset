@@ -40,3 +40,11 @@ MonoBehaviour:
     description: A little super attack
     animation: {fileID: 11400000, guid: 0badf5a831b265d44b42755cd9b173f8, type: 2}
   deadAnimation: {fileID: 0}
+  characterPassive:
+  - rid: 8561310194441126026
+  references:
+    version: 2
+    RefIds:
+    - rid: 8561310194441126026
+      type: {class: SayanSpiritPassive, ns: , asm: Assembly-CSharp}
+      data: 

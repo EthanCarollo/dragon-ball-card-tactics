@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characters:
   - characterId: 0
-    actualHealth: 3456789
+    actualHealth: 550
     actualKi: 0
     selectedUltimateAttack: 0
   - characterId: 1
     actualHealth: 550
     actualKi: 15
     selectedUltimateAttack: 0
-  selectedIndexCharacterForCampaign: ffffffffffffffffffffffff01000000ffffffffffffffff
+  selectedIndexCharacterForCampaign: 00000000ffffffffffffffff01000000ffffffffffffffff
