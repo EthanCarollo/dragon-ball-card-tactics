@@ -60,9 +60,11 @@ public class SingleCharacterInfo : MonoBehaviour
         
         if (character.GetCharacterData().specialAttackAnimation != null && character.GetCharacterData().specialAttackAnimation.GetLength(0) > 0)
         {
+            tempIndex = 0;
             foreach (var specialAttack in character.GetCharacterData().specialAttackAnimation)
             {
-                Instantiate(specialAttackPrefabContainer, specialAttackList.transform).GetComponent<SpecialAttackContainer>().Setup(specialAttack);
+                Instantiate(specialAttackPrefabContainer, specialAttackList.transform).GetComponent<SpecialAttackContainer>().Setup(specialAttack, character, tempIndex, this);
+                tempIndex++;
             }
         }
         
@@ -83,6 +85,18 @@ public class SingleCharacterInfo : MonoBehaviour
                 Instantiate(passivePrefabContainer, passiveList.transform).GetComponent<PassiveContainer>().Setup(passive);
             }
         }
-        
+    }
+
+    public void UpdateAttack()
+    {
+        var tempIndex = 0;
+        foreach (Transform child in specialAttackList.transform)
+        {
+            tempIndex++;
+            if (tempIndex > 1)
+            {
+                child.GetComponent<SpecialAttackContainer>().Setup();
+            }
+        }
     }
 }

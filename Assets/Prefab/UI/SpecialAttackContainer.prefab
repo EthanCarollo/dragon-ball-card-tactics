@@ -119,6 +119,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 8200748579304300521}
   descriptionText: {fileID: 7181192884169388715}
+  spriteContainer: {fileID: 62322835146432764, guid: d06f1458c7dfa8d4cb1aa276fc0fd012, type: 3}
+  highlightSpriteContainer: {fileID: 4414076792270312558, guid: 56eefa206f1e87c469be30239d47ccce, type: 3}
 --- !u!1 &2562174753483197575
 GameObject:
   m_ObjectHideFlags: 0
