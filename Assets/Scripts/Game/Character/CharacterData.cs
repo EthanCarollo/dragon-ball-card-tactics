@@ -35,6 +35,9 @@ public class CharacterData : ScriptableObject
     public SpecialAttack[] specialAttackAnimation;
     public BoardAnimation deadAnimation;
 
+    [SerializeReference, SubclassSelector]
+    public CharacterPassive[] characterPassive;
+    
     public Color GetCharacterColor()
     {
         switch (characterType)
