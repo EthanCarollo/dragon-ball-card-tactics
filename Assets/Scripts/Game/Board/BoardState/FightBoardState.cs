@@ -6,9 +6,13 @@ public class FightBoardState : BoardState
 {
     public BoardObject[,] boardBeforeFight;
 
-    public FightBoardState(FightBoard board) : base(board)
+    public FightBoardState(FightBoard board, bool resetPassives = true) : base(board)
     {
         boardBeforeFight = BoardUtils.DuplicateBoardObjectGrid(GameManager.Instance.boardCharacterArray);
+        if (resetPassives)
+        {
+            ResetAllPassives();
+        }
     }
 
     public override void Update()
@@ -97,5 +101,25 @@ public class FightBoardState : BoardState
     private void OnUserClick()
     {
         userClicked = true;
+    }
+
+    public void ResetAllPassives()
+    {
+        for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
+        {
+            for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
+            {
+                var character = GameManager.Instance.boardCharacterArray[x, y];
+                if (character == null) continue;
+
+                if (character is BoardCharacter boardChar)
+                {
+                    foreach (var passive in boardChar.character.GetCharacterData().characterPassive)
+                    {
+                        passive.Setup(boardChar);
+                    }
+                }
+            }
+        }
     }
 }

@@ -156,7 +156,8 @@ public class KikohaFightBoardState : BoardState
             LeanTween.delayedCall(0.4f, () =>
             {
                 board.CreateBoard();
-                board.UpdateState(new FightBoardState(board));
+                // Theorically, we don't need to reset passive if we are going on FightBoardState after being in a fight board state
+                board.UpdateState(new FightBoardState(board, false));
             });
         });
     }
