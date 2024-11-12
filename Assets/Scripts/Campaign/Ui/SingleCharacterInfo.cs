@@ -20,6 +20,9 @@ public class SingleCharacterInfo : MonoBehaviour
     public TextMeshProUGUI speedText;
     public TextMeshProUGUI specialAttackText;
 
+    public GameObject passivePrefabContainer;
+    public GameObject passiveList;
+
     public void Awake()
     {
         Instance = this;
@@ -43,5 +46,24 @@ public class SingleCharacterInfo : MonoBehaviour
         rangeText.text = character.GetCharacterData().baseRange + " RNG";
         speedText.text = character.GetCharacterData().baseSpeed + " SPD";
         specialAttackText.text = character.GetCharacterSpecialAttack().name;
+
+        var tempIndex = 0;
+        foreach (Transform child in passiveList.transform)
+        {
+            tempIndex++;
+            if (tempIndex > 1)
+            {
+                Destroy(child.gameObject);
+            }
+        }
+
+        if (character.GetCharacterData().characterPassive != null && character.GetCharacterData().characterPassive.GetLength(0) > 0)
+        {
+            foreach (var passive in character.GetCharacterData().characterPassive)
+            {
+                Instantiate(passivePrefabContainer, passiveList.transform).GetComponent<PassiveContainer>().Setup(passive);
+            }
+        }
+        
     }
 }

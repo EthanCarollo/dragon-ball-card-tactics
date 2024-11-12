@@ -18,7 +18,7 @@ MonoBehaviour:
     actualKi: 0
     selectedUltimateAttack: 0
   - characterId: 1
-    actualHealth: 25000
-    actualKi: 0
+    actualHealth: 550
+    actualKi: 15
     selectedUltimateAttack: 0
-  selectedIndexCharacterForCampaign: 00000000ffffffffffffffffffffffffffffffffffffffff
+  selectedIndexCharacterForCampaign: ffffffffffffffffffffffff01000000ffffffffffffffff
