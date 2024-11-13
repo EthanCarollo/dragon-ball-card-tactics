@@ -17,6 +17,10 @@ public class TransformationCharacterState : BoardCharacterState
         Debug.LogWarning("Launch attack if default character");
     }
     
+    public override bool CanKikoha(){
+        return false;
+    }
+    
     public override void Transform(TransformAnimation animation){
         
     }

@@ -86,6 +86,11 @@ public class BoardCharacter : BoardObject
         state.Attack(this.character.GetAttackDamage(), particle);
     }
 
+    public bool CanKikoha()
+    {
+        return state.CanKikoha();
+    }
+
     public void EndKikoha()
     {
         state.EndKikoha();

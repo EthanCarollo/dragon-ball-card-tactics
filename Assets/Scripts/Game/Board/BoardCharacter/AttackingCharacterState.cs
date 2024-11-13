@@ -44,7 +44,7 @@ public class AttackingCharacterState : BoardCharacterState
                 if(this.boardCharacter.board is FightBoard fightBoard && 
                    boardCharacter.character.GetCharacterSpecialAttack().animation is ChargedKiAttackAnimation &&
                    characterTarget.character.GetCharacterSpecialAttack().animation is ChargedKiAttackAnimation &&
-                   random.Next(5) == 0){ 
+                   random.Next(5) == 0 && characterTarget.CanKikoha() && boardCharacter.CanKikoha()){ 
                     fightBoard.LaunchKikohaFight(this.boardCharacter, characterTarget); 
                     return;
                 }
