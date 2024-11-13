@@ -143,10 +143,10 @@ public class BoardCharacter : BoardObject
 
     public void PlayAnimation(BoardAnimation animation)
     {
-        gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().StopAllCoroutines();
-        gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().StartCoroutine(animation.PlayAnimationCoroutine(this));
+        var characterScript = gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
+        characterScript.StopAllCoroutines();
+        characterScript.StartCoroutine(animation.PlayAnimationCoroutine(this));
     }
-
 
     public void PlayAnimation(BoardAnimation animation, Action onAnimationComplete = null)
     {
@@ -161,11 +161,16 @@ public class BoardCharacter : BoardObject
         onAnimationComplete?.Invoke();
     }
 
-    public void PlayAnimationIfNotRunning(BoardAnimation animation)
+    public bool PlayAnimationIfNotRunning(BoardAnimation animation)
     {
         if (!isAnimating)
         {
             gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().StartCoroutine(animation.PlayAnimationCoroutine(this));
+            return true;
+        }
+        else
+        {
+            return false;
         }
     }
 
