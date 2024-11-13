@@ -96,6 +96,11 @@ public class BoardCharacter : BoardObject
         state.Dead();
     }
 
+    public void Transform(TransformAnimation animation)
+    {
+        state.Transform(animation);
+    }
+
     public void ResetGameObjectPosition()
     {
         

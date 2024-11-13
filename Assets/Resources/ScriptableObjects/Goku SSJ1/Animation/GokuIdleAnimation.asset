@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: GokuIdleAnimation
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: 4344058998117034605, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
+  - sprite: {fileID: 250226983308495812, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
     time: 0.2

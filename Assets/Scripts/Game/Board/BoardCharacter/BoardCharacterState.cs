@@ -31,4 +31,7 @@ public abstract class BoardCharacterState
     public virtual int GetKikohaAdvancement(){
         return 0;
     }
+    public virtual void Transform(TransformAnimation animation){
+        boardCharacter.UpdateState(new TransformationCharacterState(boardCharacter, animation));
+    }
 }

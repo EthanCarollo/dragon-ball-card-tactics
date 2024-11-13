@@ -13,5 +13,9 @@ MonoBehaviour:
   m_Name: GokuMoveAnimation
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: -2087588842383588521, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
+  - sprite: {fileID: 7887654370336154351, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
+    time: 0.2
+  - sprite: {fileID: 3494497448675904473, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
+    time: 0.2
+  - sprite: {fileID: 3950075165166125812, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
     time: 0.2

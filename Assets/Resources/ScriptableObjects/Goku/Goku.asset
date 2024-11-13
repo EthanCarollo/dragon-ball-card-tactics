@@ -42,9 +42,14 @@ MonoBehaviour:
   deadAnimation: {fileID: 0}
   characterPassive:
   - rid: 8561310194441126026
+  - rid: 8561310219476402257
   references:
     version: 2
     RefIds:
     - rid: 8561310194441126026
       type: {class: SayanSpiritPassive, ns: , asm: Assembly-CSharp}
       data: 
+    - rid: 8561310219476402257
+      type: {class: SuperSayanPassive, ns: , asm: Assembly-CSharp}
+      data:
+        transformAnimation: {fileID: 11400000, guid: 9de54c5982f31c94bb285826638a6a36, type: 2}
