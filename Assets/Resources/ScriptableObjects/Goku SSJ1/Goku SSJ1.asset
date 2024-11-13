@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Goku SSJ1
+  m_EditorClassIdentifier: 
+  id: 0
+  starNumber: 1
+  characterName: Goku SSJ1
+  role: 0
+  characterType: 0
+  characterSprite: {fileID: 4344058998117034605, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
+  characterIcon: {fileID: 7404681743806431914, guid: ad2c3b95b09114d4dbd4fe2ae4522976, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 560
+  maxKi: 50
+  baseRange: 1
+  baseDamage: 50
+  baseArmor: 10
+  baseSpeed: 2
+  baseAttackSpeed: 1
+  baseCriticalChance: 20
+  idleAnimation: {fileID: 11400000, guid: 72b948e771d4f4341aba66a216a7e2a4, type: 2}
+  runAnimation: {fileID: 11400000, guid: 29c87a61ba9537f41a86c4a013cec790, type: 2}
+  attackAnimation: {fileID: 11400000, guid: bd65ce635a6e5b1419185cd7c91bcd91, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: e792fb216f499e24692776f1360dbfe1, type: 2}
+  specialAttackAnimation:
+  - name: Kameha
+    description: A bigger attack
+    animation: {fileID: 11400000, guid: a531f997c43494bbba443a3ecf070a82, type: 2}
+  - name: Little super attack
+    description: A little super attack
+    animation: {fileID: 11400000, guid: 0badf5a831b265d44b42755cd9b173f8, type: 2}
+  deadAnimation: {fileID: 0}
+  characterPassive:
+  - rid: 8561310194441126026
+  references:
+    version: 2
+    RefIds:
+    - rid: 8561310194441126026
+      type: {class: SayanSpiritPassive, ns: , asm: Assembly-CSharp}
+      data: 

@@ -1,0 +1,1170 @@
+fileFormatVersion: 2
+guid: 6f1b90d24e6ec2746b3c442cdd252eea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2298502686912922264
+    second: goku-ssj_0
+  - first:
+      213: 3162642978924729788
+    second: goku-ssj_1
+  - first:
+      213: 3085338050731314798
+    second: goku-ssj_2
+  - first:
+      213: 6972572740931856011
+    second: goku-ssj_3
+  - first:
+      213: -8314659635227735935
+    second: goku-ssj_4
+  - first:
+      213: -4680329627126238633
+    second: goku-ssj_5
+  - first:
+      213: -844734365199913019
+    second: goku-ssj_6
+  - first:
+      213: -371421322659105887
+    second: goku-ssj_7
+  - first:
+      213: 5867035453552953112
+    second: goku-ssj_8
+  - first:
+      213: -2127834926874599400
+    second: goku-ssj_9
+  - first:
+      213: -2559893299807696813
+    second: goku-ssj_10
+  - first:
+      213: 8983287599514123545
+    second: goku-ssj_11
+  - first:
+      213: -2533567395785096598
+    second: goku-ssj_12
+  - first:
+      213: -3789690948502455981
+    second: goku-ssj_13
+  - first:
+      213: -2043719120502475570
+    second: goku-ssj_14
+  - first:
+      213: 4879847843298492457
+    second: goku-ssj_15
+  - first:
+      213: 5866262180423712822
+    second: goku-ssj_16
+  - first:
+      213: 8648333174692936768
+    second: goku-ssj_17
+  - first:
+      213: -4507144600022188373
+    second: goku-ssj_18
+  - first:
+      213: 250226983308495812
+    second: goku-ssj_19
+  - first:
+      213: 7887654370336154351
+    second: goku-ssj_20
+  - first:
+      213: 3494497448675904473
+    second: goku-ssj_21
+  - first:
+      213: 3950075165166125812
+    second: goku-ssj_22
+  - first:
+      213: 6852284404621433878
+    second: goku-ssj_23
+  - first:
+      213: -5785868056325845326
+    second: goku-ssj_24
+  - first:
+      213: -6753709403264312578
+    second: goku-ssj_25
+  - first:
+      213: -4506218683108805425
+    second: goku-ssj_26
+  - first:
+      213: 5878585945124390793
+    second: goku-ssj_27
+  - first:
+      213: -4653042750794829362
+    second: goku-ssj_28
+  - first:
+      213: 7589255158728701403
+    second: goku-ssj_29
+  - first:
+      213: -8272706046009514466
+    second: goku-ssj_30
+  - first:
+      213: -7889956483003820313
+    second: goku-ssj_31
+  - first:
+      213: -2865692719056977822
+    second: goku-ssj_32
+  - first:
+      213: -7294719837775638696
+    second: goku-ssj_33
+  - first:
+      213: 2955362432148136345
+    second: goku-ssj_34
+  - first:
+      213: 6911502845281528044
+    second: goku-ssj_35
+  - first:
+      213: -1121261282441760518
+    second: goku-ssj_36
+  - first:
+      213: -4011180172967037726
+    second: goku-ssj_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Linux64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: goku-ssj_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 459
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d3647fbf31a10e0800000000000000
+      internalID: -2298502686912922264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 459
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5113e6807f3eb20800000000000000
+      internalID: 3162642978924729788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 459
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e06dd3c9251da20800000000000000
+      internalID: 3085338050731314798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_3
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 459
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86a0d137fd83c060800000000000000
+      internalID: 6972572740931856011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_4
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 459
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188c8fd5d156c9c80800000000000000
+      internalID: -8314659635227735935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_5
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 459
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752776760012c0fb0800000000000000
+      internalID: -4680329627126238633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_6
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 459
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cfa1b80296e644f0800000000000000
+      internalID: -844734365199913019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 392
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3f5e0664278daf0800000000000000
+      internalID: -371421322659105887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 392
+        width: 31
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81785adf8a5eb6150800000000000000
+      internalID: 5867035453552953112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 392
+        width: 31
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81068f268696872e0800000000000000
+      internalID: -2127834926874599400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 392
+        width: 31
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3584f025b9e697cd0800000000000000
+      internalID: -2559893299807696813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_11
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 392
+        width: 31
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91df53ce97c0bac70800000000000000
+      internalID: 8983287599514123545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_12
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 392
+        width: 31
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62c7bf70e5f6dcd0800000000000000
+      internalID: -2533567395785096598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_13
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 392
+        width: 31
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3597ff53920586bc0800000000000000
+      internalID: -3789690948502455981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_14
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 392
+        width: 31
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4b6c9b94043a3e0800000000000000
+      internalID: -2043719120502475570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 302
+        width: 31
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92043c942c3b8b340800000000000000
+      internalID: 4879847843298492457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_16
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 303
+        width: 26
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630c67f4f56296150800000000000000
+      internalID: 5866262180423712822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_17
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 302
+        width: 32
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c7cc8933d050870800000000000000
+      internalID: 8648333174692936768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 302
+        width: 63
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae7b5cbdd76371c0800000000000000
+      internalID: -4507144600022188373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_19
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 302
+        width: 28
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb02559d1cf87300800000000000000
+      internalID: 250226983308495812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_20
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 319
+        width: 46
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2a1f6fbd3967d60800000000000000
+      internalID: 7887654370336154351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_21
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 328
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db06d83ae2fe7030800000000000000
+      internalID: 3494497448675904473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_22
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 331
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2c1df2f6c71d630800000000000000
+      internalID: 3950075165166125812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 230
+        width: 32
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61cd86d6c54381f50800000000000000
+      internalID: 6852284404621433878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_24
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 230
+        width: 32
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be0b6958a774bfa0800000000000000
+      internalID: -5785868056325845326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_25
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 230
+        width: 32
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa173694110642a0800000000000000
+      internalID: -6753709403264312578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_26
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 230
+        width: 42
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc432119bf1b671c0800000000000000
+      internalID: -4506218683108805425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_27
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 230
+        width: 38
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9874eb065cee49150800000000000000
+      internalID: 5878585945124390793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_28
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 215
+        width: 227
+        height: 75
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 68, y: 0, z: 85, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1fa2265421d6fb0800000000000000
+      internalID: -4653042750794829362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_29
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 148
+        width: 33
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd533d57b53725960800000000000000
+      internalID: 7589255158728701403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_30
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 148
+        width: 34
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16606c8ea1713d80800000000000000
+      internalID: -8272706046009514466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_31
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 148
+        width: 46
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e65449a16e318290800000000000000
+      internalID: -7889956483003820313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_32
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 155
+        width: 45
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2608f25b7a30b38d0800000000000000
+      internalID: -2865692719056977822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_33
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 155
+        width: 47
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f4365e4f2f3ca90800000000000000
+      internalID: -7294719837775638696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_34
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 152
+        width: 31
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99169be497e830920800000000000000
+      internalID: 2955362432148136345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_35
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 152
+        width: 55
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce86b1518379aef50800000000000000
+      internalID: 6911502845281528044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_36
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 150
+        width: 28
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0f8a7edca7070f0800000000000000
+      internalID: -1121261282441760518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_37
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 150
+        width: 69
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4b53482ec6558c0800000000000000
+      internalID: -4011180172967037726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cadcd1724a0c24c468c2b92b55f7d185
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      goku-ssj_0: -2298502686912922264
+      goku-ssj_1: 3162642978924729788
+      goku-ssj_10: -2559893299807696813
+      goku-ssj_11: 8983287599514123545
+      goku-ssj_12: -2533567395785096598
+      goku-ssj_13: -3789690948502455981
+      goku-ssj_14: -2043719120502475570
+      goku-ssj_15: 4879847843298492457
+      goku-ssj_16: 5866262180423712822
+      goku-ssj_17: 8648333174692936768
+      goku-ssj_18: -4507144600022188373
+      goku-ssj_19: 250226983308495812
+      goku-ssj_2: 3085338050731314798
+      goku-ssj_20: 7887654370336154351
+      goku-ssj_21: 3494497448675904473
+      goku-ssj_22: 3950075165166125812
+      goku-ssj_23: 6852284404621433878
+      goku-ssj_24: -5785868056325845326
+      goku-ssj_25: -6753709403264312578
+      goku-ssj_26: -4506218683108805425
+      goku-ssj_27: 5878585945124390793
+      goku-ssj_28: -4653042750794829362
+      goku-ssj_29: 7589255158728701403
+      goku-ssj_3: 6972572740931856011
+      goku-ssj_30: -8272706046009514466
+      goku-ssj_31: -7889956483003820313
+      goku-ssj_32: -2865692719056977822
+      goku-ssj_33: -7294719837775638696
+      goku-ssj_34: 2955362432148136345
+      goku-ssj_35: 6911502845281528044
+      goku-ssj_36: -1121261282441760518
+      goku-ssj_37: -4011180172967037726
+      goku-ssj_4: -8314659635227735935
+      goku-ssj_5: -4680329627126238633
+      goku-ssj_6: -844734365199913019
+      goku-ssj_7: -371421322659105887
+      goku-ssj_8: 5867035453552953112
+      goku-ssj_9: -2127834926874599400
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
