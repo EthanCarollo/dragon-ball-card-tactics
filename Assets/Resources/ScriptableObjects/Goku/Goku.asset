@@ -41,17 +41,5 @@ MonoBehaviour:
     animation: {fileID: 11400000, guid: 0badf5a831b265d44b42755cd9b173f8, type: 2}
   deadAnimation: {fileID: 0}
   characterPassive:
-  - rid: 8561310194441126026
-  - rid: 8561310219476402257
-  references:
-    version: 2
-    RefIds:
-    - rid: 8561310194441126026
-      type: {class: SayanSpiritPassive, ns: , asm: Assembly-CSharp}
-      data:
-        passiveImage: {fileID: -3032013148590001201, guid: 712f81b9212374fb69c32a5309ab17b3, type: 3}
-    - rid: 8561310219476402257
-      type: {class: SuperSayanPassive, ns: , asm: Assembly-CSharp}
-      data:
-        passiveImage: {fileID: -4359517640385838281, guid: 120414f6855a64acd915b0624ef743b8, type: 3}
-        transformAnimation: {fileID: 11400000, guid: 9de54c5982f31c94bb285826638a6a36, type: 2}
+  - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}
+  - {fileID: 11400000, guid: 74b8b767438244f0ab7be2339fa04fad, type: 2}

@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: Attack Super
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: 3796572565971391334, guid: 9c169cfd1805c574fa4cc6f6a5d3defe, type: 3}
+  - sprite: {fileID: -3522198583372491039, guid: 58f6081a4218d42baa4e2fe455838c0e, type: 3}
     time: 0.2
-  - sprite: {fileID: -2366005151250124487, guid: 9c169cfd1805c574fa4cc6f6a5d3defe, type: 3}
-    time: 0.2
-  - sprite: {fileID: -8036578601282967702, guid: 9c169cfd1805c574fa4cc6f6a5d3defe, type: 3}
+  - sprite: {fileID: -1795193220542662740, guid: 58f6081a4218d42baa4e2fe455838c0e, type: 3}
     time: 0.2
   attackFrameIndex: 1
   attackType: 0

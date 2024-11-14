@@ -38,11 +38,4 @@ MonoBehaviour:
     animation: {fileID: 11400000, guid: c78f2c8edb05af24f80643efabf2ccf2, type: 2}
   deadAnimation: {fileID: 0}
   characterPassive:
-  - rid: 8561310194441125970
-  references:
-    version: 2
-    RefIds:
-    - rid: 8561310194441125970
-      type: {class: HealingUnderHealthPointPassive, ns: , asm: Assembly-CSharp}
-      data:
-        passiveImage: {fileID: 8246712092774270769, guid: 66c54b0d46c39446ca1ddb9ddb5344cc, type: 3}
+  - {fileID: 11400000, guid: de29a932174d840ca9ea9c7cc52ecd75, type: 2}

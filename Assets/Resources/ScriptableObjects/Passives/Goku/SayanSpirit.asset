@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c213d7abf2cf46a59d9c6efabf4a68a2, type: 3}
+  m_Name: SayanSpirit
+  m_EditorClassIdentifier: 
+  passiveImage: {fileID: -3032013148590001201, guid: 712f81b9212374fb69c32a5309ab17b3, type: 3}
+  passiveName: Sayan Spirit
+  passiveDescription: 'Boosts attack as health decreases: 1.5x at 50% HP, 3x at 25%
+    HP.'

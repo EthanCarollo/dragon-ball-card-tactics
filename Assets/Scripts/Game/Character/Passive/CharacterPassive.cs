@@ -2,19 +2,12 @@ using System;
 using UnityEngine;
 
 [Serializable]
-public class CharacterPassive
+public class CharacterPassive : ScriptableObject
 {
         public Sprite passiveImage;
 
-        public virtual string GetName()
-        {
-                return "Not a passive";
-        }
-        
-        public virtual string GetDescription()
-        {
-                return "Not a passive";
-        }
+        public string passiveName;
+        public string passiveDescription;
 
         public virtual int AdditionalAttack(CharacterContainer character)
         {

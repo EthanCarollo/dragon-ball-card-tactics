@@ -11,10 +11,10 @@ public class PassiveContainer : MonoBehaviour
     public void Setup(CharacterPassive passive)
     {
         if(nameText != null){
-            nameText.text = passive.GetName();
+            nameText.text = passive.passiveName;
         }
         if(descriptionText != null){
-            descriptionText.text = passive.GetDescription();
+            descriptionText.text = passive.passiveDescription;
         }
         if(passiveImage != null && passive.passiveImage != null){
             passiveImage.sprite = passive.passiveImage;
