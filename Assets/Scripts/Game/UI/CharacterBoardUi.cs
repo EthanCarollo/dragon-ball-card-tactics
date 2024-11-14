@@ -54,14 +54,17 @@ public class CharacterBoardUi : MonoBehaviour
                         Destroy(child.gameObject);
                 }
 
-                foreach (var passive in boardCharacter.character.GetCharacterData().characterPassive){
-                        Instantiate(passiveLittlePrefab, passiveContainer).GetComponent<PassiveContainer>().Setup(passive);
-                }
+                if(boardCharacter.character.GetCharacterData().characterPassive != null){
+                        foreach (var passive in boardCharacter.character.GetCharacterData().characterPassive){
+                                if(passive == null) continue;
+                                Instantiate(passiveLittlePrefab, passiveContainer).GetComponent<PassiveContainer>().Setup(passive);
+                        }
 
-                if(boardCharacter.character.GetCharacterData().characterPassive.Length > 0) {
-                        passiveWholeContainer.SetActive(true);
-                } else {
-                        passiveWholeContainer.SetActive(false);
+                        if(boardCharacter.character.GetCharacterData().characterPassive.Length > 0) {
+                                passiveWholeContainer.SetActive(true);
+                        } else {
+                                passiveWholeContainer.SetActive(false);
+                        }
                 }
         }
 

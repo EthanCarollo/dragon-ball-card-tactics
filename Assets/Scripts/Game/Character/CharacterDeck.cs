@@ -80,10 +80,17 @@ public class CharacterContainer
     {
         int totalAdditionalAttack = 0;
 
-        foreach (var passive in GetCharacterData().characterPassive)
+        if(GetCharacterData().characterPassive != null)
         {
-            totalAdditionalAttack += passive.AdditionalAttack(this);
+            foreach (var passive in GetCharacterData().characterPassive)
+            {
+                if(passive != null)
+                {
+                    totalAdditionalAttack += passive.AdditionalAttack(this);
+                }
+            }
         }
+        
         return GetCharacterData().baseDamage + totalAdditionalAttack;
     }
     public int GetArmor()

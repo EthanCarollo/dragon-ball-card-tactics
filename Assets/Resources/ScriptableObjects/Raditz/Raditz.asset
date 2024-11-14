@@ -33,6 +33,11 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 7f8585d61bcb33548a15299e7a21df58, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: 1d6a87364f0217c47bad0304b1303209, type: 2}
   specialAttackAnimation:
-  - name: 
-    description: 
+  - name: 'Double Sunday '
+    description: A powerful ki waves shot from both hands.
     animation: {fileID: 11400000, guid: 4538428d3628ff3439f72569083bca68, type: 2}
+  deadAnimation: {fileID: 0}
+  characterPassive: []
+  references:
+    version: 2
+    RefIds: []

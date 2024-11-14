@@ -9,7 +9,6 @@ public class DeadCharacterState : BoardCharacterState
 
     public void Dead()
     {
-        
         this.boardCharacter.isDying = true;
         if (this.boardCharacter.character.GetCharacterData().deadAnimation != null)
         {

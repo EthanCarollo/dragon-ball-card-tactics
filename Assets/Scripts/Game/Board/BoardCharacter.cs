@@ -118,6 +118,7 @@ public class BoardCharacter : BoardObject
         SetCharacterSlider();
         if (this.character.IsDead() && isDying == false)
         {
+            this.character.actualHealth = 0;
             this.Dead(); 
         }
     }

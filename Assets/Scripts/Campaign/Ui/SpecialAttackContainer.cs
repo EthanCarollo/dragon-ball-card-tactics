@@ -19,7 +19,7 @@ public class SpecialAttackContainer : MonoBehaviour, IPointerClickHandler
     
     public void Setup(SpecialAttack attack, CharacterContainer characterContainer, int index, SingleCharacterInfo singleCharacterInfo)
     {
-        simpleAttack=false;
+        simpleAttack = false;
         _specialAttack = attack;
         _characterContainerHold = characterContainer;
         _attackIndex = index;
@@ -38,7 +38,7 @@ public class SpecialAttackContainer : MonoBehaviour, IPointerClickHandler
 
     public void Setup(SpecialAttack attack)
     {
-        simpleAttack=true;
+        simpleAttack = true;
         _specialAttack = attack;
         nameText.text = attack.name;
         descriptionText.text = attack.description;
@@ -51,7 +51,7 @@ public class SpecialAttackContainer : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if(simpleAttack == false) return;
+        if(simpleAttack == true) return;
         _characterContainerHold.selectedUltimateAttack = _attackIndex;
         _singleCharacterInfo.UpdateAttack();
     }
