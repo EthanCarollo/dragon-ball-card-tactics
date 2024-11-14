@@ -13,6 +13,11 @@ public class CharacterPassive : ScriptableObject
         {
                 return 0;
         }
+
+        public virtual void GetHit(int amount, BoardCharacter character)
+        {
+                
+        }
         
         public virtual void Setup(BoardCharacter character)
         {

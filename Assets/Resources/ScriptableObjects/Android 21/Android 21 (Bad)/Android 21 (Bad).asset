@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Android 21 (Bad)
+  m_EditorClassIdentifier: 
+  id: 8
+  starNumber: 1
+  characterName: Android 21 (Bad)
+  role: 0
+  characterType: 0
+  characterSprite: {fileID: -2744442725662649983, guid: d1c91efce88d4bb42922fdb458228e17, type: 3}
+  characterIcon: {fileID: 1000722348694945793, guid: 867840d238ee60a4fb9dbf7229b0dedc, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 1050
+  maxKi: 75
+  baseRange: 1
+  baseDamage: 50
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 0.5
+  baseCriticalChance: 10
+  idleAnimation: {fileID: 11400000, guid: 63ca0da561c69ed4192c412c1c64ae55, type: 2}
+  runAnimation: {fileID: 11400000, guid: da3d728145f37c24884591c73e419730, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 22856a1b0a146884fa59969a09c9bc80, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 9428eafe1a62e62489faa7f090050fd6, type: 2}
+  specialAttackAnimation:
+  - name: 'Kamehameha '
+    description: Fires a Kamehameha forward.
+    animation: {fileID: 11400000, guid: 8b7814fbfb5b8324e9ddc461445c038e, type: 2}
+  deadAnimation: {fileID: 0}
+  characterPassive: []

@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
-  m_Name: Android 21
+  m_Name: Android 21 (Good)
   m_EditorClassIdentifier: 
   id: 8
   starNumber: 1
-  characterName: Android 21
+  characterName: Android 21 (Good)
   role: 0
+  characterType: 0
   characterSprite: {fileID: 9209647031100015636, guid: 34918f97ca611144db28acde26be6092, type: 3}
   characterIcon: {fileID: -914149968743311941, guid: 54929347257826b43b8abdf24dee4958, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
@@ -32,6 +33,9 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 6dad150d6b673c747966716143549820, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: 23a133bd55aefb942ab7b6606237154f, type: 2}
   specialAttackAnimation:
-  - name: 
-    description: 
+  - name: Connoisseur Cut
+    description: Stabs the opponent with an energy blade
     animation: {fileID: 11400000, guid: 3c2e323e6d75eb34fa80793ed7e78b6d, type: 2}
+  deadAnimation: {fileID: 0}
+  characterPassive:
+  - {fileID: 11400000, guid: 74b98c19010129d489393e128c5c762c, type: 2}

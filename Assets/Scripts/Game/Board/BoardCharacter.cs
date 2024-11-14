@@ -121,6 +121,13 @@ public class BoardCharacter : BoardObject
             this.character.actualHealth = 0;
             this.Dead(); 
         }
+        else if(this.character.IsDead() == false)
+        {
+            foreach (var passive in character.GetCharacterData().characterPassive)
+            {
+                passive.GetHit(damageAmount, this);
+            }
+        }
     }
 
     public void AddKi(int kiAmount)

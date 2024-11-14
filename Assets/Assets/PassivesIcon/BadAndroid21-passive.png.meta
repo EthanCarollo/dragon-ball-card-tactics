@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 867840d238ee60a4fb9dbf7229b0dedc
+guid: ee6861a2cb093a142a672af67ef9b65e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1000722348694945793
-    second: evil-c21-icon_0
+      213: 605118086418110595
+    second: BadAndroid21-passive_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: evil-c21-icon_0
+      name: BadAndroid21-passive_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 30
-        height: 30
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,8 +180,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 100c1c09ca743ed00800000000000000
-      internalID: 1000722348694945793
+      spriteID: 3889d1c81bfc56800800000000000000
+      internalID: 605118086418110595
       vertices: []
       indices: 
       edges: []
@@ -200,7 +200,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      evil-c21-icon_0: 1000722348694945793
+      BadAndroid21-passive_0: 605118086418110595
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

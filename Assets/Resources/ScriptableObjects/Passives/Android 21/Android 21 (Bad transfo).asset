@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46ae43734280482ab33e220b118754de, type: 3}
+  m_Name: Android 21 (Bad transfo)
+  m_EditorClassIdentifier: 
+  passiveImage: {fileID: 605118086418110595, guid: ee6861a2cb093a142a672af67ef9b65e, type: 3}
+  passiveName: Bad Transformation
+  passiveDescription: Upon taking 150 damage, Android 21 transforms into Bad Android
+    21, gaining enhanced stats and abilities.
+  transformAnimation: {fileID: 11400000, guid: a6410599c064e8443a6cfeddaa4d60e1, type: 2}
+  hitThreshold: 150

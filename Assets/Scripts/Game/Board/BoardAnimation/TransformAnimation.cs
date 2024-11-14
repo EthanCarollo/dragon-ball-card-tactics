@@ -18,9 +18,7 @@ public class TransformAnimation : BoardAnimation {
             yield return new WaitForSeconds(frameSprite.time);
             index++;
         }
-        // Transform the character into a new character
-        character.SetupCharacter(new CharacterContainer(newCharacterData.id));
-        
+        character.SetupCharacter(new CharacterContainer(newCharacterData.id, character.character.actualHealth, character.character.actualKi));
         character.isAnimating = false;
     }
 }
