@@ -10,13 +10,18 @@ public class CharacterBoardUi : MonoBehaviour
         public TextMeshProUGUI charNameText;
         public TextMeshProUGUI charArmorText;
         public TextMeshProUGUI charDamageText;
-        public TextMeshProUGUI charSpeedText;
+        public TextMeshProUGUI charCriticalText;
         public TextMeshProUGUI charAttackSpeedText;
         public Slider charHealth;
         public TextMeshProUGUI charHealthText;
         public Slider charKi;
         public TextMeshProUGUI charKiText;
         public Image charImage;
+        public SpecialAttackContainer specialAttackContainer;
+
+        public GameObject passiveWholeContainer;
+        public GameObject passiveLittlePrefab;
+        public Transform passiveContainer;
 
         public void Update()
         {
@@ -33,14 +38,31 @@ public class CharacterBoardUi : MonoBehaviour
                 charKi.maxValue = boardCharacter.character.GetCharacterData().maxKi;
                 charKi.value = boardCharacter.character.actualKi;
                 
-                charArmorText.text = boardCharacter.character.GetArmor().ToString();
-                charDamageText.text = boardCharacter.character.GetAttackDamage().ToString();
-                charSpeedText.text = boardCharacter.character.GetSpeed().ToString();
-                charAttackSpeedText.text = boardCharacter.character.GetAttackSpeed().ToString();
+                charArmorText.text = "AR: " + boardCharacter.character.GetArmor().ToString();
+                charDamageText.text = "AD: " + boardCharacter.character.GetAttackDamage().ToString();
+                charCriticalText.text = "CC: " + boardCharacter.character.GetCharacterData().baseCriticalChance.ToString() + "%";
+                charAttackSpeedText.text = "AS: " + boardCharacter.character.GetAttackSpeed().ToString();
                 
                 charHealthText.text = boardCharacter.character.actualHealth + " / " + boardCharacter.character.GetCharacterData().maxHealth;
                 charKiText.text = boardCharacter.character.actualKi + " / " + boardCharacter.character.GetCharacterData().maxKi;
                 charImage.sprite = boardCharacter.character.GetCharacterData().characterIcon;
+
+                specialAttackContainer.Setup(boardCharacter.character.GetCharacterSpecialAttack());
+
+                foreach (Transform child in passiveContainer)
+                {
+                        Destroy(child.gameObject);
+                }
+
+                foreach (var passive in boardCharacter.character.GetCharacterData().characterPassive){
+                        Instantiate(passiveLittlePrefab, passiveContainer).GetComponent<PassiveContainer>().Setup(passive);
+                }
+
+                if(boardCharacter.character.GetCharacterData().characterPassive.Length > 0) {
+                        passiveWholeContainer.SetActive(true);
+                } else {
+                        passiveWholeContainer.SetActive(false);
+                }
         }
 
         public void ShowCharacterBoard(BoardCharacter character)

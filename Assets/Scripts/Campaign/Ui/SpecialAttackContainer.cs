@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class SpecialAttackContainer : MonoBehaviour, IPointerClickHandler
 {
+    public bool simpleAttack = false;
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI descriptionText;
     public Sprite spriteContainer;
@@ -18,6 +19,7 @@ public class SpecialAttackContainer : MonoBehaviour, IPointerClickHandler
     
     public void Setup(SpecialAttack attack, CharacterContainer characterContainer, int index, SingleCharacterInfo singleCharacterInfo)
     {
+        simpleAttack=false;
         _specialAttack = attack;
         _characterContainerHold = characterContainer;
         _attackIndex = index;
@@ -33,6 +35,14 @@ public class SpecialAttackContainer : MonoBehaviour, IPointerClickHandler
         nameText.text = attack.name;
         descriptionText.text = attack.description;
     }
+
+    public void Setup(SpecialAttack attack)
+    {
+        simpleAttack=true;
+        _specialAttack = attack;
+        nameText.text = attack.name;
+        descriptionText.text = attack.description;
+    }
     
     public void Setup()
     {
@@ -41,6 +51,7 @@ public class SpecialAttackContainer : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        if(simpleAttack == false) return;
         _characterContainerHold.selectedUltimateAttack = _attackIndex;
         _singleCharacterInfo.UpdateAttack();
     }

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: SpriteDatabase
   m_EditorClassIdentifier: 
   disappearAnimation: {fileID: 11400000, guid: 521920f75506b40408b067a87956eb81, type: 2}
+  basePassiveSprite: {fileID: -4359517640385838281, guid: 120414f6855a64acd915b0624ef743b8, type: 3}
   numbers:
   - {fileID: 1371253125844987892, guid: 693ce841faeae6a46bf84ecb743b7f9f, type: 3}
   - {fileID: -7940436442997111317, guid: 693ce841faeae6a46bf84ecb743b7f9f, type: 3}
