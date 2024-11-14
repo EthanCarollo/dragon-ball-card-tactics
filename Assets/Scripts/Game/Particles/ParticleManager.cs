@@ -21,6 +21,10 @@ public class ParticleManager : MonoBehaviour
                 string numberString = number.ToString();
                 float xOffset = 0f;
 
+                float randomX = Random.Range(-0.2f, 0.2f);
+                float randomY = Random.Range(0f, 1.5f);
+                var position = boardTransform.position + new Vector3(randomX, randomY, 0);
+
                 foreach (char digitChar in numberString)
                 {
                         int digit = int.Parse(digitChar.ToString());
@@ -28,12 +32,21 @@ public class ParticleManager : MonoBehaviour
                         SpriteRenderer spriteRenderer = digitObject.AddComponent<SpriteRenderer>();
                         spriteRenderer.sortingOrder = 10;
                         spriteRenderer.sprite = particles[digit];
-                        digitObject.transform.position = boardTransform.position + new Vector3(xOffset, 0, 0);
+
+                        // Scale down the size of the number
+                        digitObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+
+                        // Randomize position within the given range
+                        digitObject.transform.position = position + new Vector3(xOffset, 0, 0);
                         digitObject.transform.SetParent(boardTransform);
+
+                        // Tween settings
                         LeanTween.alpha(digitObject.gameObject, 0f, 0.5f).setDelay(0.6f);
-                        LeanTween.moveX(digitObject.gameObject, digitObject.transform.position.x + 1f, 1.2f).setOnComplete(
-                                () => { Destroy(digitObject.gameObject); }).setEase(LeanTweenType.easeOutCirc);
-                        xOffset += 0.5f; 
+                        LeanTween.moveX(digitObject.gameObject, digitObject.transform.position.x + 0.4f, 1.2f).setOnComplete(
+                        () => { Destroy(digitObject.gameObject); }).setEase(LeanTweenType.easeOutCirc);
+
+                        xOffset += 0.35f; 
                 }
         }
+
 }

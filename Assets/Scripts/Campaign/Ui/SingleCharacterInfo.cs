@@ -31,6 +31,10 @@ public class SingleCharacterInfo : MonoBehaviour
         characterContainer.SetActive(false);
     }
 
+    public void ShowCharacter(CharacterData characterData){
+        ShowCharacter(new CharacterContainer(characterData.id));
+    }
+
     public void ShowCharacter(CharacterContainer character)
     {
         characterContainer.SetActive(true);
