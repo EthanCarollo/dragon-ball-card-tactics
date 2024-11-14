@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku (SSJ1)
   m_EditorClassIdentifier: 
-  id: 0
+  id: 11
   starNumber: 1
   characterName: Goku SSJ1
   role: 0
@@ -38,10 +38,4 @@ MonoBehaviour:
     animation: {fileID: 11400000, guid: 97e3aefe6847c13418e1194efeb123aa, type: 2}
   deadAnimation: {fileID: 0}
   characterPassive:
-  - rid: 8561310194441126026
-  references:
-    version: 2
-    RefIds:
-    - rid: 8561310194441126026
-      type: {class: SayanSpiritPassive, ns: , asm: Assembly-CSharp}
-      data: 
+  - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}
