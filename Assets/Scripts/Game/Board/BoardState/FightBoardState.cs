@@ -54,6 +54,10 @@ public class FightBoardState : BoardState
                             aliveEnemyCount++;
                         }
                     }
+                    else
+                    {
+                        Debug.Log("Character is dead : " + boardChar.character.GetCharacterData().name);
+                    }
                 }
 
                 character.UpdateUi();
@@ -64,6 +68,7 @@ public class FightBoardState : BoardState
         // Check if no players or no enemies are alive, and end the fight if so
         if (alivePlayerCount == 0 || aliveEnemyCount == 0)
         {
+            Debug.Log("There is no alive character actually in this board, player : " + alivePlayerCount + " enemy : " + aliveEnemyCount );
             EndFight();
         }
     }

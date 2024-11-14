@@ -17,7 +17,7 @@ public class DamagedTransformPassive : TransformPassive
         if (amount >= hitThreshold && !launchTransformation)
         {
             FightBoard.Instance.LaunchTransformation(character, transformAnimation);
-            Debug.Log($"Transformation triggered when receive ${amount} damage.");
+            Debug.Log($"Transformation triggered when receive ${amount} damage on character, now he has ${character.character.actualHealth} hp.");
             launchTransformation = true;
         }
         

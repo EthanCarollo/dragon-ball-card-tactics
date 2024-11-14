@@ -115,10 +115,12 @@ public class BoardCharacter : BoardObject
     {
         this.character.actualHealth -= damageAmount;
         ParticleManager.Instance.ShowAttackNumber(this, damageAmount);
-        SetCharacterSlider();
-        if (this.character.IsDead() && isDying == false)
+        if (this.character.actualHealth <= 0)
         {
             this.character.actualHealth = 0;
+        }
+        if (this.character.IsDead() && isDying == false)
+        {
             this.Dead(); 
         }
         else if(this.character.IsDead() == false)
@@ -128,6 +130,7 @@ public class BoardCharacter : BoardObject
                 passive.GetHit(damageAmount, this);
             }
         }
+        SetCharacterSlider();
     }
 
     public void AddKi(int kiAmount)

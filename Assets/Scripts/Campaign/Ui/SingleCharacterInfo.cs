@@ -37,12 +37,13 @@ public class SingleCharacterInfo : MonoBehaviour
 
     public void ShowCharacter(CharacterData characterData){
         returnSingleCharacterShow.character = actualCharacterContainer;
-        returnSingleCharacterShow.gameObject.SetActive(true);
         ShowCharacter(new CharacterContainer(characterData.id));
+        returnSingleCharacterShow.gameObject.SetActive(true);
     }
 
     public void ShowCharacter(CharacterContainer character)
     {
+        returnSingleCharacterShow.gameObject.SetActive(false);
         actualCharacterContainer = character;
         characterContainer.SetActive(true);
         characterImage.sprite = character.GetCharacterData().characterSprite;

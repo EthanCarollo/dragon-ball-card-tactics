@@ -58,11 +58,11 @@ public class CharacterContainer
         this.actualHealth = GetCharacterData().maxHealth;
     }
     
-    public CharacterContainer(int characterId, int actualHealth, int acutalKi)
+    public CharacterContainer(int characterId, int actualHealth, int actualKi)
     {
         this.characterId = characterId;
         this.actualHealth = actualHealth;
-        this.actualHealth = acutalKi;
+        this.actualKi = actualKi;
     }
     
     public CharacterData GetCharacterData()
