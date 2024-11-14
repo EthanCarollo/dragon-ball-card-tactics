@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7892591582903143988}
   - component: {fileID: 5754836314198058426}
   - component: {fileID: 7581306890914611945}
+  - component: {fileID: 1907491669801310522}
   m_Layer: 5
   m_Name: SpecialAttackContainer
   m_TagString: Untagged
@@ -117,10 +118,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83c3f5319d924eff82bbcd1e99d3d50b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  simpleAttack: 0
   nameText: {fileID: 8200748579304300521}
   descriptionText: {fileID: 7181192884169388715}
   spriteContainer: {fileID: 62322835146432764, guid: d06f1458c7dfa8d4cb1aa276fc0fd012, type: 3}
   highlightSpriteContainer: {fileID: 4414076792270312558, guid: 56eefa206f1e87c469be30239d47ccce, type: 3}
+--- !u!114 &1907491669801310522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576781877490566231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0e14462157e4af581f243018550cbf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hotSpot: {x: 0, y: 0}
 --- !u!1 &2562174753483197575
 GameObject:
   m_ObjectHideFlags: 0

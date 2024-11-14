@@ -87,6 +87,7 @@ GameObject:
   - component: {fileID: 4363798540710188248}
   - component: {fileID: 1261776085647417002}
   - component: {fileID: 7911876791487081392}
+  - component: {fileID: 8944400471693345172}
   m_Layer: 5
   m_Name: SimpleCharacterContainer
   m_TagString: Untagged
@@ -168,6 +169,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundCharacter: {fileID: 953151087077989440}
   characterIcon: {fileID: 8945192885070822191}
+--- !u!114 &8944400471693345172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3018125213061107689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0e14462157e4af581f243018550cbf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hotSpot: {x: 0, y: 0}
 --- !u!1 &5926848032185096253
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,19 +15,19 @@ MonoBehaviour:
   id: 8
   starNumber: 1
   characterName: Android 21 (Good)
-  role: 0
-  characterType: 0
+  role: 1
+  characterType: 2
   characterSprite: {fileID: 9209647031100015636, guid: 34918f97ca611144db28acde26be6092, type: 3}
   characterIcon: {fileID: -914149968743311941, guid: 54929347257826b43b8abdf24dee4958, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 1050
-  maxKi: 75
+  maxHealth: 2050
+  maxKi: 105
   baseRange: 1
-  baseDamage: 50
-  baseArmor: 25
+  baseDamage: 25
+  baseArmor: 65
   baseSpeed: 2
-  baseAttackSpeed: 0.5
-  baseCriticalChance: 10
+  baseAttackSpeed: 0.35
+  baseCriticalChance: 5
   idleAnimation: {fileID: 11400000, guid: 60fa079c90898aa4f87d94e3dd3174ef, type: 2}
   runAnimation: {fileID: 11400000, guid: 2ca6712233ec2a94b8ce6d852fe4dcf7, type: 2}
   attackAnimation: {fileID: 11400000, guid: 6dad150d6b673c747966716143549820, type: 2}

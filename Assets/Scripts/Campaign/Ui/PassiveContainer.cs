@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class PassiveContainer : MonoBehaviour, IPointerClickHandler
+public class PassiveContainer : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI descriptionText;
@@ -34,5 +34,17 @@ public class PassiveContainer : MonoBehaviour, IPointerClickHandler
         if(passive is TransformPassive transformPassive && canBeClicked){
             SingleCharacterInfo.Instance.ShowCharacter(transformPassive.transformAnimation.newCharacterData);
         }
+    }
+    
+    public Vector2 hotSpot = Vector2.zero; 
+    
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        if(passive is TransformPassive && canBeClicked) Cursor.SetCursor(SpriteDatabase.Instance.pointerCursor, hotSpot, CursorMode.Auto);
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        if(passive is TransformPassive && canBeClicked) Cursor.SetCursor(SpriteDatabase.Instance.normalCursor, Vector2.zero, CursorMode.Auto);
     }
 }
