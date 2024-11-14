@@ -58,6 +58,13 @@ public class CharacterContainer
         this.actualHealth = GetCharacterData().maxHealth;
     }
     
+    public CharacterContainer(int characterId, int actualHealth, int acutalKi)
+    {
+        this.characterId = characterId;
+        this.actualHealth = actualHealth;
+        this.actualHealth = acutalKi;
+    }
+    
     public CharacterData GetCharacterData()
     {
         return CharacterDatabase.Instance.GetCharacterById(characterId);

@@ -32,7 +32,7 @@ public class PassiveContainer : MonoBehaviour, IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         Debug.Log("Clicked");
-        if(passive is SuperSayanPassive transformPassive && canBeClicked){
+        if(passive is TransformPassive transformPassive && canBeClicked){
             SingleCharacterInfo.Instance.ShowCharacter(transformPassive.transformAnimation.newCharacterData);
         }
     }

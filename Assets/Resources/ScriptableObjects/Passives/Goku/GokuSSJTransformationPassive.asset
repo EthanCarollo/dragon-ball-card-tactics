@@ -15,5 +15,6 @@ MonoBehaviour:
   passiveImage: {fileID: -4359517640385838281, guid: 120414f6855a64acd915b0624ef743b8, type: 3}
   passiveName: Super Sayan
   passiveDescription: Automatically transform in Super Sayan when HP falls below
-    25%
+    50%
   transformAnimation: {fileID: 11400000, guid: 9de54c5982f31c94bb285826638a6a36, type: 2}
+  hpThresholdPercentage: 50

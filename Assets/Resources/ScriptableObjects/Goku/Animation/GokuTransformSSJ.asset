@@ -38,7 +38,13 @@ MonoBehaviour:
   - sprite: {fileID: 8648333174692936768, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
     time: 0.2
   - sprite: {fileID: -4507144600022188373, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
-    time: 0.4
+    time: 0.2
+  - sprite: {fileID: -645302182, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
+    time: 0.2
+  - sprite: {fileID: -4507144600022188373, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
+    time: 0.2
+  - sprite: {fileID: -645302182, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
+    time: 0.2
   - sprite: {fileID: 250226983308495812, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
     time: 0.6
   newCharacterData: {fileID: 11400000, guid: 9b424d77e4f22ed409f878e0c2d3f275, type: 2}
