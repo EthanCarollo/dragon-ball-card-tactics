@@ -162,6 +162,11 @@ public class FightBoard : Board
     
     public float size = 1f;
 
+    public void LaunchTransformation(BoardObject boardObject1, TransformAnimation transformation)
+    {
+        state.LaunchTransformation( boardObject1,  transformation);
+    }
+
     void OnDrawGizmos()
     {
         for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)

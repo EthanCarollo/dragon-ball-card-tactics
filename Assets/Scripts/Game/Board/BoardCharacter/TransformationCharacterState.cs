@@ -3,18 +3,16 @@ using UnityEngine;
 public class TransformationCharacterState : BoardCharacterState
 {
     private TransformAnimation transformAnimation;
-    private bool transformed = false;
+    
     public TransformationCharacterState(BoardCharacter character, TransformAnimation animation) : base(character)
     {
         transformAnimation=animation;
+        boardCharacter.PlayAnimation(transformAnimation);
     }
     
     public override void Update()
     {
-        if (transformed == false)
-        {
-            transformed = boardCharacter.PlayAnimationIfNotRunning(transformAnimation);
-        }
+        
     }
 
     

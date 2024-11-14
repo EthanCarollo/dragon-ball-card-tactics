@@ -17,10 +17,9 @@ public class SuperSayanPassive : CharacterPassive
         base.UpdatePassive(character);
         if (character.character.actualHealth < (character.character.GetCharacterData().maxHealth / 4) && superSayanTransformation == false)
         {
+            FightBoard.Instance.LaunchTransformation(character, transformAnimation);
             Debug.Log("Successfully executed transformation passive");
             superSayanTransformation = true;
-            character.Transform(transformAnimation);
-            character.character.actualHealth += character.character.GetCharacterData().maxHealth / 4;
         }
     }
 }

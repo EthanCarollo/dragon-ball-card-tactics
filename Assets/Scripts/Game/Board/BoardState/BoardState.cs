@@ -17,6 +17,9 @@
     public virtual void LaunchKikohaFight(BoardObject boardObject1, BoardObject boardObject2){
         this.board.UpdateState(new KikohaFightBoardState(board, boardObject1, boardObject2));
     }
+    public virtual void LaunchTransformation(BoardObject boardObject1, TransformAnimation transformation){
+        this.board.UpdateState(new TransformationBoardState(board, boardObject1, transformation));
+    }
     public virtual void EndKikohaFight()
     {
         

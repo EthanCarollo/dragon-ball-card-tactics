@@ -18,27 +18,27 @@ MonoBehaviour:
   - sprite: {fileID: 3162642978924729788, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
     time: 0.1
   - sprite: {fileID: 3085338050731314798, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
-    time: 0.1
+    time: 0.2
   - sprite: {fileID: 6972572740931856011, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
-    time: 0.1
+    time: 0.2
   - sprite: {fileID: -8314659635227735935, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
-    time: 0.1
+    time: 0.2
   - sprite: {fileID: -4680329627126238633, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
-    time: 0.1
+    time: 0.2
   - sprite: {fileID: -844734365199913019, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
-    time: 0.1
+    time: 0.2
   - sprite: {fileID: -371421322659105887, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
-    time: 0.1
+    time: 0.2
   - sprite: {fileID: 5867035453552953112, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
-    time: 0.1
+    time: 0.2
   - sprite: {fileID: -2127834926874599400, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
     time: 0.1
   - sprite: {fileID: 5866262180423712822, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
-    time: 0.1
+    time: 0.2
   - sprite: {fileID: 8648333174692936768, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
-    time: 0.1
-  - sprite: {fileID: 5866262180423712822, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
-    time: 0.1
+    time: 0.2
+  - sprite: {fileID: -4507144600022188373, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
+    time: 0.4
   - sprite: {fileID: 250226983308495812, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
-    time: 0.1
+    time: 0.6
   newCharacterData: {fileID: 11400000, guid: 9b424d77e4f22ed409f878e0c2d3f275, type: 2}
