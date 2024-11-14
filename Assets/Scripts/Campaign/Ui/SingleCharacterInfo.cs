@@ -25,18 +25,25 @@ public class SingleCharacterInfo : MonoBehaviour
     public GameObject specialAttackPrefabContainer;
     public GameObject specialAttackList;
 
+    public ReturnSingleCharacterShow returnSingleCharacterShow;
+    private CharacterContainer actualCharacterContainer;
+
     public void Awake()
     {
         Instance = this;
+        returnSingleCharacterShow.gameObject.SetActive(false);
         characterContainer.SetActive(false);
     }
 
     public void ShowCharacter(CharacterData characterData){
+        returnSingleCharacterShow.character = actualCharacterContainer;
+        returnSingleCharacterShow.gameObject.SetActive(true);
         ShowCharacter(new CharacterContainer(characterData.id));
     }
 
     public void ShowCharacter(CharacterContainer character)
     {
+        actualCharacterContainer = character;
         characterContainer.SetActive(true);
         characterImage.sprite = character.GetCharacterData().characterSprite;
         characterName.text = character.GetCharacterData().name;

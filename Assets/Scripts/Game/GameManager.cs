@@ -35,6 +35,7 @@ public class GameManager
 
     private GameManager()
     {
+        Cursor.SetCursor(SpriteDatabase.Instance.normalCursor, Vector2.zero, CursorMode.Auto);
         SetupGalaxy(GalaxyDatabase.Instance.galaxies[0]);
         characterInventory = CharacterInventory.Instance;
         campaignManager = new CampaignManager();
