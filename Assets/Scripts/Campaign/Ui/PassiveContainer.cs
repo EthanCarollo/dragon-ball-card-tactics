@@ -16,8 +16,8 @@ public class PassiveContainer : MonoBehaviour
         if(descriptionText != null){
             descriptionText.text = passive.GetDescription();
         }
-        if(passiveImage != null){
-            passiveImage.sprite = SpriteDatabase.Instance.basePassiveSprite;
+        if(passiveImage != null && passive.passiveImage != null){
+            passiveImage.sprite = passive.passiveImage;
         }
     }
 }

@@ -44,4 +44,5 @@ MonoBehaviour:
     RefIds:
     - rid: 8561310194441125970
       type: {class: HealingUnderHealthPointPassive, ns: , asm: Assembly-CSharp}
-      data: 
+      data:
+        passiveImage: {fileID: 8246712092774270769, guid: 66c54b0d46c39446ca1ddb9ddb5344cc, type: 3}
