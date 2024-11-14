@@ -36,7 +36,17 @@ public class DeadCharacterState : BoardCharacterState
     {
         
     }
-    
+
+    public override bool CanKikoha()
+    {
+        return false;
+    }
+
+    public override void Transform(TransformAnimation animation)
+    {
+
+    }
+
     public override void Attack(int damage, Particle particle)
     {
         
