@@ -8,6 +8,9 @@ public class FightBoardState : BoardState
 
     public FightBoardState(FightBoard board, bool resetPassives = true) : base(board)
     {
+        if(CameraScript.Instance != null){
+            CameraScript.Instance.SetupFightCamera();
+        }
         boardBeforeFight = BoardUtils.DuplicateBoardObjectGrid(GameManager.Instance.boardCharacterArray);
         if (resetPassives)
         {

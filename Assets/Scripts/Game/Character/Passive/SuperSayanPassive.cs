@@ -12,9 +12,9 @@ public class SuperSayanPassive : CharacterPassive
         superSayanTransformation = false;
     }
 
-    public override void Update(BoardCharacter character)
+    public override void UpdatePassive(BoardCharacter character)
     {
-        base.Update(character);
+        base.UpdatePassive(character);
         if (character.character.actualHealth < (character.character.GetCharacterData().maxHealth / 4) && superSayanTransformation == false)
         {
             Debug.Log("Successfully executed transformation passive");

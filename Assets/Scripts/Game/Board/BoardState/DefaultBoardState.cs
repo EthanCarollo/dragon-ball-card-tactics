@@ -1,7 +1,11 @@
 ﻿
 public class DefaultBoardState : BoardState
 {
-    public DefaultBoardState(FightBoard board) : base(board) { }
+    public DefaultBoardState(FightBoard board) : base(board) { 
+        if(CameraScript.Instance != null){
+            CameraScript.Instance.SetupNormalCamera();
+        }
+    }
     
     public override void Update()
     {

@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: 901b1af9cb4f74951a7f79b08d7b1770
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -136131871400596052
+    second: turles_0
+  - first:
+      213: -634559642412596175
+    second: turles_1
+  - first:
+      213: 65814950888520201
+    second: turles_2
+  - first:
+      213: 5607585140968411439
+    second: turles_3
+  - first:
+      213: 8263480089534019037
+    second: turles_4
+  - first:
+      213: 2640709783023993916
+    second: turles_5
+  - first:
+      213: -6912791588280296652
+    second: turles_6
+  - first:
+      213: 206206326514665514
+    second: turles_7
+  - first:
+      213: 4794723695901801620
+    second: turles_8
+  - first:
+      213: -5703333776758821603
+    second: turles_9
+  - first:
+      213: -1077183989240749790
+    second: turles_10
+  - first:
+      213: -8774856240489759288
+    second: turles_11
+  - first:
+      213: -2844531715343505679
+    second: turles_12
+  - first:
+      213: 4955251053168398167
+    second: turles_13
+  - first:
+      213: 902959262909872248
+    second: turles_14
+  - first:
+      213: 1608897675387527258
+    second: turles_15
+  - first:
+      213: 2601385465381793769
+    second: turles_16
+  - first:
+      213: -2959348809481074431
+    second: turles_17
+  - first:
+      213: -245375655707430622
+    second: turles_18
+  - first:
+      213: 8905386344792203494
+    second: turles_19
+  - first:
+      213: 2503283467798102913
+    second: turles_20
+  - first:
+      213: 5792959330460818131
+    second: turles_21
+  - first:
+      213: 2632666760295823136
+    second: turles_22
+  - first:
+      213: 8411681838401539602
+    second: turles_23
+  - first:
+      213: 664566382290073011
+    second: turles_24
+  - first:
+      213: 4365147838976017339
+    second: turles_25
+  - first:
+      213: -3991932959789639284
+    second: turles_26
+  - first:
+      213: 4869494825200590320
+    second: turles_27
+  - first:
+      213: -138602397874138774
+    second: turles_28
+  - first:
+      213: 5530136313197174747
+    second: turles_29
+  - first:
+      213: -9147800996030632308
+    second: turles_30
+  - first:
+      213: -1684856218929324586
+    second: turles_31
+  - first:
+      213: -707882797882929915
+    second: turles_32
+  - first:
+      213: 3127903238882587272
+    second: turles_33
+  - first:
+      213: 454178329776871721
+    second: turles_34
+  - first:
+      213: 4805809814421097168
+    second: turles_35
+  - first:
+      213: -8864080812319220431
+    second: turles_36
+  - first:
+      213: -1980597576440855408
+    second: turles_37
+  - first:
+      213: 1312175338660801405
+    second: turles_38
+  - first:
+      213: -4850793512811482819
+    second: turles_39
+  - first:
+      213: -4824157286561537787
+    second: turles_40
+  - first:
+      213: -5971942051483776602
+    second: turles_41
+  - first:
+      213: 362967805433712930
+    second: turles_42
+  - first:
+      213: 6482369591958005606
+    second: turles_43
+  - first:
+      213: 990257293748035240
+    second: turles_44
+  - first:
+      213: 4254455679431554852
+    second: turles_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: turles_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 958
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadee82c8cc5c1ef0800000000000000
+      internalID: -136131871400596052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 962
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134c2350e579137f0800000000000000
+      internalID: -634559642412596175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 903
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90abe906952d9e000800000000000000
+      internalID: 65814950888520201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 904
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f215e27b9f422dd40800000000000000
+      internalID: 5607585140968411439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_4
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 905
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd530311c57cda270800000000000000
+      internalID: 8263480089534019037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_5
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 900
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c344b0c7e8fa5a420800000000000000
+      internalID: 2640709783023993916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 899
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b9e3e0da4d010a0800000000000000
+      internalID: -6912791588280296652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 900
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28485abf879cd200800000000000000
+      internalID: 206206326514665514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_8
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 899
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cff524cc74a8240800000000000000
+      internalID: 4794723695901801620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_9
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 900
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1dadc8c520b9d0b0800000000000000
+      internalID: -5703333776758821603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 828
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22121937ed21d01f0800000000000000
+      internalID: -1077183989240749790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_11
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 827
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdfc7e8db2793680800000000000000
+      internalID: -8774856240489759288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_12
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 824
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f62e92d9713688d0800000000000000
+      internalID: -2844531715343505679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_13
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 824
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f8bfc249694c440800000000000000
+      internalID: 4955251053168398167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_14
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 855
+        width: 55
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87834606aa4f78c00800000000000000
+      internalID: 902959262909872248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 752
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50ec6559e3f35610800000000000000
+      internalID: 1608897675387527258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_16
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 751
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef22fb4c4af91420800000000000000
+      internalID: 2601385465381793769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_17
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 745
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109c764efe74ee6d0800000000000000
+      internalID: -2959348809481074431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_18
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 744
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221b7052420489cf0800000000000000
+      internalID: -245375655707430622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_19
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 610
+        width: 53
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e024f4a2b9469b70800000000000000
+      internalID: 8905386344792203494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 613
+        width: 53
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183c63e0d037db220800000000000000
+      internalID: 2503283467798102913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_21
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 511
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dad66291d9b46050800000000000000
+      internalID: 5792959330460818131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_22
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 542
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0273963587c198420800000000000000
+      internalID: 2632666760295823136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_23
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 511
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e4785a01c4cb470800000000000000
+      internalID: 8411681838401539602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_24
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 524
+        width: 119
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5f01a8a93093900800000000000000
+      internalID: 664566382290073011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_25
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 492
+        width: 75
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3ca3ef4de149c30800000000000000
+      internalID: 4365147838976017339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_26
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 505
+        width: 91
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89909c8f1ec998c0800000000000000
+      internalID: -3991932959789639284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_27
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 428
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd1fab6ebbe39340800000000000000
+      internalID: 4869494825200590320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_28
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 428
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61d1bd7ad5931ef0800000000000000
+      internalID: -138602397874138774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_29
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 426
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf1b9b4dadfebc40800000000000000
+      internalID: 5530136313197174747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_30
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 426
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e21a3167b7c0180800000000000000
+      internalID: -9147800996030632308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_31
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 424
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd1c1512303e98e0800000000000000
+      internalID: -1684856218929324586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_32
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 361
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d049988581d26f0800000000000000
+      internalID: -707882797882929915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_33
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 360
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882f3656c6b886b20800000000000000
+      internalID: 3127903238882587272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_34
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 361
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929d70bd8c09d4600800000000000000
+      internalID: 454178329776871721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_35
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 357
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dac7ae509aa1b240800000000000000
+      internalID: 4805809814421097168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_36
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 358
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d5b5117757cf480800000000000000
+      internalID: -8864080812319220431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_37
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 7
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0944e357ff08384e0800000000000000
+      internalID: -1980597576440855408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_38
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 8
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ba7efa488c53210800000000000000
+      internalID: 1312175338660801405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_39
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 7
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d313a1e20058eacb0800000000000000
+      internalID: -4850793512811482819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_40
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 6
+        width: 79
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50123e1e1862d0db0800000000000000
+      internalID: -4824157286561537787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_41
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 5
+        width: 98
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9871a48566f1da0800000000000000
+      internalID: -5971942051483776602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_42
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 4
+        width: 135
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22197c3cb45890500800000000000000
+      internalID: 362967805433712930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_43
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 4
+        width: 129
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667637f7cc006f950800000000000000
+      internalID: 6482369591958005606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_44
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 4
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae571613c91ebd00800000000000000
+      internalID: 990257293748035240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turles_45
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 5
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427392d36ecda0b30800000000000000
+      internalID: 4254455679431554852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      turles_0: -136131871400596052
+      turles_1: -634559642412596175
+      turles_10: -1077183989240749790
+      turles_11: -8774856240489759288
+      turles_12: -2844531715343505679
+      turles_13: 4955251053168398167
+      turles_14: 902959262909872248
+      turles_15: 1608897675387527258
+      turles_16: 2601385465381793769
+      turles_17: -2959348809481074431
+      turles_18: -245375655707430622
+      turles_19: 8905386344792203494
+      turles_2: 65814950888520201
+      turles_20: 2503283467798102913
+      turles_21: 5792959330460818131
+      turles_22: 2632666760295823136
+      turles_23: 8411681838401539602
+      turles_24: 664566382290073011
+      turles_25: 4365147838976017339
+      turles_26: -3991932959789639284
+      turles_27: 4869494825200590320
+      turles_28: -138602397874138774
+      turles_29: 5530136313197174747
+      turles_3: 5607585140968411439
+      turles_30: -9147800996030632308
+      turles_31: -1684856218929324586
+      turles_32: -707882797882929915
+      turles_33: 3127903238882587272
+      turles_34: 454178329776871721
+      turles_35: 4805809814421097168
+      turles_36: -8864080812319220431
+      turles_37: -1980597576440855408
+      turles_38: 1312175338660801405
+      turles_39: -4850793512811482819
+      turles_4: 8263480089534019037
+      turles_40: -4824157286561537787
+      turles_41: -5971942051483776602
+      turles_42: 362967805433712930
+      turles_43: 6482369591958005606
+      turles_44: 990257293748035240
+      turles_45: 4254455679431554852
+      turles_5: 2640709783023993916
+      turles_6: -6912791588280296652
+      turles_7: 206206326514665514
+      turles_8: 4794723695901801620
+      turles_9: -5703333776758821603
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

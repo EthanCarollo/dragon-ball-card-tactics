@@ -66,7 +66,7 @@ public class BoardCharacter : BoardObject
 
         foreach (var passive in character.GetCharacterData().characterPassive)
         {
-            passive.Update(this);
+            passive.UpdatePassive(this);
         }
         state.Update();
     }

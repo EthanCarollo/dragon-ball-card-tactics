@@ -11,9 +11,9 @@ public class HealingUnderHealthPointPassive : CharacterPassive
         healingLaunched = false;
     }
 
-    public override void Update(BoardCharacter character)
+    public override void UpdatePassive(BoardCharacter character)
     {
-        base.Update(character);
+        base.UpdatePassive(character);
         if (character.character.actualHealth < (character.character.GetCharacterData().maxHealth / 4) && healingLaunched == false)
         {
             Debug.Log("Successfully executed HealingUnderHealthPointPassive");

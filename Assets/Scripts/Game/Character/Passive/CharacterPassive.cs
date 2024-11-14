@@ -19,7 +19,7 @@ public class CharacterPassive : ScriptableObject
                 
         }
         
-        public virtual void Update(BoardCharacter character)
+        public virtual void UpdatePassive(BoardCharacter character)
         {
                 
         }
