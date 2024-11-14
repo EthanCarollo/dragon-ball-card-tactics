@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: bb15a93afa7e382429c3632a6464965c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4069066730129622288
+    second: gogeta_0
+  - first:
+      213: 2435912528068515769
+    second: gogeta_1
+  - first:
+      213: -8631254806329291277
+    second: gogeta_2
+  - first:
+      213: 6318591665283514591
+    second: gogeta_3
+  - first:
+      213: -7775038636127611991
+    second: gogeta_4
+  - first:
+      213: 8064018894033129775
+    second: gogeta_5
+  - first:
+      213: -1263736241399743278
+    second: gogeta_6
+  - first:
+      213: 8654314399662391162
+    second: gogeta_7
+  - first:
+      213: 5575106177270120887
+    second: gogeta_8
+  - first:
+      213: 7722045313478923998
+    second: gogeta_9
+  - first:
+      213: 1908571679087125032
+    second: gogeta_10
+  - first:
+      213: 1157633625207632611
+    second: gogeta_11
+  - first:
+      213: 3754190170694259519
+    second: gogeta_12
+  - first:
+      213: -1417236635053893425
+    second: gogeta_13
+  - first:
+      213: 4439118774809629229
+    second: gogeta_14
+  - first:
+      213: 8945203238905483443
+    second: gogeta_15
+  - first:
+      213: -2584793207522798162
+    second: gogeta_16
+  - first:
+      213: -2889361415446009037
+    second: gogeta_17
+  - first:
+      213: -7812290068000462230
+    second: gogeta_18
+  - first:
+      213: -5076319421996590242
+    second: gogeta_19
+  - first:
+      213: 3373043507828889780
+    second: gogeta_20
+  - first:
+      213: 2028309368995123231
+    second: gogeta_21
+  - first:
+      213: 771797308789957903
+    second: gogeta_22
+  - first:
+      213: -4795711017664822491
+    second: gogeta_23
+  - first:
+      213: -9019115785543223324
+    second: gogeta_24
+  - first:
+      213: -4451595255975848922
+    second: gogeta_25
+  - first:
+      213: 4827605188334021625
+    second: gogeta_26
+  - first:
+      213: 6216472359775530854
+    second: gogeta_27
+  - first:
+      213: 5495385613223075673
+    second: gogeta_28
+  - first:
+      213: -8812718716396056727
+    second: gogeta_29
+  - first:
+      213: -6132506910392665543
+    second: gogeta_30
+  - first:
+      213: -4544505054794461970
+    second: gogeta_31
+  - first:
+      213: -6587025390004165858
+    second: gogeta_32
+  - first:
+      213: -4637521934414823831
+    second: gogeta_33
+  - first:
+      213: 5499745695984681557
+    second: gogeta_34
+  - first:
+      213: 368150652788432109
+    second: gogeta_35
+  - first:
+      213: -9039393657022993727
+    second: gogeta_36
+  - first:
+      213: 5918783341191004056
+    second: gogeta_37
+  - first:
+      213: 5239572862915007822
+    second: gogeta_38
+  - first:
+      213: 1850940818539374029
+    second: gogeta_39
+  - first:
+      213: -564097668514642625
+    second: gogeta_40
+  - first:
+      213: 6647319738892529478
+    second: gogeta_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Linux64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gogeta_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 850
+        width: 111
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0158cb8d1aa387830800000000000000
+      internalID: 4069066730129622288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 716
+        width: 23
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7927bc9891ec120800000000000000
+      internalID: 2435912528068515769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_2
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 786
+        width: 119
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd0cd6eb7f973880800000000000000
+      internalID: -8631254806329291277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 715
+        width: 32
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0c7f964a520b750800000000000000
+      internalID: 6318591665283514591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 722
+        width: 92
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a31daaed83891490800000000000000
+      internalID: -7775038636127611991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_5
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 714
+        width: 32
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2112e8857629ef60800000000000000
+      internalID: 8064018894033129775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_6
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 658
+        width: 75
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcb491859e467ee0800000000000000
+      internalID: -1263736241399743278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_7
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 597
+        width: 36
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fbc6e081d4a1870800000000000000
+      internalID: 8654314399662391162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 594
+        width: 76
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b18541b781ce5d40800000000000000
+      internalID: 5575106177270120887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_9
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 596
+        width: 35
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed69169ac473a2b60800000000000000
+      internalID: 7722045313478923998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_10
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 545
+        width: 89
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822eb5084db9c7a10800000000000000
+      internalID: 1908571679087125032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_11
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 491
+        width: 94
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e27c8216adb01010800000000000000
+      internalID: 1157633625207632611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_12
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 434
+        width: 91
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f339e77d110991430800000000000000
+      internalID: 3754190170694259519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 280
+        width: 115
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc851fc0ac6f45ce0800000000000000
+      internalID: -1417236635053893425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_14
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 280
+        width: 149
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d229b48910bea9d30800000000000000
+      internalID: 4439118774809629229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_15
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 280
+        width: 131
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b092aab3feb32c70800000000000000
+      internalID: 8945203238905483443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_16
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 309
+        width: 110
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5d2c7c548f02cd0800000000000000
+      internalID: -2584793207522798162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_17
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 342
+        width: 59
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bee94e91de6e7d0800000000000000
+      internalID: -2889361415446009037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_18
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 280
+        width: 114
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a258e039b259390800000000000000
+      internalID: -7812290068000462230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_19
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 324
+        width: 20
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b1a75916a4d89b0800000000000000
+      internalID: -5076319421996590242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_20
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 280
+        width: 78
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8141003357fce20800000000000000
+      internalID: 3373043507828889780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_21
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 332
+        width: 19
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f101d89ef90062c10800000000000000
+      internalID: 2028309368995123231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_22
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 280
+        width: 28
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05270d2099f5ba00800000000000000
+      internalID: 771797308789957903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_23
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 280
+        width: 32
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52349aafc36327db0800000000000000
+      internalID: -4795711017664822491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_24
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 280
+        width: 32
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7f3967af9a5d280800000000000000
+      internalID: -9019115785543223324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_25
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 280
+        width: 32
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624deb343b1c832c0800000000000000
+      internalID: -4451595255975848922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_26
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 318
+        width: 19
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb6b7e47591ff240800000000000000
+      internalID: 4827605188334021625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_27
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 290
+        width: 13
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f6478cca8554650800000000000000
+      internalID: 6216472359775530854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_28
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 288
+        width: 22
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f14f37918834c40800000000000000
+      internalID: 5495385613223075673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_29
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 288
+        width: 21
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96fc6cbe40fe2b580800000000000000
+      internalID: -8812718716396056727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_30
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 197
+        width: 25
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93aba67d475f4eaa0800000000000000
+      internalID: -6132506910392665543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_31
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 201
+        width: 50
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec42010bbcaee0c0800000000000000
+      internalID: -4544505054794461970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_32
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 203
+        width: 51
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13a25eae4f2694a0800000000000000
+      internalID: -6587025390004165858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_33
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 204
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e3f1d0f5634afb0800000000000000
+      internalID: -4637521934414823831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_34
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 199
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55286245295035c40800000000000000
+      internalID: 5499745695984681557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_35
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 199
+        width: 46
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec5843711feb1500800000000000000
+      internalID: 368150652788432109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 139
+        width: 35
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1caa9389c5f9d8280800000000000000
+      internalID: -9039393657022993727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_37
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 179
+        width: 11
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f703af61eb32250800000000000000
+      internalID: 5918783341191004056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_38
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 134
+        width: 43
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4553d422c3b6b840800000000000000
+      internalID: 5239572862915007822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_39
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 134
+        width: 32
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc56f452edcdfa910800000000000000
+      internalID: 1850940818539374029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_40
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 140
+        width: 48
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f350f81c82ceb28f0800000000000000
+      internalID: -564097668514642625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gogeta_41
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 140
+        width: 47
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64fa1216516004c50800000000000000
+      internalID: 6647319738892529478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 637381d8e0a958e449f2a50ddf20c777
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gogeta_0: 4069066730129622288
+      gogeta_1: 2435912528068515769
+      gogeta_10: 1908571679087125032
+      gogeta_11: 1157633625207632611
+      gogeta_12: 3754190170694259519
+      gogeta_13: -1417236635053893425
+      gogeta_14: 4439118774809629229
+      gogeta_15: 8945203238905483443
+      gogeta_16: -2584793207522798162
+      gogeta_17: -2889361415446009037
+      gogeta_18: -7812290068000462230
+      gogeta_19: -5076319421996590242
+      gogeta_2: -8631254806329291277
+      gogeta_20: 3373043507828889780
+      gogeta_21: 2028309368995123231
+      gogeta_22: 771797308789957903
+      gogeta_23: -4795711017664822491
+      gogeta_24: -9019115785543223324
+      gogeta_25: -4451595255975848922
+      gogeta_26: 4827605188334021625
+      gogeta_27: 6216472359775530854
+      gogeta_28: 5495385613223075673
+      gogeta_29: -8812718716396056727
+      gogeta_3: 6318591665283514591
+      gogeta_30: -6132506910392665543
+      gogeta_31: -4544505054794461970
+      gogeta_32: -6587025390004165858
+      gogeta_33: -4637521934414823831
+      gogeta_34: 5499745695984681557
+      gogeta_35: 368150652788432109
+      gogeta_36: -9039393657022993727
+      gogeta_37: 5918783341191004056
+      gogeta_38: 5239572862915007822
+      gogeta_39: 1850940818539374029
+      gogeta_4: -7775038636127611991
+      gogeta_40: -564097668514642625
+      gogeta_41: 6647319738892529478
+      gogeta_5: 8064018894033129775
+      gogeta_6: -1263736241399743278
+      gogeta_7: 8654314399662391162
+      gogeta_8: 5575106177270120887
+      gogeta_9: 7722045313478923998
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

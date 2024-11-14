@@ -43,3 +43,4 @@ MonoBehaviour:
   characterPassive:
   - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}
   - {fileID: 11400000, guid: 74b8b767438244f0ab7be2339fa04fad, type: 2}
+  - {fileID: 11400000, guid: 66557a9cff282934b8189f061d1527be, type: 2}

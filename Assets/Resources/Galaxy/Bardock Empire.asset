@@ -29,3 +29,8 @@ MonoBehaviour:
     - {fileID: 11400000, guid: c7ef56876ec0d0d449168590ad67c089, type: 2}
     actualCampaign: 0
     planet: {fileID: -8779006815210466723, guid: 4038292e627ae4229aaa5cef6ca5a106, type: 3}
+  - campaignName: Cooler's Supremacy
+    campaign:
+    - {fileID: 11400000, guid: c7ef56876ec0d0d449168590ad67c089, type: 2}
+    actualCampaign: 0
+    planet: {fileID: -8779006815210466723, guid: 4038292e627ae4229aaa5cef6ca5a106, type: 3}

@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: bae51e241c4c2f948b1c66942be26bc1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5701723127870413254
+    second: cooler_0
+  - first:
+      213: -7250802720820209389
+    second: cooler_1
+  - first:
+      213: 2738052804821372673
+    second: cooler_2
+  - first:
+      213: 2541850354505204956
+    second: cooler_3
+  - first:
+      213: -5588504864768871827
+    second: cooler_4
+  - first:
+      213: 8122438544461012557
+    second: cooler_5
+  - first:
+      213: -3041010013909483281
+    second: cooler_6
+  - first:
+      213: -375753327921095533
+    second: cooler_7
+  - first:
+      213: -7264966772728534939
+    second: cooler_8
+  - first:
+      213: -8889172340930921332
+    second: cooler_9
+  - first:
+      213: 7598031920994324611
+    second: cooler_10
+  - first:
+      213: 8652751193449702769
+    second: cooler_11
+  - first:
+      213: 826986644783027954
+    second: cooler_12
+  - first:
+      213: 27055098752178947
+    second: cooler_13
+  - first:
+      213: 5015867481305413523
+    second: cooler_14
+  - first:
+      213: -5539940227956585559
+    second: cooler_15
+  - first:
+      213: 3029215748747357437
+    second: cooler_16
+  - first:
+      213: 3894292716387871615
+    second: cooler_17
+  - first:
+      213: -1753394646403684657
+    second: cooler_18
+  - first:
+      213: -7815595151189902226
+    second: cooler_19
+  - first:
+      213: 7976162601876283857
+    second: cooler_20
+  - first:
+      213: -6772577458843779519
+    second: cooler_21
+  - first:
+      213: -1197360717120197878
+    second: cooler_22
+  - first:
+      213: 7960266164184080386
+    second: cooler_23
+  - first:
+      213: -3253464971807349832
+    second: cooler_24
+  - first:
+      213: 3309779678883957347
+    second: cooler_25
+  - first:
+      213: 2655772244667341562
+    second: cooler_26
+  - first:
+      213: -4466818259660859130
+    second: cooler_27
+  - first:
+      213: -5026666632929828944
+    second: cooler_28
+  - first:
+      213: -3936338262591366421
+    second: cooler_29
+  - first:
+      213: 5875963779021615483
+    second: cooler_30
+  - first:
+      213: -2221106847746241413
+    second: cooler_31
+  - first:
+      213: 4460830590879597492
+    second: cooler_32
+  - first:
+      213: -1834622417265592860
+    second: cooler_33
+  - first:
+      213: -7447455123195536352
+    second: cooler_34
+  - first:
+      213: 5084317372856039474
+    second: cooler_35
+  - first:
+      213: 9081043150930805254
+    second: cooler_36
+  - first:
+      213: 8405485953359590932
+    second: cooler_37
+  - first:
+      213: -7672582938309350132
+    second: cooler_38
+  - first:
+      213: -4410697503532018017
+    second: cooler_39
+  - first:
+      213: 6515072248068566076
+    second: cooler_40
+  - first:
+      213: 6235259873942207671
+    second: cooler_41
+  - first:
+      213: -1517897635600867038
+    second: cooler_42
+  - first:
+      213: 5248941366439909304
+    second: cooler_43
+  - first:
+      213: 1539256364255866604
+    second: cooler_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Linux64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cooler_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 776
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36a7a336096fd0b0800000000000000
+      internalID: -5701723127870413254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 776
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31953118759ff5b90800000000000000
+      internalID: -7250802720820209389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 776
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fc3a7e4848ff520800000000000000
+      internalID: 2738052804821372673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 776
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4cb7c1e67764320800000000000000
+      internalID: 2541850354505204956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 782
+        width: 63
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62b8e54f64a172b0800000000000000
+      internalID: -5588504864768871827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_5
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 777
+        width: 69
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e1a8852d2b8b070800000000000000
+      internalID: 8122438544461012557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 715
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0058a11892cc5d0800000000000000
+      internalID: -3041010013909483281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_7
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 715
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c971ec65e09caf0800000000000000
+      internalID: -375753327921095533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 714
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568ef7e2637ad2b90800000000000000
+      internalID: -7264966772728534939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_9
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 713
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cb59f4ad053a480800000000000000
+      internalID: -8889172340930921332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 713
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38012faa6c1a17960800000000000000
+      internalID: 7598031920994324611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_11
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 713
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175286fbd5fb41870800000000000000
+      internalID: 8652751193449702769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 656
+        width: 130
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6d84cc8fb0a7b00800000000000000
+      internalID: 826986644783027954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_13
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 656
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b9c7e087e106000800000000000000
+      internalID: 27055098752178947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_14
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 580
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39774a726e0fb9540800000000000000
+      internalID: 5015867481305413523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 580
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab40cbe6bd2e13b0800000000000000
+      internalID: -5539940227956585559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_16
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 580
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfcea1c8cafe90a20800000000000000
+      internalID: 3029215748747357437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_17
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 580
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ba0bbb79e4b0630800000000000000
+      internalID: 3894292716387871615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_18
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 580
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc66906ebd0baa7e0800000000000000
+      internalID: -1753394646403684657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_19
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 580
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c7f096e9d698390800000000000000
+      internalID: -7815595151189902226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_20
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 580
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1679b70a501be60800000000000000
+      internalID: 7976162601876283857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_21
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 580
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e7ccf0fa8f202a0800000000000000
+      internalID: -6772577458843779519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_22
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 580
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b2b0c85ce126fe0800000000000000
+      internalID: -1197360717120197878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 499
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200e0c9a6eb887e60800000000000000
+      internalID: 7960266164184080386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_24
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 498
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b32f3288de59d2d0800000000000000
+      internalID: -3253464971807349832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_25
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 498
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a4facf413beed20800000000000000
+      internalID: 3309779678883957347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_26
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 498
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa1dbf19c23bd420800000000000000
+      internalID: 2655772244667341562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_27
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 498
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6099fa4857ca202c0800000000000000
+      internalID: -4466818259660859130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_28
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 508
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf98eb6451bd3ab0800000000000000
+      internalID: -5026666632929828944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_29
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 511
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea967ea4315f59c0800000000000000
+      internalID: -3936338262591366421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_30
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 423
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7135a1cced9b8150800000000000000
+      internalID: 5875963779021615483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 423
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cc5e3071b0d21e0800000000000000
+      internalID: -2221106847746241413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_32
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 423
+        width: 77
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b30394b9cd08ed30800000000000000
+      internalID: 4460830590879597492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_33
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 423
+        width: 77
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e57ae9b1ac1a86e0800000000000000
+      internalID: -1834622417265592860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_34
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 413
+        width: 35
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c5445160355a890800000000000000
+      internalID: -7447455123195536352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 415
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2387e6676bf1f8640800000000000000
+      internalID: 5084317372856039474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_36
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 415
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6028931e1a8560e70800000000000000
+      internalID: 9081043150930805254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_37
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 311
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416b88eb0f846a470800000000000000
+      internalID: 8405485953359590932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_38
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 214
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d295cf772858590800000000000000
+      internalID: -7672582938309350132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_39
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 215
+        width: 94
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96954a4dfd0ac2c0800000000000000
+      internalID: -4410697503532018017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_40
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 244
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ce128f0bf2a6a50800000000000000
+      internalID: 6515072248068566076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_41
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 244
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc729cc1d7188650800000000000000
+      internalID: 6235259873942207671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 244
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221ea9084285feae0800000000000000
+      internalID: -1517897635600867038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 244
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b71189dc5cf7d840800000000000000
+      internalID: 5248941366439909304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cooler_44
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 244
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceeeab902898c5510800000000000000
+      internalID: 1539256364255866604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cooler_0: -5701723127870413254
+      cooler_1: -7250802720820209389
+      cooler_10: 7598031920994324611
+      cooler_11: 8652751193449702769
+      cooler_12: 826986644783027954
+      cooler_13: 27055098752178947
+      cooler_14: 5015867481305413523
+      cooler_15: -5539940227956585559
+      cooler_16: 3029215748747357437
+      cooler_17: 3894292716387871615
+      cooler_18: -1753394646403684657
+      cooler_19: -7815595151189902226
+      cooler_2: 2738052804821372673
+      cooler_20: 7976162601876283857
+      cooler_21: -6772577458843779519
+      cooler_22: -1197360717120197878
+      cooler_23: 7960266164184080386
+      cooler_24: -3253464971807349832
+      cooler_25: 3309779678883957347
+      cooler_26: 2655772244667341562
+      cooler_27: -4466818259660859130
+      cooler_28: -5026666632929828944
+      cooler_29: -3936338262591366421
+      cooler_3: 2541850354505204956
+      cooler_30: 5875963779021615483
+      cooler_31: -2221106847746241413
+      cooler_32: 4460830590879597492
+      cooler_33: -1834622417265592860
+      cooler_34: -7447455123195536352
+      cooler_35: 5084317372856039474
+      cooler_36: 9081043150930805254
+      cooler_37: 8405485953359590932
+      cooler_38: -7672582938309350132
+      cooler_39: -4410697503532018017
+      cooler_4: -5588504864768871827
+      cooler_40: 6515072248068566076
+      cooler_41: 6235259873942207671
+      cooler_42: -1517897635600867038
+      cooler_43: 5248941366439909304
+      cooler_44: 1539256364255866604
+      cooler_5: 8122438544461012557
+      cooler_6: -3041010013909483281
+      cooler_7: -375753327921095533
+      cooler_8: -7264966772728534939
+      cooler_9: -8889172340930921332
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

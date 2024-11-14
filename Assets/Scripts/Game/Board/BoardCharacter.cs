@@ -41,6 +41,7 @@ public class BoardCharacter : BoardObject
     {
         this.character = character;
         state = new DefaultCharacterState(this);
+        this.SetCharacterSlider();
     }
 
     public void UpdateState(BoardCharacterState newState)
@@ -144,12 +145,19 @@ public class BoardCharacter : BoardObject
 
     public void SetCharacterSlider()
     {
-        var charPrefabScript = gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
+        try
+        {
+            var charPrefabScript = gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
+            charPrefabScript.kiSlider.maxValue = this.character.GetCharacterData().maxKi;
+            charPrefabScript.kiSlider.value = this.character.actualKi;
+            charPrefabScript.healthSlider.maxValue = this.character.GetCharacterData().maxHealth;
+            charPrefabScript.healthSlider.value = this.character.actualHealth;
+        }
+        catch (Exception e)
+        {
+            Debug.Log("Cannot set character slider, charPrefabScript isn't probably set, its too early bro.");
+        }
         
-        charPrefabScript.kiSlider.maxValue = this.character.GetCharacterData().maxKi;
-        charPrefabScript.kiSlider.value = this.character.actualKi;
-        charPrefabScript.healthSlider.maxValue = this.character.GetCharacterData().maxHealth;
-        charPrefabScript.healthSlider.value = this.character.actualHealth;
     }
 
     public void PlayAnimation(BoardAnimation animation)

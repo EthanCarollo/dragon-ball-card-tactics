@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b99670e00b4fe7b0629925bfffac4c, type: 3}
+  m_Name: GogetaFusion
+  m_EditorClassIdentifier: 
+  passiveImage: {fileID: 2086310316594405680, guid: b8776f207e3ad614db488bc2f1287232, type: 3}
+  passiveName: Gogeta Fusion
+  passiveDescription: Automatically transform in Gogeta if Vegeta is on the board.
+  transformAnimation: {fileID: 11400000, guid: fcf96e8650349dc4392b03c385064d6e, type: 2}
+  hpThresholdPercentage: 100

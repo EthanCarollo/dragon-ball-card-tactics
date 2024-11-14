@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370311177bd44ead84bb4dfbfbf49584, type: 3}
+  m_Name: TransformInGogeta
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: 4069066730129622288, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
+    time: 0.1
+  - sprite: {fileID: -8631254806329291277, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
+    time: 0.1
+  - sprite: {fileID: -7775038636127611991, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
+    time: 0.1
+  - sprite: {fileID: -1263736241399743278, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
+    time: 0.1
+  - sprite: {fileID: 5575106177270120887, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
+    time: 0.1
+  - sprite: {fileID: 1157633625207632611, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
+    time: 0.1
+  - sprite: {fileID: 1908571679087125032, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
+    time: 0.1
+  - sprite: {fileID: 3754190170694259519, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
+    time: 0.1
+  - sprite: {fileID: -1417236635053893425, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
+    time: 0.1
+  - sprite: {fileID: -1417236635053893425, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
+    time: 0.1
+  - sprite: {fileID: 8945203238905483443, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
+    time: 0.1
+  - sprite: {fileID: 8945203238905483443, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
+    time: 0.1
+  - sprite: {fileID: 3373043507828889780, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
+    time: 0.1
+  - sprite: {fileID: 3373043507828889780, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
+    time: 0.1
+  - sprite: {fileID: -4795711017664822491, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
+    time: 0.1
+  - sprite: {fileID: -9019115785543223324, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
+    time: 0.1
+  - sprite: {fileID: -4451595255975848922, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
+    time: 0.1
+  - sprite: {fileID: -4451595255975848922, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
+    time: 0.1
+  newCharacterData: {fileID: 11400000, guid: f52be191ad26f4147908221ef8b28a59, type: 2}
+  characterData1: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
+  characterData2: {fileID: 11400000, guid: 0875c67b3acfc094b9a106f94cb6dd4c, type: 2}

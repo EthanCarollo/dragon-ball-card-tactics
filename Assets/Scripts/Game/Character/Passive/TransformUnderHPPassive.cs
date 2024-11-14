@@ -19,7 +19,7 @@ public class TransformUnderHPPassive : TransformPassive
 
         float hpThreshold = character.character.GetCharacterData().maxHealth * (hpThresholdPercentage / 100f);
         
-        if (character.character.actualHealth < hpThreshold && !launchTransformation)
+        if (character.character.actualHealth < hpThreshold && !launchTransformation && transformAnimation.CanTransform(character))
         {
             FightBoard.Instance.LaunchTransformation(character, transformAnimation);
             Debug.Log($"Transformation triggered at {hpThresholdPercentage}% HP.");
