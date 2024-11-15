@@ -44,6 +44,13 @@ public class BoardCharacter : BoardObject
         this.SetCharacterSlider();
     }
 
+    public void SetupCharacter(CharacterData character)
+    {
+        this.character.characterId = character.id;
+        state = new DefaultCharacterState(this);
+        this.SetCharacterSlider();
+    }
+
     public void UpdateState(BoardCharacterState newState)
     {
         state = newState;

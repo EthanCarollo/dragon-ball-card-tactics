@@ -17,7 +17,7 @@ public class TransformAnimation : BoardAnimation {
     {
         character.isAnimating = true;
         yield return PlayAnimationCoroutineTransform(character);
-        character.SetupCharacter(new CharacterContainer(newCharacterData.id, character.character.actualHealth, character.character.actualKi));
+        character.SetupCharacter(newCharacterData);
         character.isAnimating = false;
     }
 
