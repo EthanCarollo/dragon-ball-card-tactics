@@ -54,13 +54,13 @@ public class CharacterBoardUi : MonoBehaviour
                         Destroy(child.gameObject);
                 }
 
-                if(boardCharacter.character.GetCharacterData().characterPassive != null){
-                        foreach (var passive in boardCharacter.character.GetCharacterData().characterPassive){
+                if(boardCharacter.character.GetCharacterPassives() != null){
+                        foreach (var passive in boardCharacter.character.GetCharacterPassives()){
                                 if(passive == null) continue;
                                 Instantiate(passiveLittlePrefab, passiveContainer).GetComponent<PassiveContainer>().Setup(passive);
                         }
 
-                        if(boardCharacter.character.GetCharacterData().characterPassive.Length > 0) {
+                        if(boardCharacter.character.GetCharacterPassives().Length > 0) {
                                 passiveWholeContainer.SetActive(true);
                         } else {
                                 passiveWholeContainer.SetActive(false);

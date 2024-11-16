@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "CharacterInventory", menuName = "Character/CharacterInventory")]
@@ -65,6 +66,7 @@ public class CharacterContainer
     public int actualHealth;
     public int actualKi;
     public int selectedUltimateAttack = 0;
+    public List<int> unlockedPassives = new List<int>();
     
     public CharacterContainer(int characterId)
     {
@@ -97,13 +99,27 @@ public class CharacterContainer
     {
         return GetCharacterData().maxHealth;
     }
+
+    public CharacterPassive[] GetCharacterPassives()
+    {
+        List<CharacterPassive> passives = new List<CharacterPassive>();
+        foreach (int variablePassive in unlockedPassives)
+        {
+            if (variablePassive >= GetCharacterData().characterPassive.Length)
+            {
+                continue;
+            }
+            passives.Add(GetCharacterData().characterPassive[variablePassive]);
+        }
+        return passives.ToArray();
+    }
     public int GetAttackDamage()
     {
         int totalAdditionalAttack = 0;
 
-        if(GetCharacterData().characterPassive != null)
+        if(GetCharacterPassives() != null)
         {
-            foreach (var passive in GetCharacterData().characterPassive)
+            foreach (var passive in GetCharacterPassives())
             {
                 if(passive != null)
                 {

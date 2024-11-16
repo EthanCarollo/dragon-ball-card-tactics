@@ -120,9 +120,9 @@ public class FightBoardState : BoardState
                 var character = GameManager.Instance.boardCharacterArray[x, y];
                 if (character == null) continue;
 
-                if (character is BoardCharacter boardChar && boardChar.character.GetCharacterData().characterPassive is not null)
+                if (character is BoardCharacter boardChar && boardChar.character.GetCharacterPassives() is not null)
                 {
-                    foreach (var passive in boardChar.character.GetCharacterData().characterPassive)
+                    foreach (var passive in boardChar.character.GetCharacterPassives())
                     {
                         if(passive is not null) passive.Setup(boardChar);
                     }

@@ -103,9 +103,9 @@ public class SingleCharacterInfo : MonoBehaviour
             }
         }
 
-        if (character.GetCharacterData().characterPassive != null && character.GetCharacterData().characterPassive.GetLength(0) > 0)
+        if (character.GetCharacterPassives() != null && character.GetCharacterPassives().GetLength(0) > 0)
         {
-            foreach (var passive in character.GetCharacterData().characterPassive)
+            foreach (var passive in character.GetCharacterPassives())
             {
                 Instantiate(passivePrefabContainer, passiveList.transform).GetComponent<PassiveContainer>().Setup(passive);
             }

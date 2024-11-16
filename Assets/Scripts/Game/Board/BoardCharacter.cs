@@ -72,7 +72,7 @@ public class BoardCharacter : BoardObject
             Console.WriteLine(e);
         }
 
-        foreach (var passive in character.GetCharacterData().characterPassive)
+        foreach (var passive in character.GetCharacterPassives())
         {
             passive.UpdatePassive(this);
         }
@@ -133,7 +133,7 @@ public class BoardCharacter : BoardObject
         }
         else if(this.character.IsDead() == false)
         {
-            foreach (var passive in character.GetCharacterData().characterPassive)
+            foreach (var passive in character.GetCharacterPassives())
             {
                 passive.GetHit(damageAmount, this);
             }

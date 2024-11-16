@@ -17,12 +17,15 @@ MonoBehaviour:
     actualHealth: 0
     actualKi: 15
     selectedUltimateAttack: 0
+    unlockedPassives: 00000000
   - characterId: 1
     actualHealth: 550
     actualKi: 15
     selectedUltimateAttack: 0
+    unlockedPassives: 00000000
   - characterId: 14
     actualHealth: 1345
     actualKi: 105
     selectedUltimateAttack: 0
+    unlockedPassives: 
   selectedIndexCharacterForCampaign: 00000000ffffffffffffffff02000000ffffffffffffffff
