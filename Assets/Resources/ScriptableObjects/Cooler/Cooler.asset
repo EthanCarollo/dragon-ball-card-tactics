@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Cooler
+  m_EditorClassIdentifier: 
+  id: 0
+  starNumber: 1
+  characterName: Cooler
+  role: 0
+  characterType: 1
+  characterSprite: {fileID: -5701723127870413254, guid: bae51e241c4c2f948b1c66942be26bc1, type: 3}
+  characterIcon: {fileID: 21300000, guid: 424435eb8e6e24d4391acb12fdf0a7ac, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 560
+  maxKi: 50
+  baseRange: 1
+  baseDamage: 50
+  baseArmor: 10
+  baseSpeed: 2
+  baseAttackSpeed: 1
+  baseCriticalChance: 20
+  idleAnimation: {fileID: 11400000, guid: 262f576d8bf37b7429ec555a3fb05a8e, type: 2}
+  runAnimation: {fileID: 11400000, guid: 2d4bc0c06412eed4bb037c68f6557f32, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 6c224f434f816514a86f0ad630e9209c, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: d5db2ebaec31ee0409f64ce8079301fb, type: 2}
+  specialAttackAnimation:
+  - name: Death Beam
+    description: 
+    animation: {fileID: 11400000, guid: ee57b3496af81f44ba6e382c9d0c287b, type: 2}
+  - name: Little super attack
+    description: A little super attack
+    animation: {fileID: 11400000, guid: 0badf5a831b265d44b42755cd9b173f8, type: 2}
+  deadAnimation: {fileID: 0}
+  characterPassive: []

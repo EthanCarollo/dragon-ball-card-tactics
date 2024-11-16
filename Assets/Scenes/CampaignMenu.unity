@@ -6424,8 +6424,8 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 0
-  m_ChildForceExpandWidth: 1
+  m_Spacing: 10
+  m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
   m_ChildControlHeight: 0
@@ -7132,6 +7132,10 @@ PrefabInstance:
     - target: {fileID: 3018125213061107689, guid: 9bf7abe0168c74c43a1c1d97cf8ea0ce, type: 3}
       propertyPath: m_Name
       value: SimpleCharacterContainer (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3018125213061107689, guid: 9bf7abe0168c74c43a1c1d97cf8ea0ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8141489323554338550, guid: 9bf7abe0168c74c43a1c1d97cf8ea0ce, type: 3}
       propertyPath: m_Pivot.x

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 424435eb8e6e24d4391acb12fdf0a7ac
+guid: 46f03910a9930ff4c91141e51cf9625d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -189180897014190188
-    second: cooler-icon_0
+      213: -3801151489677200159
+    second: ginyu-icon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -165,13 +165,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cooler-icon_0
+      name: ginyu-icon_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
-        width: 21
-        height: 27
+        width: 29
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,8 +180,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49fed2bf9f4ef5df0800000000000000
-      internalID: -189180897014190188
+      spriteID: 1e4f7580cd89f3bc0800000000000000
+      internalID: -3801151489677200159
       vertices: []
       indices: 
       edges: []
@@ -200,7 +200,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cooler-icon_0: -189180897014190188
+      ginyu-icon_0: -3801151489677200159
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

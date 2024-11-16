@@ -12,10 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ba9f5b66b344fe973199f0d49ecadc, type: 3}
   m_Name: Dodoria Campaign
   m_EditorClassIdentifier: 
-  campaignName: Dodoria Campaign
+  campaignName: Cooler's Campaign
   levels:
   - characters:
     - character: {fileID: 11400000, guid: 05e134e06013ffe4d9aca00c7e62b751, type: 2}
+      unlockPassive: 
+      position: {x: 8, y: 5}
+    StartDialog: []
+  - characters:
+    - character: {fileID: 11400000, guid: f0860ffe0f8678e43ba4be007de7b17e, type: 2}
+      unlockPassive: 
+      position: {x: 8, y: 5}
+    StartDialog: []
+  - characters:
+    - character: {fileID: 11400000, guid: bf7502dea45e07c4485b66060f89e68c, type: 2}
       unlockPassive: 
       position: {x: 8, y: 5}
     StartDialog: []

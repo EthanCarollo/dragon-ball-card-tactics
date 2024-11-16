@@ -35,7 +35,7 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
 
     public void OnDrag(PointerEventData eventData)
     {
-        if (FightBoard.Instance.IsFighting())
+        if (FightBoard.Instance.IsFighting() || boardCharacter.isPlayerCharacter == false)
         {
             return;
         }
@@ -61,7 +61,7 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (FightBoard.Instance.IsFighting())
+        if (FightBoard.Instance.IsFighting() || boardCharacter.isPlayerCharacter == false)
         {
             return;
         }
@@ -75,6 +75,11 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
             {
                 TileBehaviour tileScript = hit.collider.GetComponent<TileBehaviour>();
 
+                if (tileScript.position.x > 4 && tileScript.assignedBoard is not VerticalBoard)
+                {
+                    return;
+                }
+                
                 if (tileScript != null)
                 {
                     boardCharacter.board.RemoveCharacterFromBoard(boardCharacter);

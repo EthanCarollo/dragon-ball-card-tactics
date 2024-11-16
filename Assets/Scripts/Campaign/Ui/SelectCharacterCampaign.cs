@@ -43,10 +43,21 @@ public class SelectCharacterCampaign : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        for(int i = 0; i < campaign.GetActualCampaign().levels[0].characters.Length; i++){
-            var go = Instantiate(simpleCharacterContainerPrefab, enemyCharacterParent);
-            go.GetComponent<CharacterSimpleContainer>().SetupCharacter(campaign.GetActualCampaign().levels[0].characters[i].character);
+        int charAdded = 0;
+
+        foreach (var level in campaign.GetActualCampaign().levels)
+        {
+            for(int i = 0; i < level.characters.Length; i++){
+                if (charAdded >= 3)
+                {
+                    break;
+                }
+                var go = Instantiate(simpleCharacterContainerPrefab, enemyCharacterParent);
+                go.GetComponent<CharacterSimpleContainer>().SetupCharacter(level.characters[i].character);
+                charAdded++;
+            }
         }
+        
 
         this.campaign = campaign;
     }
