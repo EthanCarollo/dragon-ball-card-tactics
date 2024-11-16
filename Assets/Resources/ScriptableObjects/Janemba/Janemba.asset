@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Janemba
+  m_EditorClassIdentifier: 
+  id: 19
+  starNumber: 1
+  characterName: Janemba
+  role: 0
+  characterType: 2
+  characterSprite: {fileID: -2099284820171577906, guid: a2c6438b1a5187d4d9d8b6bb09ff62f6, type: 3}
+  characterIcon: {fileID: 21300000, guid: c4b93422698098e4db400fb119d44fac, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 560
+  maxKi: 20
+  baseRange: 5
+  baseDamage: 50
+  baseArmor: 10
+  baseSpeed: 2
+  baseAttackSpeed: 1
+  baseCriticalChance: 20
+  idleAnimation: {fileID: 11400000, guid: 5bd5c83fc4a6c7144bb4d9bef3319287, type: 2}
+  runAnimation: {fileID: 11400000, guid: 94217e54e43076b43ac7a1a127264720, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 3fed9c397631b6846ae16c4b6a23a510, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 3fed9c397631b6846ae16c4b6a23a510, type: 2}
+  specialAttackAnimation:
+  - name: Demonic Blade
+    description: Performs a long-reaching horizontal slash with his sword
+    animation: {fileID: 11400000, guid: 91e8471cb3217104d8a4ab92337e949f, type: 2}
+  - name: Little super attack
+    description: A little super attack
+    animation: {fileID: 11400000, guid: 0badf5a831b265d44b42755cd9b173f8, type: 2}
+  deadAnimation: {fileID: 0}
+  characterPassive: []
