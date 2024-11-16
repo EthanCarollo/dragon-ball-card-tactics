@@ -1,0 +1,1170 @@
+fileFormatVersion: 2
+guid: 697423e5ea61fe14f84baaa1fc931346
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1564125770186600922
+    second: dodoria_0
+  - first:
+      213: 7197016960189213780
+    second: dodoria_1
+  - first:
+      213: -43216350181980855
+    second: dodoria_2
+  - first:
+      213: 8089459957128446800
+    second: dodoria_3
+  - first:
+      213: -3902212954331181289
+    second: dodoria_4
+  - first:
+      213: -2456880481393412579
+    second: dodoria_5
+  - first:
+      213: -1783913631526820336
+    second: dodoria_6
+  - first:
+      213: -1750255803858711987
+    second: dodoria_7
+  - first:
+      213: 985900716319843007
+    second: dodoria_8
+  - first:
+      213: 2868976752367913194
+    second: dodoria_9
+  - first:
+      213: 6353363483214388143
+    second: dodoria_10
+  - first:
+      213: 7693247379908976417
+    second: dodoria_11
+  - first:
+      213: 7184592158753560574
+    second: dodoria_12
+  - first:
+      213: 826016711680860478
+    second: dodoria_13
+  - first:
+      213: 6293502412844189860
+    second: dodoria_14
+  - first:
+      213: 2581100745542336242
+    second: dodoria_15
+  - first:
+      213: -9001421235395295464
+    second: dodoria_16
+  - first:
+      213: 7076563405568682953
+    second: dodoria_17
+  - first:
+      213: 2551719282618068969
+    second: dodoria_18
+  - first:
+      213: 3383996804087436968
+    second: dodoria_19
+  - first:
+      213: 3197841636052519834
+    second: dodoria_20
+  - first:
+      213: -3827208561453103313
+    second: dodoria_21
+  - first:
+      213: -1995038556992373577
+    second: dodoria_22
+  - first:
+      213: -4262898518905610011
+    second: dodoria_23
+  - first:
+      213: 6562204915733311429
+    second: dodoria_24
+  - first:
+      213: 7560759128588313326
+    second: dodoria_25
+  - first:
+      213: 4721281623563638697
+    second: dodoria_26
+  - first:
+      213: -934027068402533062
+    second: dodoria_27
+  - first:
+      213: -97726072201609772
+    second: dodoria_28
+  - first:
+      213: 2946468766717520129
+    second: dodoria_29
+  - first:
+      213: -3105065328749460586
+    second: dodoria_30
+  - first:
+      213: -5371396035982619109
+    second: dodoria_31
+  - first:
+      213: 4225432079725072539
+    second: dodoria_32
+  - first:
+      213: -5884989431315103201
+    second: dodoria_33
+  - first:
+      213: -5895294969549826791
+    second: dodoria_34
+  - first:
+      213: -2642745950565672763
+    second: dodoria_35
+  - first:
+      213: 4368649656758020191
+    second: dodoria_36
+  - first:
+      213: 5042901084637005683
+    second: dodoria_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Linux64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dodoria_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 456
+        width: 42
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c0dbad8a573764c8ccae4509164fcb
+      internalID: 2070958024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 408
+        width: 49
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec541e68e87a834b87324118a0f3c7d
+      internalID: -339738006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 417
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd78f3ea45443d448e7950c87d1b37f
+      internalID: -1985566167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 420
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba96a50f13dbf84aa7e537b3366837f
+      internalID: -1381136373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 344
+        width: 60
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec51a92d4ef6994d9a02d6ff5ece7e1
+      internalID: -1820049293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 344
+        width: 49
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fbe5deb11d82d44ba52ab15f98343a
+      internalID: -1949240650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 344
+        width: 50
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26ba49b6725af74aa35ffe8dc1c350b
+      internalID: -832122033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_7
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 357
+        width: 64
+        height: 32
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d582406789fa314794a670dc74cbf9f
+      internalID: -197754676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_8
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 260
+        width: 52
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df5be0b94560cc4eaac306b9907d6a9
+      internalID: -36343119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 310
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8352704e6d1f88346a631bc7973e022c
+      internalID: -1508062551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_10
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 311
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b72fd689b735f04497167922dcb9088
+      internalID: 448228914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 251
+        width: 82
+        height: 71
+      alignment: 9
+      pivot: {x: 0.47047907, y: 0.17388143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ce41ada6692b343b19afb6aef86493
+      internalID: 1035168163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_12
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 309
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9e721c7f1c77e48a26dffc6057bd04
+      internalID: -583370101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 264
+        width: 44
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971a417d9bcfb4f4cafc53d389725ad9
+      internalID: 1710763608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_14
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 264
+        width: 44
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9e04d0f1dada949bf66e89d50676b6
+      internalID: -309217904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_15
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 249
+        width: 74
+        height: 71
+      alignment: 9
+      pivot: {x: 0.48547488, y: 0.19377932}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791700dfcf0641a4a8b0d389cce1b3c3
+      internalID: 800849185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_16
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 289
+        width: 16
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf08a35c76eb9a4e9f2912617c092f0
+      internalID: 1995011984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_17
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 274
+        width: 16
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be67dbbd8210fd4f9924465f38f1c1f
+      internalID: 1617019732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_18
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 251
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c66b2f5decd62a42a5d51dd325eb8a2
+      internalID: -1969882621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 251
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2944609b5b802944fb46b27a8f55d618
+      internalID: -391629948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_20
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 251
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beda88d738bf10e47acd4502e25547d4
+      internalID: -698444495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_21
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 256
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc37ffb6e46911f488329a6e13f11b80
+      internalID: 1889630822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 209
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990dc71bf94f6c84daa91cbf834a1ecc
+      internalID: 109167883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_23
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 132
+        width: 66
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48098d2d39d20e24f93e6c29c9b9115a
+      internalID: -153294840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_24
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 209
+        width: 5
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff8c4c3b6e20f244b6bfd7015973991
+      internalID: 1908384119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_25
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 205
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b094de19d9f384f468bd1c62a666a5f1
+      internalID: -1691254890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_26
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 138
+        width: 93
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae33fda4dbae7b4fa4d747e72d1394d
+      internalID: 777896415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_27
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 196
+        width: 16
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720fc530946ad45449d936d4efaac973
+      internalID: -1344949640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_28
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 196
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac9f5328aea1f84b8829222311b50f8
+      internalID: -1247286958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_29
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 123
+        width: 68
+        height: 62
+      alignment: 9
+      pivot: {x: 0.46138942, y: 0.15426439}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a2cbc7cf4e46947864a86c29075d50
+      internalID: -187342619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_30
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 182
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d68134704c9b3b4b8218f2194251ea2
+      internalID: -738305922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_31
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 181
+        width: 16
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64c0e57d54be9d4989b67ea127b623c
+      internalID: -1766103034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_32
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 170
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ecc1d3576a69640b110fbd0d551806
+      internalID: -1732260549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_33
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 162
+        width: 11
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0099544553d2b24ea8e60bf3f1a44e3
+      internalID: 937596927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_34
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 131
+        width: 40
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6080299cdc3892c43840aa2badeaae33
+      internalID: -1872562802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_35
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 143
+        width: 16
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac09b3b415694c42bcaa40432dc66de
+      internalID: -574609757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_36
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 120
+        width: 5
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10270030c25fc2748ba42e7830993e1f
+      internalID: -1861916526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dodoria_37
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 128
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0848d428d551304c857a4c00f7e178f
+      internalID: -1347184371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 10eb7abadf4ffd64e92f6ca99724605a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dodoria_0: 2070958024
+      dodoria_1: -339738006
+      dodoria_10: 448228914
+      dodoria_11: 1035168163
+      dodoria_12: -583370101
+      dodoria_13: 1710763608
+      dodoria_14: -309217904
+      dodoria_15: 800849185
+      dodoria_16: 1995011984
+      dodoria_17: 1617019732
+      dodoria_18: -1969882621
+      dodoria_19: -391629948
+      dodoria_2: -1985566167
+      dodoria_20: -698444495
+      dodoria_21: 1889630822
+      dodoria_22: 109167883
+      dodoria_23: -153294840
+      dodoria_24: 1908384119
+      dodoria_25: -1691254890
+      dodoria_26: 777896415
+      dodoria_27: -1344949640
+      dodoria_28: -1247286958
+      dodoria_29: -187342619
+      dodoria_3: -1381136373
+      dodoria_30: -738305922
+      dodoria_31: -1766103034
+      dodoria_32: -1732260549
+      dodoria_33: 937596927
+      dodoria_34: -1872562802
+      dodoria_35: -574609757
+      dodoria_36: -1861916526
+      dodoria_37: -1347184371
+      dodoria_4: -1820049293
+      dodoria_5: -1949240650
+      dodoria_6: -832122033
+      dodoria_7: -197754676
+      dodoria_8: -36343119
+      dodoria_9: -1508062551
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

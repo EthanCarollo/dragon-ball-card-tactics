@@ -33,6 +33,11 @@ public class DistanceAttackAnimation : BoardAnimation {
         spriteRenderer.sprite = projectile;
         spriteRenderer.sortingOrder = 3;
         newGameObject.transform.position = character.gameObject.transform.position + new Vector3((startMargin.x * character.direction.x), startMargin.y);
+        
+        Vector3 direction = character.direction.normalized;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        newGameObject.transform.rotation = Quaternion.Euler(0, 0, angle);
+        
         try
         {
             LeanTween.move(newGameObject, character.GetCharacterTarget().gameObject.transform.position + new Vector3(0, 0.5f), 0.1f)
