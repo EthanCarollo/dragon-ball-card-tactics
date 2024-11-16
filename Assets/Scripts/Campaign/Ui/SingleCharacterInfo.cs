@@ -47,6 +47,19 @@ public class SingleCharacterInfo : MonoBehaviour
         actualCharacterContainer = character;
         characterContainer.SetActive(true);
         characterImage.sprite = character.GetCharacterData().characterSprite;
+        if (character.IsDead())
+        {
+            characterImage.color = Color.grey;
+            if (character.GetCharacterData().deadAnimation != null)
+            {
+                characterImage.sprite =  character.GetCharacterData().deadAnimation
+                    .frameSprites[character.GetCharacterData().deadAnimation.frameSprites.Length - 1].sprite;
+            }
+        }
+        else
+        {
+            characterImage.color = Color.white;
+        }
         characterName.text = character.GetCharacterData().name;
         healthText.text = character.actualHealth + " / " + character.GetCharacterData().maxHealth + " HP";
         healthSlider.maxValue = character.GetCharacterData().maxHealth;

@@ -24,8 +24,18 @@ public class CharacterInfoButton : MonoBehaviour, IPointerClickHandler
         healthSlider.value = characterContainer.actualHealth;
         characterHp.text = characterContainer.actualHealth + " / " + characterContainer.GetCharacterData().maxHealth + " HP";
 
-        characterContainerInner.color = characterContainer.GetCharacterData().GetCharacterColor();
-        characterContainerOuter.color = characterContainer.GetCharacterData().GetCharacterColor();
+        if (characterContainer.IsDead())
+        {
+            characterIcon.color = Color.gray;
+            characterContainerInner.color = Color.gray;
+            characterContainerOuter.color = Color.gray;
+        }
+        else
+        {
+            characterIcon.color = Color.white;
+            characterContainerInner.color = characterContainer.GetCharacterData().GetCharacterColor();
+            characterContainerOuter.color = characterContainer.GetCharacterData().GetCharacterColor();
+        }
     }
 
     public void OnPointerClick(PointerEventData eventData)
