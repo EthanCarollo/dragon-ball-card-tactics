@@ -25,6 +25,7 @@ public class SelectCharacterCampaign : MonoBehaviour
     }
 
     public void SetupCampaign(CampaignContainer campaign){
+        CharacterInventory.Instance.VerifyCharacterSelected();
         campaignTitle.text = campaign.GetActualCampaign().campaignName;
         selectCampaignContainer.SetActive(true);
         foreach (Transform child in selectCharacterParent)

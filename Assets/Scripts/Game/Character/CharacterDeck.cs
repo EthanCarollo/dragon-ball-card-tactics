@@ -27,6 +27,20 @@ public class CharacterInventory : ScriptableObject
         }
     }
 
+    public void VerifyCharacterSelected()
+    {
+        for (int i = 0; i < selectedIndexCharacterForCampaign.Length; i++)
+        {
+            if (selectedIndexCharacterForCampaign[i] != -1)
+            {
+                if (characters[selectedIndexCharacterForCampaign[i]].IsDead())
+                {
+                    selectedIndexCharacterForCampaign[i] = -1;
+                }
+            }
+        }
+    }
+
     public void AddCharacter(CharacterData character)
     {
         characters.Add(new CharacterContainer(character.id));

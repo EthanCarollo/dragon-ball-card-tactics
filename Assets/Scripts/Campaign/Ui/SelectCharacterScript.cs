@@ -42,7 +42,8 @@ public class SelectCharacterScript : MonoBehaviour, IPointerClickHandler {
         if(newIndex >= CharacterInventory.Instance.characters.Count){
             newIndex = -1;
         }
-        while(CharacterInventory.Instance.selectedIndexCharacterForCampaign.Contains(newIndex) && newIndex != -1){
+        while(CharacterInventory.Instance.selectedIndexCharacterForCampaign.Contains(newIndex) && newIndex != -1 
+              || newIndex != -1 && CharacterInventory.Instance.characters[newIndex].IsDead()){
             newIndex++;
             if(newIndex >= CharacterInventory.Instance.characters.Count){
                 newIndex = -1;
