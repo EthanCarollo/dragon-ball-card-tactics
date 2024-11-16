@@ -33,3 +33,12 @@ git clone https://github.com/EthanCarollo/dragon-ball-omega-tactics.git
 
 - Ensure all external assets are properly imported and configured as outlined in the project documentation.
 - Use Unity's built-in package manager to resolve any missing dependencies.
+
+### Disclaimer
+
+This game is a fan-made project based on the Dragon Ball franchise, which is owned by Toei Animation, Shueisha, and Akira Toriyama. I do not own any rights to the characters, story, or any other intellectual property associated with Dragon Ball.
+
+This project is created for non-commercial, fan appreciation purposes only. It is not endorsed, approved, or affiliated with the official Dragon Ball creators.
+
+If requested by the copyright holders, I will remove or modify the game accordingly.
+
