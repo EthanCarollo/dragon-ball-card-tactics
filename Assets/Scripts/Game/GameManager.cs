@@ -97,7 +97,9 @@ public class GameManager
 
         foreach (var child in level.characters)
         {
-            boardCharacterArray[child.position.x, child.position.y] = new BoardCharacter(new CharacterContainer(child.character.id), false);
+            var characterContainer = new CharacterContainer(child.character.id);
+            characterContainer.unlockedPassives = child.unlockPassive;
+            boardCharacterArray[child.position.x, child.position.y] = new BoardCharacter(characterContainer, false);
         }
 
         if(playerCharacter == null) return;

@@ -16,6 +16,7 @@ MonoBehaviour:
   levels:
   - characters:
     - character: {fileID: 11400000, guid: 12084a8006bfe504fa66250ef4072a91, type: 2}
+      unlockPassive: 00000000
       position: {x: 8, y: 5}
     StartDialog: []
   rewardCharacter: {fileID: 11400000, guid: 12084a8006bfe504fa66250ef4072a91, type: 2}
