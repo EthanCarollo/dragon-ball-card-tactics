@@ -415,6 +415,7 @@ MonoBehaviour:
       actualHealth: 0
       actualKi: 0
       selectedUltimateAttack: 0
+      unlockedPassives: 
     isPlayerCharacter: 0
     direction: {x: 0, y: 0}
     nextPosition: {x: 0, y: 0}
