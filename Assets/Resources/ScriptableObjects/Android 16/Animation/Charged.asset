@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a87c1eb9c8441a88d241afbe642005, type: 3}
+  m_Name: Charged
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: 3569642290333440866, guid: 1e60cd136b30ff7488d26fca6c4a7e06, type: 3}
+    time: 0.05
+  - sprite: {fileID: -4264420506315527959, guid: 1e60cd136b30ff7488d26fca6c4a7e06, type: 3}
+    time: 0.05
+  - sprite: {fileID: 793261624375434188, guid: 1e60cd136b30ff7488d26fca6c4a7e06, type: 3}
+    time: 0.05
+  - sprite: {fileID: 1674520821656082657, guid: 1e60cd136b30ff7488d26fca6c4a7e06, type: 3}
+    time: 0.05
+  - sprite: {fileID: 9031177491427205899, guid: 1e60cd136b30ff7488d26fca6c4a7e06, type: 3}
+    time: 0.1
+  - sprite: {fileID: 3612334770286077610, guid: 1e60cd136b30ff7488d26fca6c4a7e06, type: 3}
+    time: 0.1
+  - sprite: {fileID: -6865124391362016038, guid: 1e60cd136b30ff7488d26fca6c4a7e06, type: 3}
+    time: 0.1
+  - sprite: {fileID: -3721034549599806841, guid: 1e60cd136b30ff7488d26fca6c4a7e06, type: 3}
+    time: 0.1
+  - sprite: {fileID: 2885806934864764196, guid: 1e60cd136b30ff7488d26fca6c4a7e06, type: 3}
+    time: 0.1
+  - sprite: {fileID: -7930099731575811510, guid: 1e60cd136b30ff7488d26fca6c4a7e06, type: 3}
+    time: 0.1
+  - sprite: {fileID: 2450968587893616051, guid: 1e60cd136b30ff7488d26fca6c4a7e06, type: 3}
+    time: 0.2
+  - sprite: {fileID: -3841823574911017068, guid: 1e60cd136b30ff7488d26fca6c4a7e06, type: 3}
+    time: 0.3
+  attackFrameIndex: 10
+  kikoha: {fileID: -7265807296327343626, guid: 1e60cd136b30ff7488d26fca6c4a7e06, type: 3}
+  particleAttack: {fileID: 0}
+  attackType: 2
+  attackMultiplicator: 3
+  startMargin: {x: 0.5, y: 0.6}
+  kikohaSize: {x: 6, y: 3}
+  dangerTileSprite: {fileID: 8717166587758634932, guid: 43810dc05c4eb654b9f2094c171a9ee1, type: 3}
