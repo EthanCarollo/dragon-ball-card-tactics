@@ -47,6 +47,7 @@ public class BoardCharacter : BoardObject
     public void SetupCharacter(CharacterData character)
     {
         this.character.characterId = character.id;
+        this.character.selectedUltimateAttack = 0;
         state = new DefaultCharacterState(this);
         this.SetCharacterSlider();
     }

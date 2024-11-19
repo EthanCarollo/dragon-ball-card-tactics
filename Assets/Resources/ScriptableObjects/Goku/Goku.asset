@@ -39,6 +39,9 @@ MonoBehaviour:
   - name: Little super attack
     description: A little super attack
     animation: {fileID: 11400000, guid: 0badf5a831b265d44b42755cd9b173f8, type: 2}
+  - name: Kaioken x3
+    description: Transform into Kaioken x3
+    animation: {fileID: 11400000, guid: c2d14711f8951b14e849aa6788ac0540, type: 2}
   deadAnimation: {fileID: 0}
   characterPassive:
   - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}

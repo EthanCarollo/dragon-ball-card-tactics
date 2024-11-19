@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   starNumber: 1
-  characterName: Raditz
+  characterName: Goku (Kaioken x3)
   role: 1
   characterType: 0
-  characterSprite: {fileID: -8592258370221348547, guid: 9c169cfd1805c574fa4cc6f6a5d3defe, type: 3}
-  characterIcon: {fileID: 802148583670001276, guid: 25ff1dc7c67f67b44aa5fc2923bd87df, type: 3}
+  characterSprite: {fileID: -6126926695735442379, guid: c9724d1d472dfb840b8ba6bbc4b7ae5d, type: 3}
+  characterIcon: {fileID: 21300000, guid: 8541b268fa7688f4ebfe58fa293dc996, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 1900
+  maxHealth: 2470
   maxKi: 75
   baseRange: 1
   baseDamage: 50
@@ -28,14 +28,14 @@ MonoBehaviour:
   baseSpeed: 2
   baseAttackSpeed: 0.5
   baseCriticalChance: 10
-  idleAnimation: {fileID: 11400000, guid: f8d6268fabdb80a4588d3322aa08ac88, type: 2}
-  runAnimation: {fileID: 11400000, guid: 6bb46866cf7f3624492652004f937178, type: 2}
-  attackAnimation: {fileID: 11400000, guid: 7f8585d61bcb33548a15299e7a21df58, type: 2}
-  criticalAttackAnimation: {fileID: 11400000, guid: 1d6a87364f0217c47bad0304b1303209, type: 2}
+  idleAnimation: {fileID: 11400000, guid: 2f6d00fe5800d834ca47bebc961a4bbf, type: 2}
+  runAnimation: {fileID: 11400000, guid: 0a2dc51a73bc3e54e8c109f9f5bb54ce, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 3593c317f5b331a4c881cf844044a6e7, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: e62df90c86b223a49ac5deda3788353e, type: 2}
   specialAttackAnimation:
-  - name: 'Double Sunday '
-    description: A powerful ki waves shot from both hands.
-    animation: {fileID: 11400000, guid: 4538428d3628ff3439f72569083bca68, type: 2}
+  - name: Kaioken Kameha
+    description: A powerful Kameha
+    animation: {fileID: 11400000, guid: 31435646c6adb774d92fa509d5c53c54, type: 2}
   deadAnimation: {fileID: 0}
   characterPassive:
   - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}
