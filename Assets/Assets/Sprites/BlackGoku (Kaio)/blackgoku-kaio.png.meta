@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: 80a00ca4401b78a40a02dc88d09a2e79
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6465442558032635458
+    second: blackgoku-kaio_0
+  - first:
+      213: 5663691887503116275
+    second: blackgoku-kaio_1
+  - first:
+      213: 1830919297959250658
+    second: blackgoku-kaio_2
+  - first:
+      213: 295046959435549882
+    second: blackgoku-kaio_3
+  - first:
+      213: -5632508811132128475
+    second: blackgoku-kaio_4
+  - first:
+      213: 1129704214767688387
+    second: blackgoku-kaio_5
+  - first:
+      213: -3669114929804919812
+    second: blackgoku-kaio_6
+  - first:
+      213: 7048826413324347994
+    second: blackgoku-kaio_7
+  - first:
+      213: -7441175830002124520
+    second: blackgoku-kaio_8
+  - first:
+      213: 6148324511935243164
+    second: blackgoku-kaio_9
+  - first:
+      213: -6571180043233147143
+    second: blackgoku-kaio_10
+  - first:
+      213: 2894307792594518255
+    second: blackgoku-kaio_11
+  - first:
+      213: -5674246656803490638
+    second: blackgoku-kaio_12
+  - first:
+      213: -768268713303116359
+    second: blackgoku-kaio_13
+  - first:
+      213: -7917578611600217015
+    second: blackgoku-kaio_14
+  - first:
+      213: 5691873249525629450
+    second: blackgoku-kaio_15
+  - first:
+      213: -7703136790937196971
+    second: blackgoku-kaio_16
+  - first:
+      213: 7649176791165596165
+    second: blackgoku-kaio_17
+  - first:
+      213: -2442655574787168789
+    second: blackgoku-kaio_18
+  - first:
+      213: -6950268801424341714
+    second: blackgoku-kaio_19
+  - first:
+      213: -67163669987731220
+    second: blackgoku-kaio_20
+  - first:
+      213: 2515890072822471644
+    second: blackgoku-kaio_21
+  - first:
+      213: -5722814951547536039
+    second: blackgoku-kaio_22
+  - first:
+      213: 5254887156328760760
+    second: blackgoku-kaio_23
+  - first:
+      213: 4345722994411957676
+    second: blackgoku-kaio_24
+  - first:
+      213: -8600831358758378510
+    second: blackgoku-kaio_25
+  - first:
+      213: 879850422837780208
+    second: blackgoku-kaio_26
+  - first:
+      213: -7688404356344853839
+    second: blackgoku-kaio_27
+  - first:
+      213: -3731631091878972339
+    second: blackgoku-kaio_28
+  - first:
+      213: -6040258959509235739
+    second: blackgoku-kaio_29
+  - first:
+      213: 7738716457922684177
+    second: blackgoku-kaio_30
+  - first:
+      213: 450949007442238547
+    second: blackgoku-kaio_31
+  - first:
+      213: 8868217722908802750
+    second: blackgoku-kaio_32
+  - first:
+      213: 967189685663604962
+    second: blackgoku-kaio_33
+  - first:
+      213: 1279810617041744733
+    second: blackgoku-kaio_34
+  - first:
+      213: 1141226612060073236
+    second: blackgoku-kaio_35
+  - first:
+      213: -4313691754889682110
+    second: blackgoku-kaio_36
+  - first:
+      213: 8683916402279051338
+    second: blackgoku-kaio_37
+  - first:
+      213: 6643918637526217367
+    second: blackgoku-kaio_38
+  - first:
+      213: -7788943665813712128
+    second: blackgoku-kaio_39
+  - first:
+      213: -1188100145014753981
+    second: blackgoku-kaio_40
+  - first:
+      213: -6436454464622499087
+    second: blackgoku-kaio_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blackgoku-kaio_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 966
+        width: 31
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2466a3b40cdd9b950800000000000000
+      internalID: 6465442558032635458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 966
+        width: 31
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f782ef93c9799e40800000000000000
+      internalID: 5663691887503116275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 926
+        width: 44
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eac44f966bb86910800000000000000
+      internalID: 1830919297959250658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 926
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc073975a7381400800000000000000
+      internalID: 295046959435549882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 929
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523363e141f45d1b0800000000000000
+      internalID: -5632508811132128475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 861
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca5d767ff38daf00800000000000000
+      internalID: 1129704214767688387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 861
+        width: 36
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb35e0496fa41dc0800000000000000
+      internalID: -3669114929804919812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_7
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 861
+        width: 40
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5aa691d64672d160800000000000000
+      internalID: 7048826413324347994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 858
+        width: 45
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8193085f102abb890800000000000000
+      internalID: -7441175830002124520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_9
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 858
+        width: 56
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c932ab1819c335550800000000000000
+      internalID: 6148324511935243164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_10
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 858
+        width: 48
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6c3f7f09a7ec4a0800000000000000
+      internalID: -6571180043233147143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_11
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 774
+        width: 31
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0cd384a95aa2820800000000000000
+      internalID: 2894307792594518255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 774
+        width: 33
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4b745aab60141b0800000000000000
+      internalID: -5674246656803490638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 774
+        width: 71
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5758bfcaf8655f0800000000000000
+      internalID: -768268713303116359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_14
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 774
+        width: 71
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ca65ea33c1f1290800000000000000
+      internalID: -7917578611600217015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 774
+        width: 71
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02068840989dfe40800000000000000
+      internalID: 5691873249525629450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_16
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 768
+        width: 58
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55622ffc6e5f81590800000000000000
+      internalID: -7703136790937196971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 700
+        width: 37
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5027695b3c5572a60800000000000000
+      internalID: 7649176791165596165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 700
+        width: 33
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5ee2c42b1f91ed0800000000000000
+      internalID: -2442655574787168789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_19
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 700
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e254f95695fab8f90800000000000000
+      internalID: -6950268801424341714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_20
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 700
+        width: 65
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8d19c7ff2611ff0800000000000000
+      internalID: -67163669987731220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_21
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 691
+        width: 55
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbd38401bc3ae220800000000000000
+      internalID: 2515890072822471644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_22
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 698
+        width: 67
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95df6b15f1a7490b0800000000000000
+      internalID: -5722814951547536039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_23
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 740
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b50dbfe60c1de840800000000000000
+      internalID: 5254887156328760760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_24
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 700
+        width: 39
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadeb2ee90c1f4c30800000000000000
+      internalID: 4345722994411957676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_25
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 700
+        width: 39
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3aa28c275b3a880800000000000000
+      internalID: -8600831358758378510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_26
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 690
+        width: 226
+        height: 75
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 72, y: 0, z: 91, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe19b44c4bd53c00800000000000000
+      internalID: 879850422837780208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_27
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 664
+        width: 6
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bacf7a09fc4d4590800000000000000
+      internalID: -7688404356344853839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_28
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 590
+        width: 89
+        height: 87
+      alignment: 9
+      pivot: {x: 0.48777875, y: 0.43498844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4430cffa45963cc0800000000000000
+      internalID: -3731631091878972339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_29
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 563
+        width: 123
+        height: 118
+      alignment: 9
+      pivot: {x: 0.4793376, y: 0.533845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7d41f9a70bc2ca0800000000000000
+      internalID: -6040258959509235739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_30
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 593
+        width: 89
+        height: 87
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.44586182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11563f3fd91756b60800000000000000
+      internalID: 7738716457922684177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_31
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 667
+        width: 6
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35cd868abb7124600800000000000000
+      internalID: 450949007442238547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_32
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 569
+        width: 124
+        height: 115
+      alignment: 9
+      pivot: {x: 0.48961565, y: 0.53359216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe7dcc780d321b70800000000000000
+      internalID: 8868217722908802750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_33
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 601
+        width: 31
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0a66c05e52c6d00800000000000000
+      internalID: 967189685663604962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_34
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 601
+        width: 31
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53fb88b9fcc2c110800000000000000
+      internalID: 1279810617041744733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_35
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 601
+        width: 37
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d2014ae8376df00800000000000000
+      internalID: 1141226612060073236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_36
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 653
+        width: 11
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243e44f2430b224c0800000000000000
+      internalID: -4313691754889682110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_37
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 656
+        width: 11
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40f70165f7738870800000000000000
+      internalID: 8683916402279051338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_38
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 585
+        width: 16
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792f852ccc0f33c50800000000000000
+      internalID: 6643918637526217367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_39
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 590
+        width: 16
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00315a7e00d18e390800000000000000
+      internalID: -7788943665813712128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_40
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 564
+        width: 8
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3453ec28635038fe0800000000000000
+      internalID: -1188100145014753981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_41
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 569
+        width: 8
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fae23724ce1da6a0800000000000000
+      internalID: -6436454464622499087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 35a841c17af83f64aa26019ef3dee42a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blackgoku-kaio_0: 6465442558032635458
+      blackgoku-kaio_1: 5663691887503116275
+      blackgoku-kaio_10: -6571180043233147143
+      blackgoku-kaio_11: 2894307792594518255
+      blackgoku-kaio_12: -5674246656803490638
+      blackgoku-kaio_13: -768268713303116359
+      blackgoku-kaio_14: -7917578611600217015
+      blackgoku-kaio_15: 5691873249525629450
+      blackgoku-kaio_16: -7703136790937196971
+      blackgoku-kaio_17: 7649176791165596165
+      blackgoku-kaio_18: -2442655574787168789
+      blackgoku-kaio_19: -6950268801424341714
+      blackgoku-kaio_2: 1830919297959250658
+      blackgoku-kaio_20: -67163669987731220
+      blackgoku-kaio_21: 2515890072822471644
+      blackgoku-kaio_22: -5722814951547536039
+      blackgoku-kaio_23: 5254887156328760760
+      blackgoku-kaio_24: 4345722994411957676
+      blackgoku-kaio_25: -8600831358758378510
+      blackgoku-kaio_26: 879850422837780208
+      blackgoku-kaio_27: -7688404356344853839
+      blackgoku-kaio_28: -3731631091878972339
+      blackgoku-kaio_29: -6040258959509235739
+      blackgoku-kaio_3: 295046959435549882
+      blackgoku-kaio_30: 7738716457922684177
+      blackgoku-kaio_31: 450949007442238547
+      blackgoku-kaio_32: 8868217722908802750
+      blackgoku-kaio_33: 967189685663604962
+      blackgoku-kaio_34: 1279810617041744733
+      blackgoku-kaio_35: 1141226612060073236
+      blackgoku-kaio_36: -4313691754889682110
+      blackgoku-kaio_37: 8683916402279051338
+      blackgoku-kaio_38: 6643918637526217367
+      blackgoku-kaio_39: -7788943665813712128
+      blackgoku-kaio_4: -5632508811132128475
+      blackgoku-kaio_40: -1188100145014753981
+      blackgoku-kaio_41: -6436454464622499087
+      blackgoku-kaio_5: 1129704214767688387
+      blackgoku-kaio_6: -3669114929804919812
+      blackgoku-kaio_7: 7048826413324347994
+      blackgoku-kaio_8: -7441175830002124520
+      blackgoku-kaio_9: 6148324511935243164
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

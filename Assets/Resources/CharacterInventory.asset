@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: CharacterInventory
   m_EditorClassIdentifier: 
   characters:
-  - characterId: 0
-    actualHealth: 9150
-    actualKi: 30
+  - characterId: 22
+    actualHealth: 7750
+    actualKi: 0
     selectedUltimateAttack: 0
     unlockedPassives: 00000000
   - characterId: 1

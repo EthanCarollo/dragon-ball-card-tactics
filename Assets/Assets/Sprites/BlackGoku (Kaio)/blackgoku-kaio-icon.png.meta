@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8541b268fa7688f4ebfe58fa293dc996
+guid: 330c22571e9e8c941aec3574a81c718a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7124911403051947921
-    second: goku-kaioken-x3-icon_0
+      213: -8147308034333879043
+    second: blackgoku-kaio-icon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: goku-kaioken-x3-icon_0
+      name: blackgoku-kaio-icon_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 30
-        height: 30
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1979a03fb25c0e260800000000000000
-      internalID: 7124911403051947921
+      spriteID: df4d7d15282feee80800000000000000
+      internalID: -8147308034333879043
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      goku-kaioken-x3-icon_0: 7124911403051947921
+      blackgoku-kaio-icon_0: -8147308034333879043
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
