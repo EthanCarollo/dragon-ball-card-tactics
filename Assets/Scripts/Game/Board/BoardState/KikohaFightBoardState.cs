@@ -20,10 +20,13 @@ public class KikohaFightBoardState : BoardState
 
         LeanTween.delayedCall(0.4f, o =>
         {
-            if (boardObject1 is BoardCharacter boardPlayer)
+            if (boardObject1 is BoardCharacter boardPlayer && boardObject2 is BoardCharacter boardEnemy)
             {
                 if (!boardPlayer.isPlayerCharacter)
                 {
+                    boardPlayer.direction = Vector2.left;
+                    boardEnemy.direction = Vector2.right;
+                    
                     character1 = boardPlayer;
                     boardObject1.gameObject.transform.position = board
                         .BoardArray[board.BoardArray.GetLength(0) - 1, board.BoardArray.GetLength(1) / 2].gameObject
@@ -33,6 +36,9 @@ public class KikohaFightBoardState : BoardState
                 }
                 else
                 {
+                    boardPlayer.direction = Vector2.right;
+                    boardEnemy.direction = Vector2.left;
+                    
                     character1 = boardPlayer;
                     boardObject1.gameObject.transform.position = board.BoardArray[0, board.BoardArray.GetLength(1) / 2]
                         .gameObject.transform.position;
@@ -41,13 +47,10 @@ public class KikohaFightBoardState : BoardState
                         .transform.position;
                 }
 
-                InstantiateKikoha(boardPlayer);
-            }
-
-            if (boardObject2 is BoardCharacter boardEnemy)
-            {
                 character2 = boardEnemy;
+                
                 InstantiateKikoha(boardEnemy);
+                InstantiateKikoha(boardPlayer);
             }
         });
     }
