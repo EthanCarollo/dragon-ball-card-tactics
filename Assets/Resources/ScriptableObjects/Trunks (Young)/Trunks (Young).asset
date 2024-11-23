@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   starNumber: 1
-  characterName: Raditz
-  role: 1
+  characterName: Trunks (Young)
+  role: 0
   characterType: 0
-  characterSprite: {fileID: -8592258370221348547, guid: 9c169cfd1805c574fa4cc6f6a5d3defe, type: 3}
-  characterIcon: {fileID: 802148583670001276, guid: 25ff1dc7c67f67b44aa5fc2923bd87df, type: 3}
+  characterSprite: {fileID: -1803413819595296748, guid: 359cd043ad80849dea623be80e94e65e, type: 3}
+  characterIcon: {fileID: 21300000, guid: 39ff078e904464fb79919e867512c659, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
   maxHealth: 1900
   maxKi: 75
@@ -28,14 +28,14 @@ MonoBehaviour:
   baseSpeed: 2
   baseAttackSpeed: 0.5
   baseCriticalChance: 10
-  idleAnimation: {fileID: 11400000, guid: f8d6268fabdb80a4588d3322aa08ac88, type: 2}
-  runAnimation: {fileID: 11400000, guid: 6bb46866cf7f3624492652004f937178, type: 2}
-  attackAnimation: {fileID: 11400000, guid: 7f8585d61bcb33548a15299e7a21df58, type: 2}
-  criticalAttackAnimation: {fileID: 11400000, guid: 1d6a87364f0217c47bad0304b1303209, type: 2}
+  idleAnimation: {fileID: 11400000, guid: 1d9248f4213864a269cdd9b65a4c2635, type: 2}
+  runAnimation: {fileID: 11400000, guid: 0e47ba8b946ee4e6fbf63e622af77786, type: 2}
+  attackAnimation: {fileID: 11400000, guid: bfbf226559bf043a1a552df5ca8cd795, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 17ad5001c3529455394848c7b85cb417, type: 2}
   specialAttackAnimation:
-  - name: 'Double Sunday '
-    description: A powerful ki waves shot from both hands.
-    animation: {fileID: 11400000, guid: 4538428d3628ff3439f72569083bca68, type: 2}
+  - name: Masenko
+    description: Fires a multi-hit yellow beam forward.
+    animation: {fileID: 11400000, guid: 7d41f3d9302ca4786b19aa4bfffb2077, type: 2}
   deadAnimation: {fileID: 0}
   characterPassive:
   - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}
