@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 9d6d6ffa0ca37a4429e9ab015a5f84e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3086136955589124383
+    second: cell-jr_0
+  - first:
+      213: -6848491143073186116
+    second: cell-jr_1
+  - first:
+      213: 958647990371515781
+    second: cell-jr_2
+  - first:
+      213: 8522841528763032556
+    second: cell-jr_3
+  - first:
+      213: 1653382810576601099
+    second: cell-jr_4
+  - first:
+      213: -8678978078079106345
+    second: cell-jr_5
+  - first:
+      213: -7595964147023210921
+    second: cell-jr_6
+  - first:
+      213: -8006178258349029813
+    second: cell-jr_7
+  - first:
+      213: -6633267259729309101
+    second: cell-jr_8
+  - first:
+      213: -6746921504957980769
+    second: cell-jr_9
+  - first:
+      213: -7233609098846867978
+    second: cell-jr_10
+  - first:
+      213: 989326171124241326
+    second: cell-jr_11
+  - first:
+      213: 337299720882098444
+    second: cell-jr_12
+  - first:
+      213: -3898089936155523302
+    second: cell-jr_13
+  - first:
+      213: 6873195832568715444
+    second: cell-jr_14
+  - first:
+      213: 8591056521285855760
+    second: cell-jr_15
+  - first:
+      213: 8894767108990505653
+    second: cell-jr_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cell-jr_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 452
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee97e93ac6db25d0800000000000000
+      internalID: -3086136955589124383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell-jr_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 459
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbeb6b9179545f0a0800000000000000
+      internalID: -6848491143073186116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell-jr_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 462
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d7cb2a44dcd4d00800000000000000
+      internalID: 958647990371515781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell-jr_3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 394
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce32ed6e637374670800000000000000
+      internalID: 8522841528763032556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell-jr_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 394
+        width: 57
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00c72ef7eef1f610800000000000000
+      internalID: 1653382810576601099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell-jr_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 394
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d241b2db631e8780800000000000000
+      internalID: -8678978078079106345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell-jr_6
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 387
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756141a7ad6b59690800000000000000
+      internalID: -7595964147023210921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell-jr_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 381
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4686a6ea4754e090800000000000000
+      internalID: -8006178258349029813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell-jr_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 390
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3521b936296e1f3a0800000000000000
+      internalID: -6633267259729309101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell-jr_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 316
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f198153ae1e52a0800000000000000
+      internalID: -6746921504957980769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell-jr_10
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 316
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fde23399de0d9b90800000000000000
+      internalID: -7233609098846867978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell-jr_11
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 316
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea39bd439eacabd00800000000000000
+      internalID: 989326171124241326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell-jr_12
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 316
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01140e1f445ea400800000000000000
+      internalID: 337299720882098444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell-jr_13
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 316
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17cce42bd337e9c0800000000000000
+      internalID: -3898089936155523302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell-jr_14
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 316
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b814f7a13f726f50800000000000000
+      internalID: 6873195832568715444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell-jr_15
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 316
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01aeb848360993770800000000000000
+      internalID: 8591056521285855760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell-jr_16
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 261
+        width: 206
+        height: 17
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 24, y: 0, z: 22, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b215332f8f807b70800000000000000
+      internalID: 8894767108990505653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7e2e21debe6b92f468644ae903a0bdc5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cell-jr_0: -3086136955589124383
+      cell-jr_1: -6848491143073186116
+      cell-jr_10: -7233609098846867978
+      cell-jr_11: 989326171124241326
+      cell-jr_12: 337299720882098444
+      cell-jr_13: -3898089936155523302
+      cell-jr_14: 6873195832568715444
+      cell-jr_15: 8591056521285855760
+      cell-jr_16: 8894767108990505653
+      cell-jr_2: 958647990371515781
+      cell-jr_3: 8522841528763032556
+      cell-jr_4: 1653382810576601099
+      cell-jr_5: -8678978078079106345
+      cell-jr_6: -7595964147023210921
+      cell-jr_7: -8006178258349029813
+      cell-jr_8: -6633267259729309101
+      cell-jr_9: -6746921504957980769
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
