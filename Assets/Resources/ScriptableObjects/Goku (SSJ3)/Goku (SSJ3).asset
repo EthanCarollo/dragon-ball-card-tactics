@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Goku (SSJ3)
+  m_EditorClassIdentifier: 
+  id: 2
+  starNumber: 1
+  characterName: Goku (SSJ3)
+  role: 0
+  characterType: 0
+  characterSprite: {fileID: 2591519323428999363, guid: 0d039230482fc4824b2e96dcd8c0d8ec, type: 3}
+  characterIcon: {fileID: 21300000, guid: 2b8e93da37d7a493db349cb2e7428e9e, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 1900
+  maxKi: 75
+  baseRange: 1
+  baseDamage: 50
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 0.5
+  baseCriticalChance: 10
+  idleAnimation: {fileID: 11400000, guid: 298c643aeb25c44bda0c6fd52bb7f4cd, type: 2}
+  runAnimation: {fileID: 11400000, guid: 76ae40f7d9e634715a42e3a001288405, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 635d3f82449af454eb4f1012e05629e6, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 2295839f86063480788b02e19d1ddc94, type: 2}
+  specialAttackAnimation:
+  - name: Super Kameha
+    description: A powerfull kameha.
+    animation: {fileID: 11400000, guid: 6513dccd45c424e9594d7d23658e79bd, type: 2}
+  deadAnimation: {fileID: 0}
+  characterPassive:
+  - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}

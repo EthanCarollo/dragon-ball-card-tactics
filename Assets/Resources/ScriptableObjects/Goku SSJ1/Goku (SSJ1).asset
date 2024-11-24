@@ -39,3 +39,4 @@ MonoBehaviour:
   deadAnimation: {fileID: 0}
   characterPassive:
   - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}
+  - {fileID: 11400000, guid: 2910ad7a72d58411b82699cbe406df45, type: 2}
