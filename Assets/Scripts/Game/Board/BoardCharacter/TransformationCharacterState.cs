@@ -14,12 +14,6 @@ public class TransformationCharacterState : BoardCharacterState
     {
         
     }
-
-    
-    public override void Attack(int damage, Particle particle)
-    {
-        Debug.LogWarning("Launch attack if default character");
-    }
     
     public override bool CanKikoha(){
         return false;

@@ -20,6 +20,16 @@
     public virtual void LaunchTransformation(BoardObject boardObject1, TransformAnimation transformation){
         this.board.UpdateState(new TransformationBoardState(board, boardObject1, transformation));
     }
+
+    public virtual void LaunchCinematic(BoardCharacter boardChar)
+    {
+        this.board.UpdateState(new CinematicBoardState(board, boardChar));
+    }
+    public virtual void EndCinematic()
+    {
+        
+    }
+    
     public virtual void EndKikohaFight()
     {
         

@@ -40,4 +40,14 @@ public class CameraScript : MonoBehaviour
         cinemachineCamera.Target.TrackingTarget=baseTarget;
         cinemachinePositionComposer.Composition.ScreenPosition.Set(0f, 0f);
     }
+
+    public void SetupCameraOnTarget(float size, Transform target)
+    {
+        LeanTween.value(this.gameObject, (float leanValue) => {
+            cinemachineCamera.Lens.OrthographicSize = leanValue;
+        }, cinemachineCamera.Lens.OrthographicSize, size, 1f).setEaseInOutCirc();
+        cinemachineCamera.Target.TrackingTarget=baseTarget;
+        cinemachineCamera.Target.TrackingTarget = target;
+        cinemachinePositionComposer.Composition.ScreenPosition.Set(0f, 0f);
+    }
 }

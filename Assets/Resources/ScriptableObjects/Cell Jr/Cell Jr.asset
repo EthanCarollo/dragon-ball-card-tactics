@@ -17,24 +17,24 @@ MonoBehaviour:
   characterName: Cell Jr
   role: 0
   characterType: 0
-  characterSprite: {fileID: -270948531, guid: 4f65855047015427888b9542916a2420, type: 3}
-  characterIcon: {fileID: 21300000, guid: 051df5807a464406693bd60a808b2233, type: 3}
+  characterSprite: {fileID: -3086136955589124383, guid: 9d6d6ffa0ca37a4429e9ab015a5f84e7, type: 3}
+  characterIcon: {fileID: 21300000, guid: fc22576d6fd1e874da24aefabdd2e34c, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 1900
-  maxKi: 75
+  maxHealth: 150
+  maxKi: 45
   baseRange: 1
-  baseDamage: 50
+  baseDamage: 25
   baseArmor: 25
   baseSpeed: 2
   baseAttackSpeed: 0.5
   baseCriticalChance: 10
-  idleAnimation: {fileID: 11400000, guid: 5843defc8c3274a95aeadf6eb66e779d, type: 2}
-  runAnimation: {fileID: 11400000, guid: 9a36ecc581fe94433891eeafae822ef9, type: 2}
-  attackAnimation: {fileID: 11400000, guid: bbd6d396f5e16457387aafe927207cee, type: 2}
-  criticalAttackAnimation: {fileID: 11400000, guid: 0991a603ed2c64580a8ffeb75e875332, type: 2}
+  idleAnimation: {fileID: 11400000, guid: 8e077cf9279d8b442ad7477398213898, type: 2}
+  runAnimation: {fileID: 11400000, guid: bf447d3cc6731564e9a811d2bdd8e399, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 3fa29edf4f2e45a4c8a4f76568ac6186, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: bbd2ae5114936bc49a0d58d68097a339, type: 2}
   specialAttackAnimation:
   - name: Full-Power Energy Wave
     description: A powerful ki waves shot.
-    animation: {fileID: 11400000, guid: d2aeafd676ced4b3cb1b2a6db2c51941, type: 2}
+    animation: {fileID: 11400000, guid: 53087d6719e8e8e4ab8f07e4f886792e, type: 2}
   deadAnimation: {fileID: 0}
   characterPassive: []

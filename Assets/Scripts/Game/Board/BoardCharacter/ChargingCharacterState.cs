@@ -78,8 +78,4 @@ public class ChargingCharacterState : BoardCharacterState
         });
     }
     
-    public override void Attack(int damage, Particle particle)
-    {
-        
-    }
 }

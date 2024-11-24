@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 53bfefa561a5c490cbc7b464bdfdad3a, type: 3}
-  m_Name: Critical
+  m_Name: Critical Attack
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: -7595964147023210921, guid: 9d6d6ffa0ca37a4429e9ab015a5f84e7, type: 3}
+  - sprite: {fileID: 2640709783023993916, guid: 901b1af9cb4f74951a7f79b08d7b1770, type: 3}
     time: 0.2
-  - sprite: {fileID: -8006178258349029813, guid: 9d6d6ffa0ca37a4429e9ab015a5f84e7, type: 3}
+  - sprite: {fileID: -6912791588280296652, guid: 901b1af9cb4f74951a7f79b08d7b1770, type: 3}
     time: 0.2
-  - sprite: {fileID: -6633267259729309101, guid: 9d6d6ffa0ca37a4429e9ab015a5f84e7, type: 3}
+  - sprite: {fileID: 206206326514665514, guid: 901b1af9cb4f74951a7f79b08d7b1770, type: 3}
     time: 0.2
   attackFrameIndex: 1
   attackType: 0

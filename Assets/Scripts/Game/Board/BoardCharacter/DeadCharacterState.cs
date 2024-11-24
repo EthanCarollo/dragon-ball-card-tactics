@@ -45,9 +45,4 @@ public class DeadCharacterState : BoardCharacterState
     {
 
     }
-
-    public override void Attack(int damage, Particle particle)
-    {
-        
-    }
 }

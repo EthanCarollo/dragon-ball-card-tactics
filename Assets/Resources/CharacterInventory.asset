@@ -23,9 +23,9 @@ MonoBehaviour:
     actualKi: 0
     selectedUltimateAttack: 0
     unlockedPassives: 00000000
-  - characterId: 23
-    actualHealth: 2000000
-    actualKi: 75
+  - characterId: 29
+    actualHealth: 1997450
+    actualKi: 60
     selectedUltimateAttack: 0
     unlockedPassives: 
-  selectedIndexCharacterForCampaign: 0100000000000000ffffffff02000000ffffffffffffffff
+  selectedIndexCharacterForCampaign: ffffffffffffffffffffffff02000000ffffffffffffffff

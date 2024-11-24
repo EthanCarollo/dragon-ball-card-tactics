@@ -70,18 +70,6 @@ public class AttackingCharacterState : BoardCharacterState
         boardCharacter.PlayAnimationIfNotRunning(boardCharacter.character.GetCharacterData().idleAnimation);
         boardCharacter.SetCharacterSlider();
     }
-    
-    public override void Attack(int damage, Particle particle = null)
-    {
-        if (boardCharacter.character.IsDead())
-        {
-            return;
-        }
-        if (particle != null) {
-            particle.StartParticle(characterTarget.gameObject.transform.position);
-        }
-        characterTarget.HitDamage(damage);
-    }
 
     static bool IsCritical(int chance)
     {

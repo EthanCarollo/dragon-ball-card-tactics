@@ -10,7 +10,6 @@ public abstract class BoardCharacterState
     }
     
     public abstract void Update();
-    public abstract void Attack(int damage, Particle particle = null);
 
 
     public virtual void Dead()

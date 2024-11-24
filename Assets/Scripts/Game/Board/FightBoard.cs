@@ -167,6 +167,16 @@ public class FightBoard : Board
         state.LaunchTransformation( boardObject1,  transformation);
     }
 
+    public void LaunchCinematic(BoardCharacter boardChar)
+    {
+        state.LaunchCinematic(boardChar);
+    }
+
+    public void EndCinematic()
+    {
+        state.EndCinematic();
+    }
+
     void OnDrawGizmos()
     {
         for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)

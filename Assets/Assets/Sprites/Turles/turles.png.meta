@@ -238,12 +238,12 @@ TextureImporter:
       name: turles_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 958
-        width: 34
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2
+        y: 959
+        width: 32
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -260,12 +260,12 @@ TextureImporter:
       name: turles_1
       rect:
         serializedVersion: 2
-        x: 44
-        y: 962
-        width: 47
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 45
+        y: 963
+        width: 45
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -282,12 +282,12 @@ TextureImporter:
       name: turles_2
       rect:
         serializedVersion: 2
-        x: 1
-        y: 903
-        width: 39
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2
+        y: 904
+        width: 37
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -304,12 +304,12 @@ TextureImporter:
       name: turles_3
       rect:
         serializedVersion: 2
-        x: 40
-        y: 904
-        width: 52
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 41
+        y: 905
+        width: 50
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -326,12 +326,12 @@ TextureImporter:
       name: turles_4
       rect:
         serializedVersion: 2
-        x: 95
-        y: 905
-        width: 44
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 906
+        width: 42
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -348,12 +348,12 @@ TextureImporter:
       name: turles_5
       rect:
         serializedVersion: 2
-        x: 148
-        y: 900
-        width: 35
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 149
+        y: 901
+        width: 33
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -370,12 +370,12 @@ TextureImporter:
       name: turles_6
       rect:
         serializedVersion: 2
-        x: 190
-        y: 899
-        width: 46
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 191
+        y: 900
+        width: 44
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -392,12 +392,12 @@ TextureImporter:
       name: turles_7
       rect:
         serializedVersion: 2
-        x: 239
-        y: 900
-        width: 40
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 240
+        y: 901
+        width: 38
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -414,12 +414,12 @@ TextureImporter:
       name: turles_8
       rect:
         serializedVersion: 2
-        x: 285
-        y: 899
-        width: 42
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 286
+        y: 900
+        width: 40
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -436,12 +436,12 @@ TextureImporter:
       name: turles_9
       rect:
         serializedVersion: 2
-        x: 323
-        y: 900
-        width: 41
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 329
+        y: 901
+        width: 39
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -458,12 +458,12 @@ TextureImporter:
       name: turles_10
       rect:
         serializedVersion: 2
-        x: 1
-        y: 828
-        width: 34
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2
+        y: 829
+        width: 32
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -480,12 +480,12 @@ TextureImporter:
       name: turles_11
       rect:
         serializedVersion: 2
-        x: 42
-        y: 827
-        width: 38
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 43
+        y: 828
+        width: 36
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -502,12 +502,12 @@ TextureImporter:
       name: turles_12
       rect:
         serializedVersion: 2
-        x: 95
-        y: 824
-        width: 39
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 825
+        width: 37
+        height: 36
+      alignment: 9
+      pivot: {x: -0.003430547, y: 1.0023956}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -524,12 +524,12 @@ TextureImporter:
       name: turles_13
       rect:
         serializedVersion: 2
-        x: 138
-        y: 824
-        width: 39
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 139
+        y: 825
+        width: 37
+        height: 38
+      alignment: 9
+      pivot: {x: 0.0010037809, y: 0.99345636}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -546,12 +546,12 @@ TextureImporter:
       name: turles_14
       rect:
         serializedVersion: 2
-        x: 196
-        y: 855
-        width: 55
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 197
+        y: 856
+        width: 53
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -568,12 +568,12 @@ TextureImporter:
       name: turles_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 752
-        width: 34
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1
+        y: 753
+        width: 32
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -590,12 +590,12 @@ TextureImporter:
       name: turles_16
       rect:
         serializedVersion: 2
-        x: 47
-        y: 751
-        width: 40
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 752
+        width: 38
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -612,12 +612,12 @@ TextureImporter:
       name: turles_17
       rect:
         serializedVersion: 2
-        x: 115
-        y: 745
-        width: 77
-        height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 116
+        y: 746
+        width: 75
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -634,12 +634,12 @@ TextureImporter:
       name: turles_18
       rect:
         serializedVersion: 2
-        x: 196
-        y: 744
-        width: 77
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 197
+        y: 745
+        width: 75
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -656,12 +656,12 @@ TextureImporter:
       name: turles_19
       rect:
         serializedVersion: 2
-        x: 84
-        y: 610
-        width: 53
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 85
+        y: 611
+        width: 51
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -678,12 +678,12 @@ TextureImporter:
       name: turles_20
       rect:
         serializedVersion: 2
-        x: 139
-        y: 613
-        width: 53
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 140
+        y: 614
+        width: 51
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -700,12 +700,12 @@ TextureImporter:
       name: turles_21
       rect:
         serializedVersion: 2
-        x: 9
-        y: 511
-        width: 41
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 10
+        y: 512
+        width: 39
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -722,12 +722,12 @@ TextureImporter:
       name: turles_22
       rect:
         serializedVersion: 2
-        x: 41
-        y: 542
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 42
+        y: 543
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -744,12 +744,12 @@ TextureImporter:
       name: turles_23
       rect:
         serializedVersion: 2
-        x: 77
-        y: 511
-        width: 43
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 78
+        y: 512
+        width: 41
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -766,12 +766,12 @@ TextureImporter:
       name: turles_24
       rect:
         serializedVersion: 2
-        x: 126
-        y: 524
-        width: 119
-        height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 127
+        y: 525
+        width: 117
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -788,12 +788,12 @@ TextureImporter:
       name: turles_25
       rect:
         serializedVersion: 2
-        x: 138
-        y: 492
-        width: 75
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 139
+        y: 493
+        width: 73
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -810,12 +810,12 @@ TextureImporter:
       name: turles_26
       rect:
         serializedVersion: 2
-        x: 145
-        y: 505
-        width: 91
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 506
+        width: 89
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -832,12 +832,12 @@ TextureImporter:
       name: turles_27
       rect:
         serializedVersion: 2
-        x: 8
-        y: 428
-        width: 41
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 9
+        y: 429
+        width: 39
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -854,12 +854,12 @@ TextureImporter:
       name: turles_28
       rect:
         serializedVersion: 2
-        x: 56
-        y: 428
-        width: 41
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 57
+        y: 429
+        width: 39
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -876,12 +876,12 @@ TextureImporter:
       name: turles_29
       rect:
         serializedVersion: 2
-        x: 104
-        y: 426
-        width: 63
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 105
+        y: 427
+        width: 61
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -898,12 +898,12 @@ TextureImporter:
       name: turles_30
       rect:
         serializedVersion: 2
-        x: 185
-        y: 426
-        width: 59
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 186
+        y: 427
+        width: 57
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -920,12 +920,12 @@ TextureImporter:
       name: turles_31
       rect:
         serializedVersion: 2
-        x: 254
-        y: 424
-        width: 60
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 255
+        y: 425
+        width: 58
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -942,12 +942,12 @@ TextureImporter:
       name: turles_32
       rect:
         serializedVersion: 2
-        x: 13
-        y: 361
-        width: 32
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 14
+        y: 362
+        width: 30
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -964,12 +964,12 @@ TextureImporter:
       name: turles_33
       rect:
         serializedVersion: 2
-        x: 55
-        y: 360
-        width: 46
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 56
+        y: 361
+        width: 44
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -986,12 +986,12 @@ TextureImporter:
       name: turles_34
       rect:
         serializedVersion: 2
-        x: 104
-        y: 361
-        width: 40
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 105
+        y: 362
+        width: 38
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1008,12 +1008,12 @@ TextureImporter:
       name: turles_35
       rect:
         serializedVersion: 2
-        x: 153
-        y: 357
-        width: 48
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 154
+        y: 358
+        width: 46
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1030,12 +1030,12 @@ TextureImporter:
       name: turles_36
       rect:
         serializedVersion: 2
-        x: 210
-        y: 358
-        width: 44
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 211
+        y: 359
+        width: 42
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1052,12 +1052,12 @@ TextureImporter:
       name: turles_37
       rect:
         serializedVersion: 2
-        x: 12
-        y: 7
-        width: 34
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 13
+        y: 8
+        width: 32
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1074,12 +1074,12 @@ TextureImporter:
       name: turles_38
       rect:
         serializedVersion: 2
-        x: 59
-        y: 8
-        width: 52
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 60
+        y: 9
+        width: 50
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1096,12 +1096,12 @@ TextureImporter:
       name: turles_39
       rect:
         serializedVersion: 2
-        x: 129
-        y: 7
-        width: 67
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 130
+        y: 8
+        width: 65
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1118,12 +1118,12 @@ TextureImporter:
       name: turles_40
       rect:
         serializedVersion: 2
-        x: 223
-        y: 6
-        width: 79
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 224
+        y: 7
+        width: 77
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1140,12 +1140,12 @@ TextureImporter:
       name: turles_41
       rect:
         serializedVersion: 2
-        x: 310
-        y: 5
-        width: 98
-        height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 311
+        y: 6
+        width: 96
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1162,12 +1162,12 @@ TextureImporter:
       name: turles_42
       rect:
         serializedVersion: 2
-        x: 422
-        y: 4
-        width: 135
-        height: 112
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 423
+        y: 5
+        width: 133
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1184,12 +1184,12 @@ TextureImporter:
       name: turles_43
       rect:
         serializedVersion: 2
-        x: 569
-        y: 4
-        width: 129
-        height: 109
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 570
+        y: 5
+        width: 127
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1206,12 +1206,12 @@ TextureImporter:
       name: turles_44
       rect:
         serializedVersion: 2
-        x: 712
-        y: 4
-        width: 35
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 713
+        y: 5
+        width: 33
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1228,12 +1228,12 @@ TextureImporter:
       name: turles_45
       rect:
         serializedVersion: 2
-        x: 761
-        y: 5
-        width: 35
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 762
+        y: 6
+        width: 33
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1250,7 +1250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0242dad503e1d244f87894b229c7e434
     internalID: 0
     vertices: []
     indices: 

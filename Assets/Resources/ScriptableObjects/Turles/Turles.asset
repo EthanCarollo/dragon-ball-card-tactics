@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Turles
+  m_EditorClassIdentifier: 
+  id: 29
+  starNumber: 1
+  characterName: Turles
+  role: 0
+  characterType: 2
+  characterSprite: {fileID: -136131871400596052, guid: 901b1af9cb4f74951a7f79b08d7b1770, type: 3}
+  characterIcon: {fileID: 21300000, guid: 65b520ff3f41f2146a8855bb573cc9a6, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 950
+  maxKi: 35
+  baseRange: 5
+  baseDamage: 15
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 0.7
+  baseCriticalChance: 10
+  idleAnimation: {fileID: 11400000, guid: 614551a4a9c29c44283ee1086923ed0a, type: 2}
+  runAnimation: {fileID: 11400000, guid: 37d92ad801f55c04986d2dea3d0ffe3c, type: 2}
+  attackAnimation: {fileID: 11400000, guid: af9debda3b8afd047a1afede5dba4e9c, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 25804ed0c4a13364997e1d7970834a1a, type: 2}
+  specialAttackAnimation:
+  - name: Death from the top
+    description: 
+    animation: {fileID: 11400000, guid: 901700f3083a52848a5286558c152147, type: 2}
+  deadAnimation: {fileID: 0}
+  characterPassive:
+  - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}
