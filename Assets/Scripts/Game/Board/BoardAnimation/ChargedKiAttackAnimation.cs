@@ -17,6 +17,12 @@ public class ChargedKiAttackAnimation : BoardAnimation
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
+        CameraScript.Instance.SetupCameraOnTarget(3.5f, character.gameObject.transform);
+        var target = character.GetCharacterTarget().gameObject.transform;
+        if (character.board is FightBoard fightBoard)
+        {
+            fightBoard.LaunchCinematic(character);
+        }
         character.isAnimating = true;
         var index = 0;
         foreach (FrameSprite frameSprite in frameSprites)
@@ -30,6 +36,11 @@ public class ChargedKiAttackAnimation : BoardAnimation
             index++;
         }
         character.isAnimating = false;
+        if (character.board is FightBoard fightBoard2)
+        {
+            fightBoard2.EndCinematic();
+        }
+        CameraScript.Instance.SetupNormalCamera();
     }
     private void LaunchAttack(BoardCharacter character)
     {

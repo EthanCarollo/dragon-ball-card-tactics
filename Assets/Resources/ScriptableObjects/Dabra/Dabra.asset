@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Dabra
+  m_EditorClassIdentifier: 
+  id: 2
+  starNumber: 1
+  characterName: Dabra
+  role: 1
+  characterType: 0
+  characterSprite: {fileID: 4835050884378607121, guid: 40fb96c4f314d42dd812b1f67f889251, type: 3}
+  characterIcon: {fileID: 21300000, guid: 7a8581fc5665a4c15a7948ec29215463, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 1900
+  maxKi: 75
+  baseRange: 1
+  baseDamage: 50
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 0.5
+  baseCriticalChance: 10
+  idleAnimation: {fileID: 11400000, guid: 92a4b6ec24a57459084cf6acdbfe2e9a, type: 2}
+  runAnimation: {fileID: 11400000, guid: 9ce9abb0a09c14973862a04a9f3d5c2d, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 277f26c8a5f2c43aa88a8e89fa518636, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 2411283f61113449390a686da069600f, type: 2}
+  specialAttackAnimation:
+  - name: Heal
+    description: Heal using the base damage
+    animation: {fileID: 11400000, guid: aed98195735ea47869c39cf1e32bafae, type: 2}
+  deadAnimation: {fileID: 0}
+  characterPassive:
+  - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}

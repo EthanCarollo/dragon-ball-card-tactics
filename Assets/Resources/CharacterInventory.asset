@@ -14,18 +14,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characters:
   - characterId: 0
-    actualHealth: 5450
-    actualKi: 45
+    actualHealth: 5300
+    actualKi: 0
     selectedUltimateAttack: 0
     unlockedPassives: 0000000001000000
   - characterId: 1
-    actualHealth: 8570
+    actualHealth: 8420
     actualKi: 0
     selectedUltimateAttack: 0
     unlockedPassives: 00000000
   - characterId: 29
-    actualHealth: 1997450
-    actualKi: 60
+    actualHealth: 1996650
+    actualKi: 0
     selectedUltimateAttack: 0
     unlockedPassives: 
-  selectedIndexCharacterForCampaign: ffffffffffffffffffffffff02000000ffffffffffffffff
+  - characterId: 27
+    actualHealth: 1997100
+    actualKi: 75
+    selectedUltimateAttack: 0
+    unlockedPassives: 
+  - characterId: 28
+    actualHealth: 1997075
+    actualKi: 45
+    selectedUltimateAttack: 0
+    unlockedPassives: 
+  - characterId: 26
+    actualHealth: 1997175
+    actualKi: 0
+    selectedUltimateAttack: 0
+    unlockedPassives: 
+  selectedIndexCharacterForCampaign: 000000000100000005000000020000000300000004000000

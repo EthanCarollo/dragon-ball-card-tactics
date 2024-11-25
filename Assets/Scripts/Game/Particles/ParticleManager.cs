@@ -16,6 +16,16 @@ public class ParticleManager : MonoBehaviour
 
         public void ShowAttackNumber(BoardCharacter boardCharacter, int number)
         {
+                ShowNumber(boardCharacter, number, Color.white);
+        }
+
+        public void ShowHealNumber(BoardCharacter boardCharacter, int number)
+        {
+                ShowNumber(boardCharacter, number, Color.green);
+        }
+
+        public void ShowNumber(BoardCharacter boardCharacter, int number, Color color)
+        {
                 Sprite[] particles = SpriteDatabase.Instance.numbers;
                 Transform boardTransform = boardCharacter.gameObject.transform;
                 string numberString = number.ToString();
@@ -30,6 +40,7 @@ public class ParticleManager : MonoBehaviour
                         int digit = int.Parse(digitChar.ToString());
                         GameObject digitObject = new GameObject("DamageDigit");
                         SpriteRenderer spriteRenderer = digitObject.AddComponent<SpriteRenderer>();
+                        spriteRenderer.color = color;
                         spriteRenderer.sortingOrder = 10;
                         spriteRenderer.sprite = particles[digit];
 

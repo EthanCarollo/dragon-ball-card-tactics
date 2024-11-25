@@ -1,0 +1,784 @@
+fileFormatVersion: 2
+guid: 40fb96c4f314d42dd812b1f67f889251
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1075414822244354307
+    second: dabra_0
+  - first:
+      213: -4831903007039067456
+    second: dabra_1
+  - first:
+      213: -5716302975421476508
+    second: dabra_2
+  - first:
+      213: 4835050884378607121
+    second: dabra_3
+  - first:
+      213: -4947774188022211021
+    second: dabra_4
+  - first:
+      213: -820745061507764731
+    second: dabra_5
+  - first:
+      213: 752252618356489458
+    second: dabra_6
+  - first:
+      213: -1439144524220304885
+    second: dabra_7
+  - first:
+      213: 8437190904473316521
+    second: dabra_8
+  - first:
+      213: -4044996382944111184
+    second: dabra_9
+  - first:
+      213: 109650057888602635
+    second: dabra_10
+  - first:
+      213: -8248347433579570854
+    second: dabra_11
+  - first:
+      213: 6005057418875170856
+    second: dabra_12
+  - first:
+      213: 8536113707385624297
+    second: dabra_13
+  - first:
+      213: -2466185668829727397
+    second: dabra_14
+  - first:
+      213: -7733666193367124390
+    second: dabra_15
+  - first:
+      213: -8514627129814617709
+    second: dabra_16
+  - first:
+      213: 2313874567295917333
+    second: dabra_17
+  - first:
+      213: -405086452428640647
+    second: dabra_18
+  - first:
+      213: 9138812510700094390
+    second: dabra_19
+  - first:
+      213: 6354788531211459303
+    second: dabra_20
+  - first:
+      213: -7248208257230757667
+    second: dabra_21
+  - first:
+      213: 5752189114782967332
+    second: dabra_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dabra_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 461
+        width: 40
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30980124514acee00800000000000000
+      internalID: 1075414822244354307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 461
+        width: 40
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca6b4cc0d1a1fcb0800000000000000
+      internalID: -4831903007039067456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 461
+        width: 40
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4619e79eabc9ba0b0800000000000000
+      internalID: -5716302975421476508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 459
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e3352892d891340800000000000000
+      internalID: 4835050884378607121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 459
+        width: 33
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ed6162799f55bb0800000000000000
+      internalID: -4947774188022211021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 439
+        width: 58
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e6cad07b02c94f0800000000000000
+      internalID: -820745061507764731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 410
+        width: 36
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fcfe7255c9807a00800000000000000
+      internalID: 752252618356489458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_7
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 410
+        width: 36
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02766d1ea1270ce0800000000000000
+      internalID: -1439144524220304885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_8
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 410
+        width: 36
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ace94bec6ce61570800000000000000
+      internalID: 8437190904473316521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_9
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 410
+        width: 36
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b550e498394dd7c0800000000000000
+      internalID: -4044996382944111184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 353
+        width: 60
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a1d0e852e858100800000000000000
+      internalID: 109650057888602635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 348
+        width: 49
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a591c75f5bbf78d80800000000000000
+      internalID: -8248347433579570854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_12
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 348
+        width: 45
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820f0e308ef365350800000000000000
+      internalID: 6005057418875170856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_13
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 354
+        width: 38
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6101bc03e567670800000000000000
+      internalID: 8536113707385624297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_14
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 354
+        width: 41
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55be3b533956cdd0800000000000000
+      internalID: -2466185668829727397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_15
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 353
+        width: 42
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56b7e4629f7ca490800000000000000
+      internalID: -7733666193367124390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 291
+        width: 35
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391fe74ecb7f5d980800000000000000
+      internalID: -8514627129814617709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 291
+        width: 35
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ddb76d8a88c1020800000000000000
+      internalID: 2313874567295917333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_18
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 291
+        width: 46
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97eeaab8408d06af0800000000000000
+      internalID: -405086452428640647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_19
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 308
+        width: 90
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3cc291f8593de70800000000000000
+      internalID: 9138812510700094390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_20
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 306
+        width: 95
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ead591008eb03850800000000000000
+      internalID: 6354788531211459303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_21
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 304
+        width: 96
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd025b12ef0396b90800000000000000
+      internalID: -7248208257230757667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_22
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 304
+        width: 94
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426e1830681e3df40800000000000000
+      internalID: 5752189114782967332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_23
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 238
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0316c1e9c89ec447688490f9b48d8857
+      internalID: 185499273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_24
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 241
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a554df91a66f4850a1fce0e474341fc
+      internalID: -1371331464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dabra_25
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 235
+        width: 48
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60406b96c983f4e1eb265dee441cb18d
+      internalID: 111145536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f6d660b340524438bb8a6e1149792d33
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dabra_0: 1075414822244354307
+      dabra_1: -4831903007039067456
+      dabra_10: 109650057888602635
+      dabra_11: -8248347433579570854
+      dabra_12: 6005057418875170856
+      dabra_13: 8536113707385624297
+      dabra_14: -2466185668829727397
+      dabra_15: -7733666193367124390
+      dabra_16: -8514627129814617709
+      dabra_17: 2313874567295917333
+      dabra_18: -405086452428640647
+      dabra_19: 9138812510700094390
+      dabra_2: -5716302975421476508
+      dabra_20: 6354788531211459303
+      dabra_21: -7248208257230757667
+      dabra_22: 5752189114782967332
+      dabra_23: 185499273
+      dabra_24: -1371331464
+      dabra_25: 111145536
+      dabra_3: 4835050884378607121
+      dabra_4: -4947774188022211021
+      dabra_5: -820745061507764731
+      dabra_6: 752252618356489458
+      dabra_7: -1439144524220304885
+      dabra_8: 8437190904473316521
+      dabra_9: -4044996382944111184
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

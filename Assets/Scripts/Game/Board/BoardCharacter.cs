@@ -82,7 +82,7 @@ public class BoardCharacter : BoardObject
 
     public void Attack(Particle particle = null)
     {
-        if (character.IsDead())
+        if (character.IsDead() || GetCharacterTarget() == null)
         {
             return;
         }
@@ -94,7 +94,7 @@ public class BoardCharacter : BoardObject
 
     public void CriticalAttack(Particle particle = null)
     {
-        if (character.IsDead())
+        if (character.IsDead() || GetCharacterTarget() == null)
         {
             return;
         }
@@ -106,7 +106,7 @@ public class BoardCharacter : BoardObject
 
     public void SpecialAttack(Particle particle = null)
     {
-        if (character.IsDead())
+        if (character.IsDead() || GetCharacterTarget() == null)
         {
             return;
         }
@@ -169,6 +169,16 @@ public class BoardCharacter : BoardObject
         if (this.character.actualKi > this.character.GetCharacterData().maxKi)
         {
             this.character.actualKi = this.character.GetCharacterData().maxKi;
+        }
+    }
+
+    public void Heal(int healAmount)
+    {
+        ParticleManager.Instance.ShowHealNumber(this, healAmount);
+        this.character.actualHealth += healAmount;
+        if (this.character.actualHealth > this.character.GetCharacterMaxHealth())
+        {
+            this.character.actualHealth = this.character.GetCharacterMaxHealth();
         }
     }
 
