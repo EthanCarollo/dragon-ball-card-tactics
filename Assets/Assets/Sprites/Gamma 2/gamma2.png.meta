@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: a951ba77abdfdc54b9c1b210fd697406
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8520828621628890602
+    second: gamma2_0
+  - first:
+      213: -5889101964222019233
+    second: gamma2_1
+  - first:
+      213: 7300186466402825344
+    second: gamma2_2
+  - first:
+      213: -2662574977175962684
+    second: gamma2_3
+  - first:
+      213: 8747663123836413125
+    second: gamma2_4
+  - first:
+      213: 6384663078290735780
+    second: gamma2_5
+  - first:
+      213: 2654542396984461270
+    second: gamma2_6
+  - first:
+      213: 4971435883656619870
+    second: gamma2_7
+  - first:
+      213: 2880700407212709811
+    second: gamma2_8
+  - first:
+      213: 279220932902702616
+    second: gamma2_9
+  - first:
+      213: -1123463817357590122
+    second: gamma2_10
+  - first:
+      213: -2799376185347759961
+    second: gamma2_11
+  - first:
+      213: 1652543638591299735
+    second: gamma2_12
+  - first:
+      213: -5629460621254021204
+    second: gamma2_13
+  - first:
+      213: -7018676100573335454
+    second: gamma2_14
+  - first:
+      213: 6746421343861949131
+    second: gamma2_15
+  - first:
+      213: 2297276983360659950
+    second: gamma2_16
+  - first:
+      213: 4929409901842329455
+    second: gamma2_17
+  - first:
+      213: 7086414417734238034
+    second: gamma2_18
+  - first:
+      213: 172076511673498087
+    second: gamma2_19
+  - first:
+      213: -5734599261818030108
+    second: gamma2_20
+  - first:
+      213: 5863999834776270687
+    second: gamma2_21
+  - first:
+      213: 1904790212419000302
+    second: gamma2_22
+  - first:
+      213: -3066675794000117277
+    second: gamma2_23
+  - first:
+      213: 4261282154522992328
+    second: gamma2_24
+  - first:
+      213: 4270606238458436781
+    second: gamma2_25
+  - first:
+      213: -7257149278904461651
+    second: gamma2_26
+  - first:
+      213: -1049745870607946483
+    second: gamma2_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gamma2_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 461
+        width: 26
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeddb207c70104670800000000000000
+      internalID: 8520828621628890602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 461
+        width: 26
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59cd7027f4b54ea0800000000000000
+      internalID: -5889101964222019233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 465
+        width: 43
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084fd04c9e87f4560800000000000000
+      internalID: 7300186466402825344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 465
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb35994a22ac0bd0800000000000000
+      internalID: -2662574977175962684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 468
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4ad079341f56970800000000000000
+      internalID: 8747663123836413125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_5
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 404
+        width: 49
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a242180e31ea9850800000000000000
+      internalID: 6384663078290735780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 404
+        width: 50
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d70975ee34d6d420800000000000000
+      internalID: 2654542396984461270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_7
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 408
+        width: 33
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57abfca8961ef440800000000000000
+      internalID: 4971435883656619870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_8
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 408
+        width: 48
+        height: 41
+      alignment: 9
+      pivot: {x: 0.7223587, y: -0.0049118414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b79c3cf1cd4af720800000000000000
+      internalID: 2880700407212709811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_9
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 408
+        width: 32
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5503454, y: -0.009823683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ec48785fdffd300800000000000000
+      internalID: 279220932902702616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 322
+        width: 37
+        height: 43
+      alignment: 9
+      pivot: {x: 0.36197332, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69185684c97a860f0800000000000000
+      internalID: -1123463817357590122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 322
+        width: 63
+        height: 58
+      alignment: 9
+      pivot: {x: 0.22214884, y: -0.015090416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0a8afe03e9629d0800000000000000
+      internalID: -2799376185347759961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_12
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 352
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790e01a0fa30fe610800000000000000
+      internalID: 1652543638591299735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_13
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 322
+        width: 75
+        height: 56
+      alignment: 9
+      pivot: {x: 0.18578267, y: 0.0031885419}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafaa11246320e1b0800000000000000
+      internalID: -5629460621254021204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_14
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 354
+        width: 30
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2607dc7e547a89e90800000000000000
+      internalID: -7018676100573335454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_15
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 338
+        width: 38
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2410ad77a10ad50800000000000000
+      internalID: 6746421343861949131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_16
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 322
+        width: 30
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1a4efae3191ef10800000000000000
+      internalID: 2297276983360659950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_17
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 322
+        width: 30
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fea974038c86440800000000000000
+      internalID: 4929409901842329455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_18
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 319
+        width: 120
+        height: 72
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f71441e50085260800000000000000
+      internalID: 7086414417734238034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_19
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 321
+        width: 112
+        height: 68
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9bc78fca6536200800000000000000
+      internalID: 172076511673498087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 228
+        width: 64
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e77e16ca5c9a60b0800000000000000
+      internalID: -5734599261818030108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_21
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 300
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57f9cae7cc116150800000000000000
+      internalID: 5863999834776270687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_22
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 228
+        width: 63
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee710ee2b9c2f6a10800000000000000
+      internalID: 1904790212419000302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_23
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 228
+        width: 66
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e185510d9af075d0800000000000000
+      internalID: -3066675794000117277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_24
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 228
+        width: 45
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cedd04da8d132b30800000000000000
+      internalID: 4261282154522992328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_25
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 262
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dacd1ea4fbd344b30800000000000000
+      internalID: 4270606238458436781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_26
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 266
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6daec4e2d694b90800000000000000
+      internalID: -7257149278904461651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamma2_27
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 255
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0deaf541bd8e61f0800000000000000
+      internalID: -1049745870607946483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 29c512291df106947b95151f956b4cd5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gamma2_0: 8520828621628890602
+      gamma2_1: -5889101964222019233
+      gamma2_10: -1123463817357590122
+      gamma2_11: -2799376185347759961
+      gamma2_12: 1652543638591299735
+      gamma2_13: -5629460621254021204
+      gamma2_14: -7018676100573335454
+      gamma2_15: 6746421343861949131
+      gamma2_16: 2297276983360659950
+      gamma2_17: 4929409901842329455
+      gamma2_18: 7086414417734238034
+      gamma2_19: 172076511673498087
+      gamma2_2: 7300186466402825344
+      gamma2_20: -5734599261818030108
+      gamma2_21: 5863999834776270687
+      gamma2_22: 1904790212419000302
+      gamma2_23: -3066675794000117277
+      gamma2_24: 4261282154522992328
+      gamma2_25: 4270606238458436781
+      gamma2_26: -7257149278904461651
+      gamma2_27: -1049745870607946483
+      gamma2_3: -2662574977175962684
+      gamma2_4: 8747663123836413125
+      gamma2_5: 6384663078290735780
+      gamma2_6: 2654542396984461270
+      gamma2_7: 4971435883656619870
+      gamma2_8: 2880700407212709811
+      gamma2_9: 279220932902702616
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

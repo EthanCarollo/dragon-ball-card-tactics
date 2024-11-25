@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class DefaultBoardFightState : BoardFightState
 {
+    public bool isActive = true;
+    
     public DefaultBoardFightState(FightBoardState boardFightState) : base(boardFightState)
     {
         
@@ -38,9 +40,12 @@ public class DefaultBoardFightState : BoardFightState
                         Debug.Log("Character is dead : " + boardChar.character.GetCharacterData().name);
                     }
                 }
-
+                
                 character.UpdateUi();
-                character.Update();
+                if (isActive)
+                {
+                    character.Update();
+                }
             }
         }
 
@@ -54,6 +59,7 @@ public class DefaultBoardFightState : BoardFightState
 
     public override void LaunchCinematic()
     {
+        isActive = false;
         boardFightState.UpdateState(new CinematicBoardFightState(boardFightState));
     }
 

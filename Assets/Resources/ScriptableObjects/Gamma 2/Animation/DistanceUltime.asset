@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6dad8ff1b884d2ea3c2a618cd48846, type: 3}
+  m_Name: DistanceUltime
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: -1123463817357590122, guid: a951ba77abdfdc54b9c1b210fd697406, type: 3}
+    time: 0.2
+  - sprite: {fileID: -2799376185347759961, guid: a951ba77abdfdc54b9c1b210fd697406, type: 3}
+    time: 0.2
+  - sprite: {fileID: -5629460621254021204, guid: a951ba77abdfdc54b9c1b210fd697406, type: 3}
+    time: 0.2
+  - sprite: {fileID: 2297276983360659950, guid: a951ba77abdfdc54b9c1b210fd697406, type: 3}
+    time: 0.2
+  - sprite: {fileID: 4929409901842329455, guid: a951ba77abdfdc54b9c1b210fd697406, type: 3}
+    time: 0.2
+  attackFrameIndex: 2
+  projectile: {fileID: 7086414417734238034, guid: a951ba77abdfdc54b9c1b210fd697406, type: 3}
+  particleAttack: {fileID: 0}
+  attackType: 0
+  startMargin: {x: 0.4, y: 0.4}
