@@ -21,7 +21,7 @@ public class TransformUnderHPPassive : TransformPassive
         
         if (character.character.actualHealth < hpThreshold && !launchTransformation && transformAnimation.CanTransform(character))
         {
-            FightBoard.Instance.LaunchTransformation(character, transformAnimation);
+            character.PlayAnimation(transformAnimation);
             Debug.Log($"Transformation triggered at {hpThresholdPercentage}% HP.");
             launchTransformation = true;
         }

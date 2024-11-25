@@ -22,7 +22,7 @@ MonoBehaviour:
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
   maxHealth: 950
   maxKi: 35
-  baseRange: 5
+  baseRange: 1
   baseDamage: 15
   baseArmor: 25
   baseSpeed: 2

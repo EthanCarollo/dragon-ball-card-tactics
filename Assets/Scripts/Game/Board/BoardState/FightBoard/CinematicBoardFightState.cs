@@ -1,12 +1,12 @@
-﻿
-public class DefaultBoardState : BoardState
+using UnityEngine;
+
+public class CinematicBoardFightState : BoardFightState
 {
-    public DefaultBoardState(FightBoard board) : base(board) { 
-        if(CameraScript.Instance != null){
-            CameraScript.Instance.SetupNormalCamera();
-        }
+    public CinematicBoardFightState(FightBoardState boardFightState) : base(boardFightState)
+    {
+        
     }
-    
+
     public override void Update()
     {
         for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
@@ -20,23 +20,13 @@ public class DefaultBoardState : BoardState
         }
     }
 
-    public override void LaunchFight()
-    {
-        board.UpdateState(new FightBoardState(board));
-    }
-
-    public override void EndFight()
+    public override void LaunchCinematic()
     {
         
     }
 
     public override void EndCinematic()
     {
-        
-    }
-
-    public override void LaunchCinematic(BoardCharacter boardChar)
-    {
-        
+        boardFightState.UpdateState(new DefaultBoardFightState(boardFightState));
     }
 }

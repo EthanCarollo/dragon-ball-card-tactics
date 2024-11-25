@@ -14,26 +14,30 @@
     
     public abstract void Update();
     public abstract void LaunchFight();
-    public virtual void LaunchKikohaFight(BoardObject boardObject1, BoardObject boardObject2){
-        this.board.UpdateState(new KikohaFightBoardState(board, boardObject1, boardObject2));
-    }
-    public virtual void LaunchTransformation(BoardObject boardObject1, TransformAnimation transformation){
-        this.board.UpdateState(new TransformationBoardState(board, boardObject1, transformation));
-    }
-
-    public virtual void LaunchCinematic(BoardCharacter boardChar)
-    {
-        this.board.UpdateState(new CinematicBoardState(board, boardChar));
-    }
-    public virtual void EndCinematic()
-    {
-        
-    }
-    
-    public virtual void EndKikohaFight()
-    {
-        
-    }
     public abstract void EndFight();
+    
+    public abstract void LaunchCinematic(BoardCharacter boardChar);
+    public abstract void EndCinematic();
 
+    
+    // Useful
+    protected void ResetAllPassives()
+    {
+        for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
+        {
+            for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
+            {
+                var character = GameManager.Instance.boardCharacterArray[x, y];
+                if (character == null) continue;
+
+                if (character is BoardCharacter boardChar && boardChar.character.GetCharacterPassives() is not null)
+                {
+                    foreach (var passive in boardChar.character.GetCharacterPassives())
+                    {
+                        if(passive is not null) passive.Setup(boardChar);
+                    }
+                }
+            }
+        }
+    }
 }

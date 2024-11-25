@@ -44,16 +44,6 @@ public class FightBoard : Board
     {
         state.EndFight();
     }
-
-    public void EndKikohaFight()
-    {
-        state.EndKikohaFight();
-    }
-
-    public void LaunchKikohaFight(BoardObject boardObject1, BoardObject boardObject2)
-    {
-        this.state.LaunchKikohaFight(boardObject1, boardObject2);
-    }
     
     public override void CreateBoard()
     {
@@ -161,11 +151,6 @@ public class FightBoard : Board
     }
     
     public float size = 1f;
-
-    public void LaunchTransformation(BoardObject boardObject1, TransformAnimation transformation)
-    {
-        state.LaunchTransformation( boardObject1,  transformation);
-    }
 
     public void LaunchCinematic(BoardCharacter boardChar)
     {

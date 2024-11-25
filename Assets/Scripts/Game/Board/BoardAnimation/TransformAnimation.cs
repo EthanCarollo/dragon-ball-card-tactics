@@ -15,10 +15,23 @@ public class TransformAnimation : BoardAnimation {
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
+        CameraScript.Instance.SetupCameraOnTarget(2.5f, character.gameObject.transform);
+        var target = character.GetCharacterTarget().gameObject.transform;
+        if (character.board is FightBoard fightBoard)
+        {
+            fightBoard.LaunchCinematic(character);
+        }
+        
         character.isAnimating = true;
         yield return PlayAnimationCoroutineTransform(character);
         character.SetupCharacter(newCharacterData);
         character.isAnimating = false;
+        
+        if (character.board is FightBoard fightBoard2)
+        {
+            fightBoard2.EndCinematic();
+        }
+        CameraScript.Instance.SetupNormalCamera();
     }
 
     public IEnumerator PlayAnimationCoroutineTransform(BoardCharacter character)

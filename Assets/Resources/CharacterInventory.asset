@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: CharacterInventory
   m_EditorClassIdentifier: 
   characters:
-  - characterId: 0
-    actualHealth: 5300
-    actualKi: 0
+  - characterId: 11
+    actualHealth: 100
+    actualKi: 50
     selectedUltimateAttack: 0
     unlockedPassives: 0000000001000000
   - characterId: 1
@@ -24,8 +24,8 @@ MonoBehaviour:
     selectedUltimateAttack: 0
     unlockedPassives: 00000000
   - characterId: 29
-    actualHealth: 1996650
-    actualKi: 0
+    actualHealth: 1995650
+    actualKi: 30
     selectedUltimateAttack: 0
     unlockedPassives: 
   - characterId: 27
@@ -43,4 +43,4 @@ MonoBehaviour:
     actualKi: 0
     selectedUltimateAttack: 0
     unlockedPassives: 
-  selectedIndexCharacterForCampaign: 000000000100000005000000020000000300000004000000
+  selectedIndexCharacterForCampaign: 00000000ffffffffffffffffffffffffffffffffffffffff

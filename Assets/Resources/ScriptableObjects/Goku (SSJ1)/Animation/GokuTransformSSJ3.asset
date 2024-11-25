@@ -27,4 +27,4 @@ MonoBehaviour:
     time: 0.2
   - sprite: {fileID: 2591519323428999363, guid: 0d039230482fc4824b2e96dcd8c0d8ec, type: 3}
     time: 0.2
-  newCharacterData: {fileID: 11400000, guid: 9b424d77e4f22ed409f878e0c2d3f275, type: 2}
+  newCharacterData: {fileID: 11400000, guid: 7c72d6e2019ed431b86de89a71f06dc1, type: 2}
