@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 4f3cf6f7002a54687868d857a3670f87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3598841076461624188
+    second: spopovitch_0
+  - first:
+      213: -1867041763812349273
+    second: spopovitch_1
+  - first:
+      213: -2443990056055720268
+    second: spopovitch_2
+  - first:
+      213: 1680414911707597369
+    second: spopovitch_3
+  - first:
+      213: 5494458497890533670
+    second: spopovitch_4
+  - first:
+      213: -5862208864909745926
+    second: spopovitch_5
+  - first:
+      213: 8274946621937036323
+    second: spopovitch_6
+  - first:
+      213: -6054298362812406348
+    second: spopovitch_7
+  - first:
+      213: -3015166029190827401
+    second: spopovitch_8
+  - first:
+      213: -6046765364248345117
+    second: spopovitch_9
+  - first:
+      213: 2002718661557506283
+    second: spopovitch_10
+  - first:
+      213: -5342539031418464131
+    second: spopovitch_11
+  - first:
+      213: -6702068842156578034
+    second: spopovitch_12
+  - first:
+      213: 8186311763967159677
+    second: spopovitch_13
+  - first:
+      213: -3438507693421165177
+    second: spopovitch_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spopovitch_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 439
+        width: 38
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b549d34e6a1f130800000000000000
+      internalID: 3598841076461624188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spopovitch_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 439
+        width: 34
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa6527686fe616e0800000000000000
+      internalID: -1867041763812349273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spopovitch_2
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 381
+        width: 46
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6363a2ef3351ed0800000000000000
+      internalID: -2443990056055720268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spopovitch_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 391
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ac99f7578025710800000000000000
+      internalID: 1680414911707597369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spopovitch_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 394
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62144e794ec304c40800000000000000
+      internalID: 5494458497890533670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spopovitch_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 318
+        width: 59
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0a8efb81045aea0800000000000000
+      internalID: -5862208864909745926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spopovitch_6
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 318
+        width: 60
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c20ef2c1486d270800000000000000
+      internalID: 8274946621937036323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spopovitch_7
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 318
+        width: 38
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5665057bfcafba0800000000000000
+      internalID: -6054298362812406348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spopovitch_8
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 318
+        width: 57
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7727143b87af726d0800000000000000
+      internalID: -3015166029190827401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spopovitch_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 221
+        width: 47
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e587d730f2951ca0800000000000000
+      internalID: -6046765364248345117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spopovitch_10
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 226
+        width: 67
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be05e2703061bcb10800000000000000
+      internalID: 2002718661557506283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spopovitch_11
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 272
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7894a19e0d7bd5b0800000000000000
+      internalID: -5342539031418464131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spopovitch_12
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 221
+        width: 47
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b2b0ba5e77df2a0800000000000000
+      internalID: -6702068842156578034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spopovitch_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 226
+        width: 59
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d2dd72d2f9b9170800000000000000
+      internalID: 8186311763967159677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spopovitch_14
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 230
+        width: 268
+        height: 64
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 75, y: 0, z: 77, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7850f288877f740d0800000000000000
+      internalID: -3438507693421165177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d0451e9f9a6e84bd9b2a8c90b3ee7607
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spopovitch_0: 3598841076461624188
+      spopovitch_1: -1867041763812349273
+      spopovitch_10: 2002718661557506283
+      spopovitch_11: -5342539031418464131
+      spopovitch_12: -6702068842156578034
+      spopovitch_13: 8186311763967159677
+      spopovitch_14: -3438507693421165177
+      spopovitch_2: -2443990056055720268
+      spopovitch_3: 1680414911707597369
+      spopovitch_4: 5494458497890533670
+      spopovitch_5: -5862208864909745926
+      spopovitch_6: 8274946621937036323
+      spopovitch_7: -6054298362812406348
+      spopovitch_8: -3015166029190827401
+      spopovitch_9: -6046765364248345117
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

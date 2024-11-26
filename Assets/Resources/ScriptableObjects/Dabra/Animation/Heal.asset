@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frameSprites:
   - sprite: {fileID: 752252618356489458, guid: 40fb96c4f314d42dd812b1f67f889251, type: 3}
-    time: 0.1
+    time: 0.4
   - sprite: {fileID: -1439144524220304885, guid: 40fb96c4f314d42dd812b1f67f889251, type: 3}
     time: 0.2
   - sprite: {fileID: 8437190904473316521, guid: 40fb96c4f314d42dd812b1f67f889251, type: 3}
     time: 0.2
   - sprite: {fileID: -4044996382944111184, guid: 40fb96c4f314d42dd812b1f67f889251, type: 3}
-    time: 0.2
+    time: 0.4
   attackFrameIndex: 1
   attackType: 0
   particleAttack: {fileID: 0}
