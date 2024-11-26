@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Jeice
+  m_EditorClassIdentifier: 
+  id: 29
+  starNumber: 1
+  characterName: Jeice
+  role: 0
+  characterType: 2
+  characterSprite: {fileID: -4579651164837710976, guid: 4b8fc404c4264ee4b9874dd70335bb17, type: 3}
+  characterIcon: {fileID: 21300000, guid: 5220c7f125fffa84986e1b2229805a08, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 950
+  maxKi: 35
+  baseRange: 1
+  baseDamage: 15
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 0.7
+  baseCriticalChance: 10
+  idleAnimation: {fileID: 11400000, guid: cf9594aa91baf584a999289d9ad19a48, type: 2}
+  runAnimation: {fileID: 11400000, guid: 6b5bd9a269fc485448c0ff4ab27a653e, type: 2}
+  attackAnimation: {fileID: 11400000, guid: e0fcbf6663ebf674d82c70cd97327e71, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: b764837f376347242afb4dc94c3398e9, type: 2}
+  specialAttackAnimation:
+  - name: Death from the top
+    description: 
+    animation: {fileID: 11400000, guid: b0d167ef5d426ff4caf89cf0af9a39f8, type: 2}
+  deadAnimation: {fileID: 0}
+  characterPassive:
+  - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}

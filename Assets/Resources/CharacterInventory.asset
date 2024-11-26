@@ -38,7 +38,7 @@ MonoBehaviour:
     actualKi: 45
     selectedUltimateAttack: 0
     unlockedPassives: 
-  - characterId: 26
+  - characterId: 35
     actualHealth: 1997175
     actualKi: 0
     selectedUltimateAttack: 0

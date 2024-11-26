@@ -1,0 +1,1131 @@
+fileFormatVersion: 2
+guid: 4b8fc404c4264ee4b9874dd70335bb17
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4579651164837710976
+    second: jeice_0
+  - first:
+      213: -1186967107243764384
+    second: jeice_1
+  - first:
+      213: -5141897971412697039
+    second: jeice_2
+  - first:
+      213: 579006865911371096
+    second: jeice_3
+  - first:
+      213: -1089685680538007237
+    second: jeice_4
+  - first:
+      213: -8833185088601156340
+    second: jeice_5
+  - first:
+      213: -5884228913015735820
+    second: jeice_6
+  - first:
+      213: -4204285310281396226
+    second: jeice_7
+  - first:
+      213: 4160247698458308351
+    second: jeice_8
+  - first:
+      213: 32648670673611425
+    second: jeice_9
+  - first:
+      213: 6876093048450542196
+    second: jeice_10
+  - first:
+      213: 4573345523743487267
+    second: jeice_11
+  - first:
+      213: 4384561328047897631
+    second: jeice_12
+  - first:
+      213: 224498545061192786
+    second: jeice_13
+  - first:
+      213: -1679602624791533829
+    second: jeice_14
+  - first:
+      213: 8475086540353667453
+    second: jeice_15
+  - first:
+      213: -4902874051884473953
+    second: jeice_16
+  - first:
+      213: -4126594155195882389
+    second: jeice_17
+  - first:
+      213: -9048027044126423447
+    second: jeice_18
+  - first:
+      213: 4159972300862211613
+    second: jeice_19
+  - first:
+      213: 5199981669018800295
+    second: jeice_20
+  - first:
+      213: 417485281907418674
+    second: jeice_21
+  - first:
+      213: 9090773166581237335
+    second: jeice_22
+  - first:
+      213: -3337509960226426714
+    second: jeice_23
+  - first:
+      213: -418720293442846964
+    second: jeice_24
+  - first:
+      213: 6250674106028434139
+    second: jeice_25
+  - first:
+      213: -8700935568981224143
+    second: jeice_26
+  - first:
+      213: -8785963139636773495
+    second: jeice_27
+  - first:
+      213: -8787409387262588021
+    second: jeice_28
+  - first:
+      213: 6300358662204581555
+    second: jeice_29
+  - first:
+      213: -2050663703079522922
+    second: jeice_30
+  - first:
+      213: -7689040055864515333
+    second: jeice_31
+  - first:
+      213: 5732124201077900848
+    second: jeice_32
+  - first:
+      213: -5515905057830391681
+    second: jeice_33
+  - first:
+      213: 6966305471652392787
+    second: jeice_34
+  - first:
+      213: 5255903979607732882
+    second: jeice_35
+  - first:
+      213: -1306500787403023573
+    second: jeice_36
+  - first:
+      213: 2433161194758767039
+    second: jeice_37
+  - first:
+      213: 4604211694719600858
+    second: jeice_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jeice_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 451
+        width: 26
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083f4a4978fc170c0800000000000000
+      internalID: -4579651164837710976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 451
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06599ac64bb078fe0800000000000000
+      internalID: -1186967107243764384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 451
+        width: 31
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13005a6b90f44a8b0800000000000000
+      internalID: -5141897971412697039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 450
+        width: 40
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855d8254dab090800800000000000000
+      internalID: 579006865911371096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_4
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 454
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39c3be95a8a0e0f0800000000000000
+      internalID: -1089685680538007237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_5
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 457
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0596ae46f83a6580800000000000000
+      internalID: -8833185088601156340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 375
+        width: 33
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f93d96caf4075ea0800000000000000
+      internalID: -5884228913015735820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_7
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 384
+        width: 17
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effc84a19c067a5c0800000000000000
+      internalID: -4204285310281396226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 375
+        width: 48
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe6e346d3b2cb930800000000000000
+      internalID: 4160247698458308351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_9
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 371
+        width: 60
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aaa3e10bcdf37000800000000000000
+      internalID: 32648670673611425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_10
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 378
+        width: 19
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a6d6b423acc6f50800000000000000
+      internalID: 6876093048450542196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_11
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 368
+        width: 60
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3257ad1f589c77f30800000000000000
+      internalID: 4573345523743487267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_12
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 368
+        width: 14
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cb5362c4719dc30800000000000000
+      internalID: 4384561328047897631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_13
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 375
+        width: 35
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254e6febc349d1300800000000000000
+      internalID: 224498545061192786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 375
+        width: 35
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6ac79cf4ad0b8e0800000000000000
+      internalID: -1679602624791533829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_15
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 360
+        width: 227
+        height: 86
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 99, y: 0, z: 93, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7189763e4e8d9570800000000000000
+      internalID: 8475086540353667453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 316
+        width: 33
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9122feb60e75fbb0800000000000000
+      internalID: -4902874051884473953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_17
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 317
+        width: 36
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64a85fba746bb6c0800000000000000
+      internalID: -4126594155195882389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_18
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 316
+        width: 35
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96687b48753fe6280800000000000000
+      internalID: -9048027044126423447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_19
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 316
+        width: 25
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d164b5464c03bb930800000000000000
+      internalID: 4159972300862211613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_20
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 316
+        width: 46
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0986cf6cb0a2840800000000000000
+      internalID: 5199981669018800295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_21
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 316
+        width: 40
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236ab07e6a43bc500800000000000000
+      internalID: 417485281907418674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_22
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 276
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7564abfa70ae82e70800000000000000
+      internalID: 9090773166581237335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_23
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 275
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a03062cf58cea1d0800000000000000
+      internalID: -3337509960226426714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 276
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f77119c18603af0800000000000000
+      internalID: -418720293442846964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_25
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 224
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2ae806bfadeb650800000000000000
+      internalID: 6250674106028434139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_26
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 224
+        width: 30
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13510551331104780800000000000000
+      internalID: -8700935568981224143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_27
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 224
+        width: 28
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d3644131df11680800000000000000
+      internalID: -8785963139636773495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_28
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 224
+        width: 35
+        height: 81
+      alignment: 9
+      pivot: {x: 0.4293326, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8bc74058b9dc0680800000000000000
+      internalID: -8787409387262588021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_29
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 224
+        width: 37
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6624292de5f6750800000000000000
+      internalID: 6300358662204581555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_30
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 224
+        width: 36
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d68281a349a83e0800000000000000
+      internalID: -2050663703079522922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_31
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 227
+        width: 29
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf42276beca0b4590800000000000000
+      internalID: -7689040055864515333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_32
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 227
+        width: 29
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0360bad37989c8f40800000000000000
+      internalID: 5732124201077900848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_33
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 107
+        width: 28
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f703d3d03919373b0800000000000000
+      internalID: -5515905057830391681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_34
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 105
+        width: 75
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f63badae94da060800000000000000
+      internalID: 6966305471652392787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_35
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 106
+        width: 74
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292b41e82d8b0f840800000000000000
+      internalID: 5255903979607732882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_36
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 139
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b131cb4706edde0800000000000000
+      internalID: -1306500787403023573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_37
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 106
+        width: 72
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb18cd6173354c120800000000000000
+      internalID: 2433161194758767039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jeice_38
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 106
+        width: 72
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad80676642275ef30800000000000000
+      internalID: 4604211694719600858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 888feedae562edf4caa27c83eb1ec658
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jeice_0: -4579651164837710976
+      jeice_1: -1186967107243764384
+      jeice_10: 6876093048450542196
+      jeice_11: 4573345523743487267
+      jeice_12: 4384561328047897631
+      jeice_13: 224498545061192786
+      jeice_14: -1679602624791533829
+      jeice_15: 8475086540353667453
+      jeice_16: -4902874051884473953
+      jeice_17: -4126594155195882389
+      jeice_18: -9048027044126423447
+      jeice_19: 4159972300862211613
+      jeice_2: -5141897971412697039
+      jeice_20: 5199981669018800295
+      jeice_21: 417485281907418674
+      jeice_22: 9090773166581237335
+      jeice_23: -3337509960226426714
+      jeice_24: -418720293442846964
+      jeice_25: 6250674106028434139
+      jeice_26: -8700935568981224143
+      jeice_27: -8785963139636773495
+      jeice_28: -8787409387262588021
+      jeice_29: 6300358662204581555
+      jeice_3: 579006865911371096
+      jeice_30: -2050663703079522922
+      jeice_31: -7689040055864515333
+      jeice_32: 5732124201077900848
+      jeice_33: -5515905057830391681
+      jeice_34: 6966305471652392787
+      jeice_35: 5255903979607732882
+      jeice_36: -1306500787403023573
+      jeice_37: 2433161194758767039
+      jeice_38: 4604211694719600858
+      jeice_4: -1089685680538007237
+      jeice_5: -8833185088601156340
+      jeice_6: -5884228913015735820
+      jeice_7: -4204285310281396226
+      jeice_8: 4160247698458308351
+      jeice_9: 32648670673611425
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
