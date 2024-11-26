@@ -10,12 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03b16787bc87f453d9d2b4fb52cd1a0f, type: 3}
-  m_Name: Move
+  m_Name: Idle
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: -7826192739979337156, guid: d4a36714b4afa4cb9997855ca78857eb, type: 3}
-    time: 0.2
-  - sprite: {fileID: -901158248966507103, guid: d4a36714b4afa4cb9997855ca78857eb, type: 3}
-    time: 0.2
-  - sprite: {fileID: -9110257470239787028, guid: d4a36714b4afa4cb9997855ca78857eb, type: 3}
+  - sprite: {fileID: 2745150537169343275, guid: 67137a2f355ac4e96b8cfbbc2fb6d3b0, type: 3}
     time: 0.2

@@ -49,10 +49,8 @@ public class AttackingCharacterState : BoardCharacterState
                 if(IsCritical(boardCharacter.character.GetCriticalChance()) == true)
                 {
                     boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterData().criticalAttackAnimation);
-                    boardCharacter.AddKi(15);    
                 } else {
                     boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterData().attackAnimation);
-                    boardCharacter.AddKi(15);
                 }
             }
             timeSinceLastAttack = 0f;

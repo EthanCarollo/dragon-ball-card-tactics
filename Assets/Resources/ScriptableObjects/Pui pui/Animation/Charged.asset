@@ -13,15 +13,13 @@ MonoBehaviour:
   m_Name: Charged
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: -6046765364248345117, guid: 4f3cf6f7002a54687868d857a3670f87, type: 3}
+  - sprite: {fileID: -6980789266329186293, guid: d4a36714b4afa4cb9997855ca78857eb, type: 3}
     time: 0.2
-  - sprite: {fileID: 2002718661557506283, guid: 4f3cf6f7002a54687868d857a3670f87, type: 3}
+  - sprite: {fileID: -4999464071970594627, guid: d4a36714b4afa4cb9997855ca78857eb, type: 3}
     time: 0.2
-  - sprite: {fileID: -6702068842156578034, guid: 4f3cf6f7002a54687868d857a3670f87, type: 3}
+  - sprite: {fileID: 8390513203362695664, guid: d4a36714b4afa4cb9997855ca78857eb, type: 3}
     time: 0.5
-  - sprite: {fileID: 8186311763967159677, guid: 4f3cf6f7002a54687868d857a3670f87, type: 3}
-    time: 0.5
-  attackFrameIndex: 1
+  attackFrameIndex: 2
   kikoha: {fileID: -3438507693421165177, guid: 4f3cf6f7002a54687868d857a3670f87, type: 3}
   particleAttack: {fileID: 0}
   attackType: 2

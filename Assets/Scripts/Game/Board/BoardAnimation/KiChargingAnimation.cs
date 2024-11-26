@@ -4,36 +4,25 @@ using System;
 
 
 
-[CreateAssetMenu(fileName = "New Attack Animation", menuName = "BoardAnimation/AttackAnimation")]
-public class AttackAnimation : BoardAnimation
+[CreateAssetMenu(fileName = "New Ki Charging Animation", menuName = "BoardAnimation/KiChargingAnimation")]
+public class KiChargingAnimation : BoardAnimation
 {
     public int attackFrameIndex;
     public AttackType attackType;
     public Particle particleAttack;
-    public int kiOnAttack = 10;
+    public int kiGived;
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         character.isAnimating = true;
+        yield return new WaitForSeconds(0.5f);
         var index = 0;
         foreach (FrameSprite frameSprite in frameSprites)
         {
             character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = frameSprite.sprite;
             yield return new WaitForSeconds(frameSprite.time); 
             if(index == attackFrameIndex){
-                character.AddKi(kiOnAttack);
-                switch (attackType)
-                {
-                    case AttackType.Normal :
-                        character.Attack(particleAttack);
-                        break;
-                    case AttackType.Critical :
-                        character.CriticalAttack(particleAttack);
-                        break;
-                    case AttackType.Special :
-                        character.SpecialAttack(particleAttack);
-                        break;
-                }
+                character.AddKi(kiGived);
             }
             index++;
         }

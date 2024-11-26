@@ -10,6 +10,7 @@ public class DistanceAttackAnimation : BoardAnimation {
     public Particle particleAttack;
     public AttackType attackType;
     public Vector2 startMargin;
+    public int kiOnAttack = 10;
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
@@ -38,6 +39,7 @@ public class DistanceAttackAnimation : BoardAnimation {
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         newGameObject.transform.rotation = Quaternion.Euler(0, 0, angle);
         
+
         try
         {
             LeanTween.move(newGameObject, character.GetCharacterTarget().gameObject.transform.position + new Vector3(0, 0.5f), 0.1f)
@@ -54,6 +56,7 @@ public class DistanceAttackAnimation : BoardAnimation {
                         character.SpecialAttack(particleAttack);
                         break;
                 }
+                character.AddKi(kiOnAttack);   
                 MonoBehaviour.Destroy(newGameObject);
             });
         }

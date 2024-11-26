@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 62816de6fccaf44fca913fb5d28d4186
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4213813145734294008
+    second: drgero_0
+  - first:
+      213: -408522276226461778
+    second: drgero_1
+  - first:
+      213: -7786682134808484756
+    second: drgero_2
+  - first:
+      213: -4399419152215652761
+    second: drgero_3
+  - first:
+      213: -3615421490889423120
+    second: drgero_4
+  - first:
+      213: 455900424800836269
+    second: drgero_5
+  - first:
+      213: -4505230529424026529
+    second: drgero_6
+  - first:
+      213: 564003592609152797
+    second: drgero_7
+  - first:
+      213: 4602156715216753403
+    second: drgero_8
+  - first:
+      213: -236734669075054502
+    second: drgero_9
+  - first:
+      213: 154966730075497096
+    second: drgero_10
+  - first:
+      213: 4333324402034875796
+    second: drgero_11
+  - first:
+      213: -3479409617884058758
+    second: drgero_12
+  - first:
+      213: 4755112654776063749
+    second: drgero_13
+  - first:
+      213: 4053692953447879873
+    second: drgero_14
+  - first:
+      213: 5175866925662916408
+    second: drgero_15
+  - first:
+      213: -3581767468994781008
+    second: drgero_16
+  - first:
+      213: 8748702077150605866
+    second: drgero_17
+  - first:
+      213: 2425614520823152099
+    second: drgero_18
+  - first:
+      213: -6854138709058439074
+    second: drgero_19
+  - first:
+      213: -7414383152435677671
+    second: drgero_20
+  - first:
+      213: 3503404717111881264
+    second: drgero_21
+  - first:
+      213: 3783638263444048542
+    second: drgero_22
+  - first:
+      213: 7645542114993666390
+    second: drgero_23
+  - first:
+      213: -4768859498292776019
+    second: drgero_24
+  - first:
+      213: -9104787841768534468
+    second: drgero_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: drgero_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 447
+        width: 26
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806d2aa05478585c0800000000000000
+      internalID: -4213813145734294008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 447
+        width: 26
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf00ba7723a45af0800000000000000
+      internalID: -408522276226461778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 447
+        width: 26
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c642cdf9ad520f390800000000000000
+      internalID: -7786682134808484756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_3
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 447
+        width: 25
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766c226179f12f2c0800000000000000
+      internalID: -4399419152215652761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 401
+        width: 43
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f609323f4173ddc0800000000000000
+      internalID: -3615421490889423120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_5
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 404
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa1439550fa35600800000000000000
+      internalID: 455900424800836269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 409
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f549f6604b43a71c0800000000000000
+      internalID: -4505230529424026529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 339
+        width: 31
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f338d774eb3d700800000000000000
+      internalID: 564003592609152797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_8
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 339
+        width: 39
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf25c2336252edf30800000000000000
+      internalID: 4602156715216753403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_9
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 339
+        width: 48
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5003cf9213f6bcf0800000000000000
+      internalID: -236734669075054502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_10
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 339
+        width: 47
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88267228b6d862200800000000000000
+      internalID: 154966730075497096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_11
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 281
+        width: 36
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d12dfa59f032c30800000000000000
+      internalID: 4333324402034875796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 282
+        width: 49
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b61f12367a6bfc0800000000000000
+      internalID: -3479409617884058758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_13
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 282
+        width: 47
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50754ee04cd8df140800000000000000
+      internalID: 4755112654776063749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 272
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4d3c6834c914830800000000000000
+      internalID: 4053692953447879873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_15
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 273
+        width: 38
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fc4d4cb8f54d740800000000000000
+      internalID: 5175866925662916408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_16
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 272
+        width: 34
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b02486c6710b4ec0800000000000000
+      internalID: -3581767468994781008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_17
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 204
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22b842cf22a96970800000000000000
+      internalID: 8748702077150605866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_18
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 202
+        width: 57
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed71b32e8389a120800000000000000
+      internalID: 2425614520823152099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_19
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 245
+        width: 11
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58315da82531e0a0800000000000000
+      internalID: -6854138709058439074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_20
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 226
+        width: 17
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9163e625ec1da1990800000000000000
+      internalID: -7414383152435677671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_21
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 204
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ea1e347089e9030800000000000000
+      internalID: 3503404717111881264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_22
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 204
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a882b34fe228430800000000000000
+      internalID: 3783638263444048542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_23
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 204
+        width: 37
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6597c77bb0c6a1a60800000000000000
+      internalID: 7645542114993666390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_24
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 208
+        width: 14
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3f2848d8b91ddb0800000000000000
+      internalID: -4768859498292776019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drgero_25
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 110
+        width: 210
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 77, y: 0, z: 74, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e471872bb45a180800000000000000
+      internalID: -9104787841768534468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e0f583a0dfa174158a00d0333703f447
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      drgero_0: -4213813145734294008
+      drgero_1: -408522276226461778
+      drgero_10: 154966730075497096
+      drgero_11: 4333324402034875796
+      drgero_12: -3479409617884058758
+      drgero_13: 4755112654776063749
+      drgero_14: 4053692953447879873
+      drgero_15: 5175866925662916408
+      drgero_16: -3581767468994781008
+      drgero_17: 8748702077150605866
+      drgero_18: 2425614520823152099
+      drgero_19: -6854138709058439074
+      drgero_2: -7786682134808484756
+      drgero_20: -7414383152435677671
+      drgero_21: 3503404717111881264
+      drgero_22: 3783638263444048542
+      drgero_23: 7645542114993666390
+      drgero_24: -4768859498292776019
+      drgero_25: -9104787841768534468
+      drgero_3: -4399419152215652761
+      drgero_4: -3615421490889423120
+      drgero_5: 455900424800836269
+      drgero_6: -4505230529424026529
+      drgero_7: 564003592609152797
+      drgero_8: 4602156715216753403
+      drgero_9: -236734669075054502
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
