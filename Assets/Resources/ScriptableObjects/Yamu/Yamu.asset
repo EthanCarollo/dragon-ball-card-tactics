@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
-  m_Name: Spopovitch
+  m_Name: Yamu
   m_EditorClassIdentifier: 
   id: 2
   starNumber: 1
-  characterName: Spopovitch
+  characterName: Yamu
   role: 1
   characterType: 0
-  characterSprite: {fileID: 3598841076461624188, guid: 4f3cf6f7002a54687868d857a3670f87, type: 3}
-  characterIcon: {fileID: 21300000, guid: ac16fedf9c9534b98bdd7817dcf9d3ab, type: 3}
+  characterSprite: {fileID: -1092997975313515031, guid: 55db636c3f6db4f1e9121c04be733498, type: 3}
+  characterIcon: {fileID: 21300000, guid: bcd0320b3f6654e2f81acacd487b04eb, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
   maxHealth: 1900
   maxKi: 75
@@ -28,13 +28,13 @@ MonoBehaviour:
   baseSpeed: 2
   baseAttackSpeed: 0.5
   baseCriticalChance: 10
-  idleAnimation: {fileID: 11400000, guid: fca5bd5bed7b247b184f47e4b82830fa, type: 2}
-  runAnimation: {fileID: 11400000, guid: 35da10b3a3e324d90a3e6bdaccef114b, type: 2}
-  attackAnimation: {fileID: 11400000, guid: 263e26a1890c94d84a84dcaa076952a2, type: 2}
-  criticalAttackAnimation: {fileID: 11400000, guid: 8d5b3b5fab7f94af3ba7052fea4271ac, type: 2}
+  idleAnimation: {fileID: 11400000, guid: eefc1a6533bfc416aadd422648f797e3, type: 2}
+  runAnimation: {fileID: 11400000, guid: 09ba482bb1ea14723bf019e52090441b, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 4db19c5e8a8e44790ab8949ffab4b52b, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: d6b7f471c226e4396beb82c6f2a4b4dd, type: 2}
   specialAttackAnimation:
   - name: Ki Blast
     description: The most basic form of energy blast.
-    animation: {fileID: 11400000, guid: 7c72d33a3f6554c8ca88a487c9a1b879, type: 2}
+    animation: {fileID: 11400000, guid: 5bf137ae244a14fe5a6cd64f7e721030, type: 2}
   deadAnimation: {fileID: 0}
   characterPassive: []

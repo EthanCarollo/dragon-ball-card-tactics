@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: 55db636c3f6db4f1e9121c04be733498
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1092997975313515031
+    second: yamu_0
+  - first:
+      213: 5122082548590804322
+    second: yamu_1
+  - first:
+      213: -6347833372186346130
+    second: yamu_2
+  - first:
+      213: 2205485086735672546
+    second: yamu_3
+  - first:
+      213: -7448045782181845395
+    second: yamu_4
+  - first:
+      213: 5780099826039614562
+    second: yamu_5
+  - first:
+      213: 1962507832979279938
+    second: yamu_6
+  - first:
+      213: 3025727649278006295
+    second: yamu_7
+  - first:
+      213: -4375487251865264510
+    second: yamu_8
+  - first:
+      213: -7274927526829401538
+    second: yamu_9
+  - first:
+      213: 5330831218805751394
+    second: yamu_10
+  - first:
+      213: -5837056714122936648
+    second: yamu_11
+  - first:
+      213: 7462769142275289031
+    second: yamu_12
+  - first:
+      213: -106484505040561553
+    second: yamu_13
+  - first:
+      213: 8743051783282352953
+    second: yamu_14
+  - first:
+      213: 601827324407065640
+    second: yamu_15
+  - first:
+      213: 3492099409619697803
+    second: yamu_16
+  - first:
+      213: 3321760019739788773
+    second: yamu_17
+  - first:
+      213: -6728275237517755400
+    second: yamu_18
+  - first:
+      213: -3978852198721393796
+    second: yamu_19
+  - first:
+      213: 3648998290628032378
+    second: yamu_20
+  - first:
+      213: -2783661164705564872
+    second: yamu_21
+  - first:
+      213: -2189809872255076053
+    second: yamu_22
+  - first:
+      213: -6162463724558362918
+    second: yamu_23
+  - first:
+      213: -3359046853609839520
+    second: yamu_24
+  - first:
+      213: 5669199245507849798
+    second: yamu_25
+  - first:
+      213: -1171696215422893582
+    second: yamu_26
+  - first:
+      213: 2061600416045578908
+    second: yamu_27
+  - first:
+      213: -6479440550248946385
+    second: yamu_28
+  - first:
+      213: 835682436201470079
+    second: yamu_29
+  - first:
+      213: 4641711840588415072
+    second: yamu_30
+  - first:
+      213: 6363280241658217770
+    second: yamu_31
+  - first:
+      213: -7521386132233149511
+    second: yamu_32
+  - first:
+      213: -5166000134989027625
+    second: yamu_33
+  - first:
+      213: -942344504308456602
+    second: yamu_34
+  - first:
+      213: -8566070050663753260
+    second: yamu_35
+  - first:
+      213: 7541551533404491817
+    second: yamu_36
+  - first:
+      213: 3134021537804841116
+    second: yamu_37
+  - first:
+      213: -7407369576321472670
+    second: yamu_38
+  - first:
+      213: 636248643563222505
+    second: yamu_39
+  - first:
+      213: -1136413205624600471
+    second: yamu_40
+  - first:
+      213: -5890082107023095908
+    second: yamu_41
+  - first:
+      213: -784769124412907678
+    second: yamu_42
+  - first:
+      213: 877228319966177586
+    second: yamu_43
+  - first:
+      213: -3374212806160858719
+    second: yamu_44
+  - first:
+      213: -509753662771448181
+    second: yamu_45
+  - first:
+      213: 2674874148080055697
+    second: yamu_46
+  - first:
+      213: -7587150148971033719
+    second: yamu_47
+  - first:
+      213: -2605208279899464116
+    second: yamu_48
+  - first:
+      213: -4335157516436739397
+    second: yamu_49
+  - first:
+      213: 3223434220009330024
+    second: yamu_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yamu_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 461
+        width: 23
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed7735e124e4d0f0800000000000000
+      internalID: -1092997975313515031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 461
+        width: 21
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d7bf2a0fa451740800000000000000
+      internalID: 5122082548590804322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 461
+        width: 33
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d76752e27f7e7a0800000000000000
+      internalID: -6347833372186346130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_3
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 463
+        width: 34
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e42d4050057b9e10800000000000000
+      internalID: 2205485086735672546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 463
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66643292d933a890800000000000000
+      internalID: -7448045782181845395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_5
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 463
+        width: 34
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c6361ea2a073050800000000000000
+      internalID: 5780099826039614562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_6
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 415
+        width: 40
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240d6ade97a3c3b10800000000000000
+      internalID: 1962507832979279938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_7
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 416
+        width: 52
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7141b4a144b8df920800000000000000
+      internalID: 3025727649278006295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_8
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 419
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e1259d6852743c0800000000000000
+      internalID: -4375487251865264510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 367
+        width: 42
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a5f9465f34a0b90800000000000000
+      internalID: -7274927526829401538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_10
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 367
+        width: 43
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26eba72efbaeaf940800000000000000
+      internalID: 5330831218805751394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_11
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 346
+        width: 33
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8beb4e438db9efea0800000000000000
+      internalID: -5837056714122936648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_12
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 346
+        width: 32
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfa016def4119760800000000000000
+      internalID: 7462769142275289031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_13
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 271
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a59f628e0b58ef0800000000000000
+      internalID: -106484505040561553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 271
+        width: 27
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933e363364f855970800000000000000
+      internalID: 8743051783282352953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_15
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 271
+        width: 49
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c286f43ce1a5800800000000000000
+      internalID: 601827324407065640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_16
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 270
+        width: 48
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80cbbe39ed667030800000000000000
+      internalID: 3492099409619697803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_17
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 220
+        width: 12
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e54fa57323491e20800000000000000
+      internalID: 3321760019739788773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_18
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 238
+        width: 19
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb72b4c15d50a2a0800000000000000
+      internalID: -6728275237517755400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_19
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 225
+        width: 12
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7bed61910748c8c0800000000000000
+      internalID: -3978852198721393796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_20
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 186
+        width: 27
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7734e2bc98d3a230800000000000000
+      internalID: 3648998290628032378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_21
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 199
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837bcae4be27e59d0800000000000000
+      internalID: -2783661164705564872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_22
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 198
+        width: 18
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29b796f58b3c91e0800000000000000
+      internalID: -2189809872255076053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_23
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 197
+        width: 49
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6d77484e78a7aa0800000000000000
+      internalID: -6162463724558362918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_24
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 231
+        width: 6
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06421b20fa44261d0800000000000000
+      internalID: -3359046853609839520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_25
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 185
+        width: 39
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e68655daa0dae40800000000000000
+      internalID: 5669199245507849798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_26
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 185
+        width: 40
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f18c0fff7c4dbfe0800000000000000
+      internalID: -1171696215422893582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_27
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 185
+        width: 42
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ab133d7a64c9c10800000000000000
+      internalID: 2061600416045578908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_28
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 185
+        width: 43
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25662b26276416a0800000000000000
+      internalID: -6479440550248946385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_29
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 205
+        width: 7
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7852d28fb0f89b00800000000000000
+      internalID: 835682436201470079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_30
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 202
+        width: 10
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0604fff735caa6040800000000000000
+      internalID: 4641711840588415072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_31
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 201
+        width: 13
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25cc4a6aa9ee4850800000000000000
+      internalID: 6363280241658217770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 124
+        width: 31
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3a1b9a92bae9790800000000000000
+      internalID: -7521386132233149511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_33
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 124
+        width: 31
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6eb547f3eae48b0800000000000000
+      internalID: -5166000134989027625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_34
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 124
+        width: 45
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66327a48aae1ce2f0800000000000000
+      internalID: -942344504308456602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_35
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 124
+        width: 43
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d913158ca43f1980800000000000000
+      internalID: -8566070050663753260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_36
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 124
+        width: 45
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92090eba929f8a860800000000000000
+      internalID: 7541551533404491817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_37
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 124
+        width: 32
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90f74fdbf74e7b20800000000000000
+      internalID: 3134021537804841116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_38
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 108
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267a253cd9cb33990800000000000000
+      internalID: -7407369576321472670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_39
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 135
+        width: 13
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5f86435c864d800800000000000000
+      internalID: 636248643563222505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_40
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 128
+        width: 12
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968cea0e536aa30f0800000000000000
+      internalID: -1136413205624600471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_41
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 136
+        width: 10
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c970109d789324ea0800000000000000
+      internalID: -5890082107023095908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_42
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 101
+        width: 17
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f9ca4a3a0fb15f0800000000000000
+      internalID: -784769124412907678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_43
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 119
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2392f7e528a8c2c00800000000000000
+      internalID: 877228319966177586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_44
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 114
+        width: 28
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1453484536c21d0800000000000000
+      internalID: -3374212806160858719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_45
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 117
+        width: 24
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86bd879ebdfce8f0800000000000000
+      internalID: -509753662771448181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_46
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 113
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195ff279ddf0f1520800000000000000
+      internalID: 2674874148080055697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_47
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 105
+        width: 10
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b8701532705b690800000000000000
+      internalID: -7587150148971033719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_48
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 109
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e9fa65fd078dbd0800000000000000
+      internalID: -2605208279899464116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_49
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 41
+        width: 268
+        height: 64
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 85, y: 0, z: 75, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba6c6b153d66d3c0800000000000000
+      internalID: -4335157516436739397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamu_50
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 100
+        width: 11
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8659e783850fbbc20800000000000000
+      internalID: 3223434220009330024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cfc54e28eb142407ab8f5744d873c4c7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      yamu_0: -1092997975313515031
+      yamu_1: 5122082548590804322
+      yamu_10: 5330831218805751394
+      yamu_11: -5837056714122936648
+      yamu_12: 7462769142275289031
+      yamu_13: -106484505040561553
+      yamu_14: 8743051783282352953
+      yamu_15: 601827324407065640
+      yamu_16: 3492099409619697803
+      yamu_17: 3321760019739788773
+      yamu_18: -6728275237517755400
+      yamu_19: -3978852198721393796
+      yamu_2: -6347833372186346130
+      yamu_20: 3648998290628032378
+      yamu_21: -2783661164705564872
+      yamu_22: -2189809872255076053
+      yamu_23: -6162463724558362918
+      yamu_24: -3359046853609839520
+      yamu_25: 5669199245507849798
+      yamu_26: -1171696215422893582
+      yamu_27: 2061600416045578908
+      yamu_28: -6479440550248946385
+      yamu_29: 835682436201470079
+      yamu_3: 2205485086735672546
+      yamu_30: 4641711840588415072
+      yamu_31: 6363280241658217770
+      yamu_32: -7521386132233149511
+      yamu_33: -5166000134989027625
+      yamu_34: -942344504308456602
+      yamu_35: -8566070050663753260
+      yamu_36: 7541551533404491817
+      yamu_37: 3134021537804841116
+      yamu_38: -7407369576321472670
+      yamu_39: 636248643563222505
+      yamu_4: -7448045782181845395
+      yamu_40: -1136413205624600471
+      yamu_41: -5890082107023095908
+      yamu_42: -784769124412907678
+      yamu_43: 877228319966177586
+      yamu_44: -3374212806160858719
+      yamu_45: -509753662771448181
+      yamu_46: 2674874148080055697
+      yamu_47: -7587150148971033719
+      yamu_48: -2605208279899464116
+      yamu_49: -4335157516436739397
+      yamu_5: 5780099826039614562
+      yamu_50: 3223434220009330024
+      yamu_6: 1962507832979279938
+      yamu_7: 3025727649278006295
+      yamu_8: -4375487251865264510
+      yamu_9: -7274927526829401538
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
