@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bfefa561a5c490cbc7b464bdfdad3a, type: 3}
+  m_Name: Critical Attack
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: -707882797882929915, guid: 901b1af9cb4f74951a7f79b08d7b1770, type: 3}
+    time: 0.2
+  - sprite: {fileID: 3127903238882587272, guid: 901b1af9cb4f74951a7f79b08d7b1770, type: 3}
+    time: 0.2
+  - sprite: {fileID: 454178329776871721, guid: 901b1af9cb4f74951a7f79b08d7b1770, type: 3}
+    time: 0.2
+  attackFrameIndex: 1
+  attackType: 0
+  particleAttack: {fileID: 0}
+  kiOnAttack: 10
+  isCinematic: 0

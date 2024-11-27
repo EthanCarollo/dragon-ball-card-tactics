@@ -73,5 +73,6 @@ public enum CharacterType
 public enum CharacterRole
 {
     DPS,
-    TANK
+    TANK,
+    SUPPORT
 }

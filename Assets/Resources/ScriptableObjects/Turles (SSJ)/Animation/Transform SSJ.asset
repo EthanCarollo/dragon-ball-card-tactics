@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55017e58dbbc4db1901c7554f19dc6a0, type: 3}
+  m_Name: Transform SSJ
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: -1980597576440855408, guid: 901b1af9cb4f74951a7f79b08d7b1770, type: 3}
+    time: 0.1
+  - sprite: {fileID: 1312175338660801405, guid: 901b1af9cb4f74951a7f79b08d7b1770, type: 3}
+    time: 0.1
+  - sprite: {fileID: -4850793512811482819, guid: 901b1af9cb4f74951a7f79b08d7b1770, type: 3}
+    time: 0.2
+  - sprite: {fileID: -4824157286561537787, guid: 901b1af9cb4f74951a7f79b08d7b1770, type: 3}
+    time: 0.2
+  - sprite: {fileID: -5971942051483776602, guid: 901b1af9cb4f74951a7f79b08d7b1770, type: 3}
+    time: 0.2
+  - sprite: {fileID: 362967805433712930, guid: 901b1af9cb4f74951a7f79b08d7b1770, type: 3}
+    time: 0.2
+  - sprite: {fileID: 6482369591958005606, guid: 901b1af9cb4f74951a7f79b08d7b1770, type: 3}
+    time: 0.2
+  - sprite: {fileID: 990257293748035240, guid: 901b1af9cb4f74951a7f79b08d7b1770, type: 3}
+    time: 0.4
+  newCharacterData: {fileID: 11400000, guid: 3b513bf3c304a374fa471b4bf8ba9f18, type: 2}
