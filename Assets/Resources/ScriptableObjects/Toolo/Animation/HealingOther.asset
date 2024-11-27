@@ -12,7 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77423dede535457380806bf02b7c05e0, type: 3}
   m_Name: HealingOther
   m_EditorClassIdentifier: 
-  frameSprites: []
-  attackFrameIndex: 0
+  frameSprites:
+  - sprite: {fileID: -6435716790407437766, guid: 800094b4d5fdb2c4e9ec614231e4bc64, type: 3}
+    time: 0.2
+  - sprite: {fileID: 5352038375129974673, guid: 800094b4d5fdb2c4e9ec614231e4bc64, type: 3}
+    time: 0.2
+  - sprite: {fileID: 311749881292064384, guid: 800094b4d5fdb2c4e9ec614231e4bc64, type: 3}
+    time: 0.2
+  - sprite: {fileID: -7322633364949206838, guid: 800094b4d5fdb2c4e9ec614231e4bc64, type: 3}
+    time: 0.2
+  - sprite: {fileID: 31482157626560300, guid: 800094b4d5fdb2c4e9ec614231e4bc64, type: 3}
+    time: 0.2
+  attackFrameIndex: 3
   attackType: 0
   particleAttack: {fileID: 0}

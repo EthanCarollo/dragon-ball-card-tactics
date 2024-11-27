@@ -63,6 +63,7 @@ public class FightBoard : Board
                 var tileScript = tile.AddComponent<TileBehaviour>();
                 tileScript.assignedBoard = this;
                 tileScript.position = new Vector2Int(x, y);
+                tile.transform.localScale = new Vector3(0.9f, 0.9f, 1);
                 tile.name = $"Tile {x},{y}";
                 BoardArray[x, y] = tile;
             }

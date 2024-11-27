@@ -86,7 +86,7 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
                     this.assignedBoard.AddCharacterFromBoard(characterScript.boardCharacter, this.position);
                     characterScript.assignedBoard.CreateBoard();
                     this.assignedBoard.CreateBoard();
-                    // TODO : Implement swap logics here   
+                    return;
                 }
             }
         }

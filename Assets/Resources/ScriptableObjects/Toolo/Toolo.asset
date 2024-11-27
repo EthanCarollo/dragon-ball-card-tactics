@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Toolo
   m_EditorClassIdentifier: 
-  id: 2
+  id: 38
   starNumber: 1
   characterName: Toolo
-  role: 0
+  role: 2
   characterType: 3
   characterSprite: {fileID: -8355012495218826501, guid: 800094b4d5fdb2c4e9ec614231e4bc64, type: 3}
   characterIcon: {fileID: 21300000, guid: 3557ed1155d29b944b3866d196590815, type: 3}
@@ -28,13 +28,13 @@ MonoBehaviour:
   baseSpeed: 2
   baseAttackSpeed: 0.7
   baseCriticalChance: 10
-  idleAnimation: {fileID: 11400000, guid: fbba16538211ae74ba8de4f9f9b92197, type: 2}
-  runAnimation: {fileID: 11400000, guid: 9d19ff9085547d049b4cc4256f4b1df8, type: 2}
-  attackAnimation: {fileID: 11400000, guid: e0446bacbc0bac947a0f5d959f48eac2, type: 2}
-  criticalAttackAnimation: {fileID: 11400000, guid: e0446bacbc0bac947a0f5d959f48eac2, type: 2}
+  idleAnimation: {fileID: 11400000, guid: 39b85dfdd65fa3f40b403632bb5a3694, type: 2}
+  runAnimation: {fileID: 11400000, guid: 2ca24ed96780d1e4ca31c529e3a64044, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 8d4074b2a4c0f73459e06bcbdf149139, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 8d4074b2a4c0f73459e06bcbdf149139, type: 2}
   specialAttackAnimation:
-  - name: 
-    description: 
-    animation: {fileID: 11400000, guid: e0446bacbc0bac947a0f5d959f48eac2, type: 2}
+  - name: Healing Other
+    description: Heal every other character of a 20% of their lifes
+    animation: {fileID: 11400000, guid: 2d50490320860ae439bb8db436f8e945, type: 2}
   deadAnimation: {fileID: 0}
   characterPassive: []
