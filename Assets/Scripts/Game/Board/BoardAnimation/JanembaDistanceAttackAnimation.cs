@@ -16,6 +16,7 @@ public class JanembaDistanceAttackAnimation : BoardAnimation {
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         character.isAnimating = true;
+        var target = character.GetCharacterTarget();
         var index = 0;
         
         foreach (FrameSprite frameSprite in frameSprites)
@@ -40,7 +41,7 @@ public class JanembaDistanceAttackAnimation : BoardAnimation {
                     yield return new WaitForSeconds(handFrameSprite.time);
                     if (handIndex == launchProjectHandIndex)
                     {
-                        LaunchAttack(character, handObject.transform.position);
+                        LaunchAttack(character, handObject.transform.position, target);
                     }
                     handIndex++;
                 }
@@ -53,7 +54,7 @@ public class JanembaDistanceAttackAnimation : BoardAnimation {
         character.isAnimating = false;
     }
 
-    private void LaunchAttack(BoardCharacter character, Vector3 fromPosition){
+    private void LaunchAttack(BoardCharacter character, Vector3 fromPosition, BoardCharacter target){
         
         GameObject newGameObject = new GameObject("Projectile");
         SpriteRenderer spriteRenderer = newGameObject.AddComponent<SpriteRenderer>();
@@ -72,13 +73,13 @@ public class JanembaDistanceAttackAnimation : BoardAnimation {
                 switch (attackType)
                 {
                     case AttackType.Normal :
-                        character.Attack(particleAttack);
+                        character.Attack(1, particleAttack, target);
                         break;
                     case AttackType.Critical :
-                        character.CriticalAttack(particleAttack);
+                        character.Attack(2, particleAttack, target);
                         break;
                     case AttackType.Special :
-                        character.SpecialAttack(particleAttack);
+                        character.Attack(4, particleAttack, target);
                         break;
                 }
                 MonoBehaviour.Destroy(newGameObject);

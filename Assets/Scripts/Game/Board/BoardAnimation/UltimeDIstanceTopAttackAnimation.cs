@@ -15,7 +15,7 @@ public class UltimeDistanceTopAttackAnimation : BoardAnimation {
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         CameraScript.Instance.SetupCameraOnTarget(4.5f, character.gameObject.transform);
-        var target = character.GetCharacterTarget().gameObject.transform;
+        var target = character.GetCharacterTarget();
         if (character.board is FightBoard fightBoard)
         {
             fightBoard.LaunchCinematic(character);
@@ -51,7 +51,7 @@ public class UltimeDistanceTopAttackAnimation : BoardAnimation {
         CameraScript.Instance.SetupNormalCamera();
     }
 
-    private void LaunchAttack(BoardCharacter character, Transform target){
+    private void LaunchAttack(BoardCharacter character, BoardCharacter target){
         GameObject newGameObject = new GameObject("Projectile");
         SpriteRenderer spriteRenderer = newGameObject.AddComponent<SpriteRenderer>();
         spriteRenderer.sprite = projectile;
@@ -64,18 +64,18 @@ public class UltimeDistanceTopAttackAnimation : BoardAnimation {
         
         try
         {
-            LeanTween.move(newGameObject, target.position + new Vector3(0, 0.5f), 0.15f)
+            LeanTween.move(newGameObject, target.gameObject.transform.position + new Vector3(0, 0.5f), 0.15f)
             .setOnComplete(() => {
                 switch (attackType)
                 {
                     case AttackType.Normal :
-                        character.Attack(particleAttack);
+                        character.Attack(1, particleAttack, target);
                         break;
                     case AttackType.Critical :
-                        character.CriticalAttack(particleAttack);
+                        character.Attack(2, particleAttack, target);
                         break;
                     case AttackType.Special :
-                        character.SpecialAttack(particleAttack);
+                        character.Attack(4, particleAttack, target);
                         break;
                 }
                 MonoBehaviour.Destroy(newGameObject);

@@ -80,7 +80,7 @@ public class BoardCharacter : BoardObject
         state.Update();
     }
 
-    public void Attack(Particle particle = null)
+    public void Attack(int multiplicator, Particle particle, BoardCharacter target)
     {
         if (character.IsDead() || GetCharacterTarget() == null)
         {
@@ -89,31 +89,11 @@ public class BoardCharacter : BoardObject
         if (particle != null) {
             particle.StartParticle(GetCharacterTarget().gameObject.transform.position);
         }
-        GetCharacterTarget().HitDamage(character.GetAttackDamage());
-    }
 
-    public void CriticalAttack(Particle particle = null)
-    {
-        if (character.IsDead() || GetCharacterTarget() == null)
+        if (target != null)
         {
-            return;
+            target.HitDamage(character.GetAttackDamage() * multiplicator);
         }
-        if (particle != null) {
-            particle.StartParticle(GetCharacterTarget().gameObject.transform.position);
-        }
-        GetCharacterTarget().HitDamage(character.GetAttackDamage() * 2);
-    }
-
-    public void SpecialAttack(Particle particle = null)
-    {
-        if (character.IsDead() || GetCharacterTarget() == null)
-        {
-            return;
-        }
-        if (particle != null) {
-            particle.StartParticle(GetCharacterTarget().gameObject.transform.position);
-        }
-        GetCharacterTarget().HitDamage(character.GetAttackDamage());
     }
 
     public bool CanKikoha()

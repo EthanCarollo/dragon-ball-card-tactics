@@ -14,6 +14,8 @@ public class DistanceAttackAnimation : BoardAnimation {
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
+        var target = character.GetCharacterTarget();
+        
         character.isAnimating = true;
         var index = 0;
         foreach (FrameSprite frameSprite in frameSprites)
@@ -21,14 +23,14 @@ public class DistanceAttackAnimation : BoardAnimation {
             character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = frameSprite.sprite;
             yield return new WaitForSeconds(frameSprite.time); 
             if(index == attackFrameIndex){
-                LaunchAttack(character);
+                LaunchAttack(character, target);
             }
             index++;
         }
         character.isAnimating = false;
     }
 
-    private void LaunchAttack(BoardCharacter character){
+    private void LaunchAttack(BoardCharacter character, BoardCharacter target){
         GameObject newGameObject = new GameObject("Projectile");
         SpriteRenderer spriteRenderer = newGameObject.AddComponent<SpriteRenderer>();
         spriteRenderer.sprite = projectile;
@@ -42,18 +44,18 @@ public class DistanceAttackAnimation : BoardAnimation {
 
         try
         {
-            LeanTween.move(newGameObject, character.GetCharacterTarget().gameObject.transform.position + new Vector3(0, 0.5f), 0.1f)
+            LeanTween.move(newGameObject, target.gameObject.transform.position + new Vector3(0, 0.5f), 0.1f)
             .setOnComplete(() => {
                 switch (attackType)
                 {
                     case AttackType.Normal :
-                        character.Attack(particleAttack);
+                        character.Attack(1, particleAttack, target);
                         break;
                     case AttackType.Critical :
-                        character.CriticalAttack(particleAttack);
+                        character.Attack(2, particleAttack, target);
                         break;
                     case AttackType.Special :
-                        character.SpecialAttack(particleAttack);
+                        character.Attack(4, particleAttack, target);
                         break;
                 }
                 character.AddKi(kiOnAttack);   

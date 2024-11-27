@@ -11,9 +11,17 @@ public class AttackAnimation : BoardAnimation
     public AttackType attackType;
     public Particle particleAttack;
     public int kiOnAttack = 10;
+    public bool isCinematic = false;
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
+        var target = character.GetCharacterTarget();
+        if (character.board is FightBoard fightBoard && isCinematic)
+        {
+            fightBoard.LaunchCinematic(character);
+            CameraScript.Instance.SetupCameraOnTarget(4.5f, character.gameObject.transform);
+        }
+        
         character.isAnimating = true;
         var index = 0;
         foreach (FrameSprite frameSprite in frameSprites)
@@ -25,18 +33,24 @@ public class AttackAnimation : BoardAnimation
                 switch (attackType)
                 {
                     case AttackType.Normal :
-                        character.Attack(particleAttack);
+                        character.Attack(1, particleAttack, target);
                         break;
                     case AttackType.Critical :
-                        character.CriticalAttack(particleAttack);
+                        character.Attack(2, particleAttack, target);
                         break;
                     case AttackType.Special :
-                        character.SpecialAttack(particleAttack);
+                        character.Attack(4, particleAttack, target);
                         break;
                 }
             }
             index++;
         }
         character.isAnimating = false;
+        
+        if (character.board is FightBoard fightBoard2 && isCinematic)
+        {
+            fightBoard2.EndCinematic();
+            CameraScript.Instance.SetupNormalCamera();
+        }
     }
 }
