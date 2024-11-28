@@ -25,7 +25,6 @@ public class CharacterData : ScriptableObject
     public int baseArmor = 25;
     public int baseSpeed = 2;
     public float baseAttackSpeed = 0.5f;
-    // baseCriticalChance is a percentage
     public int baseCriticalChance = 10;
 
     public BoardAnimation idleAnimation;
