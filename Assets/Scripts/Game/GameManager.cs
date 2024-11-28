@@ -1,4 +1,5 @@
 ﻿
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager
@@ -22,6 +23,7 @@ public class GameManager
     
     public BoardObject[] boardUsableCharacterArray;
     public BoardObject[,] boardCharacterArray;
+    public List<Card> PlayerCards = new List<Card>();
     public CharacterInventory characterInventory;
     public CampaignManager campaignManager;
     public Galaxy actualGalaxy;
@@ -55,9 +57,21 @@ public class GameManager
         }
     }
 
+    public void AddCard(Card card){
+        PlayerCards.Add(card);
+    }
+
+    public void SetupCard(){
+        
+    }
+
     public void SetupCampaign(CampaignContainer campaign, CharacterContainer[] charContainerForFight){
         actualCampaignLevel = 0;
         actualCampaign = campaign;
+        foreach (var characterContainer in charContainerForFight)
+        {
+            AddCard(characterContainer.GetCharacterData().card);
+        }
         SetupGameBoardForLevel(actualCampaign.GetActualCampaign().levels[actualCampaignLevel], charContainerForFight);
         FightBoard.Instance.CreateBoard();
         VerticalBoard.Instance.CreateBoard();
