@@ -13,8 +13,7 @@ public class TileBehaviour : MonoBehaviour
     
     public void Update()
     {
-        if (CharacterDragInfo.draggedObject != null && position.x <= 4 || 
-            CharacterDragInfo.draggedObject != null && assignedBoard is VerticalBoard)
+        if (CharacterDragInfo.draggedObject != null && position.x <= 4)
         {
             GetComponentInChildren<SpriteRenderer>().color = new Color(0f, 1f, 0f, 0.2f);
         }

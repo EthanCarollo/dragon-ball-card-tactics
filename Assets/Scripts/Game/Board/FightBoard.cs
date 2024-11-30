@@ -6,7 +6,6 @@ public class FightBoard : Board
 {
     public static FightBoard Instance;
     public GameObject tilePrefab;  
-    public GameObject[,] BoardArray;
     public BoardState state;
     float _tileWidth = 1.0f;
     float _tileHeight = 1.0f;

@@ -54,7 +54,7 @@ public class CharacterCard : Card
             {
                 TileBehaviour tileScript = hit.collider.GetComponent<TileBehaviour>();
 
-                if (tileScript.position.x > 4 && tileScript.assignedBoard is not VerticalBoard)
+                if (tileScript.position.x > 4)
                 {
                     return;
                 }

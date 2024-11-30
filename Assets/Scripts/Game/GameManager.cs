@@ -22,7 +22,6 @@ public class GameManager
         }
     }
     
-    public BoardObject[] boardUsableCharacterArray;
     public BoardObject[,] boardCharacterArray;
     public CharacterInventory characterInventory;
     public CampaignManager campaignManager;
@@ -44,9 +43,6 @@ public class GameManager
         campaignManager = new CampaignManager();
         
         boardCharacterArray = new BoardObject[BoardWidth, BoardHeight];
-        // TODO : add a global config value for the board object outside of the fight board "the reserve"
-        // TODO : cause actually it's the value in vertical board lol
-        boardUsableCharacterArray = new BoardObject[8]; 
     }
 
     public void SetupGalaxy(Galaxy galaxy)
@@ -93,7 +89,6 @@ public class GameManager
         SetupCard();
         SetupGameBoardForLevel(actualCampaign.GetActualCampaign().levels[actualCampaignLevel]);
         FightBoard.Instance.CreateBoard();
-        VerticalBoard.Instance.CreateBoard();
     }
 
     public void GoNextLevel(){
@@ -110,7 +105,6 @@ public class GameManager
         }
         SetupGameBoardForLevel(actualCampaign.GetActualCampaign().levels[actualCampaignLevel]);
         FightBoard.Instance.CreateBoard();
-        VerticalBoard.Instance.CreateBoard();
     }
 
     public void SetupGameBoardForLevel(Level level)

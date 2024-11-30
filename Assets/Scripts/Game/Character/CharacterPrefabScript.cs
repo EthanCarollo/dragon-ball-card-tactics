@@ -59,34 +59,19 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
             if (hit.collider != null)
             {
                 TileBehaviour tileScript = hit.collider.GetComponent<TileBehaviour>();
-                
-                CharacterPrefabScript characterScript = hit.collider.GetComponentInChildren<CharacterPrefabScript>();
 
-                if (characterScript != null)
-                {
-                    Debug.Log(characterScript);
-                    this.assignedBoard.RemoveCharacterFromBoard(boardCharacter);
-                    characterScript.assignedBoard.RemoveCharacterFromBoard(characterScript.boardCharacter);
-                    
-                    characterScript.assignedBoard.AddCharacterFromBoard(boardCharacter, characterScript.position);
-                    this.assignedBoard.AddCharacterFromBoard(characterScript.boardCharacter, this.position);
-                    characterScript.assignedBoard.CreateBoard();
-                    this.assignedBoard.CreateBoard();
-                    return;
-                }
-
-                if (tileScript.position.x > 4 && tileScript.assignedBoard is not VerticalBoard)
+                if (tileScript == null || tileScript.position.x > 4)
                 {
                     return;
                 }
                 
                 if (tileScript != null)
                 {
-                    boardCharacter.board.RemoveCharacterFromBoard(boardCharacter);
-                    tileScript.assignedBoard.AddCharacterFromBoard(boardCharacter, tileScript.position);
+                    var characterFrom =
+                        GameManager.Instance.boardCharacterArray[tileScript.position.x, tileScript.position.y];
+                    GameManager.Instance.boardCharacterArray[tileScript.position.x, tileScript.position.y] = boardCharacter;
+                    GameManager.Instance.boardCharacterArray[position.x, position.y] = characterFrom;
                     boardCharacter.board.CreateBoard();
-                    tileScript.assignedBoard.CreateBoard();
-                    return;
                 }
             }
         }

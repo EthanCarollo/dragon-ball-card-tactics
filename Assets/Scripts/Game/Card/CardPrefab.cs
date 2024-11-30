@@ -4,13 +4,15 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class CardPrefab : MonoBehaviour, IDragHandler, IEndDragHandler {
-    public Image characterImage;
-    public TextMeshProUGUI characterName;
+    public Image cardImage;
+    public TextMeshProUGUI cardName;
+    public TextMeshProUGUI cardMana;
     private Card card;
     
     public void SetupCard(Card card){
-        characterImage.sprite = card.image;
-        characterName.text = card.name;
+        cardImage.sprite = card.image;
+        cardName.text = card.name;
+        cardMana.text = card.manaCost.ToString();
         this.card = card;
     }
 
