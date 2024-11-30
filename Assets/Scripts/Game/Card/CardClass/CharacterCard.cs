@@ -59,8 +59,17 @@ public class CharacterCard : Card
                     return;
                 }
                 
+                CharacterPrefabScript characterScript = hit.collider.GetComponentInChildren<CharacterPrefabScript>();
+
+                if (characterScript != null)
+                {
+                    return;
+                }
+
                 if (tileScript != null)
                 {
+                    tileScript.assignedBoard.AddCharacterFromBoard(new BoardCharacter(character, true), tileScript.position);
+                    GameManager.Instance.RemoveCard(this);
                     tileScript.assignedBoard.CreateBoard();
                     return;
                 }

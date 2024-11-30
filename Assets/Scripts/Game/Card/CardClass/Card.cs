@@ -3,7 +3,9 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 [Serializable]
-public abstract class Card{
+public abstract class Card
+{
+    public int manaCost = 1;
     public string name;
     public Sprite image;
     public abstract void UseCard();

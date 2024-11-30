@@ -59,20 +59,6 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
             if (hit.collider != null)
             {
                 TileBehaviour tileScript = hit.collider.GetComponent<TileBehaviour>();
-
-                if (tileScript.position.x > 4 && tileScript.assignedBoard is not VerticalBoard)
-                {
-                    return;
-                }
-                
-                if (tileScript != null)
-                {
-                    boardCharacter.board.RemoveCharacterFromBoard(boardCharacter);
-                    tileScript.assignedBoard.AddCharacterFromBoard(boardCharacter, tileScript.position);
-                    boardCharacter.board.CreateBoard();
-                    tileScript.assignedBoard.CreateBoard();
-                    return;
-                }
                 
                 CharacterPrefabScript characterScript = hit.collider.GetComponentInChildren<CharacterPrefabScript>();
 
@@ -86,6 +72,20 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
                     this.assignedBoard.AddCharacterFromBoard(characterScript.boardCharacter, this.position);
                     characterScript.assignedBoard.CreateBoard();
                     this.assignedBoard.CreateBoard();
+                    return;
+                }
+
+                if (tileScript.position.x > 4 && tileScript.assignedBoard is not VerticalBoard)
+                {
+                    return;
+                }
+                
+                if (tileScript != null)
+                {
+                    boardCharacter.board.RemoveCharacterFromBoard(boardCharacter);
+                    tileScript.assignedBoard.AddCharacterFromBoard(boardCharacter, tileScript.position);
+                    boardCharacter.board.CreateBoard();
+                    tileScript.assignedBoard.CreateBoard();
                     return;
                 }
             }

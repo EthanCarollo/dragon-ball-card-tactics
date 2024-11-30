@@ -24,7 +24,6 @@ public class GameManager
     
     public BoardObject[] boardUsableCharacterArray;
     public BoardObject[,] boardCharacterArray;
-    public List<Card> PlayerCards = new List<Card>();
     public CharacterInventory characterInventory;
     public CampaignManager campaignManager;
     public Galaxy actualGalaxy;
@@ -33,6 +32,7 @@ public class GameManager
     public CampaignContainer actualCampaign;
     public int actualCampaignLevel = 0;
 
+    public List<Card> PlayerCards = new List<Card>();
     public int CurrentMana = 1;
     public int MaxMana = 1;
 
@@ -58,8 +58,20 @@ public class GameManager
         }
     }
 
+    public void SetupCard()
+    {
+        CardUi.Instance.SetupCardUi(PlayerCards);
+    }
+
     public void AddCard(Card card){
         PlayerCards.Add(card);
+        SetupCard();
+    }
+
+    public void RemoveCard(Card card)
+    {
+        PlayerCards.Remove(card);
+        SetupCard();
     }
 
     public void SetupCampaign(CampaignContainer campaign, CharacterContainer[] charContainerForFight){
@@ -69,7 +81,7 @@ public class GameManager
         {
             AddCard(characterContainer.GetCharacterData().card);
         }
-        List<Card> cards = charContainerForFight.Select((characterContainer) =>
+        PlayerCards = charContainerForFight.Select((characterContainer) =>
             {
                 characterContainer.GetCharacterData().card.name = characterContainer.GetCharacterData().name;
                 characterContainer.GetCharacterData().card.image =
@@ -78,7 +90,7 @@ public class GameManager
                     characterContainer;
                 return characterContainer.GetCharacterData().card;
             }).Cast<Card>().ToList();
-        CardUi.Instance.SetupCardUi(cards);
+        SetupCard();
         SetupGameBoardForLevel(actualCampaign.GetActualCampaign().levels[actualCampaignLevel]);
         FightBoard.Instance.CreateBoard();
         VerticalBoard.Instance.CreateBoard();

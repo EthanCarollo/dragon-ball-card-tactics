@@ -10,7 +10,7 @@ public class CardPrefab : MonoBehaviour, IDragHandler, IEndDragHandler {
     
     public void SetupCard(Card card){
         characterImage.sprite = card.image;
-        characterName.name = card.name;
+        characterName.text = card.name;
         this.card = card;
     }
 
