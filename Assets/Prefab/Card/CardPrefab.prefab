@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4619722452482955858}
   - component: {fileID: 9206463613299722491}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: CardName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92,12 +92,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 42.1
   m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 42.1
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -321,8 +321,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -138.58643}
-  m_SizeDelta: {x: 0, y: -277.1729}
+  m_AnchoredPosition: {x: 0, y: -95.08783}
+  m_SizeDelta: {x: 0, y: -190.1757}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6641659756974164722
 CanvasRenderer:
@@ -401,7 +401,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -200}
-  m_SizeDelta: {x: 275, y: 350}
+  m_SizeDelta: {x: 200, y: 250}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &7423396284186785581
 CanvasRenderer:
@@ -454,4 +454,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterImage: {fileID: 4023236157811489390}
-  characterName: {fileID: 0}
+  characterName: {fileID: 9206463613299722491}

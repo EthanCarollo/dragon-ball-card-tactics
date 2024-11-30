@@ -1,17 +1,31 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class CardPrefab : MonoBehaviour {
+public class CardPrefab : MonoBehaviour, IDragHandler, IEndDragHandler {
     public Image characterImage;
     public TextMeshProUGUI characterName;
-
-    public void SetupCard(CharacterContainer character){
-        characterImage.sprite = character.GetCharacterData().characterSprite;
-        characterName.name = character.GetCharacterData().name;
+    private Card card;
+    
+    public void SetupCard(Card card){
+        characterImage.sprite = card.image;
+        characterName.name = card.name;
+        this.card = card;
     }
 
     public void UseCard(){
         
+    }
+    
+    
+    public void OnDrag(PointerEventData eventData)
+    {
+        card.OnDrag(eventData);
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        card.OnEndDrag(eventData);
     }
 }

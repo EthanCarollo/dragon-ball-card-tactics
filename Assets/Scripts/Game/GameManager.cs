@@ -1,6 +1,7 @@
 ﻿
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class GameManager
 {
@@ -61,10 +62,6 @@ public class GameManager
         PlayerCards.Add(card);
     }
 
-    public void SetupCard(){
-        
-    }
-
     public void SetupCampaign(CampaignContainer campaign, CharacterContainer[] charContainerForFight){
         actualCampaignLevel = 0;
         actualCampaign = campaign;
@@ -72,7 +69,17 @@ public class GameManager
         {
             AddCard(characterContainer.GetCharacterData().card);
         }
-        SetupGameBoardForLevel(actualCampaign.GetActualCampaign().levels[actualCampaignLevel], charContainerForFight);
+        List<Card> cards = charContainerForFight.Select((characterContainer) =>
+            {
+                characterContainer.GetCharacterData().card.name = characterContainer.GetCharacterData().name;
+                characterContainer.GetCharacterData().card.image =
+                    characterContainer.GetCharacterData().characterSprite;
+                characterContainer.GetCharacterData().card.character =
+                    characterContainer;
+                return characterContainer.GetCharacterData().card;
+            }).Cast<Card>().ToList();
+        CardUi.Instance.SetupCardUi(cards);
+        SetupGameBoardForLevel(actualCampaign.GetActualCampaign().levels[actualCampaignLevel]);
         FightBoard.Instance.CreateBoard();
         VerticalBoard.Instance.CreateBoard();
     }
@@ -94,7 +101,7 @@ public class GameManager
         VerticalBoard.Instance.CreateBoard();
     }
 
-    public void SetupGameBoardForLevel(Level level, CharacterContainer[] playerCharacter = null)
+    public void SetupGameBoardForLevel(Level level)
     {
         // Clean board before going on level.
         for (int x = 0; x < boardCharacterArray.GetLength(0); x++)
@@ -114,12 +121,6 @@ public class GameManager
             var characterContainer = new CharacterContainer(child.character.id);
             characterContainer.unlockedPassives = child.unlockPassive;
             boardCharacterArray[child.position.x, child.position.y] = new BoardCharacter(characterContainer, false);
-        }
-
-        if(playerCharacter == null) return;
-        for (int i = 0; i < playerCharacter.Length; i++)
-        {
-            boardUsableCharacterArray[i] = new BoardCharacter(playerCharacter[i], true);
         }
         
         DialogManager.Instance.SetupDialog(level.StartDialog);

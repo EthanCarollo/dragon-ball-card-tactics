@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: d6f3d451363ee1b4bae47969cd2821ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4645366349483519558
+    second: vegeta-majin_0
+  - first:
+      213: -1362309438851340206
+    second: vegeta-majin_1
+  - first:
+      213: -6020924763309011557
+    second: vegeta-majin_2
+  - first:
+      213: -4274962193280788789
+    second: vegeta-majin_3
+  - first:
+      213: -8304821291061162844
+    second: vegeta-majin_4
+  - first:
+      213: 2406837415695807907
+    second: vegeta-majin_5
+  - first:
+      213: -7464131899324179157
+    second: vegeta-majin_6
+  - first:
+      213: -2417970157532922436
+    second: vegeta-majin_7
+  - first:
+      213: 1042472932357671085
+    second: vegeta-majin_8
+  - first:
+      213: 1490166494482595534
+    second: vegeta-majin_9
+  - first:
+      213: 7966399686377361900
+    second: vegeta-majin_10
+  - first:
+      213: -2375719609453097433
+    second: vegeta-majin_11
+  - first:
+      213: 1293432418499840543
+    second: vegeta-majin_12
+  - first:
+      213: -5470987310687873902
+    second: vegeta-majin_13
+  - first:
+      213: 28253835320995880
+    second: vegeta-majin_14
+  - first:
+      213: 7933589894243996531
+    second: vegeta-majin_15
+  - first:
+      213: 8115633835069911299
+    second: vegeta-majin_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vegeta-majin_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 450
+        width: 35
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab15b77dae7588fb0800000000000000
+      internalID: -4645366349483519558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-majin_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 450
+        width: 30
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258aa1f78ca181de0800000000000000
+      internalID: -1362309438851340206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-majin_2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 453
+        width: 28
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d0d97f3d0617ca0800000000000000
+      internalID: -6020924763309011557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-majin_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 396
+        width: 54
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc61641f8884ca4c0800000000000000
+      internalID: -4274962193280788789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-majin_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 403
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acc23f59095fbc80800000000000000
+      internalID: -8304821291061162844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-majin_5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 406
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5faaaa0edc66120800000000000000
+      internalID: 2406837415695807907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-majin_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 321
+        width: 69
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2dde1095931a6890800000000000000
+      internalID: -7464131899324179157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-majin_7
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 321
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd31c2e3f4a17ed0800000000000000
+      internalID: -2417970157532922436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-majin_8
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 321
+        width: 33
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da88325db9b977e00800000000000000
+      internalID: 1042472932357671085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-majin_9
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 325
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecef2df08822ea410800000000000000
+      internalID: 1490166494482595534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-majin_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 325
+        width: 48
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce15e459e465e8e60800000000000000
+      internalID: 7966399686377361900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-majin_11
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 325
+        width: 50
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e4e903a9fb70fd0800000000000000
+      internalID: -2375719609453097433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-majin_12
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 332
+        width: 34
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a48a58ee133f110800000000000000
+      internalID: 1293432418499840543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-majin_13
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 330
+        width: 49
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29497c707062314b0800000000000000
+      internalID: -5470987310687873902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-majin_14
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 261
+        width: 33
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820b9d9a6b0646000800000000000000
+      internalID: 28253835320995880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-majin_15
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 261
+        width: 40
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373da0099f5c91e60800000000000000
+      internalID: 7933589894243996531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-majin_16
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 261
+        width: 42
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301bb7a79f580a070800000000000000
+      internalID: 8115633835069911299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e379987acb2beb6488f90895e29e2e34
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vegeta-majin_0: -4645366349483519558
+      vegeta-majin_1: -1362309438851340206
+      vegeta-majin_10: 7966399686377361900
+      vegeta-majin_11: -2375719609453097433
+      vegeta-majin_12: 1293432418499840543
+      vegeta-majin_13: -5470987310687873902
+      vegeta-majin_14: 28253835320995880
+      vegeta-majin_15: 7933589894243996531
+      vegeta-majin_16: 8115633835069911299
+      vegeta-majin_2: -6020924763309011557
+      vegeta-majin_3: -4274962193280788789
+      vegeta-majin_4: -8304821291061162844
+      vegeta-majin_5: 2406837415695807907
+      vegeta-majin_6: -7464131899324179157
+      vegeta-majin_7: -2417970157532922436
+      vegeta-majin_8: 1042472932357671085
+      vegeta-majin_9: 1490166494482595534
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

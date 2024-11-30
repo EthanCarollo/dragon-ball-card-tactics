@@ -12,8 +12,13 @@ public class CardUi : MonoBehaviour {
     }
 
     public void SetupCardUi(List<Card> cards){
+        foreach (Transform child in cardContainer.transform)
+        {
+            Destroy(child.gameObject);
+        }
         foreach(Card card in cards){
-
+            GameObject cardObject = Instantiate(cardPrefab, cardContainer.transform);
+            cardObject.GetComponent<CardPrefab>().SetupCard(card);
         }
     }
 }
