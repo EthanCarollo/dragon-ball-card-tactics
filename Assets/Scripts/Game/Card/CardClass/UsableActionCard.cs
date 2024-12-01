@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public abstract class UsableActionCard : Card
 {
+    protected abstract bool CanUseAction();
     public override void OnDrag(PointerEventData eventData)
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
