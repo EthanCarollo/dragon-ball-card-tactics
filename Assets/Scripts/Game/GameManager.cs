@@ -81,11 +81,12 @@ public class GameManager
             {
                 characterContainer.GetCharacterData().card.name = characterContainer.GetCharacterData().name;
                 characterContainer.GetCharacterData().card.image =
-                    characterContainer.GetCharacterData().characterSprite;
+                    characterContainer.GetCharacterData().characterIcon;
                 characterContainer.GetCharacterData().card.character =
                     characterContainer;
                 return characterContainer.GetCharacterData().card;
             }).Cast<Card>().ToList();
+        PlayerCards.Add(PassiveCard.GetTestPassiveCard());
         SetupCard();
         SetupGameBoardForLevel(actualCampaign.GetActualCampaign().levels[actualCampaignLevel]);
         FightBoard.Instance.CreateBoard();
