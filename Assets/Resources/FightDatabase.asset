@@ -9,10 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc6e90efeeca411eb10334761fb802a8, type: 3}
-  m_Name: CardDatabase
+  m_Script: {fileID: 11500000, guid: 595b3c60e046423abb8e7f5d609eb2ca, type: 3}
+  m_Name: FightDatabase
   m_EditorClassIdentifier: 
-  cards:
-  - {fileID: 11400000, guid: 8b8c9e0cff4dd1748a64ab677ab3d0d4, type: 2}
-  playerCards:
-  - {fileID: 11400000, guid: 8b8c9e0cff4dd1748a64ab677ab3d0d4, type: 2}
+  fights:
+  - {fileID: 11400000, guid: a681fb00988acad409a9a554d361e027, type: 2}

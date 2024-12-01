@@ -31,8 +31,19 @@ public class GameManager
     {
         Cursor.SetCursor(SpriteDatabase.Instance.normalCursor, Vector2.zero, CursorMode.Auto);
         boardCharacterArray = new BoardObject[BoardWidth, BoardHeight];
+        GoNextFight();
         PlayerCards = CardDatabase.Instance.playerCards.ToList();
         SetupCard();
+    }
+
+    public void GoNextFight()
+    {
+        Fight randomFight = FightDatabase.Instance.GetRandomFight();
+        foreach (var characterContainerFight in randomFight.opponents)
+        {
+            boardCharacterArray[characterContainerFight.position.x, characterContainerFight.position.y] 
+                = new BoardCharacter(new CharacterContainer(characterContainerFight.characterData.id), false);
+        }
     }
 
     public void SetupCard()

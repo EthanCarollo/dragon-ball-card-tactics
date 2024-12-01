@@ -13,11 +13,6 @@ MonoBehaviour:
   m_Name: Goku Card
   m_EditorClassIdentifier: 
   manaCost: 1
-  name: 
-  image: {fileID: 0}
-  character:
-    characterId: 0
-    actualHealth: 0
-    actualKi: 0
-    selectedUltimateAttack: 0
-    unlockedPassives: 
+  name: Goku Card
+  image: {fileID: 4344058998117034605, guid: c93304b3cf20a1a45bca5e2aec418f08, type: 3}
+  character: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}

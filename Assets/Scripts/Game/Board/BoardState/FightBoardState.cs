@@ -64,6 +64,7 @@ public class FightBoardState : BoardState
         endFightButton.onClick.RemoveListener(OnUserClick);
         EndFightPanelUi.Instance.CloseEndFightPanel();
         GameManager.Instance.boardCharacterArray = boardBeforeFight;
+        GameManager.Instance.GoNextFight();
         board.CreateBoard();
     }
 
