@@ -23,14 +23,6 @@ public class GameManager
     }
     
     public BoardObject[,] boardCharacterArray;
-    public CharacterInventory characterInventory;
-    public CampaignManager campaignManager;
-    public Galaxy actualGalaxy;
-    public bool needOnBoarding = true;
-
-    public CampaignContainer actualCampaign;
-    public int actualCampaignLevel = 0;
-
     public List<Card> PlayerCards = new List<Card>();
     public int CurrentMana = 1;
     public int MaxMana = 1;
@@ -38,20 +30,9 @@ public class GameManager
     private GameManager()
     {
         Cursor.SetCursor(SpriteDatabase.Instance.normalCursor, Vector2.zero, CursorMode.Auto);
-        SetupGalaxy(GalaxyDatabase.Instance.galaxies[0]);
-        characterInventory = CharacterInventory.Instance;
-        campaignManager = new CampaignManager();
-        
         boardCharacterArray = new BoardObject[BoardWidth, BoardHeight];
-    }
-
-    public void SetupGalaxy(Galaxy galaxy)
-    {
-        actualGalaxy = galaxy;
-        foreach (var actualGalaxyCampaign in actualGalaxy.campaigns)
-        {
-            actualGalaxyCampaign.actualCampaign = 0;
-        }
+        PlayerCards = CardDatabase.Instance.playerCards.ToList();
+        SetupCard();
     }
 
     public void SetupCard()
@@ -68,69 +49,6 @@ public class GameManager
     {
         PlayerCards.Remove(card);
         SetupCard();
-    }
-
-    public void SetupCampaign(CampaignContainer campaign, CharacterContainer[] charContainerForFight){
-        actualCampaignLevel = 0;
-        actualCampaign = campaign;
-        foreach (var characterContainer in charContainerForFight)
-        {
-            AddCard(characterContainer.GetCharacterData().card);
-        }
-        PlayerCards = charContainerForFight.Select((characterContainer) =>
-            {
-                characterContainer.GetCharacterData().card.name = characterContainer.GetCharacterData().name;
-                characterContainer.GetCharacterData().card.image =
-                    characterContainer.GetCharacterData().characterIcon;
-                characterContainer.GetCharacterData().card.character =
-                    characterContainer;
-                return characterContainer.GetCharacterData().card;
-            }).Cast<Card>().ToList();
-        PlayerCards.Add(PassiveCard.GetTestPassiveCard());
-        SetupCard();
-        SetupGameBoardForLevel(actualCampaign.GetActualCampaign().levels[actualCampaignLevel]);
-        FightBoard.Instance.CreateBoard();
-    }
-
-    public void GoNextLevel(){
-        actualCampaignLevel++;
-        if (actualCampaignLevel > actualCampaign.GetActualCampaign().levels.Length - 1)
-        {
-            actualCampaign.GetActualCampaign().EndCampaign();
-            SceneTransitor.Instance.LoadScene(1, () =>
-            {
-                actualCampaign.actualCampaign++;
-                CleanGameBoard();
-            });
-            return;
-        }
-        SetupGameBoardForLevel(actualCampaign.GetActualCampaign().levels[actualCampaignLevel]);
-        FightBoard.Instance.CreateBoard();
-    }
-
-    public void SetupGameBoardForLevel(Level level)
-    {
-        // Clean board before going on level.
-        for (int x = 0; x < boardCharacterArray.GetLength(0); x++)
-        {
-            for (int y = 0; y < boardCharacterArray.GetLength(1); y++)
-            {
-                var boardObject = boardCharacterArray[x, y];
-                if (boardObject is BoardCharacter character && character != null && character.character.IsDead())
-                {
-                    boardCharacterArray[x, y] = null;
-                }
-            }
-        }
-
-        foreach (var child in level.characters)
-        {
-            var characterContainer = new CharacterContainer(child.character.id);
-            characterContainer.unlockedPassives = child.unlockPassive;
-            boardCharacterArray[child.position.x, child.position.y] = new BoardCharacter(characterContainer, false);
-        }
-        
-        DialogManager.Instance.SetupDialog(level.StartDialog);
     }
 
     private void CleanGameBoard()

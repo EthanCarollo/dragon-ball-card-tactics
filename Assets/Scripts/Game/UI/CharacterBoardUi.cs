@@ -17,7 +17,6 @@ public class CharacterBoardUi : MonoBehaviour
         public Slider charKi;
         public TextMeshProUGUI charKiText;
         public Image charImage;
-        public SpecialAttackContainer specialAttackContainer;
 
         public GameObject passiveWholeContainer;
         public GameObject passiveLittlePrefab;
@@ -47,7 +46,6 @@ public class CharacterBoardUi : MonoBehaviour
                 charKiText.text = boardCharacter.character.actualKi + " / " + boardCharacter.character.GetCharacterData().maxKi;
                 charImage.sprite = boardCharacter.character.GetCharacterData().characterIcon;
 
-                specialAttackContainer.Setup(boardCharacter.character.GetCharacterSpecialAttack());
 
                 foreach (Transform child in passiveContainer)
                 {
@@ -57,7 +55,6 @@ public class CharacterBoardUi : MonoBehaviour
                 if(boardCharacter.character.GetCharacterPassives() != null){
                         foreach (var passive in boardCharacter.character.GetCharacterPassives()){
                                 if(passive == null) continue;
-                                Instantiate(passiveLittlePrefab, passiveContainer).GetComponent<PassiveContainer>().Setup(passive);
                         }
 
                         if(boardCharacter.character.GetCharacterPassives().Length > 0) {

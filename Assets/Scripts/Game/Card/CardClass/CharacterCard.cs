@@ -2,10 +2,10 @@ using System;
 using UnityEngine.EventSystems;
 using UnityEngine;
 
-[Serializable]
+[CreateAssetMenu(fileName = "CharacterCard", menuName = "Card/CharacterCard")]
 public class CharacterCard : Card
 {
-    public CharacterContainer character;
+    public CharacterData character;
     
     public override void UseCard(){
         
@@ -25,7 +25,7 @@ public class CharacterCard : Card
             mousePosition.z = 10f; 
             CharacterDragInfo.draggedObject.transform.position = Camera.main.ScreenToWorldPoint(mousePosition);
             SpriteRenderer spRenderer = CharacterDragInfo.draggedObject.AddComponent<SpriteRenderer>();
-            spRenderer.sprite = character.GetCharacterData().characterSprite;
+            spRenderer.sprite = character.characterSprite;
             spRenderer.color = new Color(1f, 1f, 1f, 0.5f);
             spRenderer.sortingOrder = 10;
         }
@@ -68,7 +68,7 @@ public class CharacterCard : Card
 
                 if (tileScript != null)
                 {
-                    tileScript.assignedBoard.AddCharacterFromBoard(new BoardCharacter(character, true), tileScript.position);
+                    tileScript.assignedBoard.AddCharacterFromBoard(new BoardCharacter(new CharacterContainer(character.id), true), tileScript.position);
                     GameManager.Instance.RemoveCard(this);
                     tileScript.assignedBoard.CreateBoard();
                     return;
