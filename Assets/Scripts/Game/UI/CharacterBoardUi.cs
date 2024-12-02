@@ -55,6 +55,8 @@ public class CharacterBoardUi : MonoBehaviour
                 if(boardCharacter.character.GetCharacterPassives() != null){
                         foreach (var passive in boardCharacter.character.GetCharacterPassives()){
                                 if(passive == null) continue;
+                                
+                                Instantiate(passiveLittlePrefab, passiveContainer).GetComponent<PassiveContainer>().Setup(passive);
                         }
 
                         if(boardCharacter.character.GetCharacterPassives().Length > 0) {
