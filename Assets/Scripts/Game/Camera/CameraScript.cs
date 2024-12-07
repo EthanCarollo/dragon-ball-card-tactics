@@ -17,18 +17,10 @@ public class CameraScript : MonoBehaviour
         baseTarget = cinemachineCamera.Target.TrackingTarget;
     }
 
-    public void SetupTransformationCamera(BoardObject boardObject){
-        LeanTween.value(this.gameObject, (float leanValue) => {
-            cinemachineCamera.Lens.OrthographicSize = leanValue;
-        }, cinemachineCamera.Lens.OrthographicSize, 4f, 1f).setEaseInOutCirc();
-        cinemachineCamera.Target.TrackingTarget = boardObject.gameObject.transform;
-        cinemachinePositionComposer.Composition.ScreenPosition.Set(0f, 0.03f);
-    }
-
     public void SetupFightCamera(){
         LeanTween.value(this.gameObject, (float leanValue) => {
             cinemachineCamera.Lens.OrthographicSize = leanValue;
-        }, cinemachineCamera.Lens.OrthographicSize, 5f, 1f).setEaseInOutCirc();
+        }, cinemachineCamera.Lens.OrthographicSize, 5f, 0.5f).setEaseInOutCirc();
         cinemachineCamera.Target.TrackingTarget=baseTarget;
         cinemachinePositionComposer.Composition.ScreenPosition.Set(0f, 0.03f);
     }
@@ -36,7 +28,7 @@ public class CameraScript : MonoBehaviour
     public void SetupNormalCamera(){
         LeanTween.value(this.gameObject, (float leanValue) => {
             cinemachineCamera.Lens.OrthographicSize = leanValue;
-        }, cinemachineCamera.Lens.OrthographicSize, 7f, 1f).setEaseInOutCirc();
+        }, cinemachineCamera.Lens.OrthographicSize, 7f, 0.5f).setEaseInOutCirc();
         cinemachineCamera.Target.TrackingTarget=baseTarget;
         cinemachinePositionComposer.Composition.ScreenPosition.Set(0f, 0f);
     }
@@ -45,7 +37,7 @@ public class CameraScript : MonoBehaviour
     {
         LeanTween.value(this.gameObject, (float leanValue) => {
             cinemachineCamera.Lens.OrthographicSize = leanValue;
-        }, cinemachineCamera.Lens.OrthographicSize, size, 1f).setEaseInOutCirc();
+        }, cinemachineCamera.Lens.OrthographicSize, size, 0.5f).setEaseInOutCirc();
         cinemachineCamera.Target.TrackingTarget=baseTarget;
         cinemachineCamera.Target.TrackingTarget = target;
         cinemachinePositionComposer.Composition.ScreenPosition.Set(0f, 0f);

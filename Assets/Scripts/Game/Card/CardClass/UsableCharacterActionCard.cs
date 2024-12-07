@@ -26,6 +26,11 @@ public abstract class UsableCharacterActionCard : Card
         }
         return null;
     }
+
+    public override void OnBeginDrag(PointerEventData eventData)
+    {
+        CameraScript.Instance.SetupFightCamera();
+    }
     
     public override void OnDrag(PointerEventData eventData)
     {
@@ -60,6 +65,7 @@ public abstract class UsableCharacterActionCard : Card
 
     public override void OnEndDrag(PointerEventData eventData)
     {
+        CameraScript.Instance.SetupNormalCamera();
         if (DraggedActionCard.DraggedCard != null)
         {
             MonoBehaviour.Destroy(DraggedActionCard.DraggedCard.gameObject);

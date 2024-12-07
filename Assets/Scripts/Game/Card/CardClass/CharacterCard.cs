@@ -11,6 +11,11 @@ public class CharacterCard : Card
         
     }
 
+    public override void OnBeginDrag(PointerEventData eventData)
+    {
+        
+    }
+
     public override void OnDrag(PointerEventData eventData)
     {
         if (FightBoard.Instance.IsFighting())
