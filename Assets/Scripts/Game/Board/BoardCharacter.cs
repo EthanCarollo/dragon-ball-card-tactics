@@ -62,6 +62,12 @@ public class BoardCharacter : BoardObject
         
     }
 
+    public void ResetCharacterShader()
+    {
+        SpriteRenderer renderer = gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>();
+        renderer.material = new Material(ShadersDatabase.Instance.spriteMaterial);
+    }
+
     public override void Update()
     {
         try

@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: ShadersDatabase
   m_EditorClassIdentifier: 
   disappearMaterial: {fileID: -876546973899608171, guid: 35dd284b44538a142b6f374f06ce2ac6, type: 3}
+  outlineMaterial: {fileID: 2100000, guid: c62a38d2bcae48748902aecf119babb5, type: 2}
+  spriteMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}

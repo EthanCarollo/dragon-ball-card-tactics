@@ -192,12 +192,12 @@ TextureImporter:
       name: new-goku_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 453
-        width: 32
-        height: 56
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 452
+        width: 34
+        height: 58
+      alignment: 9
+      pivot: {x: 0.49844584, y: 0.018221099}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

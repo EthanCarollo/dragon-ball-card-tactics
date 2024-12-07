@@ -62,6 +62,17 @@ public class GameManager
         SetupCard();
     }
 
+    public void ResetCharacterShader()
+    {
+        foreach (var boardObj in boardCharacterArray)
+        {
+            if (boardObj != null && boardObj is BoardCharacter boardCharacter)
+            {
+                boardCharacter.ResetCharacterShader();
+            }
+        }
+    }
+
     private void CleanGameBoard()
     {
         for (int x = 0; x < boardCharacterArray.GetLength(0); x++)

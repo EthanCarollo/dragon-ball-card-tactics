@@ -6,6 +6,8 @@ public class ShadersDatabase : ScriptableObject
     private static ShadersDatabase _instance;
     
     public Material disappearMaterial;
+    public Material outlineMaterial;
+    public Material spriteMaterial;
 
     public static ShadersDatabase Instance
     {

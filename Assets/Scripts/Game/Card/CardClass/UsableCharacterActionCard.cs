@@ -36,11 +36,18 @@ public abstract class UsableCharacterActionCard : Card
     {
         if (GetCharacterOnMouse() != null)
         {
+            var newMaterial = new Material(ShadersDatabase.Instance.outlineMaterial);
+            newMaterial.color = Color.white;
+            SpriteRenderer renderer =
+                GetCharacterOnMouse().gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>();
+            renderer.material = newMaterial;
+            renderer.material.SetTexture("_MainTex", renderer.sprite.texture);
             BoardGameUiManager.Instance.ShowPlayCardPanel();
         }
         else
         {
             BoardGameUiManager.Instance.HidePlayCardPanel();
+            GameManager.Instance.ResetCharacterShader();
         }
         if (DraggedActionCard.DraggedCard == null)
         {
@@ -65,6 +72,7 @@ public abstract class UsableCharacterActionCard : Card
 
     public override void OnEndDrag(PointerEventData eventData)
     {
+        GameManager.Instance.ResetCharacterShader();
         CameraScript.Instance.SetupNormalCamera();
         if (DraggedActionCard.DraggedCard != null)
         {
