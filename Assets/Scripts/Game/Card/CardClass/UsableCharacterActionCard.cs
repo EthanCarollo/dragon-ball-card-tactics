@@ -2,10 +2,11 @@ using UnityEngine.EventSystems;
 using UnityEngine;
 using UnityEngine.UI;
 
-public abstract class UsableActionCard : Card
+public abstract class UsableCharacterActionCard : Card
 {
-    protected abstract bool CanUseAction();
-    public override void OnDrag(PointerEventData eventData)
+    public CharacterData characterFor;
+
+    protected BoardCharacter GetCharacterOnMouse()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
@@ -16,18 +17,26 @@ public abstract class UsableActionCard : Card
 
             if (tileScript != null)
             {
-                BoardGameUiManager.Instance.ShowPlayCardPanel();
+                if (GameManager.Instance.boardCharacterArray[tileScript.position.x, tileScript.position.y] is
+                        BoardCharacter character &&  character.character.GetCharacterData() == characterFor)
+                {
+                    return character;
+                }
             }
-            else
-            {
-                BoardGameUiManager.Instance.HidePlayCardPanel();
-            }
+        }
+        return null;
+    }
+    
+    public override void OnDrag(PointerEventData eventData)
+    {
+        if (GetCharacterOnMouse() != null)
+        {
+            BoardGameUiManager.Instance.ShowPlayCardPanel();
         }
         else
         {
             BoardGameUiManager.Instance.HidePlayCardPanel();
         }
-        
         if (DraggedActionCard.DraggedCard == null)
         {
             Debug.Log("Drag a character");

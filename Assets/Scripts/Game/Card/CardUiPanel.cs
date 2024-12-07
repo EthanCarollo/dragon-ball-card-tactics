@@ -19,7 +19,7 @@ public class CardUiPanel : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         LeanTween.value(this.gameObject, f =>
         {
             horizontalLayout.padding.left = Mathf.FloorToInt(f);
-        }, horizontalLayout.padding.left, 10f, 0.2f).setEaseInSine();
+        }, horizontalLayout.padding.left, 80f, 0.2f).setEaseInSine();
     }
 
     public void OnPointerExit(PointerEventData eventData)
@@ -36,6 +36,6 @@ public class CardUiPanel : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         LeanTween.value(this.gameObject, f =>
         {
             horizontalLayout.padding.left = Mathf.FloorToInt(f);
-        }, horizontalLayout.padding.left, 0f, 0.2f).setEaseInSine();
+        }, horizontalLayout.padding.left, 40f, 0.2f).setEaseInSine();
     }
 }
