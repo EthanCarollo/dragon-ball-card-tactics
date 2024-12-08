@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f162f619fe4780ac0c738b70ae1747, type: 3}
+  m_Name: GokuSSJTransform
+  m_EditorClassIdentifier: 
+  manaCost: 1
+  name: Goku SSJ
+  image: {fileID: -4507144600022188373, guid: 6f1b90d24e6ec2746b3c442cdd252eea, type: 3}
+  characterFor: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
+  transform: {fileID: 11400000, guid: 9de54c5982f31c94bb285826638a6a36, type: 2}
