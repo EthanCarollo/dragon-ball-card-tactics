@@ -17,7 +17,7 @@ public class WinFightUi : MonoBehaviour
                 winFightUi.gameObject.SetActive(true);
                 foreach (var card in cardPrefab)
                 {
-                        card.SetupCard(CardDatabase.Instance.cards[0]);
+                        card.SetupCard(CardDatabase.Instance.GetRandomCard(CardRarity.Common));
                 }
         }
 
