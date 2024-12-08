@@ -43,35 +43,14 @@ public class FightBoardState : BoardState
 
     public override void EndFight()
     {
-        // TODO : implement the logics for go to the next fight !
         Debug.Log("Ending fight");
-        board.StartCoroutine(EndFightCoroutine());
-    }
-
-    private bool userClicked = false;
-
-    public IEnumerator EndFightCoroutine(bool win = true)
-    {
-        Debug.Log("Ending fight coroutine called");
         board.UpdateState(new DefaultBoardState(board));
-        EndFightPanelUi.Instance.SetupEndFightPanel();
-        Button endFightButton = EndFightPanelUi.Instance.EndFightButton;
-        endFightButton.onClick.AddListener(OnUserClick);
-        while (!userClicked)
-        {
-            yield return null; 
-        }
-        endFightButton.onClick.RemoveListener(OnUserClick);
-        EndFightPanelUi.Instance.CloseEndFightPanel();
+        WinFightUi.Instance.OpenWinFightUi(board);
         GameManager.Instance.boardCharacterArray = boardBeforeFight;
         GameManager.Instance.GoNextFight();
         board.CreateBoard();
     }
 
-    private void OnUserClick()
-    {
-        userClicked = true;
-    }
 
 
     public override void EndCinematic()
