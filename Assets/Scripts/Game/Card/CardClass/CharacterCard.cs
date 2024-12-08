@@ -6,7 +6,12 @@ using UnityEngine;
 public class CharacterCard : Card
 {
     public CharacterData character;
-    
+
+    public override string GetDescription()
+    {
+        return "Summons " + character.name + " on board.";
+    }
+
     public override void UseCard(){
         
     }

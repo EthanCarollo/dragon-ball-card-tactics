@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 2594776895756632317}
   - component: {fileID: 7892591582903143988}
   - component: {fileID: 5754836314198058426}
-  - component: {fileID: 7581306890914611945}
   - component: {fileID: 1907491669801310522}
+  - component: {fileID: 2918386824511716695}
   m_Layer: 5
   m_Name: SpecialAttackContainer
   m_TagString: Untagged
@@ -70,7 +70,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 62322835146432764, guid: d06f1458c7dfa8d4cb1aa276fc0fd012, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d2e27eab449a69b4096fb9ac95f593ba, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -106,23 +106,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &7581306890914611945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 576781877490566231}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83c3f5319d924eff82bbcd1e99d3d50b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  simpleAttack: 0
-  nameText: {fileID: 8200748579304300521}
-  descriptionText: {fileID: 7181192884169388715}
-  spriteContainer: {fileID: 62322835146432764, guid: d06f1458c7dfa8d4cb1aa276fc0fd012, type: 3}
-  highlightSpriteContainer: {fileID: 4414076792270312558, guid: 56eefa206f1e87c469be30239d47ccce, type: 3}
 --- !u!114 &1907491669801310522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,6 +119,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hotSpot: {x: 0, y: 0}
+--- !u!114 &2918386824511716695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576781877490566231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ca4b4f9ab174c62a0fe8403d8a2a39f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: {fileID: 8200748579304300521}
+  description: {fileID: 7181192884169388715}
 --- !u!1 &2562174753483197575
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,15 +200,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Automatically restores health when HP falls below 25%
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cec4f204d9d57804f8cadbb89b13d075, type: 2}
-  m_sharedMaterial: {fileID: -1172281645140578960, guid: cec4f204d9d57804f8cadbb89b13d075, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a13f99ce91c20444597862a7c0a1ebe7, type: 2}
+  m_sharedMaterial: {fileID: 4668237209903432514, guid: a13f99ce91c20444597862a7c0a1ebe7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4281808695
+  m_fontColor: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -228,12 +225,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
+  m_fontSize: 10
   m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 28
+  m_fontSizeMin: 6
+  m_fontSizeMax: 10
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
@@ -266,7 +263,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 5, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -307,7 +304,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 244.8174, y: 36.2678}
+  m_SizeDelta: {x: 244.8174, y: 27.558}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6815216934604923518
 CanvasRenderer:
@@ -337,17 +334,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Title
+  m_text: SUPER ATTACK
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: cec4f204d9d57804f8cadbb89b13d075, type: 2}
-  m_sharedMaterial: {fileID: -1172281645140578960, guid: cec4f204d9d57804f8cadbb89b13d075, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a13f99ce91c20444597862a7c0a1ebe7, type: 2}
+  m_sharedMaterial: {fileID: 4668237209903432514, guid: a13f99ce91c20444597862a7c0a1ebe7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4282335039
+  m_fontColor: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -364,11 +361,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.65
+  m_fontSize: 19.35
   m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 24
+  m_fontSizeMin: 8
   m_fontSizeMax: 48
   m_fontStyle: 0
   m_HorizontalAlignment: 2

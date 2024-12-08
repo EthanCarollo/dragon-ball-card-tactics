@@ -22,6 +22,8 @@ public class CharacterBoardUi : MonoBehaviour
         public GameObject passiveLittlePrefab;
         public Transform passiveContainer;
 
+        public SpecialAttackContainer specialAttackContainer;
+
         public void Update()
         {
                 if (boardCharacter == null)
@@ -46,6 +48,7 @@ public class CharacterBoardUi : MonoBehaviour
                 charKiText.text = boardCharacter.character.actualKi + " / " + boardCharacter.character.GetCharacterData().maxKi;
                 charImage.sprite = boardCharacter.character.GetCharacterData().characterIcon;
 
+                specialAttackContainer.Setup(boardCharacter.character.GetCharacterSpecialAttack());
 
                 foreach (Transform child in passiveContainer)
                 {

@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe206b63a12884410b001ddff079c3c8, type: 3}
-  m_Name: Goku Card
+  m_Name: Vegeta Card
   m_EditorClassIdentifier: 
   manaCost: 1
   rarity: 0
-  name: Goku Card
-  image: {fileID: 7404681743806431914, guid: ad2c3b95b09114d4dbd4fe2ae4522976, type: 3}
-  character: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
+  name: Vegeta Card
+  image: {fileID: -1255131906152348387, guid: 1a4b42ab780576a428bfd0d2def4270d, type: 3}
+  character: {fileID: 11400000, guid: 28fa8f8e07ecfc243bedd782b907b60d, type: 2}

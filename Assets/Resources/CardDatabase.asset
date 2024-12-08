@@ -17,7 +17,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ef6f549b955b1b747ba824dd158142e2, type: 2}
   - {fileID: 11400000, guid: c77c968391a3ddc4093c4e7b404d7915, type: 2}
   - {fileID: 11400000, guid: 744d62729cbacc34983c4012db504091, type: 2}
+  - {fileID: 11400000, guid: ccb470c201a9e8d43864f8452aa02a95, type: 2}
   playerCards:
   - {fileID: 11400000, guid: 8b8c9e0cff4dd1748a64ab677ab3d0d4, type: 2}
-  - {fileID: 11400000, guid: c77c968391a3ddc4093c4e7b404d7915, type: 2}
   - {fileID: 11400000, guid: 744d62729cbacc34983c4012db504091, type: 2}
