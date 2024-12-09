@@ -26,6 +26,7 @@ public class GameManager
     public List<Card> PlayerCards = new List<Card>();
     public int CurrentMana = 1;
     public int MaxMana = 1;
+    public int actualRound = 0;
 
     private GameManager()
     {
@@ -39,6 +40,8 @@ public class GameManager
     public void GoNextFight()
     {
         Fight randomFight = FightDatabase.Instance.GetRandomFight();
+        actualRound ++;
+        BoardGameUiManager.Instance.SetupRoundText(actualRound.ToString());
         foreach (var characterContainerFight in randomFight.opponents)
         {
             boardCharacterArray[characterContainerFight.position.x, characterContainerFight.position.y] 

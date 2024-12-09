@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 
 public class BoardGameUiManager : MonoBehaviour
 {
@@ -6,10 +7,16 @@ public class BoardGameUiManager : MonoBehaviour
     public CharacterBoardUi characterBoardUi;
     public GameObject playCardScreen;
     public GameObject draggedCardPrefab;
+    public TextMeshProUGUI roundText;
     
     public void Awake()
     {
         Instance = this;
+    }
+
+    public void Start()
+    {
+
     }
 
     public void ShowPlayCardPanel()
@@ -28,6 +35,15 @@ public class BoardGameUiManager : MonoBehaviour
                     new Vector2(playCardScreen.GetComponent<RectTransform>().localPosition.x,
                         f);
             }, newPosition, 0f, 0.2f).setEaseInOutCirc();
+        }
+    }
+
+    public void SetupRoundText(string roundNumber)
+    {
+        try {
+            roundText.text = "Round " + roundNumber;
+        } catch {
+            Debug.Log("Got an error on setup round text");
         }
     }
 

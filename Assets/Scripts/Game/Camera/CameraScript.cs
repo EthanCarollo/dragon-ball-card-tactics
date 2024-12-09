@@ -20,7 +20,7 @@ public class CameraScript : MonoBehaviour
     public void SetupFightCamera(){
         LeanTween.value(this.gameObject, (float leanValue) => {
             cinemachineCamera.Lens.OrthographicSize = leanValue;
-        }, cinemachineCamera.Lens.OrthographicSize, 5f, 0.5f).setEaseInOutCirc();
+        }, cinemachineCamera.Lens.OrthographicSize, 3.5f, 0.5f).setEaseInOutCirc();
         cinemachineCamera.Target.TrackingTarget=baseTarget;
         cinemachinePositionComposer.Composition.ScreenPosition.Set(0f, 0.03f);
     }
@@ -28,7 +28,7 @@ public class CameraScript : MonoBehaviour
     public void SetupNormalCamera(){
         LeanTween.value(this.gameObject, (float leanValue) => {
             cinemachineCamera.Lens.OrthographicSize = leanValue;
-        }, cinemachineCamera.Lens.OrthographicSize, 7f, 0.5f).setEaseInOutCirc();
+        }, cinemachineCamera.Lens.OrthographicSize, 5.5f, 0.5f).setEaseInOutCirc();
         cinemachineCamera.Target.TrackingTarget=baseTarget;
         cinemachinePositionComposer.Composition.ScreenPosition.Set(0f, 0f);
     }
