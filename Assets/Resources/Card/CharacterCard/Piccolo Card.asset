@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manaCost: 1
   rarity: 0
-  name: Piccolo Card
+  name: Piccolo
   image: {fileID: -2409190750713450014, guid: cd622fe9ce3c46b438c1df36a5f346bd, type: 3}
   character: {fileID: 11400000, guid: 82da0d1d9b9acaf46adfd8612ab1dabb, type: 2}

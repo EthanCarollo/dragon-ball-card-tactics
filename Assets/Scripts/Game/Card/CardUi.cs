@@ -18,7 +18,8 @@ public class CardUi : MonoBehaviour {
         }
         foreach(Card card in cards){
             GameObject cardObject = Instantiate(cardPrefab, cardContainer.transform);
-            cardObject.GetComponent<CardPrefab>().SetupCard(card);
+            var cardPrefabScript = cardObject.GetComponent<CardPrefab>();
+            cardPrefabScript.SetupCard(card);
         }
     }
 }

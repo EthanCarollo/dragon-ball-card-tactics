@@ -74,4 +74,9 @@ public class CharacterBoardUi : MonoBehaviour
         {
                 boardCharacter = character;
         }
+
+        public void HideCharacterBoard()
+        {
+                boardCharacter = null;
+        }
 }

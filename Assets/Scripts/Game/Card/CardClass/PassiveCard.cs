@@ -5,6 +5,12 @@ using UnityEngine;
 public class PassiveCard : UsableCharacterActionCard
 {
     public CharacterPassive passive;
+
+    public override string GetDescription()
+    {
+        return "Grants " + passive.passiveName + " to " + characterFor.name;
+    }
+
     public override void UseCard()
     {
         if (GetCharacterOnMouse() != null)

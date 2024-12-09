@@ -19,6 +19,8 @@ public abstract class Card : ScriptableObject
         switch (rarity)
         {
             case CardRarity.Common:
+                return Color.white;
+            case CardRarity.Uncommon:
                 return new Color(0f, 1f, 1f, 1f);
             case CardRarity.Rare:
                 return new Color(1f, 1f, 0.5f, 1f);
@@ -38,6 +40,7 @@ public abstract class Card : ScriptableObject
 public enum CardRarity
 {
     Common,
+    Uncommon,
     Rare,
     Epic
 }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Vegeta Card
   m_EditorClassIdentifier: 
   manaCost: 1
-  rarity: 0
-  name: Vegeta Card
+  rarity: 1
+  name: Vegeta
   image: {fileID: -1255131906152348387, guid: 1a4b42ab780576a428bfd0d2def4270d, type: 3}
   character: {fileID: 11400000, guid: 28fa8f8e07ecfc243bedd782b907b60d, type: 2}
