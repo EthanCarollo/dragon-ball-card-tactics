@@ -10,8 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 875982c274ea44468cc86a0e0fb5ab10, type: 3}
-  m_Name: Raditz Fight
+  m_Name: Spopovitch & Yamu
   m_EditorClassIdentifier: 
   opponents:
-  - characterData: {fileID: 11400000, guid: 1b52006df0e58d5428b388a2afed92cb, type: 2}
+  - characterData: {fileID: 11400000, guid: 1089703873ddd4cb4a52e4b793899ba6, type: 2}
     position: {x: 8, y: 5}
+  - characterData: {fileID: 11400000, guid: 15c474fc9792440aaad98d6825afb67b, type: 2}
+    position: {x: 8, y: 2}
+  difficulty: 0

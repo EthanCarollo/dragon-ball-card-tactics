@@ -16,6 +16,7 @@ public class TransformCard : UsableCharacterActionCard
         if (GetCharacterOnMouse() != null)
         {
             GetCharacterOnMouse().PlayAnimation(transform);
+            BoardGameUiManager.Instance.SetupManaSlider(GameManager.Instance.CurrentMana);
             GameManager.Instance.RemoveCard(this);
         }
     }

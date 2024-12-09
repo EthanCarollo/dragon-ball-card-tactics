@@ -10961,6 +10961,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: user_interface_432
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 240
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 3, y: 3, z: 3, w: 3}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be1e585b7c81434eaae573e6738bbee
+      internalID: -2000463569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -11346,6 +11368,7 @@ TextureImporter:
       user_interface_43: 991334608473740490
       user_interface_430: 1212355074817137282
       user_interface_431: 2883282941291830130
+      user_interface_432: -2000463569
       user_interface_44: 7008958242922322400
       user_interface_45: -52415026518467769
       user_interface_46: 3196573815809150751

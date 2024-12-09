@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fights:
   - {fileID: 11400000, guid: a681fb00988acad409a9a554d361e027, type: 2}
+  - {fileID: 11400000, guid: 3ca69ad8017e36e4bb5e5e53543ec39e, type: 2}
+  - {fileID: 11400000, guid: a71e4f7e4c1091c449c4199b70e0de8f, type: 2}

@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Linq;
 
 [CreateAssetMenu(fileName = "FightDatabase", menuName = "Fight/FightDatabase")]
 public class FightDatabase : ScriptableObject
@@ -7,9 +8,17 @@ public class FightDatabase : ScriptableObject
     
     public Fight[] fights;
 
-    public Fight GetRandomFight()
+    public Fight GetRandomFight(FightDifficulty difficulty = FightDifficulty.Easy)
     {
-        return fights[Random.Range(0, fights.Length)];
+        var filteredFights = fights.Where(card => card.difficulty == difficulty).ToArray();
+
+        if (filteredFights.Length == 0)
+        {
+            Debug.LogWarning($"No fights found with difficulty: {difficulty}");
+            return null;
+        }
+
+        return filteredFights[Random.Range(0, filteredFights.Length)];
     }
 
     public static FightDatabase Instance

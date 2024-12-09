@@ -21,6 +21,11 @@ public class PassiveCard : UsableCharacterActionCard
                 GetCharacterOnMouse().character.unlockedPassives.Add(index);
                 Debug.Log(GetCharacterOnMouse().character.unlockedPassives.ToString());
             }
+            else
+            {
+                Debug.LogError("No passive selected in the character");
+            }
+            BoardGameUiManager.Instance.SetupManaSlider(GameManager.Instance.CurrentMana);
             GameManager.Instance.RemoveCard(this);
         }
     }

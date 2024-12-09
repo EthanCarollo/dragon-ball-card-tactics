@@ -42,6 +42,7 @@ public class GameManager
         Fight randomFight = FightDatabase.Instance.GetRandomFight();
         actualRound ++;
         BoardGameUiManager.Instance.SetupRoundText(actualRound.ToString());
+        BoardGameUiManager.Instance.SetupManaSlider(CurrentMana);
         foreach (var characterContainerFight in randomFight.opponents)
         {
             boardCharacterArray[characterContainerFight.position.x, characterContainerFight.position.y] 

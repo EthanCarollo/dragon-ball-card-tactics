@@ -1,5 +1,6 @@
 ﻿using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BoardGameUiManager : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class BoardGameUiManager : MonoBehaviour
     public GameObject playCardScreen;
     public GameObject draggedCardPrefab;
     public TextMeshProUGUI roundText;
+    public Slider manaSlider;
     
     public void Awake()
     {
@@ -45,6 +47,11 @@ public class BoardGameUiManager : MonoBehaviour
         } catch {
             Debug.Log("Got an error on setup round text");
         }
+    }
+
+    public void SetupManaSlider(int manaValue)
+    {
+        manaSlider.value = manaValue;
     }
 
     private bool isTweeningEnd = false;

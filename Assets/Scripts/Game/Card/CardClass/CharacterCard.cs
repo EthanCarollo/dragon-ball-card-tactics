@@ -81,6 +81,7 @@ public class CharacterCard : Card
                     tileScript.assignedBoard.AddCharacterFromBoard(new BoardCharacter(new CharacterContainer(character.id), true), tileScript.position);
                     GameManager.Instance.RemoveCard(this);
                     tileScript.assignedBoard.CreateBoard();
+                    BoardGameUiManager.Instance.SetupManaSlider(GameManager.Instance.CurrentMana);
                     return;
                 }
             }
