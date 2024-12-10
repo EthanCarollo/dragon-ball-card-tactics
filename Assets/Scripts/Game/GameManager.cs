@@ -24,6 +24,8 @@ public class GameManager
     
     public BoardObject[,] boardCharacterArray;
     public List<Card> PlayerCards = new List<Card>();
+    public int CurrentLevel = 1;
+    public int CurrentExp = 0;
     public int CurrentMana = 1;
     public int MaxMana = 1;
     public int actualRound = 0;
@@ -43,6 +45,7 @@ public class GameManager
         actualRound ++;
         BoardGameUiManager.Instance.SetupRoundText(actualRound.ToString());
         BoardGameUiManager.Instance.SetupManaSlider(CurrentMana);
+        BoardGameUiManager.Instance.SetupLevelSlider(CurrentExp, CurrentLevel);
         foreach (var characterContainerFight in randomFight.opponents)
         {
             boardCharacterArray[characterContainerFight.position.x, characterContainerFight.position.y] 

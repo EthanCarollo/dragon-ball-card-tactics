@@ -10,6 +10,9 @@ public class BoardGameUiManager : MonoBehaviour
     public GameObject draggedCardPrefab;
     public TextMeshProUGUI roundText;
     public Slider manaSlider;
+    public TextMeshProUGUI manaText;
+    public Slider levelSlider;
+    public TextMeshProUGUI levelText;
     
     public void Awake()
     {
@@ -52,6 +55,13 @@ public class BoardGameUiManager : MonoBehaviour
     public void SetupManaSlider(int manaValue)
     {
         manaSlider.value = manaValue;
+        manaText.text = "Mana : " + manaValue.ToString() + "/" + manaSlider.maxValue.ToString();
+    }
+
+    public void SetupLevelSlider(int expValue, int levelValue)
+    {
+        levelSlider.value = expValue;
+        levelText.text = "Level " + levelValue.ToString();
     }
 
     private bool isTweeningEnd = false;

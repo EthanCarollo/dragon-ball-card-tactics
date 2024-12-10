@@ -109,7 +109,7 @@ TextureImporter:
         height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 13, y: 0, z: 3, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -130,7 +130,7 @@ TextureImporter:
         width: 9
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 3, y: 3, z: 3, w: 3}
       customData: 
       outline: []
@@ -152,7 +152,7 @@ TextureImporter:
         width: 9
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 3, y: 3, z: 3, w: 3}
       customData: 
       outline: []
@@ -161,6 +161,50 @@ TextureImporter:
       bones: []
       spriteID: 3b3b91c8121bf724eb6cb8bc93796030
       internalID: 1279688889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mana-bar_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 27
+        width: 44
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 3, z: 3, w: 3}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b646e2e61b68e747841256e74e7596b
+      internalID: -227633798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mana-bar_4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 3, z: 3, w: 3}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500622fcfcfad7046b4ab594120e2335
+      internalID: -1235679
       vertices: []
       indices: 
       edges: []
@@ -182,6 +226,8 @@ TextureImporter:
       mana-bar_0: -3519543989175101431
       mana-bar_1: 778602326
       mana-bar_2: 1279688889
+      mana-bar_3: -227633798
+      mana-bar_4: -1235679
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
