@@ -15,9 +15,10 @@ public class WinFightUi : MonoBehaviour
         public void OpenWinFightUi(Board board)
         {
                 winFightUi.gameObject.SetActive(true);
+                var dropRate = new CardDropRate(GameManager.Instance.Player.Level.CurrentLevel);
                 foreach (var card in cardPrefab)
                 {
-                        card.SetupCard(CardDatabase.Instance.GetRandomCard(CardRarity.Common));
+                        card.SetupCard(CardDatabase.Instance.GetRandomCard(dropRate.GetRarityOnDropRate()));
                 }
         }
 

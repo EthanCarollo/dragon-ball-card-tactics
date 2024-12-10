@@ -19,7 +19,7 @@ public class CardDatabase : ScriptableObject
                 _instance = Resources.Load<CardDatabase>("CardDatabase");
                 if (_instance == null)
                 {
-                    Debug.LogError("ShadersDatabase instance not found in Resources folder!");
+                    Debug.LogError("CardDatabase instance not found in Resources folder!");
                 }
             }
             return _instance;

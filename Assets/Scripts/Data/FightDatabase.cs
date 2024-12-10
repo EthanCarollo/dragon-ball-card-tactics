@@ -30,7 +30,7 @@ public class FightDatabase : ScriptableObject
                 _instance = Resources.Load<FightDatabase>("FightDatabase");
                 if (_instance == null)
                 {
-                    Debug.LogError("ShadersDatabase instance not found in Resources folder!");
+                    Debug.LogError("FightDatabase instance not found in Resources folder!");
                 }
             }
             return _instance;

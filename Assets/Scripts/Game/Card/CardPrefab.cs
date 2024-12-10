@@ -12,7 +12,7 @@ public class CardPrefab : MonoBehaviour
     protected Card card;
 
     public void SetupCard(Card card){
-        this.GetComponent<Image>().color = card.GetRarityColor();
+        this.GetComponent<Image>().color = card.rarity.GetRarityColor();
         cardImage.sprite = card.image;
         cardName.text = card.name;
         cardMana.text = card.manaCost.ToString();

@@ -13,6 +13,8 @@ public class BoardGameUiManager : MonoBehaviour
     public TextMeshProUGUI manaText;
     public Slider levelSlider;
     public TextMeshProUGUI levelText;
+
+    public DropRateBox[] dropRateBoxes;
     
     public void Awake()
     {
@@ -53,8 +55,16 @@ public class BoardGameUiManager : MonoBehaviour
     }
 
     public void RefreshSlider(){
+        SetupDropRateText();
         SetupManaSlider(GameManager.Instance.Player.Mana.CurrentMana);
         SetupLevelSlider(GameManager.Instance.Player.Level.CurrentExperience, GameManager.Instance.Player.Level.MaxExperience, GameManager.Instance.Player.Level.CurrentLevel);
+    }
+
+    private void SetupDropRateText(){
+        foreach (var item in dropRateBoxes)
+        {
+            item.SetupBox();
+        }
     }
 
     private void SetupManaSlider(int manaValue)
