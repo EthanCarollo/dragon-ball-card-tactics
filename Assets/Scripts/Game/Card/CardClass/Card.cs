@@ -6,12 +6,19 @@ public abstract class Card : ScriptableObject
 {
     public int manaCost = 1;
     public CardRarity rarity = CardRarity.Common;
-    public string name;
+    public new string name;
     public Sprite image;
 
     public virtual string GetDescription()
     {
         return "";
+    }
+
+    public bool CanUseCard(){
+        if(manaCost > GameManager.Instance.Player.Mana.CurrentMana){
+            return false;
+        }
+        return true;
     }
 
     public Color GetRarityColor()

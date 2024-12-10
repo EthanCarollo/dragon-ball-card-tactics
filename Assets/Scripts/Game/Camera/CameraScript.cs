@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class CameraScript : MonoBehaviour
 {
     public static CameraScript Instance;
-    public Camera camera;
+    public new Camera camera;
     public Transform baseTarget;
     public CinemachineCamera cinemachineCamera;
     public CinemachinePositionComposer cinemachinePositionComposer;

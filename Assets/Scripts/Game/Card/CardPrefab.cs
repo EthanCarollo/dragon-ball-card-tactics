@@ -10,7 +10,7 @@ public class CardPrefab : MonoBehaviour
     public TextMeshProUGUI cardMana;
     public TextMeshProUGUI cardDescription;
     protected Card card;
-    
+
     public void SetupCard(Card card){
         this.GetComponent<Image>().color = card.GetRarityColor();
         cardImage.sprite = card.image;
@@ -22,4 +22,5 @@ public class CardPrefab : MonoBehaviour
             this.cardDescription.text = card.GetDescription();
         }
     }
+
 }

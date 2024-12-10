@@ -23,20 +23,19 @@ public class GameManager
     }
     
     public BoardObject[,] boardCharacterArray;
+
     public List<Card> PlayerCards = new List<Card>();
-    public int CurrentLevel = 1;
-    public int CurrentExp = 0;
-    public int CurrentMana = 1;
-    public int MaxMana = 1;
+    public PlayerInfo Player = new PlayerInfo();
+
     public int actualRound = 0;
 
     private GameManager()
     {
         Cursor.SetCursor(SpriteDatabase.Instance.normalCursor, Vector2.zero, CursorMode.Auto);
         boardCharacterArray = new BoardObject[BoardWidth, BoardHeight];
-        GoNextFight();
         PlayerCards = CardDatabase.Instance.playerCards.ToList();
         SetupCard();
+        GoNextFight();
     }
 
     public void GoNextFight()
@@ -44,8 +43,6 @@ public class GameManager
         Fight randomFight = FightDatabase.Instance.GetRandomFight();
         actualRound ++;
         BoardGameUiManager.Instance.SetupRoundText(actualRound.ToString());
-        BoardGameUiManager.Instance.SetupManaSlider(CurrentMana);
-        BoardGameUiManager.Instance.SetupLevelSlider(CurrentExp, CurrentLevel);
         foreach (var characterContainerFight in randomFight.opponents)
         {
             boardCharacterArray[characterContainerFight.position.x, characterContainerFight.position.y] 

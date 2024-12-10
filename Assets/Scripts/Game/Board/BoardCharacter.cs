@@ -180,7 +180,7 @@ public class BoardCharacter : BoardObject
         }
         catch (Exception e)
         {
-            Debug.Log("Cannot set character slider, charPrefabScript isn't probably set, its too early bro.");
+            Debug.Log("Cannot set character slider, charPrefabScript isn't probably set, its too early bro, " + e.ToString());
         }
         
     }

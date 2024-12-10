@@ -4,6 +4,16 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, IEndDragHandler {
+    public GameObject hideGameObject;
+
+    public void Update(){
+        SetCardColor();
+    }
+
+    public void SetCardColor(){
+        hideGameObject.SetActive(!card.CanUseCard());
+    }
+
     public void UseCard(){
         
     }

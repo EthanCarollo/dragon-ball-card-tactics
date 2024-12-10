@@ -13,6 +13,9 @@ public class PassiveCard : UsableCharacterActionCard
 
     public override void UseCard()
     {
+        if(CanUseCard() == false) {
+            return;
+        }
         if (GetCharacterOnMouse() != null)
         {
             var index = Array.IndexOf(GetCharacterOnMouse().character.GetCharacterData().characterPassive, passive);
@@ -25,7 +28,8 @@ public class PassiveCard : UsableCharacterActionCard
             {
                 Debug.LogError("No passive selected in the character");
             }
-            BoardGameUiManager.Instance.SetupManaSlider(GameManager.Instance.CurrentMana);
+            GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
+            BoardGameUiManager.Instance.RefreshSlider();
             GameManager.Instance.RemoveCard(this);
         }
     }

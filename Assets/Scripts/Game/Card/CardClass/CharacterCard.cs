@@ -13,7 +13,39 @@ public class CharacterCard : Card
     }
 
     public override void UseCard(){
+        if(CanUseCard() == false) {
+            return;
+        }
+        MonoBehaviour.DestroyImmediate(CharacterDragInfo.draggedObject);
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
         
+        if (hit.collider != null)
+        {
+            TileBehaviour tileScript = hit.collider.GetComponent<TileBehaviour>();
+
+            if (tileScript.position.x > 4)
+            {
+                return;
+            }
+            
+            CharacterPrefabScript characterScript = hit.collider.GetComponentInChildren<CharacterPrefabScript>();
+
+            if (characterScript != null)
+            {
+                return;
+            }
+
+            if (tileScript != null)
+            {
+                tileScript.assignedBoard.AddCharacterFromBoard(new BoardCharacter(new CharacterContainer(character.id), true), tileScript.position);
+                GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
+                BoardGameUiManager.Instance.RefreshSlider();
+                GameManager.Instance.RemoveCard(this);
+                tileScript.assignedBoard.CreateBoard();
+                return;
+            }
+        }
     }
 
     public override void OnBeginDrag(PointerEventData eventData)
@@ -56,35 +88,7 @@ public class CharacterCard : Card
         }
         if (CharacterDragInfo.draggedObject != null)
         {
-            MonoBehaviour.DestroyImmediate(CharacterDragInfo.draggedObject);
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
-            
-            if (hit.collider != null)
-            {
-                TileBehaviour tileScript = hit.collider.GetComponent<TileBehaviour>();
-
-                if (tileScript.position.x > 4)
-                {
-                    return;
-                }
-                
-                CharacterPrefabScript characterScript = hit.collider.GetComponentInChildren<CharacterPrefabScript>();
-
-                if (characterScript != null)
-                {
-                    return;
-                }
-
-                if (tileScript != null)
-                {
-                    tileScript.assignedBoard.AddCharacterFromBoard(new BoardCharacter(new CharacterContainer(character.id), true), tileScript.position);
-                    GameManager.Instance.RemoveCard(this);
-                    tileScript.assignedBoard.CreateBoard();
-                    BoardGameUiManager.Instance.SetupManaSlider(GameManager.Instance.CurrentMana);
-                    return;
-                }
-            }
+            UseCard();
         }
     }
 }

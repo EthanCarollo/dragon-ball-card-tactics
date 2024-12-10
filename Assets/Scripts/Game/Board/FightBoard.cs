@@ -16,6 +16,7 @@ public class FightBoard : Board
         state = new DefaultBoardState(this);
         // state = new FightBoardState(this);
         BoardArray = new GameObject[GameManager.BoardWidth, GameManager.BoardHeight];
+        BoardGameUiManager.Instance.RefreshSlider();
         CreateBoard();
     }
 

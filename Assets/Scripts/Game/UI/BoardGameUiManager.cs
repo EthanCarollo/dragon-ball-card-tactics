@@ -52,15 +52,21 @@ public class BoardGameUiManager : MonoBehaviour
         }
     }
 
-    public void SetupManaSlider(int manaValue)
+    public void RefreshSlider(){
+        SetupManaSlider(GameManager.Instance.Player.Mana.CurrentMana);
+        SetupLevelSlider(GameManager.Instance.Player.Level.CurrentExperience, GameManager.Instance.Player.Level.MaxExperience, GameManager.Instance.Player.Level.CurrentLevel);
+    }
+
+    private void SetupManaSlider(int manaValue)
     {
         manaSlider.value = manaValue;
         manaText.text = "Mana : " + manaValue.ToString() + "/" + manaSlider.maxValue.ToString();
     }
 
-    public void SetupLevelSlider(int expValue, int levelValue)
+    private void SetupLevelSlider(int expValue, int maxLevelValue, int levelValue)
     {
         levelSlider.value = expValue;
+        levelSlider.maxValue = maxLevelValue;
         levelText.text = "Level " + levelValue.ToString();
     }
 

@@ -13,10 +13,14 @@ public class TransformCard : UsableCharacterActionCard
 
     public override void UseCard()
     {
+        if(CanUseCard() == false) {
+            return;
+        }
         if (GetCharacterOnMouse() != null)
         {
             GetCharacterOnMouse().PlayAnimation(transform);
-            BoardGameUiManager.Instance.SetupManaSlider(GameManager.Instance.CurrentMana);
+            GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
+            BoardGameUiManager.Instance.RefreshSlider();
             GameManager.Instance.RemoveCard(this);
         }
     }
