@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Kakaroto
   m_EditorClassIdentifier: 
-  id: 2
+  id: 4
   starNumber: 1
   characterName: Kakaroto
   role: 0
@@ -20,7 +20,7 @@ MonoBehaviour:
   characterSprite: {fileID: 3128616743282323974, guid: b54a084a34747524a88a382bbedb0815, type: 3}
   characterIcon: {fileID: -7980234880069928220, guid: 3901951e3109af54d8ecf87a67df319b, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 405
+  maxHealth: 190
   maxKi: 75
   baseRange: 1
   baseDamage: 50
@@ -38,6 +38,4 @@ MonoBehaviour:
     animation: {fileID: 11400000, guid: ee96d88577425e24bb8f8ac98d1a086d, type: 2}
   deadAnimation: {fileID: 0}
   characterPassive: []
-  references:
-    version: 2
-    RefIds: []
+  card: {fileID: 0}

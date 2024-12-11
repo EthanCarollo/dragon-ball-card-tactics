@@ -20,10 +20,10 @@ MonoBehaviour:
   characterSprite: {fileID: -8355012495218826501, guid: 800094b4d5fdb2c4e9ec614231e4bc64, type: 3}
   characterIcon: {fileID: 21300000, guid: 3557ed1155d29b944b3866d196590815, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 950
+  maxHealth: 100
   maxKi: 75
   baseRange: 5
-  baseDamage: 50
+  baseDamage: 20
   baseArmor: 25
   baseSpeed: 2
   baseAttackSpeed: 0.7
@@ -38,3 +38,4 @@ MonoBehaviour:
     animation: {fileID: 11400000, guid: 2d50490320860ae439bb8db436f8e945, type: 2}
   deadAnimation: {fileID: 0}
   characterPassive: []
+  card: {fileID: 0}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku (Kaioken x3)
   m_EditorClassIdentifier: 
-  id: 2
+  id: 22
   starNumber: 1
   characterName: Goku (Kaioken x3)
   role: 1
@@ -20,13 +20,13 @@ MonoBehaviour:
   characterSprite: {fileID: -6126926695735442379, guid: c9724d1d472dfb840b8ba6bbc4b7ae5d, type: 3}
   characterIcon: {fileID: 21300000, guid: 8541b268fa7688f4ebfe58fa293dc996, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 2470
+  maxHealth: 300
   maxKi: 75
   baseRange: 1
-  baseDamage: 50
+  baseDamage: 90
   baseArmor: 25
   baseSpeed: 2
-  baseAttackSpeed: 0.5
+  baseAttackSpeed: 0.9
   baseCriticalChance: 10
   idleAnimation: {fileID: 11400000, guid: 2f6d00fe5800d834ca47bebc961a4bbf, type: 2}
   runAnimation: {fileID: 11400000, guid: 0a2dc51a73bc3e54e8c109f9f5bb54ce, type: 2}
@@ -39,3 +39,4 @@ MonoBehaviour:
   deadAnimation: {fileID: 0}
   characterPassive:
   - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}
+  card: {fileID: 0}

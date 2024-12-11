@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System;
 
 public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, IEndDragHandler {
     public GameObject hideGameObject;
@@ -20,16 +21,28 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        card.OnBeginDrag(eventData);
+        try {
+            card.OnBeginDrag(eventData);
+        } catch(Exception error){
+            Debug.Log("Error on begin dragging card, e : " + error.ToString());
+        }
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        card.OnDrag(eventData);
+        try {
+            card.OnDrag(eventData);
+        } catch(Exception error){
+            Debug.Log("Error on dragging card, e : " + error.ToString());
+        }
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        card.OnEndDrag(eventData);
+        try {
+            card.OnEndDrag(eventData);
+        } catch(Exception error){
+            Debug.Log("Error on end dragging card, e : " + error.ToString());
+        }
     }
 }

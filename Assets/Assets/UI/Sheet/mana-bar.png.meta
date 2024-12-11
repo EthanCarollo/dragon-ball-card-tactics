@@ -209,6 +209,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: mana-bar_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 34
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead61434402e4431b909b9fc1ce4092e
+      internalID: 1759379004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mana-bar_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 34
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c6b075ff1d44ea6ac5b0ddf7b92dc4
+      internalID: 34404232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -228,6 +272,8 @@ TextureImporter:
       mana-bar_2: 1279688889
       mana-bar_3: -227633798
       mana-bar_4: -1235679
+      mana-bar_5: 1759379004
+      mana-bar_6: 34404232
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

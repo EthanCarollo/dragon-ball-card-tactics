@@ -1,0 +1,12 @@
+
+public class PlayerLife {
+    public int CurrentLife = 5;
+    public int MaxLife = 5;
+
+    public void LooseLife(int life){
+        CurrentLife -= life;
+        if(CurrentLife <= 0){
+            CurrentLife = 0;
+        }
+    }
+}

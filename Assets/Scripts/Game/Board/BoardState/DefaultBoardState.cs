@@ -25,7 +25,7 @@ public class DefaultBoardState : BoardState
         board.UpdateState(new FightBoardState(board));
     }
 
-    public override void EndFight()
+    public override void EndFight(bool win)
     {
         
     }

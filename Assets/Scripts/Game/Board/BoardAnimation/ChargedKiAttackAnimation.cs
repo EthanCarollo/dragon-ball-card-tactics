@@ -35,6 +35,7 @@ public class ChargedKiAttackAnimation : BoardAnimation
             }
             index++;
         }
+        yield return new WaitForSeconds(0.25f); 
         character.isAnimating = false;
         if (character.board is FightBoard fightBoard2)
         {
@@ -82,7 +83,11 @@ public class ChargedKiAttackAnimation : BoardAnimation
 
         newGameObject.LeanScale(new Vector3(1, 1, 0), 0.3f).setOnComplete(() =>
         {
-            BoardUtils.InflictDamageInZone(dangerTilesPositions.ToArray(), character.character.GetAttackDamage() * attackMultiplicator); 
+            try {
+                BoardUtils.InflictDamageInZone(dangerTilesPositions.ToArray(), character.character.GetAttackDamage() * attackMultiplicator); 
+            } catch(Exception error){
+                Debug.LogWarning("There is an error here, " + error);
+            }
             LeanTween.value(newGameObject, f => spriteRenderer.color = new Color(1f, 1f, 1f, f), 1f, 0f, 0.3f).setOnComplete(() =>
             {
                 foreach (var tile in dangerTiles)

@@ -23,7 +23,7 @@ MonoBehaviour:
   maxHealth: 550
   maxKi: 50
   baseRange: 1
-  baseDamage: 50
+  baseDamage: 30
   baseArmor: 25
   baseSpeed: 2
   baseAttackSpeed: 0.5
@@ -39,3 +39,4 @@ MonoBehaviour:
   deadAnimation: {fileID: 0}
   characterPassive:
   - {fileID: 11400000, guid: de29a932174d840ca9ea9c7cc52ecd75, type: 2}
+  card: {fileID: 0}

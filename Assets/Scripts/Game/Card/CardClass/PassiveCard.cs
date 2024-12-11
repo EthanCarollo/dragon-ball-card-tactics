@@ -29,7 +29,7 @@ public class PassiveCard : UsableCharacterActionCard
                 Debug.LogError("No passive selected in the character");
             }
             GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
-            BoardGameUiManager.Instance.RefreshSlider();
+            BoardGameUiManager.Instance.RefreshUI();
             GameManager.Instance.RemoveCard(this);
         }
     }

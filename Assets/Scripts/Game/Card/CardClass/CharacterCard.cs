@@ -39,8 +39,8 @@ public class CharacterCard : Card
             if (tileScript != null)
             {
                 tileScript.assignedBoard.AddCharacterFromBoard(new BoardCharacter(new CharacterContainer(character.id), true), tileScript.position);
+                BoardGameUiManager.Instance.RefreshUI();
                 GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
-                BoardGameUiManager.Instance.RefreshSlider();
                 GameManager.Instance.RemoveCard(this);
                 tileScript.assignedBoard.CreateBoard();
                 return;

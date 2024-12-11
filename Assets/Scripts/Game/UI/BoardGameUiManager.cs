@@ -15,6 +15,9 @@ public class BoardGameUiManager : MonoBehaviour
     public TextMeshProUGUI levelText;
 
     public DropRateBox[] dropRateBoxes;
+
+    public Transform lifeContainer;
+    public GameObject lifeGameObject;
     
     public void Awake()
     {
@@ -54,10 +57,27 @@ public class BoardGameUiManager : MonoBehaviour
         }
     }
 
-    public void RefreshSlider(){
+    public void RefreshUI(){
+        SetupLife();
         SetupDropRateText();
         SetupManaSlider(GameManager.Instance.Player.Mana.CurrentMana);
         SetupLevelSlider(GameManager.Instance.Player.Level.CurrentExperience, GameManager.Instance.Player.Level.MaxExperience, GameManager.Instance.Player.Level.CurrentLevel);
+    }
+
+    public void SetupLife(){
+        foreach (Transform item in lifeContainer)
+        {  
+            Destroy(item.gameObject); 
+        }
+        for (int i = 1; i <= GameManager.Instance.Player.Life.MaxLife; i++)
+        {
+            var go = Instantiate(lifeGameObject, lifeContainer);
+            if(GameManager.Instance.Player.Life.CurrentLife >= i){
+                go.GetComponent<Image>().sprite = SpriteDatabase.Instance.fullfillHeart;
+            } else {
+                go.GetComponent<Image>().sprite = SpriteDatabase.Instance.emptyHeart;
+            }
+        }
     }
 
     private void SetupDropRateText(){

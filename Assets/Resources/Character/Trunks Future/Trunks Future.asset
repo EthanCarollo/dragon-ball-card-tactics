@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Trunks Future
   m_EditorClassIdentifier: 
-  id: 2
+  id: 10
   starNumber: 1
   characterName: Trunks Future
   role: 1
@@ -20,7 +20,7 @@ MonoBehaviour:
   characterSprite: {fileID: 3542006098375304258, guid: fb35d289ba574c944b564f45b972712e, type: 3}
   characterIcon: {fileID: 4222025725225743823, guid: 2d5158fc45f38a743913e399d7153dbf, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 750
+  maxHealth: 250
   maxKi: 75
   baseRange: 1
   baseDamage: 50
@@ -36,3 +36,6 @@ MonoBehaviour:
   - name: 
     description: 
     animation: {fileID: 11400000, guid: 761d1e111e79d49489bc9a9276d78eb0, type: 2}
+  deadAnimation: {fileID: 0}
+  characterPassive: []
+  card: {fileID: 0}

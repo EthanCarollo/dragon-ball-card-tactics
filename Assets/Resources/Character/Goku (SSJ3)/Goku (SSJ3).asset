@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku (SSJ3)
   m_EditorClassIdentifier: 
-  id: 2
+  id: 27
   starNumber: 1
   characterName: Goku (SSJ3)
   role: 0
@@ -20,7 +20,7 @@ MonoBehaviour:
   characterSprite: {fileID: 2591519323428999363, guid: 0d039230482fc4824b2e96dcd8c0d8ec, type: 3}
   characterIcon: {fileID: 21300000, guid: 2b8e93da37d7a493db349cb2e7428e9e, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 1900
+  maxHealth: 550
   maxKi: 75
   baseRange: 1
   baseDamage: 50
@@ -39,3 +39,4 @@ MonoBehaviour:
   deadAnimation: {fileID: 0}
   characterPassive:
   - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}
+  card: {fileID: 0}

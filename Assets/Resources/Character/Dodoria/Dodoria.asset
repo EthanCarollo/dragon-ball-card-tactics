@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Dodoria
   m_EditorClassIdentifier: 
-  id: 2
+  id: 16
   starNumber: 1
   characterName: Dodoria
   role: 0
@@ -20,7 +20,7 @@ MonoBehaviour:
   characterSprite: {fileID: 2070958024, guid: 697423e5ea61fe14f84baaa1fc931346, type: 3}
   characterIcon: {fileID: 21300000, guid: 8e1f2a5349994ae42a77db43984da059, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 950
+  maxHealth: 190
   maxKi: 75
   baseRange: 5
   baseDamage: 50
@@ -38,3 +38,4 @@ MonoBehaviour:
     animation: {fileID: 11400000, guid: e0446bacbc0bac947a0f5d959f48eac2, type: 2}
   deadAnimation: {fileID: 0}
   characterPassive: []
+  card: {fileID: 0}

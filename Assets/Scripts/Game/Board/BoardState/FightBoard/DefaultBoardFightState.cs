@@ -53,7 +53,7 @@ public class DefaultBoardFightState : BoardFightState
         if (alivePlayerCount == 0 || aliveEnemyCount == 0)
         {
             Debug.Log("There is no alive character actually in this board, player : " + alivePlayerCount + " enemy : " + aliveEnemyCount );
-            boardFightState.EndFight();
+            boardFightState.EndFight(alivePlayerCount > 0);
         }
     }
 

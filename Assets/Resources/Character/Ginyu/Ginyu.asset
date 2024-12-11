@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Ginyu
   m_EditorClassIdentifier: 
-  id: 8
+  id: 17
   starNumber: 1
   characterName: Ginyu
   role: 0
@@ -20,7 +20,7 @@ MonoBehaviour:
   characterSprite: {fileID: -4000601898736066957, guid: 678191182e4cfe3428d050e0318e2244, type: 3}
   characterIcon: {fileID: 21300000, guid: 46f03910a9930ff4c91141e51cf9625d, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 2050
+  maxHealth: 210
   maxKi: 105
   baseRange: 1
   baseDamage: 25
@@ -38,3 +38,4 @@ MonoBehaviour:
     animation: {fileID: 11400000, guid: 02deafa69b34dd247ab66b67066796f3, type: 2}
   deadAnimation: {fileID: 0}
   characterPassive: []
+  card: {fileID: 0}

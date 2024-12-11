@@ -11,6 +11,9 @@ public class SpriteDatabase : ScriptableObject
     public Texture2D pointerCursor;
     public Sprite[] numbers;
 
+    public Sprite fullfillHeart;
+    public Sprite emptyHeart;
+
     public static SpriteDatabase Instance
     {
         get

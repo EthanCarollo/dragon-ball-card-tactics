@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Super Buu
   m_EditorClassIdentifier: 
-  id: 2
+  id: 24
   starNumber: 1
   characterName: Super Buu
   role: 1
@@ -23,7 +23,7 @@ MonoBehaviour:
   maxHealth: 750
   maxKi: 75
   baseRange: 1
-  baseDamage: 50
+  baseDamage: 65
   baseArmor: 25
   baseSpeed: 2
   baseAttackSpeed: 0.5
@@ -36,3 +36,6 @@ MonoBehaviour:
   - name: 
     description: 
     animation: {fileID: 11400000, guid: 246cfb881dfdf87459109f0f37b30203, type: 2}
+  deadAnimation: {fileID: 0}
+  characterPassive: []
+  card: {fileID: 0}

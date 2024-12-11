@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Vegeta (Namek)
   m_EditorClassIdentifier: 
-  id: 2
+  id: 5
   starNumber: 1
   characterName: Vegeta
   role: 0
+  characterType: 0
   characterSprite: {fileID: -7722058496274599248, guid: 9cd36e9817095a14bb962a3d217e194f, type: 3}
   characterIcon: {fileID: -1255131906152348387, guid: 1a4b42ab780576a428bfd0d2def4270d, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 750
+  maxHealth: 120
   maxKi: 75
   baseRange: 1
   baseDamage: 50
@@ -35,3 +36,6 @@ MonoBehaviour:
   - name: Garic Canon
     description: 
     animation: {fileID: 11400000, guid: e154bd8741d77b9499c1226ee3845103, type: 2}
+  deadAnimation: {fileID: 0}
+  characterPassive: []
+  card: {fileID: 0}

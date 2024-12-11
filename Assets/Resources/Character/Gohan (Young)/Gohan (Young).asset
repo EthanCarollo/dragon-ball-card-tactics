@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Gohan (Young)
   m_EditorClassIdentifier: 
-  id: 2
+  id: 20
   starNumber: 1
   characterName: Gohan (Young)
   role: 0
@@ -20,7 +20,7 @@ MonoBehaviour:
   characterSprite: {fileID: -6261077498123709441, guid: 01f946802b021f348994efd4369e0892, type: 3}
   characterIcon: {fileID: 21300000, guid: eea7b584d655c9a4ea4acb1e776808c9, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 950
+  maxHealth: 210
   maxKi: 75
   baseRange: 5
   baseDamage: 50
@@ -38,3 +38,4 @@ MonoBehaviour:
     animation: {fileID: 11400000, guid: 12bd5f8ea520d2c4b9d3bcfe05f8f978, type: 2}
   deadAnimation: {fileID: 0}
   characterPassive: []
+  card: {fileID: 0}

@@ -16,7 +16,7 @@ public class FightBoard : Board
         state = new DefaultBoardState(this);
         // state = new FightBoardState(this);
         BoardArray = new GameObject[GameManager.BoardWidth, GameManager.BoardHeight];
-        BoardGameUiManager.Instance.RefreshSlider();
+        BoardGameUiManager.Instance.RefreshUI();
         CreateBoard();
     }
 
@@ -40,9 +40,9 @@ public class FightBoard : Board
         return state.IsFighting();
     }
 
-    public void EndFight()
+    public void EndFight(bool win)
     {
-        state.EndFight();
+        state.EndFight(win);
     }
     
     public override void CreateBoard()

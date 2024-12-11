@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Nappa
   m_EditorClassIdentifier: 
-  id: 2
+  id: 3
   starNumber: 1
   characterName: Nappa
   role: 1
+  characterType: 0
   characterSprite: {fileID: 2492427233688323702, guid: e6a5705443ff688429e6cefe6086d76e, type: 3}
   characterIcon: {fileID: -2055049208137469480, guid: a55226d5906c2ea419a0ac59ec83dd07, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 750
+  maxHealth: 315
   maxKi: 75
   baseRange: 1
   baseDamage: 50
@@ -35,3 +36,6 @@ MonoBehaviour:
   - name: 
     description: 
     animation: {fileID: 11400000, guid: 2ae88cbdd4fe21c409848a99dc80cedc, type: 2}
+  deadAnimation: {fileID: 0}
+  characterPassive: []
+  card: {fileID: 0}
