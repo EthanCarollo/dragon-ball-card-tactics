@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe206b63a12884410b001ddff079c3c8, type: 3}
-  m_Name: Turles Card
+  m_Name: Kakaroto Card
   m_EditorClassIdentifier: 
-  manaCost: 2
-  rarity: 1
-  name: Turles
-  image: {fileID: 21300000, guid: 65b520ff3f41f2146a8855bb573cc9a6, type: 3}
-  character: {fileID: 11400000, guid: b3a2e62ae4b74c3488d9354778659184, type: 2}
+  manaCost: 1
+  rarity: 0
+  name: Kakaroto
+  image: {fileID: -7980234880069928220, guid: 3901951e3109af54d8ecf87a67df319b, type: 3}
+  character: {fileID: 11400000, guid: 2386148d3d4eb0c4bbe6165f0ba94a44, type: 2}

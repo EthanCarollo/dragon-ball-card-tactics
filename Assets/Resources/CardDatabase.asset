@@ -21,6 +21,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f1678ce631b394e8ebd9e1aaf0f6fd15, type: 2}
   - {fileID: 11400000, guid: 704dcd15b402f43deaa8603188be06a4, type: 2}
   - {fileID: 11400000, guid: afa3515bc90ab43cda5337fa92b4bbb0, type: 2}
+  - {fileID: 11400000, guid: 09ed9497f96d744748d527ba580fee16, type: 2}
+  - {fileID: 11400000, guid: e6c0a98cff74e458989a351c67806f96, type: 2}
+  - {fileID: 11400000, guid: 0ab9402eb081549f1bf290537e430eb2, type: 2}
+  - {fileID: 11400000, guid: ef51641237669437192bb3a166857178, type: 2}
   playerCards:
   - {fileID: 11400000, guid: 8b8c9e0cff4dd1748a64ab677ab3d0d4, type: 2}
   - {fileID: 11400000, guid: 744d62729cbacc34983c4012db504091, type: 2}

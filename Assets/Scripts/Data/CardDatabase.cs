@@ -28,7 +28,7 @@ public class CardDatabase : ScriptableObject
 
     public Card GetRandomCard(CardRarity rarity)
     {
-        // Filter cards by the specified rarity
+        Debug.Log(rarity);
         var filteredCards = cards.Where(card => card.rarity == rarity).ToArray();
 
         if (filteredCards.Length == 0)

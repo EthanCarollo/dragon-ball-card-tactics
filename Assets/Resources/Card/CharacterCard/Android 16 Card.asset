@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe206b63a12884410b001ddff079c3c8, type: 3}
-  m_Name: Turles Card
+  m_Name: Android 16 Card
   m_EditorClassIdentifier: 
   manaCost: 2
-  rarity: 1
-  name: Turles
-  image: {fileID: 21300000, guid: 65b520ff3f41f2146a8855bb573cc9a6, type: 3}
-  character: {fileID: 11400000, guid: b3a2e62ae4b74c3488d9354778659184, type: 2}
+  rarity: 0
+  name: Android 16
+  image: {fileID: 21300000, guid: 5b7eb88f098f59e4faf94d92c7974ff6, type: 3}
+  character: {fileID: 11400000, guid: 7b5ac1b2adc773645820ef8a0f6da678, type: 2}
