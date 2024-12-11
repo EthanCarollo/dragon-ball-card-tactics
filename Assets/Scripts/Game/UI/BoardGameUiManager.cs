@@ -18,6 +18,8 @@ public class BoardGameUiManager : MonoBehaviour
 
     public Transform lifeContainer;
     public GameObject lifeGameObject;
+
+    public GameObject launchFightButton;
     
     public void Awake()
     {

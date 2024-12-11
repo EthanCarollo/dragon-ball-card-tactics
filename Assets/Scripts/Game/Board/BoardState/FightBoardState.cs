@@ -9,6 +9,7 @@ public class FightBoardState : BoardState
 
     public FightBoardState(FightBoard board, bool resetPassives = true) : base(board)
     {
+        BoardGameUiManager.Instance.launchFightButton.SetActive(false);
         if(CameraScript.Instance != null){
             CameraScript.Instance.SetupFightCamera();
         }
@@ -47,7 +48,7 @@ public class FightBoardState : BoardState
         if(win == false){
             GameManager.Instance.Player.Life.LooseLife(1);
         } else {
-            GameManager.Instance.Player.Level.AddExperience(2);
+            GameManager.Instance.Player.Level.AddExperience(3);
             WinFightUi.Instance.OpenWinFightUi(board);
         }
         board.UpdateState(new DefaultBoardState(board));

@@ -27,3 +27,5 @@ MonoBehaviour:
   - {fileID: -8786190157408040394, guid: 693ce841faeae6a46bf84ecb743b7f9f, type: 3}
   - {fileID: 126266348122195868, guid: 693ce841faeae6a46bf84ecb743b7f9f, type: 3}
   - {fileID: 2465565244120213893, guid: 693ce841faeae6a46bf84ecb743b7f9f, type: 3}
+  fullfillHeart: {fileID: 1759379004, guid: a1860533ba83051458122025091e881b, type: 3}
+  emptyHeart: {fileID: 34404232, guid: a1860533ba83051458122025091e881b, type: 3}

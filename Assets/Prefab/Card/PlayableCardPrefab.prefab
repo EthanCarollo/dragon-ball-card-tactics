@@ -874,6 +874,7 @@ GameObject:
   - component: {fileID: 7423396284186785581}
   - component: {fileID: 8493844759246016850}
   - component: {fileID: 3061048901946072255}
+  - component: {fileID: -3505050096823278709}
   m_Layer: 5
   m_Name: PlayableCardPrefab
   m_TagString: Untagged
@@ -960,3 +961,16 @@ MonoBehaviour:
   cardMana: {fileID: 4833325527681649418}
   cardDescription: {fileID: 1963609447493864606}
   hideGameObject: {fileID: 6945685494943391247}
+--- !u!114 &-3505050096823278709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9023534854517842936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0e14462157e4af581f243018550cbf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hotSpot: {x: 0, y: 0}
