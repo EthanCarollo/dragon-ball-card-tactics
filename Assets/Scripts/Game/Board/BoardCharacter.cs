@@ -233,7 +233,9 @@ public class BoardCharacter : BoardObject
 
     public override BoardObject Clone()
     {
-        BoardCharacter clonedCharacter = new BoardCharacter(character, isPlayerCharacter);
+        // Reset the character container
+        var newCharacter = new CharacterContainer(character.characterId, character.powerMultiplicator);
+        BoardCharacter clonedCharacter = new BoardCharacter(newCharacter, isPlayerCharacter);
         clonedCharacter.SetGameObject(this.gameObject);
         clonedCharacter.SetBoard(this.board); 
         return clonedCharacter;

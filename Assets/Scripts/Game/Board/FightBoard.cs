@@ -162,28 +162,4 @@ public class FightBoard : Board
     {
         state.EndCinematic();
     }
-
-    void OnDrawGizmos()
-    {
-        for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
-        {
-            for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
-            {
-                var boardObject = GameManager.Instance.boardCharacterArray[x, y];
-                if (boardObject == null) continue;
-                if (boardObject is BoardCharacter character)
-                {
-                    if (character.isPlayerCharacter)
-                    {
-                        Gizmos.color = new Color(1f, 0f, 0f, 0.3f); 
-                    }
-                    else
-                    {
-                        Gizmos.color = new Color(0f, 0f, 1f, 0.3f); 
-                    }
-                }
-                Gizmos.DrawCube(new Vector3(x, y+0.25f, 0), new Vector3(size, size, 0));
-            }
-        }
-    }
 }

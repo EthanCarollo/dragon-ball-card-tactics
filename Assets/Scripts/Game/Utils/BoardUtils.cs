@@ -140,7 +140,7 @@ public static class BoardUtils
         }
     }
 
-    public static BoardObject[,] DuplicateBoardObjectGrid(BoardObject[,] board)
+    public static BoardObject[,] DuplicateBoardObjectGrid(BoardObject[,] board, bool withEnemy)
     {
         BoardObject[,] duplicateBoard = new BoardObject[board.GetLength(0), board.GetLength(1)];
         
@@ -148,8 +148,11 @@ public static class BoardUtils
         {
             for (int j = 0; j < duplicateBoard.GetLength(1); j++)
             {
-                // Use the Clone method to duplicate each BoardObject
-                duplicateBoard[i, j] = board[i, j]?.Clone();
+                if(board[i, j] is BoardCharacter boardCharacter && withEnemy == false && boardCharacter.isPlayerCharacter == true){
+                    duplicateBoard[i, j] = board[i, j]?.Clone();
+                } else if(withEnemy == true) {
+                    duplicateBoard[i, j] = board[i, j]?.Clone();
+                }
             }
         }
         return duplicateBoard;

@@ -13,7 +13,7 @@ public class FightBoardState : BoardState
         if(CameraScript.Instance != null){
             CameraScript.Instance.SetupFightCamera();
         }
-        boardBeforeFight = BoardUtils.DuplicateBoardObjectGrid(GameManager.Instance.boardCharacterArray);
+        boardBeforeFight = BoardUtils.DuplicateBoardObjectGrid(GameManager.Instance.boardCharacterArray, false);
         boardState = new DefaultBoardFightState(this);
         if (resetPassives)
         {
@@ -45,16 +45,16 @@ public class FightBoardState : BoardState
     public override void EndFight(bool win)
     {
         Debug.Log("Ending fight");
+        GameManager.Instance.boardCharacterArray = boardBeforeFight;
+        board.UpdateState(new DefaultBoardState(board));
+        GameManager.Instance.Player.Mana.AddMana(1);
         if(win == false){
             GameManager.Instance.Player.Life.LooseLife(1);
         } else {
             GameManager.Instance.Player.Level.AddExperience(3);
             WinFightUi.Instance.OpenWinFightUi(board);
+            GameManager.Instance.GoNextFight();
         }
-        board.UpdateState(new DefaultBoardState(board));
-        GameManager.Instance.Player.Mana.AddMana(1);
-        GameManager.Instance.boardCharacterArray = boardBeforeFight;
-        GameManager.Instance.GoNextFight();
         BoardGameUiManager.Instance.RefreshUI();
         board.CreateBoard();
     }

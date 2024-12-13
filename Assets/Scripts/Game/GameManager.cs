@@ -56,7 +56,7 @@ public class GameManager
         Fight randomFight = FightDatabase.Instance.GetRandomFight();
         actualRound ++;
         if(actualRound > 1){
-            difficultyMutliplicator += 0.02f + (actualRound / 5);
+            difficultyMutliplicator += 0.02f;
         }
         BoardGameUiManager.Instance.SetupRoundText(actualRound.ToString());
         foreach (var characterContainerFight in randomFight.opponents)
