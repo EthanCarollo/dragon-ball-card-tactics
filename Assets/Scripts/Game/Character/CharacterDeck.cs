@@ -126,6 +126,22 @@ public class CharacterContainer
                 }
             }
         }
+
+        // Synergy bonus part
+        var synergies = GetSynergies();
+        if(synergies != null && synergies.Count() > 0){
+            foreach (var synergie in synergies)
+            {
+                foreach (var tierBonus in synergie.GetActiveTierBonuses())
+                {
+                    foreach (var bonus in tierBonus.Bonuses)
+                    {
+                        totalAdditionalAttack += bonus.attackBonus;   
+                    }
+                }
+            }
+        }
+        
         
         return Mathf.FloorToInt((GetCharacterData().baseDamage + totalAdditionalAttack)  * powerMultiplicator);
     }
@@ -161,6 +177,10 @@ public class CharacterContainer
     public int GetRange()
     {
         return GetCharacterData().baseRange;
+    }
+    public Synergy[] GetSynergies()
+    {
+        return GetCharacterData().synergies;
     }
     public int GetCharacterPower()
     {

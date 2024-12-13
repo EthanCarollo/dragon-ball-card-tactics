@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Android 20
   m_EditorClassIdentifier: 
-  id: 2
+  id: 39
   starNumber: 1
   characterName: Android 20
   role: 1
@@ -38,4 +38,6 @@ MonoBehaviour:
     animation: {fileID: 11400000, guid: 5bf137ae244a14fe5a6cd64f7e721030, type: 2}
   deadAnimation: {fileID: 0}
   characterPassive: []
+  synergies:
+  - {fileID: 11400000, guid: 2cb9ba8a614734a358c15cedc22a075f, type: 2}
   card: {fileID: 0}

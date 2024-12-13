@@ -1,4 +1,6 @@
-﻿using TMPro;
+﻿using System;
+using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,6 +23,9 @@ public class BoardGameUiManager : MonoBehaviour
 
     public GameObject launchFightButton;
     public TextMeshProUGUI multiplicatorText;
+
+    public Transform synergyContainer;
+    public GameObject synergyPrefab;
     
     public void Awake()
     {
@@ -62,10 +67,43 @@ public class BoardGameUiManager : MonoBehaviour
 
     public void RefreshUI(){
         SetupLife();
+        SetupSynergy();
         SetupDropRateText();
         SetupMultiplicatorText();
         SetupManaSlider(GameManager.Instance.Player.Mana.CurrentMana);
         SetupLevelSlider(GameManager.Instance.Player.Level.CurrentExperience, GameManager.Instance.Player.Level.MaxExperience, GameManager.Instance.Player.Level.CurrentLevel);
+    }
+
+    public void SetupSynergy(){
+        try {
+            foreach (Transform item in synergyContainer)
+            {  
+                Destroy(item.gameObject); 
+            }
+
+            var boardCharacters = GameManager.Instance.GetCharactersOnBoard();
+            List<Synergy> ingameSynergy = new List<Synergy>();
+            foreach (var boardCharacter in boardCharacters)
+            {
+                var synergies = boardCharacter.character.GetSynergies();
+                if(boardCharacter.isPlayerCharacter == true && synergies != null){
+                    foreach (var synergy in synergies)
+                    {
+                        if(ingameSynergy.Contains(synergy)) continue;
+                        ingameSynergy.Add(synergy);
+                    }
+                }
+            }
+
+            foreach (var synergy in ingameSynergy)
+            {
+                var go = Instantiate(synergyPrefab , synergyContainer);
+                go.GetComponent<SynergyPrefabScript>().Setup(synergy);
+            }
+        } catch (Exception error){
+            Debug.LogError("Error on setup synergies : " + error);
+        }
+        
     }
 
     public void SetupMultiplicatorText(){

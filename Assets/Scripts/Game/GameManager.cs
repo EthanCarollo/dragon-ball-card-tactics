@@ -82,6 +82,21 @@ public class GameManager
         SetupCard();
     }
 
+    public List<BoardCharacter> GetCharactersOnBoard()
+    {
+        List<BoardCharacter> boardCharacters = new List<BoardCharacter>();
+        for (int x = 0; x < boardCharacterArray.GetLength(0); x++)
+        {
+            for (int y = 0; y < boardCharacterArray.GetLength(1); y++)
+            {
+                if(boardCharacterArray[x, y] is BoardCharacter boardCharacter){
+                    boardCharacters.Add(boardCharacter);
+                }
+            }
+        }
+        return boardCharacters;
+    }
+
     public void ResetCharacterShader()
     {
         foreach (var boardObj in boardCharacterArray)

@@ -38,4 +38,6 @@ MonoBehaviour:
     animation: {fileID: 11400000, guid: 953f2c5965f783142b45e831a618cbf0, type: 2}
   deadAnimation: {fileID: 0}
   characterPassive: []
+  synergies:
+  - {fileID: 11400000, guid: 2cb9ba8a614734a358c15cedc22a075f, type: 2}
   card: {fileID: 0}

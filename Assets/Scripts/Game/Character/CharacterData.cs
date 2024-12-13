@@ -35,6 +35,7 @@ public class CharacterData : ScriptableObject
     public BoardAnimation deadAnimation;
 
     public CharacterPassive[] characterPassive;
+    public Synergy[] synergies;
     
     public Color GetCharacterColor()
     {
