@@ -52,9 +52,6 @@ public class CharacterData : ScriptableObject
         }
         return Color.white;
     }
-
-    [SerializeField]
-    public CharacterCard card;
 }
 
 [Serializable]

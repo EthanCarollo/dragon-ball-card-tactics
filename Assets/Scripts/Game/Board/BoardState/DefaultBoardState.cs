@@ -10,6 +10,7 @@ public class DefaultBoardState : BoardState
     public override void Update()
     {
         BoardGameUiManager.Instance.launchFightButton.SetActive(true);
+        CardUi.Instance.ShowCardUi();
         for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
         {
             for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)

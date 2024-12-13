@@ -10,6 +10,7 @@ public class FightBoardState : BoardState
     public FightBoardState(FightBoard board, bool resetPassives = true) : base(board)
     {
         BoardGameUiManager.Instance.launchFightButton.SetActive(false);
+        CardUi.Instance.HideCardUi();
         if(CameraScript.Instance != null){
             CameraScript.Instance.SetupFightCamera();
         }

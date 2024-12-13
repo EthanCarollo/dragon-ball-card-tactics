@@ -184,11 +184,39 @@ public class CharacterContainer
     }
     public float GetAttackSpeed()
     {
-        return GetCharacterData().baseAttackSpeed  * powerMultiplicator;
+        var attackSpeed = GetCharacterData().baseAttackSpeed  * powerMultiplicator;
+        var synergies = GetSynergies();
+        if(synergies != null && synergies.Count() > 0){
+            foreach (var synergie in synergies)
+            {
+                foreach (var tierBonus in synergie.GetActiveTierBonuses())
+                {
+                    foreach (var bonus in tierBonus.Bonuses)
+                    {
+                        attackSpeed += bonus.attackSpeedBonus;   
+                    }
+                }
+            }
+        }
+        return attackSpeed;
     }
     public int GetCriticalChance()
     {
-        return GetCharacterData().baseCriticalChance;
+        var criticalChance = GetCharacterData().baseCriticalChance;
+        var synergies = GetSynergies();
+        if(synergies != null && synergies.Count() > 0){
+            foreach (var synergie in synergies)
+            {
+                foreach (var tierBonus in synergie.GetActiveTierBonuses())
+                {
+                    foreach (var bonus in tierBonus.Bonuses)
+                    {
+                        criticalChance += bonus.criticalChanceBonus;   
+                    }
+                }
+            }
+        }
+        return criticalChance;
     }
     public int GetRange()
     {

@@ -22,4 +22,12 @@ public class CardUi : MonoBehaviour {
             cardPrefabScript.SetupCard(card);
         }
     }
+
+    public void ShowCardUi(){
+        cardContainer.gameObject.SetActive(true);
+    }
+
+    public void HideCardUi(){
+        cardContainer.gameObject.SetActive(false);
+    }
 }

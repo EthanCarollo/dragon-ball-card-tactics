@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c6eb036ffd84111b40ffd02f9fe47e, type: 3}
+  m_Name: Tyrant's Legacy
+  m_EditorClassIdentifier: 
+  synergyName: Tyrant's Legacy
+  synergyImage: {fileID: 21300000, guid: 65b520ff3f41f2146a8855bb573cc9a6, type: 3}
+  Tiers:
+  - RequiredUnits: 2
+    Description: Give 50 attack to all Tyrant's Legacy Synergy.
+    Bonuses:
+    - attackBonus: 50
+      maxHpBonus: 0
+      attackSpeedBonus: 0
+      criticalChanceBonus: 0
