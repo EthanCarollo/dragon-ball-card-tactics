@@ -62,16 +62,18 @@ public class CharacterInventory : ScriptableObject
 [Serializable]
 public class CharacterContainer
 {
+    public float powerMultiplicator = 1;
     public int characterId;
     public int actualHealth;
     public int actualKi;
     public int selectedUltimateAttack = 0;
     public List<int> unlockedPassives = new List<int>();
     
-    public CharacterContainer(int characterId)
+    public CharacterContainer(int characterId, float powerMultiplicator = 1)
     {
+        this.powerMultiplicator = powerMultiplicator;
         this.characterId = characterId;
-        this.actualHealth = GetCharacterData().maxHealth;
+        this.actualHealth = GetCharacterMaxHealth();
     }
     
     public CharacterContainer(int characterId, int actualHealth, int actualKi)
@@ -95,10 +97,6 @@ public class CharacterContainer
     {
         return actualHealth <= 0;
     }
-    public int GetCharacterMaxHealth()
-    {
-        return GetCharacterData().maxHealth;
-    }
 
     public CharacterPassive[] GetCharacterPassives()
     {
@@ -113,6 +111,7 @@ public class CharacterContainer
         }
         return passives.ToArray();
     }
+
     public int GetAttackDamage()
     {
         int totalAdditionalAttack = 0;
@@ -128,19 +127,32 @@ public class CharacterContainer
             }
         }
         
-        return GetCharacterData().baseDamage + totalAdditionalAttack;
+        return Mathf.FloorToInt((GetCharacterData().baseDamage + totalAdditionalAttack)  * powerMultiplicator);
+    }
+
+    public string GetName()
+    {
+        return GetCharacterData().name;
     }
     public int GetArmor()
     {
-        return GetCharacterData().baseArmor;
+        return Mathf.FloorToInt(GetCharacterData().baseArmor * powerMultiplicator);
     }
     public int GetSpeed()
     {
         return GetCharacterData().baseSpeed;
     }
+    public int GetCharacterMaxHealth()
+    {
+        return Mathf.FloorToInt(GetCharacterData().maxHealth * powerMultiplicator);
+    }
+    public int GetCharacterMaxKi()
+    {
+        return GetCharacterData().maxKi;
+    }
     public float GetAttackSpeed()
     {
-        return GetCharacterData().baseAttackSpeed;
+        return GetCharacterData().baseAttackSpeed  * powerMultiplicator;
     }
     public int GetCriticalChance()
     {

@@ -106,7 +106,7 @@ public class FightBoard : Board
                     Debug.LogError(e);
                     if (boardObject is BoardCharacter character)
                     {
-                        Debug.Log("Exception when instantiating game object of character : " + character.character.GetCharacterData().characterName);
+                        Debug.Log("Exception when instantiating game object of character : " + character.character.GetName());
                     }
                     else
                     {

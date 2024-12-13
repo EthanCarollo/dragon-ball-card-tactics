@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using System;
 
 public class GameManager
 {
@@ -29,9 +30,21 @@ public class GameManager
 
     public int actualRound = 0;
 
+    private float _difficultyMutliplicator;
+    public float difficultyMutliplicator
+    {
+        get => (float)Math.Round(_difficultyMutliplicator, 2);
+        set => _difficultyMutliplicator = value;
+    }
+
     private GameManager()
     {
-        Cursor.SetCursor(SpriteDatabase.Instance.normalCursor, Vector2.zero, CursorMode.Auto);
+        difficultyMutliplicator = 1.00f;
+        try {
+            Cursor.SetCursor(SpriteDatabase.Instance.normalCursor, Vector2.zero, CursorMode.Auto);
+        } catch(Exception error){
+            Debug.LogWarning("Cannot set cursor for weird reason, " + error.ToString());
+        }
         boardCharacterArray = new BoardObject[BoardWidth, BoardHeight];
         PlayerCards = CardDatabase.Instance.playerCards.ToList();
         SetupCard();
@@ -42,11 +55,14 @@ public class GameManager
     {
         Fight randomFight = FightDatabase.Instance.GetRandomFight();
         actualRound ++;
+        if(actualRound > 1){
+            difficultyMutliplicator += 0.02f + (actualRound / 5);
+        }
         BoardGameUiManager.Instance.SetupRoundText(actualRound.ToString());
         foreach (var characterContainerFight in randomFight.opponents)
         {
             boardCharacterArray[characterContainerFight.position.x, characterContainerFight.position.y] 
-                = new BoardCharacter(new CharacterContainer(characterContainerFight.characterData.id), false);
+                = new BoardCharacter(new CharacterContainer(characterContainerFight.characterData.id, difficultyMutliplicator), false);
         }
     }
 

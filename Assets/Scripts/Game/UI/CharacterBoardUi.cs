@@ -32,8 +32,8 @@ public class CharacterBoardUi : MonoBehaviour
                         return;
                 }
                 characterBoardUi.gameObject.SetActive(true);
-                charNameText.text = boardCharacter.character.GetCharacterData().name;
-                charHealth.maxValue = boardCharacter.character.GetCharacterData().maxHealth;
+                charNameText.text = boardCharacter.character.GetName();
+                charHealth.maxValue = boardCharacter.character.GetCharacterMaxHealth();
                 charHealth.value = boardCharacter.character.actualHealth;
                 
                 charKi.maxValue = boardCharacter.character.GetCharacterData().maxKi;
@@ -41,11 +41,11 @@ public class CharacterBoardUi : MonoBehaviour
                 
                 charArmorText.text = "AR: " + boardCharacter.character.GetArmor().ToString();
                 charDamageText.text = "AD: " + boardCharacter.character.GetAttackDamage().ToString();
-                charCriticalText.text = "CC: " + boardCharacter.character.GetCharacterData().baseCriticalChance.ToString() + "%";
+                charCriticalText.text = "CC: " + boardCharacter.character.GetCriticalChance().ToString() + "%";
                 charAttackSpeedText.text = "AS: " + boardCharacter.character.GetAttackSpeed().ToString();
                 
-                charHealthText.text = boardCharacter.character.actualHealth + " / " + boardCharacter.character.GetCharacterData().maxHealth;
-                charKiText.text = boardCharacter.character.actualKi + " / " + boardCharacter.character.GetCharacterData().maxKi;
+                charHealthText.text = boardCharacter.character.actualHealth + " / " + boardCharacter.character.GetCharacterMaxHealth();
+                charKiText.text = boardCharacter.character.actualKi + " / " + boardCharacter.character.GetCharacterMaxKi();
                 charImage.sprite = boardCharacter.character.GetCharacterData().characterIcon;
 
                 specialAttackContainer.Setup(boardCharacter.character.GetCharacterSpecialAttack());

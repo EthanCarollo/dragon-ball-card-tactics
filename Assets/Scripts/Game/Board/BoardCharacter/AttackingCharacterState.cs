@@ -36,7 +36,7 @@ public class AttackingCharacterState : BoardCharacterState
         timeSinceLastAttack += Time.deltaTime;
         if (timeSinceLastAttack >= (1 / boardCharacter.character.GetAttackSpeed()))
         {
-            if (boardCharacter.character.actualKi >= boardCharacter.character.GetCharacterData().maxKi)
+            if (boardCharacter.character.actualKi >= boardCharacter.character.GetCharacterMaxKi())
             {
                 isSpecialAttacking = true;
                 boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterSpecialAttack().animation, () => {

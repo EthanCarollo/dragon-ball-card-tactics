@@ -152,9 +152,9 @@ public class BoardCharacter : BoardObject
     public void AddKi(int kiAmount)
     {
         this.character.actualKi += kiAmount;
-        if (this.character.actualKi > this.character.GetCharacterData().maxKi)
+        if (this.character.actualKi > this.character.GetCharacterMaxKi())
         {
-            this.character.actualKi = this.character.GetCharacterData().maxKi;
+            this.character.actualKi = this.character.GetCharacterMaxKi();
         }
     }
 
@@ -173,9 +173,9 @@ public class BoardCharacter : BoardObject
         try
         {
             var charPrefabScript = gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
-            charPrefabScript.kiSlider.maxValue = this.character.GetCharacterData().maxKi;
+            charPrefabScript.kiSlider.maxValue = this.character.GetCharacterMaxKi();
             charPrefabScript.kiSlider.value = this.character.actualKi;
-            charPrefabScript.healthSlider.maxValue = this.character.GetCharacterData().maxHealth;
+            charPrefabScript.healthSlider.maxValue = this.character.GetCharacterMaxHealth();
             charPrefabScript.healthSlider.value = this.character.actualHealth;
         }
         catch (Exception e)

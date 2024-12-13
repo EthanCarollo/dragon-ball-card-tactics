@@ -69,7 +69,7 @@ public class DefaultCharacterState : BoardCharacterState
                         }
                         catch (Exception e)
                         {
-                            Debug.LogError("Got an error on finding path from " + boardCharacter.character.GetCharacterData().name + " to " + character.character.GetCharacterData().name + ": " + e);
+                            Debug.LogError("Got an error on finding path from " + boardCharacter.character.GetName() + " to " + character.character.GetName() + ": " + e);
                         }
                     }
                 }
@@ -81,7 +81,7 @@ public class DefaultCharacterState : BoardCharacterState
     private void MoveTowardsTarget()
     {
         Vector2 targetPosition = boardCharacter.nextPosition;
-        float step = boardCharacter.character.GetCharacterData().baseSpeed * Time.deltaTime;
+        float step = boardCharacter.character.GetSpeed() * Time.deltaTime;
         boardCharacter.PlayAnimationIfNotRunning(boardCharacter.character.GetCharacterData().runAnimation);
         boardCharacter.gameObject.transform.position = Vector3.MoveTowards(boardCharacter.gameObject.transform.position, targetPosition, step);
         if (Vector3.Distance(boardCharacter.gameObject.transform.position, targetPosition) < 0.001f)

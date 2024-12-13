@@ -20,6 +20,7 @@ public class BoardGameUiManager : MonoBehaviour
     public GameObject lifeGameObject;
 
     public GameObject launchFightButton;
+    public TextMeshProUGUI multiplicatorText;
     
     public void Awake()
     {
@@ -62,8 +63,13 @@ public class BoardGameUiManager : MonoBehaviour
     public void RefreshUI(){
         SetupLife();
         SetupDropRateText();
+        SetupMultiplicatorText();
         SetupManaSlider(GameManager.Instance.Player.Mana.CurrentMana);
         SetupLevelSlider(GameManager.Instance.Player.Level.CurrentExperience, GameManager.Instance.Player.Level.MaxExperience, GameManager.Instance.Player.Level.CurrentLevel);
+    }
+
+    public void SetupMultiplicatorText(){
+        multiplicatorText.text = "actual difficulty multiplicator : " + string.Format("{0:F2}", GameManager.Instance.difficultyMutliplicator) + "x";
     }
 
     public void SetupLife(){
