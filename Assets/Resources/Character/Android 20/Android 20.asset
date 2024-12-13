@@ -17,8 +17,8 @@ MonoBehaviour:
   characterName: Android 20
   role: 1
   characterType: 0
-  characterSprite: {fileID: -1092997975313515031, guid: 55db636c3f6db4f1e9121c04be733498, type: 3}
-  characterIcon: {fileID: 21300000, guid: bcd0320b3f6654e2f81acacd487b04eb, type: 3}
+  characterSprite: {fileID: -4399419152215652761, guid: 62816de6fccaf44fca913fb5d28d4186, type: 3}
+  characterIcon: {fileID: 21300000, guid: 94f52f33012df4145af90b2e47d8ae97, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
   maxHealth: 250
   maxKi: 75
@@ -28,14 +28,14 @@ MonoBehaviour:
   baseSpeed: 2
   baseAttackSpeed: 0.5
   baseCriticalChance: 10
-  idleAnimation: {fileID: 11400000, guid: eefc1a6533bfc416aadd422648f797e3, type: 2}
-  runAnimation: {fileID: 11400000, guid: 09ba482bb1ea14723bf019e52090441b, type: 2}
-  attackAnimation: {fileID: 11400000, guid: 4db19c5e8a8e44790ab8949ffab4b52b, type: 2}
-  criticalAttackAnimation: {fileID: 11400000, guid: d6b7f471c226e4396beb82c6f2a4b4dd, type: 2}
+  idleAnimation: {fileID: 11400000, guid: 8bb1c709cb2d04aebb9a3a7ded43e983, type: 2}
+  runAnimation: {fileID: 11400000, guid: 44ddfa9a2c65f4bfa9c0f0904ccffc2b, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 067e6f3460b0a4c2fa0c910be3382922, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: f9d5e55dacaa740f5be0aac3e72ca07c, type: 2}
   specialAttackAnimation:
   - name: Ki Blast
     description: The most basic form of energy blast.
-    animation: {fileID: 11400000, guid: 5bf137ae244a14fe5a6cd64f7e721030, type: 2}
+    animation: {fileID: 11400000, guid: 7edcaeefadc1e485e827611ad3a06c48, type: 2}
   deadAnimation: {fileID: 0}
   characterPassive: []
   synergies:

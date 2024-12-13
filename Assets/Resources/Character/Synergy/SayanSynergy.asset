@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3c6eb036ffd84111b40ffd02f9fe47e, type: 3}
   m_Name: SayanSynergy
   m_EditorClassIdentifier: 
-  SynergyName: Sayan Synergy
+  synergyName: Sayan Synergy
   synergyImage: {fileID: 21300000, guid: bf845ab3fb51a0f40bcc5d05c1eb3f56, type: 3}
   Tiers:
   - RequiredUnits: 2
     Description: Give 20 attack to all Sayan.
     Bonuses:
     - attackBonus: 20
+      maxHpBonus: 0

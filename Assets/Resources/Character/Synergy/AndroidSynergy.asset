@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3c6eb036ffd84111b40ffd02f9fe47e, type: 3}
   m_Name: AndroidSynergy
   m_EditorClassIdentifier: 
-  SynergyName: Android Synergy
+  synergyName: Android Synergy
   synergyImage: {fileID: 21300000, guid: 94f52f33012df4145af90b2e47d8ae97, type: 3}
   Tiers:
   - RequiredUnits: 1
-    Description: Give 8 attack to all Sayan.
+    Description: Give 8 attack damage and 80 max hp to all Android.
     Bonuses:
     - attackBonus: 8
+      maxHpBonus: 80

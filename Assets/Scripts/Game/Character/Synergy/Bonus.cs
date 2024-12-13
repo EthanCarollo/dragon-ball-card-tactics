@@ -4,4 +4,5 @@ using System;
 public class Bonus
 {
     public int attackBonus;
+    public int maxHpBonus;
 }

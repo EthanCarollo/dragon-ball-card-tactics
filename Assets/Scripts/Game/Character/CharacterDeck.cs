@@ -160,7 +160,23 @@ public class CharacterContainer
     }
     public int GetCharacterMaxHealth()
     {
-        return Mathf.FloorToInt(GetCharacterData().maxHealth * powerMultiplicator);
+        int maxHealth = Mathf.FloorToInt(GetCharacterData().maxHealth * powerMultiplicator);
+
+        var synergies = GetSynergies();
+        if(synergies != null && synergies.Count() > 0){
+            foreach (var synergie in synergies)
+            {
+                foreach (var tierBonus in synergie.GetActiveTierBonuses())
+                {
+                    foreach (var bonus in tierBonus.Bonuses)
+                    {
+                        maxHealth += bonus.maxHpBonus;   
+                    }
+                }
+            }
+        }
+        
+        return maxHealth;
     }
     public int GetCharacterMaxKi()
     {

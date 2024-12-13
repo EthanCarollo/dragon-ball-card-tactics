@@ -5,7 +5,7 @@ using UnityEngine;
 
 [CreateAssetMenu(fileName = "Synergy", menuName = "Synergy/CharacterSynergy")]
 public class Synergy : ScriptableObject {
-    public string SynergyName;
+    public string synergyName;
     public Sprite synergyImage;
     public List<TierBonus> Tiers = new List<TierBonus>();
 
@@ -24,7 +24,7 @@ public class Synergy : ScriptableObject {
     }
 
     public string GetDescription(){
-        string description = "<size=20>" + SynergyName + "</size>";
+        string description = "<size=20>" + synergyName + "</size>";
         int iterator = 0;
         foreach(var tierBonus in Tiers){
             iterator++;

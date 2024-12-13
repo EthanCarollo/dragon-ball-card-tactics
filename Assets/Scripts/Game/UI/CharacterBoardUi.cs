@@ -18,6 +18,9 @@ public class CharacterBoardUi : MonoBehaviour
         public TextMeshProUGUI charKiText;
         public Image charImage;
 
+        public Transform synergyContainer;
+        public GameObject synergyPrefab;
+
         public GameObject passiveWholeContainer;
         public GameObject passiveLittlePrefab;
         public Transform passiveContainer;
@@ -49,6 +52,21 @@ public class CharacterBoardUi : MonoBehaviour
                 charImage.sprite = boardCharacter.character.GetCharacterData().characterIcon;
 
                 specialAttackContainer.Setup(boardCharacter.character.GetCharacterSpecialAttack());
+                
+                foreach (Transform child in synergyContainer)
+                {
+                        Destroy(child.gameObject);
+                }
+                if(boardCharacter.character.GetSynergies() != null && boardCharacter.character.GetSynergies().Length != 0){
+                        synergyContainer.gameObject.SetActive(true);
+                        foreach (var synergy in boardCharacter.character.GetSynergies())
+                        {
+                                Instantiate(synergyPrefab, synergyContainer).GetComponent<SynergyCharacterShowPrefabScript>().Setup(synergy);
+                        }
+                }else{
+                        synergyContainer.gameObject.SetActive(false);
+                }
+
 
                 foreach (Transform child in passiveContainer)
                 {
