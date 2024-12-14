@@ -28,4 +28,4 @@ MonoBehaviour:
         tickInterval: 1.5
         nextTickTime: 1.5
         damagePerTick: 20
-        particle: {fileID: 11400000, guid: a174c22b4147b4a269d29116e2a370cd, type: 2}
+        particle: {fileID: 11400000, guid: 596e08eb421024550922371c0991c5cd, type: 2}
