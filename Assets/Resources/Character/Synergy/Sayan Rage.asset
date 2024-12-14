@@ -18,7 +18,14 @@ MonoBehaviour:
   - RequiredUnits: 2
     Description: Give 20 attack to all Sayan.
     Bonuses:
-    - attackBonus: 20
-      maxHpBonus: 0
-      attackSpeedBonus: 0
-      criticalChanceBonus: 0
+    - rid: 6739222654909153355
+  references:
+    version: 2
+    RefIds:
+    - rid: 6739222654909153355
+      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 20
+        maxHpBonus: 0
+        attackSpeedBonus: 0
+        criticalChanceBonus: 0

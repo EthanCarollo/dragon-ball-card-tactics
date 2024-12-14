@@ -18,7 +18,14 @@ MonoBehaviour:
   - RequiredUnits: 2
     Description: Give 50 attack to all Tyrant's Legacy Synergy.
     Bonuses:
-    - attackBonus: 50
-      maxHpBonus: 0
-      attackSpeedBonus: 0
-      criticalChanceBonus: 0
+    - rid: 6739222654909153356
+  references:
+    version: 2
+    RefIds:
+    - rid: 6739222654909153356
+      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 50
+        maxHpBonus: 0
+        attackSpeedBonus: 0
+        criticalChanceBonus: 0

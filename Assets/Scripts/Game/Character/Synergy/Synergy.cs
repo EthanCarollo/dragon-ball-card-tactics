@@ -55,6 +55,6 @@ public class TierBonus
     public int RequiredUnits;   
     public string Description;
 
-    [SerializeField]
+    [SerializeReference, SubclassSelector]
     public List<Bonus> Bonuses;
 }

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 82bf3028d369c471d8208a69ed0bb1af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1891385582843638136
+    second: kingcold_0
+  - first:
+      213: 5021673382991976981
+    second: kingcold_1
+  - first:
+      213: 3848689148646499034
+    second: kingcold_2
+  - first:
+      213: -2308598121331465104
+    second: kingcold_3
+  - first:
+      213: 442911580749535101
+    second: kingcold_4
+  - first:
+      213: 1219813759605613488
+    second: kingcold_5
+  - first:
+      213: 9101284118596863153
+    second: kingcold_6
+  - first:
+      213: 7962623360416950205
+    second: kingcold_7
+  - first:
+      213: 7631741017934696361
+    second: kingcold_8
+  - first:
+      213: 8984172509542349532
+    second: kingcold_9
+  - first:
+      213: 6404961802328969569
+    second: kingcold_10
+  - first:
+      213: 5191547204690146786
+    second: kingcold_11
+  - first:
+      213: -6435641013411246177
+    second: kingcold_12
+  - first:
+      213: 816204876559970588
+    second: kingcold_13
+  - first:
+      213: -6157037233948592550
+    second: kingcold_14
+  - first:
+      213: -3429393557769396973
+    second: kingcold_15
+  - first:
+      213: 512413842727168707
+    second: kingcold_16
+  - first:
+      213: -8915051385042868892
+    second: kingcold_17
+  - first:
+      213: -5732096013070388878
+    second: kingcold_18
+  - first:
+      213: 8070270512844217502
+    second: kingcold_19
+  - first:
+      213: -8751967346926680630
+    second: kingcold_20
+  - first:
+      213: -7430556752745181640
+    second: kingcold_21
+  - first:
+      213: -4024777485416042301
+    second: kingcold_22
+  - first:
+      213: 1645305407143871934
+    second: kingcold_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kingcold_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 438
+        width: 49
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e4f4955d270c5e0800000000000000
+      internalID: -1891385582843638136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 437
+        width: 63
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a554bf55190b540800000000000000
+      internalID: 5021673382991976981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 439
+        width: 65
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2a9f3b36a496530800000000000000
+      internalID: 3848689148646499034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 439
+        width: 69
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07467e87d3636ffd0800000000000000
+      internalID: -2308598121331465104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 344
+        width: 62
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d779b7d6cb9852600800000000000000
+      internalID: 442911580749535101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_5
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 354
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b32d69c626ade010800000000000000
+      internalID: 1219813759605613488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_6
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 358
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4ced86fa14e4e70800000000000000
+      internalID: 9101284118596863153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 305
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db721ed22cbe08e60800000000000000
+      internalID: 7962623360416950205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 312
+        width: 18
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af86c7650469e960800000000000000
+      internalID: 7631741017934696361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 313
+        width: 12
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdaf9181c413eac70800000000000000
+      internalID: 8984172509542349532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 233
+        width: 83
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16193c303def2e850800000000000000
+      internalID: 6404961802328969569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_11
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 326
+        width: 8
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e57a3a3da41c0840800000000000000
+      internalID: 5191547204690146786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_12
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 233
+        width: 87
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f00b5889200b6a0800000000000000
+      internalID: -6435641013411246177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_13
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 310
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c117c43c20eb35b00800000000000000
+      internalID: 816204876559970588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_14
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 306
+        width: 12
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56f3a1d14fcd8aa0800000000000000
+      internalID: -6157037233948592550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_15
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 283
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d542a9ab85860d0800000000000000
+      internalID: -3429393557769396973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 278
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3caeeb1dca57c1700800000000000000
+      internalID: 512413842727168707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_17
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 233
+        width: 79
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4656a20dfff574480800000000000000
+      internalID: -8915051385042868892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_18
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 276
+        width: 4
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271b18acb018370b0800000000000000
+      internalID: -5732096013070388878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_19
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 233
+        width: 68
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c9367f54c5fff60800000000000000
+      internalID: 8070270512844217502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_20
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 153
+        width: 268
+        height: 64
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 75, y: 0, z: 73, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac50e906114ca8680800000000000000
+      internalID: -8751967346926680630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_21
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 68
+        width: 55
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e4e3d800c51e890800000000000000
+      internalID: -7430556752745181640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_22
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 68
+        width: 79
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c079c1833e1528c0800000000000000
+      internalID: -4024777485416042301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kingcold_23
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 68
+        width: 64
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb507d3fc8c45d610800000000000000
+      internalID: 1645305407143871934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1ffa09b03a98a4d4491604a4d153e686
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      kingcold_0: -1891385582843638136
+      kingcold_1: 5021673382991976981
+      kingcold_10: 6404961802328969569
+      kingcold_11: 5191547204690146786
+      kingcold_12: -6435641013411246177
+      kingcold_13: 816204876559970588
+      kingcold_14: -6157037233948592550
+      kingcold_15: -3429393557769396973
+      kingcold_16: 512413842727168707
+      kingcold_17: -8915051385042868892
+      kingcold_18: -5732096013070388878
+      kingcold_19: 8070270512844217502
+      kingcold_2: 3848689148646499034
+      kingcold_20: -8751967346926680630
+      kingcold_21: -7430556752745181640
+      kingcold_22: -4024777485416042301
+      kingcold_23: 1645305407143871934
+      kingcold_3: -2308598121331465104
+      kingcold_4: 442911580749535101
+      kingcold_5: 1219813759605613488
+      kingcold_6: 9101284118596863153
+      kingcold_7: 7962623360416950205
+      kingcold_8: 7631741017934696361
+      kingcold_9: 8984172509542349532
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

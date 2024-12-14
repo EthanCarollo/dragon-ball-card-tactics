@@ -18,7 +18,14 @@ MonoBehaviour:
   - RequiredUnits: 2
     Description: Give 10 attack and 0.2 attack speed to all Eternal Frost Synergy.
     Bonuses:
-    - attackBonus: 10
-      maxHpBonus: 0
-      attackSpeedBonus: 0.2
-      criticalChanceBonus: 0
+    - rid: 6739222654909153354
+  references:
+    version: 2
+    RefIds:
+    - rid: 6739222654909153354
+      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 10
+        maxHpBonus: 0
+        attackSpeedBonus: 0.2
+        criticalChanceBonus: 0

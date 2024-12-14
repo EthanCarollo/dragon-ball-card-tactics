@@ -18,7 +18,14 @@ MonoBehaviour:
   - RequiredUnits: 1
     Description: Give 8 attack damage and 80 max hp to all Android.
     Bonuses:
-    - attackBonus: 8
-      maxHpBonus: 80
-      attackSpeedBonus: 0
-      criticalChanceBonus: 0
+    - rid: 6739222654909153357
+  references:
+    version: 2
+    RefIds:
+    - rid: 6739222654909153357
+      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 8
+        maxHpBonus: 80
+        attackSpeedBonus: 0
+        criticalChanceBonus: 0

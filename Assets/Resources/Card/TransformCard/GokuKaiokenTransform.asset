@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 52f162f619fe4780ac0c738b70ae1747, type: 3}
-  m_Name: GokuSSJTransform
+  m_Name: GokuKaiokenTransform
   m_EditorClassIdentifier: 
-  manaCost: 3
-  rarity: 2
-  name: Goku SSJ
-  image: {fileID: 21300000, guid: 0672355ed99cee54abf9d459370883b0, type: 3}
+  manaCost: 2
+  rarity: 1
+  name: Goku Kaioken
+  image: {fileID: 21300000, guid: 8541b268fa7688f4ebfe58fa293dc996, type: 3}
   characterFor: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
-  transform: {fileID: 11400000, guid: 9de54c5982f31c94bb285826638a6a36, type: 2}
+  transform: {fileID: 11400000, guid: c2d14711f8951b14e849aa6788ac0540, type: 2}

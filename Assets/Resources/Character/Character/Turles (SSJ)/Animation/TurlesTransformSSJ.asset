@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55017e58dbbc4db1901c7554f19dc6a0, type: 3}
-  m_Name: Transform SSJ
+  m_Name: TurlesTransformSSJ
   m_EditorClassIdentifier: 
   frameSprites:
   - sprite: {fileID: -1980597576440855408, guid: 901b1af9cb4f74951a7f79b08d7b1770, type: 3}

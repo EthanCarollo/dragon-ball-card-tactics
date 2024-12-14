@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 55017e58dbbc4db1901c7554f19dc6a0, type: 3}
-  m_Name: SpecialSuperSayan
+  m_Name: BardockTransformSSJ
   m_EditorClassIdentifier: 
   frameSprites:
   - sprite: {fileID: -2114873971928790793, guid: f96f3b228afc35f4396d6b8143892d55, type: 3}
