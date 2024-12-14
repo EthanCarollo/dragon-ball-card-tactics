@@ -53,7 +53,7 @@ public class DistanceAttackAnimation : BoardAnimation {
                 {
                     foreach (var effect in effectApplied)
                     {
-                        target.AddEffect(effect);
+                        target.character.AddEffect(effect);
                     }
                 }
                 

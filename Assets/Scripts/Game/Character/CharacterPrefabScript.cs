@@ -15,7 +15,7 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
     
     public void OnPointerClick(PointerEventData eventData)
     {
-        BoardGameUiManager.Instance.characterBoardUi.ShowCharacterBoard(boardCharacter);
+        BoardGameUiManager.Instance.characterBoardUi.ShowCharacterBoard(boardCharacter.character);
     }
 
     public void OnDrag(PointerEventData eventData)

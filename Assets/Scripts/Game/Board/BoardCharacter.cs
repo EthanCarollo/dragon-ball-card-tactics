@@ -14,9 +14,7 @@ public class BoardCharacter : BoardObject
     // If the nextPosition is to negative infinity, it just don't have a next position at all
     public Vector2Int nextPosition = new Vector2Int(-1, -1);
     public bool isAnimating = false;
-
     public bool isDying = false;
-    public List<Effect> activeEffects = new List<Effect>();
 
     public BoardCharacter GetCharacterTarget()
     {
@@ -73,7 +71,6 @@ public class BoardCharacter : BoardObject
 
     public override void Update()
     {
-        float deltaTime = Time.deltaTime;
 
         try
         {
@@ -89,17 +86,7 @@ public class BoardCharacter : BoardObject
             passive.UpdatePassive(this);
         }
 
-        for (int i = activeEffects.Count - 1; i >= 0; i--)
-        {
-            activeEffects[i].UpdateEffect(deltaTime, this);
-
-            // Retirer les effets terminés
-            if (activeEffects[i].IsEffectFinished())
-            {
-                Debug.Log($"Effet {activeEffects[i].effectName} terminé pour {character.GetName()}");
-                activeEffects.RemoveAt(i);
-            }
-        }
+        character.UpdateEffect(this);
         state.Update();
     }
 
@@ -124,88 +111,27 @@ public class BoardCharacter : BoardObject
         }
     }
 
-    public bool CanKikoha()
-    {
-        return state.CanKikoha();
-    }
-
-    public void EndKikoha()
-    {
-        state.EndKikoha();
-    }
-
     public void Dead()
     {
         state.Dead();
     }
 
-    public void Transform(TransformAnimation animation)
-    {
-        state.Transform(animation);
-    }
-
-    public void ResetGameObjectPosition()
-    {
-        
-    }
-
     public void HitDamage(int damageAmount)
     {
-        this.character.actualHealth -= damageAmount;
+        this.character.HitDamage(damageAmount, this);
         ParticleManager.Instance.ShowAttackNumber(this, damageAmount);
-        if (this.character.actualHealth <= 0)
-        {
-            this.character.actualHealth = 0;
-        }
-        if (this.character.IsDead() && isDying == false)
-        {
-            this.Dead(); 
-        }
-        else if(this.character.IsDead() == false)
-        {
-            foreach (var passive in character.GetCharacterPassives())
-            {
-                passive.GetHit(damageAmount, this);
-            }
-        }
         SetCharacterSlider();
-    }
-
-    public void AddEffect(Effect newEffect)
-    {
-        Effect existingEffect = activeEffects.Find(effect => effect.effectName == newEffect.effectName);
-
-        if (existingEffect != null)
-        {
-            // Si l'effet existe déjà, rafraîchir sa durée.
-            existingEffect.effectDuration = newEffect.effectDuration;
-            Debug.Log($"Effet {newEffect.effectName} rafraîchi pour {character.GetName()}. Nouvelle durée : {newEffect.effectDuration}s");
-        }
-        else
-        {
-            // Sinon, ajouter un nouvel effet.
-            activeEffects.Add(newEffect.Clone());
-            Debug.Log($"Effet {newEffect.effectName} ajouté à {character.GetName()}");
-        }
     }
 
     public void AddKi(int kiAmount)
     {
-        this.character.actualKi += kiAmount;
-        if (this.character.actualKi > this.character.GetCharacterMaxKi())
-        {
-            this.character.actualKi = this.character.GetCharacterMaxKi();
-        }
+        this.character.AddKi(kiAmount);
     }
 
     public void Heal(int healAmount)
     {
+        this.character.Heal(healAmount);
         ParticleManager.Instance.ShowHealNumber(this, healAmount);
-        this.character.actualHealth += healAmount;
-        if (this.character.actualHealth > this.character.GetCharacterMaxHealth())
-        {
-            this.character.actualHealth = this.character.GetCharacterMaxHealth();
-        }
     }
 
     public void SetCharacterSlider()

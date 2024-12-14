@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce2cd9a2cca5c4de680bec6c2c4c42e8, type: 3}
   m_Name: FriezaPoisonOnHit
   m_EditorClassIdentifier: 
-  passiveImage: {fileID: -7528005875610918250, guid: 8d572925844034e3f9b9fc7934e9457c, type: 3}
+  passiveImage: {fileID: -1486458220, guid: 89884734e041247829418b41f464fc2f, type: 3}
   passiveName: Poison on hit
   passiveDescription: Give Poison Effect on hit enemy during 6 seconds inflicting
     20 damage every 1.5 seconds.
@@ -26,6 +26,6 @@ MonoBehaviour:
       data:
         effectDuration: 6
         tickInterval: 1.5
-        nextTickTime: 1.5
+        nextTickTime: 0.75
         damagePerTick: 20
         particle: {fileID: 11400000, guid: 596e08eb421024550922371c0991c5cd, type: 2}

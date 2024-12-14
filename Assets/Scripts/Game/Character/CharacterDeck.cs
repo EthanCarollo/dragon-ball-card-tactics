@@ -62,6 +62,13 @@ public class CharacterInventory : ScriptableObject
 [Serializable]
 public class CharacterContainer
 {
+    public event Action OnCharacterChanged;
+
+    public void NotifyCharacterChanged()
+    {
+        OnCharacterChanged?.Invoke();
+    }
+
     public float powerMultiplicator = 1;
     public int characterId;
     public int actualHealth;
@@ -210,5 +217,88 @@ public class CharacterContainer
             GetCriticalChance() +
             Mathf.FloorToInt(GetCharacterMaxHealth() / 25) +
             Mathf.FloorToInt(GetAttackSpeed() * 60);
+    }
+
+    // Effect part
+    public List<Effect> activeEffects = new List<Effect>();
+
+    public void UpdateEffect(BoardCharacter boardCharacter){
+        float deltaTime = Time.deltaTime;
+        for (int i = activeEffects.Count - 1; i >= 0; i--)
+        {
+            activeEffects[i].UpdateEffect(deltaTime, boardCharacter);
+
+            // Retirer les effets terminés
+            if (activeEffects[i].IsEffectFinished())
+            {
+                Debug.Log($"Effet {activeEffects[i].effectName} terminé pour {GetName()}");
+                activeEffects.RemoveAt(i);
+            }
+        }
+    }
+
+    public void AddEffect(Effect newEffect)
+    {
+        Effect existingEffect = activeEffects.Find(effect => effect.effectName == newEffect.effectName);
+
+        if (existingEffect != null)
+        {
+            // Si l'effet existe déjà, rafraîchir sa durée.
+            existingEffect.effectDuration = newEffect.effectDuration;
+            Debug.Log($"Effet {newEffect.effectName} rafraîchi pour {GetName()}. Nouvelle durée : {newEffect.effectDuration}s");
+        }
+        else
+        {
+            // Sinon, ajouter un nouvel effet.
+            activeEffects.Add(newEffect.Clone());
+            Debug.Log($"Effet {newEffect.effectName} ajouté à {GetName()}");
+        }
+        NotifyCharacterChanged();
+    }
+
+    public void AddPassive(CharacterPassive passive)
+    {
+        characterPassives.Add(passive);
+        NotifyCharacterChanged();
+    }
+
+    public void HitDamage(int damageAmount, BoardCharacter characterGameInstance)
+    {
+        actualHealth -= damageAmount;
+        if (actualHealth <= 0)
+        {
+            actualHealth = 0;
+        }
+        if (IsDead() && characterGameInstance.isDying == false)
+        {
+            characterGameInstance.Dead(); 
+        } else if(IsDead() == false)
+        {
+            foreach (var passive in GetCharacterPassives())
+            {
+                passive.GetHit(damageAmount, characterGameInstance);
+            }
+        }
+        NotifyCharacterChanged();
+    }
+
+    public void AddKi(int kiAmount)
+    {
+        actualKi += kiAmount;
+        if (actualKi > GetCharacterMaxKi())
+        {
+            actualKi = GetCharacterMaxKi();
+        }
+        NotifyCharacterChanged();
+    }
+
+    public void Heal(int healAmount)
+    {
+        actualHealth += healAmount;
+        if (actualHealth > GetCharacterMaxHealth())
+        {
+            actualHealth = GetCharacterMaxHealth();
+        }
+        NotifyCharacterChanged();
     }
 }

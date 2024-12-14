@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class CharacterBoardUi : MonoBehaviour
 {
-        private BoardCharacter boardCharacter;
+        private CharacterContainer characterContainer;
         public GameObject characterBoardUi;
         public TextMeshProUGUI charNameText;
         public TextMeshProUGUI charArmorText;
@@ -27,39 +27,39 @@ public class CharacterBoardUi : MonoBehaviour
 
         public SpecialAttackContainer specialAttackContainer;
 
-        public void Update()
+        public void RefreshUi()
         {
-                if (boardCharacter == null)
+                if (characterContainer == null)
                 {
                         characterBoardUi.gameObject.SetActive(false);
                         return;
                 }
                 characterBoardUi.gameObject.SetActive(true);
-                charNameText.text = boardCharacter.character.GetName();
-                charHealth.maxValue = boardCharacter.character.GetCharacterMaxHealth();
-                charHealth.value = boardCharacter.character.actualHealth;
+                charNameText.text = characterContainer.GetName();
+                charHealth.maxValue = characterContainer.GetCharacterMaxHealth();
+                charHealth.value = characterContainer.actualHealth;
                 
-                charKi.maxValue = boardCharacter.character.GetCharacterData().maxKi;
-                charKi.value = boardCharacter.character.actualKi;
+                charKi.maxValue = characterContainer.GetCharacterData().maxKi;
+                charKi.value = characterContainer.actualKi;
                 
-                charArmorText.text = "AR: " + boardCharacter.character.GetArmor().ToString();
-                charDamageText.text = "AD: " + boardCharacter.character.GetAttackDamage().ToString();
-                charCriticalText.text = "CC: " + boardCharacter.character.GetCriticalChance().ToString() + "%";
-                charAttackSpeedText.text = "AS: " + boardCharacter.character.GetAttackSpeed().ToString();
+                charArmorText.text = "AR: " + characterContainer.GetArmor().ToString();
+                charDamageText.text = "AD: " + characterContainer.GetAttackDamage().ToString();
+                charCriticalText.text = "CC: " + characterContainer.GetCriticalChance().ToString() + "%";
+                charAttackSpeedText.text = "AS: " + characterContainer.GetAttackSpeed().ToString();
                 
-                charHealthText.text = boardCharacter.character.actualHealth + " / " + boardCharacter.character.GetCharacterMaxHealth();
-                charKiText.text = boardCharacter.character.actualKi + " / " + boardCharacter.character.GetCharacterMaxKi();
-                charImage.sprite = boardCharacter.character.GetCharacterData().characterIcon;
+                charHealthText.text = characterContainer.actualHealth + " / " + characterContainer.GetCharacterMaxHealth();
+                charKiText.text = characterContainer.actualKi + " / " + characterContainer.GetCharacterMaxKi();
+                charImage.sprite = characterContainer.GetCharacterData().characterIcon;
 
-                specialAttackContainer.Setup(boardCharacter.character.GetCharacterSpecialAttack());
+                specialAttackContainer.Setup(characterContainer.GetCharacterSpecialAttack());
                 
                 foreach (Transform child in synergyContainer)
                 {
                         Destroy(child.gameObject);
                 }
-                if(boardCharacter.character.GetSynergies() != null && boardCharacter.character.GetSynergies().Length != 0){
+                if(characterContainer.GetSynergies() != null && characterContainer.GetSynergies().Length != 0){
                         synergyContainer.gameObject.SetActive(true);
-                        foreach (var synergy in boardCharacter.character.GetSynergies())
+                        foreach (var synergy in characterContainer.GetSynergies())
                         {
                                 Instantiate(synergyPrefab, synergyContainer).GetComponent<SynergyCharacterShowPrefabScript>().Setup(synergy);
                         }
@@ -73,14 +73,14 @@ public class CharacterBoardUi : MonoBehaviour
                         Destroy(child.gameObject);
                 }
 
-                if(boardCharacter.character.GetCharacterPassives() != null){
-                        foreach (var passive in boardCharacter.character.GetCharacterPassives()){
+                if(characterContainer.GetCharacterPassives() != null){
+                        foreach (var passive in characterContainer.GetCharacterPassives()){
                                 if(passive == null) continue;
                                 
                                 Instantiate(passiveLittlePrefab, passiveContainer).GetComponent<PassiveContainer>().Setup(passive);
                         }
 
-                        if(boardCharacter.character.GetCharacterPassives().Length > 0) {
+                        if(characterContainer.GetCharacterPassives().Length > 0) {
                                 passiveWholeContainer.SetActive(true);
                         } else {
                                 passiveWholeContainer.SetActive(false);
@@ -88,13 +88,34 @@ public class CharacterBoardUi : MonoBehaviour
                 }
         }
 
-        public void ShowCharacterBoard(BoardCharacter character)
+        public void ShowCharacterBoard(CharacterContainer character)
         {
-                boardCharacter = character;
+                if (characterContainer != null)
+                {
+                        // Unsubscribe from the previous character's event
+                        characterContainer.OnCharacterChanged -= RefreshUi;
+                }
+
+                characterContainer = character;
+
+                if (characterContainer != null)
+                {
+                        // Subscribe to the new character's event
+                        characterContainer.OnCharacterChanged += RefreshUi;
+                }
+
+                RefreshUi();
         }
 
         public void HideCharacterBoard()
         {
-                boardCharacter = null;
+                if (characterContainer != null)
+                {
+                        // Unsubscribe from the current character's event
+                        characterContainer.OnCharacterChanged -= RefreshUi;
+                }
+
+                characterContainer = null;
+                RefreshUi();
         }
 }

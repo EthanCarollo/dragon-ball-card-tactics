@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Saibaman
   m_EditorClassIdentifier: 
-  id: 0
+  id: 12
   starNumber: 1
   characterName: Saibaman
   role: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
   baseDamage: 10
   baseArmor: 10
   baseSpeed: 2
-  baseAttackSpeed: 1.5
+  baseAttackSpeed: 1.2
   baseCriticalChance: 10
   idleAnimation: {fileID: 11400000, guid: 87d2c6cc800934a8a846b40443a6f417, type: 2}
   runAnimation: {fileID: 11400000, guid: 38c29b1f6778c4bb9b212aa47fa8bcbf, type: 2}
@@ -37,4 +37,4 @@ MonoBehaviour:
     description: A huge fist !
     animation: {fileID: 11400000, guid: 5daae4aa03ae546f9a69d9a45b002cea, type: 2}
   deadAnimation: {fileID: 0}
-  characterPassive: []
+  synergies: []

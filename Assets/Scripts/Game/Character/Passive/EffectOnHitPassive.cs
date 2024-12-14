@@ -9,7 +9,7 @@ public class EffectOnHitPassive : CharacterPassive {
     public override void HitCharacter(BoardCharacter character, BoardCharacter target)
     {
         if(target != null){
-            target.AddEffect(effectApplied);
+            target.character.AddEffect(effectApplied);
         }
     }
 }
