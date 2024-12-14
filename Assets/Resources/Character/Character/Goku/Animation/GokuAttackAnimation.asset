@@ -20,3 +20,9 @@ MonoBehaviour:
   attackFrameIndex: 1
   attackType: 0
   particleAttack: {fileID: 0}
+  kiOnAttack: 10
+  isCinematic: 0
+  effectApplied: []
+  references:
+    version: 2
+    RefIds: []

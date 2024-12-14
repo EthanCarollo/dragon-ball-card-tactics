@@ -37,7 +37,7 @@ public class DefaultBoardFightState : BoardFightState
                     }
                     else
                     {
-                        Debug.Log("Character is dead : " + boardChar.character.GetName());
+                        // Debug.Log("Character is dead : " + boardChar.character.GetName());
                     }
                 }
                 

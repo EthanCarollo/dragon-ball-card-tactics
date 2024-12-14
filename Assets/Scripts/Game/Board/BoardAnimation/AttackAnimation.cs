@@ -12,6 +12,9 @@ public class AttackAnimation : BoardAnimation
     public Particle particleAttack;
     public int kiOnAttack = 10;
     public bool isCinematic = false;
+    
+    [SerializeReference, SubclassSelector]
+    public Effect[] effectApplied;
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
@@ -29,6 +32,13 @@ public class AttackAnimation : BoardAnimation
             character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = frameSprite.sprite;
             yield return new WaitForSeconds(frameSprite.time); 
             if(index == attackFrameIndex){
+                if(effectApplied != null && effectApplied.Length > 0)
+                {
+                    foreach (var effect in effectApplied)
+                    {
+                        target.AddEffect(effect);
+                    }
+                }
                 character.AddKi(kiOnAttack);
                 switch (attackType)
                 {

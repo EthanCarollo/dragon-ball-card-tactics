@@ -18,6 +18,12 @@ public class CharacterPassive : ScriptableObject
         {
                 
         }
+
+        // Called when we additionnal hit
+        public virtual void HitCharacter(BoardCharacter character, BoardCharacter target)
+        {
+
+        }
         
         public virtual void Setup(BoardCharacter character)
         {

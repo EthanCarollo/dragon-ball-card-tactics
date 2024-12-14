@@ -1,6 +1,7 @@
 using System;
 using UnityEngine.EventSystems;
 using UnityEngine;
+using System.Collections.Generic;
 
 [CreateAssetMenu(fileName = "CharacterCard", menuName = "Card/CharacterCard")]
 public class CharacterCard : Card
@@ -38,7 +39,7 @@ public class CharacterCard : Card
 
             if (tileScript != null)
             {
-                tileScript.assignedBoard.AddCharacterFromBoard(new BoardCharacter(new CharacterContainer(character.id), true), tileScript.position);
+                tileScript.assignedBoard.AddCharacterFromBoard(new BoardCharacter(new CharacterContainer(character.id, new List<CharacterPassive>()), true), tileScript.position);
                 GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
                 GameManager.Instance.RemoveCard(this);
                 tileScript.assignedBoard.CreateBoard();

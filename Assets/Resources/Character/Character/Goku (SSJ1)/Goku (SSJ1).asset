@@ -25,7 +25,7 @@ MonoBehaviour:
   baseRange: 1
   baseDamage: 75
   baseArmor: 25
-  baseSpeed: 2
+  baseSpeed: 5
   baseAttackSpeed: 1.4
   baseCriticalChance: 35
   idleAnimation: {fileID: 11400000, guid: fd7218ff2783fb24982b13ed0040891b, type: 2}
@@ -37,7 +37,5 @@ MonoBehaviour:
     description: A charged kikoha
     animation: {fileID: 11400000, guid: 97e3aefe6847c13418e1194efeb123aa, type: 2}
   deadAnimation: {fileID: 0}
-  characterPassive:
-  - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}
-  - {fileID: 11400000, guid: 2910ad7a72d58411b82699cbe406df45, type: 2}
-  card: {fileID: 0}
+  synergies:
+  - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}

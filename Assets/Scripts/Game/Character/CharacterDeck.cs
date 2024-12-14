@@ -44,7 +44,7 @@ public class CharacterInventory : ScriptableObject
 
     public void AddCharacter(CharacterData character)
     {
-        characters.Add(new CharacterContainer(character.id));
+        characters.Add(new CharacterContainer(character.id, new List<CharacterPassive>()));
     }
 
     // By default, a Character Deck is only constitued of Goku & Piccolo
@@ -53,8 +53,8 @@ public class CharacterInventory : ScriptableObject
     {
         characters = new List<CharacterContainer>()
         {
-            new CharacterContainer(0),
-            new CharacterContainer(1)
+            new CharacterContainer(0, new List<CharacterPassive>()),
+            new CharacterContainer(1, new List<CharacterPassive>())
         };
     }
 }
@@ -67,10 +67,11 @@ public class CharacterContainer
     public int actualHealth;
     public int actualKi;
     public int selectedUltimateAttack = 0;
-    public List<int> unlockedPassives = new List<int>();
+    public List<CharacterPassive> characterPassives = new List<CharacterPassive>();
     
-    public CharacterContainer(int characterId, float powerMultiplicator = 1)
+    public CharacterContainer(int characterId, List<CharacterPassive> characterPassives, float powerMultiplicator = 1)
     {
+        this.characterPassives = characterPassives;
         this.powerMultiplicator = powerMultiplicator;
         this.characterId = characterId;
         this.actualHealth = GetCharacterMaxHealth();
@@ -100,16 +101,7 @@ public class CharacterContainer
 
     public CharacterPassive[] GetCharacterPassives()
     {
-        List<CharacterPassive> passives = new List<CharacterPassive>();
-        foreach (int variablePassive in unlockedPassives)
-        {
-            if (variablePassive >= GetCharacterData().characterPassive.Length)
-            {
-                continue;
-            }
-            passives.Add(GetCharacterData().characterPassive[variablePassive]);
-        }
-        return passives.ToArray();
+        return characterPassives.ToArray();
     }
 
     public int GetAttackDamage()
@@ -128,18 +120,10 @@ public class CharacterContainer
         }
 
         // Synergy bonus part
-        var synergies = GetSynergies();
-        if(synergies != null && synergies.Count() > 0){
-            foreach (var synergie in synergies)
-            {
-                foreach (var tierBonus in synergie.GetActiveTierBonuses())
-                {
-                    foreach (var bonus in tierBonus.Bonuses)
-                    {
-                        totalAdditionalAttack += bonus.attackBonus;   
-                    }
-                }
-            }
+        var activeBonuses = GetAllActiveBonuses();
+        foreach (var bonus in activeBonuses)
+        {
+            totalAdditionalAttack += bonus.attackBonus;   
         }
         
         
@@ -161,21 +145,11 @@ public class CharacterContainer
     public int GetCharacterMaxHealth()
     {
         int maxHealth = Mathf.FloorToInt(GetCharacterData().maxHealth * powerMultiplicator);
-
-        var synergies = GetSynergies();
-        if(synergies != null && synergies.Count() > 0){
-            foreach (var synergie in synergies)
-            {
-                foreach (var tierBonus in synergie.GetActiveTierBonuses())
-                {
-                    foreach (var bonus in tierBonus.Bonuses)
-                    {
-                        maxHealth += bonus.maxHpBonus;   
-                    }
-                }
-            }
+        var activeBonuses = GetAllActiveBonuses();
+        foreach (var bonus in activeBonuses)
+        {
+            maxHealth += bonus.maxHpBonus;   
         }
-        
         return maxHealth;
     }
     public int GetCharacterMaxKi()
@@ -185,36 +159,20 @@ public class CharacterContainer
     public float GetAttackSpeed()
     {
         var attackSpeed = GetCharacterData().baseAttackSpeed  * powerMultiplicator;
-        var synergies = GetSynergies();
-        if(synergies != null && synergies.Count() > 0){
-            foreach (var synergie in synergies)
-            {
-                foreach (var tierBonus in synergie.GetActiveTierBonuses())
-                {
-                    foreach (var bonus in tierBonus.Bonuses)
-                    {
-                        attackSpeed += bonus.attackSpeedBonus;   
-                    }
-                }
-            }
+        var activeBonuses = GetAllActiveBonuses();
+        foreach (var bonus in activeBonuses)
+        {
+            attackSpeed += bonus.attackSpeedBonus;   
         }
         return attackSpeed;
     }
     public int GetCriticalChance()
     {
         var criticalChance = GetCharacterData().baseCriticalChance;
-        var synergies = GetSynergies();
-        if(synergies != null && synergies.Count() > 0){
-            foreach (var synergie in synergies)
-            {
-                foreach (var tierBonus in synergie.GetActiveTierBonuses())
-                {
-                    foreach (var bonus in tierBonus.Bonuses)
-                    {
-                        criticalChance += bonus.criticalChanceBonus;   
-                    }
-                }
-            }
+        var activeBonuses = GetAllActiveBonuses();
+        foreach (var bonus in activeBonuses)
+        {
+            criticalChance += bonus.criticalChanceBonus;   
         }
         return criticalChance;
     }
@@ -225,6 +183,24 @@ public class CharacterContainer
     public Synergy[] GetSynergies()
     {
         return GetCharacterData().synergies;
+    }
+    public List<Bonus> GetAllActiveBonuses()
+    {
+        List<Bonus> bonusList = new List<Bonus>();
+        var synergies = GetSynergies();
+        if(synergies != null && synergies.Count() > 0){
+            foreach (var synergie in synergies)
+            {
+                foreach (var tierBonus in synergie.GetActiveTierBonuses())
+                {
+                    foreach (var bonus in tierBonus.Bonuses)
+                    {
+                        bonusList.Add(bonus);   
+                    }
+                }
+            }
+        }
+        return bonusList;
     }
     public int GetCharacterPower()
     {

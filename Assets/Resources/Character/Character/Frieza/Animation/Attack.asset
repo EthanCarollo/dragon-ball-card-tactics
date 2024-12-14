@@ -23,3 +23,7 @@ MonoBehaviour:
   attackType: 0
   startMargin: {x: 0.5, y: 0.7}
   kiOnAttack: 10
+  effectApplied: []
+  references:
+    version: 2
+    RefIds: []

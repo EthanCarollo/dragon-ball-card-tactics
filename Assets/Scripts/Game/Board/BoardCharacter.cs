@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -15,6 +16,8 @@ public class BoardCharacter : BoardObject
     public bool isAnimating = false;
 
     public bool isDying = false;
+    public List<Effect> activeEffects = new List<Effect>();
+
     public BoardCharacter GetCharacterTarget()
     {
         if(state is AttackingCharacterState fightState){
@@ -70,6 +73,8 @@ public class BoardCharacter : BoardObject
 
     public override void Update()
     {
+        float deltaTime = Time.deltaTime;
+
         try
         {
             gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().flipX = direction == Vector2.left;
@@ -83,6 +88,18 @@ public class BoardCharacter : BoardObject
         {
             passive.UpdatePassive(this);
         }
+
+        for (int i = activeEffects.Count - 1; i >= 0; i--)
+        {
+            activeEffects[i].UpdateEffect(deltaTime, this);
+
+            // Retirer les effets terminés
+            if (activeEffects[i].IsEffectFinished())
+            {
+                Debug.Log($"Effet {activeEffects[i].effectName} terminé pour {character.GetName()}");
+                activeEffects.RemoveAt(i);
+            }
+        }
         state.Update();
     }
 
@@ -94,6 +111,11 @@ public class BoardCharacter : BoardObject
         }
         if (particle != null) {
             particle.StartParticle(GetCharacterTarget().gameObject.transform.position);
+        }
+
+        foreach (var passive in character.GetCharacterPassives())
+        {
+            passive.HitCharacter(this, target);
         }
 
         if (target != null)
@@ -147,6 +169,24 @@ public class BoardCharacter : BoardObject
             }
         }
         SetCharacterSlider();
+    }
+
+    public void AddEffect(Effect newEffect)
+    {
+        Effect existingEffect = activeEffects.Find(effect => effect.effectName == newEffect.effectName);
+
+        if (existingEffect != null)
+        {
+            // Si l'effet existe déjà, rafraîchir sa durée.
+            existingEffect.effectDuration = newEffect.effectDuration;
+            Debug.Log($"Effet {newEffect.effectName} rafraîchi pour {character.GetName()}. Nouvelle durée : {newEffect.effectDuration}s");
+        }
+        else
+        {
+            // Sinon, ajouter un nouvel effet.
+            activeEffects.Add(newEffect.Clone());
+            Debug.Log($"Effet {newEffect.effectName} ajouté à {character.GetName()}");
+        }
     }
 
     public void AddKi(int kiAmount)
@@ -234,7 +274,7 @@ public class BoardCharacter : BoardObject
     public override BoardObject Clone()
     {
         // Reset the character container
-        var newCharacter = new CharacterContainer(character.characterId, character.powerMultiplicator);
+        var newCharacter = new CharacterContainer(character.characterId, character.characterPassives, character.powerMultiplicator);
         BoardCharacter clonedCharacter = new BoardCharacter(newCharacter, isPlayerCharacter);
         clonedCharacter.SetGameObject(this.gameObject);
         clonedCharacter.SetBoard(this.board); 

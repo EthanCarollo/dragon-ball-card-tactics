@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class FightBoardState : BoardState
 {
     public BoardObject[,] boardBeforeFight;
+    public BoardObject[,] boardBeforeFightEmpty;
     public BoardFightState boardState;
 
     public FightBoardState(FightBoard board, bool resetPassives = true) : base(board)
@@ -14,7 +15,8 @@ public class FightBoardState : BoardState
         if(CameraScript.Instance != null){
             CameraScript.Instance.SetupFightCamera();
         }
-        boardBeforeFight = BoardUtils.DuplicateBoardObjectGrid(GameManager.Instance.boardCharacterArray, false);
+        boardBeforeFightEmpty = BoardUtils.DuplicateBoardObjectGrid(GameManager.Instance.boardCharacterArray, false);
+        boardBeforeFight = BoardUtils.DuplicateBoardObjectGrid(GameManager.Instance.boardCharacterArray, true);
         boardState = new DefaultBoardFightState(this);
         if (resetPassives)
         {
@@ -46,12 +48,13 @@ public class FightBoardState : BoardState
     public override void EndFight(bool win)
     {
         Debug.Log("Ending fight");
-        GameManager.Instance.boardCharacterArray = boardBeforeFight;
         board.UpdateState(new DefaultBoardState(board));
         GameManager.Instance.Player.Mana.AddMana(1);
         if(win == false){
+            GameManager.Instance.boardCharacterArray = boardBeforeFight;
             GameManager.Instance.Player.Life.LooseLife(1);
         } else {
+            GameManager.Instance.boardCharacterArray = boardBeforeFightEmpty;
             GameManager.Instance.Player.Level.AddExperience(3);
             WinFightUi.Instance.OpenWinFightUi(board);
             GameManager.Instance.GoNextFight();

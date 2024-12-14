@@ -62,7 +62,7 @@ public class GameManager
         foreach (var characterContainerFight in randomFight.opponents)
         {
             boardCharacterArray[characterContainerFight.position.x, characterContainerFight.position.y] 
-                = new BoardCharacter(new CharacterContainer(characterContainerFight.characterData.id, difficultyMutliplicator), false);
+                = new BoardCharacter(new CharacterContainer(characterContainerFight.characterData.id, new List<CharacterPassive>(), difficultyMutliplicator), false);
         }
     }
 

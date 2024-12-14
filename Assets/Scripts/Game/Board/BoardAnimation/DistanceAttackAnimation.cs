@@ -11,6 +11,9 @@ public class DistanceAttackAnimation : BoardAnimation {
     public AttackType attackType;
     public Vector2 startMargin;
     public int kiOnAttack = 10;
+    
+    [SerializeReference, SubclassSelector]
+    public Effect[] effectApplied;
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
@@ -46,6 +49,14 @@ public class DistanceAttackAnimation : BoardAnimation {
         {
             LeanTween.move(newGameObject, target.gameObject.transform.position + new Vector3(0, 0.5f), 0.1f)
             .setOnComplete(() => {
+                if(effectApplied != null && effectApplied.Length > 0)
+                {
+                    foreach (var effect in effectApplied)
+                    {
+                        target.AddEffect(effect);
+                    }
+                }
+                
                 switch (attackType)
                 {
                     case AttackType.Normal :

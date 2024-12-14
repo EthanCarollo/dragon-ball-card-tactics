@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class ParticleManager : MonoBehaviour
 {
@@ -26,38 +27,46 @@ public class ParticleManager : MonoBehaviour
 
         public void ShowNumber(BoardCharacter boardCharacter, int number, Color color)
         {
-                Sprite[] particles = SpriteDatabase.Instance.numbers;
-                Transform boardTransform = boardCharacter.gameObject.transform;
-                string numberString = number.ToString();
-                float xOffset = 0f;
-
-                float randomX = Random.Range(-0.2f, 0.2f);
-                float randomY = Random.Range(0f, 1.5f);
-                var position = boardTransform.position + new Vector3(randomX, randomY, 0);
-
-                foreach (char digitChar in numberString)
+                try
                 {
-                        int digit = int.Parse(digitChar.ToString());
-                        GameObject digitObject = new GameObject("DamageDigit");
-                        SpriteRenderer spriteRenderer = digitObject.AddComponent<SpriteRenderer>();
-                        spriteRenderer.color = color;
-                        spriteRenderer.sortingOrder = 10;
-                        spriteRenderer.sprite = particles[digit];
+                        Sprite[] particles = SpriteDatabase.Instance.numbers;
+                        Transform boardTransform = boardCharacter.gameObject.transform;
+                        string numberString = number.ToString();
+                        float xOffset = 0f;
 
-                        // Scale down the size of the number
-                        digitObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+                        float randomX = UnityEngine.Random.Range(-0.2f, 0.2f);
+                        float randomY = UnityEngine.Random.Range(0f, 1.5f);
+                        var position = boardTransform.position + new Vector3(randomX, randomY, 0);
 
-                        // Randomize position within the given range
-                        digitObject.transform.position = position + new Vector3(xOffset, 0, 0);
-                        digitObject.transform.SetParent(boardTransform);
+                        foreach (char digitChar in numberString)
+                        {
+                                int digit = int.Parse(digitChar.ToString());
+                                GameObject digitObject = new GameObject("DamageDigit");
+                                SpriteRenderer spriteRenderer = digitObject.AddComponent<SpriteRenderer>();
+                                spriteRenderer.color = color;
+                                spriteRenderer.sortingOrder = 10;
+                                spriteRenderer.sprite = particles[digit];
 
-                        // Tween settings
-                        LeanTween.alpha(digitObject.gameObject, 0f, 0.5f).setDelay(0.6f);
-                        LeanTween.moveX(digitObject.gameObject, digitObject.transform.position.x + 0.4f, 1.2f).setOnComplete(
-                        () => { Destroy(digitObject.gameObject); }).setEase(LeanTweenType.easeOutCirc);
+                                // Scale down the size of the number
+                                digitObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
 
-                        xOffset += 0.35f; 
+                                // Randomize position within the given range
+                                digitObject.transform.position = position + new Vector3(xOffset, 0, 0);
+                                digitObject.transform.SetParent(boardTransform);
+
+                                // Tween settings
+                                LeanTween.alpha(digitObject.gameObject, 0f, 0.5f).setDelay(0.6f);
+                                LeanTween.moveX(digitObject.gameObject, digitObject.transform.position.x + 0.4f, 1.2f).setOnComplete(
+                                () => { Destroy(digitObject.gameObject); }).setEase(LeanTweenType.easeOutCirc);
+
+                                xOffset += 0.35f; 
+                        }
                 }
+                catch (Exception exception)
+                {
+                        Debug.LogError("Got an error in ParticleManager, " + exception.ToString());
+                }
+                
         }
 
 }

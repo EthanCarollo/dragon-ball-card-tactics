@@ -1,4 +1,5 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "PassiveCard", menuName = "Card/PassiveCard")]
@@ -18,16 +19,7 @@ public class PassiveCard : UsableCharacterActionCard
         }
         if (GetCharacterOnMouse() != null)
         {
-            var index = Array.IndexOf(GetCharacterOnMouse().character.GetCharacterData().characterPassive, passive);
-            if (index != -1)
-            {
-                GetCharacterOnMouse().character.unlockedPassives.Add(index);
-                Debug.Log(GetCharacterOnMouse().character.unlockedPassives.ToString());
-            }
-            else
-            {
-                Debug.LogError("No passive selected in the character");
-            }
+            GetCharacterOnMouse().character.characterPassives.Add(passive);
             GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
             BoardGameUiManager.Instance.RefreshUI();
             GameManager.Instance.RemoveCard(this);
