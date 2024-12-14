@@ -59,6 +59,7 @@ public class FightBoardState : BoardState
             WinFightUi.Instance.OpenWinFightUi(board);
             GameManager.Instance.GoNextFight();
         }
+        BoardGameUiManager.Instance.characterBoardUi.HideCharacterBoard();
         BoardGameUiManager.Instance.RefreshUI();
         board.CreateBoard();
     }

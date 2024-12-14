@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -26,6 +28,11 @@ public class CharacterBoardUi : MonoBehaviour
         public Transform passiveContainer;
 
         public SpecialAttackContainer specialAttackContainer;
+
+        public void Start()
+        {
+                RefreshUi();
+        }
 
         public void RefreshUi()
         {
@@ -68,14 +75,22 @@ public class CharacterBoardUi : MonoBehaviour
                 }
 
 
+                var alreadyCreatedPassive = new List<CharacterPassive>();
                 foreach (Transform child in passiveContainer)
                 {
+                        var passiveContainer = child.gameObject.GetComponent<PassiveContainer>();
+                        if(passiveContainer != null && characterContainer.GetCharacterPassives() != null){
+                                if(characterContainer.GetCharacterPassives().Contains(passiveContainer.passive)){
+                                        alreadyCreatedPassive.Add(passiveContainer.passive);
+                                        continue;
+                                }
+                        } 
                         Destroy(child.gameObject);
                 }
 
                 if(characterContainer.GetCharacterPassives() != null){
                         foreach (var passive in characterContainer.GetCharacterPassives()){
-                                if(passive == null) continue;
+                                if(passive == null || alreadyCreatedPassive.Contains(passive)) continue;
                                 
                                 Instantiate(passiveLittlePrefab, passiveContainer).GetComponent<PassiveContainer>().Setup(passive);
                         }

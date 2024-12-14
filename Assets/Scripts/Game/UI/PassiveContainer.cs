@@ -9,7 +9,7 @@ public class PassiveContainer : MonoBehaviour, IPointerEnterHandler, IPointerExi
     public TextMeshProUGUI descriptionText;
     public Image passiveImage;
     public GameObject passiveInformation;
-    private CharacterPassive passive;
+    public CharacterPassive passive;
 
     public void Setup(CharacterPassive passive)
     {
