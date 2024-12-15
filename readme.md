@@ -1,18 +1,18 @@
-# Dragon Ball Omega Tactics
+# Dragon Ball Card Tactics
 
 <div align="center">
-  <img src="ReadmeAssets/dragon-ball-omega-tactics-title.png" alt="Dragon Ball Omega Tactics Title">
+  <img src="ReadmeAssets/dragon-ball-omega-tactics-title.png" alt="Dragon Ball Card Tactics Title">
 </div>
 
-## What is *Dragon Ball Omega Tactics*?
+## What is *Dragon Ball Card Tactics*?
 
-*Dragon Ball Omega Tactics* is a strategy game that combines hero management and tactical combat inspired by chess. Players can recruit and develop iconic heroes, manage their abilities, and engage in grid-based battles where strategic positioning and planning are key to victory. This unique blend of gameplay offers fans of the genre and the *Dragon Ball* universe an engaging and challenging experience.
+*Dragon Ball Card Tactics* is a strategy game that combines hero management and tactical combat inspired by chess. Players can recruit and develop iconic heroes, manage their abilities, and engage in grid-based battles where strategic positioning and planning are key to victory. This unique blend of gameplay offers fans of the genre and the *Dragon Ball* universe an engaging and challenging experience.
 
 ---
 
 ## Development Requirements
 
-To develop or run *Dragon Ball Omega Tactics*, you'll need:
+To develop or run *Dragon Ball Card Tactics*, you'll need:
 
 - **Unity Editor Version**: 6000.0.23f1  
   Ensure this specific version of Unity is installed to maintain compatibility with the project's files and dependencies.
