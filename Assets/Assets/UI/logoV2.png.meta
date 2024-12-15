@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 4b1e77c077dcf42b289ca75b099558ae
+guid: 04dd4cadab993244aae3a07eff3d47fd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -954050189382934134
-    second: dragon-ball-omega-tactics-title_0
+      213: -2074830516504008153
+    second: logoV2_0
+  - first:
+      213: -5595266882038772766
+    second: logoV2_1
+  - first:
+      213: -1363572775813114475
+    second: logoV2_2
+  - first:
+      213: 9102943696698654767
+    second: logoV2_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,7 +84,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dragon-ball-omega-tactics-title_0
+      name: logoV2_0
       rect:
         serializedVersion: 2
-        x: 299
-        y: 262
-        width: 1366
-        height: 611
+        x: 0
+        y: 77
+        width: 700
+        height: 239
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a81afe3586882c2f0800000000000000
-      internalID: -954050189382934134
+      spriteID: 72a63ae53a8b433e0800000000000000
+      internalID: -2074830516504008153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoV2_1
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 71
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb42907a6e9952b0800000000000000
+      internalID: -5595266882038772766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoV2_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 235
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5951440f8cd931de0800000000000000
+      internalID: -1363572775813114475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: logoV2_3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 357
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20ca1c0017245e70800000000000000
+      internalID: 9102943696698654767
       vertices: []
       indices: 
       edges: []
@@ -125,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dragon-ball-omega-tactics-title_0: -954050189382934134
+      logoV2_0: -2074830516504008153
+      logoV2_1: -5595266882038772766
+      logoV2_2: -1363572775813114475
+      logoV2_3: 9102943696698654767
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
