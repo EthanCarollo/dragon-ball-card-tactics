@@ -11,6 +11,7 @@ public class DistanceAttackAnimation : BoardAnimation {
     public AttackType attackType;
     public Vector2 startMargin;
     public int kiOnAttack = 10;
+    public int otherTarget = 0;
     
     [SerializeReference, SubclassSelector]
     public Effect[] effectApplied;
@@ -27,6 +28,17 @@ public class DistanceAttackAnimation : BoardAnimation {
             yield return new WaitForSeconds(frameSprite.time); 
             if(index == attackFrameIndex){
                 LaunchAttack(character, target);
+                if(otherTarget != 0){
+                    var characterOnBoard = GameManager.Instance.GetCharactersOnBoard();
+                    int otherAttack = 0;
+                    foreach (var characterToAttack in characterOnBoard)
+                    {
+                        if(characterToAttack == target || characterToAttack.isPlayerCharacter == character.isPlayerCharacter) continue;
+                        if(otherAttack >= otherTarget) break;
+                        otherAttack++;
+                        LaunchAttack(character, characterToAttack);
+                    }
+                }
             }
             index++;
         }

@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 0ef5de7a55aa143a29df40392b276582
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8383417675794358380
+    second: broly_0
+  - first:
+      213: -6657342963982631647
+    second: broly_1
+  - first:
+      213: -7294355651293216899
+    second: broly_2
+  - first:
+      213: 5793466546240216199
+    second: broly_3
+  - first:
+      213: 5353654377591584095
+    second: broly_4
+  - first:
+      213: 52447275125120451
+    second: broly_5
+  - first:
+      213: -5086709847351112131
+    second: broly_6
+  - first:
+      213: -2947031402367112624
+    second: broly_7
+  - first:
+      213: 7900282118707785893
+    second: broly_8
+  - first:
+      213: -1973208112201521631
+    second: broly_9
+  - first:
+      213: -5469514421800168669
+    second: broly_10
+  - first:
+      213: 826987116447614853
+    second: broly_11
+  - first:
+      213: 5545494753403393894
+    second: broly_12
+  - first:
+      213: -1563781414349249504
+    second: broly_13
+  - first:
+      213: -9163206263153501038
+    second: broly_14
+  - first:
+      213: -2968440659965711555
+    second: broly_15
+  - first:
+      213: 5290775289036869219
+    second: broly_16
+  - first:
+      213: -8453356150864711461
+    second: broly_17
+  - first:
+      213: -2760206414797735996
+    second: broly_18
+  - first:
+      213: -1241904580119028542
+    second: broly_19
+  - first:
+      213: -5596992986988555092
+    second: broly_20
+  - first:
+      213: 1478737946413053685
+    second: broly_21
+  - first:
+      213: -6066583483815718768
+    second: broly_22
+  - first:
+      213: 5469999186828222263
+    second: broly_23
+  - first:
+      213: 3617922779086132836
+    second: broly_24
+  - first:
+      213: 2243418875133995483
+    second: broly_25
+  - first:
+      213: -1277990363597189004
+    second: broly_26
+  - first:
+      213: 929446126516077606
+    second: broly_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: broly_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 450
+        width: 37
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60247975f1e75470800000000000000
+      internalID: 8383417675794358380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 450
+        width: 26
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d7edba8dd5c93a0800000000000000
+      internalID: -6657342963982631647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 450
+        width: 32
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ffd4bae2e35ca90800000000000000
+      internalID: -7294355651293216899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 450
+        width: 32
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78cd1c2f027866050800000000000000
+      internalID: 5793466546240216199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_4
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 450
+        width: 32
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55bf82aa400c4a40800000000000000
+      internalID: 5353654377591584095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 396
+        width: 44
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd1543d4845ab000800000000000000
+      internalID: 52447275125120451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 392
+        width: 40
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ec72928506869b0800000000000000
+      internalID: -5086709847351112131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_7
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 392
+        width: 42
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05aacf7bd8a0a17d0800000000000000
+      internalID: -2947031402367112624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 392
+        width: 33
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0b2febab073ad60800000000000000
+      internalID: 7900282118707785893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_9
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 396
+        width: 46
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1262f4c2da1cd94e0800000000000000
+      internalID: -1973208112201521631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_10
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 396
+        width: 38
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32399b2bc916814b0800000000000000
+      internalID: -5469514421800168669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 312
+        width: 32
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5874fad966c0a7b00800000000000000
+      internalID: 826987116447614853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 312
+        width: 38
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667d660d81e85fc40800000000000000
+      internalID: 5545494753403393894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_13
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 312
+        width: 53
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024ea53c6155c4ae0800000000000000
+      internalID: -1563781414349249504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 309
+        width: 63
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29cd911d370c5d080800000000000000
+      internalID: -9163206263153501038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_15
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 312
+        width: 57
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3beaed72fafdc6d0800000000000000
+      internalID: -2968440659965711555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_16
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 328
+        width: 19
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e0579f71c9c6940800000000000000
+      internalID: 5290775289036869219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_17
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 312
+        width: 43
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd078db5e55afaa80800000000000000
+      internalID: -8453356150864711461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_18
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 312
+        width: 36
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7f933d3e6c1b9d0800000000000000
+      internalID: -2760206414797735996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_19
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 213
+        width: 83
+        height: 70
+      alignment: 9
+      pivot: {x: 0.56139016, y: 0.48084435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc13114d5ed3cee0800000000000000
+      internalID: -1241904580119028542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_20
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 215
+        width: 36
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4d130588c7352b0800000000000000
+      internalID: -5596992986988555092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_21
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 215
+        width: 46
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f637dbd358858410800000000000000
+      internalID: 1478737946413053685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_22
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 215
+        width: 44
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09099eea67a2fcba0800000000000000
+      internalID: -6066583483815718768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_23
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 248
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f5294774759eb40800000000000000
+      internalID: 5469999186828222263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_24
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 215
+        width: 43
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46619385991753230800000000000000
+      internalID: 3617922779086132836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_25
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 247
+        width: 47
+        height: 19
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9a4cea499322f10800000000000000
+      internalID: 2243418875133995483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470da6f098aa34ee0800000000000000
+      internalID: -1277990363597189004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly_27
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 233
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6248ad0e35e06ec00800000000000000
+      internalID: 929446126516077606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f146a2f8edee1442dbf627a8d4ce1c82
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      broly_0: 8383417675794358380
+      broly_1: -6657342963982631647
+      broly_10: -5469514421800168669
+      broly_11: 826987116447614853
+      broly_12: 5545494753403393894
+      broly_13: -1563781414349249504
+      broly_14: -9163206263153501038
+      broly_15: -2968440659965711555
+      broly_16: 5290775289036869219
+      broly_17: -8453356150864711461
+      broly_18: -2760206414797735996
+      broly_19: -1241904580119028542
+      broly_2: -7294355651293216899
+      broly_20: -5596992986988555092
+      broly_21: 1478737946413053685
+      broly_22: -6066583483815718768
+      broly_23: 5469999186828222263
+      broly_24: 3617922779086132836
+      broly_25: 2243418875133995483
+      broly_26: -1277990363597189004
+      broly_27: 929446126516077606
+      broly_3: 5793466546240216199
+      broly_4: 5353654377591584095
+      broly_5: 52447275125120451
+      broly_6: -5086709847351112131
+      broly_7: -2947031402367112624
+      broly_8: 7900282118707785893
+      broly_9: -1973208112201521631
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
