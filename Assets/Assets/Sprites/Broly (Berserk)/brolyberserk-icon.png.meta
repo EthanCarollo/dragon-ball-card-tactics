@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a88f6aa206f0646f29ad718b9bba88bd
+guid: 58c2c991c6cab47c2af370ade4f353a3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8104197216431903331
-    second: broly-icon_0
+      213: 2649079251453590868
+    second: brolyberserk-icon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,12 +100,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: broly-icon_0
+      name: brolyberserk-icon_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 0
-        width: 28
+        width: 30
         height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9deddcc19b188f80800000000000000
-      internalID: -8104197216431903331
+      spriteID: 45dbfb43b8b63c420800000000000000
+      internalID: 2649079251453590868
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      broly-icon_0: -8104197216431903331
+      brolyberserk-icon_0: 2649079251453590868
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

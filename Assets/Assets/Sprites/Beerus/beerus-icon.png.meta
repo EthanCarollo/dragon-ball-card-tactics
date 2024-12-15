@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: a88f6aa206f0646f29ad718b9bba88bd
+guid: e85b6a171afca4284b3f67f1195e33ed
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8104197216431903331
-    second: broly-icon_0
+      213: -4735194626950516994
+    second: beerus-icon_0
+  - first:
+      213: 8643048680733365623
+    second: beerus-icon_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,12 +103,34 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: broly-icon_0
+      name: beerus-icon_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 1
         y: 0
-        width: 28
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efea64e2395394eb0800000000000000
+      internalID: -4735194626950516994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus-icon_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 22
         height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9deddcc19b188f80800000000000000
-      internalID: -8104197216431903331
+      spriteID: 77555877bf642f770800000000000000
+      internalID: 8643048680733365623
       vertices: []
       indices: 
       edges: []
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      broly-icon_0: -8104197216431903331
+      beerus-icon_0: -4735194626950516994
+      beerus-icon_1: 8643048680733365623
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

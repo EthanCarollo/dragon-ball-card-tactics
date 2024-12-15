@@ -11,6 +11,7 @@ public class SynergyPrefabScript : MonoBehaviour, IPointerEnterHandler, IPointer
     public Image synergyImage;
 
     public void Setup(Synergy synergy) {
+        tierDescription.SetActive(false);
         this.synergy = synergy;
         synergyNumber.text = synergy.GetActiveUnit().ToString();
         descriptionText.text = synergy.GetDescription();

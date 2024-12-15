@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 8674c9aed04a54e93a5381e84f91b1fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -149105726060409301
+    second: beerus_0
+  - first:
+      213: 4168892098208297104
+    second: beerus_1
+  - first:
+      213: 3055186813215323192
+    second: beerus_2
+  - first:
+      213: 5913805331600014294
+    second: beerus_3
+  - first:
+      213: 161340597339108022
+    second: beerus_4
+  - first:
+      213: 3419566266789692577
+    second: beerus_5
+  - first:
+      213: -4567264687749338901
+    second: beerus_6
+  - first:
+      213: -4542554975104379622
+    second: beerus_7
+  - first:
+      213: -3184998123714059890
+    second: beerus_8
+  - first:
+      213: 5797414063635711037
+    second: beerus_9
+  - first:
+      213: 4577310964349983236
+    second: beerus_10
+  - first:
+      213: 2181690820140607571
+    second: beerus_11
+  - first:
+      213: 8395074900460235077
+    second: beerus_12
+  - first:
+      213: 1323619391041724737
+    second: beerus_13
+  - first:
+      213: -5426813976763959832
+    second: beerus_14
+  - first:
+      213: -530821222503577080
+    second: beerus_15
+  - first:
+      213: -2279049694380043849
+    second: beerus_16
+  - first:
+      213: -4541055716457574231
+    second: beerus_17
+  - first:
+      213: 3133274274938500272
+    second: beerus_18
+  - first:
+      213: 4640222266028305789
+    second: beerus_19
+  - first:
+      213: 2421458455033866077
+    second: beerus_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: beerus_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 444
+        width: 28
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e4134d1254eedf0800000000000000
+      internalID: -149105726060409301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 444
+        width: 28
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09073ac8641ead930800000000000000
+      internalID: 4168892098208297104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 444
+        width: 27
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83438243834366a20800000000000000
+      internalID: 3055186813215323192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 444
+        width: 28
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db74dccd9e021250800000000000000
+      internalID: 5913805331600014294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 444
+        width: 28
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b23f302b623d3200800000000000000
+      internalID: 161340597339108022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 388
+        width: 39
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a488e9e66db47f20800000000000000
+      internalID: 3419566266789692577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 390
+        width: 52
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8e38307f0dd90c0800000000000000
+      internalID: -4567264687749338901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 393
+        width: 52
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a155830515a95f0c0800000000000000
+      internalID: -4542554975104379622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_8
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 376
+        width: 34
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81ecb1d41d9cc3d0800000000000000
+      internalID: -3184998123714059890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_9
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 376
+        width: 34
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d344cd6ff5d847050800000000000000
+      internalID: 5797414063635711037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_10
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 376
+        width: 46
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ad4980210e58f30800000000000000
+      internalID: 4577310964349983236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 375
+        width: 36
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3582638ed3ce64e10800000000000000
+      internalID: 2181690820140607571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_12
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 375
+        width: 41
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549eab8942c418470800000000000000
+      internalID: 8395074900460235077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_13
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 375
+        width: 34
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1416cd4c2d07e5210800000000000000
+      internalID: 1323619391041724737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_14
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 295
+        width: 70
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5fbdcc07510b4b0800000000000000
+      internalID: -5426813976763959832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_15
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 294
+        width: 71
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a8f6919e422a8f0800000000000000
+      internalID: -530821222503577080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_16
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 303
+        width: 37
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1d30db0603f50e0800000000000000
+      internalID: -2279049694380043849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_17
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 303
+        width: 37
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a01a4ba2edeaf0c0800000000000000
+      internalID: -4541055716457574231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 303
+        width: 37
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4349d2a50ab7b20800000000000000
+      internalID: 3133274274938500272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_19
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 303
+        width: 37
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7da975e091656040800000000000000
+      internalID: 4640222266028305789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beerus_20
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 303
+        width: 53
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57e8aaa2afba9120800000000000000
+      internalID: 2421458455033866077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7870ffbb00c504f05be86fd5dbf2de94
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      beerus_0: -149105726060409301
+      beerus_1: 4168892098208297104
+      beerus_10: 4577310964349983236
+      beerus_11: 2181690820140607571
+      beerus_12: 8395074900460235077
+      beerus_13: 1323619391041724737
+      beerus_14: -5426813976763959832
+      beerus_15: -530821222503577080
+      beerus_16: -2279049694380043849
+      beerus_17: -4541055716457574231
+      beerus_18: 3133274274938500272
+      beerus_19: 4640222266028305789
+      beerus_2: 3055186813215323192
+      beerus_20: 2421458455033866077
+      beerus_3: 5913805331600014294
+      beerus_4: 161340597339108022
+      beerus_5: 3419566266789692577
+      beerus_6: -4567264687749338901
+      beerus_7: -4542554975104379622
+      beerus_8: -3184998123714059890
+      beerus_9: 5797414063635711037
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

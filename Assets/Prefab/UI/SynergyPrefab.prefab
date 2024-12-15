@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3386327582734611818}
   - component: {fileID: 4972789197743138435}
   - component: {fileID: 8175067310217342086}
+  - component: {fileID: 6228705491449508322}
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -32,10 +33,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1479522710469366286}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0.0000076293945, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 150, y: -142.26}
+  m_SizeDelta: {x: 289.8478, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4972789197743138435
 CanvasRenderer:
@@ -65,16 +66,35 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: salut\nca va
+  m_text: '<size=20>Unstoppable Fury</size><size=14>
+
+
+    Tier 1 - 1 Unit</size><size=10>
+
+    Give
+    33 attack to all Unstoppable Fury Synergy.</size><size=14>
+
+
+    Tier 2 - 2 Unit</size><size=10>
+
+    Give
+    0.33 attack speed to all Unstoppable Fury Synergy.</size><size=14>
+
+
+    Tier
+    3 - 3 Unit</size><size=10>
+
+    Give 33 critical chance to all Unstoppable Fury
+    Synergy.</size>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a13f99ce91c20444597862a7c0a1ebe7, type: 2}
-  m_sharedMaterial: {fileID: -7126171608292213355, guid: f12d2e5cd0a295f4f922c12cb2dcbadd, type: 2}
+  m_sharedMaterial: {fileID: 4668237209903432514, guid: a13f99ce91c20444597862a7c0a1ebe7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4283256141
   m_fontColor: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -133,9 +153,23 @@ MonoBehaviour:
   m_margin: {x: 20, y: 20, z: 20, w: 20}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &6228705491449508322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498845115319328665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
 --- !u!1 &2247542352714119117
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,13 +353,15 @@ GameObject:
   - component: {fileID: 1479522710469366286}
   - component: {fileID: 8050423248743500454}
   - component: {fileID: 7361650879731584657}
+  - component: {fileID: 8835273355544643887}
+  - component: {fileID: 6019641137568196898}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1479522710469366286
 RectTransform:
   m_ObjectHideFlags: 0
@@ -341,11 +377,11 @@ RectTransform:
   - {fileID: 3386327582734611818}
   m_Father: {fileID: 4353176890489595634}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -160.4223, y: -63.0072}
-  m_SizeDelta: {x: 288.4447, y: 226.0146}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -20, y: 0}
+  m_SizeDelta: {x: 300, y: 0}
+  m_Pivot: {x: 1, y: 1}
 --- !u!222 &8050423248743500454
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -384,6 +420,46 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 0.2
+--- !u!114 &8835273355544643887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3042154678641387221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!114 &6019641137568196898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3042154678641387221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!1 &4160083083293082402
 GameObject:
   m_ObjectHideFlags: 0

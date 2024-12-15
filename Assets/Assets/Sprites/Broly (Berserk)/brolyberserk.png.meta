@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: a9211ec45e97b44669aacd2b5c4d7687
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3780324624086923800
+    second: brolyberserk_0
+  - first:
+      213: -4093087905582120471
+    second: brolyberserk_1
+  - first:
+      213: -7626295322648590911
+    second: brolyberserk_2
+  - first:
+      213: 1047091753834455174
+    second: brolyberserk_3
+  - first:
+      213: -255004566790155738
+    second: brolyberserk_4
+  - first:
+      213: -8888271028102808431
+    second: brolyberserk_5
+  - first:
+      213: -273328724024257254
+    second: brolyberserk_6
+  - first:
+      213: 4196454527504280349
+    second: brolyberserk_7
+  - first:
+      213: 3230128833909211665
+    second: brolyberserk_8
+  - first:
+      213: -7777654106347128355
+    second: brolyberserk_9
+  - first:
+      213: -549378121282875735
+    second: brolyberserk_10
+  - first:
+      213: 380339362535246135
+    second: brolyberserk_11
+  - first:
+      213: -3635532199480600713
+    second: brolyberserk_12
+  - first:
+      213: -2741450150378970634
+    second: brolyberserk_13
+  - first:
+      213: 6869864161572066772
+    second: brolyberserk_14
+  - first:
+      213: 1928043951103448668
+    second: brolyberserk_15
+  - first:
+      213: 8443384090681737236
+    second: brolyberserk_16
+  - first:
+      213: -3223670152203019863
+    second: brolyberserk_17
+  - first:
+      213: 6996456419740377417
+    second: brolyberserk_18
+  - first:
+      213: 6934810886475541514
+    second: brolyberserk_19
+  - first:
+      213: -3301743148701367589
+    second: brolyberserk_20
+  - first:
+      213: 7951566596231869371
+    second: brolyberserk_21
+  - first:
+      213: 182195959758591390
+    second: brolyberserk_22
+  - first:
+      213: -9031197178556188349
+    second: brolyberserk_23
+  - first:
+      213: 2203211401457701410
+    second: brolyberserk_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: brolyberserk_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 439
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81afc527739667430800000000000000
+      internalID: 3780324624086923800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 439
+        width: 42
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e184596c3e6237c0800000000000000
+      internalID: -4093087905582120471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 439
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5ce455fc4f92690800000000000000
+      internalID: -7626295322648590911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 390
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6802b820764088e00800000000000000
+      internalID: 1047091753834455174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_4
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 393
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622de5492ba067cf0800000000000000
+      internalID: -255004566790155738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_5
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 380
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c398e879486a480800000000000000
+      internalID: -8888271028102808431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 304
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a159f9149f0f43cf0800000000000000
+      internalID: -273328724024257254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 304
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1be8f3b82dcc3a30800000000000000
+      internalID: 4196454527504280349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_8
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 304
+        width: 53
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112c7eb7f09b3dc20800000000000000
+      internalID: 3230128833909211665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_9
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 303
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9325d4cc8301490800000000000000
+      internalID: -7777654106347128355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_10
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 303
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae009962873068f0800000000000000
+      internalID: -549378121282875735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_11
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 306
+        width: 93
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739030692ac374500800000000000000
+      internalID: 380339362535246135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 84
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777d678f9befb8dc0800000000000000
+      internalID: -3635532199480600713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 204
+        width: 90
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f16831fc9964f9d0800000000000000
+      internalID: -2741450150378970634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_14
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 202
+        width: 98
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d590bd8e09a65f50800000000000000
+      internalID: 6869864161572066772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_15
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 202
+        width: 110
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c569cd022c9c1ca10800000000000000
+      internalID: 1928043951103448668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_16
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 249
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4100543781dec2570800000000000000
+      internalID: 8443384090681737236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_17
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 204
+        width: 60
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9d8e883193343d0800000000000000
+      internalID: -3223670152203019863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_18
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 204
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94160218b08681160800000000000000
+      internalID: 6996456419740377417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_19
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 113
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ce2e052c56d3060800000000000000
+      internalID: 6934810886475541514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_20
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 113
+        width: 84
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd24312891add22d0800000000000000
+      internalID: -3301743148701367589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_21
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 113
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb33348a0b3a95e60800000000000000
+      internalID: 7951566596231869371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_22
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 115
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e951ce4924a478200800000000000000
+      internalID: 182195959758591390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_23
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 115
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349f5a3f30ebaa280800000000000000
+      internalID: -9031197178556188349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyberserk_24
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 115
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2221af4b811639e10800000000000000
+      internalID: 2203211401457701410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      brolyberserk_0: 3780324624086923800
+      brolyberserk_1: -4093087905582120471
+      brolyberserk_10: -549378121282875735
+      brolyberserk_11: 380339362535246135
+      brolyberserk_12: -3635532199480600713
+      brolyberserk_13: -2741450150378970634
+      brolyberserk_14: 6869864161572066772
+      brolyberserk_15: 1928043951103448668
+      brolyberserk_16: 8443384090681737236
+      brolyberserk_17: -3223670152203019863
+      brolyberserk_18: 6996456419740377417
+      brolyberserk_19: 6934810886475541514
+      brolyberserk_2: -7626295322648590911
+      brolyberserk_20: -3301743148701367589
+      brolyberserk_21: 7951566596231869371
+      brolyberserk_22: 182195959758591390
+      brolyberserk_23: -9031197178556188349
+      brolyberserk_24: 2203211401457701410
+      brolyberserk_3: 1047091753834455174
+      brolyberserk_4: -255004566790155738
+      brolyberserk_5: -8888271028102808431
+      brolyberserk_6: -273328724024257254
+      brolyberserk_7: 4196454527504280349
+      brolyberserk_8: 3230128833909211665
+      brolyberserk_9: -7777654106347128355
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
