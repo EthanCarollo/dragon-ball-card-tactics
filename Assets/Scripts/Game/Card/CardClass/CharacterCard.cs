@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using UnityEngine.EventSystems;
 using UnityEngine;
 using System.Collections.Generic;
@@ -11,6 +12,16 @@ public class CharacterCard : Card
     public override string GetDescription()
     {
         return "Summons " + character.name + " on board.";
+    }
+
+    public override bool CanUseCard(){
+        if(manaCost > GameManager.Instance.Player.Mana.CurrentMana){
+            return false;
+        }
+        if(GameManager.Instance.maxCharacterPlayer <= GameManager.Instance.GetCharactersOnBoard().Where(character => character.isPlayerCharacter).Count()){
+            return false;
+        }
+        return true;
     }
 
     public override void UseCard(){
@@ -51,11 +62,16 @@ public class CharacterCard : Card
 
     public override void OnBeginDrag(PointerEventData eventData)
     {
-        
+        if(CanUseCard() == false) {
+            return;
+        }
     }
 
     public override void OnDrag(PointerEventData eventData)
     {
+        if(CanUseCard() == false) {
+            return;
+        }
         if (FightBoard.Instance.IsFighting())
         {
             return;
@@ -82,7 +98,9 @@ public class CharacterCard : Card
 
     public override void OnEndDrag(PointerEventData eventData)
     {
-        
+        if(CanUseCard() == false) {
+            return;
+        }
         if (FightBoard.Instance.IsFighting())
         {
             return;

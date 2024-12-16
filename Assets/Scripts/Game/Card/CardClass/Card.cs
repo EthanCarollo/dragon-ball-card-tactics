@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -13,7 +14,7 @@ public abstract class Card : ScriptableObject
         return "";
     }
 
-    public bool CanUseCard(){
+    public virtual bool CanUseCard(){
         if(manaCost > GameManager.Instance.Player.Mana.CurrentMana){
             return false;
         }
