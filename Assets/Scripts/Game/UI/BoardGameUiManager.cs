@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -23,6 +24,7 @@ public class BoardGameUiManager : MonoBehaviour
 
     public GameObject launchFightButton;
     public TextMeshProUGUI multiplicatorText;
+    public TextMeshProUGUI characterText;
 
     public Transform synergyContainer;
     public GameObject synergyPrefab;
@@ -51,8 +53,13 @@ public class BoardGameUiManager : MonoBehaviour
         SetupSynergy();
         SetupDropRateText();
         SetupMultiplicatorText();
+        SetupCharacterText();
         SetupManaSlider(GameManager.Instance.Player.Mana.CurrentMana);
         SetupLevelSlider(GameManager.Instance.Player.Level.CurrentExperience, GameManager.Instance.Player.Level.MaxExperience, GameManager.Instance.Player.Level.CurrentLevel);
+    }
+
+    public void SetupCharacterText(){
+        characterText.text = GameManager.Instance.GetCharactersOnBoard().Where(character => character.isPlayerCharacter).Count() + "/" + GameManager.Instance.maxCharacterPlayer;
     }
 
     public void SetupSynergy(){

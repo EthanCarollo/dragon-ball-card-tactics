@@ -29,6 +29,7 @@ public class GameManager
     public PlayerInfo Player = new PlayerInfo();
 
     public int actualRound = 0;
+    public int maxCharacterPlayer = 1;
 
     private float _difficultyMutliplicator;
     public float difficultyMutliplicator
