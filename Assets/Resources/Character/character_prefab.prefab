@@ -335,7 +335,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.028152695}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5450697928616427715}
@@ -360,10 +360,10 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: c62a38d2bcae48748902aecf119babb5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -384,15 +384,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -5648159087306981425, guid: 4d5dffd11654ea342a20d7a2dba26c75, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.882353, y: 1.882353}
+  m_Size: {x: 0.6764706, y: 1.4117647}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &7326650266531918428
@@ -411,11 +411,12 @@ MonoBehaviour:
     gameObject: {fileID: 0}
     board: {fileID: 0}
     character:
+      powerMultiplicator: 0
       characterId: 0
       actualHealth: 0
       actualKi: 0
       selectedUltimateAttack: 0
-      unlockedPassives: 
+      characterPassives: []
     isPlayerCharacter: 0
     direction: {x: 0, y: 0}
     nextPosition: {x: 0, y: 0}
@@ -465,8 +466,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 0.9117647, y: 1.5588236}
-    newSize: {x: 1.882353, y: 1.882353}
+    oldSize: {x: 0.6764706, y: 1.5294118}
+    newSize: {x: 0.6764706, y: 1.4117647}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0

@@ -253,12 +253,12 @@ TextureImporter:
       name: yamu_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 461
-        width: 23
-        height: 46
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3
+        y: 460
+        width: 25
+        height: 48
+      alignment: 9
+      pivot: {x: 0.49999985, y: 0.022586823}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,12 +275,12 @@ TextureImporter:
       name: yamu_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 461
-        width: 21
-        height: 46
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 47
+        y: 460
+        width: 23
+        height: 48
+      alignment: 9
+      pivot: {x: 0.49501768, y: 0.031031927}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

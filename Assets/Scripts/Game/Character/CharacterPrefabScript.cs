@@ -1,9 +1,10 @@
-﻿using Unity.VisualScripting;
+﻿using System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragHandler, IEndDragHandler
+public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler
 {
     public BoardCharacter boardCharacter;
     public SpriteRenderer spriteRenderer;
@@ -12,7 +13,32 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
     public Slider kiSlider;
     public Board assignedBoard;
     public Vector2Int position;
-    
+    private Material startMaterial;
+
+    public void Start()
+    {
+        startMaterial = spriteRenderer.material;
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        if (boardCharacter != null && boardCharacter.character.IsDead() == false)
+        {
+            var newMaterial = new Material(ShadersDatabase.Instance.outlineMaterial);
+            spriteRenderer.material = newMaterial;
+            spriteRenderer.material.SetColor("_OutlineColor", boardCharacter.isPlayerCharacter ? Color.green : Color.red);
+            spriteRenderer.material.SetTexture("_MainTex", spriteRenderer.sprite.texture);
+        }
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        if (boardCharacter != null && boardCharacter.character.IsDead() == false)
+        {
+            spriteRenderer.material = startMaterial;
+        }
+    }
+
     public void OnPointerClick(PointerEventData eventData)
     {
         BoardGameUiManager.Instance.characterBoardUi.ShowCharacterBoard(boardCharacter.character);
