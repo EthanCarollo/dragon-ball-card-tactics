@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Whis
+  m_EditorClassIdentifier: 
+  id: 44
+  starNumber: 1
+  characterName: Whis
+  role: 2
+  characterType: 0
+  characterSprite: {fileID: -774022169325252119, guid: e382060083c2e4203b00d9f51815af83, type: 3}
+  characterIcon: {fileID: 21300000, guid: 1eac35e5805e74863a41705ef9ef7a20, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 225
+  maxKi: 75
+  baseRange: 8
+  baseDamage: 50
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 1
+  baseCriticalChance: 10
+  idleAnimation: {fileID: 11400000, guid: 52304f99165d74ffcb7538d58286fefb, type: 2}
+  runAnimation: {fileID: 11400000, guid: 1f25aedd0a912420cb028a36a0481fde, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 1e4c5a2fe13164a6399694e5b8f96a63, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 1e4c5a2fe13164a6399694e5b8f96a63, type: 2}
+  specialAttackAnimation:
+  - name: Speed Attack !
+    description: Increase the attack speed of every character player by 0.4 for 6
+      seconds.
+    animation: {fileID: 11400000, guid: 44ae3f46e94864697840764b43ef5838, type: 2}
+  deadAnimation: {fileID: 0}
+  synergies: []

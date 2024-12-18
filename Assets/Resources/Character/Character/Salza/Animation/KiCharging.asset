@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frameSprites:
   - sprite: {fileID: -1635994294996450842, guid: 67137a2f355ac4e96b8cfbbc2fb6d3b0, type: 3}
-    time: 0.2
+    time: 0.1
   - sprite: {fileID: 3648451772051901962, guid: 67137a2f355ac4e96b8cfbbc2fb6d3b0, type: 3}
-    time: 0.2
+    time: 0.1
   - sprite: {fileID: 4095540961083023877, guid: 67137a2f355ac4e96b8cfbbc2fb6d3b0, type: 3}
-    time: 0.2
+    time: 0.1
   - sprite: {fileID: -2600800640937472926, guid: 67137a2f355ac4e96b8cfbbc2fb6d3b0, type: 3}
-    time: 0.2
+    time: 0.1
   - sprite: {fileID: 7358797843620180481, guid: 67137a2f355ac4e96b8cfbbc2fb6d3b0, type: 3}
-    time: 0.2
+    time: 0.1
   attackFrameIndex: 0
   attackType: 0
   particleAttack: {fileID: 0}
