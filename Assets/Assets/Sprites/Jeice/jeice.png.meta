@@ -217,12 +217,12 @@ TextureImporter:
       name: jeice_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 451
-        width: 26
-        height: 47
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4
+        y: 450
+        width: 28
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.020408163}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

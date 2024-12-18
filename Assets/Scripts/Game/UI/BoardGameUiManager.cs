@@ -25,6 +25,7 @@ public class BoardGameUiManager : MonoBehaviour
     public GameObject launchFightButton;
     public TextMeshProUGUI multiplicatorText;
     public TextMeshProUGUI characterText;
+    public TextMeshProUGUI looseManaText;
 
     public Transform synergyContainer;
     public GameObject synergyPrefab;
@@ -132,6 +133,18 @@ public class BoardGameUiManager : MonoBehaviour
         levelSlider.value = expValue;
         levelSlider.maxValue = maxLevelValue;
         levelText.text = "Level " + levelValue.ToString();
+    }
+
+    public void ShowLooseMana(int amount){
+        looseManaText.gameObject.SetActive(true);
+        looseManaText.alpha = 1f;
+        looseManaText.GetComponent<RectTransform>().anchoredPosition = new Vector2(0f, 0f);
+
+        looseManaText.text = "-" + amount.ToString();
+
+        LeanTween.cancel(looseManaText.gameObject);
+        LeanTween.value(looseManaText.gameObject, f => looseManaText.alpha=f,1f,0f, 0.75f).setDelay(0.5f);
+        LeanTween.moveX(looseManaText.gameObject.GetComponent<RectTransform>(), 15f, 1.25f).setEaseOutCirc();
     }
 
     public void ShowPlayCardPanel()

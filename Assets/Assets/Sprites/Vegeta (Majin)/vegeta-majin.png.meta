@@ -151,12 +151,12 @@ TextureImporter:
       name: vegeta-majin_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 450
-        width: 35
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 8
+        y: 449
+        width: 37
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5675676, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -173,12 +173,12 @@ TextureImporter:
       name: vegeta-majin_1
       rect:
         serializedVersion: 2
-        x: 53
-        y: 450
-        width: 30
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 52
+        y: 449
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -195,12 +195,12 @@ TextureImporter:
       name: vegeta-majin_2
       rect:
         serializedVersion: 2
-        x: 92
-        y: 453
-        width: 28
-        height: 47
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 91
+        y: 452
+        width: 30
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.020408163}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

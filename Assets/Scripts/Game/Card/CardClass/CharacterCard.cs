@@ -52,6 +52,7 @@ public class CharacterCard : Card
             {
                 tileScript.assignedBoard.AddCharacterFromBoard(new BoardCharacter(new CharacterContainer(character.id, new List<CharacterPassive>()), true), tileScript.position);
                 GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
+                BoardGameUiManager.Instance.ShowLooseMana(manaCost);
                 GameManager.Instance.RemoveCard(this);
                 tileScript.assignedBoard.CreateBoard();
                 BoardGameUiManager.Instance.RefreshUI();

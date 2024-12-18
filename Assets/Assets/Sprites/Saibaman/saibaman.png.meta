@@ -130,12 +130,12 @@ TextureImporter:
       name: saibaman_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 469
-        width: 23
-        height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 3
+        y: 468
+        width: 25
+        height: 38
+      alignment: 9
+      pivot: {x: 0.48, y: 0.02631579}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -152,12 +152,12 @@ TextureImporter:
       name: saibaman_1
       rect:
         serializedVersion: 2
-        x: 29
-        y: 470
-        width: 34
-        height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 28
+        y: 469
+        width: 36
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

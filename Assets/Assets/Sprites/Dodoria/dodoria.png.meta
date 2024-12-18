@@ -279,12 +279,12 @@ TextureImporter:
       name: dodoria_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 456
-        width: 42
-        height: 51
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 4
+        y: 455
+        width: 44
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.018867925}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

@@ -20,6 +20,7 @@ public class TransformCard : UsableCharacterActionCard
         {
             GetCharacterOnMouse().PlayAnimation(transform);
             GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
+            BoardGameUiManager.Instance.ShowLooseMana(manaCost);
             BoardGameUiManager.Instance.RefreshUI();
             GameManager.Instance.RemoveCard(this);
         }

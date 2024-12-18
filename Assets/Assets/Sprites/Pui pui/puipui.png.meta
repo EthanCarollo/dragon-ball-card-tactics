@@ -143,13 +143,18 @@ TextureImporter:
         y: 460
         width: 27
         height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.54, y: 0.02173913}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 12.5, y: 16.5}
+        - {x: 9.5, y: 22.5}
+        - {x: -12.5, y: 22.5}
+        - {x: -12.5, y: -22.5}
+        - {x: 12.5, y: -22.5}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0.233
       bones: []
       spriteID: a89a4bba23537abc0800000000000000
       internalID: -3771987671154120310
@@ -165,13 +170,20 @@ TextureImporter:
         y: 460
         width: 26
         height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.021276595}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 12, y: 20.5}
+        - {x: 10, y: 22.5}
+        - {x: -11, y: 22.5}
+        - {x: -12, y: 21.5}
+        - {x: -12, y: 5.5}
+        - {x: -9, y: -22.5}
+        - {x: 12, y: -22.5}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0.233
       bones: []
       spriteID: 36abaa6cdb9c0d2f0800000000000000
       internalID: -950037704456095133
@@ -183,17 +195,26 @@ TextureImporter:
       name: puipui_2
       rect:
         serializedVersion: 2
-        x: 79
-        y: 468
-        width: 53
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 80
+        y: 469
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 24.5, y: -11.5}
+        - {x: 20.5, y: 0.5}
+        - {x: 15.5, y: 1.5}
+        - {x: 25.5, y: 6.5}
+        - {x: 25.5, y: 14.5}
+        - {x: -17.5, y: 14.5}
+        - {x: -25.5, y: 8.5}
+        - {x: -25.5, y: -14.5}
+        - {x: 20.5, y: -14.5}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0.233
       bones: []
       spriteID: 1a530fbd8517e73f0800000000000000
       internalID: -901158248966507103
@@ -205,17 +226,26 @@ TextureImporter:
       name: puipui_3
       rect:
         serializedVersion: 2
-        x: 136
-        y: 471
-        width: 53
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 137
+        y: 472
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 25.5, y: -8}
+        - {x: 25.5, y: -2}
+        - {x: 23.5, y: 0}
+        - {x: 25.5, y: 3}
+        - {x: 25.5, y: 11}
+        - {x: -19.5, y: 11}
+        - {x: -25.5, y: 8}
+        - {x: -25.5, y: -11}
+        - {x: 21.5, y: -11}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0.233
       bones: []
       spriteID: ce7320a591dd19180800000000000000
       internalID: -9110257470239787028
@@ -227,17 +257,25 @@ TextureImporter:
       name: puipui_4
       rect:
         serializedVersion: 2
-        x: 202
-        y: 461
-        width: 42
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 203
+        y: 462
+        width: 40
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 20, y: -13.5}
+        - {x: 20, y: 16.5}
+        - {x: 18, y: 17.5}
+        - {x: -3, y: 17.5}
+        - {x: -10, y: 9.5}
+        - {x: -20, y: -8.5}
+        - {x: -20, y: -17.5}
+        - {x: 17, y: -17.5}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0.233
       bones: []
       spriteID: c326acdfa27c36390800000000000000
       internalID: -7826192739979337156
@@ -249,17 +287,24 @@ TextureImporter:
       name: puipui_5
       rect:
         serializedVersion: 2
-        x: 249
-        y: 461
-        width: 37
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 250
+        y: 462
+        width: 35
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 12.5, y: -7}
+        - {x: 17.5, y: -3}
+        - {x: 17.5, y: 6}
+        - {x: 7.5, y: 21}
+        - {x: -17.5, y: 21}
+        - {x: -17.5, y: -21}
+        - {x: 11.5, y: -21}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0.233
       bones: []
       spriteID: d4cf771fa0f0dd0f0800000000000000
       internalID: -1090698995078529971
@@ -271,17 +316,26 @@ TextureImporter:
       name: puipui_6
       rect:
         serializedVersion: 2
-        x: 289
-        y: 461
-        width: 37
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 290
+        y: 462
+        width: 35
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: -10.5, y: -19.5}
+        - {x: -7.5, y: -20.5}
+        - {x: 11.5, y: -20.5}
+        - {x: 17.5, y: -13.5}
+        - {x: 17.5, y: 10.5}
+        - {x: 11.5, y: 20.5}
+        - {x: -17.5, y: 20.5}
+        - {x: -17.5, y: -20.5}
+        - {x: -11.5, y: -20.5}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0.233
       bones: []
       spriteID: 712b3f508725bef10800000000000000
       internalID: 2300022710152180247
@@ -293,17 +347,22 @@ TextureImporter:
       name: puipui_7
       rect:
         serializedVersion: 2
-        x: 334
-        y: 460
-        width: 31
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 335
+        y: 461
+        width: 29
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 14.5, y: 21}
+        - {x: -13.5, y: 21}
+        - {x: -14.5, y: 18}
+        - {x: -14.5, y: -21}
+        - {x: 14.5, y: -21}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0.233
       bones: []
       spriteID: d4ec7e4bd0a0462c0800000000000000
       internalID: -4439412278694523315
@@ -315,17 +374,25 @@ TextureImporter:
       name: puipui_8
       rect:
         serializedVersion: 2
-        x: 378
-        y: 460
-        width: 35
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 379
+        y: 461
+        width: 33
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 16.5, y: -10}
+        - {x: 16.5, y: 9}
+        - {x: 8.5, y: 21}
+        - {x: -12.5, y: 21}
+        - {x: -14.5, y: 19}
+        - {x: -16.5, y: 12}
+        - {x: -16.5, y: -21}
+        - {x: 12.5, y: -21}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0.233
       bones: []
       spriteID: e6c9f83e7255b1410800000000000000
       internalID: 1448845334939671662
@@ -337,17 +404,22 @@ TextureImporter:
       name: puipui_9
       rect:
         serializedVersion: 2
-        x: 6
-        y: 402
-        width: 28
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 7
+        y: 403
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 13, y: 17}
+        - {x: 10, y: 20}
+        - {x: -13, y: 20}
+        - {x: -13, y: -20}
+        - {x: 13, y: -20}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0.233
       bones: []
       spriteID: b00d698e5214f1f90800000000000000
       internalID: -6980789266329186293
@@ -359,17 +431,28 @@ TextureImporter:
       name: puipui_10
       rect:
         serializedVersion: 2
-        x: 55
-        y: 402
-        width: 42
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 56
+        y: 403
+        width: 40
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 14, y: -18}
+        - {x: 20, y: -2}
+        - {x: 20, y: 10}
+        - {x: 8, y: 20}
+        - {x: -20, y: 20}
+        - {x: -20, y: 0}
+        - {x: -13, y: -4}
+        - {x: -18, y: -12}
+        - {x: -20, y: -16}
+        - {x: -20, y: -20}
+        - {x: 12, y: -20}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0.233
       bones: []
       spriteID: db06dd23ae55e9ab0800000000000000
       internalID: -4999464071970594627
@@ -381,17 +464,24 @@ TextureImporter:
       name: puipui_11
       rect:
         serializedVersion: 2
-        x: 118
-        y: 402
-        width: 40
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 119
+        y: 403
+        width: 38
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 19, y: -16}
+        - {x: 19, y: 16}
+        - {x: 13, y: 20}
+        - {x: -17, y: 20}
+        - {x: -19, y: 17}
+        - {x: -19, y: -20}
+        - {x: 14, y: -20}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0.233
       bones: []
       spriteID: 0f988a9bd47117470800000000000000
       internalID: 8390513203362695664
@@ -403,17 +493,22 @@ TextureImporter:
       name: puipui_12
       rect:
         serializedVersion: 2
-        x: 289
-        y: 438
-        width: 47
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 290
+        y: 439
+        width: 45
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 22.5, y: 3.5}
+        - {x: 14.5, y: 8.5}
+        - {x: -22.5, y: 8.5}
+        - {x: -22.5, y: -8.5}
+        - {x: 22.5, y: -8.5}
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0.233
       bones: []
       spriteID: a35894316c21b2d80800000000000000
       internalID: -8274499248426744518
@@ -425,7 +520,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7a43ac4391be8427ba8eff1f68fa6a5a
     internalID: 0
     vertices: []
     indices: 
