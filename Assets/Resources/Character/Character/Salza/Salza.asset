@@ -15,14 +15,14 @@ MonoBehaviour:
   id: 36
   starNumber: 1
   characterName: Salza
-  role: 1
+  role: 0
   characterType: 0
   characterSprite: {fileID: 2745150537169343275, guid: 67137a2f355ac4e96b8cfbbc2fb6d3b0, type: 3}
   characterIcon: {fileID: 21300000, guid: 51056749514cc4792a346d1258c824f0, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
   maxHealth: 225
   maxKi: 75
-  baseRange: 1
+  baseRange: 8
   baseDamage: 50
   baseArmor: 25
   baseSpeed: 2
@@ -30,12 +30,12 @@ MonoBehaviour:
   baseCriticalChance: 10
   idleAnimation: {fileID: 11400000, guid: 06aab18aaba5d4ff8b08596a3797e65c, type: 2}
   runAnimation: {fileID: 11400000, guid: 45c703909fc6446659b75b7bd06427dd, type: 2}
-  attackAnimation: {fileID: 0}
-  criticalAttackAnimation: {fileID: 0}
+  attackAnimation: {fileID: 11400000, guid: 3b5ba1a418c6449aca350c9640fe74cd, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 3b5ba1a418c6449aca350c9640fe74cd, type: 2}
   specialAttackAnimation:
   - name: Ki Blast
     description: The most basic form of energy blast.
-    animation: {fileID: 0}
+    animation: {fileID: 11400000, guid: d9484190d964043a0a1c590324c93610, type: 2}
   deadAnimation: {fileID: 0}
-  characterPassive: []
-  card: {fileID: 0}
+  synergies:
+  - {fileID: 11400000, guid: 3783c350991614099bfa12186d81ccd3, type: 2}

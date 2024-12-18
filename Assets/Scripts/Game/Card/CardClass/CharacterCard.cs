@@ -18,7 +18,7 @@ public class CharacterCard : Card
         if(manaCost > GameManager.Instance.Player.Mana.CurrentMana){
             return false;
         }
-        if(GameManager.Instance.maxCharacterPlayer <= GameManager.Instance.GetCharactersOnBoard().Where(character => character.isPlayerCharacter).Count()){
+        if(GameManager.Instance.Player.Level.maxUnit <= GameManager.Instance.GetCharactersOnBoard().Where(character => character.isPlayerCharacter).Count()){
             return false;
         }
         return true;

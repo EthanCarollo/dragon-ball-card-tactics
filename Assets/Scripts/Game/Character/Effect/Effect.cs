@@ -5,6 +5,9 @@ public abstract class Effect {
     public readonly string effectName = "";
     public readonly string effectDescription = "";
 
+    public int attackBonus = 0;
+    public float attackSpeedBonus = 0;
+
     public float effectDuration; // Durée totale de l'effet.
     public float tickInterval; // Temps entre chaque tick.
     public float nextTickTime; // Temps avant le prochain tick.

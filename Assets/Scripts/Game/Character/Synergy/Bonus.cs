@@ -8,3 +8,9 @@ public class Bonus
     public float attackSpeedBonus;
     public int criticalChanceBonus;
 }
+
+[Serializable]
+public class SpecialCharacterBonus : Bonus
+{
+    public CharacterData character;
+}

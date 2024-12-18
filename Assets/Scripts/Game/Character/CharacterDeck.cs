@@ -130,7 +130,18 @@ public class CharacterContainer
         var activeBonuses = GetAllActiveBonuses();
         foreach (var bonus in activeBonuses)
         {
-            totalAdditionalAttack += bonus.attackBonus;   
+            if(bonus is SpecialCharacterBonus specialCharacterBonus){ 
+                if(specialCharacterBonus.character == GetCharacterData()){
+                    totalAdditionalAttack += bonus.attackBonus; 
+                }
+            } else {
+                totalAdditionalAttack += bonus.attackBonus; 
+            }  
+        }
+
+        foreach (var effect in activeEffects)
+        {
+            totalAdditionalAttack += effect.attackBonus;
         }
         
         
@@ -155,7 +166,13 @@ public class CharacterContainer
         var activeBonuses = GetAllActiveBonuses();
         foreach (var bonus in activeBonuses)
         {
-            maxHealth += bonus.maxHpBonus;   
+            if(bonus is SpecialCharacterBonus specialCharacterBonus){ 
+                if(specialCharacterBonus.character == GetCharacterData()){
+                    maxHealth += bonus.maxHpBonus;   
+                }
+            } else {
+                maxHealth += bonus.maxHpBonus;   
+            }
         }
         return maxHealth;
     }
@@ -169,7 +186,18 @@ public class CharacterContainer
         var activeBonuses = GetAllActiveBonuses();
         foreach (var bonus in activeBonuses)
         {
-            attackSpeed += bonus.attackSpeedBonus;   
+            if(bonus is SpecialCharacterBonus specialCharacterBonus){ 
+                if(specialCharacterBonus.character == GetCharacterData()){
+                    attackSpeed += bonus.attackSpeedBonus;  
+                }
+            } else {
+                attackSpeed += bonus.attackSpeedBonus;  
+            }
+        }
+
+        foreach (var effect in activeEffects)
+        {
+            attackSpeed += effect.attackSpeedBonus;
         }
         return attackSpeed;
     }
@@ -179,7 +207,13 @@ public class CharacterContainer
         var activeBonuses = GetAllActiveBonuses();
         foreach (var bonus in activeBonuses)
         {
-            criticalChance += bonus.criticalChanceBonus;   
+            if(bonus is SpecialCharacterBonus specialCharacterBonus){ 
+                if(specialCharacterBonus.character == GetCharacterData()){
+                    criticalChance += bonus.criticalChanceBonus; 
+                }
+            } else {
+                criticalChance += bonus.criticalChanceBonus; 
+            }
         }
         return criticalChance;
     }
@@ -233,6 +267,7 @@ public class CharacterContainer
             {
                 Debug.Log($"Effet {activeEffects[i].effectName} terminé pour {GetName()}");
                 activeEffects.RemoveAt(i);
+                NotifyCharacterChanged();
             }
         }
     }

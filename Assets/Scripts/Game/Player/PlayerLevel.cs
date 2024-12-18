@@ -1,9 +1,11 @@
 
 public class PlayerLevel {
-    public int CurrentLevel = 1;
+    // public int CurrentLevel = 1; TODO reput that to 1 and make a normal debug system plz
+    public int CurrentLevel = 4;
     public int MaxLevel = 10;
     public int CurrentExperience = 0;
-    public int MaxExperience = 12;
+    public int MaxExperience = 4;
+    public int maxUnit = 4;
 
     public void AddExperience(int experience){
         if(MaxLevel == CurrentLevel){
@@ -21,6 +23,7 @@ public class PlayerLevel {
             CurrentLevel++;
             CurrentExperience -= MaxExperience;
             MaxExperience += 2 + (MaxExperience / 4);
+            maxUnit++;
         }
     }
 }
