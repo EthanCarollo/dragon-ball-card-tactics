@@ -41,6 +41,7 @@ public class GameManager
 
     private GameManager()
     {
+        _instance = this;
         difficultyMutliplicator = 1.00f;
         try {
             Cursor.SetCursor(SpriteDatabase.Instance.normalCursor, Vector2.zero, CursorMode.Auto);
