@@ -10,32 +10,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
-  m_Name: Gokua
+  m_Name: Bojack
   m_EditorClassIdentifier: 
   id: 45
   starNumber: 1
-  characterName: Gokua
+  characterName: Bojack
   role: 0
   characterType: 2
-  characterSprite: {fileID: 7732631424386341849, guid: c1ac99a27eb764ce08f968983e96aa0b, type: 3}
-  characterIcon: {fileID: 21300000, guid: cb0858c2a5e6241a89b3d0b237320a0a, type: 3}
+  characterSprite: {fileID: -6241844520865459634, guid: 6fe35aed28abf4d6b9e98e810b3df374, type: 3}
+  characterIcon: {fileID: 21300000, guid: a4da122faf62d4a2f9e8b0fae117f21f, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
   maxHealth: 235
-  maxKi: 55
+  maxKi: 105
   baseRange: 1
-  baseDamage: 40
+  baseDamage: 85
   baseArmor: 25
   baseSpeed: 2
   baseAttackSpeed: 0.7
   baseCriticalChance: 24
-  idleAnimation: {fileID: 11400000, guid: 7b83d4a9244514f589e18dcede8e539a, type: 2}
-  runAnimation: {fileID: 11400000, guid: bf8d1bec58b0d45a8bf511542c79471c, type: 2}
-  attackAnimation: {fileID: 11400000, guid: 4485dc60468a3498fb1d4f3aa16f6259, type: 2}
-  criticalAttackAnimation: {fileID: 11400000, guid: cb7322e41badb4293b4bb0ff2b46dc17, type: 2}
+  idleAnimation: {fileID: 11400000, guid: e1227a55bd93b4c3c963de2b4f99f2a6, type: 2}
+  runAnimation: {fileID: 11400000, guid: 63433b29ed1a04d5b87665c49e7bcfa8, type: 2}
+  attackAnimation: {fileID: 11400000, guid: c8eb75ef7b0c74f13935cfdb75812770, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 9a3d73d6cc1f440eeb48c4a5b47ad8d0, type: 2}
   specialAttackAnimation:
   - name: Multiple attacks
     description: Launch multiple attacks on multiple enemies
-    animation: {fileID: 11400000, guid: 9765c002874554f578958a3d728bb185, type: 2}
+    animation: {fileID: 11400000, guid: 9c648dd53946449298861bc9e7666311, type: 2}
   deadAnimation: {fileID: 0}
   synergies:
   - {fileID: 11400000, guid: fb45fe0120531415a900315cc099c60a, type: 2}

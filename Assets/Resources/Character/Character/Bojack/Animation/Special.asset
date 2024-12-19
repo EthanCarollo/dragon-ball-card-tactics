@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6dad8ff1b884d2ea3c2a618cd48846, type: 3}
+  m_Name: Special
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: 1489913543200149131, guid: 6fe35aed28abf4d6b9e98e810b3df374, type: 3}
+    time: 0.15
+  - sprite: {fileID: 5885177744698567114, guid: 6fe35aed28abf4d6b9e98e810b3df374, type: 3}
+    time: 0.15
+  - sprite: {fileID: -9091659754339502832, guid: 6fe35aed28abf4d6b9e98e810b3df374, type: 3}
+    time: 0.15
+  attackFrameIndex: 1
+  projectile: {fileID: -5563860300600575749, guid: 6fe35aed28abf4d6b9e98e810b3df374, type: 3}
+  particleAttack: {fileID: 11400000, guid: a174c22b4147b4a269d29116e2a370cd, type: 2}
+  attackType: 0
+  startMargin: {x: 0.5, y: 0.7}
+  kiOnAttack: 10
+  otherTarget: 3
+  effectApplied: []
+  references:
+    version: 2
+    RefIds: []

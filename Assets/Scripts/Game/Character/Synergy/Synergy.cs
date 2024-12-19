@@ -52,7 +52,8 @@ public class Synergy : ScriptableObject {
 [Serializable]
 public class TierBonus
 {
-    public int RequiredUnits;   
+    public int RequiredUnits;  
+    [TextArea]
     public string Description;
 
     [SerializeReference, SubclassSelector]

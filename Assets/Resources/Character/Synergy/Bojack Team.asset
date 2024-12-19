@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c6eb036ffd84111b40ffd02f9fe47e, type: 3}
+  m_Name: Bojack Team
+  m_EditorClassIdentifier: 
+  synergyName: Bojack Team
+  synergyImage: {fileID: 21300000, guid: a4da122faf62d4a2f9e8b0fae117f21f, type: 3}
+  Tiers:
+  - RequiredUnits: 2
+    Description: Give 10 attack, 0.1 attack speed, and 40 max hp to all Bojack Team
+      Synergy.
+    Bonuses:
+    - rid: 6739222776896290892
+  references:
+    version: 2
+    RefIds:
+    - rid: 6739222776896290892
+      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 10
+        maxHpBonus: 40
+        attackSpeedBonus: 0.1
+        criticalChanceBonus: 0

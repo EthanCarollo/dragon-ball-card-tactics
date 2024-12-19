@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 6fe35aed28abf4d6b9e98e810b3df374
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1439937324837499986
+    second: bojack_0
+  - first:
+      213: -4692835583129066684
+    second: bojack_1
+  - first:
+      213: 2469441598665329402
+    second: bojack_2
+  - first:
+      213: -6241844520865459634
+    second: bojack_3
+  - first:
+      213: -249784882143244920
+    second: bojack_4
+  - first:
+      213: -1988985958501652695
+    second: bojack_5
+  - first:
+      213: 4088860905715198383
+    second: bojack_6
+  - first:
+      213: 3010065169083277456
+    second: bojack_7
+  - first:
+      213: 754375887609969996
+    second: bojack_8
+  - first:
+      213: -2217904456474326738
+    second: bojack_9
+  - first:
+      213: 2595283908005825958
+    second: bojack_10
+  - first:
+      213: -3956443148175450293
+    second: bojack_11
+  - first:
+      213: 8108542195720618343
+    second: bojack_12
+  - first:
+      213: -4270297489627165733
+    second: bojack_13
+  - first:
+      213: 1489913543200149131
+    second: bojack_14
+  - first:
+      213: 5885177744698567114
+    second: bojack_15
+  - first:
+      213: -9091659754339502832
+    second: bojack_16
+  - first:
+      213: -5563860300600575749
+    second: bojack_17
+  - first:
+      213: -140567817155735400
+    second: bojack_18
+  - first:
+      213: 4306836911094538248
+    second: bojack_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bojack_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 465
+        width: 39
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254f3c92e5fabf310800000000000000
+      internalID: 1439937324837499986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 472
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443674e96e2bfdeb0800000000000000
+      internalID: -4692835583129066684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 475
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa0502ec08354220800000000000000
+      internalID: 2469441598665329402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 403
+        width: 28
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.018181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42989e9a738069a0800000000000000
+      internalID: -6241844520865459634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 403
+        width: 29
+        height: 55
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.018181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88dc69d19f5988cf0800000000000000
+      internalID: -249784882143244920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_5
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 403
+        width: 29
+        height: 55
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.018181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927e4401fc3b564e0800000000000000
+      internalID: -1988985958501652695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_6
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 405
+        width: 44
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9e22d745d8eb830800000000000000
+      internalID: 4088860905715198383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_7
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 405
+        width: 46
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0902cf1c256e5c920800000000000000
+      internalID: 3010065169083277456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_8
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 405
+        width: 46
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4dbc187fd4187a00800000000000000
+      internalID: 754375887609969996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_9
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 355
+        width: 33
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e298716d5ab6831e0800000000000000
+      internalID: -2217904456474326738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_10
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 317
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad89f3c6fc440420800000000000000
+      internalID: 2595283908005825958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_11
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 355
+        width: 50
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.021276595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f59fa3be3e719c0800000000000000
+      internalID: -3956443148175450293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_12
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 306
+        width: 23
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76181368a24578070800000000000000
+      internalID: 8108542195720618343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_13
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 355
+        width: 48
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdbc785ee0bdcb4c0800000000000000
+      internalID: -4270297489627165733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 281
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e0d70497c3da410800000000000000
+      internalID: 1489913543200149131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_15
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 281
+        width: 34
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9eac05af95ca150800000000000000
+      internalID: 5885177744698567114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_16
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 280
+        width: 43
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015f0e38f9fe3d180800000000000000
+      internalID: -9091659754339502832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_17
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 273
+        width: 75
+        height: 76
+      alignment: 9
+      pivot: {x: 0.48000002, y: 0.4473684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8fdc2098239c2b0800000000000000
+      internalID: -5563860300600575749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_18
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 289
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8909497a05a9c0ef0800000000000000
+      internalID: -140567817155735400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bojack_19
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 284
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800a45f1a55f4cb30800000000000000
+      internalID: 4306836911094538248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e530e1ff82f65414590fbfb1af77b5ff
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bojack_0: 1439937324837499986
+      bojack_1: -4692835583129066684
+      bojack_10: 2595283908005825958
+      bojack_11: -3956443148175450293
+      bojack_12: 8108542195720618343
+      bojack_13: -4270297489627165733
+      bojack_14: 1489913543200149131
+      bojack_15: 5885177744698567114
+      bojack_16: -9091659754339502832
+      bojack_17: -5563860300600575749
+      bojack_18: -140567817155735400
+      bojack_19: 4306836911094538248
+      bojack_2: 2469441598665329402
+      bojack_3: -6241844520865459634
+      bojack_4: -249784882143244920
+      bojack_5: -1988985958501652695
+      bojack_6: 4088860905715198383
+      bojack_7: 3010065169083277456
+      bojack_8: 754375887609969996
+      bojack_9: -2217904456474326738
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
