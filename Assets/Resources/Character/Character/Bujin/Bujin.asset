@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Bujin
+  m_EditorClassIdentifier: 
+  id: 20
+  starNumber: 1
+  characterName: Bujin
+  role: 0
+  characterType: 1
+  characterSprite: {fileID: -4089234041623510501, guid: 98d9e2fd4344a43dab50b0aa5b887195, type: 3}
+  characterIcon: {fileID: 21300000, guid: b94268b3fe9f74a0ea011fc4eff2b391, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 210
+  maxKi: 40
+  baseRange: 10
+  baseDamage: 20
+  baseArmor: 25
+  baseSpeed: 5
+  baseAttackSpeed: 0.9
+  baseCriticalChance: 24
+  idleAnimation: {fileID: 11400000, guid: e98413f8fb6324c4a92ccca8e1d309b0, type: 2}
+  runAnimation: {fileID: 11400000, guid: 9843b99a838854c08be6e5b21b21e967, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 4d771ef06d4484cf5b439a58e51e1ab8, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 4d771ef06d4484cf5b439a58e51e1ab8, type: 2}
+  specialAttackAnimation:
+  - name: Special
+    description: Attack multiple enemies
+    animation: {fileID: 11400000, guid: a6b0312364efb4d99b8c864ddb0a0981, type: 2}
+  deadAnimation: {fileID: 0}
+  synergies: []

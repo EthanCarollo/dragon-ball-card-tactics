@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 875982c274ea44468cc86a0e0fb5ab10, type: 3}
-  m_Name: Gokua's Trap
+  m_Script: {fileID: 11500000, guid: 03b16787bc87f453d9d2b4fb52cd1a0f, type: 3}
+  m_Name: Idle
   m_EditorClassIdentifier: 
-  opponents:
-  - characterData: {fileID: 11400000, guid: 92b2eceb4299e4fe2b84d9fa921a1a96, type: 2}
-    position: {x: 7, y: 3}
-  difficulty: 0
+  frameSprites:
+  - sprite: {fileID: -4089234041623510501, guid: 98d9e2fd4344a43dab50b0aa5b887195, type: 3}
+    time: 0.2
