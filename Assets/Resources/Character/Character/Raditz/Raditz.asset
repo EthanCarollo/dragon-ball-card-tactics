@@ -37,6 +37,5 @@ MonoBehaviour:
     description: A powerful ki waves shot from both hands.
     animation: {fileID: 11400000, guid: 4538428d3628ff3439f72569083bca68, type: 2}
   deadAnimation: {fileID: 0}
-  characterPassive:
-  - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}
-  card: {fileID: 0}
+  synergies:
+  - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
