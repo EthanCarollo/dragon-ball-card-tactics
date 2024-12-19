@@ -17,7 +17,7 @@ public class FightBoard : Board
         // state = new FightBoardState(this);
         BoardArray = new GameObject[GameManager.BoardWidth, GameManager.BoardHeight];
         BoardGameUiManager.Instance.RefreshUI();
-        CreateBoard();
+        CreateBoard(GameManager.Instance.boardCharacterArray);
     }
 
     private void Update()
@@ -45,7 +45,7 @@ public class FightBoard : Board
         state.EndFight(win);
     }
     
-    public override void CreateBoard()
+    public override void CreateBoard(BoardObject[,] boardCharacterArray)
     {
         foreach (Transform child in transform)
         {
@@ -68,7 +68,7 @@ public class FightBoard : Board
                 BoardArray[x, y] = tile;
             }
         }
-        InitializeCharacter(GameManager.Instance.boardCharacterArray);
+        InitializeCharacter(boardCharacterArray);
     }
 
     private void InitializeCharacter(BoardObject[,] characters)
@@ -121,34 +121,6 @@ public class FightBoard : Board
     {
         GameManager.Instance.boardCharacterArray[position.x, position.y] = character;
         return true;
-    }
-
-    public override void RemoveCharacterFromBoard(BoardCharacter character)
-    {
-        bool characterFound = false;
-
-        for (int i = 0; i < GameManager.Instance.boardCharacterArray.GetLength(0); i++)
-        {
-            for (int j = 0; j < GameManager.Instance.boardCharacterArray.GetLength(1); j++)
-            {
-                if (GameManager.Instance.boardCharacterArray[i, j] == character)
-                {
-                    GameManager.Instance.boardCharacterArray[i, j] = null; 
-                    characterFound = true;
-                    break;
-                }
-            }
-    
-            if (characterFound)
-            {
-                break; 
-            }
-        }
-
-        if (!characterFound)
-        {
-            Debug.LogWarning("Character not found on the board.");
-        }
     }
     
     public float size = 1f;

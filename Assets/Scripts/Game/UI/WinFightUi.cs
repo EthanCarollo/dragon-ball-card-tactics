@@ -25,5 +25,6 @@ public class WinFightUi : MonoBehaviour
         public void CloseWinFightUi()
         {
                 winFightUi.gameObject.SetActive(false);
+                GameManager.Instance.GoNextFight();
         }
 }

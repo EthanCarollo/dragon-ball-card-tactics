@@ -53,15 +53,15 @@ public class FightBoardState : BoardState
         if(win == false){
             GameManager.Instance.boardCharacterArray = boardBeforeFight;
             GameManager.Instance.Player.Life.LooseLife(1);
+            GameManager.Instance.GoNextFight();
         } else {
             GameManager.Instance.boardCharacterArray = boardBeforeFightEmpty;
             GameManager.Instance.Player.Level.AddExperience(3);
             WinFightUi.Instance.OpenWinFightUi(board);
-            GameManager.Instance.GoNextFight();
         }
         BoardGameUiManager.Instance.characterBoardUi.HideCharacterBoard();
         BoardGameUiManager.Instance.RefreshUI();
-        board.CreateBoard();
+        board.CreateBoard(GameManager.Instance.boardCharacterArray);
     }
 
 

@@ -37,6 +37,8 @@ public class GameManager
         set => _difficultyMutliplicator = value;
     }
 
+    public Fight ActualFight;
+
     private GameManager()
     {
         difficultyMutliplicator = 1.00f;
@@ -53,17 +55,22 @@ public class GameManager
 
     public void GoNextFight()
     {
-        Fight randomFight = FightDatabase.Instance.GetRandomFight();
+        ActualFight = FightDatabase.Instance.GetRandomFight();
+        BoardGameUiManager.Instance.fightNameUi.OpenFightNamePanel(ActualFight);
         actualRound ++;
         if(actualRound > 1){
             difficultyMutliplicator += 0.05f;
         }
+        Debug.Log("Chosed fight is : " + ActualFight.name);
         BoardGameUiManager.Instance.SetupRoundText(actualRound.ToString());
-        foreach (var characterContainerFight in randomFight.opponents)
+        CleanGameBoard();
+        foreach (var characterContainerFight in ActualFight.opponents)
         {
+            Debug.Log(characterContainerFight.characterData.name);
             boardCharacterArray[characterContainerFight.position.x, characterContainerFight.position.y] 
                 = new BoardCharacter(new CharacterContainer(characterContainerFight.characterData.id, new List<CharacterPassive>(), difficultyMutliplicator), false);
         }
+        FightBoard.Instance.CreateBoard(boardCharacterArray);
     }
 
     public void SetupCard()
@@ -71,7 +78,8 @@ public class GameManager
         CardUi.Instance.SetupCardUi(PlayerCards);
     }
 
-    public void AddCard(Card card){
+    public void AddCard(Card card)
+    {
         PlayerCards.Add(card);
         SetupCard();
     }
@@ -114,6 +122,10 @@ public class GameManager
         {
             for (int y = 0; y < boardCharacterArray.GetLength(1); y++)
             {
+                if (boardCharacterArray[x, y] is BoardCharacter boardCharacter && boardCharacter.isPlayerCharacter)
+                {
+                    continue;
+                }
                 boardCharacterArray[x, y] = null;
             }
         }

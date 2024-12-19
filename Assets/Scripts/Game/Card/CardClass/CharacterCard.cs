@@ -54,7 +54,7 @@ public class CharacterCard : Card
                 GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
                 BoardGameUiManager.Instance.ShowLooseMana(manaCost);
                 GameManager.Instance.RemoveCard(this);
-                tileScript.assignedBoard.CreateBoard();
+                tileScript.assignedBoard.CreateBoard(GameManager.Instance.boardCharacterArray);
                 BoardGameUiManager.Instance.RefreshUI();
                 return;
             }

@@ -97,7 +97,7 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
                         GameManager.Instance.boardCharacterArray[tileScript.position.x, tileScript.position.y];
                     GameManager.Instance.boardCharacterArray[tileScript.position.x, tileScript.position.y] = boardCharacter;
                     GameManager.Instance.boardCharacterArray[position.x, position.y] = characterFrom;
-                    boardCharacter.board.CreateBoard();
+                    boardCharacter.board.CreateBoard(GameManager.Instance.boardCharacterArray);
                 }
             }
         }

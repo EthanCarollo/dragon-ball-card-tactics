@@ -30,6 +30,8 @@ public class BoardGameUiManager : MonoBehaviour
     public Transform synergyContainer;
     public GameObject synergyPrefab;
     
+    public FightNameUi fightNameUi;
+    
     public void Awake()
     {
         Instance = this;

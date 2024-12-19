@@ -41,7 +41,7 @@ public class Synergy : ScriptableObject {
         {
             var synergies = boardCharacter.character.GetSynergies();
             if(synergies == null) continue;
-            if(boardCharacter.isPlayerCharacter == true && synergies.Contains(this)){
+            if(boardCharacter.isPlayerCharacter && synergies.Contains(this)){
                 activeUnit++;
             }
         }
