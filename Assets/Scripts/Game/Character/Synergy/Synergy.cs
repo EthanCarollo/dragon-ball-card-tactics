@@ -9,10 +9,6 @@ public class Synergy : ScriptableObject {
     public Sprite synergyImage;
     public List<TierBonus> Tiers = new List<TierBonus>();
 
-    public int AddAttack(int baseAttack){
-        return 20;
-    }
-
     public List<TierBonus> GetActiveTierBonuses(){
         List<TierBonus> tierBonuses = new List<TierBonus>();
         foreach(var tierBonus in Tiers){

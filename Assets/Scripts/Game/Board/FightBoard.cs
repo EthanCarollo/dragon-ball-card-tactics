@@ -28,6 +28,7 @@ public class FightBoard : Board
     public void UpdateState(BoardState newState)
     {
         state = newState;
+        newState.Start();
     }
 
     public void LaunchFight()
@@ -125,9 +126,9 @@ public class FightBoard : Board
     
     public float size = 1f;
 
-    public void LaunchCinematic(BoardCharacter boardChar)
+    public void LaunchCinematic()
     {
-        state.LaunchCinematic(boardChar);
+        state.LaunchCinematic();
     }
 
     public void EndCinematic()

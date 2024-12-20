@@ -10,32 +10,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
-  m_Name: Bujin
+  m_Name: Bido
   m_EditorClassIdentifier: 
-  id: 48
+  id: 20
   starNumber: 1
-  characterName: Bujin
+  characterName: Bido
   role: 0
   characterType: 1
-  characterSprite: {fileID: -4089234041623510501, guid: 98d9e2fd4344a43dab50b0aa5b887195, type: 3}
-  characterIcon: {fileID: 21300000, guid: b94268b3fe9f74a0ea011fc4eff2b391, type: 3}
+  characterSprite: {fileID: 1050697128167988412, guid: 7a9db23694bbf4e2fa15b98690ce6b62, type: 3}
+  characterIcon: {fileID: 21300000, guid: 8d62f3a05c8044710ad9f5a506e930a3, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 210
+  maxHealth: 225
   maxKi: 40
-  baseRange: 10
+  baseRange: 1
   baseDamage: 20
   baseArmor: 25
   baseSpeed: 5
-  baseAttackSpeed: 0.9
+  baseAttackSpeed: 0.65
   baseCriticalChance: 24
-  idleAnimation: {fileID: 11400000, guid: e98413f8fb6324c4a92ccca8e1d309b0, type: 2}
-  runAnimation: {fileID: 11400000, guid: 9843b99a838854c08be6e5b21b21e967, type: 2}
-  attackAnimation: {fileID: 11400000, guid: 4d771ef06d4484cf5b439a58e51e1ab8, type: 2}
-  criticalAttackAnimation: {fileID: 11400000, guid: 4d771ef06d4484cf5b439a58e51e1ab8, type: 2}
+  idleAnimation: {fileID: 11400000, guid: bc9a76294d34c4240b76699e09822c7c, type: 2}
+  runAnimation: {fileID: 11400000, guid: 154075159ae1f44089c8ecb3a4cfb4a2, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 82bba3a6b9aae46a09a286b88cf31ba1, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 04f91989340a64dfab74144e278bc476, type: 2}
   specialAttackAnimation:
   - name: Special
     description: Attack multiple enemies
-    animation: {fileID: 11400000, guid: a6b0312364efb4d99b8c864ddb0a0981, type: 2}
+    animation: {fileID: 11400000, guid: f8c3ff90625c34fb898d6e53d2ae18d9, type: 2}
   deadAnimation: {fileID: 0}
   synergies:
   - {fileID: 11400000, guid: fb45fe0120531415a900315cc099c60a, type: 2}

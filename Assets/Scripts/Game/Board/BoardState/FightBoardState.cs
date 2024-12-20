@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,15 +13,34 @@ public class FightBoardState : BoardState
     {
         BoardGameUiManager.Instance.launchFightButton.SetActive(false);
         CardUi.Instance.HideCardUi();
+        
         if(CameraScript.Instance != null){
             CameraScript.Instance.SetupFightCamera();
         }
+
         boardBeforeFightEmpty = BoardUtils.DuplicateBoardObjectGrid(GameManager.Instance.boardCharacterArray, false);
         boardBeforeFight = BoardUtils.DuplicateBoardObjectGrid(GameManager.Instance.boardCharacterArray, true);
         boardState = new DefaultBoardFightState(this);
+
         if (resetPassives)
         {
             ResetAllPassives();
+        }
+    }
+    
+    public override void Start()
+    {
+        List<Synergy> ingameSynergy = GameManager.Instance.GetActiveSynergy();
+        foreach (var synergy in ingameSynergy)
+        {
+            var tierBonuses = synergy.GetActiveTierBonuses();
+            foreach (var tierBonus in tierBonuses)
+            {
+                foreach (var bonus in tierBonus.Bonuses)
+                {
+                    bonus.OnStartFight(true);
+                }
+            }
         }
     }
 
@@ -71,7 +91,7 @@ public class FightBoardState : BoardState
         boardState.EndCinematic();
     }
 
-    public override void LaunchCinematic(BoardCharacter boardChar)
+    public override void LaunchCinematic()
     {
         boardState.LaunchCinematic();
     }

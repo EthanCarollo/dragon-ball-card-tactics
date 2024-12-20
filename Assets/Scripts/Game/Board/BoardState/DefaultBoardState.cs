@@ -1,4 +1,6 @@
 ﻿
+using System.Collections.Generic;
+
 public class DefaultBoardState : BoardState
 {
     public DefaultBoardState(FightBoard board) : base(board) { 
@@ -6,7 +8,12 @@ public class DefaultBoardState : BoardState
             CameraScript.Instance.SetupNormalCamera();
         }
     }
-    
+
+    public override void Start()
+    {
+        
+    }
+
     public override void Update()
     {
         BoardGameUiManager.Instance.launchFightButton.SetActive(true);
@@ -37,7 +44,7 @@ public class DefaultBoardState : BoardState
         
     }
 
-    public override void LaunchCinematic(BoardCharacter boardChar)
+    public override void LaunchCinematic()
     {
         
     }

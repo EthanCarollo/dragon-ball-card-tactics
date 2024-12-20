@@ -59,6 +59,7 @@ public class DefaultBoardFightState : BoardFightState
 
     public override void LaunchCinematic()
     {
+        Debug.Log("Call launch cinematic");
         isActive = false;
         boardFightState.UpdateState(new CinematicBoardFightState(boardFightState));
     }

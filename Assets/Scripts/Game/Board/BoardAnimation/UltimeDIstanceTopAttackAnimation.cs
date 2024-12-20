@@ -18,7 +18,7 @@ public class UltimeDistanceTopAttackAnimation : BoardAnimation {
         var target = character.GetCharacterTarget();
         if (character.board is FightBoard fightBoard)
         {
-            fightBoard.LaunchCinematic(character);
+            fightBoard.LaunchCinematic();
         }
         character.isAnimating = true;
         var startPos = character.gameObject.transform.position;

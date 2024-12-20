@@ -72,19 +72,7 @@ public class BoardGameUiManager : MonoBehaviour
                 Destroy(item.gameObject); 
             }
 
-            var boardCharacters = GameManager.Instance.GetCharactersOnBoard();
-            List<Synergy> ingameSynergy = new List<Synergy>();
-            foreach (var boardCharacter in boardCharacters)
-            {
-                var synergies = boardCharacter.character.GetSynergies();
-                if(boardCharacter.isPlayerCharacter == true && synergies != null){
-                    foreach (var synergy in synergies)
-                    {
-                        if(ingameSynergy.Contains(synergy)) continue;
-                        ingameSynergy.Add(synergy);
-                    }
-                }
-            }
+            List<Synergy> ingameSynergy = GameManager.Instance.GetActiveSynergy();
 
             foreach (var synergy in ingameSynergy)
             {

@@ -21,7 +21,7 @@ public class AttackAnimation : BoardAnimation
         var target = character.GetCharacterTarget();
         if (character.board is FightBoard fightBoard && isCinematic)
         {
-            fightBoard.LaunchCinematic(character);
+            fightBoard.LaunchCinematic();
             CameraScript.Instance.SetupCameraOnTarget(4.5f, character.gameObject.transform);
         }
         

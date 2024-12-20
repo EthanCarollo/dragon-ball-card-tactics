@@ -14,21 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frameSprites:
   - sprite: {fileID: 2478442383420526899, guid: c7da9edc9b4f0441e98d96a8d6b10d3a, type: 3}
-    time: 0.1
+    time: 0.3
   - sprite: {fileID: -2950358075210433518, guid: c7da9edc9b4f0441e98d96a8d6b10d3a, type: 3}
-    time: 0.1
+    time: 0.2
   - sprite: {fileID: -5115556241836408612, guid: c7da9edc9b4f0441e98d96a8d6b10d3a, type: 3}
-    time: 0.2
+    time: 0.3
   - sprite: {fileID: 714646890706543010, guid: c7da9edc9b4f0441e98d96a8d6b10d3a, type: 3}
-    time: 0.2
+    time: 0.3
   - sprite: {fileID: -390490581239263474, guid: c7da9edc9b4f0441e98d96a8d6b10d3a, type: 3}
-    time: 0.2
+    time: 0.3
   - sprite: {fileID: -7853363141754794520, guid: c7da9edc9b4f0441e98d96a8d6b10d3a, type: 3}
-    time: 0.2
+    time: 0.3
   - sprite: {fileID: 7746087384784772661, guid: c7da9edc9b4f0441e98d96a8d6b10d3a, type: 3}
-    time: 0.2
+    time: 0.3
   - sprite: {fileID: -1824604994698061375, guid: c7da9edc9b4f0441e98d96a8d6b10d3a, type: 3}
-    time: 0.2
+    time: 0.3
   - sprite: {fileID: 4612260928891550002, guid: c7da9edc9b4f0441e98d96a8d6b10d3a, type: 3}
-    time: 0.4
-  newCharacterData: {fileID: 11400000, guid: b8153c8db51b02e469b29ecc91aa4c44, type: 2}
+    time: 0.6
+  newCharacterData: {fileID: 11400000, guid: 94b8b623073d6421583e833d5ca8e969, type: 2}

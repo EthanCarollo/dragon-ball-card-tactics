@@ -17,7 +17,7 @@ public class HealingCinematicAnimation : BoardAnimation
         var target = character.GetCharacterTarget().gameObject.transform;
         if (character.board is FightBoard fightBoard)
         {
-            fightBoard.LaunchCinematic(character);
+            fightBoard.LaunchCinematic();
         }
         character.isAnimating = true;
         yield return new WaitForSeconds(0.5f);

@@ -131,4 +131,20 @@ public class GameManager
             }
         }
     }
+
+    public List<Synergy> GetActiveSynergy(bool playerSynergy = true){
+        List<Synergy> ingameSynergy = new List<Synergy>();
+        foreach (var boardCharacter in GetCharactersOnBoard())
+        {
+            var synergies = boardCharacter.character.GetSynergies();
+            if(boardCharacter.isPlayerCharacter == playerSynergy && synergies != null){
+                foreach (var synergy in synergies)
+                {
+                    if(ingameSynergy.Contains(synergy)) continue;
+                    ingameSynergy.Add(synergy);
+                }
+            }
+        }
+        return ingameSynergy;
+    }
 }

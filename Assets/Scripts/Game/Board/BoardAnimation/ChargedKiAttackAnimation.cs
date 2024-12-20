@@ -21,7 +21,7 @@ public class ChargedKiAttackAnimation : BoardAnimation
         var target = character.GetCharacterTarget().gameObject.transform;
         if (character.board is FightBoard fightBoard)
         {
-            fightBoard.LaunchCinematic(character);
+            fightBoard.LaunchCinematic();
         }
         character.isAnimating = true;
         var index = 0;

@@ -20,6 +20,10 @@ MonoBehaviour:
       Synergy.
     Bonuses:
     - rid: 6739222776896290892
+  - RequiredUnits: 3
+    Description: If Gokua is in game, transform it in full power.
+    Bonuses:
+    - rid: 6739222798441644107
   references:
     version: 2
     RefIds:
@@ -30,3 +34,12 @@ MonoBehaviour:
         maxHpBonus: 40
         attackSpeedBonus: 0.1
         criticalChanceBonus: 0
+    - rid: 6739222798441644107
+      type: {class: TransformCharacterBonus, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 0
+        maxHpBonus: 0
+        attackSpeedBonus: 0
+        criticalChanceBonus: 0
+        character: {fileID: 11400000, guid: 92b2eceb4299e4fe2b84d9fa921a1a96, type: 2}
+        transform: {fileID: 11400000, guid: 7127427e207a84e80a2249f2fa65dfdb, type: 2}

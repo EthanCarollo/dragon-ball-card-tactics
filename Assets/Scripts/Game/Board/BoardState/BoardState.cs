@@ -12,11 +12,12 @@
         return false;
     }
     
+    public abstract void Start();
     public abstract void Update();
     public abstract void LaunchFight();
     public abstract void EndFight(bool win);
     
-    public abstract void LaunchCinematic(BoardCharacter boardChar);
+    public abstract void LaunchCinematic();
     public abstract void EndCinematic();
 
     
