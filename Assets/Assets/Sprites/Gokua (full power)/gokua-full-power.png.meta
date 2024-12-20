@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: c7da9edc9b4f0441e98d96a8d6b10d3a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2478442383420526899
+    second: gokua-full-power_0
+  - first:
+      213: -2950358075210433518
+    second: gokua-full-power_1
+  - first:
+      213: -5115556241836408612
+    second: gokua-full-power_2
+  - first:
+      213: 714646890706543010
+    second: gokua-full-power_3
+  - first:
+      213: -390490581239263474
+    second: gokua-full-power_4
+  - first:
+      213: -7853363141754794520
+    second: gokua-full-power_5
+  - first:
+      213: 7746087384784772661
+    second: gokua-full-power_6
+  - first:
+      213: -1824604994698061375
+    second: gokua-full-power_7
+  - first:
+      213: 4612260928891550002
+    second: gokua-full-power_8
+  - first:
+      213: -8466824655189821995
+    second: gokua-full-power_9
+  - first:
+      213: -7358738212554601300
+    second: gokua-full-power_10
+  - first:
+      213: 6487316546661288241
+    second: gokua-full-power_11
+  - first:
+      213: 835389252197616570
+    second: gokua-full-power_12
+  - first:
+      213: 4120877290026484269
+    second: gokua-full-power_13
+  - first:
+      213: -8806453542244461200
+    second: gokua-full-power_14
+  - first:
+      213: 857858595443293842
+    second: gokua-full-power_15
+  - first:
+      213: 7746149555662791387
+    second: gokua-full-power_16
+  - first:
+      213: -5197090199414492861
+    second: gokua-full-power_17
+  - first:
+      213: 2740329504082588639
+    second: gokua-full-power_18
+  - first:
+      213: -5965535010330577506
+    second: gokua-full-power_19
+  - first:
+      213: -1758038047444919364
+    second: gokua-full-power_20
+  - first:
+      213: 637358554482090936
+    second: gokua-full-power_21
+  - first:
+      213: -3078032288345215594
+    second: gokua-full-power_22
+  - first:
+      213: 3640800412074137394
+    second: gokua-full-power_23
+  - first:
+      213: 1304412678920042740
+    second: gokua-full-power_24
+  - first:
+      213: 7624164537073204279
+    second: gokua-full-power_25
+  - first:
+      213: -2969580090435784565
+    second: gokua-full-power_26
+  - first:
+      213: -4190945985022278490
+    second: gokua-full-power_27
+  - first:
+      213: 4932313075720397272
+    second: gokua-full-power_28
+  - first:
+      213: 301255059732909956
+    second: gokua-full-power_29
+  - first:
+      213: 1531219725771993783
+    second: gokua-full-power_30
+  - first:
+      213: -1553137095376511153
+    second: gokua-full-power_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gokua-full-power_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 430
+        width: 31
+        height: 52
+      alignment: 9
+      pivot: {x: 0.516129, y: 0.01923077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3319d046732356220800000000000000
+      internalID: 2478442383420526899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 431
+        width: 65
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c70e656f83e07d0800000000000000
+      internalID: -2950358075210433518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 431
+        width: 65
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd00fc093b4e109b0800000000000000
+      internalID: -5115556241836408612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_3
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 431
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1a66c8f8feae900800000000000000
+      internalID: 714646890706543010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 431
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f0911a2e2b49af0800000000000000
+      internalID: -390490581239263474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_5
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 431
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed4f8bd4df330390800000000000000
+      internalID: -7853363141754794520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 305
+        width: 80
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e1b399f61af7b60800000000000000
+      internalID: 7746087384784772661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 309
+        width: 28
+        height: 56
+      alignment: 9
+      pivot: {x: 0.4615385, y: 0.018518519}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c95e9bac63bda6e0800000000000000
+      internalID: -1824604994698061375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_8
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 310
+        width: 26
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2397ef5c0ea020040800000000000000
+      internalID: 4612260928891550002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_9
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 312
+        width: 46
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d534e3d5dbcf7a80800000000000000
+      internalID: -8466824655189821995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_10
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 315
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac079d759280e990800000000000000
+      internalID: -7358738212554601300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_11
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 318
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13982452704970a50800000000000000
+      internalID: 6487316546661288241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 258
+        width: 46
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb0b6a4916e79b00800000000000000
+      internalID: 835389252197616570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_13
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 258
+        width: 43
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22c00bdf0c403930800000000000000
+      internalID: 4120877290026484269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_14
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 256
+        width: 36
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075d983792139c580800000000000000
+      internalID: -8806453542244461200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_15
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 257
+        width: 44
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29eb9e0f8d9b7eb00800000000000000
+      internalID: 857858595443293842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_16
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 257
+        width: 41
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2a452eaf9df7b60800000000000000
+      internalID: 7746149555662791387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_17
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 177
+        width: 32
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3413c3ebff930e7b0800000000000000
+      internalID: -5197090199414492861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_18
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 177
+        width: 32
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd37d524a2b970620800000000000000
+      internalID: 2740329504082588639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_19
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 170
+        width: 44
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95f61ec389263da0800000000000000
+      internalID: -5965535010330577506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 166
+        width: 43
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb9c68d5b13a97e0800000000000000
+      internalID: -1758038047444919364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_21
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 204
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3267a7a3a58d800800000000000000
+      internalID: 637358554482090936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_22
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 190
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d200e11f1a845d0800000000000000
+      internalID: -3078032288345215594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 189
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23756cb5fa8b68230800000000000000
+      internalID: 3640800412074137394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_24
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 173
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f87b8f9b643a1210800000000000000
+      internalID: 1304412678920042740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_25
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 159
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73cf06d70497ec960800000000000000
+      internalID: 7624164537073204279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_26
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 158
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80b08924aee9c6d0800000000000000
+      internalID: -2969580090435784565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_27
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 49
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4c5e9c4d4c6d5c0800000000000000
+      internalID: -4190945985022278490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_28
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 49
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1245f1c98137440800000000000000
+      internalID: 4932313075720397272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_29
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 49
+        width: 53
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f4b2671e54e2400800000000000000
+      internalID: 301255059732909956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_30
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 49
+        width: 71
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2f5b35a3cff3510800000000000000
+      internalID: 1531219725771993783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gokua-full-power_31
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 21
+        width: 179
+        height: 96
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 103, y: 0, z: 70, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fd9966a06227ae0800000000000000
+      internalID: -1553137095376511153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a936ff8fc583c4316941df052772bc82
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gokua-full-power_0: 2478442383420526899
+      gokua-full-power_1: -2950358075210433518
+      gokua-full-power_10: -7358738212554601300
+      gokua-full-power_11: 6487316546661288241
+      gokua-full-power_12: 835389252197616570
+      gokua-full-power_13: 4120877290026484269
+      gokua-full-power_14: -8806453542244461200
+      gokua-full-power_15: 857858595443293842
+      gokua-full-power_16: 7746149555662791387
+      gokua-full-power_17: -5197090199414492861
+      gokua-full-power_18: 2740329504082588639
+      gokua-full-power_19: -5965535010330577506
+      gokua-full-power_2: -5115556241836408612
+      gokua-full-power_20: -1758038047444919364
+      gokua-full-power_21: 637358554482090936
+      gokua-full-power_22: -3078032288345215594
+      gokua-full-power_23: 3640800412074137394
+      gokua-full-power_24: 1304412678920042740
+      gokua-full-power_25: 7624164537073204279
+      gokua-full-power_26: -2969580090435784565
+      gokua-full-power_27: -4190945985022278490
+      gokua-full-power_28: 4932313075720397272
+      gokua-full-power_29: 301255059732909956
+      gokua-full-power_3: 714646890706543010
+      gokua-full-power_30: 1531219725771993783
+      gokua-full-power_31: -1553137095376511153
+      gokua-full-power_4: -390490581239263474
+      gokua-full-power_5: -7853363141754794520
+      gokua-full-power_6: 7746087384784772661
+      gokua-full-power_7: -1824604994698061375
+      gokua-full-power_8: 4612260928891550002
+      gokua-full-power_9: -8466824655189821995
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
