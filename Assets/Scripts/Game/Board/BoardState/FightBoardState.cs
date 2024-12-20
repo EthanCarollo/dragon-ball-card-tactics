@@ -30,6 +30,11 @@ public class FightBoardState : BoardState
     
     public override void Start()
     {
+        SetupSynergyStartAction();
+    }
+
+    public void SetupSynergyStartAction()
+    {
         List<Synergy> ingameSynergy = GameManager.Instance.GetActiveSynergy();
         foreach (var synergy in ingameSynergy)
         {
@@ -38,7 +43,7 @@ public class FightBoardState : BoardState
             {
                 foreach (var bonus in tierBonus.Bonuses)
                 {
-                    bonus.OnStartFight(true);
+                    if(bonus.OnStartSetupAction(true) == true) return;
                 }
             }
         }
@@ -89,6 +94,7 @@ public class FightBoardState : BoardState
     public override void EndCinematic()
     {
         boardState.EndCinematic();
+        SetupSynergyStartAction();
     }
 
     public override void LaunchCinematic()

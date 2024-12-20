@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe206b63a12884410b001ddff079c3c8, type: 3}
-  m_Name: Bido Card
+  m_Script: {fileID: 11500000, guid: 03b16787bc87f453d9d2b4fb52cd1a0f, type: 3}
+  m_Name: Idle
   m_EditorClassIdentifier: 
-  manaCost: 1
-  rarity: 0
-  name: Bido
-  image: {fileID: 21300000, guid: 8d62f3a05c8044710ad9f5a506e930a3, type: 3}
-  character: {fileID: 11400000, guid: 0777becf2e1684fcb80b2f4960538d13, type: 2}
+  frameSprites:
+  - sprite: {fileID: -1222735818709002036, guid: 4e2f07d1ce5504ad18f2e8ab145d9b64, type: 3}
+    time: 0.2

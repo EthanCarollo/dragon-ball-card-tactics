@@ -18,6 +18,7 @@ public class CameraScript : MonoBehaviour
     }
 
     public void SetupFightCamera(){
+        LeanTween.cancel(this.gameObject);
         LeanTween.value(this.gameObject, (float leanValue) => {
             cinemachineCamera.Lens.OrthographicSize = leanValue;
         }, cinemachineCamera.Lens.OrthographicSize, 4.5f, 0.5f).setEaseInOutCirc();
@@ -26,6 +27,7 @@ public class CameraScript : MonoBehaviour
     }
 
     public void SetupNormalCamera(){
+        LeanTween.cancel(this.gameObject);
         LeanTween.value(this.gameObject, (float leanValue) => {
             cinemachineCamera.Lens.OrthographicSize = leanValue;
         }, cinemachineCamera.Lens.OrthographicSize, 7f, 0.5f).setEaseInOutCirc();
@@ -35,6 +37,7 @@ public class CameraScript : MonoBehaviour
 
     public void SetupCameraOnTarget(float size, Transform target)
     {
+        LeanTween.cancel(this.gameObject);
         LeanTween.value(this.gameObject, (float leanValue) => {
             cinemachineCamera.Lens.OrthographicSize = leanValue;
         }, cinemachineCamera.Lens.OrthographicSize, size, 0.5f).setEaseInOutCirc();

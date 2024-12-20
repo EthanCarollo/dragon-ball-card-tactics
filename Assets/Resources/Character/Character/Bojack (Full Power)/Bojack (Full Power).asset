@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Bojack (Full Power)
+  m_EditorClassIdentifier: 
+  id: 45
+  starNumber: 1
+  characterName: Bojack (Full Power)
+  role: 0
+  characterType: 2
+  characterSprite: {fileID: -6241844520865459634, guid: 6fe35aed28abf4d6b9e98e810b3df374, type: 3}
+  characterIcon: {fileID: 21300000, guid: a4da122faf62d4a2f9e8b0fae117f21f, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 235
+  maxKi: 105
+  baseRange: 1
+  baseDamage: 85
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 0.7
+  baseCriticalChance: 24
+  idleAnimation: {fileID: 11400000, guid: 621f547bd99434f7c9833f7c04bb6ebd, type: 2}
+  runAnimation: {fileID: 11400000, guid: 0636ddcae9da4426f840e64ab7fb6783, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 9a278bbaf5b624999af8e0848c70c242, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: f92e2a23496624527ac59424d7947190, type: 2}
+  specialAttackAnimation:
+  - name: Charged Ki
+    description: Charge a Super Ki
+    animation: {fileID: 11400000, guid: 8d9233afa9ffd4664966259b8f8a1c64, type: 2}
+  deadAnimation: {fileID: 0}
+  synergies:
+  - {fileID: 11400000, guid: fb45fe0120531415a900315cc099c60a, type: 2}
