@@ -16,7 +16,8 @@ MonoBehaviour:
   synergyImage: {fileID: 21300000, guid: 58c2c991c6cab47c2af370ade4f353a3, type: 3}
   Tiers:
   - RequiredUnits: 1
-    Description: Give 33 attack to all Unstoppable Fury Synergy.
+    Description: Give 33 attack and Poison Effect on hit to all Unstoppable Fury
+      Synergy.
     Bonuses:
     - rid: 6739222654909153356
   - RequiredUnits: 2
@@ -37,6 +38,8 @@ MonoBehaviour:
         maxHpBonus: 0
         attackSpeedBonus: 0
         criticalChanceBonus: 0
+        effectsOnHit:
+        - rid: 6739222818731327563
     - rid: 6739222660124246092
       type: {class: Bonus, ns: , asm: Assembly-CSharp}
       data:
@@ -44,6 +47,7 @@ MonoBehaviour:
         maxHpBonus: 0
         attackSpeedBonus: 0.33
         criticalChanceBonus: 0
+        effectsOnHit: []
     - rid: 6739222660124246093
       type: {class: Bonus, ns: , asm: Assembly-CSharp}
       data:
@@ -51,3 +55,14 @@ MonoBehaviour:
         maxHpBonus: 0
         attackSpeedBonus: 0
         criticalChanceBonus: 33
+        effectsOnHit: []
+    - rid: 6739222818731327563
+      type: {class: PoisonEffect, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 0
+        attackSpeedBonus: 0
+        effectDuration: 5
+        tickInterval: 1
+        nextTickTime: 1
+        damagePerTick: 10
+        particle: {fileID: 11400000, guid: 596e08eb421024550922371c0991c5cd, type: 2}

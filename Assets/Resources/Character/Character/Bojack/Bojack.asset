@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Bojack
   m_EditorClassIdentifier: 
-  id: 45
+  id: 46
   starNumber: 1
   characterName: Bojack
   role: 0
@@ -25,7 +25,7 @@ MonoBehaviour:
   baseRange: 1
   baseDamage: 85
   baseArmor: 25
-  baseSpeed: 2
+  baseSpeed: 5
   baseAttackSpeed: 0.7
   baseCriticalChance: 24
   idleAnimation: {fileID: 11400000, guid: e1227a55bd93b4c3c963de2b4f99f2a6, type: 2}
@@ -39,3 +39,4 @@ MonoBehaviour:
   deadAnimation: {fileID: 0}
   synergies:
   - {fileID: 11400000, guid: fb45fe0120531415a900315cc099c60a, type: 2}
+  - {fileID: 11400000, guid: d650a485b7943417bb2b531cc2a4ba90, type: 2}

@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 875982c274ea44468cc86a0e0fb5ab10, type: 3}
-  m_Name: Gokua's Trap
+  m_Name: Cell Showdown
   m_EditorClassIdentifier: 
   opponents:
-  - characterData: {fileID: 11400000, guid: 92b2eceb4299e4fe2b84d9fa921a1a96, type: 2}
+  - characterData: {fileID: 11400000, guid: a1ec0f2ecc2e5af43a899b52ffafca75, type: 2}
     position: {x: 7, y: 3}
-  - characterData: {fileID: 11400000, guid: 42c85cfbdd33e4dd79d74ba2e62f5c95, type: 2}
-    position: {x: 8, y: 5}
-  difficulty: 0
+  - characterData: {fileID: 11400000, guid: 0366ff4e525a3d140bd3ac46897d0531, type: 2}
+    position: {x: 8, y: 1}
+  - characterData: {fileID: 11400000, guid: 0366ff4e525a3d140bd3ac46897d0531, type: 2}
+    position: {x: 7, y: 5}
+  difficulty: 1

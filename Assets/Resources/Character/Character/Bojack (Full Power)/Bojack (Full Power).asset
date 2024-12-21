@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Bojack (Full Power)
   m_EditorClassIdentifier: 
-  id: 45
+  id: 50
   starNumber: 1
   characterName: Bojack (Full Power)
   role: 0
@@ -20,13 +20,13 @@ MonoBehaviour:
   characterSprite: {fileID: -6241844520865459634, guid: 6fe35aed28abf4d6b9e98e810b3df374, type: 3}
   characterIcon: {fileID: 21300000, guid: a4da122faf62d4a2f9e8b0fae117f21f, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 235
-  maxKi: 105
+  maxHealth: 450
+  maxKi: 150
   baseRange: 1
-  baseDamage: 85
+  baseDamage: 125
   baseArmor: 25
-  baseSpeed: 2
-  baseAttackSpeed: 0.7
+  baseSpeed: 8
+  baseAttackSpeed: 1.1
   baseCriticalChance: 24
   idleAnimation: {fileID: 11400000, guid: 621f547bd99434f7c9833f7c04bb6ebd, type: 2}
   runAnimation: {fileID: 11400000, guid: 0636ddcae9da4426f840e64ab7fb6783, type: 2}
@@ -39,3 +39,5 @@ MonoBehaviour:
   deadAnimation: {fileID: 0}
   synergies:
   - {fileID: 11400000, guid: fb45fe0120531415a900315cc099c60a, type: 2}
+  - {fileID: 11400000, guid: d650a485b7943417bb2b531cc2a4ba90, type: 2}
+  - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
