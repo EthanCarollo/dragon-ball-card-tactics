@@ -68,6 +68,26 @@ public class DistanceAttackAnimation : BoardAnimation {
                         target.character.AddEffect(effect);
                     }
                 }
+
+                try {
+                    var activeBonuses = character.character.GetAllActiveBonuses();
+                    foreach (var bonus in activeBonuses)
+                    {
+                        if(bonus is SpecialCharacterBonus specialCharacterBonus){ 
+                            if(specialCharacterBonus.character == character.character.GetCharacterData()){
+                                foreach(Effect effect in bonus.effectsOnHit){
+                                    target.character.AddEffect(effect);
+                                }
+                            }
+                        } else {
+                            foreach(Effect effect in bonus.effectsOnHit){
+                                target.character.AddEffect(effect);
+                            }
+                        }
+                    }
+                } catch(Exception error){
+                    Debug.LogError("Cannot inflict effect , " + error);
+                }
                 
                 switch (attackType)
                 {

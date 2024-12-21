@@ -9,6 +9,8 @@ public class Bonus
     public int maxHpBonus;
     public float attackSpeedBonus;
     public int criticalChanceBonus;
+    [SerializeReference, SubclassSelector]
+    public Effect[] effectsOnHit;
 
     public virtual bool OnStartSetupAction(bool isPlayerCharacter)
     {

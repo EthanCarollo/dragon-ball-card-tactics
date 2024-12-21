@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor.PackageManager;
 using UnityEngine;
 
 [Serializable]
@@ -96,8 +97,12 @@ public class BoardCharacter : BoardObject
         {
             return;
         }
-        if (particle != null) {
-            particle.StartParticle(GetCharacterTarget().gameObject.transform.position);
+        if (particle != null && GetCharacterTarget().gameObject != null) {
+            try {
+                particle.StartParticle(GetCharacterTarget().gameObject.transform.position);
+            } catch (Exception error){
+                Debug.LogWarning("Error on starting particle," + error);
+            }
         }
 
         foreach (var passive in character.GetCharacterPassives())
