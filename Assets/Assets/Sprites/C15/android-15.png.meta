@@ -1,0 +1,894 @@
+fileFormatVersion: 2
+guid: efb39eb9eff7a4197b33c23b095ad3c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -152253654551804501
+    second: android-15_0
+  - first:
+      213: -2115734936352800845
+    second: android-15_1
+  - first:
+      213: -4878635669164930958
+    second: android-15_2
+  - first:
+      213: 4025993855660997990
+    second: android-15_3
+  - first:
+      213: 81692065892262217
+    second: android-15_4
+  - first:
+      213: -8213201777730023469
+    second: android-15_5
+  - first:
+      213: -5830006685068884588
+    second: android-15_6
+  - first:
+      213: -6390772518707604068
+    second: android-15_7
+  - first:
+      213: 7817643074137839769
+    second: android-15_8
+  - first:
+      213: 7540702005466800823
+    second: android-15_9
+  - first:
+      213: -4097149389744269479
+    second: android-15_10
+  - first:
+      213: 1806815652554132412
+    second: android-15_11
+  - first:
+      213: 8957332119429920573
+    second: android-15_12
+  - first:
+      213: -7568602525935620244
+    second: android-15_13
+  - first:
+      213: -1129571997048754069
+    second: android-15_14
+  - first:
+      213: -8801193683487417059
+    second: android-15_15
+  - first:
+      213: 5362583532602218387
+    second: android-15_16
+  - first:
+      213: -9117744257946059856
+    second: android-15_17
+  - first:
+      213: -7241290007729703640
+    second: android-15_18
+  - first:
+      213: -7245216518740824731
+    second: android-15_19
+  - first:
+      213: -6999974268118961838
+    second: android-15_20
+  - first:
+      213: -304290064102686482
+    second: android-15_21
+  - first:
+      213: 6979555235261771961
+    second: android-15_22
+  - first:
+      213: -5190997819407262948
+    second: android-15_23
+  - first:
+      213: -6035217937445591816
+    second: android-15_24
+  - first:
+      213: 4223667585212219059
+    second: android-15_25
+  - first:
+      213: -3491688258197759053
+    second: android-15_26
+  - first:
+      213: 8656715666680372932
+    second: android-15_27
+  - first:
+      213: 26182810449717204
+    second: android-15_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: android-15_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 459
+        width: 27
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0.02173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba54fac9b1613edf0800000000000000
+      internalID: -152253654551804501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 459
+        width: 27
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5185185, y: 0.02173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfbec7f84663a2e0800000000000000
+      internalID: -2115734936352800845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 460
+        width: 32
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278cfdef4ba9b4cb0800000000000000
+      internalID: -4878635669164930958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 461
+        width: 29
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d3492c4143fd730800000000000000
+      internalID: 4025993855660997990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_4
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 461
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941e978408a322100800000000000000
+      internalID: 81692065892262217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 461
+        width: 35
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df8bc1af78d40e80800000000000000
+      internalID: -8213201777730023469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_6
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 461
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49501520fc7a71fa0800000000000000
+      internalID: -5830006685068884588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_7
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 461
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95da16014a6f47a0800000000000000
+      internalID: -6390772518707604068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_8
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 413
+        width: 37
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99857cec4f8dd7c60800000000000000
+      internalID: 7817643074137839769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_9
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 413
+        width: 41
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2ace88584f5a860800000000000000
+      internalID: 7540702005466800823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_10
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 413
+        width: 42
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957959076500427c0800000000000000
+      internalID: -4097149389744269479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_11
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 344
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbbca195349131910800000000000000
+      internalID: 1806815652554132412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 341
+        width: 57
+        height: 58
+      alignment: 9
+      pivot: {x: 0.2631579, y: 0.051724136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3731d9ca16de4c70800000000000000
+      internalID: 8957332119429920573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 387
+        width: 5
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fab735a1ce6f690800000000000000
+      internalID: -7568602525935620244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_14
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 387
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b603eafd044f250f0800000000000000
+      internalID: -1129571997048754069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 344
+        width: 52
+        height: 48
+      alignment: 9
+      pivot: {x: 0.25, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d1250c9f0ebd580800000000000000
+      internalID: -8801193683487417059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_16
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 379
+        width: 6
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3975d1b8f49bb6a40800000000000000
+      internalID: 5362583532602218387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_17
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 379
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb7440c7e3477180800000000000000
+      internalID: -9117744257946059856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_18
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 343
+        width: 47
+        height: 49
+      alignment: 9
+      pivot: {x: 0.31914893, y: 0.020408163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8257fad9a15c18b90800000000000000
+      internalID: -7241290007729703640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_19
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 341
+        width: 58
+        height: 55
+      alignment: 9
+      pivot: {x: 0.23636363, y: 0.056603774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d29a786f1d37b90800000000000000
+      internalID: -7245216518740824731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_20
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 343
+        width: 34
+        height: 49
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.020408163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251f4e79d781bde90800000000000000
+      internalID: -6999974268118961838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_21
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 366
+        width: 13
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee08a748cc1f6cbf0800000000000000
+      internalID: -304290064102686482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_22
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 370
+        width: 17
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0fef7d18c5cd060800000000000000
+      internalID: 6979555235261771961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_23
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 358
+        width: 17
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b17608cfed5f7b0800000000000000
+      internalID: -5190997819407262948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_24
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 355
+        width: 10
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f46d7803499e3ca0800000000000000
+      internalID: -6035217937445591816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 348
+        width: 6
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bef7e17a4b7d9a30800000000000000
+      internalID: 4223667585212219059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_26
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 350
+        width: 10
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb58b767080b8fc0800000000000000
+      internalID: -3491688258197759053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_27
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 344
+        width: 5
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ceda0a9805d22870800000000000000
+      internalID: 8656715666680372932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_28
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 347
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7a31c90250d5000800000000000000
+      internalID: 26182810449717204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-15_29
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 449
+        width: 39
+        height: 38
+      alignment: 9
+      pivot: {x: 0.35897437, y: 0.02631579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef26f38f07e004ea7ad5f273c1b2c451
+      internalID: 2096668537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 90106a6053f1e4e29a9ee7aa331c1f75
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      android-15_0: -152253654551804501
+      android-15_1: -2115734936352800845
+      android-15_10: -4097149389744269479
+      android-15_11: 1806815652554132412
+      android-15_12: 8957332119429920573
+      android-15_13: -7568602525935620244
+      android-15_14: -1129571997048754069
+      android-15_15: -8801193683487417059
+      android-15_16: 5362583532602218387
+      android-15_17: -9117744257946059856
+      android-15_18: -7241290007729703640
+      android-15_19: -7245216518740824731
+      android-15_2: -4878635669164930958
+      android-15_20: -6999974268118961838
+      android-15_21: -304290064102686482
+      android-15_22: 6979555235261771961
+      android-15_23: -5190997819407262948
+      android-15_24: -6035217937445591816
+      android-15_25: 4223667585212219059
+      android-15_26: -3491688258197759053
+      android-15_27: 8656715666680372932
+      android-15_28: 26182810449717204
+      android-15_29: 2096668537
+      android-15_3: 4025993855660997990
+      android-15_4: 81692065892262217
+      android-15_5: -8213201777730023469
+      android-15_6: -5830006685068884588
+      android-15_7: -6390772518707604068
+      android-15_8: 7817643074137839769
+      android-15_9: 7540702005466800823
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
