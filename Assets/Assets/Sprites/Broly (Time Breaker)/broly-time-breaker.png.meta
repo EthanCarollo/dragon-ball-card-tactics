@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 7a2068cd1bbfd4eb4a1237da60c9b27e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9049184418401517995
+    second: broly-time-breaker_0
+  - first:
+      213: -3637243741733518754
+    second: broly-time-breaker_1
+  - first:
+      213: -6729807609152237067
+    second: broly-time-breaker_2
+  - first:
+      213: 4327587854785490904
+    second: broly-time-breaker_3
+  - first:
+      213: -7339868116674224344
+    second: broly-time-breaker_4
+  - first:
+      213: 2711354456956805415
+    second: broly-time-breaker_5
+  - first:
+      213: -1017175942603456698
+    second: broly-time-breaker_6
+  - first:
+      213: -7662543041367223594
+    second: broly-time-breaker_7
+  - first:
+      213: -2484003476355077964
+    second: broly-time-breaker_8
+  - first:
+      213: 3140956121738218868
+    second: broly-time-breaker_9
+  - first:
+      213: 6203941034882749823
+    second: broly-time-breaker_10
+  - first:
+      213: -4089701468968562355
+    second: broly-time-breaker_11
+  - first:
+      213: 6529783721923398268
+    second: broly-time-breaker_12
+  - first:
+      213: -6140008212582814657
+    second: broly-time-breaker_13
+  - first:
+      213: -2357712359019427299
+    second: broly-time-breaker_14
+  - first:
+      213: 1611347876707754896
+    second: broly-time-breaker_15
+  - first:
+      213: 283529885233779654
+    second: broly-time-breaker_16
+  - first:
+      213: -6081117727411754456
+    second: broly-time-breaker_17
+  - first:
+      213: 4858656915682533648
+    second: broly-time-breaker_18
+  - first:
+      213: 2125478310870300451
+    second: broly-time-breaker_19
+  - first:
+      213: -3682910335581277271
+    second: broly-time-breaker_20
+  - first:
+      213: 1470348217495281375
+    second: broly-time-breaker_21
+  - first:
+      213: -3599965579356403903
+    second: broly-time-breaker_22
+  - first:
+      213: -3101570978032849102
+    second: broly-time-breaker_23
+  - first:
+      213: 1473585865313949921
+    second: broly-time-breaker_24
+  - first:
+      213: -918533860589212519
+    second: broly-time-breaker_25
+  - first:
+      213: 722168746170035845
+    second: broly-time-breaker_26
+  - first:
+      213: -5512417170306198773
+    second: broly-time-breaker_27
+  - first:
+      213: -706342537978261699
+    second: broly-time-breaker_28
+  - first:
+      213: 2187935187212522183
+    second: broly-time-breaker_29
+  - first:
+      213: -7370290460914889045
+    second: broly-time-breaker_30
+  - first:
+      213: -3136351744587947179
+    second: broly-time-breaker_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: broly-time-breaker_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 405
+        width: 63
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42363e4a8263f443c9547592831e6e37
+      internalID: 805685800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 403
+        width: 67
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1558347be2701458590f13c0502a2ed7
+      internalID: -1191500001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 401
+        width: 96
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b289617c1ab0c44b4a94c4e3d25efa84
+      internalID: -1571971129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 401
+        width: 108
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9120a549c31478dbd1696101eae294
+      internalID: -1059942598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_4
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 459
+        width: 7
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8d2e4fb2151419ba965930b801774d
+      internalID: 104226902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_5
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 400
+        width: 65
+        height: 102
+      alignment: 9
+      pivot: {x: 0.50769234, y: 0.009803922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6707f5b36da4a49b524f7000522f83
+      internalID: 1549138688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_6
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 462
+        width: 12
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236f8a703acb444569aad981130be10c
+      internalID: 466769046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_7
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 459
+        width: 7
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6fbff8cbb9949b2ad4a3cbfa28b09a
+      internalID: 1496841915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_8
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 401
+        width: 48
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e327d781a46714a5c87a64d1ceb6389f
+      internalID: 1295037404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_9
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 400
+        width: 39
+        height: 74
+      alignment: 9
+      pivot: {x: 0.51282054, y: 0.013513514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29f2ef5c2d71415ab6aef03ea1a6340
+      internalID: -1541818420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_10
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 403
+        width: 53
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0.01754386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d7b7664c7e046c197681ab5b54f620
+      internalID: -1676258156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 321
+        width: 45
+        height: 73
+      alignment: 9
+      pivot: {x: 0.4888889, y: 0.01369863}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71a393d7987645cc8726bf9bdd9638c
+      internalID: 1527327587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_12
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 322
+        width: 79
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515085ed19f5f42c7bd6405be8bced1c
+      internalID: -864345787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_13
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 321
+        width: 49
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3649eb9e790e648afb6fc54f9ecff742
+      internalID: 1326447562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_14
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 322
+        width: 43
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55459b537cce84e5bb7408de7e8ba463
+      internalID: -595581690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_15
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 322
+        width: 79
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fc1211ac0dc4a35af07709629f8ed3
+      internalID: 1206668458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_16
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 322
+        width: 51
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14099dd0900e143f99c4d0bd461fbd7a
+      internalID: 2104274285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 238
+        width: 43
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef024a6809e054cf08e904e9701caba0
+      internalID: 608298849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_18
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 238
+        width: 46
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b382b4897c241b2a5fcd550e7806d2
+      internalID: 773518229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_19
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 238
+        width: 47
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a381716a775cb45b89ba499c121e3d01
+      internalID: -238168924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_20
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 237
+        width: 81
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6c7bde9f89f4279985a1041bf5bcdd
+      internalID: -781741619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_21
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 235
+        width: 50
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d13908c19e624f2799b27713293a174
+      internalID: 1533216039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_22
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 242
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01508e977c1c4254aa7c46371fb096a
+      internalID: -1276573459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_23
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 124
+        width: 35
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0647556447cc5439a8e21dff00f150fc
+      internalID: -113995850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_24
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 124
+        width: 49
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae531e9792fa4be09c2c9b1ea094868
+      internalID: 1006048814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 125
+        width: 41
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72591fe278443413bb99b41bf491395a
+      internalID: 494873540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_26
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 124
+        width: 77
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89223cd1e28084d359f5630028c5a8f8
+      internalID: 1248852877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_27
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 124
+        width: 86
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efa30c18c5e2484194302c955180501
+      internalID: -50118593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_28
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 133
+        width: 32
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e2cb814e00b46739e2da380c37bf5b
+      internalID: -12477083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_29
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 147
+        width: 21
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98821121bb91d457698a543c8844e3a2
+      internalID: -1823610904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_30
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 124
+        width: 69
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1688e502cab6a4c25a873bd7c3233025
+      internalID: 262367732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: broly-time-breaker_31
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 133
+        width: 23
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0171ca752f6e24a8fa98379a0d8eb956
+      internalID: -874290111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ad1bd0b2ae3e8497693a511548a2965f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      broly-time-breaker_0: 805685800
+      broly-time-breaker_1: -1191500001
+      broly-time-breaker_10: -1676258156
+      broly-time-breaker_11: 1527327587
+      broly-time-breaker_12: -864345787
+      broly-time-breaker_13: 1326447562
+      broly-time-breaker_14: -595581690
+      broly-time-breaker_15: 1206668458
+      broly-time-breaker_16: 2104274285
+      broly-time-breaker_17: 608298849
+      broly-time-breaker_18: 773518229
+      broly-time-breaker_19: -238168924
+      broly-time-breaker_2: -1571971129
+      broly-time-breaker_20: -781741619
+      broly-time-breaker_21: 1533216039
+      broly-time-breaker_22: -1276573459
+      broly-time-breaker_23: -113995850
+      broly-time-breaker_24: 1006048814
+      broly-time-breaker_25: 494873540
+      broly-time-breaker_26: 1248852877
+      broly-time-breaker_27: -50118593
+      broly-time-breaker_28: -12477083
+      broly-time-breaker_29: -1823610904
+      broly-time-breaker_3: -1059942598
+      broly-time-breaker_30: 262367732
+      broly-time-breaker_31: -874290111
+      broly-time-breaker_4: 104226902
+      broly-time-breaker_5: 1549138688
+      broly-time-breaker_6: 466769046
+      broly-time-breaker_7: 1496841915
+      broly-time-breaker_8: 1295037404
+      broly-time-breaker_9: -1541818420
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

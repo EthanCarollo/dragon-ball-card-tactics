@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe206b63a12884410b001ddff079c3c8, type: 3}
-  m_Name: Trunks (Mirai)
+  m_Name: Trunks (Mirai) Card
   m_EditorClassIdentifier: 
   manaCost: 2
   rarity: 1

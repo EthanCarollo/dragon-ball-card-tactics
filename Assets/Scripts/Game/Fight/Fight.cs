@@ -12,5 +12,6 @@ public enum FightDifficulty
 {
         Easy,
         Medium,
-        Hard
+        Hard,
+        Hardcore
 }

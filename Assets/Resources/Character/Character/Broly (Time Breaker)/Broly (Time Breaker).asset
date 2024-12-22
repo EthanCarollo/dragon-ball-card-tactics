@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Broly (Time Breaker)
+  m_EditorClassIdentifier: 
+  id: 20
+  starNumber: 1
+  characterName: Broly (Time Breaker)
+  role: 0
+  characterType: 1
+  characterSprite: {fileID: -1541818420, guid: 7a2068cd1bbfd4eb4a1237da60c9b27e, type: 3}
+  characterIcon: {fileID: 21300000, guid: 9d38d8e8fca5947448507d55017105d0, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 690
+  maxKi: 250
+  baseRange: 1
+  baseDamage: 180
+  baseArmor: 120
+  baseSpeed: 9
+  baseAttackSpeed: 1
+  baseCriticalChance: 50
+  idleAnimation: {fileID: 11400000, guid: 91d32043631e345f886e5ebcafac6421, type: 2}
+  runAnimation: {fileID: 11400000, guid: 1c596267eed634404a7bbe72c6e30cb8, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 8bfbc78bea9694776958fab564a09fb3, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 4e982b6889ce84866b820dffa48f3e34, type: 2}
+  specialAttackAnimation:
+  - name: Special
+    description: Attack multiple enemies
+    animation: {fileID: 11400000, guid: b95de02ba6c3f4639bd2cc1c254d7702, type: 2}
+  deadAnimation: {fileID: 0}
+  synergies:
+  - {fileID: 11400000, guid: fb45fe0120531415a900315cc099c60a, type: 2}
