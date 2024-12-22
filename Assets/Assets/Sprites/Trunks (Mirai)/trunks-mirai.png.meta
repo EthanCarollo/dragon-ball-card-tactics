@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: cb124f0c163b14563bb2c9fc2cd6672e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4689289767273007762
+    second: trunks-mirai_0
+  - first:
+      213: 20950633637021600
+    second: trunks-mirai_1
+  - first:
+      213: -6781581735023743320
+    second: trunks-mirai_2
+  - first:
+      213: -7967861264710395412
+    second: trunks-mirai_3
+  - first:
+      213: -3108005270736379239
+    second: trunks-mirai_4
+  - first:
+      213: 963470660847886018
+    second: trunks-mirai_5
+  - first:
+      213: -5191752009444208967
+    second: trunks-mirai_6
+  - first:
+      213: -2802261459788220514
+    second: trunks-mirai_7
+  - first:
+      213: 3150353807993384955
+    second: trunks-mirai_8
+  - first:
+      213: -2157780110177322356
+    second: trunks-mirai_9
+  - first:
+      213: -5543534327141492083
+    second: trunks-mirai_10
+  - first:
+      213: -3706422652486171123
+    second: trunks-mirai_11
+  - first:
+      213: -6298636489907222060
+    second: trunks-mirai_12
+  - first:
+      213: 3497596377348179612
+    second: trunks-mirai_13
+  - first:
+      213: 1172918296382379044
+    second: trunks-mirai_14
+  - first:
+      213: -4378221609756292320
+    second: trunks-mirai_15
+  - first:
+      213: -2032212550929944627
+    second: trunks-mirai_16
+  - first:
+      213: 230441724971378247
+    second: trunks-mirai_17
+  - first:
+      213: 5882367293980842263
+    second: trunks-mirai_18
+  - first:
+      213: 524310338386105415
+    second: trunks-mirai_19
+  - first:
+      213: -3955674139964077329
+    second: trunks-mirai_20
+  - first:
+      213: 5216466689231483581
+    second: trunks-mirai_21
+  - first:
+      213: -3360344640596500322
+    second: trunks-mirai_22
+  - first:
+      213: 4475526938613270999
+    second: trunks-mirai_23
+  - first:
+      213: 2207687075310946384
+    second: trunks-mirai_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: trunks-mirai_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 452
+        width: 26
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.020408163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6571d43dcb4ceeb0800000000000000
+      internalID: -4689289767273007762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 452
+        width: 26
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.020408163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a701c38d7e6a4000800000000000000
+      internalID: 20950633637021600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 455
+        width: 47
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5106383, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aee1a4a75bf2e1a0800000000000000
+      internalID: -6781581735023743320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 459
+        width: 53
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9975135687c6190800000000000000
+      internalID: -7967861264710395412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 476
+        width: 49
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99267b55ca52ed4d0800000000000000
+      internalID: -3108005270736379239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_5
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 463
+        width: 53
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce595b167fee5d00800000000000000
+      internalID: 963470660847886018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 390
+        width: 35
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be4823fd0133f7b0800000000000000
+      internalID: -5191752009444208967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_7
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 390
+        width: 47
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e973e81ac0e5c19d0800000000000000
+      internalID: -2802261459788220514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_8
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 390
+        width: 45
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffae3ad81e48bb20800000000000000
+      internalID: 3150353807993384955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 394
+        width: 41
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a3a751c660e02e0800000000000000
+      internalID: -2157780110177322356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_10
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 394
+        width: 41
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a1c8e76e86113b0800000000000000
+      internalID: -5543534327141492083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_11
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 303
+        width: 30
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06c91b2c34209cc0800000000000000
+      internalID: -3706422652486171123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_12
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 357
+        width: 32
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d944c9eb7fb698a0800000000000000
+      internalID: -6298636489907222060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_13
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 283
+        width: 74
+        height: 87
+      alignment: 9
+      pivot: {x: 0.44594595, y: 0.21839081}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c960887cf55f98030800000000000000
+      internalID: 3497596377348179612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_14
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 300
+        width: 32
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4249d66e9fa074010800000000000000
+      internalID: 1172918296382379044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_15
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 404
+        width: 71
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b898a84ae6d33c0800000000000000
+      internalID: -4378221609756292320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_16
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 302
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfeab9b3712cc3e0800000000000000
+      internalID: -2032212550929944627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_17
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 302
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746e8562781b23300800000000000000
+      internalID: 230441724971378247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_18
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 220
+        width: 24
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7199a1443ed52a150800000000000000
+      internalID: 5882367293980842263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 220
+        width: 28
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744919f8979b64700800000000000000
+      internalID: 524310338386105415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 220
+        width: 24
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea0e38e35f9a19c0800000000000000
+      internalID: -3955674139964077329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 220
+        width: 24
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2fc4ad0dc946840800000000000000
+      internalID: 5216466689231483581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_22
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 220
+        width: 25
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90ab5e6a58ad51d0800000000000000
+      internalID: -3360344640596500322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 220
+        width: 24
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d94cbec9044c1e30800000000000000
+      internalID: 4475526938613270999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-mirai_24
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 220
+        width: 29
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058412bb2b743ae10800000000000000
+      internalID: 2207687075310946384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 636e87b9e882e4997a2b0ee81e4790a0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      trunks-mirai_0: -4689289767273007762
+      trunks-mirai_1: 20950633637021600
+      trunks-mirai_10: -5543534327141492083
+      trunks-mirai_11: -3706422652486171123
+      trunks-mirai_12: -6298636489907222060
+      trunks-mirai_13: 3497596377348179612
+      trunks-mirai_14: 1172918296382379044
+      trunks-mirai_15: -4378221609756292320
+      trunks-mirai_16: -2032212550929944627
+      trunks-mirai_17: 230441724971378247
+      trunks-mirai_18: 5882367293980842263
+      trunks-mirai_19: 524310338386105415
+      trunks-mirai_2: -6781581735023743320
+      trunks-mirai_20: -3955674139964077329
+      trunks-mirai_21: 5216466689231483581
+      trunks-mirai_22: -3360344640596500322
+      trunks-mirai_23: 4475526938613270999
+      trunks-mirai_24: 2207687075310946384
+      trunks-mirai_3: -7967861264710395412
+      trunks-mirai_4: -3108005270736379239
+      trunks-mirai_5: 963470660847886018
+      trunks-mirai_6: -5191752009444208967
+      trunks-mirai_7: -2802261459788220514
+      trunks-mirai_8: 3150353807993384955
+      trunks-mirai_9: -2157780110177322356
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

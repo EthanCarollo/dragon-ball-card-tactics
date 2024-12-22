@@ -39,6 +39,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4d68e92c431a545da9c3e824c92aa73a, type: 2}
   - {fileID: 11400000, guid: c0ff74e51e61f47b997d885a0865c0af, type: 2}
   - {fileID: 11400000, guid: 028ac6856d5784cd2af2540a788b4bef, type: 2}
+  - {fileID: 11400000, guid: 93db20c66251d4cc6ae178d290692206, type: 2}
+  - {fileID: 11400000, guid: f31fc2823f696489eb7f803fd1b3d060, type: 2}
   playerCards:
   - {fileID: 11400000, guid: 8b8c9e0cff4dd1748a64ab677ab3d0d4, type: 2}
   - {fileID: 11400000, guid: 744d62729cbacc34983c4012db504091, type: 2}

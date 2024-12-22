@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe206b63a12884410b001ddff079c3c8, type: 3}
-  m_Name: Gohan (Mirai) Card
+  m_Name: Trunks (Mirai)
   m_EditorClassIdentifier: 
-  manaCost: 4
-  rarity: 3
-  name: Gohan Mirai
-  image: {fileID: 21300000, guid: 5836a5f9cf38f45c68b1f07722191e1c, type: 3}
-  character: {fileID: 11400000, guid: 223c5fe9937854c36a6a7cc83d64c75a, type: 2}
+  manaCost: 2
+  rarity: 1
+  name: Trunks (Mirai)
+  image: {fileID: 21300000, guid: 4f70d7c6f72d1450ca1654808e3bf7ea, type: 3}
+  character: {fileID: 11400000, guid: 83f366e906fb4404fa1ccc1fee84a556, type: 2}
