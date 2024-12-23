@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Broly Time Breaking Fight
   m_EditorClassIdentifier: 
   opponents:
-  - characterData: {fileID: 11400000, guid: f52be191ad26f4147908221ef8b28a59, type: 2}
+  - characterData: {fileID: 11400000, guid: 544269211330a4d13b32be4f53b2bc56, type: 2}
     position: {x: 8, y: 5}
-  difficulty: 2
+  difficulty: 3
