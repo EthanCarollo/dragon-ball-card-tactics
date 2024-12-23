@@ -20,7 +20,7 @@ MonoBehaviour:
   - sprite: {fileID: 551390423661774098, guid: ccfad66bd7d544ee381d4eaff6a2b9c8, type: 3}
     time: 0.3
   flySprite:
-    sprite: {fileID: -1365801194867442402, guid: ccfad66bd7d544ee381d4eaff6a2b9c8, type: 3}
+    sprite: {fileID: -2705626356510561533, guid: ccfad66bd7d544ee381d4eaff6a2b9c8, type: 3}
     time: 0
   attackFrameIndex: 0
   projectile: {fileID: 3344926285529535436, guid: ccfad66bd7d544ee381d4eaff6a2b9c8, type: 3}
