@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Android 17
+  m_EditorClassIdentifier: 
+  id: 45
+  starNumber: 1
+  characterName: Android 17
+  role: 0
+  characterType: 2
+  characterSprite: {fileID: 7181375262653415248, guid: ccf548b6aeea947b38d198cd00b74ad2, type: 3}
+  characterIcon: {fileID: 21300000, guid: f0bbd4e5437434406a346eb699c933b1, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 235
+  maxKi: 55
+  baseRange: 1
+  baseDamage: 40
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 0.7
+  baseCriticalChance: 24
+  idleAnimation: {fileID: 11400000, guid: 84ee2e9cdcf9a41cd89676d9dddbe48d, type: 2}
+  runAnimation: {fileID: 11400000, guid: 18246108317ff4a6d91fc0d62eb164de, type: 2}
+  attackAnimation: {fileID: 11400000, guid: d97985b32d3c14511bcefc72dd9dd761, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 1912ee6a4ab534c49b8bc944c391c505, type: 2}
+  specialAttackAnimation:
+  - name: Multiple attacks
+    description: Launch multiple attacks on multiple enemies
+    animation: {fileID: 11400000, guid: 0f58fba8b2b9c484e8a85069c0529a74, type: 2}
+  deadAnimation: {fileID: 0}
+  synergies:
+  - {fileID: 11400000, guid: 2cb9ba8a614734a358c15cedc22a075f, type: 2}

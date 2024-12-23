@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55017e58dbbc4db1901c7554f19dc6a0, type: 3}
+  m_Name: Transform Super Android 17 Power
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: 4374414499758345815, guid: 9b11711965c8345c4b80c435a411b09d, type: 3}
+    time: 0.15
+  - sprite: {fileID: -1489797438042453181, guid: 9b11711965c8345c4b80c435a411b09d, type: 3}
+    time: 0.15
+  - sprite: {fileID: -3088504050476892008, guid: 9b11711965c8345c4b80c435a411b09d, type: 3}
+    time: 0.15
+  - sprite: {fileID: -8922330580394674605, guid: 9b11711965c8345c4b80c435a411b09d, type: 3}
+    time: 0.15
+  - sprite: {fileID: 1721678663307019102, guid: 9b11711965c8345c4b80c435a411b09d, type: 3}
+    time: 0.2
+  - sprite: {fileID: 3533771989942844660, guid: 9b11711965c8345c4b80c435a411b09d, type: 3}
+    time: 0.2
+  - sprite: {fileID: 3047080448085861623, guid: 9b11711965c8345c4b80c435a411b09d, type: 3}
+    time: 0.2
+  - sprite: {fileID: -3931940412472979173, guid: 9b11711965c8345c4b80c435a411b09d, type: 3}
+    time: 0.2
+  - sprite: {fileID: -6192831087525493116, guid: 9b11711965c8345c4b80c435a411b09d, type: 3}
+    time: 0.2
+  - sprite: {fileID: -2684473471150777153, guid: 9b11711965c8345c4b80c435a411b09d, type: 3}
+    time: 0.2
+  - sprite: {fileID: 5648985964105809920, guid: 9b11711965c8345c4b80c435a411b09d, type: 3}
+    time: 0.2
+  - sprite: {fileID: -6170033740520085522, guid: 9b11711965c8345c4b80c435a411b09d, type: 3}
+    time: 0.2
+  - sprite: {fileID: 2509776113749386578, guid: 9b11711965c8345c4b80c435a411b09d, type: 3}
+    time: 0.2
+  newCharacterData: {fileID: 11400000, guid: 14f47eba3ee9442329bfa41eab7d9c91, type: 2}
