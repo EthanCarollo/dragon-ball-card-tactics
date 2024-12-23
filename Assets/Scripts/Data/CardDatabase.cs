@@ -1,5 +1,6 @@
 using System.Linq;
 using UnityEngine;
+using UnityEditor;
 
 [CreateAssetMenu(fileName = "CardDatabase", menuName = "Card/CardDatabase")]
 public class CardDatabase : ScriptableObject
@@ -40,5 +41,24 @@ public class CardDatabase : ScriptableObject
         // Get a random card from the filtered collection
         return filteredCards[Random.Range(0, filteredCards.Length)];
     }
-        
+
+
+#if UNITY_EDITOR
+    [ContextMenu("Refresh Card List")]
+    public void RefreshCards()
+    {
+        string[] guids = AssetDatabase.FindAssets("t:Card");
+        cards = new Card[guids.Length];
+
+        for (int i = 0; i < guids.Length; i++)
+        {
+            string path = AssetDatabase.GUIDToAssetPath(guids[i]);
+            cards[i] = AssetDatabase.LoadAssetAtPath<Card>(path);
+        }
+
+        EditorUtility.SetDirty(this);
+        Debug.Log("Card list refreshed!");
+    }
+#endif
+
 }

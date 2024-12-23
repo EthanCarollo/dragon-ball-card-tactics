@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEditor;
 using UnityEngine.TextCore.Text;
 
 [CreateAssetMenu(fileName = "NewCharacterDatabase", menuName = "Character/CharacterDatabase")]
@@ -51,4 +52,22 @@ public class CharacterDatabase : ScriptableObject
         Debug.LogWarning($"Character with ID {id} not found.");
         return null; 
     }
+
+#if UNITY_EDITOR
+    [ContextMenu("Refresh Character List")]
+    public void RefreshCharacterList()
+    {
+        string[] guids = AssetDatabase.FindAssets("t:CharacterData");
+        characterDatas = new CharacterData[guids.Length];
+
+        for (int i = 0; i < guids.Length; i++)
+        {
+            string path = AssetDatabase.GUIDToAssetPath(guids[i]);
+            characterDatas[i] = AssetDatabase.LoadAssetAtPath<CharacterData>(path);
+        }
+
+        EditorUtility.SetDirty(this);
+        Debug.Log("Character list refreshed!");
+    }
+#endif
 }

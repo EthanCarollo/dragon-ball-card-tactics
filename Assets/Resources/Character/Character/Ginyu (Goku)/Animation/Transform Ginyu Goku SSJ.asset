@@ -13,26 +13,26 @@ MonoBehaviour:
   m_Name: Transform Ginyu Goku SSJ
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: 8699895521441204425, guid: 4e2f07d1ce5504ad18f2e8ab145d9b64, type: 3}
+  - sprite: {fileID: 7505556720471164753, guid: 8385bc291aba9495ab409a691053bc1e, type: 3}
     time: 0.3
-  - sprite: {fileID: -5216998736183208541, guid: 4e2f07d1ce5504ad18f2e8ab145d9b64, type: 3}
+  - sprite: {fileID: 5689648480213659561, guid: 8385bc291aba9495ab409a691053bc1e, type: 3}
     time: 0.2
-  - sprite: {fileID: 4335133358239818682, guid: 4e2f07d1ce5504ad18f2e8ab145d9b64, type: 3}
+  - sprite: {fileID: -1083499219604729205, guid: 8385bc291aba9495ab409a691053bc1e, type: 3}
     time: 0.2
-  - sprite: {fileID: 369678871676664744, guid: 4e2f07d1ce5504ad18f2e8ab145d9b64, type: 3}
+  - sprite: {fileID: 5714479591588442726, guid: 8385bc291aba9495ab409a691053bc1e, type: 3}
     time: 0.2
-  - sprite: {fileID: -7334271122660526704, guid: 4e2f07d1ce5504ad18f2e8ab145d9b64, type: 3}
+  - sprite: {fileID: 5013218040647604744, guid: 8385bc291aba9495ab409a691053bc1e, type: 3}
     time: 0.2
-  - sprite: {fileID: -7756545027496806890, guid: 4e2f07d1ce5504ad18f2e8ab145d9b64, type: 3}
+  - sprite: {fileID: 4958814993388438680, guid: 8385bc291aba9495ab409a691053bc1e, type: 3}
     time: 0.2
-  - sprite: {fileID: 5440512836195541690, guid: 4e2f07d1ce5504ad18f2e8ab145d9b64, type: 3}
+  - sprite: {fileID: -2506976367196287427, guid: 8385bc291aba9495ab409a691053bc1e, type: 3}
     time: 0.2
-  - sprite: {fileID: -4413615253203921389, guid: 4e2f07d1ce5504ad18f2e8ab145d9b64, type: 3}
+  - sprite: {fileID: -6340172709638941275, guid: 8385bc291aba9495ab409a691053bc1e, type: 3}
     time: 0.2
-  - sprite: {fileID: 6529201606249525628, guid: 4e2f07d1ce5504ad18f2e8ab145d9b64, type: 3}
+  - sprite: {fileID: -617503706075182131, guid: 8385bc291aba9495ab409a691053bc1e, type: 3}
     time: 0.2
-  - sprite: {fileID: 6529201606249525628, guid: 4e2f07d1ce5504ad18f2e8ab145d9b64, type: 3}
-    time: 0.6
-  - sprite: {fileID: 4571868038176246061, guid: 4e2f07d1ce5504ad18f2e8ab145d9b64, type: 3}
-    time: 0.6
-  newCharacterData: {fileID: 11400000, guid: 41b76d184a8a14023806cbbe64e6a85b, type: 2}
+  - sprite: {fileID: -2456277900863022774, guid: 8385bc291aba9495ab409a691053bc1e, type: 3}
+    time: 0.3
+  - sprite: {fileID: -5614904418186757211, guid: 8385bc291aba9495ab409a691053bc1e, type: 3}
+    time: 0.3
+  newCharacterData: {fileID: 11400000, guid: b00ad6bcfd65940628097d8b93880ad7, type: 2}

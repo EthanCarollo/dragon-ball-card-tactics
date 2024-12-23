@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Linq;
+using UnityEditor;
 
 [CreateAssetMenu(fileName = "FightDatabase", menuName = "Fight/FightDatabase")]
 public class FightDatabase : ScriptableObject
@@ -36,5 +37,23 @@ public class FightDatabase : ScriptableObject
             return _instance;
         }
     }
+
+#if UNITY_EDITOR
+    [ContextMenu("Refresh Fight List")]
+    public void RefreshFights()
+    {
+        string[] guids = AssetDatabase.FindAssets("t:Fight");
+        fights = new Fight[guids.Length];
+
+        for (int i = 0; i < guids.Length; i++)
+        {
+            string path = AssetDatabase.GUIDToAssetPath(guids[i]);
+            fights[i] = AssetDatabase.LoadAssetAtPath<Fight>(path);
+        }
+
+        EditorUtility.SetDirty(this); // Mark the database as dirty to save changes
+        Debug.Log("Fight list refreshed!");
+    }
+#endif
         
 }
