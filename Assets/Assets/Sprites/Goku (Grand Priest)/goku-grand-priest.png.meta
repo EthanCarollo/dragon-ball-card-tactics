@@ -1,0 +1,1151 @@
+fileFormatVersion: 2
+guid: 5c01390b65ded47b6986f226fba8de24
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4596623137041338643
+    second: goku-grand-priest_0
+  - first:
+      213: -2584493894657032046
+    second: goku-grand-priest_1
+  - first:
+      213: 15478687074891523
+    second: goku-grand-priest_2
+  - first:
+      213: -1204353733399743779
+    second: goku-grand-priest_3
+  - first:
+      213: 3498563640398832708
+    second: goku-grand-priest_4
+  - first:
+      213: -2481235708202597492
+    second: goku-grand-priest_5
+  - first:
+      213: -7305823622666377657
+    second: goku-grand-priest_6
+  - first:
+      213: -905058203019705576
+    second: goku-grand-priest_7
+  - first:
+      213: -7433089322712807142
+    second: goku-grand-priest_8
+  - first:
+      213: 8718732221237827030
+    second: goku-grand-priest_9
+  - first:
+      213: -5771142554684032467
+    second: goku-grand-priest_10
+  - first:
+      213: -1517466281407432252
+    second: goku-grand-priest_11
+  - first:
+      213: -5108689400511385749
+    second: goku-grand-priest_12
+  - first:
+      213: 7628292511824525195
+    second: goku-grand-priest_13
+  - first:
+      213: -4899821096304657501
+    second: goku-grand-priest_14
+  - first:
+      213: 4107491569336522100
+    second: goku-grand-priest_15
+  - first:
+      213: -6883533416312295693
+    second: goku-grand-priest_16
+  - first:
+      213: -3994116106648202263
+    second: goku-grand-priest_17
+  - first:
+      213: 1535939371103421686
+    second: goku-grand-priest_18
+  - first:
+      213: 6271530339012876124
+    second: goku-grand-priest_19
+  - first:
+      213: 2015922380070037999
+    second: goku-grand-priest_20
+  - first:
+      213: 8029931662863787507
+    second: goku-grand-priest_21
+  - first:
+      213: -2909084574542370735
+    second: goku-grand-priest_22
+  - first:
+      213: 8189584711711142621
+    second: goku-grand-priest_23
+  - first:
+      213: -4902704480650630831
+    second: goku-grand-priest_24
+  - first:
+      213: -2004985424286247753
+    second: goku-grand-priest_25
+  - first:
+      213: -830459891149993534
+    second: goku-grand-priest_26
+  - first:
+      213: 445347422519361523
+    second: goku-grand-priest_27
+  - first:
+      213: 3885212108198739484
+    second: goku-grand-priest_28
+  - first:
+      213: -6035292509283367637
+    second: goku-grand-priest_29
+  - first:
+      213: 3075508851347230158
+    second: goku-grand-priest_30
+  - first:
+      213: -7004195961114176910
+    second: goku-grand-priest_31
+  - first:
+      213: -2398895079027155308
+    second: goku-grand-priest_32
+  - first:
+      213: -3406567884068107216
+    second: goku-grand-priest_33
+  - first:
+      213: -8375537041946203617
+    second: goku-grand-priest_34
+  - first:
+      213: -1265033333566032724
+    second: goku-grand-priest_35
+  - first:
+      213: 6879326902895193573
+    second: goku-grand-priest_36
+  - first:
+      213: -1071259086046843434
+    second: goku-grand-priest_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: goku-grand-priest_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 613
+        width: 33
+        height: 56
+      alignment: 9
+      pivot: {x: 0.4848485, y: 0.017857144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee2f4e5c938530c0800000000000000
+      internalID: -4596623137041338643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 614
+        width: 31
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2904dccfe78022cd0800000000000000
+      internalID: -2584493894657032046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 613
+        width: 33
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4848485, y: 0.01923077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30730bca8cdf63000800000000000000
+      internalID: 15478687074891523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_3
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 602
+        width: 31
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2fac019a6494fe0800000000000000
+      internalID: -1204353733399743779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_4
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 602
+        width: 31
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444e11248156d8030800000000000000
+      internalID: 3498563640398832708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_5
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 606
+        width: 35
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83c1900541e09dd0800000000000000
+      internalID: -2481235708202597492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 605
+        width: 37
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74620538f108c9a90800000000000000
+      internalID: -7305823622666377657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_7
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 606
+        width: 46
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81305fb0c569073f0800000000000000
+      internalID: -905058203019705576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 558
+        width: 48
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1944f7a4ac58d890800000000000000
+      internalID: -7433089322712807142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 564
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d512aae2c82ff870800000000000000
+      internalID: 8718732221237827030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_10
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 567
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2afaef5c68c8efa0800000000000000
+      internalID: -5771142554684032467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_11
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 532
+        width: 45
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9b31af470e0fae0800000000000000
+      internalID: -1517466281407432252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_12
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 532
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f27b6ae0a4a19b0800000000000000
+      internalID: -5108689400511385749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 449
+        width: 48
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87b2128f932dd960800000000000000
+      internalID: 7628292511824525195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 450
+        width: 40
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abbbcb5ca6500cb0800000000000000
+      internalID: -4899821096304657501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_15
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 451
+        width: 41
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4751734e1ddb00930800000000000000
+      internalID: 4107491569336522100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_16
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 453
+        width: 23
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3feac2114d6c870a0800000000000000
+      internalID: -6883533416312295693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_17
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 475
+        width: 19
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3519f009c0298c0800000000000000
+      internalID: -3994116106648202263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_18
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 442
+        width: 19
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4082368b0c05510800000000000000
+      internalID: 1535939371103421686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 363
+        width: 36
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5792f68d93f80750800000000000000
+      internalID: 6271530339012876124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_20
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 364
+        width: 32
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9a5de49bef9fb10800000000000000
+      internalID: 2015922380070037999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_21
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 364
+        width: 32
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f568af8d4c007f60800000000000000
+      internalID: 8029931662863787507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_22
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 364
+        width: 32
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15865d01efad0a7d0800000000000000
+      internalID: -2909084574542370735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_23
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 363
+        width: 42
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2338fa7ef37a170800000000000000
+      internalID: 8189584711711142621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_24
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 364
+        width: 32
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1596a10204816fbb0800000000000000
+      internalID: -4902704480650630831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_25
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 360
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b41595216cdc24e0800000000000000
+      internalID: -2004985424286247753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_26
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 360
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c98bc3012d9974f0800000000000000
+      internalID: -830459891149993534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_27
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 359
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fff6e80f113e2600800000000000000
+      internalID: 445347422519361523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_28
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 414
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e7b32e3db0be530800000000000000
+      internalID: 3885212108198739484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_29
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 358
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25c69c60755e3ca0800000000000000
+      internalID: -6035292509283367637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_30
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 359
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd0f1c61076eaa20800000000000000
+      internalID: 3075508851347230158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_31
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 358
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272509812e81cce90800000000000000
+      internalID: -7004195961114176910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_32
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 357
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e5721b2a965bed0800000000000000
+      internalID: -2398895079027155308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_33
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 412
+        width: 13
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ccdd6ee8079b0d0800000000000000
+      internalID: -3406567884068107216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_34
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 359
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1aaba39f6d14cb80800000000000000
+      internalID: -8375537041946203617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_35
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 397
+        width: 11
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4b4c3b2e2b17ee0800000000000000
+      internalID: -1265033333566032724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_36
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 362
+        width: 22
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed2bd4be57487f50800000000000000
+      internalID: 6879326902895193573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_37
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 376
+        width: 16
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dda4c9798f1221f0800000000000000
+      internalID: -1071259086046843434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_38
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 601
+        width: 29
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571f7c15b4ecc403682a347a4ad50f27
+      internalID: -1854827712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-grand-priest_39
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 448
+        width: 31
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60271c739ff324f0181147e111fb4893
+      internalID: -496795693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4665745ea3280421a914a563cea38dd7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      goku-grand-priest_0: -4596623137041338643
+      goku-grand-priest_1: -2584493894657032046
+      goku-grand-priest_10: -5771142554684032467
+      goku-grand-priest_11: -1517466281407432252
+      goku-grand-priest_12: -5108689400511385749
+      goku-grand-priest_13: 7628292511824525195
+      goku-grand-priest_14: -4899821096304657501
+      goku-grand-priest_15: 4107491569336522100
+      goku-grand-priest_16: -6883533416312295693
+      goku-grand-priest_17: -3994116106648202263
+      goku-grand-priest_18: 1535939371103421686
+      goku-grand-priest_19: 6271530339012876124
+      goku-grand-priest_2: 15478687074891523
+      goku-grand-priest_20: 2015922380070037999
+      goku-grand-priest_21: 8029931662863787507
+      goku-grand-priest_22: -2909084574542370735
+      goku-grand-priest_23: 8189584711711142621
+      goku-grand-priest_24: -4902704480650630831
+      goku-grand-priest_25: -2004985424286247753
+      goku-grand-priest_26: -830459891149993534
+      goku-grand-priest_27: 445347422519361523
+      goku-grand-priest_28: 3885212108198739484
+      goku-grand-priest_29: -6035292509283367637
+      goku-grand-priest_3: -1204353733399743779
+      goku-grand-priest_30: 3075508851347230158
+      goku-grand-priest_31: -7004195961114176910
+      goku-grand-priest_32: -2398895079027155308
+      goku-grand-priest_33: -3406567884068107216
+      goku-grand-priest_34: -8375537041946203617
+      goku-grand-priest_35: -1265033333566032724
+      goku-grand-priest_36: 6879326902895193573
+      goku-grand-priest_37: -1071259086046843434
+      goku-grand-priest_38: -1854827712
+      goku-grand-priest_39: -496795693
+      goku-grand-priest_4: 3498563640398832708
+      goku-grand-priest_5: -2481235708202597492
+      goku-grand-priest_6: -7305823622666377657
+      goku-grand-priest_7: -905058203019705576
+      goku-grand-priest_8: -7433089322712807142
+      goku-grand-priest_9: 8718732221237827030
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

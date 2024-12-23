@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 53bfefa561a5c490cbc7b464bdfdad3a, type: 3}
-  m_Name: Attack
+  m_Name: Critical
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: -2641530733081485858, guid: 9b11711965c8345c4b80c435a411b09d, type: 3}
+  - sprite: {fileID: -1517466281407432252, guid: 5c01390b65ded47b6986f226fba8de24, type: 3}
     time: 0.2
-  - sprite: {fileID: -2641530733081485858, guid: 9b11711965c8345c4b80c435a411b09d, type: 3}
+  - sprite: {fileID: -5108689400511385749, guid: 5c01390b65ded47b6986f226fba8de24, type: 3}
     time: 0.2
-  attackFrameIndex: 0
+  attackFrameIndex: 1
   attackType: 0
   particleAttack: {fileID: 0}
   kiOnAttack: 10

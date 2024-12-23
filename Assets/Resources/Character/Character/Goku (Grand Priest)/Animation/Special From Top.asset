@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30a6e375b1c34884a52adfdff605e410, type: 3}
+  m_Name: Special From Top
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: 2015922380070037999, guid: 5c01390b65ded47b6986f226fba8de24, type: 3}
+    time: 0.2
+  - sprite: {fileID: 8029931662863787507, guid: 5c01390b65ded47b6986f226fba8de24, type: 3}
+    time: 0.2
+  - sprite: {fileID: -2909084574542370735, guid: 5c01390b65ded47b6986f226fba8de24, type: 3}
+    time: 0.2
+  - sprite: {fileID: 8189584711711142621, guid: 5c01390b65ded47b6986f226fba8de24, type: 3}
+    time: 0.2
+  - sprite: {fileID: -4902704480650630831, guid: 5c01390b65ded47b6986f226fba8de24, type: 3}
+    time: 0.6
+  flySprite:
+    sprite: {fileID: -2004985424286247753, guid: 5c01390b65ded47b6986f226fba8de24, type: 3}
+    time: 0
+  attackFrameIndex: 3
+  projectile: {fileID: 0}
+  particleAttack: {fileID: 0}
+  attackType: 0
+  startMargin: {x: 0, y: 0}
