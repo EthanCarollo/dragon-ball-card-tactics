@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Ginyu (Goku)
+  m_EditorClassIdentifier: 
+  id: 17
+  starNumber: 1
+  characterName: Ginyu (Goku)
+  role: 0
+  characterType: 2
+  characterSprite: {fileID: -4000601898736066957, guid: 678191182e4cfe3428d050e0318e2244, type: 3}
+  characterIcon: {fileID: 21300000, guid: 46f03910a9930ff4c91141e51cf9625d, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 210
+  maxKi: 105
+  baseRange: 1
+  baseDamage: 25
+  baseArmor: 65
+  baseSpeed: 2
+  baseAttackSpeed: 0.35
+  baseCriticalChance: 5
+  idleAnimation: {fileID: 11400000, guid: a34ea5b9a5d454c269e01ad5a3ddd1ab, type: 2}
+  runAnimation: {fileID: 11400000, guid: 1e09a59dbaa944709a51d2579cbaf740, type: 2}
+  attackAnimation: {fileID: 11400000, guid: dd7f05ed3f23f41eab10413393dd0bf5, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 2e1044458ccee44f5bc49d26a8096b4d, type: 2}
+  specialAttackAnimation:
+  - name: Ki Blast
+    description: Blast of ki.
+    animation: {fileID: 11400000, guid: 425bd18e4120f430b8a6c473a7eac480, type: 2}
+  deadAnimation: {fileID: 0}
+  synergies: []

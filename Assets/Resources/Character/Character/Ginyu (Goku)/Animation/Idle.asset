@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 875982c274ea44468cc86a0e0fb5ab10, type: 3}
-  m_Name: Goku Grand Priest
+  m_Script: {fileID: 11500000, guid: 03b16787bc87f453d9d2b4fb52cd1a0f, type: 3}
+  m_Name: Idle
   m_EditorClassIdentifier: 
-  opponents:
-  - characterData: {fileID: 11400000, guid: ea87d9d8f9f804364bbf6bccf0f7596c, type: 2}
-    position: {x: 8, y: 5}
-  difficulty: 3
+  frameSprites:
+  - sprite: {fileID: -7007155244133494624, guid: da9d832cd3dc14663b702a8528b870d4, type: 3}
+    time: 0.2
