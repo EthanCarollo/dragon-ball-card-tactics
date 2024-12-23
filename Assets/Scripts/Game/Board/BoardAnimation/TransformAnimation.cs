@@ -26,6 +26,7 @@ public class TransformAnimation : BoardAnimation {
         character.isAnimating = true;
         yield return PlayAnimationCoroutineTransform(character);
         character.SetupCharacter(newCharacterData);
+        character.Heal(character.character.GetCharacterMaxHealth());
         character.isAnimating = false;
         
         CameraScript.Instance.SetupNormalCamera();
