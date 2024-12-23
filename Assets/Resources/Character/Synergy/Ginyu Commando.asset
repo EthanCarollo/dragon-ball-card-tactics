@@ -12,20 +12,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3c6eb036ffd84111b40ffd02f9fe47e, type: 3}
   m_Name: Ginyu Commando
   m_EditorClassIdentifier: 
-  synergyName: Sayan Rage
-  synergyImage: {fileID: 21300000, guid: bf845ab3fb51a0f40bcc5d05c1eb3f56, type: 3}
+  synergyName: Ginyu Commando
+  synergyImage: {fileID: 21300000, guid: 46f03910a9930ff4c91141e51cf9625d, type: 3}
   Tiers:
   - RequiredUnits: 2
-    Description: Give 20 attack to all Sayan.
+    Description: Give 10 attack and 10 max HP to all Ginyu Commando.
     Bonuses:
-    - rid: 6739222654909153355
+    - rid: 6739222861892288590
+  - RequiredUnits: 4
+    Description: Give 40 attack to all Ginyu Commando.
+    Bonuses:
+    - rid: 6739222861892288589
   references:
     version: 2
     RefIds:
-    - rid: 6739222654909153355
+    - rid: 6739222861892288589
       type: {class: Bonus, ns: , asm: Assembly-CSharp}
       data:
-        attackBonus: 20
+        attackBonus: 40
         maxHpBonus: 0
         attackSpeedBonus: 0
         criticalChanceBonus: 0
+        effectsOnHit: []
+    - rid: 6739222861892288590
+      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 10
+        maxHpBonus: 10
+        attackSpeedBonus: 0
+        criticalChanceBonus: 0
+        effectsOnHit: []

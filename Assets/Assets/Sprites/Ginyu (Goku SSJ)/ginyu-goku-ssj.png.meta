@@ -1,0 +1,784 @@
+fileFormatVersion: 2
+guid: 8385bc291aba9495ab409a691053bc1e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7505556720471164753
+    second: ginyu-goku-ssj_0
+  - first:
+      213: 5689648480213659561
+    second: ginyu-goku-ssj_1
+  - first:
+      213: -1083499219604729205
+    second: ginyu-goku-ssj_2
+  - first:
+      213: 5714479591588442726
+    second: ginyu-goku-ssj_3
+  - first:
+      213: 5013218040647604744
+    second: ginyu-goku-ssj_4
+  - first:
+      213: 4958814993388438680
+    second: ginyu-goku-ssj_5
+  - first:
+      213: -2506976367196287427
+    second: ginyu-goku-ssj_6
+  - first:
+      213: -6340172709638941275
+    second: ginyu-goku-ssj_7
+  - first:
+      213: -617503706075182131
+    second: ginyu-goku-ssj_8
+  - first:
+      213: -2456277900863022774
+    second: ginyu-goku-ssj_9
+  - first:
+      213: -5614904418186757211
+    second: ginyu-goku-ssj_10
+  - first:
+      213: -1334671048284581269
+    second: ginyu-goku-ssj_11
+  - first:
+      213: 2664999006211254989
+    second: ginyu-goku-ssj_12
+  - first:
+      213: -8674957788759729821
+    second: ginyu-goku-ssj_13
+  - first:
+      213: -7668257675645242902
+    second: ginyu-goku-ssj_14
+  - first:
+      213: 2015026078796531379
+    second: ginyu-goku-ssj_15
+  - first:
+      213: 2848201849728363599
+    second: ginyu-goku-ssj_16
+  - first:
+      213: -5806879378080763805
+    second: ginyu-goku-ssj_17
+  - first:
+      213: 317419433722611888
+    second: ginyu-goku-ssj_18
+  - first:
+      213: 5594364772091811013
+    second: ginyu-goku-ssj_19
+  - first:
+      213: 8604415895426353331
+    second: ginyu-goku-ssj_20
+  - first:
+      213: 1627923851621342972
+    second: ginyu-goku-ssj_21
+  - first:
+      213: -3436587104489106166
+    second: ginyu-goku-ssj_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 590
+        width: 31
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157ca353218192860800000000000000
+      internalID: 7505556720471164753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 591
+        width: 30
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afe9ffc521b5fe40800000000000000
+      internalID: 5689648480213659561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 591
+        width: 27
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b821c0d4333a6f0f0800000000000000
+      internalID: -1083499219604729205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 591
+        width: 53
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66239d479e8ed4f40800000000000000
+      internalID: 5714479591588442726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 591
+        width: 49
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a516e2f37829540800000000000000
+      internalID: 5013218040647604744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 589
+        width: 44
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8948ccba6ff31d440800000000000000
+      internalID: 4958814993388438680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_6
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 590
+        width: 71
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e47fcc64e653dd0800000000000000
+      internalID: -2506976367196287427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_7
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 590
+        width: 71
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a55853238e2308a0800000000000000
+      internalID: -6340172709638941275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_8
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 590
+        width: 71
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbc6e7a6af2e67f0800000000000000
+      internalID: -617503706075182131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_9
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 590
+        width: 27
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49da69534c89edd0800000000000000
+      internalID: -2456277900863022774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 588
+        width: 27
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abf4324e2ad312b0800000000000000
+      internalID: -5614904418186757211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_11
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 589
+        width: 28
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62dff2c0cb4a7de0800000000000000
+      internalID: -1334671048284581269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_12
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 589
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcaadf3f97afbf420800000000000000
+      internalID: 2664999006211254989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_13
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 528
+        width: 30
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369d77f5adb5c9780800000000000000
+      internalID: -8674957788759729821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 528
+        width: 34
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1b00da540e49590800000000000000
+      internalID: -7668257675645242902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_15
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 528
+        width: 56
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6c0d7ea8fc6fb10800000000000000
+      internalID: 2015026078796531379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_16
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 530
+        width: 38
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c6baded78d68720800000000000000
+      internalID: 2848201849728363599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_17
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 530
+        width: 39
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36074f7c8f1d96fa0800000000000000
+      internalID: -5806879378080763805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_18
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 530
+        width: 38
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b887df0b43b76400800000000000000
+      internalID: 317419433722611888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_19
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 522
+        width: 43
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4dd78be1d23ad40800000000000000
+      internalID: 5594364772091811013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_20
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 522
+        width: 42
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8cc923ba6096770800000000000000
+      internalID: 8604415895426353331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_21
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 562
+        width: 44
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe96413e1c879610800000000000000
+      internalID: 1627923851621342972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_22
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 505
+        width: 42
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a051d3d7c3ace40d0800000000000000
+      internalID: -3436587104489106166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_23
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 501
+        width: 42
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22b4627cf8ce4d81a5e4c8f99390eed
+      internalID: 286055571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_24
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 501
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4bbad12219947eab27e9c41727bbd4
+      internalID: 125925722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ginyu-goku-ssj_25
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 504
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888a6eb2233894fa9ab2c2ca7cf8a057
+      internalID: 660628024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3aa485ce57b5d4e97917c4ed574067d7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ginyu-goku-ssj_0: 7505556720471164753
+      ginyu-goku-ssj_1: 5689648480213659561
+      ginyu-goku-ssj_10: -5614904418186757211
+      ginyu-goku-ssj_11: -1334671048284581269
+      ginyu-goku-ssj_12: 2664999006211254989
+      ginyu-goku-ssj_13: -8674957788759729821
+      ginyu-goku-ssj_14: -7668257675645242902
+      ginyu-goku-ssj_15: 2015026078796531379
+      ginyu-goku-ssj_16: 2848201849728363599
+      ginyu-goku-ssj_17: -5806879378080763805
+      ginyu-goku-ssj_18: 317419433722611888
+      ginyu-goku-ssj_19: 5594364772091811013
+      ginyu-goku-ssj_2: -1083499219604729205
+      ginyu-goku-ssj_20: 8604415895426353331
+      ginyu-goku-ssj_21: 1627923851621342972
+      ginyu-goku-ssj_22: -3436587104489106166
+      ginyu-goku-ssj_23: 286055571
+      ginyu-goku-ssj_24: 125925722
+      ginyu-goku-ssj_25: 660628024
+      ginyu-goku-ssj_3: 5714479591588442726
+      ginyu-goku-ssj_4: 5013218040647604744
+      ginyu-goku-ssj_5: 4958814993388438680
+      ginyu-goku-ssj_6: -2506976367196287427
+      ginyu-goku-ssj_7: -6340172709638941275
+      ginyu-goku-ssj_8: -617503706075182131
+      ginyu-goku-ssj_9: -2456277900863022774
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

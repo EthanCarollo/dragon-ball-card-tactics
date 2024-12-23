@@ -37,5 +37,5 @@ MonoBehaviour:
     description: Blast of ki.
     animation: {fileID: 11400000, guid: 02deafa69b34dd247ab66b67066796f3, type: 2}
   deadAnimation: {fileID: 0}
-  characterPassive: []
-  card: {fileID: 0}
+  synergies:
+  - {fileID: 11400000, guid: 88ac827794bd8432ca5c1ba12d44fd40, type: 2}
