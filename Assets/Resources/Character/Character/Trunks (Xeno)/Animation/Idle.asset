@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 875982c274ea44468cc86a0e0fb5ab10, type: 3}
-  m_Name: Bojack is here
+  m_Script: {fileID: 11500000, guid: 03b16787bc87f453d9d2b4fb52cd1a0f, type: 3}
+  m_Name: Idle
   m_EditorClassIdentifier: 
-  opponents:
-  - characterData: {fileID: 11400000, guid: 21c63dd7b9f394df0a5dfbb0451ed047, type: 2}
-    position: {x: 8, y: 5}
-  difficulty: 1
+  frameSprites:
+  - sprite: {fileID: -3608353499761604723, guid: 8fad84532d65c4e6fa0e764e3f479d62, type: 3}
+    time: 0.2

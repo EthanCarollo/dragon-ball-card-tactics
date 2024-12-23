@@ -13,17 +13,26 @@ MonoBehaviour:
   m_Name: FightDatabase
   m_EditorClassIdentifier: 
   fights:
-  - {fileID: 11400000, guid: a681fb00988acad409a9a554d361e027, type: 2}
-  - {fileID: 11400000, guid: 3ca69ad8017e36e4bb5e5e53543ec39e, type: 2}
   - {fileID: 11400000, guid: a71e4f7e4c1091c449c4199b70e0de8f, type: 2}
-  - {fileID: 11400000, guid: 30860e516e1384d2eb3075907c9373bd, type: 2}
-  - {fileID: 11400000, guid: 5841ec8d6703b48a3ab45eef44c6a007, type: 2}
-  - {fileID: 11400000, guid: b71e5e06c3647496984824bd48761203, type: 2}
-  - {fileID: 11400000, guid: 2b447c77d250b4950a77e64d4eaea83f, type: 2}
-  - {fileID: 11400000, guid: ba412c53d21d1409c804caeb8b40e016, type: 2}
-  - {fileID: 11400000, guid: b3cb8a2b1b0be4a4585f57928299a802, type: 2}
+  - {fileID: 11400000, guid: bbd3448f386654214bed213d9371894f, type: 2}
   - {fileID: 11400000, guid: 9ab376afa4fe544f9bef0d953f4f1061, type: 2}
+  - {fileID: 11400000, guid: b7680dc3649b34d4d846b103c3746f6e, type: 2}
+  - {fileID: 11400000, guid: 2b447c77d250b4950a77e64d4eaea83f, type: 2}
   - {fileID: 11400000, guid: ff259a2fd34754b6bb20cee6a21b9e09, type: 2}
+  - {fileID: 11400000, guid: ba412c53d21d1409c804caeb8b40e016, type: 2}
+  - {fileID: 11400000, guid: b71e5e06c3647496984824bd48761203, type: 2}
+  - {fileID: 11400000, guid: 5841ec8d6703b48a3ab45eef44c6a007, type: 2}
+  - {fileID: 11400000, guid: a681fb00988acad409a9a554d361e027, type: 2}
+  - {fileID: 11400000, guid: 30860e516e1384d2eb3075907c9373bd, type: 2}
+  - {fileID: 11400000, guid: 3ca69ad8017e36e4bb5e5e53543ec39e, type: 2}
+  - {fileID: 11400000, guid: d1edd268b40c147139a8db63ef8e9574, type: 2}
+  - {fileID: 11400000, guid: 593af3b95e3a6465aac62db40f61e45d, type: 2}
+  - {fileID: 11400000, guid: bb9c7e448570a485aae43d249e4096e6, type: 2}
+  - {fileID: 11400000, guid: 5059406f539d24e55849131d07b51090, type: 2}
+  - {fileID: 11400000, guid: 34b91e0c2efdc4f689e34ad5f2536454, type: 2}
+  - {fileID: 11400000, guid: c63bce7c3adc04a90a3c616607186d78, type: 2}
+  - {fileID: 11400000, guid: b3cb8a2b1b0be4a4585f57928299a802, type: 2}
+  - {fileID: 11400000, guid: 3768e5444b4344a8b915c2a403e7b29d, type: 2}
   - {fileID: 11400000, guid: 16a5bd39a76784bcfa426cf5e06f5165, type: 2}
   - {fileID: 11400000, guid: abe7f0c4b68c54af6a2afa9389cbf55d, type: 2}
-  - {fileID: 11400000, guid: 5059406f539d24e55849131d07b51090, type: 2}
+  - {fileID: 11400000, guid: cf8820a6637ae4cd98b01ac74d703bbe, type: 2}

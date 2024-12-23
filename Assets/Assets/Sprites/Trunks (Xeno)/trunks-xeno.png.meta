@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 8fad84532d65c4e6fa0e764e3f479d62
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4088238103705031156
+    second: trunks-xeno_0
+  - first:
+      213: 3111137103859423884
+    second: trunks-xeno_1
+  - first:
+      213: -3608353499761604723
+    second: trunks-xeno_2
+  - first:
+      213: -6286939386706767938
+    second: trunks-xeno_3
+  - first:
+      213: 6066211642762595306
+    second: trunks-xeno_4
+  - first:
+      213: 4266015717643253014
+    second: trunks-xeno_5
+  - first:
+      213: 5164910641830792086
+    second: trunks-xeno_6
+  - first:
+      213: -1454193279523341070
+    second: trunks-xeno_7
+  - first:
+      213: -3135831246762030680
+    second: trunks-xeno_8
+  - first:
+      213: -376766175691975422
+    second: trunks-xeno_9
+  - first:
+      213: -3643689700568087299
+    second: trunks-xeno_10
+  - first:
+      213: 1576478836540840714
+    second: trunks-xeno_11
+  - first:
+      213: 6538410428902311270
+    second: trunks-xeno_12
+  - first:
+      213: 1948925252884997129
+    second: trunks-xeno_13
+  - first:
+      213: 3993697971201863215
+    second: trunks-xeno_14
+  - first:
+      213: 362846997313020027
+    second: trunks-xeno_15
+  - first:
+      213: 8633246006590209779
+    second: trunks-xeno_16
+  - first:
+      213: 4043509549434701087
+    second: trunks-xeno_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: trunks-xeno_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 461
+        width: 34
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.020408163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f11e8815e65cb830800000000000000
+      internalID: 4088238103705031156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-xeno_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 462
+        width: 28
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a141366bafc2b20800000000000000
+      internalID: 3111137103859423884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-xeno_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 461
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.02}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d870cae1c9d8cedc0800000000000000
+      internalID: -3608353499761604723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-xeno_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 460
+        width: 33
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5151515, y: 0.020408163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf4eeaffed40c8a0800000000000000
+      internalID: -6286939386706767938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-xeno_4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 467
+        width: 42
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb043359538f2450800000000000000
+      internalID: 6066211642762595306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-xeno_5
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 467
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615fb5061bee33b30800000000000000
+      internalID: 4266015717643253014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-xeno_6
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 470
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b85f62dd27da740800000000000000
+      internalID: 5164910641830792086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-xeno_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 384
+        width: 31
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc304bbaeaa1dbe0800000000000000
+      internalID: -1454193279523341070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-xeno_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 384
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9cd2d681a4b74d0800000000000000
+      internalID: -3135831246762030680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-xeno_9
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 384
+        width: 49
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2055f7ec82575caf0800000000000000
+      internalID: -376766175691975422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-xeno_10
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 386
+        width: 30
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4c3edb5830f6dc0800000000000000
+      internalID: -3643689700568087299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-xeno_11
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 380
+        width: 44
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b10f73627c0e510800000000000000
+      internalID: 1576478836540840714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-xeno_12
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 380
+        width: 43
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6658e62a4a91dba50800000000000000
+      internalID: 6538410428902311270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-xeno_13
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 312
+        width: 31
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904afff0139fb0b10800000000000000
+      internalID: 1948925252884997129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-xeno_14
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 312
+        width: 35
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e6fa135277c6730800000000000000
+      internalID: 3993697971201863215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-xeno_15
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 312
+        width: 66
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70e8aeeb67190500800000000000000
+      internalID: 362846997313020027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-xeno_16
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 311
+        width: 44
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe7e5980837fc770800000000000000
+      internalID: 8633246006590209779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-xeno_17
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 168
+        width: 365
+        height: 124
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 145, y: 0, z: 149, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1584f3038e6d1830800000000000000
+      internalID: 4043509549434701087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2139534b4c7fb46e797855db5d4e0006
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      trunks-xeno_0: 4088238103705031156
+      trunks-xeno_1: 3111137103859423884
+      trunks-xeno_10: -3643689700568087299
+      trunks-xeno_11: 1576478836540840714
+      trunks-xeno_12: 6538410428902311270
+      trunks-xeno_13: 1948925252884997129
+      trunks-xeno_14: 3993697971201863215
+      trunks-xeno_15: 362846997313020027
+      trunks-xeno_16: 8633246006590209779
+      trunks-xeno_17: 4043509549434701087
+      trunks-xeno_2: -3608353499761604723
+      trunks-xeno_3: -6286939386706767938
+      trunks-xeno_4: 6066211642762595306
+      trunks-xeno_5: 4266015717643253014
+      trunks-xeno_6: 5164910641830792086
+      trunks-xeno_7: -1454193279523341070
+      trunks-xeno_8: -3135831246762030680
+      trunks-xeno_9: -376766175691975422
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
