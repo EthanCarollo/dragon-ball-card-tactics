@@ -12,30 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3c6eb036ffd84111b40ffd02f9fe47e, type: 3}
   m_Name: Xeno Synergy
   m_EditorClassIdentifier: 
-  synergyName: Cooler Army
-  synergyImage: {fileID: 21300000, guid: 424435eb8e6e24d4391acb12fdf0a7ac, type: 3}
+  synergyName: Xeno Synergy
+  synergyImage: {fileID: 21300000, guid: 57b792f7504264c378d694b62bd6d972, type: 3}
   Tiers:
   - RequiredUnits: 2
-    Description: Give 10 attack and 0.2 attack speed to all Cooler Army Synergy,
-      Cooler gains 20 more attack and 80 max hp.
+    Description: Give 120 attack to all Xeno.
     Bonuses:
-    - rid: 6739222730960011339
-    - rid: 6739222730960011340
+    - rid: 6739222861892288591
   references:
     version: 2
     RefIds:
-    - rid: 6739222730960011339
+    - rid: 6739222861892288591
       type: {class: Bonus, ns: , asm: Assembly-CSharp}
       data:
-        attackBonus: 10
+        attackBonus: 120
         maxHpBonus: 0
-        attackSpeedBonus: 0.2
-        criticalChanceBonus: 0
-    - rid: 6739222730960011340
-      type: {class: SpecialCharacterBonus, ns: , asm: Assembly-CSharp}
-      data:
-        attackBonus: 20
-        maxHpBonus: 80
         attackSpeedBonus: 0
         criticalChanceBonus: 0
-        character: {fileID: 11400000, guid: bf7502dea45e07c4485b66060f89e68c, type: 2}
+        effectsOnHit: []

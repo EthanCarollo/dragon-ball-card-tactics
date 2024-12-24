@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55017e58dbbc4db1901c7554f19dc6a0, type: 3}
+  m_Name: Transform Trunks (Xeno SJJ)
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: -6575672332840531031, guid: 6f4e76c91fc0e484a8f6097d1bcbc768, type: 3}
+    time: 0.2
+  - sprite: {fileID: 5596666677992919461, guid: 6f4e76c91fc0e484a8f6097d1bcbc768, type: 3}
+    time: 0.2
+  - sprite: {fileID: 520813364086853732, guid: 6f4e76c91fc0e484a8f6097d1bcbc768, type: 3}
+    time: 0.2
+  - sprite: {fileID: -5411629602171436479, guid: 6f4e76c91fc0e484a8f6097d1bcbc768, type: 3}
+    time: 0.2
+  - sprite: {fileID: 4025675079056092231, guid: 6f4e76c91fc0e484a8f6097d1bcbc768, type: 3}
+    time: 0.2
+  - sprite: {fileID: -6648613850306646158, guid: 6f4e76c91fc0e484a8f6097d1bcbc768, type: 3}
+    time: 0.2
+  - sprite: {fileID: -3611608004115867279, guid: 6f4e76c91fc0e484a8f6097d1bcbc768, type: 3}
+    time: 0.7
+  newCharacterData: {fileID: 11400000, guid: 1358e8d557df44593ab7530e515b1ba8, type: 2}

@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
-  m_Name: Trunks (Xeno)
+  m_Name: Trunks (Xeno SSJ)
   m_EditorClassIdentifier: 
   id: 24
   starNumber: 1
-  characterName: Trunks (Xeno)
+  characterName: Trunks (Xeno SSJ)
   role: 0
   characterType: 0
-  characterSprite: {fileID: 4088238103705031156, guid: 8fad84532d65c4e6fa0e764e3f479d62, type: 3}
-  characterIcon: {fileID: 21300000, guid: 57b792f7504264c378d694b62bd6d972, type: 3}
+  characterSprite: {fileID: -3611608004115867279, guid: 6f4e76c91fc0e484a8f6097d1bcbc768, type: 3}
+  characterIcon: {fileID: 21300000, guid: a64ae96c6613e4f7386772181a8c86aa, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
   maxHealth: 350
   maxKi: 60
@@ -28,14 +28,14 @@ MonoBehaviour:
   baseSpeed: 2
   baseAttackSpeed: 0.5
   baseCriticalChance: 10
-  idleAnimation: {fileID: 11400000, guid: 2db22c96af4d14bd183a0f2e2203a28a, type: 2}
-  runAnimation: {fileID: 11400000, guid: e891a552493a441fd9f4b59306963dc1, type: 2}
-  attackAnimation: {fileID: 11400000, guid: 1d96ca8ee793442b492a2b9538fb5ba6, type: 2}
-  criticalAttackAnimation: {fileID: 11400000, guid: 325f058745c844711bdbf861c0d5c77f, type: 2}
+  idleAnimation: {fileID: 11400000, guid: d17a0e7c214ed4b4dbd7139cf1606220, type: 2}
+  runAnimation: {fileID: 11400000, guid: fe287734b57c048c0b17977971156bba, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 9df552b85f7864e5b885662bc9f8035e, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: ccfcd5db0176140dabcfd0b68c800db5, type: 2}
   specialAttackAnimation:
-  - name: 
+  - name: Masenko
     description: 
-    animation: {fileID: 11400000, guid: d9a660656019848a0823a5838e923bbc, type: 2}
+    animation: {fileID: 11400000, guid: 21060dce222c34ea5af062323f9a36d6, type: 2}
   deadAnimation: {fileID: 0}
   synergies:
   - {fileID: 11400000, guid: cdfae772e7a344a7389762ed71ce02d4, type: 2}
