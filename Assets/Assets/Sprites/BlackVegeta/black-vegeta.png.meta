@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: cb299a4ee97e84bd1ab782a14ff5346a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8158688993613854608
+    second: black-vegeta_0
+  - first:
+      213: -1867731332954111534
+    second: black-vegeta_1
+  - first:
+      213: 1047296380310752719
+    second: black-vegeta_2
+  - first:
+      213: -5211339569897278793
+    second: black-vegeta_3
+  - first:
+      213: 6370351963665320633
+    second: black-vegeta_4
+  - first:
+      213: -3063063203266649917
+    second: black-vegeta_5
+  - first:
+      213: -4901704080707718014
+    second: black-vegeta_6
+  - first:
+      213: 4147652993083996967
+    second: black-vegeta_7
+  - first:
+      213: -5067776954723906458
+    second: black-vegeta_8
+  - first:
+      213: 7085791870442935190
+    second: black-vegeta_9
+  - first:
+      213: -1623266802656197950
+    second: black-vegeta_10
+  - first:
+      213: 6523415508958090755
+    second: black-vegeta_11
+  - first:
+      213: 6966476174316657863
+    second: black-vegeta_12
+  - first:
+      213: -3432494193772909987
+    second: black-vegeta_13
+  - first:
+      213: -429069796420135908
+    second: black-vegeta_14
+  - first:
+      213: 6502836359855677358
+    second: black-vegeta_15
+  - first:
+      213: -3031868423049720830
+    second: black-vegeta_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: black-vegeta_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 736
+        width: 25
+        height: 54
+      alignment: 9
+      pivot: {x: 0.64, y: 0.018518519}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0973e31c96c793170800000000000000
+      internalID: 8158688993613854608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-vegeta_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 736
+        width: 25
+        height: 53
+      alignment: 9
+      pivot: {x: 0.59999996, y: 0.018867925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d147639f3c7416e0800000000000000
+      internalID: -1867731332954111534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-vegeta_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 737
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd89f2528eb88e00800000000000000
+      internalID: 1047296380310752719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-vegeta_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 737
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2f554a54a9da7b0800000000000000
+      internalID: -5211339569897278793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-vegeta_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 692
+        width: 54
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bacb700c59086850800000000000000
+      internalID: 6370351963665320633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-vegeta_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 699
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0a8b4de30dd75d0800000000000000
+      internalID: -3063063203266649917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-vegeta_6
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 702
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2847553eb16a9fbb0800000000000000
+      internalID: -4901704080707718014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-vegeta_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 641
+        width: 31
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b7b580c6c6f8930800000000000000
+      internalID: 4147652993083996967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-vegeta_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 639
+        width: 49
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c45ccb5b3aba9b0800000000000000
+      internalID: -5067776954723906458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-vegeta_9
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 640
+        width: 40
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6931a1ef92ac55260800000000000000
+      internalID: 7085791870442935190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-vegeta_10
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 635
+        width: 39
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c24ef3817ff879e0800000000000000
+      internalID: -1623266802656197950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-vegeta_11
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 628
+        width: 37
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30698b5c7d3d78a50800000000000000
+      internalID: 6523415508958090755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-vegeta_12
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 629
+        width: 31
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ccdd5aab25eda060800000000000000
+      internalID: 6966476174316657863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-vegeta_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 578
+        width: 45
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a239687b45d50d0800000000000000
+      internalID: -3432494193772909987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-vegeta_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 578
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1457802b43ab0af0800000000000000
+      internalID: -429069796420135908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-vegeta_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 578
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf11bd3737be3a50800000000000000
+      internalID: 6502836359855677358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black-vegeta_16
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 564
+        width: 35
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cc5669bb3ace5d0800000000000000
+      internalID: -3031868423049720830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 11e40a7a02d7f403dacc0ef052b73a60
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      black-vegeta_0: 8158688993613854608
+      black-vegeta_1: -1867731332954111534
+      black-vegeta_10: -1623266802656197950
+      black-vegeta_11: 6523415508958090755
+      black-vegeta_12: 6966476174316657863
+      black-vegeta_13: -3432494193772909987
+      black-vegeta_14: -429069796420135908
+      black-vegeta_15: 6502836359855677358
+      black-vegeta_16: -3031868423049720830
+      black-vegeta_2: 1047296380310752719
+      black-vegeta_3: -5211339569897278793
+      black-vegeta_4: 6370351963665320633
+      black-vegeta_5: -3063063203266649917
+      black-vegeta_6: -4901704080707718014
+      black-vegeta_7: 4147652993083996967
+      black-vegeta_8: -5067776954723906458
+      black-vegeta_9: 7085791870442935190
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
