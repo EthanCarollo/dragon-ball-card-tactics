@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Trunks (Xeno SSJ3)
+  m_EditorClassIdentifier: 
+  id: 24
+  starNumber: 1
+  characterName: Trunks (Xeno SSJ3)
+  role: 0
+  characterType: 0
+  characterSprite: {fileID: 6873129770767098661, guid: f8ab0a505fd5a46438535060e0e9fa31, type: 3}
+  characterIcon: {fileID: 21300000, guid: 4c5ef2310f3714f0fb6329073c5fe256, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 350
+  maxKi: 60
+  baseRange: 1
+  baseDamage: 65
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 0.5
+  baseCriticalChance: 10
+  idleAnimation: {fileID: 11400000, guid: d1f5a29fde5674f259fb0f9846a2f9cd, type: 2}
+  runAnimation: {fileID: 11400000, guid: c4092e2db101240329e8688593fe4bae, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 77100440bf56f4837b6974e20a61510f, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 82d625c97e0a14e979d3e78807114f46, type: 2}
+  specialAttackAnimation:
+  - name: Masenko
+    description: 
+    animation: {fileID: 11400000, guid: 50296ade4df9743b8b43d3bce6fee10f, type: 2}
+  deadAnimation: {fileID: 0}
+  synergies:
+  - {fileID: 11400000, guid: cdfae772e7a344a7389762ed71ce02d4, type: 2}
