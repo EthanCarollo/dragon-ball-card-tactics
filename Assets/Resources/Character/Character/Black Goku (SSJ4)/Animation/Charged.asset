@@ -13,23 +13,17 @@ MonoBehaviour:
   m_Name: Charged
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: 1471508838260862914, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+  - sprite: {fileID: -1218679693106913593, guid: 7d50809e7e1484feabfe850d7e910033, type: 3}
     time: 0.14
-  - sprite: {fileID: -8799643425093672969, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+  - sprite: {fileID: 2390178193550873409, guid: 7d50809e7e1484feabfe850d7e910033, type: 3}
     time: 0.14
-  - sprite: {fileID: 946800513, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-    time: 0.14
-  - sprite: {fileID: 135910636, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-    time: 0.14
-  - sprite: {fileID: -1273556271, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-    time: 0.14
-  - sprite: {fileID: 726623607, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+  - sprite: {fileID: -2670047436937911549, guid: 7d50809e7e1484feabfe850d7e910033, type: 3}
     time: 0.6
-  attackFrameIndex: 4
+  attackFrameIndex: 1
   kikoha: {fileID: 1800964581, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
   particleAttack: {fileID: 0}
   attackType: 0
-  attackMultiplicator: 3
+  attackMultiplicator: 4
   startMargin: {x: 0.4, y: 0.5}
   kikohaSize: {x: 6, y: 3}
   dangerTileSprite: {fileID: 0}
