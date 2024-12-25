@@ -17,8 +17,8 @@ MonoBehaviour:
   characterName: Trunks (Xeno SSG)
   role: 0
   characterType: 0
-  characterSprite: {fileID: -3611608004115867279, guid: 6f4e76c91fc0e484a8f6097d1bcbc768, type: 3}
-  characterIcon: {fileID: 21300000, guid: a64ae96c6613e4f7386772181a8c86aa, type: 3}
+  characterSprite: {fileID: -1576289589917558846, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
+  characterIcon: {fileID: 21300000, guid: 4041dd400a12d44d98b9eb18668c1113, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
   maxHealth: 750
   maxKi: 50
@@ -28,14 +28,14 @@ MonoBehaviour:
   baseSpeed: 7
   baseAttackSpeed: 0.7
   baseCriticalChance: 25
-  idleAnimation: {fileID: 11400000, guid: d17a0e7c214ed4b4dbd7139cf1606220, type: 2}
-  runAnimation: {fileID: 11400000, guid: fe287734b57c048c0b17977971156bba, type: 2}
-  attackAnimation: {fileID: 11400000, guid: 9df552b85f7864e5b885662bc9f8035e, type: 2}
-  criticalAttackAnimation: {fileID: 11400000, guid: ccfcd5db0176140dabcfd0b68c800db5, type: 2}
+  idleAnimation: {fileID: 11400000, guid: 2064931ac10bd42a7a1c17adbf7c8870, type: 2}
+  runAnimation: {fileID: 11400000, guid: 0e49e3b5f60a84f429736c9540e335a2, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 1866db53d92a941b2b9a7d3fec8b03a6, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: f245d4af220e94191b64d3e5d938e9fd, type: 2}
   specialAttackAnimation:
   - name: Masenko
     description: 
-    animation: {fileID: 11400000, guid: 21060dce222c34ea5af062323f9a36d6, type: 2}
+    animation: {fileID: 11400000, guid: 66564d92c0e974ea7a9aa783bae35c16, type: 2}
   deadAnimation: {fileID: 0}
   synergies:
   - {fileID: 11400000, guid: cdfae772e7a344a7389762ed71ce02d4, type: 2}

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55017e58dbbc4db1901c7554f19dc6a0, type: 3}
+  m_Name: Transform Trunks (Xeno SSG)
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: 2122963395676406232, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
+    time: 0.2
+  - sprite: {fileID: -7139338242829682194, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
+    time: 0.2
+  - sprite: {fileID: -1450412386754466920, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
+    time: 0.2
+  - sprite: {fileID: -3181953706861011113, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
+    time: 0.2
+  - sprite: {fileID: 4517137862080514225, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
+    time: 0.2
+  - sprite: {fileID: -1683308692189459729, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
+    time: 0.2
+  - sprite: {fileID: -4592443659157799556, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
+    time: 0.2
+  - sprite: {fileID: 3000955345550635026, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
+    time: 0.2
+  - sprite: {fileID: -7453681771547067299, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
+    time: 0.2
+  - sprite: {fileID: -1827811783333774125, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
+    time: 0.2
+  - sprite: {fileID: 3712349263222414982, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
+    time: 0.2
+  - sprite: {fileID: -2385629534413186897, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
+    time: 0.2
+  - sprite: {fileID: -2084228045869536602, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
+    time: 0.2
+  - sprite: {fileID: -5074535307905138908, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
+    time: 0.2
+  - sprite: {fileID: -5074535307905138908, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
+    time: 0.2
+  newCharacterData: {fileID: 11400000, guid: 77cdbb3d6b2764aeb9206bd20a251eb5, type: 2}

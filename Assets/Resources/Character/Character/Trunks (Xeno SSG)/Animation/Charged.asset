@@ -13,16 +13,20 @@ MonoBehaviour:
   m_Name: Charged
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: -528375495139596848, guid: 6f4e76c91fc0e484a8f6097d1bcbc768, type: 3}
+  - sprite: {fileID: -1334103066062494387, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
+    time: 0.1
+  - sprite: {fileID: 8846809669638226973, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
+    time: 0.1
+  - sprite: {fileID: -2787051058901813909, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
     time: 0.2
-  - sprite: {fileID: 1440054028737925240, guid: 6f4e76c91fc0e484a8f6097d1bcbc768, type: 3}
+  - sprite: {fileID: -4434451445823162873, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
     time: 0.2
-  - sprite: {fileID: -7796776419519856132, guid: 6f4e76c91fc0e484a8f6097d1bcbc768, type: 3}
+  - sprite: {fileID: -4801339944528003234, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
     time: 0.2
-  - sprite: {fileID: 4214770632523378053, guid: 6f4e76c91fc0e484a8f6097d1bcbc768, type: 3}
+  - sprite: {fileID: -2787051058901813909, guid: 0b18f6d6214064d90b32152e01762eef, type: 3}
     time: 0.5
-  attackFrameIndex: 2
-  kikoha: {fileID: -3624373361618246187, guid: fb35d289ba574c944b564f45b972712e, type: 3}
+  attackFrameIndex: 4
+  kikoha: {fileID: -1736697969, guid: 4f65855047015427888b9542916a2420, type: 3}
   particleAttack: {fileID: 0}
   attackType: 2
   attackMultiplicator: 3
