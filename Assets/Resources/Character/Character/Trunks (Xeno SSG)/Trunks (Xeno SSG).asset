@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
-  m_Name: Trunks (Xeno SSJ)
+  m_Name: Trunks (Xeno SSG)
   m_EditorClassIdentifier: 
   id: 24
   starNumber: 1
-  characterName: Trunks (Xeno SSJ)
+  characterName: Trunks (Xeno SSG)
   role: 0
   characterType: 0
   characterSprite: {fileID: -3611608004115867279, guid: 6f4e76c91fc0e484a8f6097d1bcbc768, type: 3}
