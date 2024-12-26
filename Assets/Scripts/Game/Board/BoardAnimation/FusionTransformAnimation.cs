@@ -51,7 +51,7 @@ public class FusionTransformAnimation : TransformAnimation {
             }
             character.isAnimating = true;
             yield return PlayAnimationCoroutineTransform(character);
-            character.SetupCharacter(new CharacterContainer(newCharacterData.id, newCharacterData.maxHealth, 0));
+            character.SetupCharacter(new CharacterContainer(newCharacterData.id, newCharacterData.maxHealth, 1, 0));
             character.isAnimating = false;
         }
     }

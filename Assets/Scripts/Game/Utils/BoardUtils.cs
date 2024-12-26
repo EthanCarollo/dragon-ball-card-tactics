@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public static class BoardUtils
 {
@@ -156,5 +157,20 @@ public static class BoardUtils
             }
         }
         return duplicateBoard;
+    }
+
+    public static Vector2Int FindPosition<T>(T[,] array, T target)
+    {
+        for (int row = 0; row < array.GetLength(0); row++)
+        {
+            for (int col = 0; col < array.GetLength(1); col++)
+            {
+                if (EqualityComparer<T>.Default.Equals(array[row, col], target))
+                {
+                    return new Vector2Int(row, col); // Retourne la position sous forme de Vector2
+                }
+            }
+        }
+        return new Vector2Int(0, 0); // Élément non trouvé
     }
 }

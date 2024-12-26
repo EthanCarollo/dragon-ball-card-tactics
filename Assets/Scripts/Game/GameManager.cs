@@ -83,7 +83,7 @@ public class GameManager
         {
             Debug.Log(characterContainerFight.characterData.name);
             boardCharacterArray[characterContainerFight.position.x, characterContainerFight.position.y] 
-                = new BoardCharacter(new CharacterContainer(characterContainerFight.characterData.id, new List<CharacterPassive>(), difficultyMutliplicator), false);
+                = new BoardCharacter(new CharacterContainer(characterContainerFight.characterData.id, new List<CharacterPassive>(), 1, difficultyMutliplicator), false);
         }
         FightBoard.Instance.CreateBoard(boardCharacterArray);
     }

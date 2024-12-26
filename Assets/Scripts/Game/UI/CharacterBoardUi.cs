@@ -27,6 +27,9 @@ public class CharacterBoardUi : MonoBehaviour
         public GameObject passiveLittlePrefab;
         public Transform passiveContainer;
 
+        public Transform starsContainer;
+        public Sprite star;
+
         public SpecialAttackContainer specialAttackContainer;
 
         public void Start()
@@ -100,6 +103,19 @@ public class CharacterBoardUi : MonoBehaviour
                         } else {
                                 passiveWholeContainer.SetActive(false);
                         }
+                }
+                
+                foreach (Transform child in starsContainer)
+                {
+                        Destroy(child.gameObject);
+                }
+                for (int i = 0; i < characterContainer.characterStar; i++)
+                {
+                        var characterStar = new GameObject();
+                        characterStar.AddComponent<Image>().sprite = star;
+                        characterStar.AddComponent<RectTransform>();
+                        characterStar.GetComponent<RectTransform>().sizeDelta = new Vector2(45, 45);
+                        Instantiate(characterStar, starsContainer);
                 }
         }
 

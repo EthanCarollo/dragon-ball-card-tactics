@@ -15,6 +15,9 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
     public Vector2Int position;
     private Material startMaterial;
 
+    public Transform starContainer;
+    public Sprite starImage;
+
     public void Start()
     {
         startMaterial = spriteRenderer.material;
@@ -66,7 +69,19 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
         {
             Vector3 mousePosition = Input.mousePosition;
             mousePosition.z = 10f; 
-            CharacterDragInfo.draggedObject.transform.position = Camera.main.ScreenToWorldPoint(mousePosition);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
+            LeanTween.cancel(CharacterDragInfo.draggedObject);
+            if (hit.collider != null)
+            {
+                TileBehaviour tileScript = hit.collider.GetComponent<TileBehaviour>();
+                if (tileScript != null && tileScript.position.x <= 4)
+                {
+                    LeanTween.move(CharacterDragInfo.draggedObject, tileScript.gameObject.transform.position, 0.1f).setEaseOutSine();
+                    return;
+                }
+            }
+            LeanTween.move(CharacterDragInfo.draggedObject, Camera.main.ScreenToWorldPoint(mousePosition), 0.1f);
         }
     }
 
@@ -107,4 +122,5 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
 public static class CharacterDragInfo
 {
     public static GameObject draggedObject;
+    public static Vector2Int canPlayOnBoardPosition = new Vector2Int(-1, -1);
 }

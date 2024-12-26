@@ -82,7 +82,7 @@ public class FightBoard : Board
                 if (boardObject == null) continue;
                 
                 float posX = x * _tileWidth;
-                float posY = y * _tileHeight + 0.05f;
+                float posY = y * _tileHeight;
                 Vector3 position = new Vector3(posX, posY, 0);
                 try {
                     if (boardObject is BoardCharacter character)

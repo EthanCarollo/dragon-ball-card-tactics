@@ -44,18 +44,7 @@ public class CharacterInventory : ScriptableObject
 
     public void AddCharacter(CharacterData character)
     {
-        characters.Add(new CharacterContainer(character.id, new List<CharacterPassive>()));
-    }
-
-    // By default, a Character Deck is only constitued of Goku & Piccolo
-    [ContextMenu("Reset Value")]
-    public void Reset()
-    {
-        characters = new List<CharacterContainer>()
-        {
-            new CharacterContainer(0, new List<CharacterPassive>()),
-            new CharacterContainer(1, new List<CharacterPassive>())
-        };
+        characters.Add(new CharacterContainer(character.id, new List<CharacterPassive>(), 1));
     }
 }
 
@@ -70,25 +59,32 @@ public class CharacterContainer
     }
 
     public float powerMultiplicator = 1;
+    public int characterStar = 1;
     public int characterId;
     public int actualHealth;
     public int actualKi;
     public int selectedUltimateAttack = 0;
     public List<CharacterPassive> characterPassives = new List<CharacterPassive>();
     
-    public CharacterContainer(int characterId, List<CharacterPassive> characterPassives, float powerMultiplicator = 1)
+    public CharacterContainer(int characterId, List<CharacterPassive> characterPassives, int starNumber, float powerMultiplicator = 1)
     {
         this.characterPassives = characterPassives;
         this.powerMultiplicator = powerMultiplicator;
         this.characterId = characterId;
         this.actualHealth = GetCharacterMaxHealth();
+        this.characterStar = starNumber;
+    }
+
+    public void AddStar(int starNumber){
+        characterStar += starNumber;
     }
     
-    public CharacterContainer(int characterId, int actualHealth, int actualKi)
+    public CharacterContainer(int characterId, int actualHealth, int actualKi, int starNumber)
     {
         this.characterId = characterId;
         this.actualHealth = actualHealth;
         this.actualKi = actualKi;
+        this.characterStar = starNumber;
     }
     
     public CharacterData GetCharacterData()

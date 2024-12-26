@@ -137,7 +137,7 @@ public class BoardGameUiManager : MonoBehaviour
         LeanTween.moveX(looseManaText.gameObject.GetComponent<RectTransform>(), 15f, 1.25f).setEaseOutCirc();
     }
 
-    public void ShowPlayCardPanel()
+    public void ShowPlayCardPanel(string useCardText = "Use Card")
     {
         if (playCardScreen.activeInHierarchy == false)
         {

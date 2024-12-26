@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor.PackageManager;
 using UnityEngine;
+using UnityEngine.UI;
 
 [Serializable]
 public class BoardCharacter : BoardObject
@@ -148,6 +149,19 @@ public class BoardCharacter : BoardObject
             charPrefabScript.kiSlider.value = this.character.actualKi;
             charPrefabScript.healthSlider.maxValue = this.character.GetCharacterMaxHealth();
             charPrefabScript.healthSlider.value = this.character.actualHealth;
+
+            foreach (Transform child in charPrefabScript.starContainer)
+            {
+                    MonoBehaviour.Destroy(child.gameObject);
+            }
+            for (int i = 0; i < character.characterStar; i++)
+            {
+                    var characterStar = new GameObject();
+                    characterStar.AddComponent<Image>().sprite = charPrefabScript.starImage;
+                    characterStar.AddComponent<RectTransform>();
+                    characterStar.GetComponent<RectTransform>().sizeDelta = new Vector2(0.2f, 0.2f);
+                    MonoBehaviour.Instantiate(characterStar, charPrefabScript.starContainer);
+            }
         }
         catch (Exception e)
         {
@@ -205,7 +219,7 @@ public class BoardCharacter : BoardObject
     public override BoardObject Clone()
     {
         // Reset the character container
-        var newCharacter = new CharacterContainer(character.characterId, character.characterPassives, character.powerMultiplicator);
+        var newCharacter = new CharacterContainer(character.characterId, character.characterPassives, character.characterStar, character.powerMultiplicator);
         BoardCharacter clonedCharacter = new BoardCharacter(newCharacter, isPlayerCharacter);
         clonedCharacter.SetGameObject(this.gameObject);
         clonedCharacter.SetBoard(this.board); 
