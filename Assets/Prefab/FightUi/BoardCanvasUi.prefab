@@ -2839,8 +2839,8 @@ RectTransform:
   - {fileID: 4804951265392031717}
   - {fileID: 8551275907188450321}
   - {fileID: 9183185645004954558}
-  - {fileID: 6203348840990106546}
   - {fileID: 3480165212135904073}
+  - {fileID: 6203348840990106546}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2944,6 +2944,7 @@ MonoBehaviour:
   looseManaText: {fileID: 5669530694717512033}
   synergyContainer: {fileID: 7922818434185359608}
   synergyPrefab: {fileID: 2247542352714119117, guid: d3dd15a52f86b48b488888864740c3e4, type: 3}
+  fightNameUi: {fileID: 0}
 --- !u!1 &4573154285839714376
 GameObject:
   m_ObjectHideFlags: 0
@@ -4286,6 +4287,8 @@ MonoBehaviour:
   passiveWholeContainer: {fileID: 5312883969689789500}
   passiveLittlePrefab: {fileID: 576781877490566231, guid: f32c4bbe4f94046c0b558654b658aebc, type: 3}
   passiveContainer: {fileID: 2022642490138395445}
+  starsContainer: {fileID: 0}
+  star: {fileID: 0}
   specialAttackContainer: {fileID: 3513865497132139261}
 --- !u!1 &5660473158620016070
 GameObject:
