@@ -126,11 +126,13 @@ public class BoardCharacter : BoardObject
     {
         this.character.HitDamage(damageAmount, this);
         ParticleManager.Instance.ShowAttackNumber(this, damageAmount);
+        SetCharacterSlider();
     }
 
     public void AddKi(int kiAmount)
     {
         this.character.AddKi(kiAmount);
+        SetCharacterSlider();
     }
 
     public void Heal(int healAmount)

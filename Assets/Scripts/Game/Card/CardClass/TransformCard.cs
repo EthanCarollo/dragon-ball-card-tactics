@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "TransformCard", menuName = "Card/TransformCard")]
@@ -9,6 +10,16 @@ public class TransformCard : UsableCharacterActionCard
     public override string GetDescription()
     {
         return "Transform " + characterFor.characterName + " into " + transform.newCharacterData.characterName + ".";
+    }
+
+    public override bool CanUseCard()
+    {
+        var characterOnBoard = GameManager.Instance.GetCharactersOnBoard()
+                    .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == characterFor);   
+        if(characterOnBoard == null){
+            return false;
+        }
+        return base.CanUseCard();
     }
 
     public override void UseCard()

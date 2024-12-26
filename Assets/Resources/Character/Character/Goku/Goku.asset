@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku
   m_EditorClassIdentifier: 
-  id: 0
+  id: 34
   starNumber: 1
   characterName: Goku
   role: 0
@@ -43,10 +43,9 @@ MonoBehaviour:
     description: Transform into Kaioken x3
     animation: {fileID: 11400000, guid: c2d14711f8951b14e849aa6788ac0540, type: 2}
   deadAnimation: {fileID: 0}
-  characterPassive:
-  - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}
-  - {fileID: 11400000, guid: 74b8b767438244f0ab7be2339fa04fad, type: 2}
-  - {fileID: 11400000, guid: 66557a9cff282934b8189f061d1527be, type: 2}
+  sameCharacter:
+  - {fileID: 11400000, guid: 9b424d77e4f22ed409f878e0c2d3f275, type: 2}
+  - {fileID: 11400000, guid: b8153c8db51b02e469b29ecc91aa4c44, type: 2}
+  - {fileID: 11400000, guid: 7c72d6e2019ed431b86de89a71f06dc1, type: 2}
   synergies:
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
-  card: {fileID: 0}
