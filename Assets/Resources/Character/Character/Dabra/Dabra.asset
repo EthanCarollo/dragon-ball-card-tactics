@@ -37,6 +37,5 @@ MonoBehaviour:
     description: Heal using the base damage
     animation: {fileID: 11400000, guid: aed98195735ea47869c39cf1e32bafae, type: 2}
   deadAnimation: {fileID: 0}
-  characterPassive:
-  - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}
-  card: {fileID: 0}
+  synergies:
+  - {fileID: 11400000, guid: 4ba1bf47f6be1489fb5be013c0e05f1e, type: 2}

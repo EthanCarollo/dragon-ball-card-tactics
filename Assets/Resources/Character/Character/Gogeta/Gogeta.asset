@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Gogeta
   m_EditorClassIdentifier: 
-  id: 15
+  id: 31
   starNumber: 1
   characterName: Gogeta
   role: 0
@@ -25,8 +25,8 @@ MonoBehaviour:
   baseRange: 1
   baseDamage: 45
   baseArmor: 65
-  baseSpeed: 4
-  baseAttackSpeed: 1.25
+  baseSpeed: 9
+  baseAttackSpeed: 1.2
   baseCriticalChance: 45
   idleAnimation: {fileID: 11400000, guid: ef19f7620adb6d8419f1ad1645d0e7cf, type: 2}
   runAnimation: {fileID: 11400000, guid: 5cf879b8221f36b479f85786605f66d4, type: 2}
@@ -37,6 +37,4 @@ MonoBehaviour:
     description: Big coup d'iep
     animation: {fileID: 11400000, guid: b1367e2a9f70f314b91bb4c1c6870032, type: 2}
   deadAnimation: {fileID: 0}
-  characterPassive:
-  - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}
-  card: {fileID: 0}
+  synergies: []

@@ -56,7 +56,21 @@ public class GameManager
 
     public void GoNextFight()
     {
-        ActualFight = FightDatabase.Instance.GetRandomFight();
+        FightDifficulty difficulty;
+        if (actualRound % 6 == 0 && actualRound != 0)
+        {
+            difficulty = FightDifficulty.Hard;
+        }
+        else if (actualRound % 3 == 0 && actualRound != 0)
+        {
+            difficulty = FightDifficulty.Medium;
+        }
+        else
+        {
+            difficulty = FightDifficulty.Easy;
+        }
+        ActualFight = FightDatabase.Instance.GetRandomFight(difficulty);
+
         BoardGameUiManager.Instance.fightNameUi.OpenFightNamePanel(ActualFight);
         actualRound ++;
         if(actualRound > 1){

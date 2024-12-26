@@ -82,7 +82,11 @@ public class FightBoardState : BoardState
         } else {
             GameManager.Instance.boardCharacterArray = boardBeforeFightEmpty;
             GameManager.Instance.Player.Level.AddExperience(3);
-            WinFightUi.Instance.OpenWinFightUi(board);
+            if(GameManager.Instance.ActualFight.difficulty != FightDifficulty.Easy){
+                WinFightUi.Instance.OpenWinFightUi(board);
+            }else{
+                GameManager.Instance.GoNextFight();
+            }
         }
         BoardGameUiManager.Instance.characterBoardUi.HideCharacterBoard();
         BoardGameUiManager.Instance.RefreshUI();

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: King Cold
   m_EditorClassIdentifier: 
-  id: 21
+  id: 44
   starNumber: 1
   characterName: King Cold
   role: 1
@@ -25,7 +25,7 @@ MonoBehaviour:
   baseRange: 1
   baseDamage: 150
   baseArmor: 75
-  baseSpeed: 1
+  baseSpeed: 9
   baseAttackSpeed: 0.1
   baseCriticalChance: 5
   idleAnimation: {fileID: 11400000, guid: 285cfb0174ca348e9a0f72f09d2594d7, type: 2}
@@ -37,6 +37,5 @@ MonoBehaviour:
     description: A powerful ki waves shot from both hands.
     animation: {fileID: 11400000, guid: aedeea3b7a6bd4345b9e0c17d1de360d, type: 2}
   deadAnimation: {fileID: 0}
-  characterPassive: []
   synergies:
   - {fileID: 11400000, guid: e6b0f87b761094f0f979685b3c42f23a, type: 2}

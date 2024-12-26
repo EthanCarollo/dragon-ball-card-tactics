@@ -37,6 +37,5 @@ MonoBehaviour:
     description: Huge Kikoha !
     animation: {fileID: 11400000, guid: ef71a7aa0aaaec547ac00c31def2145a, type: 2}
   deadAnimation: {fileID: 0}
-  characterPassive:
-  - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}
-  card: {fileID: 0}
+  synergies:
+  - {fileID: 11400000, guid: 4ba1bf47f6be1489fb5be013c0e05f1e, type: 2}

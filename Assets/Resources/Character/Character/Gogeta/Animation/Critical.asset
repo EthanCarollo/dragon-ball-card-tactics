@@ -14,11 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frameSprites:
   - sprite: {fileID: -9039393657022993727, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
-    time: 0.2
+    time: 0.1
   - sprite: {fileID: 5239572862915007822, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
-    time: 0.2
+    time: 0.1
   - sprite: {fileID: 1850940818539374029, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
-    time: 0.2
+    time: 0.1
   attackFrameIndex: 1
   attackType: 1
   particleAttack: {fileID: 0}
+  kiOnAttack: 10
+  isCinematic: 0
+  effectApplied: []
+  references:
+    version: 2
+    RefIds: []

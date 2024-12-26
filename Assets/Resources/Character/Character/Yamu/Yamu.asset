@@ -37,5 +37,5 @@ MonoBehaviour:
     description: The most basic form of energy blast.
     animation: {fileID: 11400000, guid: 5bf137ae244a14fe5a6cd64f7e721030, type: 2}
   deadAnimation: {fileID: 0}
-  characterPassive: []
-  card: {fileID: 0}
+  synergies:
+  - {fileID: 11400000, guid: 4ba1bf47f6be1489fb5be013c0e05f1e, type: 2}
