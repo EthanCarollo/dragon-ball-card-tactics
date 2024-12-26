@@ -1,6 +1,7 @@
 using UnityEngine.EventSystems;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Linq;
 
 public abstract class UsableCharacterActionCard : Card
 {
@@ -11,29 +12,22 @@ public abstract class UsableCharacterActionCard : Card
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
 
-        if (hit.collider != null)
+        if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() || hit.collider.GetComponent<CharacterPrefabScript>()))
         {
-            TileBehaviour tileScript = hit.collider.GetComponent<TileBehaviour>();
-
-            if (tileScript != null)
-            {
-                if (GameManager.Instance.boardCharacterArray[tileScript.position.x, tileScript.position.y] is
-                        BoardCharacter character &&  character.character.GetCharacterData() == characterFor)
-                {
-                    return character;
-                }
-            }
+            return GameManager.Instance.GetCharactersOnBoard()
+                    .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == characterFor || cha.character.GetCharacterData().sameCharacter.Contains(characterFor));   
         }
         return null;
     }
 
     public override void OnBeginDrag(PointerEventData eventData)
     {
-        CameraScript.Instance.SetupFightCamera();
+        // CameraScript.Instance.SetupFightCamera();
     }
     
     public override void OnDrag(PointerEventData eventData)
     {
+        /*
         if (GetCharacterOnMouse() != null)
         {
             var newMaterial = new Material(ShadersDatabase.Instance.outlineMaterial);
@@ -49,6 +43,7 @@ public abstract class UsableCharacterActionCard : Card
             BoardGameUiManager.Instance.HidePlayCardPanel();
             GameManager.Instance.ResetCharacterShader();
         }
+        */
         if (DraggedActionCard.DraggedCard == null)
         {
             Debug.Log("Drag a character");
@@ -64,16 +59,34 @@ public abstract class UsableCharacterActionCard : Card
         }
         else
         {
+            LeanTween.cancel(DraggedActionCard.DraggedCard);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
+            
+            if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>()))
+            {
+                BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
+                    .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == characterFor || cha.character.GetCharacterData().sameCharacter.Contains(characterFor));
+                if(characterExist != null){
+                    var positionCharacter = BoardUtils.FindPosition(GameManager.Instance.boardCharacterArray, characterExist);
+                    var characterUiPosition = Camera.main.WorldToScreenPoint(new Vector3(positionCharacter.x, positionCharacter.y + 2, 0f));
+                    LeanTween.move(DraggedActionCard.DraggedCard, characterUiPosition, 0.1f).setEaseOutSine();
+                    BoardGameUiManager.Instance.ShowPlayCardPanel();
+                    return;
+                }
+            }
+            BoardGameUiManager.Instance.HidePlayCardPanel();
+            
             Vector3 mousePosition = Input.mousePosition;
             mousePosition.z = 10f; 
-            DraggedActionCard.DraggedCard.transform.position = (mousePosition);
+                LeanTween.move(DraggedActionCard.DraggedCard, new Vector3(mousePosition.x, mousePosition.y, 0f), 0.1f).setEaseOutSine();
         }
     }
 
     public override void OnEndDrag(PointerEventData eventData)
     {
+        BoardGameUiManager.Instance.HidePlayCardPanel();
         GameManager.Instance.ResetCharacterShader();
-        CameraScript.Instance.SetupNormalCamera();
         if (DraggedActionCard.DraggedCard != null)
         {
             MonoBehaviour.Destroy(DraggedActionCard.DraggedCard.gameObject);
@@ -82,23 +95,9 @@ public abstract class UsableCharacterActionCard : Card
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
         
-        if (hit.collider != null)
+        if (hit.collider != null && hit.collider.GetComponent<TileBehaviour>() != null)
         {
-            TileBehaviour tileScript = hit.collider.GetComponent<TileBehaviour>();
-
-            if (tileScript != null)
-            {
-                BoardGameUiManager.Instance.HidePlayCardPanel();
-                this.UseCard();
-            }
-            else
-            {
-                BoardGameUiManager.Instance.HidePlayCardPanel();
-            }
-        }
-        else
-        {
-            BoardGameUiManager.Instance.HidePlayCardPanel();
+            this.UseCard();    
         }
     }
 }

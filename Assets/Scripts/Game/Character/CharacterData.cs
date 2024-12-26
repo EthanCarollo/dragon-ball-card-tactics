@@ -34,6 +34,8 @@ public class CharacterData : ScriptableObject
     public SpecialAttack[] specialAttackAnimation;
     public BoardAnimation deadAnimation;
 
+    public CharacterData[] sameCharacter; // This said if it's the same char than another, useful if we want to upgrade one
+
     public Synergy[] synergies;
     
     public Color GetCharacterColor()

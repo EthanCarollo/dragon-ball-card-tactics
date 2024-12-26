@@ -19,7 +19,7 @@ public class CharacterCard : Card
             return false;
         }
         BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
-            .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character);
+            .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character || cha.character.GetCharacterData().sameCharacter.Contains(character));
         if(characterExist != null){
             return true;
         }
@@ -45,7 +45,7 @@ public class CharacterCard : Card
 
 
             BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
-                    .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character);
+                    .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character || cha.character.GetCharacterData().sameCharacter.Contains(character));
             if(characterExist != null){
                 characterExist.character.AddStar(1);
                 GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
@@ -84,7 +84,7 @@ public class CharacterCard : Card
     {
         CharacterDragInfo.canPlayOnBoardPosition = new Vector2Int(-1, -1);
         BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
-            .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character);
+            .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character || cha.character.GetCharacterData().sameCharacter.Contains(character));
         if(characterExist != null){
             var positionCharacter = BoardUtils.FindPosition(GameManager.Instance.boardCharacterArray, characterExist);
             CharacterDragInfo.canPlayOnBoardPosition = positionCharacter;
@@ -126,9 +126,9 @@ public class CharacterCard : Card
             if (hit.collider != null)
             {
                 TileBehaviour tileScript = hit.collider.GetComponent<TileBehaviour>();
-                if(tileScript != null){
+                if(hit.collider.GetComponent<TileBehaviour>() || hit.collider.GetComponent<CharacterPrefabScript>()){
                     BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
-                        .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character);
+                        .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character || cha.character.GetCharacterData().sameCharacter.Contains(character));
                     if(characterExist != null){
                         var positionCharacter = BoardUtils.FindPosition(GameManager.Instance.boardCharacterArray, characterExist);
                         CharacterDragInfo.canPlayOnBoardPosition = positionCharacter;
