@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 6ed97cb6223144148a6a7fac9c18b26e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2124234219010104648
+    second: vegeta-buu-saga_0
+  - first:
+      213: -481635244103700295
+    second: vegeta-buu-saga_1
+  - first:
+      213: -9174703512737137555
+    second: vegeta-buu-saga_2
+  - first:
+      213: 688309443096258758
+    second: vegeta-buu-saga_3
+  - first:
+      213: -1784592157123571231
+    second: vegeta-buu-saga_4
+  - first:
+      213: -2506853658173602805
+    second: vegeta-buu-saga_5
+  - first:
+      213: 713344193299704627
+    second: vegeta-buu-saga_6
+  - first:
+      213: 663804300837988658
+    second: vegeta-buu-saga_7
+  - first:
+      213: 6058387672644870990
+    second: vegeta-buu-saga_8
+  - first:
+      213: -5103749318043496874
+    second: vegeta-buu-saga_9
+  - first:
+      213: 5499105543051571316
+    second: vegeta-buu-saga_10
+  - first:
+      213: -4351452330532783176
+    second: vegeta-buu-saga_11
+  - first:
+      213: -603516173090164517
+    second: vegeta-buu-saga_12
+  - first:
+      213: 7986245629196799636
+    second: vegeta-buu-saga_13
+  - first:
+      213: -7622549342797117182
+    second: vegeta-buu-saga_14
+  - first:
+      213: 814433540120086097
+    second: vegeta-buu-saga_15
+  - first:
+      213: 6481574250475734846
+    second: vegeta-buu-saga_16
+  - first:
+      213: -2661127828986497590
+    second: vegeta-buu-saga_17
+  - first:
+      213: -5055204866488602868
+    second: vegeta-buu-saga_18
+  - first:
+      213: -914448228954493946
+    second: vegeta-buu-saga_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vegeta-buu-saga_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 366
+        width: 25
+        height: 53
+      alignment: 9
+      pivot: {x: 0.52, y: 0.018867925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b26c248b343582e0800000000000000
+      internalID: -2124234219010104648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 366
+        width: 26
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.018867925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0f3eb1c43e059f0800000000000000
+      internalID: -481635244103700295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 367
+        width: 27
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c36cbc3c7eca080800000000000000
+      internalID: -9174703512737137555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 367
+        width: 27
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8ac4baacd5d8900800000000000000
+      internalID: 688309443096258758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 367
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e193b563eadb37e0800000000000000
+      internalID: -1784592157123571231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_5
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 359
+        width: 28
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b048ca831edd53dd0800000000000000
+      internalID: -2506853658173602805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_6
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 359
+        width: 33
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b673ca3ce46e900800000000000000
+      internalID: 713344193299704627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 359
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23923df9e7e463900800000000000000
+      internalID: 663804300837988658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_8
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 361
+        width: 33
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e436a935d77b31450800000000000000
+      internalID: 6058387672644870990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_9
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 361
+        width: 40
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e006b3907db29b0800000000000000
+      internalID: -5103749318043496874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_10
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 361
+        width: 42
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47078fb1b5fb05c40800000000000000
+      internalID: 5499105543051571316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 311
+        width: 54
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb3c8d09298c93c0800000000000000
+      internalID: -4351452330532783176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_12
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 316
+        width: 54
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0f1c6fc31ef97f0800000000000000
+      internalID: -603516173090164517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 315
+        width: 53
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e8a493618d4de60800000000000000
+      internalID: 7986245629196799636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_14
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 232
+        width: 28
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209c0bb32c3473690800000000000000
+      internalID: -7622549342797117182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 232
+        width: 35
+        height: 51
+      alignment: 9
+      pivot: {x: 0.37142858, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156850c5df27d4b00800000000000000
+      internalID: 814433540120086097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_16
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 225
+        width: 88
+        height: 78
+      alignment: 9
+      pivot: {x: 0.19318183, y: 0.08974359}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37cce0a07d23f950800000000000000
+      internalID: 6481574250475734846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_17
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 259
+        width: 23
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac57a5bb656c11bd0800000000000000
+      internalID: -2661127828986497590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_18
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 225
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fee1225fd48d9b0800000000000000
+      internalID: -5055204866488602868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-buu-saga_19
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 237
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60caea34e2a3f43f0800000000000000
+      internalID: -914448228954493946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 00bb1ebc1746245de8a073bdd5beeb46
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vegeta-buu-saga_0: -2124234219010104648
+      vegeta-buu-saga_1: -481635244103700295
+      vegeta-buu-saga_10: 5499105543051571316
+      vegeta-buu-saga_11: -4351452330532783176
+      vegeta-buu-saga_12: -603516173090164517
+      vegeta-buu-saga_13: 7986245629196799636
+      vegeta-buu-saga_14: -7622549342797117182
+      vegeta-buu-saga_15: 814433540120086097
+      vegeta-buu-saga_16: 6481574250475734846
+      vegeta-buu-saga_17: -2661127828986497590
+      vegeta-buu-saga_18: -5055204866488602868
+      vegeta-buu-saga_19: -914448228954493946
+      vegeta-buu-saga_2: -9174703512737137555
+      vegeta-buu-saga_3: 688309443096258758
+      vegeta-buu-saga_4: -1784592157123571231
+      vegeta-buu-saga_5: -2506853658173602805
+      vegeta-buu-saga_6: 713344193299704627
+      vegeta-buu-saga_7: 663804300837988658
+      vegeta-buu-saga_8: 6058387672644870990
+      vegeta-buu-saga_9: -5103749318043496874
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
