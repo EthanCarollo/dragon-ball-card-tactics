@@ -30,6 +30,24 @@ public class CardDropRate
                 dropRates[(int)CardRarity.Rare] = 20;
                 dropRates[(int)CardRarity.Epic] = 5;
                 break;
+            case 4 : 
+                dropRates[(int)CardRarity.Common] = 20;
+                dropRates[(int)CardRarity.Uncommon] = 40;
+                dropRates[(int)CardRarity.Rare] = 30;
+                dropRates[(int)CardRarity.Epic] = 10;
+                break;
+            case 5 : 
+                dropRates[(int)CardRarity.Common] = 20;
+                dropRates[(int)CardRarity.Uncommon] = 40;
+                dropRates[(int)CardRarity.Rare] = 40;
+                dropRates[(int)CardRarity.Epic] = 20;
+                break;
+            case 6 : 
+                dropRates[(int)CardRarity.Common] = 20;
+                dropRates[(int)CardRarity.Uncommon] = 20;
+                dropRates[(int)CardRarity.Rare] = 30;
+                dropRates[(int)CardRarity.Epic] = 30;
+                break;
             default:
                 Debug.Log($"Current level isn't taken into account, setting basic drop rate. Level: {currentLevel}");
                 dropRates[(int)CardRarity.Common] = 100;

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55017e58dbbc4db1901c7554f19dc6a0, type: 3}
+  m_Name: Transform Vegeta (Majin)
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: -1645830746, guid: d6f3d451363ee1b4bae47969cd2821ea, type: 3}
+    time: 0.2
+  - sprite: {fileID: 1194608247, guid: d6f3d451363ee1b4bae47969cd2821ea, type: 3}
+    time: 0.2
+  - sprite: {fileID: 238111326, guid: d6f3d451363ee1b4bae47969cd2821ea, type: 3}
+    time: 0.2
+  - sprite: {fileID: -539369832, guid: d6f3d451363ee1b4bae47969cd2821ea, type: 3}
+    time: 0.2
+  - sprite: {fileID: 2100922965, guid: d6f3d451363ee1b4bae47969cd2821ea, type: 3}
+    time: 0.2
+  - sprite: {fileID: 755935742, guid: d6f3d451363ee1b4bae47969cd2821ea, type: 3}
+    time: 0.2
+  - sprite: {fileID: -287622076, guid: d6f3d451363ee1b4bae47969cd2821ea, type: 3}
+    time: 0.2
+  - sprite: {fileID: 68899048, guid: d6f3d451363ee1b4bae47969cd2821ea, type: 3}
+    time: 0.2
+  - sprite: {fileID: -438576901, guid: d6f3d451363ee1b4bae47969cd2821ea, type: 3}
+    time: 0.2
+  - sprite: {fileID: 383843560, guid: d6f3d451363ee1b4bae47969cd2821ea, type: 3}
+    time: 0.2
+  - sprite: {fileID: 648816252, guid: d6f3d451363ee1b4bae47969cd2821ea, type: 3}
+    time: 0.2
+  - sprite: {fileID: 291326561, guid: d6f3d451363ee1b4bae47969cd2821ea, type: 3}
+    time: 0.2
+  - sprite: {fileID: -146529730, guid: d6f3d451363ee1b4bae47969cd2821ea, type: 3}
+    time: 0.2
+  - sprite: {fileID: -1859691071, guid: d6f3d451363ee1b4bae47969cd2821ea, type: 3}
+    time: 0.2
+  newCharacterData: {fileID: 11400000, guid: 6bcf45ee515b990478f3afb43f42466a, type: 2}
