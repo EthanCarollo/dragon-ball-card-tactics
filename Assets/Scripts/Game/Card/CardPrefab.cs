@@ -11,7 +11,7 @@ public class CardPrefab : MonoBehaviour
     public TextMeshProUGUI cardDescription;
     protected Card card;
 
-    public void SetupCard(Card card){
+    public virtual void SetupCard(Card card){
         this.GetComponent<Image>().color = card.rarity.GetRarityColor();
         cardImage.sprite = card.image;
         cardName.text = card.name;

@@ -19,6 +19,9 @@ public class WinFightUi : MonoBehaviour
                 foreach (var card in cardPrefab)
                 {
                         card.SetupCard(CardDatabase.Instance.GetRandomCard(dropRate.GetRarityOnDropRate()));
+                        if(card is GetCardPrefab getCardPrefab){
+                                getCardPrefab.isReloadable = true;
+                        }
                 }
         }
 
