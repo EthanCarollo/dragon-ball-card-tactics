@@ -56,6 +56,7 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
         if (CharacterDragInfo.draggedObject == null)
         {
             Debug.Log("Drag a character");
+            CharacterDragInfo.canPlayOnBoardPosition = new Vector2Int(-1, -1);
             CharacterDragInfo.draggedObject = new GameObject("DraggedCharacter");
             Vector3 mousePosition = Input.mousePosition;
             mousePosition.z = 10f; 

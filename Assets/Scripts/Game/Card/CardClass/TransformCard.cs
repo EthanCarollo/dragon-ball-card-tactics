@@ -27,6 +27,7 @@ public class TransformCard : UsableCharacterActionCard
         if(CanUseCard() == false) {
             return;
         }
+        Debug.LogWarning(GetCharacterOnMouse());
         if (GetCharacterOnMouse() != null)
         {
             GetCharacterOnMouse().PlayAnimation(transform);

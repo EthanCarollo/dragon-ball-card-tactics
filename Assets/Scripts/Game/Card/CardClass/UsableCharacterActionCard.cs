@@ -12,10 +12,11 @@ public abstract class UsableCharacterActionCard : Card
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
 
-        if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() || hit.collider.GetComponent<CharacterPrefabScript>()))
+        if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
         {
             return GameManager.Instance.GetCharactersOnBoard()
-                    .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == characterFor || cha.character.GetCharacterData().sameCharacter.Contains(characterFor));   
+                    .Where(cha => cha.isPlayerCharacter).ToList()
+                    .Find(cha => cha.character.GetCharacterData() == characterFor || cha.character.GetCharacterData().sameCharacter.Contains(characterFor));   
         }
         return null;
     }
@@ -63,7 +64,7 @@ public abstract class UsableCharacterActionCard : Card
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
             
-            if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>()))
+            if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
             {
                 BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
                     .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == characterFor || cha.character.GetCharacterData().sameCharacter.Contains(characterFor));
@@ -95,7 +96,7 @@ public abstract class UsableCharacterActionCard : Card
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
         
-        if (hit.collider != null && hit.collider.GetComponent<TileBehaviour>() != null)
+        if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
         {
             this.UseCard();    
         }
