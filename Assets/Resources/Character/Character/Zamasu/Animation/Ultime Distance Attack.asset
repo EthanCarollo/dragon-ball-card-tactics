@@ -12,12 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a6e375b1c34884a52adfdff605e410, type: 3}
   m_Name: Ultime Distance Attack
   m_EditorClassIdentifier: 
-  frameSprites: []
+  frameSprites:
+  - sprite: {fileID: 3467589606561356371, guid: 2d00977622e1d4c4c86acfdfd29fbadf, type: 3}
+    time: 0.2
+  - sprite: {fileID: -8721916233619613436, guid: 2d00977622e1d4c4c86acfdfd29fbadf, type: 3}
+    time: 0.2
+  - sprite: {fileID: 5277721287899041677, guid: 2d00977622e1d4c4c86acfdfd29fbadf, type: 3}
+    time: 0.2
   flySprite:
-    sprite: {fileID: 0}
+    sprite: {fileID: 8706140556310366395, guid: 2d00977622e1d4c4c86acfdfd29fbadf, type: 3}
     time: 0
-  attackFrameIndex: 0
-  projectile: {fileID: 0}
-  particleAttack: {fileID: 0}
+  attackFrameIndex: 1
+  projectile: {fileID: -2770982609282588379, guid: 2d00977622e1d4c4c86acfdfd29fbadf, type: 3}
+  particleAttack: {fileID: 11400000, guid: a05d66441daab4e42b62f1079ed76f45, type: 2}
   attackType: 0
   startMargin: {x: 0, y: 0}
