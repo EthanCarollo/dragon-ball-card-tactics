@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 2d3743b22fa5f47dcaf8da2df29eab4c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4098793279254064135
+    second: zamasu-fusion_0
+  - first:
+      213: -7137466825142894373
+    second: zamasu-fusion_1
+  - first:
+      213: 708642225174144046
+    second: zamasu-fusion_2
+  - first:
+      213: -733743987805200868
+    second: zamasu-fusion_3
+  - first:
+      213: 3258557631546667927
+    second: zamasu-fusion_4
+  - first:
+      213: -6696083217533211140
+    second: zamasu-fusion_5
+  - first:
+      213: -1697019259661179355
+    second: zamasu-fusion_6
+  - first:
+      213: 7647321247962960440
+    second: zamasu-fusion_7
+  - first:
+      213: 4754117566342857401
+    second: zamasu-fusion_8
+  - first:
+      213: -4035493370382895982
+    second: zamasu-fusion_9
+  - first:
+      213: 7850727235001876307
+    second: zamasu-fusion_10
+  - first:
+      213: -1980322758792564165
+    second: zamasu-fusion_11
+  - first:
+      213: 2781318354139793560
+    second: zamasu-fusion_12
+  - first:
+      213: 3355395828994149544
+    second: zamasu-fusion_13
+  - first:
+      213: -1455835998017012709
+    second: zamasu-fusion_14
+  - first:
+      213: 646716273852057296
+    second: zamasu-fusion_15
+  - first:
+      213: -8615284184378397929
+    second: zamasu-fusion_16
+  - first:
+      213: -2462135248442477035
+    second: zamasu-fusion_17
+  - first:
+      213: 5800706976888284783
+    second: zamasu-fusion_18
+  - first:
+      213: -3790636044109147961
+    second: zamasu-fusion_19
+  - first:
+      213: 7875809709424260620
+    second: zamasu-fusion_20
+  - first:
+      213: 6187059023432534834
+    second: zamasu-fusion_21
+  - first:
+      213: -5926493664539248836
+    second: zamasu-fusion_22
+  - first:
+      213: 4145856372361742772
+    second: zamasu-fusion_23
+  - first:
+      213: -2649864637731453731
+    second: zamasu-fusion_24
+  - first:
+      213: -9002552481758257810
+    second: zamasu-fusion_25
+  - first:
+      213: 1176846031968768071
+    second: zamasu-fusion_26
+  - first:
+      213: -4231593478328303266
+    second: zamasu-fusion_27
+  - first:
+      213: -5024056324758413942
+    second: zamasu-fusion_28
+  - first:
+      213: 5675379930819031759
+    second: zamasu-fusion_29
+  - first:
+      213: 8203389739521623991
+    second: zamasu-fusion_30
+  - first:
+      213: -6597380847164242763
+    second: zamasu-fusion_31
+  - first:
+      213: 2261427874386685729
+    second: zamasu-fusion_32
+  - first:
+      213: -4611939772881186168
+    second: zamasu-fusion_33
+  - first:
+      213: -5242813977607004146
+    second: zamasu-fusion_34
+  - first:
+      213: -8743172556781817730
+    second: zamasu-fusion_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zamasu-fusion_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 957
+        width: 30
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0.016949153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c62b965c6d1e830800000000000000
+      internalID: 4098793279254064135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 958
+        width: 33
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0093b0dbf92fc90800000000000000
+      internalID: -7137466825142894373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 958
+        width: 33
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24e858695a95d900800000000000000
+      internalID: 708642225174144046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 958
+        width: 33
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1edaca0bb731d5f0800000000000000
+      internalID: -733743987805200868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_4
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 957
+        width: 35
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0.01923077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7933a7cb6e8b83d20800000000000000
+      internalID: 3258557631546667927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 900
+        width: 38
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd6a708acbb213a0800000000000000
+      internalID: -6696083217533211140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 898
+        width: 50
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52626ea79f9f278e0800000000000000
+      internalID: -1697019259661179355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 898
+        width: 41
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8321124682eb02a60800000000000000
+      internalID: 7647321247962960440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_8
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 898
+        width: 44
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b28f4afcb40af140800000000000000
+      internalID: 4754117566342857401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_9
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 899
+        width: 56
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29432ec192c0ff7c0800000000000000
+      internalID: -4035493370382895982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_10
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 899
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f75c643d263fc60800000000000000
+      internalID: 7850727235001876307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_11
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 824
+        width: 49
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b323c8d61fa7484e0800000000000000
+      internalID: -1980322758792564165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_12
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 824
+        width: 45
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898c6c99e4a399620800000000000000
+      internalID: 2781318354139793560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_13
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 824
+        width: 47
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac06049ab2c09e20800000000000000
+      internalID: 3355395828994149544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_14
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 824
+        width: 46
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c38f68fd4dbcbe0800000000000000
+      internalID: -1455835998017012709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_15
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 820
+        width: 33
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d68a6d460999f800800000000000000
+      internalID: 646716273852057296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 684
+        width: 381
+        height: 128
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 144, y: 0, z: 149, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ba5171eac507880800000000000000
+      internalID: -8615284184378397929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 647
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5163e97590db4ddd0800000000000000
+      internalID: -2462135248442477035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_18
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 650
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f666e831340408050800000000000000
+      internalID: 5800706976888284783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_19
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 639
+        width: 49
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0151ef994f46bc0800000000000000
+      internalID: -3790636044109147961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 548
+        width: 56
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c063ec0f33f7c4d60800000000000000
+      internalID: 7875809709424260620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_21
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 544
+        width: 40
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b4210c669dcd550800000000000000
+      internalID: 6187059023432534834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_22
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 548
+        width: 56
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37f889796dd0cda0800000000000000
+      internalID: -5926493664539248836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_23
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 545
+        width: 49
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9496ca76a098930800000000000000
+      internalID: 4145856372361742772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_24
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 548
+        width: 56
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4c52dc62ac93bd0800000000000000
+      internalID: -2649864637731453731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_25
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 544
+        width: 40
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ddcf42732801380800000000000000
+      internalID: -9002552481758257810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_26
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 541
+        width: 75
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74093da1b3ff45010800000000000000
+      internalID: 1176846031968768071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_27
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 523
+        width: 117
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51c162c62c5645c0800000000000000
+      internalID: -4231593478328303266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_28
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 556
+        width: 33
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d58372467f64ab0800000000000000
+      internalID: -5024056324758413942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_29
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 556
+        width: 33
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc279d54afff2ce40800000000000000
+      internalID: 5675379930819031759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_30
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 556
+        width: 35
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b74542318b48d170800000000000000
+      internalID: 8203389739521623991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_31
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 556
+        width: 33
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b44fcce2156174a0800000000000000
+      internalID: -6597380847164242763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_32
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 556
+        width: 33
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f2cf19ba4326f10800000000000000
+      internalID: 2261427874386685729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_33
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 556
+        width: 33
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882dbef26391fffb0800000000000000
+      internalID: -4611939772881186168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_34
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 556
+        width: 37
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0028490778cd37b0800000000000000
+      internalID: -5242813977607004146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu-fusion_35
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 556
+        width: 33
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70731702e20aa680800000000000000
+      internalID: -8743172556781817730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 40a32ac9716c641f6a6874a5543b7640
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      zamasu-fusion_0: 4098793279254064135
+      zamasu-fusion_1: -7137466825142894373
+      zamasu-fusion_10: 7850727235001876307
+      zamasu-fusion_11: -1980322758792564165
+      zamasu-fusion_12: 2781318354139793560
+      zamasu-fusion_13: 3355395828994149544
+      zamasu-fusion_14: -1455835998017012709
+      zamasu-fusion_15: 646716273852057296
+      zamasu-fusion_16: -8615284184378397929
+      zamasu-fusion_17: -2462135248442477035
+      zamasu-fusion_18: 5800706976888284783
+      zamasu-fusion_19: -3790636044109147961
+      zamasu-fusion_2: 708642225174144046
+      zamasu-fusion_20: 7875809709424260620
+      zamasu-fusion_21: 6187059023432534834
+      zamasu-fusion_22: -5926493664539248836
+      zamasu-fusion_23: 4145856372361742772
+      zamasu-fusion_24: -2649864637731453731
+      zamasu-fusion_25: -9002552481758257810
+      zamasu-fusion_26: 1176846031968768071
+      zamasu-fusion_27: -4231593478328303266
+      zamasu-fusion_28: -5024056324758413942
+      zamasu-fusion_29: 5675379930819031759
+      zamasu-fusion_3: -733743987805200868
+      zamasu-fusion_30: 8203389739521623991
+      zamasu-fusion_31: -6597380847164242763
+      zamasu-fusion_32: 2261427874386685729
+      zamasu-fusion_33: -4611939772881186168
+      zamasu-fusion_34: -5242813977607004146
+      zamasu-fusion_35: -8743172556781817730
+      zamasu-fusion_4: 3258557631546667927
+      zamasu-fusion_5: -6696083217533211140
+      zamasu-fusion_6: -1697019259661179355
+      zamasu-fusion_7: 7647321247962960440
+      zamasu-fusion_8: 4754117566342857401
+      zamasu-fusion_9: -4035493370382895982
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

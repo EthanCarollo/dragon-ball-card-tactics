@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 2d00977622e1d4c4c86acfdfd29fbadf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8706140556310366395
+    second: zamasu_0
+  - first:
+      213: -6198654031592380551
+    second: zamasu_1
+  - first:
+      213: 2076750636268312859
+    second: zamasu_2
+  - first:
+      213: 1037501676595578430
+    second: zamasu_3
+  - first:
+      213: 8707201250434746318
+    second: zamasu_4
+  - first:
+      213: -8822721279172910697
+    second: zamasu_5
+  - first:
+      213: 3062920051409605882
+    second: zamasu_6
+  - first:
+      213: -2294177033644296127
+    second: zamasu_7
+  - first:
+      213: 2272793103609324303
+    second: zamasu_8
+  - first:
+      213: 837494025859393370
+    second: zamasu_9
+  - first:
+      213: 4204938109679666202
+    second: zamasu_10
+  - first:
+      213: 7959959434882139788
+    second: zamasu_11
+  - first:
+      213: 8080081408980631988
+    second: zamasu_12
+  - first:
+      213: 4257772051229297259
+    second: zamasu_13
+  - first:
+      213: 3675066886726340211
+    second: zamasu_14
+  - first:
+      213: 6414829318990660883
+    second: zamasu_15
+  - first:
+      213: 972802712310492119
+    second: zamasu_16
+  - first:
+      213: 6284678396415512809
+    second: zamasu_17
+  - first:
+      213: 8770592285921832045
+    second: zamasu_18
+  - first:
+      213: -6932579882855705466
+    second: zamasu_19
+  - first:
+      213: 3467589606561356371
+    second: zamasu_20
+  - first:
+      213: -8721916233619613436
+    second: zamasu_21
+  - first:
+      213: 5277721287899041677
+    second: zamasu_22
+  - first:
+      213: -2770982609282588379
+    second: zamasu_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zamasu_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 449
+        width: 27
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8408775bc62d870800000000000000
+      internalID: 8706140556310366395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 447
+        width: 27
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977a4690005f9f9a0800000000000000
+      internalID: -6198654031592380551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 445
+        width: 29
+        height: 53
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.018867925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19d6d953b912dc10800000000000000
+      internalID: 2076750636268312859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 446
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e360a572742f56e00800000000000000
+      internalID: 1037501676595578430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 444
+        width: 31
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec70000976136d870800000000000000
+      internalID: 8707201250434746318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_5
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 444
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7916e9acdb56f8580800000000000000
+      internalID: -8822721279172910697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_6
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 444
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4d0b70f8da18a20800000000000000
+      internalID: 3062920051409605882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 387
+        width: 29
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148b5c994227920e0800000000000000
+      internalID: -2294177033644296127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_8
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 387
+        width: 30
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03679439459a8f10800000000000000
+      internalID: 2272793103609324303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 387
+        width: 31
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a576cd811606f9b00800000000000000
+      internalID: 837494025859393370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_10
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 387
+        width: 31
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1485f99ee0fa5a30800000000000000
+      internalID: 4204938109679666202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 387
+        width: 35
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c864baeaee4777e60800000000000000
+      internalID: 7959959434882139788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 394
+        width: 47
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5106383, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1478a3b37322070800000000000000
+      internalID: 8080081408980631988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_13
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 397
+        width: 53
+        height: 31
+      alignment: 9
+      pivot: {x: 0.509434, y: 0.032258064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6acb183f15a61b30800000000000000
+      internalID: 4257772051229297259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 399
+        width: 53
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ecf15bcd5700330800000000000000
+      internalID: 3675066886726340211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_15
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 324
+        width: 32
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3150335474d060950800000000000000
+      internalID: 6414829318990660883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 324
+        width: 54
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbadc7a9e6108d00800000000000000
+      internalID: 972802712310492119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 324
+        width: 40
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e01be134b9a73750800000000000000
+      internalID: 6284678396415512809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_18
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 344
+        width: 28
+        height: 17
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ce628273767b970800000000000000
+      internalID: 8770592285921832045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 344
+        width: 28
+        height: 17
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684dd51b3578acf90800000000000000
+      internalID: -6932579882855705466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_20
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 259
+        width: 32
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a1de5006a5f1030800000000000000
+      internalID: 3467589606561356371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_21
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 259
+        width: 39
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409d36e656785f680800000000000000
+      internalID: -8721916233619613436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_22
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 259
+        width: 40
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f4dbc7c8b3e3940800000000000000
+      internalID: 5277721287899041677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zamasu_23
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 260
+        width: 46
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5212de68ffd7b89d0800000000000000
+      internalID: -2770982609282588379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a722b35706fb54470b1969508aeb1bf7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      zamasu_0: 8706140556310366395
+      zamasu_1: -6198654031592380551
+      zamasu_10: 4204938109679666202
+      zamasu_11: 7959959434882139788
+      zamasu_12: 8080081408980631988
+      zamasu_13: 4257772051229297259
+      zamasu_14: 3675066886726340211
+      zamasu_15: 6414829318990660883
+      zamasu_16: 972802712310492119
+      zamasu_17: 6284678396415512809
+      zamasu_18: 8770592285921832045
+      zamasu_19: -6932579882855705466
+      zamasu_2: 2076750636268312859
+      zamasu_20: 3467589606561356371
+      zamasu_21: -8721916233619613436
+      zamasu_22: 5277721287899041677
+      zamasu_23: -2770982609282588379
+      zamasu_3: 1037501676595578430
+      zamasu_4: 8707201250434746318
+      zamasu_5: -8822721279172910697
+      zamasu_6: 3062920051409605882
+      zamasu_7: -2294177033644296127
+      zamasu_8: 2272793103609324303
+      zamasu_9: 837494025859393370
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
