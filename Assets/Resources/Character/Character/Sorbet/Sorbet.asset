@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Sorbet
+  m_EditorClassIdentifier: 
+  id: 16
+  starNumber: 1
+  characterName: Sorbet
+  role: 0
+  characterType: 3
+  characterSprite: {fileID: -8240176569350768450, guid: 25122460ebd194cffaa5f205365876ee, type: 3}
+  characterIcon: {fileID: 21300000, guid: 95205b958602c4a4dad21937af89bfe1, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 105
+  maxKi: 75
+  baseRange: 10
+  baseDamage: 50
+  baseArmor: 25
+  baseSpeed: 9
+  baseAttackSpeed: 0.45
+  baseCriticalChance: 10
+  idleAnimation: {fileID: 11400000, guid: 3a05bae157dd74d6691eeb3504aeda96, type: 2}
+  runAnimation: {fileID: 11400000, guid: 106d6170c511042068373c98f6403e22, type: 2}
+  attackAnimation: {fileID: 11400000, guid: a8bbb122a259b42819cd67a36b848edc, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: a8bbb122a259b42819cd67a36b848edc, type: 2}
+  specialAttackAnimation:
+  - name: 
+    description: 
+    animation: {fileID: 11400000, guid: a8bbb122a259b42819cd67a36b848edc, type: 2}
+  deadAnimation: {fileID: 0}
+  sameCharacter: []
+  synergies:
+  - {fileID: 11400000, guid: 88ac827794bd8432ca5c1ba12d44fd40, type: 2}
