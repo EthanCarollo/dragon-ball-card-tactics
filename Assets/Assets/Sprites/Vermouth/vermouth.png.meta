@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 0a0ce252cf9354138ab75f2b70440338
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5458564757818363796
+    second: vermouth_0
+  - first:
+      213: 1187194389427062137
+    second: vermouth_1
+  - first:
+      213: -4487269254372200370
+    second: vermouth_2
+  - first:
+      213: 2640031356489969971
+    second: vermouth_3
+  - first:
+      213: -3206394502339899750
+    second: vermouth_4
+  - first:
+      213: 2747273163522664555
+    second: vermouth_5
+  - first:
+      213: -4685555068892149049
+    second: vermouth_6
+  - first:
+      213: -4731081339827903838
+    second: vermouth_7
+  - first:
+      213: 6496097478932097742
+    second: vermouth_8
+  - first:
+      213: -8519090417582513061
+    second: vermouth_9
+  - first:
+      213: -7385150303904361800
+    second: vermouth_10
+  - first:
+      213: -2942598428939185718
+    second: vermouth_11
+  - first:
+      213: 8418970068140348373
+    second: vermouth_12
+  - first:
+      213: 5477838297930053050
+    second: vermouth_13
+  - first:
+      213: 6072795396472386776
+    second: vermouth_14
+  - first:
+      213: -3560678959183974255
+    second: vermouth_15
+  - first:
+      213: 5058298540586576646
+    second: vermouth_16
+  - first:
+      213: -2097544355925808617
+    second: vermouth_17
+  - first:
+      213: 2215986162574175357
+    second: vermouth_18
+  - first:
+      213: 5909796406801492509
+    second: vermouth_19
+  - first:
+      213: -6203092816225149750
+    second: vermouth_20
+  - first:
+      213: 6289731168149086626
+    second: vermouth_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vermouth_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 965
+        width: 26
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6035c206484f34b0800000000000000
+      internalID: -5458564757818363796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 965
+        width: 26
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9750325d103c97010800000000000000
+      internalID: 1187194389427062137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 965
+        width: 26
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40fc9143640ab1c0800000000000000
+      internalID: -4487269254372200370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 974
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3313a7ff78643a420800000000000000
+      internalID: 2640031356489969971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 975
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ec34630399083d0800000000000000
+      internalID: -3206394502339899750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 974
+        width: 47
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b686bb4f266402620800000000000000
+      internalID: 2747273163522664555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_6
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 911
+        width: 37
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca072f6d7099feb0800000000000000
+      internalID: -4685555068892149049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_7
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 911
+        width: 39
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a224187692d75eb0800000000000000
+      internalID: -4731081339827903838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_8
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 911
+        width: 39
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecaee024d36c62a50800000000000000
+      internalID: 6496097478932097742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 910
+        width: 31
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b546f8ab66c16c980800000000000000
+      internalID: -8519090417582513061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_10
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 910
+        width: 43
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b299e24deca28990800000000000000
+      internalID: -7385150303904361800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_11
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 910
+        width: 37
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac11576c15ac927d0800000000000000
+      internalID: -2942598428939185718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_12
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 824
+        width: 76
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3d62edba036d470800000000000000
+      internalID: 8418970068140348373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_13
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 824
+        width: 76
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5b62db8e0350c40800000000000000
+      internalID: 5477838297930053050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_14
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 769
+        width: 83
+        height: 83
+      alignment: 9
+      pivot: {x: 0.80722886, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d43d50fc37e64450800000000000000
+      internalID: 6072795396472386776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_15
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 751
+        width: 120
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190b1a61a5de59ec0800000000000000
+      internalID: -3560678959183974255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_16
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 769
+        width: 32
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b2a8ff8bfa23640800000000000000
+      internalID: 5058298540586576646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_17
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 769
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71aaa64858604e2e0800000000000000
+      internalID: -2097544355925808617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_18
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 769
+        width: 31
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c2a6f8ca3c0ce10800000000000000
+      internalID: 2215986162574175357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_19
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 769
+        width: 31
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a68424580d30250800000000000000
+      internalID: 5909796406801492509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_20
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 768
+        width: 78
+        height: 133
+      alignment: 9
+      pivot: {x: 0.65384614, y: 0.007518797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc5f14f2ff2ae9a0800000000000000
+      internalID: -6203092816225149750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vermouth_21
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 769
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1aa3a4c2d994750800000000000000
+      internalID: 6289731168149086626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6bcdafe409b48437a85fbbd4e57ab4ec
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vermouth_0: -5458564757818363796
+      vermouth_1: 1187194389427062137
+      vermouth_10: -7385150303904361800
+      vermouth_11: -2942598428939185718
+      vermouth_12: 8418970068140348373
+      vermouth_13: 5477838297930053050
+      vermouth_14: 6072795396472386776
+      vermouth_15: -3560678959183974255
+      vermouth_16: 5058298540586576646
+      vermouth_17: -2097544355925808617
+      vermouth_18: 2215986162574175357
+      vermouth_19: 5909796406801492509
+      vermouth_2: -4487269254372200370
+      vermouth_20: -6203092816225149750
+      vermouth_21: 6289731168149086626
+      vermouth_3: 2640031356489969971
+      vermouth_4: -3206394502339899750
+      vermouth_5: 2747273163522664555
+      vermouth_6: -4685555068892149049
+      vermouth_7: -4731081339827903838
+      vermouth_8: 6496097478932097742
+      vermouth_9: -8519090417582513061
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
