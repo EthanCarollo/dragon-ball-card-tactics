@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 875982c274ea44468cc86a0e0fb5ab10, type: 3}
-  m_Name: Vermouth Last Stand
+  m_Script: {fileID: 11500000, guid: 03b16787bc87f453d9d2b4fb52cd1a0f, type: 3}
+  m_Name: Idle
   m_EditorClassIdentifier: 
-  opponents:
-  - characterData: {fileID: 11400000, guid: 4dc85605f45ea45c48a5dc095ee756b8, type: 2}
-    position: {x: 8, y: 5}
-  difficulty: 3
+  frameSprites:
+  - sprite: {fileID: 2070958024, guid: 697423e5ea61fe14f84baaa1fc931346, type: 3}
+    time: 0.2

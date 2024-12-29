@@ -111,7 +111,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -204,12 +204,12 @@ TextureImporter:
       name: c18_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 460
-        width: 26
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 10
+        y: 970
+        width: 19
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: c18_1
       rect:
         serializedVersion: 2
-        x: 51
-        y: 466
-        width: 46
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 34
+        y: 971
+        width: 38
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,12 +248,12 @@ TextureImporter:
       name: c18_2
       rect:
         serializedVersion: 2
-        x: 120
-        y: 469
-        width: 52
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 80
+        y: 969
+        width: 30
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,12 +270,12 @@ TextureImporter:
       name: c18_3
       rect:
         serializedVersion: 2
-        x: 176
-        y: 472
-        width: 53
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 121
+        y: 969
+        width: 42
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,12 +292,12 @@ TextureImporter:
       name: c18_4
       rect:
         serializedVersion: 2
-        x: 14
-        y: 399
-        width: 25
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 171
+        y: 969
+        width: 33
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,12 +314,12 @@ TextureImporter:
       name: c18_5
       rect:
         serializedVersion: 2
-        x: 58
-        y: 399
-        width: 36
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 9
+        y: 907
+        width: 33
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: c18_6
       rect:
         serializedVersion: 2
-        x: 110
-        y: 399
-        width: 35
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 52
+        y: 907
+        width: 25
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -358,12 +358,12 @@ TextureImporter:
       name: c18_7
       rect:
         serializedVersion: 2
-        x: 161
-        y: 402
-        width: 21
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 90
+        y: 907
+        width: 51
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -380,12 +380,12 @@ TextureImporter:
       name: c18_8
       rect:
         serializedVersion: 2
-        x: 200
-        y: 401
+        x: 149
+        y: 907
         width: 47
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -402,12 +402,12 @@ TextureImporter:
       name: c18_9
       rect:
         serializedVersion: 2
-        x: 259
-        y: 401
-        width: 42
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 11
+        y: 840
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -424,12 +424,12 @@ TextureImporter:
       name: c18_10
       rect:
         serializedVersion: 2
-        x: 8
-        y: 342
-        width: 21
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 52
+        y: 840
+        width: 35
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -446,12 +446,12 @@ TextureImporter:
       name: c18_11
       rect:
         serializedVersion: 2
-        x: 39
-        y: 342
-        width: 29
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 97
+        y: 840
+        width: 35
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -468,12 +468,12 @@ TextureImporter:
       name: c18_12
       rect:
         serializedVersion: 2
-        x: 76
-        y: 342
-        width: 32
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 138
+        y: 859
+        width: 40
+        height: 17
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -486,11 +486,429 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: c18_13
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 830
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb5a2771d82842139136acad9d5132d
+      internalID: -1206746053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c18_14
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 768
+        width: 57
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998230bf57bdf48f9ba84a9bd1d4f1dd
+      internalID: 2008290472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c18_15
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 768
+        width: 66
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8facfae7e05d045638d8c6b1230d516e
+      internalID: 381575883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c18_16
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 830
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627dd120ee7b74ac89c96f23cd6917b7
+      internalID: -603160732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c18_17
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 768
+        width: 33
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1746d022b9b4a2194c75916a066084
+      internalID: -1191088461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c18_18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 768
+        width: 30
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4a86308207a430490c4d1ab7ccddba
+      internalID: 596685666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c18_19
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 768
+        width: 44
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb97ab96830e4751943e0c6bdce6570
+      internalID: -1431672724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c18_20
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 806
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7277db160e89b468481984737de26a11
+      internalID: 758829896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c18_21
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 768
+        width: 42
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a02eb6e0a4f4f31933424197c0d5aa
+      internalID: 41012285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c18_22
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 768
+        width: 59
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ab3d79984fd4d23b36d4ed8265b42b
+      internalID: -908374103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c18_23
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 803
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29949eb361d8f4bee818a35dc04e46c1
+      internalID: -826062890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c18_24
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 770
+        width: 71
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500ed65c3a8da47408ca22f83f802017
+      internalID: -1354177599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c18_25
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 770
+        width: 76
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9903a0b6801114ab581e64301bc87fdc
+      internalID: -231802035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c18_26
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 798
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045903331776f4f1a933c9d18c831abf
+      internalID: -1148558221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c18_27
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 793
+        width: 6
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29231e13b21a4d7095a9c37e57488f3
+      internalID: 1728852713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c18_28
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 768
+        width: 64
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01f353eb81024937accb22cfa8457dd
+      internalID: -1580448042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c18_29
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 768
+        width: 40
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337f6061f5396489196ed49e9c23215b
+      internalID: -1321402196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c18_30
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 763
+        width: 68
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717a5b9b4caa640058f66842c248278c
+      internalID: 1360441410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: c18_31
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 787
+        width: 6
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f3e62242f2c4205ac5d018a68c888a
+      internalID: 1868826644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 93487a564fabf44f9b18aa48329526ed
     internalID: 0
     vertices: []
     indices: 
@@ -505,8 +923,27 @@ TextureImporter:
       c18_10: 7984541664452267567
       c18_11: 5051831838762091170
       c18_12: -5488456138415958439
+      c18_13: -1206746053
+      c18_14: 2008290472
+      c18_15: 381575883
+      c18_16: -603160732
+      c18_17: -1191088461
+      c18_18: 596685666
+      c18_19: -1431672724
       c18_2: 1843946587242602415
+      c18_20: 758829896
+      c18_21: 41012285
+      c18_22: -908374103
+      c18_23: -826062890
+      c18_24: -1354177599
+      c18_25: -231802035
+      c18_26: -1148558221
+      c18_27: 1728852713
+      c18_28: -1580448042
+      c18_29: -1321402196
       c18_3: 6439383511356069145
+      c18_30: 1360441410
+      c18_31: 1868826644
       c18_4: 6959008201051676899
       c18_5: 6796861635465415600
       c18_6: 4015770621081015243
