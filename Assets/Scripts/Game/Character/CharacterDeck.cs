@@ -139,8 +139,9 @@ public class CharacterContainer
         {
             totalAdditionalAttack += effect.attackBonus;
         }
-        
-        
+
+        totalAdditionalAttack += (characterStar - 1) * 10;
+
         return Mathf.FloorToInt((GetCharacterData().baseDamage + totalAdditionalAttack)  * powerMultiplicator);
     }
 
@@ -170,11 +171,14 @@ public class CharacterContainer
                 maxHealth += bonus.maxHpBonus;   
             }
         }
+        maxHealth += (characterStar - 1) * 40;
         return maxHealth;
     }
     public int GetCharacterMaxKi()
     {
-        return GetCharacterData().maxKi;
+        int maxKi = GetCharacterData().maxKi;
+        maxKi -= (characterStar - 1) * 2;
+        return maxKi;
     }
     public float GetAttackSpeed()
     {
@@ -195,6 +199,7 @@ public class CharacterContainer
         {
             attackSpeed += effect.attackSpeedBonus;
         }
+        attackSpeed += (float)((characterStar - 1) * 0.05);
         return attackSpeed;
     }
     public int GetCriticalChance()
@@ -211,11 +216,16 @@ public class CharacterContainer
                 criticalChance += bonus.criticalChanceBonus; 
             }
         }
+        criticalChance += (characterStar - 1) * 2;
         return criticalChance;
     }
     public int GetRange()
     {
-        return GetCharacterData().baseRange;
+        var range = GetCharacterData().baseRange;
+        if(range > 1){
+            range += characterStar - 1;
+        }
+        return range;
     }
     public Synergy[] GetSynergies()
     {
