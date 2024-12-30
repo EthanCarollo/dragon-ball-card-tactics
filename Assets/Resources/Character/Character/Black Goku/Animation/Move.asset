@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Move
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: 4753021466295641421, guid: 4e2f07d1ce5504ad18f2e8ab145d9b64, type: 3}
+  - sprite: {fileID: -808836393704553343, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
     time: 0.2
-  - sprite: {fileID: -5346264285456251476, guid: 4e2f07d1ce5504ad18f2e8ab145d9b64, type: 3}
+  - sprite: {fileID: -2231337429691621588, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
     time: 0.2
-  - sprite: {fileID: -5635709091735696644, guid: 4e2f07d1ce5504ad18f2e8ab145d9b64, type: 3}
+  - sprite: {fileID: -5967792995211446037, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
     time: 0.2

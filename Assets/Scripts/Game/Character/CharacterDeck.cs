@@ -77,6 +77,7 @@ public class CharacterContainer
 
     public void AddStar(int starNumber){
         characterStar += starNumber;
+        NotifyCharacterChanged();
     }
     
     public CharacterContainer(int characterId, int actualHealth, int actualKi, int starNumber)
