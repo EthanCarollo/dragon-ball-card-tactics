@@ -31,6 +31,9 @@ public class BoardGameUiManager : MonoBehaviour
     public GameObject synergyPrefab;
     
     public FightNameUi fightNameUi;
+
+    public Transform roundIndicatorContainer;
+    public Transform roundIndicatorIcon;
     
     public void Awake()
     {
@@ -42,10 +45,30 @@ public class BoardGameUiManager : MonoBehaviour
 
     }
 
-    public void SetupRoundText(string roundNumber)
+    public void SetupRoundText(int roundNumber)
     {
+        foreach(Transform children in roundIndicatorContainer)
+        {
+            Destroy(children.gameObject);
+        }
+
+        var maxRound = 7;
+        for (int i = 0; i < maxRound; i++)
+        {
+            var goRoundIndicator = Instantiate(roundIndicatorIcon, roundIndicatorContainer);
+            if((roundNumber + i) % 12 == 0){
+                goRoundIndicator.GetComponent<Image>().color = new Color(1f, 0.2f, 0.2f);
+            } else if((roundNumber + i) % 6 == 0){
+                goRoundIndicator.GetComponent<Image>().color = new Color(1f, 0.7f, 0.7f);
+            } else if((roundNumber + i) % 3 == 0){
+                goRoundIndicator.GetComponent<Image>().color = new Color(0.7f, 1f, 1f);
+            } else {
+                goRoundIndicator.GetComponent<Image>().color = new Color(0.7f, 0.7f, 0.7f);
+            }
+        }
+
         try {
-            roundText.text = "Round " + roundNumber;
+            roundText.text = "Round " + roundNumber.ToString();
         } catch {
             Debug.Log("Got an error on setup round text");
         }

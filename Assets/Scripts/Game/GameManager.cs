@@ -81,7 +81,7 @@ public class GameManager
             difficultyMutliplicator += 0.05f;
         }
         Debug.Log("Chosed fight is : " + ActualFight.name);
-        BoardGameUiManager.Instance.SetupRoundText(actualRound.ToString());
+        BoardGameUiManager.Instance.SetupRoundText(actualRound);
         CleanGameBoard();
         foreach (var characterContainerFight in ActualFight.opponents)
         {

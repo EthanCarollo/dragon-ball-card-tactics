@@ -19,14 +19,23 @@ public class CharacterCard : Card
             return false;
         }
         try {
-            BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
-            .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character || cha.character.GetCharacterData().sameCharacter.Contains(character));
+            var characterList = GameManager.Instance.GetCharactersOnBoard().Where(cha => cha.isPlayerCharacter).ToList();
+            BoardCharacter characterExist = characterList.Find((cha) => {
+                if(cha.character == null){
+                    Debug.Log("BoardCharacter character isn't set.");
+                    return false;
+                }
+                return 
+                cha.character.GetCharacterData() == character 
+                || cha.character.GetCharacterData().sameCharacter.Contains(character);
+                }
+            );
             if(characterExist != null){
                 return true;
             }
         } catch (Exception error)
         {
-            Debug.Log("Error with card for the character : " + character.characterName);
+            Debug.Log("Error with card for the character : " + character.characterName + ", " + error.ToString());
         }
         if(GameManager.Instance.Player.Level.maxUnit <= GameManager.Instance.GetCharactersOnBoard().Where(character => character.isPlayerCharacter).Count()){
             return false;
