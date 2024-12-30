@@ -13,14 +13,30 @@ MonoBehaviour:
   m_Name: Special
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: -1820049293, guid: 697423e5ea61fe14f84baaa1fc931346, type: 3}
+  - sprite: {fileID: -1191088461, guid: 51cabd0e121f6134a8a88a2750a0c99a, type: 3}
+    time: 0.1
+  - sprite: {fileID: 596685666, guid: 51cabd0e121f6134a8a88a2750a0c99a, type: 3}
+    time: 0.1
+  - sprite: {fileID: -1431672724, guid: 51cabd0e121f6134a8a88a2750a0c99a, type: 3}
+    time: 0.1
+  - sprite: {fileID: 41012285, guid: 51cabd0e121f6134a8a88a2750a0c99a, type: 3}
+    time: 0.05
+  - sprite: {fileID: -908374103, guid: 51cabd0e121f6134a8a88a2750a0c99a, type: 3}
+    time: 0.05
+  - sprite: {fileID: 2008290472, guid: 51cabd0e121f6134a8a88a2750a0c99a, type: 3}
+    time: 0.05
+  - sprite: {fileID: -1580448042, guid: 51cabd0e121f6134a8a88a2750a0c99a, type: 3}
+    time: 0.05
+  - sprite: {fileID: -1321402196, guid: 51cabd0e121f6134a8a88a2750a0c99a, type: 3}
     time: 0.2
-  - sprite: {fileID: -1949240650, guid: 697423e5ea61fe14f84baaa1fc931346, type: 3}
-    time: 0.2
-  - sprite: {fileID: -832122033, guid: 697423e5ea61fe14f84baaa1fc931346, type: 3}
-    time: 0.2
-  attackFrameIndex: 1
-  projectile: {fileID: -197754676, guid: 697423e5ea61fe14f84baaa1fc931346, type: 3}
+  attackFrameIndex: 6
+  projectile: {fileID: 1360441410, guid: 51cabd0e121f6134a8a88a2750a0c99a, type: 3}
   particleAttack: {fileID: 11400000, guid: a05d66441daab4e42b62f1079ed76f45, type: 2}
   attackType: 0
   startMargin: {x: 0.5, y: 0.7}
+  kiOnAttack: 10
+  otherTarget: 0
+  effectApplied: []
+  references:
+    version: 2
+    RefIds: []

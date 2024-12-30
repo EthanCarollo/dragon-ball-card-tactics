@@ -20,23 +20,23 @@ MonoBehaviour:
   characterSprite: {fileID: -4256168470094214599, guid: 51cabd0e121f6134a8a88a2750a0c99a, type: 3}
   characterIcon: {fileID: 21300000, guid: 0acc0ade6159c7946b85fdbff82f1431, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 190
-  maxKi: 75
-  baseRange: 5
-  baseDamage: 50
+  maxHealth: 205
+  maxKi: 60
+  baseRange: 9
+  baseDamage: 45
   baseArmor: 25
-  baseSpeed: 2
-  baseAttackSpeed: 0.7
-  baseCriticalChance: 10
-  idleAnimation: {fileID: 11400000, guid: fbba16538211ae74ba8de4f9f9b92197, type: 2}
-  runAnimation: {fileID: 11400000, guid: 9d19ff9085547d049b4cc4256f4b1df8, type: 2}
-  attackAnimation: {fileID: 11400000, guid: e0446bacbc0bac947a0f5d959f48eac2, type: 2}
-  criticalAttackAnimation: {fileID: 11400000, guid: e0446bacbc0bac947a0f5d959f48eac2, type: 2}
+  baseSpeed: 7
+  baseAttackSpeed: 0.9
+  baseCriticalChance: 20
+  idleAnimation: {fileID: 11400000, guid: 3fb2145b17633491c9c92365bf27c54c, type: 2}
+  runAnimation: {fileID: 11400000, guid: 4d8123085d68e4d9ea87729dfce36ebc, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 736a7feed32b548968a5cb8e2ae2bdef, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 736a7feed32b548968a5cb8e2ae2bdef, type: 2}
   specialAttackAnimation:
-  - name: 
+  - name: Kienzan
     description: 
-    animation: {fileID: 11400000, guid: e0446bacbc0bac947a0f5d959f48eac2, type: 2}
+    animation: {fileID: 11400000, guid: e14a6fd210d0142779769ae48e7e4b76, type: 2}
   deadAnimation: {fileID: 0}
   sameCharacter: []
   synergies:
-  - {fileID: 11400000, guid: 88ac827794bd8432ca5c1ba12d44fd40, type: 2}
+  - {fileID: 11400000, guid: 2cb9ba8a614734a358c15cedc22a075f, type: 2}

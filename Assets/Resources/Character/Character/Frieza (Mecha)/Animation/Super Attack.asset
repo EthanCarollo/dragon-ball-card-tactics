@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae6dad8ff1b884d2ea3c2a618cd48846, type: 3}
-  m_Name: Attack
+  m_Name: Super Attack
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: -7763157053095706564, guid: 51cabd0e121f6134a8a88a2750a0c99a, type: 3}
+  - sprite: {fileID: -7655339387488556441, guid: 8d572925844034e3f9b9fc7934e9457c, type: 3}
     time: 0.2
-  - sprite: {fileID: 7984541664452267567, guid: 51cabd0e121f6134a8a88a2750a0c99a, type: 3}
-    time: 0.2
-  - sprite: {fileID: 5051831838762091170, guid: 51cabd0e121f6134a8a88a2750a0c99a, type: 3}
+  - sprite: {fileID: 794774475261688300, guid: 8d572925844034e3f9b9fc7934e9457c, type: 3}
     time: 0.2
   attackFrameIndex: 1
   projectile: {fileID: -197754676, guid: 697423e5ea61fe14f84baaa1fc931346, type: 3}
@@ -25,8 +23,3 @@ MonoBehaviour:
   attackType: 0
   startMargin: {x: 0.5, y: 0.7}
   kiOnAttack: 10
-  otherTarget: 0
-  effectApplied: []
-  references:
-    version: 2
-    RefIds: []

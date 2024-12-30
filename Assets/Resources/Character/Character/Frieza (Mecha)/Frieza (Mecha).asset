@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Frieza (Mecha)
+  m_EditorClassIdentifier: 
+  id: 40
+  starNumber: 1
+  characterName: Frieza
+  role: 0
+  characterType: 3
+  characterSprite: {fileID: 7360262359207310521, guid: 8d572925844034e3f9b9fc7934e9457c, type: 3}
+  characterIcon: {fileID: 21300000, guid: 707e534d5354c4816892a22600724e37, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 105
+  maxKi: 75
+  baseRange: 5
+  baseDamage: 50
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 0.7
+  baseCriticalChance: 10
+  idleAnimation: {fileID: 11400000, guid: 5a62ec735db3049e9831499e91b7d51a, type: 2}
+  runAnimation: {fileID: 11400000, guid: 58b94764e756241e7afcbb50543b0ea9, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 35e3f7a6b227d4062ba24702d19ec979, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 35e3f7a6b227d4062ba24702d19ec979, type: 2}
+  specialAttackAnimation:
+  - name: Super Ki Blast
+    description: 'Ultra Ki Blast \n Passive : Normal attack gives poison effect to
+      Enemy.'
+    animation: {fileID: 11400000, guid: bacece1307f8b4a998028a96487db7dc, type: 2}
+  deadAnimation: {fileID: 0}
+  characterPassive:
+  - {fileID: 11400000, guid: b0628bb2954aa4b5684ecfa5e1ac8d72, type: 2}
+  synergies:
+  - {fileID: 11400000, guid: e6b0f87b761094f0f979685b3c42f23a, type: 2}
+  - {fileID: 11400000, guid: d650a485b7943417bb2b531cc2a4ba90, type: 2}

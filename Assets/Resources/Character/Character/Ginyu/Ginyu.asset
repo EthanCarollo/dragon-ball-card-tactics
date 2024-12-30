@@ -37,5 +37,8 @@ MonoBehaviour:
     description: Blast of ki.
     animation: {fileID: 11400000, guid: 02deafa69b34dd247ab66b67066796f3, type: 2}
   deadAnimation: {fileID: 0}
+  sameCharacter:
+  - {fileID: 11400000, guid: b00ad6bcfd65940628097d8b93880ad7, type: 2}
+  - {fileID: 11400000, guid: 5f7905abf5ecf41b480c80f211b9c164, type: 2}
   synergies:
   - {fileID: 11400000, guid: 88ac827794bd8432ca5c1ba12d44fd40, type: 2}

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Idle
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: -4256168470094214599, guid: 51cabd0e121f6134a8a88a2750a0c99a, type: 3}
+  - sprite: {fileID: 7360262359207310521, guid: 8d572925844034e3f9b9fc7934e9457c, type: 3}
     time: 0.2
