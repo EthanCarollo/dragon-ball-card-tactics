@@ -39,6 +39,7 @@ MonoBehaviour:
   deadAnimation: {fileID: 0}
   sameCharacter:
   - {fileID: 11400000, guid: f9b20bbaea69544a397d0f57a57b3a89, type: 2}
+  - {fileID: 11400000, guid: b255e1f905a4e4ce7831d56473c2f166, type: 2}
   synergies:
   - {fileID: 11400000, guid: e6b0f87b761094f0f979685b3c42f23a, type: 2}
   - {fileID: 11400000, guid: d650a485b7943417bb2b531cc2a4ba90, type: 2}

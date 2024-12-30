@@ -38,8 +38,9 @@ MonoBehaviour:
       Enemy.'
     animation: {fileID: 11400000, guid: bacece1307f8b4a998028a96487db7dc, type: 2}
   deadAnimation: {fileID: 0}
-  characterPassive:
-  - {fileID: 11400000, guid: b0628bb2954aa4b5684ecfa5e1ac8d72, type: 2}
+  sameCharacter:
+  - {fileID: 11400000, guid: b255e1f905a4e4ce7831d56473c2f166, type: 2}
+  - {fileID: 11400000}
   synergies:
   - {fileID: 11400000, guid: e6b0f87b761094f0f979685b3c42f23a, type: 2}
   - {fileID: 11400000, guid: d650a485b7943417bb2b531cc2a4ba90, type: 2}

@@ -13,14 +13,18 @@ MonoBehaviour:
   m_Name: Super Attack
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: -5200596506904896208, guid: e531444d4332d4270b160d536f8b15ba, type: 3}
+  - sprite: {fileID: 8504493130093554033, guid: 3b66a84cb46aa4012a49f5b8b1f78f96, type: 3}
     time: 0.15
-  - sprite: {fileID: 6320141406313200617, guid: e531444d4332d4270b160d536f8b15ba, type: 3}
+  - sprite: {fileID: -7898162164098192258, guid: 3b66a84cb46aa4012a49f5b8b1f78f96, type: 3}
     time: 0.15
-  - sprite: {fileID: 6825980284156842333, guid: e531444d4332d4270b160d536f8b15ba, type: 3}
+  - sprite: {fileID: -803763345622097259, guid: 3b66a84cb46aa4012a49f5b8b1f78f96, type: 3}
     time: 0.15
-  attackFrameIndex: 1
-  projectile: {fileID: -5985534430557023536, guid: e531444d4332d4270b160d536f8b15ba, type: 3}
+  - sprite: {fileID: 1453780698366387556, guid: 3b66a84cb46aa4012a49f5b8b1f78f96, type: 3}
+    time: 0.15
+  - sprite: {fileID: 4719408500556060968, guid: 3b66a84cb46aa4012a49f5b8b1f78f96, type: 3}
+    time: 0.15
+  attackFrameIndex: 3
+  projectile: {fileID: 775857719216316558, guid: 3b66a84cb46aa4012a49f5b8b1f78f96, type: 3}
   particleAttack: {fileID: 11400000, guid: a05d66441daab4e42b62f1079ed76f45, type: 2}
   attackType: 0
   startMargin: {x: 0.5, y: 0.7}

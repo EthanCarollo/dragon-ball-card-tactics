@@ -85,7 +85,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -99,7 +99,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 34
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,7 +123,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -155,8 +155,8 @@ TextureImporter:
         y: 457
         width: 34
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.020833334}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -176,9 +176,9 @@ TextureImporter:
         x: 49
         y: 457
         width: 34
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.020833334}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -196,11 +196,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 84
-        y: 458
+        y: 457
         width: 34
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.020833334}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -221,8 +221,8 @@ TextureImporter:
         y: 457
         width: 33
         height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5151515, y: 0.020833334}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -239,12 +239,12 @@ TextureImporter:
       name: kaioshin_4
       rect:
         serializedVersion: 2
-        x: 164
-        y: 459
-        width: 44
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 165
+        y: 460
+        width: 42
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -261,12 +261,12 @@ TextureImporter:
       name: kaioshin_5
       rect:
         serializedVersion: 2
-        x: 5
-        y: 401
-        width: 31
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 6
+        y: 402
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -283,12 +283,12 @@ TextureImporter:
       name: kaioshin_6
       rect:
         serializedVersion: 2
-        x: 39
-        y: 401
-        width: 46
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 40
+        y: 402
+        width: 44
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -305,12 +305,12 @@ TextureImporter:
       name: kaioshin_7
       rect:
         serializedVersion: 2
-        x: 89
-        y: 401
-        width: 35
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 90
+        y: 402
+        width: 33
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -327,12 +327,12 @@ TextureImporter:
       name: kaioshin_8
       rect:
         serializedVersion: 2
-        x: 130
-        y: 416
-        width: 50
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 131
+        y: 417
+        width: 48
+        height: 20
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -349,12 +349,12 @@ TextureImporter:
       name: kaioshin_9
       rect:
         serializedVersion: 2
-        x: 8
-        y: 292
+        x: 48
+        y: 345
         width: 32
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -371,12 +371,12 @@ TextureImporter:
       name: kaioshin_10
       rect:
         serializedVersion: 2
-        x: 47
-        y: 344
-        width: 34
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 293
+        width: 54
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -393,12 +393,12 @@ TextureImporter:
       name: kaioshin_11
       rect:
         serializedVersion: 2
-        x: 61
-        y: 292
-        width: 32
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 161
+        y: 293
+        width: 64
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -415,12 +415,12 @@ TextureImporter:
       name: kaioshin_12
       rect:
         serializedVersion: 2
-        x: 95
-        y: 292
-        width: 56
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 246
+        y: 293
+        width: 64
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -437,12 +437,12 @@ TextureImporter:
       name: kaioshin_13
       rect:
         serializedVersion: 2
-        x: 160
-        y: 292
-        width: 66
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 394
+        y: 309
+        width: 64
+        height: 50
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -459,12 +459,12 @@ TextureImporter:
       name: kaioshin_14
       rect:
         serializedVersion: 2
-        x: 245
-        y: 292
-        width: 66
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 9
+        y: 293
+        width: 30
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -481,12 +481,12 @@ TextureImporter:
       name: kaioshin_15
       rect:
         serializedVersion: 2
-        x: 350
-        y: 292
-        width: 31
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 62
+        y: 293
+        width: 30
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -503,12 +503,12 @@ TextureImporter:
       name: kaioshin_16
       rect:
         serializedVersion: 2
-        x: 393
-        y: 308
-        width: 66
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 351
+        y: 293
+        width: 29
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -525,7 +525,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 64699ed60683a437e9e476fe39f74cc9
     internalID: 0
     vertices: []
     indices: 
@@ -534,7 +534,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kaioshin_0: -5582856787706892414
+      kaioshin_1: 461537416528449078
+      kaioshin_10: -7898162164098192258
+      kaioshin_11: -803763345622097259
+      kaioshin_12: 1453780698366387556
+      kaioshin_13: 775857719216316558
+      kaioshin_14: -411385479108207070
+      kaioshin_15: 8504493130093554033
+      kaioshin_16: 4719408500556060968
+      kaioshin_2: 3078377829393132267
+      kaioshin_3: 8287525137902486833
+      kaioshin_4: 130971536018343120
+      kaioshin_5: 2324587295310200047
+      kaioshin_6: -2430535907437078799
+      kaioshin_7: 5068145965975147824
+      kaioshin_8: -8388494677465137
+      kaioshin_9: -8583770094812692685
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
