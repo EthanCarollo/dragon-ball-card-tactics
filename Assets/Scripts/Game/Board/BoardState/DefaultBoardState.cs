@@ -1,5 +1,6 @@
 ﻿
 using System.Collections.Generic;
+using UnityEngine;
 
 public class DefaultBoardState : BoardState
 {
@@ -11,13 +12,12 @@ public class DefaultBoardState : BoardState
 
     public override void Start()
     {
-        
+        BoardGameUiManager.Instance.launchFightButton.SetActive(true);
+        CardUi.Instance.ShowCardUi();
     }
 
     public override void Update()
     {
-        BoardGameUiManager.Instance.launchFightButton.SetActive(true);
-        CardUi.Instance.ShowCardUi();
         for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
         {
             for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
@@ -39,13 +39,15 @@ public class DefaultBoardState : BoardState
         
     }
 
-    public override void EndCinematic()
-    {
-        
-    }
 
     public override void LaunchCinematic()
     {
-        
+        BoardGameUiManager.Instance.launchFightButton.SetActive(false);
+        CardUi.Instance.HideCardUi();
+    }
+    public override void EndCinematic()
+    {
+        BoardGameUiManager.Instance.launchFightButton.SetActive(true);
+        CardUi.Instance.ShowCardUi();
     }
 }
