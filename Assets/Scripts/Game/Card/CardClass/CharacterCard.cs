@@ -18,10 +18,15 @@ public class CharacterCard : Card
         if(manaCost > GameManager.Instance.Player.Mana.CurrentMana){
             return false;
         }
-        BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
+        try {
+            BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
             .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character || cha.character.GetCharacterData().sameCharacter.Contains(character));
-        if(characterExist != null){
-            return true;
+            if(characterExist != null){
+                return true;
+            }
+        } catch (Exception error)
+        {
+            Debug.Log("Error with card for the character : " + character.characterName);
         }
         if(GameManager.Instance.Player.Level.maxUnit <= GameManager.Instance.GetCharactersOnBoard().Where(character => character.isPlayerCharacter).Count()){
             return false;

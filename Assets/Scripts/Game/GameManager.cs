@@ -57,7 +57,11 @@ public class GameManager
     public void GoNextFight()
     {
         FightDifficulty difficulty;
-        if (actualRound % 6 == 0 && actualRound != 0)
+        if (actualRound % 12 == 0 && actualRound != 0)
+        {
+            difficulty = FightDifficulty.Hardcore;
+        }
+        else if (actualRound % 6 == 0 && actualRound != 0)
         {
             difficulty = FightDifficulty.Hard;
         }
