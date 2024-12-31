@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 1f14e39a166ed43ebb2fd957e946a2bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2627198682816057133
+    second: frieza-soldier_0
+  - first:
+      213: 4137338832046368940
+    second: frieza-soldier_1
+  - first:
+      213: 3925357459015892222
+    second: frieza-soldier_2
+  - first:
+      213: 6601743728344371223
+    second: frieza-soldier_3
+  - first:
+      213: -910578381210570830
+    second: frieza-soldier_4
+  - first:
+      213: -1483992440061890093
+    second: frieza-soldier_5
+  - first:
+      213: -3956612586772529183
+    second: frieza-soldier_6
+  - first:
+      213: 242837262473664361
+    second: frieza-soldier_7
+  - first:
+      213: -7595855220434667695
+    second: frieza-soldier_8
+  - first:
+      213: -645248235472131048
+    second: frieza-soldier_9
+  - first:
+      213: -4584531136556989032
+    second: frieza-soldier_10
+  - first:
+      213: 8756836570023466165
+    second: frieza-soldier_11
+  - first:
+      213: 8299597671628602004
+    second: frieza-soldier_12
+  - first:
+      213: -1727353690608738556
+    second: frieza-soldier_13
+  - first:
+      213: -5744431686836145530
+    second: frieza-soldier_14
+  - first:
+      213: -431174680353650931
+    second: frieza-soldier_15
+  - first:
+      213: -1597020809175650650
+    second: frieza-soldier_16
+  - first:
+      213: 5933557411929305488
+    second: frieza-soldier_17
+  - first:
+      213: 1556846985485214906
+    second: frieza-soldier_18
+  - first:
+      213: -1189368825903022012
+    second: frieza-soldier_19
+  - first:
+      213: -2814953291025126071
+    second: frieza-soldier_20
+  - first:
+      213: 1440685843119379882
+    second: frieza-soldier_21
+  - first:
+      213: -8913934945835991017
+    second: frieza-soldier_22
+  - first:
+      213: -6097627133322424696
+    second: frieza-soldier_23
+  - first:
+      213: 2657534480296800217
+    second: frieza-soldier_24
+  - first:
+      213: -1863232598843754587
+    second: frieza-soldier_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: frieza-soldier_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 453
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f00a3584fa57420800000000000000
+      internalID: 2627198682816057133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 453
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8ad874fb7ca6930800000000000000
+      internalID: 4137338832046368940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 453
+        width: 34
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc7211cfcba97630800000000000000
+      internalID: 3925357459015892222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 453
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710112281fa1e9b50800000000000000
+      internalID: 6601743728344371223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_4
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 454
+        width: 41
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf2bc769c9fc53f0800000000000000
+      internalID: -910578381210570830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 457
+        width: 52
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1feb00dbcc76be0800000000000000
+      internalID: -1483992440061890093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_6
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 460
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef759bb0d94719c0800000000000000
+      internalID: -3956612586772529183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_7
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 389
+        width: 43
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96798ff143bbe5300800000000000000
+      internalID: 242837262473664361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 389
+        width: 55
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157f1bcebe9169690800000000000000
+      internalID: -7595855220434667695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 388
+        width: 46
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c6cb4062e9b07f0800000000000000
+      internalID: -645248235472131048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_10
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 388
+        width: 35
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8958dcf98397060c0800000000000000
+      internalID: -4584531136556989032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 388
+        width: 38
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b41668f678868970800000000000000
+      internalID: 8756836570023466165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_12
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 388
+        width: 39
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49af414fb181e2370800000000000000
+      internalID: 8299597671628602004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 313
+        width: 30
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f5ec568f43708e0800000000000000
+      internalID: -1727353690608738556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_14
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 313
+        width: 30
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68232ade0dda740b0800000000000000
+      internalID: -5744431686836145530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_15
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 313
+        width: 37
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07c065a9e8240af0800000000000000
+      internalID: -431174680353650931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_16
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 313
+        width: 37
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aead22190e36d9e0800000000000000
+      internalID: -1597020809175650650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_17
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 313
+        width: 39
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091be60670b385250800000000000000
+      internalID: 5933557411929305488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_18
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 313
+        width: 44
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4eb73b5180b9510800000000000000
+      internalID: 1556846985485214906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_19
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 313
+        width: 44
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4408029ba538e7fe0800000000000000
+      internalID: -1189368825903022012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_20
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 313
+        width: 46
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d612565e64fe8d0800000000000000
+      internalID: -2814953291025126071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_21
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 313
+        width: 52
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5901824285ef310800000000000000
+      internalID: 1440685843119379882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_22
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 313
+        width: 40
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710418215675b4480800000000000000
+      internalID: -8913934945835991017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_23
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 314
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e8889cd60e06ba0800000000000000
+      internalID: -6097627133322424696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_24
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 311
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df6174978571e420800000000000000
+      internalID: 2657534480296800217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-soldier_25
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 315
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a77dfbb2d77426e0800000000000000
+      internalID: -1863232598843754587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 85450b2e08df949388aeb9b2622d1090
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      frieza-soldier_0: 2627198682816057133
+      frieza-soldier_1: 4137338832046368940
+      frieza-soldier_10: -4584531136556989032
+      frieza-soldier_11: 8756836570023466165
+      frieza-soldier_12: 8299597671628602004
+      frieza-soldier_13: -1727353690608738556
+      frieza-soldier_14: -5744431686836145530
+      frieza-soldier_15: -431174680353650931
+      frieza-soldier_16: -1597020809175650650
+      frieza-soldier_17: 5933557411929305488
+      frieza-soldier_18: 1556846985485214906
+      frieza-soldier_19: -1189368825903022012
+      frieza-soldier_2: 3925357459015892222
+      frieza-soldier_20: -2814953291025126071
+      frieza-soldier_21: 1440685843119379882
+      frieza-soldier_22: -8913934945835991017
+      frieza-soldier_23: -6097627133322424696
+      frieza-soldier_24: 2657534480296800217
+      frieza-soldier_25: -1863232598843754587
+      frieza-soldier_3: 6601743728344371223
+      frieza-soldier_4: -910578381210570830
+      frieza-soldier_5: -1483992440061890093
+      frieza-soldier_6: -3956612586772529183
+      frieza-soldier_7: 242837262473664361
+      frieza-soldier_8: -7595855220434667695
+      frieza-soldier_9: -645248235472131048
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
