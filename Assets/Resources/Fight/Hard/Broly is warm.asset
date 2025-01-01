@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 875982c274ea44468cc86a0e0fb5ab10, type: 3}
-  m_Name: Weird Timeline !
+  m_Name: Broly is warm
   m_EditorClassIdentifier: 
   opponents:
-  - characterData: {fileID: 11400000, guid: 324106b4bd5344ee58bd860d2df4fc02, type: 2}
-    position: {x: 8, y: 5}
-  - characterData: {fileID: 11400000, guid: 2386148d3d4eb0c4bbe6165f0ba94a44, type: 2}
-    position: {x: 8, y: 3}
-  difficulty: 0
+  - characterData: {fileID: 11400000, guid: 1555c465fc48e4cb89353fe5b1a3b679, type: 2}
+    position: {x: 8, y: 4}
+  - characterData: {fileID: 11400000, guid: 61d06a2a79bda4c5fb8fa059fbc6a5f6, type: 2}
+    position: {x: 7, y: 3}
+  - characterData: {fileID: 11400000, guid: 61d06a2a79bda4c5fb8fa059fbc6a5f6, type: 2}
+    position: {x: 7, y: 5}
+  difficulty: 2
