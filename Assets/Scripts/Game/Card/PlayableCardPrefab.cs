@@ -3,12 +3,23 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System;
+using System.Linq;
 
-public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, IEndDragHandler {
+public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler {
     public GameObject hideGameObject;
+
+    public GameObject transformationInformation;
+    public Transform transformationContainer;
+    public GameObject transformationPrefab;
 
     public void Update(){
         SetCardColor();
+    }
+
+    public override void SetupCard(Card card)
+    {
+        transformationInformation.SetActive(false);
+        base.SetupCard(card);
     }
 
     public void SetCardColor(){
@@ -44,5 +55,46 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
         } catch(Exception error){
             Debug.Log("Error on end dragging card, e : " + error.ToString());
         }
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        if(card is TransformationCard transfoCard){
+
+            if(card.CanUseCard() == false){
+                transformationInformation.SetActive(false);
+                return;
+            }
+            transformationInformation.SetActive(true);
+            foreach (Transform child in transformationContainer)
+            {
+                Destroy(child.gameObject);
+            }
+
+            
+
+            foreach(var transfo in transfoCard.transformations){
+                var goTransfo = Instantiate(transformationPrefab, transformationContainer);
+                goTransfo.GetComponent<TransformationContainer>().characterImage.sprite = transfo.character.characterIcon;
+                goTransfo.GetComponent<TransformationContainer>().characterToImage.sprite = transfo.transformation.newCharacterData.characterIcon;
+                
+                var character = GameManager.Instance.GetCharactersOnBoard()
+                .Where(cha => cha.isPlayerCharacter)
+                .ToList()
+                .Find(cha => {
+                    return transfo.character == cha.character.GetCharacterData();
+                });
+
+                if(character == null){
+                    goTransfo.GetComponent<TransformationContainer>().characterImage.color = new Color(0.4f, 0.4f, 0.4f);
+                    goTransfo.GetComponent<TransformationContainer>().characterToImage.color = new Color(0.4f, 0.4f, 0.4f);
+                }
+            }
+        }
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        transformationInformation.SetActive(false);
     }
 }

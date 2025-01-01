@@ -32,7 +32,7 @@ public class TransformationCard : Card
 
     public override bool CanUseCard()
     {
-        // Cherche un personnage sur le plateau dont le CharacterData est dans transformations
+        
         var characterOnBoard = GameManager.Instance.GetCharactersOnBoard()
             .Where(cha => cha.isPlayerCharacter)
             .ToList()
@@ -40,7 +40,6 @@ public class TransformationCard : Card
                 transformations.Any(trans => trans.character == cha.character.GetCharacterData())
             );
 
-        // Si aucun personnage correspondant n'est trouvé, on ne peut pas utiliser la carte
         if (characterOnBoard == null)
         {
             return false;
