@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using TMPro;
+using System;
 
 public class CardPrefab : MonoBehaviour
 {
@@ -12,14 +13,18 @@ public class CardPrefab : MonoBehaviour
     protected Card card;
 
     public virtual void SetupCard(Card card){
-        this.GetComponent<Image>().color = card.rarity.GetRarityColor();
-        cardImage.sprite = card.image;
-        cardName.text = card.name;
-        cardMana.text = card.manaCost.ToString();
-        this.card = card;
-        if (this.cardDescription != null)
-        {
-            this.cardDescription.text = card.GetDescription();
+        try {
+            this.GetComponent<Image>().color = card.rarity.GetRarityColor();
+            cardImage.sprite = card.image;
+            cardName.text = card.name;
+            cardMana.text = card.manaCost.ToString();
+            this.card = card;
+            if (this.cardDescription != null)
+            {
+                this.cardDescription.text = card.GetDescription();
+            }
+        } catch(Exception error){
+            Debug.LogError("Error while setuping card : " + error);
         }
     }
 

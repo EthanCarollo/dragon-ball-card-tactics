@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Goku (Kaioken SSJ1)
+  m_EditorClassIdentifier: 
+  id: 37
+  starNumber: 1
+  characterName: Goku (Kaioken SSJ1)
+  role: 0
+  characterType: 0
+  characterSprite: {fileID: 4082077237056301131, guid: bc0e9d824c09740de8d8834f360b915e, type: 3}
+  characterIcon: {fileID: 21300000, guid: f166a399f07d7410aa61bdd0046db2de, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 650
+  maxKi: 50
+  baseRange: 1
+  baseDamage: 90
+  baseArmor: 25
+  baseSpeed: 5
+  baseAttackSpeed: 1.5
+  baseCriticalChance: 60
+  idleAnimation: {fileID: 11400000, guid: c39ea17330fd34a179ff797b5ecfdd82, type: 2}
+  runAnimation: {fileID: 11400000, guid: 71a73f49baa214d7bb7c8683c8a37676, type: 2}
+  attackAnimation: {fileID: 11400000, guid: ef076c473ca97461d972cb007f75ac78, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 15c86ad2735a14cbb8133b0520184313, type: 2}
+  specialAttackAnimation:
+  - name: Charged Kikoha
+    description: A charged kikoha
+    animation: {fileID: 11400000, guid: 31d83b2e8a8f24f6982eb3046677623a, type: 2}
+  deadAnimation: {fileID: 0}
+  sameCharacter:
+  - {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
+  - {fileID: 11400000, guid: b8153c8db51b02e469b29ecc91aa4c44, type: 2}
+  - {fileID: 11400000, guid: 7c72d6e2019ed431b86de89a71f06dc1, type: 2}
+  - {fileID: 11400000, guid: 9b424d77e4f22ed409f878e0c2d3f275, type: 2}
+  synergies:
+  - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
