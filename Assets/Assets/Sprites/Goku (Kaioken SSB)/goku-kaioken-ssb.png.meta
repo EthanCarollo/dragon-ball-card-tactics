@@ -1,0 +1,1339 @@
+fileFormatVersion: 2
+guid: d450b19cc2d2446eeb03cbad7e6ff2c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 62666019275875533
+    second: goku-kaioken-ssb_0
+  - first:
+      213: 3374634654388094517
+    second: goku-kaioken-ssb_1
+  - first:
+      213: 3461130855850750341
+    second: goku-kaioken-ssb_2
+  - first:
+      213: -723273889101720617
+    second: goku-kaioken-ssb_3
+  - first:
+      213: 3398069740281752684
+    second: goku-kaioken-ssb_4
+  - first:
+      213: -6084596159407402506
+    second: goku-kaioken-ssb_5
+  - first:
+      213: -1326521365515944674
+    second: goku-kaioken-ssb_6
+  - first:
+      213: -2971440552408327783
+    second: goku-kaioken-ssb_7
+  - first:
+      213: 866555474532236971
+    second: goku-kaioken-ssb_8
+  - first:
+      213: -2211988998308484999
+    second: goku-kaioken-ssb_9
+  - first:
+      213: 3663814675879873597
+    second: goku-kaioken-ssb_10
+  - first:
+      213: -4979497306412231992
+    second: goku-kaioken-ssb_11
+  - first:
+      213: 1826543054588408822
+    second: goku-kaioken-ssb_12
+  - first:
+      213: -4734059711825787608
+    second: goku-kaioken-ssb_13
+  - first:
+      213: 7501812812359530603
+    second: goku-kaioken-ssb_14
+  - first:
+      213: -2087478392252155941
+    second: goku-kaioken-ssb_15
+  - first:
+      213: -2126550419564080286
+    second: goku-kaioken-ssb_16
+  - first:
+      213: 6489370424815091774
+    second: goku-kaioken-ssb_17
+  - first:
+      213: -7152119844068404332
+    second: goku-kaioken-ssb_18
+  - first:
+      213: -2425549737848232579
+    second: goku-kaioken-ssb_19
+  - first:
+      213: -8861252327469293827
+    second: goku-kaioken-ssb_20
+  - first:
+      213: -990641590412535163
+    second: goku-kaioken-ssb_21
+  - first:
+      213: -2174763379229398027
+    second: goku-kaioken-ssb_22
+  - first:
+      213: 266780067295917438
+    second: goku-kaioken-ssb_23
+  - first:
+      213: 3815149124926811909
+    second: goku-kaioken-ssb_24
+  - first:
+      213: -2543331439089574527
+    second: goku-kaioken-ssb_25
+  - first:
+      213: -8474568155000296471
+    second: goku-kaioken-ssb_26
+  - first:
+      213: 8317506772763448190
+    second: goku-kaioken-ssb_27
+  - first:
+      213: 835716911188571437
+    second: goku-kaioken-ssb_28
+  - first:
+      213: -659735367254392325
+    second: goku-kaioken-ssb_29
+  - first:
+      213: 4380472943077891359
+    second: goku-kaioken-ssb_30
+  - first:
+      213: -7870833429489229354
+    second: goku-kaioken-ssb_31
+  - first:
+      213: -2425626259609943888
+    second: goku-kaioken-ssb_32
+  - first:
+      213: 667814037192633768
+    second: goku-kaioken-ssb_33
+  - first:
+      213: 1183818619500150524
+    second: goku-kaioken-ssb_34
+  - first:
+      213: 5751687992858694639
+    second: goku-kaioken-ssb_35
+  - first:
+      213: 4394092813676456601
+    second: goku-kaioken-ssb_36
+  - first:
+      213: -6864193773261289756
+    second: goku-kaioken-ssb_37
+  - first:
+      213: -3042547367152867700
+    second: goku-kaioken-ssb_38
+  - first:
+      213: 592180425616440102
+    second: goku-kaioken-ssb_39
+  - first:
+      213: 4169873916165056438
+    second: goku-kaioken-ssb_40
+  - first:
+      213: 3191428898132556474
+    second: goku-kaioken-ssb_41
+  - first:
+      213: 3005441347571723074
+    second: goku-kaioken-ssb_42
+  - first:
+      213: 6235731306692183732
+    second: goku-kaioken-ssb_43
+  - first:
+      213: 1700745562777004361
+    second: goku-kaioken-ssb_44
+  - first:
+      213: -7087797773007535824
+    second: goku-kaioken-ssb_45
+  - first:
+      213: -611849936149280585
+    second: goku-kaioken-ssb_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 913
+        width: 27
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc42d6a9962aed000800000000000000
+      internalID: 62666019275875533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 913
+        width: 33
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536868da65c15de20800000000000000
+      internalID: 3374634654388094517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 913
+        width: 31
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581b020fc28680030800000000000000
+      internalID: 3461130855850750341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 909
+        width: 76
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3d6ccda3a66f5f0800000000000000
+      internalID: -723273889101720617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_4
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 905
+        width: 107
+        height: 99
+      alignment: 9
+      pivot: {x: 0.45794392, y: 0.08080808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c6f7fcc6e582f20800000000000000
+      internalID: 3398069740281752684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 907
+        width: 124
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5241935, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1d0d4d70c2f8ba0800000000000000
+      internalID: -6084596159407402506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_6
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 938
+        width: 15
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1db475a8df379de0800000000000000
+      internalID: -1326521365515944674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_7
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 911
+        width: 93
+        height: 88
+      alignment: 9
+      pivot: {x: 0.50537634, y: 0.022727273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999d28a9f8253c6d0800000000000000
+      internalID: -2971440552408327783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_8
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 952
+        width: 7
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baef9a5ec9f960c00800000000000000
+      internalID: 866555474532236971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_9
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 938
+        width: 14
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97820c4c9bf6d41e0800000000000000
+      internalID: -2211988998308484999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_10
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 913
+        width: 32
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ccea6390c78d230800000000000000
+      internalID: 3663814675879873597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_11
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 913
+        width: 27
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2d843159545eab0800000000000000
+      internalID: -4979497306412231992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_12
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 913
+        width: 28
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3f2bf0b3f295910800000000000000
+      internalID: 1826543054588408822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_13
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 913
+        width: 32
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825c22336cd3d4eb0800000000000000
+      internalID: -4734059711825787608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_14
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 912
+        width: 23
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68f92ca10bcb1860800000000000000
+      internalID: 7501812812359530603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_15
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 926
+        width: 21
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7b1815679c703e0800000000000000
+      internalID: -2087478392252155941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_16
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 927
+        width: 18
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263dcec09a9fc72e0800000000000000
+      internalID: -2126550419564080286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_17
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 912
+        width: 23
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30870be400ee0a50800000000000000
+      internalID: 6489370424815091774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_18
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 914
+        width: 13
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493d74735e09ebc90800000000000000
+      internalID: -7152119844068404332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_19
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 914
+        width: 13
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75a3825d57b65ed0800000000000000
+      internalID: -2425549737848232579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_20
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 853
+        width: 32
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfed61405f1860580800000000000000
+      internalID: -8861252327469293827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_21
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 853
+        width: 32
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a9bbfd8b88042f0800000000000000
+      internalID: -990641590412535163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_22
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 853
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbe08e9a30b1d1e0800000000000000
+      internalID: -2174763379229398027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_23
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 853
+        width: 32
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75f358ce0bc3b300800000000000000
+      internalID: 266780067295917438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_24
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 853
+        width: 32
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fa7646ae122f430800000000000000
+      internalID: 3815149124926811909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_25
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 855
+        width: 44
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d9bf2088544bcd0800000000000000
+      internalID: -2543331439089574527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_26
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 862
+        width: 51
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ebae58c929446a80800000000000000
+      internalID: -8474568155000296471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_27
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 861
+        width: 51
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73987f7758bd6370800000000000000
+      internalID: 8317506772763448190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 795
+        width: 35
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d257e285a10199b00800000000000000
+      internalID: 835716911188571437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_29
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 797
+        width: 50
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf14a0dcd2628d6f0800000000000000
+      internalID: -659735367254392325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_30
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 797
+        width: 45
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d1e58dee09acc30800000000000000
+      internalID: 4380472943077891359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_31
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 796
+        width: 37
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1660582be25c290800000000000000
+      internalID: -7870833429489229354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_32
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 796
+        width: 28
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b00716b4c1765ed0800000000000000
+      internalID: -2425626259609943888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_33
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 799
+        width: 53
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ade2ee145d844900800000000000000
+      internalID: 667814037192633768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_34
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 799
+        width: 48
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfebcc523c4cd6010800000000000000
+      internalID: 1183818619500150524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_35
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 793
+        width: 31
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3d83971c912df40800000000000000
+      internalID: 5751687992858694639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_36
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 794
+        width: 55
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a28451224fafc30800000000000000
+      internalID: 4394092813676456601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_37
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 794
+        width: 33
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6005b912c7db0a0800000000000000
+      internalID: -6864193773261289756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_38
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 724
+        width: 38
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86ad882a43b6c5d0800000000000000
+      internalID: -3042547367152867700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_39
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 725
+        width: 33
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62bbec7a5f8d73800800000000000000
+      internalID: 592180425616440102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_40
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 726
+        width: 33
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b76f2bdb3e5ed930800000000000000
+      internalID: 4169873916165056438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_41
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 726
+        width: 39
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba7b178cab3a4c20800000000000000
+      internalID: 3191428898132556474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_42
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 727
+        width: 39
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ba84b6bf875b920800000000000000
+      internalID: 3005441347571723074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_43
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 726
+        width: 52
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b68b2ac594c98650800000000000000
+      internalID: 6235731306692183732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_44
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 723
+        width: 42
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94925a214134a9710800000000000000
+      internalID: 1700745562777004361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_45
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 728
+        width: 39
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031c41c6a7513ad90800000000000000
+      internalID: -7087797773007535824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssb_46
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 728
+        width: 39
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b80afb89b54287f0800000000000000
+      internalID: -611849936149280585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: abaccafdc74184e45b095ae09df8ec9c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      goku-kaioken-ssb_0: 62666019275875533
+      goku-kaioken-ssb_1: 3374634654388094517
+      goku-kaioken-ssb_10: 3663814675879873597
+      goku-kaioken-ssb_11: -4979497306412231992
+      goku-kaioken-ssb_12: 1826543054588408822
+      goku-kaioken-ssb_13: -4734059711825787608
+      goku-kaioken-ssb_14: 7501812812359530603
+      goku-kaioken-ssb_15: -2087478392252155941
+      goku-kaioken-ssb_16: -2126550419564080286
+      goku-kaioken-ssb_17: 6489370424815091774
+      goku-kaioken-ssb_18: -7152119844068404332
+      goku-kaioken-ssb_19: -2425549737848232579
+      goku-kaioken-ssb_2: 3461130855850750341
+      goku-kaioken-ssb_20: -8861252327469293827
+      goku-kaioken-ssb_21: -990641590412535163
+      goku-kaioken-ssb_22: -2174763379229398027
+      goku-kaioken-ssb_23: 266780067295917438
+      goku-kaioken-ssb_24: 3815149124926811909
+      goku-kaioken-ssb_25: -2543331439089574527
+      goku-kaioken-ssb_26: -8474568155000296471
+      goku-kaioken-ssb_27: 8317506772763448190
+      goku-kaioken-ssb_28: 835716911188571437
+      goku-kaioken-ssb_29: -659735367254392325
+      goku-kaioken-ssb_3: -723273889101720617
+      goku-kaioken-ssb_30: 4380472943077891359
+      goku-kaioken-ssb_31: -7870833429489229354
+      goku-kaioken-ssb_32: -2425626259609943888
+      goku-kaioken-ssb_33: 667814037192633768
+      goku-kaioken-ssb_34: 1183818619500150524
+      goku-kaioken-ssb_35: 5751687992858694639
+      goku-kaioken-ssb_36: 4394092813676456601
+      goku-kaioken-ssb_37: -6864193773261289756
+      goku-kaioken-ssb_38: -3042547367152867700
+      goku-kaioken-ssb_39: 592180425616440102
+      goku-kaioken-ssb_4: 3398069740281752684
+      goku-kaioken-ssb_40: 4169873916165056438
+      goku-kaioken-ssb_41: 3191428898132556474
+      goku-kaioken-ssb_42: 3005441347571723074
+      goku-kaioken-ssb_43: 6235731306692183732
+      goku-kaioken-ssb_44: 1700745562777004361
+      goku-kaioken-ssb_45: -7087797773007535824
+      goku-kaioken-ssb_46: -611849936149280585
+      goku-kaioken-ssb_5: -6084596159407402506
+      goku-kaioken-ssb_6: -1326521365515944674
+      goku-kaioken-ssb_7: -2971440552408327783
+      goku-kaioken-ssb_8: 866555474532236971
+      goku-kaioken-ssb_9: -2211988998308484999
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

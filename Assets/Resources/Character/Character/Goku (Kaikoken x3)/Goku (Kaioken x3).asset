@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku (Kaioken x3)
   m_EditorClassIdentifier: 
-  id: 36
+  id: 42
   starNumber: 1
   characterName: Goku (Kaioken x3)
   role: 1
@@ -41,4 +41,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
   - {fileID: 11400000, guid: 9b424d77e4f22ed409f878e0c2d3f275, type: 2}
   - {fileID: 11400000, guid: 7c72d6e2019ed431b86de89a71f06dc1, type: 2}
+  - {fileID: 11400000, guid: 9cfac1c9f06f44a5bba686fca9b53cc3, type: 2}
+  - {fileID: 11400000, guid: 8c612c643af604c4ba71d5a93fe524c8, type: 2}
   synergies: []
