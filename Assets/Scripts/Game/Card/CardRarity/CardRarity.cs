@@ -5,7 +5,8 @@ public enum CardRarity
     Common,
     Uncommon,
     Rare,
-    Epic
+    Epic,
+    Legendary
 }
 
 public static class CardRarityExtensions
@@ -22,6 +23,8 @@ public static class CardRarityExtensions
                 return new Color(1f, 1f, 0.5f, 1f);
             case CardRarity.Epic:
                 return new Color(1f, 0.5f, 1f, 1f);
+            case CardRarity.Legendary:
+                return new Color(1f, 0.3f, 0.3f, 1f);
             default:
                 return Color.white;
         }
