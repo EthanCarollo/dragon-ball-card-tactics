@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   opponents:
   - characterData: {fileID: 11400000, guid: f9b20bbaea69544a397d0f57a57b3a89, type: 2}
-    position: {x: 8, y: 5}
-  - characterData: {fileID: 11400000, guid: 47fc706c3c4ff4f33877978d5071f7db, type: 2}
-    position: {x: 8, y: 3}
+    position: {x: 8, y: 4}
+  - characterData: {fileID: 11400000, guid: d207b9515349b425c8672ffa914ada1f, type: 2}
+    position: {x: 6, y: 2}
+  - characterData: {fileID: 11400000, guid: d207b9515349b425c8672ffa914ada1f, type: 2}
+    position: {x: 6, y: 6}
   difficulty: 0

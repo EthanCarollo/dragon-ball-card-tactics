@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Kid Buu
+  m_EditorClassIdentifier: 
+  id: 46
+  starNumber: 1
+  characterName: Kid Buu
+  role: 0
+  characterType: 2
+  characterSprite: {fileID: 8976643711925915085, guid: e04ec5f0612504e19b5a92425d537c0d, type: 3}
+  characterIcon: {fileID: 21300000, guid: 47f3d25b659f04709a7e6dbd3a838d54, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 235
+  maxKi: 105
+  baseRange: 1
+  baseDamage: 85
+  baseArmor: 25
+  baseSpeed: 5
+  baseAttackSpeed: 0.7
+  baseCriticalChance: 24
+  idleAnimation: {fileID: 11400000, guid: 3b6acf94f550149548950c60daa9c2c3, type: 2}
+  runAnimation: {fileID: 11400000, guid: 3d3b5337ada04461fa9fdcadac0a4b10, type: 2}
+  attackAnimation: {fileID: 11400000, guid: ad6291f9373e844129fe6fc867197b4c, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: c663f65c727fe426b937e0e09ed9e07f, type: 2}
+  specialAttackAnimation:
+  - name: Destroy Sphere
+    description: Destroyyy !
+    animation: {fileID: 11400000, guid: f817682e7eeb44102a715daec432235a, type: 2}
+  deadAnimation: {fileID: 0}
+  sameCharacter:
+  - {fileID: 11400000, guid: a514cd09df0fc434bb7eaff92c919a58, type: 2}
+  - {fileID: 11400000, guid: 920b5fb4a26ba4018ba92304f58c1eec, type: 2}
+  synergies:
+  - {fileID: 11400000, guid: fb45fe0120531415a900315cc099c60a, type: 2}
+  - {fileID: 11400000, guid: d650a485b7943417bb2b531cc2a4ba90, type: 2}
