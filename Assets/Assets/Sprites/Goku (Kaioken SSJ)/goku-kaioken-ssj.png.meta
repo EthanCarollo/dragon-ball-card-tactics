@@ -1146,6 +1146,72 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssj_42
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 627
+        width: 28
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccc08a6dda37491e89589a16abc2301
+      internalID: -2125672736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssj_43
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 627
+        width: 29
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b2b170aaf654ab1a4b330512f335c1
+      internalID: -1784439835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-kaioken-ssj_44
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 627
+        width: 31
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1da102e01d1429b8c4d4e538681134
+      internalID: 624317971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -1197,6 +1263,9 @@ TextureImporter:
       goku-kaioken-ssj_4: 5230348496316779103
       goku-kaioken-ssj_40: -1959356552433448335
       goku-kaioken-ssj_41: -7189958257674337465
+      goku-kaioken-ssj_42: -2125672736
+      goku-kaioken-ssj_43: -1784439835
+      goku-kaioken-ssj_44: 624317971
       goku-kaioken-ssj_5: 6039105458577448025
       goku-kaioken-ssj_6: 8971793339535886141
       goku-kaioken-ssj_7: 5845242030871877936

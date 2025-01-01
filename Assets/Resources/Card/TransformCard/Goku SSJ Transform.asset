@@ -19,3 +19,5 @@ MonoBehaviour:
   transformations:
   - character: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
     transformation: {fileID: 11400000, guid: 9de54c5982f31c94bb285826638a6a36, type: 2}
+  - character: {fileID: 11400000, guid: b8153c8db51b02e469b29ecc91aa4c44, type: 2}
+    transformation: {fileID: 11400000, guid: ec8fdbd1aad904bac9234b73e1889afd, type: 2}
