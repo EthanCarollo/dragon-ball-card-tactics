@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe206b63a12884410b001ddff079c3c8, type: 3}
+  m_Name: Black Goku Card
+  m_EditorClassIdentifier: 
+  manaCost: 3
+  rarity: 2
+  name: Black Goku
+  image: {fileID: -7078338717840330999, guid: 3407391041a8c6c43aea578c78078f0c, type: 3}
+  character: {fileID: 11400000, guid: cf5f3a12fa8e94e5cae2c339ba5c7246, type: 2}

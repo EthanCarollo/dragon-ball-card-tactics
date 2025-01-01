@@ -9,12 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52f162f619fe4780ac0c738b70ae1747, type: 3}
-  m_Name: BardockSSJTransform
+  m_Script: {fileID: 11500000, guid: a96663c368a73465aa7247c462f32203, type: 3}
+  m_Name: Bardock SSJ Transformation
   m_EditorClassIdentifier: 
   manaCost: 3
-  rarity: 3
+  rarity: 2
   name: Bardock SSJ
   image: {fileID: -5238605233198477593, guid: bd2aa6c450846c84a85ea598d1687d0f, type: 3}
-  characterFor: {fileID: 11400000, guid: 34a3d4ce85c267c46af92f4057bdf37a, type: 2}
-  transform: {fileID: 11400000, guid: 6862d7942f7f94a4aa7a1201601a9f0e, type: 2}
+  transformations:
+  - character: {fileID: 11400000, guid: 34a3d4ce85c267c46af92f4057bdf37a, type: 2}
+    transformation: {fileID: 11400000, guid: 6862d7942f7f94a4aa7a1201601a9f0e, type: 2}
