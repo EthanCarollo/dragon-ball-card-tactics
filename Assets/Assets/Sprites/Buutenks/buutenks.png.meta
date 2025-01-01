@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 2310a729ac6ec46929d4548d5cb88e4b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3435154717996013304
+    second: buutenks_0
+  - first:
+      213: 5134493734224301440
+    second: buutenks_1
+  - first:
+      213: 7475916489591118054
+    second: buutenks_2
+  - first:
+      213: -5096157933277063514
+    second: buutenks_3
+  - first:
+      213: -6021019058529324050
+    second: buutenks_4
+  - first:
+      213: 6869488707060391449
+    second: buutenks_5
+  - first:
+      213: 3500949423399117889
+    second: buutenks_6
+  - first:
+      213: 7701796549024020751
+    second: buutenks_7
+  - first:
+      213: 3583768941727229953
+    second: buutenks_8
+  - first:
+      213: -1154205942664362576
+    second: buutenks_9
+  - first:
+      213: 8258475336601155967
+    second: buutenks_10
+  - first:
+      213: 8288077387023483770
+    second: buutenks_11
+  - first:
+      213: 4190271254243366948
+    second: buutenks_12
+  - first:
+      213: -3204564225156333932
+    second: buutenks_13
+  - first:
+      213: 6515750497455728839
+    second: buutenks_14
+  - first:
+      213: -863786148282354077
+    second: buutenks_15
+  - first:
+      213: -167875960224684090
+    second: buutenks_16
+  - first:
+      213: 3530094212491376793
+    second: buutenks_17
+  - first:
+      213: -3784664134940747818
+    second: buutenks_18
+  - first:
+      213: 5615136226077034389
+    second: buutenks_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: buutenks_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 446
+        width: 35
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.017857144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8092755fbf0e350d0800000000000000
+      internalID: -3435154717996013304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 447
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d88e9f8d2614740800000000000000
+      internalID: 5134493734224301440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 447
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8509c207acfb760800000000000000
+      internalID: 7475916489591118054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 448
+        width: 44
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a65bbb3c5fc649b0800000000000000
+      internalID: -5096157933277063514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_4
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 448
+        width: 53
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3b086211b017ca0800000000000000
+      internalID: -6021019058529324050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_5
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 448
+        width: 53
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e54ec3593555f50800000000000000
+      internalID: 6869488707060391449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_6
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 389
+        width: 29
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1442056a3fed59030800000000000000
+      internalID: 3500949423399117889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 389
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09f7ecc72742ea60800000000000000
+      internalID: 7701796549024020751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_8
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 389
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108aab86dda1cb130800000000000000
+      internalID: 3583768941727229953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_9
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 388
+        width: 52
+        height: 43
+      alignment: 9
+      pivot: {x: 0.28846154, y: 0.023809524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b588d57fcf6bffe0800000000000000
+      internalID: -1154205942664362576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_10
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 393
+        width: 13
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79bf68309ffb9270800000000000000
+      internalID: 8258475336601155967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_11
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 392
+        width: 50
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a738b7ca87a250370800000000000000
+      internalID: 8288077387023483770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 332
+        width: 34
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428d4b53185d62a30800000000000000
+      internalID: 4190271254243366948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_13
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 332
+        width: 46
+        height: 43
+      alignment: 9
+      pivot: {x: 0.30434784, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49eb1a3d0d91783d0800000000000000
+      internalID: -3204564225156333932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_14
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 332
+        width: 64
+        height: 43
+      alignment: 9
+      pivot: {x: 0.203125, y: 0.023255814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c86ce53e889c6a50800000000000000
+      internalID: 6515750497455728839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_15
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 339
+        width: 22
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3663abd13173304f0800000000000000
+      internalID: -863786148282354077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_16
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 282
+        width: 71
+        height: 46
+      alignment: 9
+      pivot: {x: 0.22535211, y: 0.02173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7ea7024b59badf0800000000000000
+      internalID: -167875960224684090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_17
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 287
+        width: 32
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998f537abf96df030800000000000000
+      internalID: 3530094212491376793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_18
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 230
+        width: 70
+        height: 44
+      alignment: 9
+      pivot: {x: 0.24285714, y: 0.022727273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d712b2750c2a7bc0800000000000000
+      internalID: -3784664134940747818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 234
+        width: 28
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597cfb8b5a8fced40800000000000000
+      internalID: 5615136226077034389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2fe8bc96c81a1491a93f9d180c4aad5f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      buutenks_0: -3435154717996013304
+      buutenks_1: 5134493734224301440
+      buutenks_10: 8258475336601155967
+      buutenks_11: 8288077387023483770
+      buutenks_12: 4190271254243366948
+      buutenks_13: -3204564225156333932
+      buutenks_14: 6515750497455728839
+      buutenks_15: -863786148282354077
+      buutenks_16: -167875960224684090
+      buutenks_17: 3530094212491376793
+      buutenks_18: -3784664134940747818
+      buutenks_19: 5615136226077034389
+      buutenks_2: 7475916489591118054
+      buutenks_3: -5096157933277063514
+      buutenks_4: -6021019058529324050
+      buutenks_5: 6869488707060391449
+      buutenks_6: 3500949423399117889
+      buutenks_7: 7701796549024020751
+      buutenks_8: 3583768941727229953
+      buutenks_9: -1154205942664362576
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

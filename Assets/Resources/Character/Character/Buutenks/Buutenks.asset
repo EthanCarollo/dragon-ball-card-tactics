@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Buutenks
+  m_EditorClassIdentifier: 
+  id: 16
+  starNumber: 1
+  characterName: Buutenks
+  role: 0
+  characterType: 3
+  characterSprite: {fileID: -3435154717996013304, guid: 2310a729ac6ec46929d4548d5cb88e4b, type: 3}
+  characterIcon: {fileID: 21300000, guid: 5f68cf67b767c4e20bda2fcff0a212e2, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 280
+  maxKi: 40
+  baseRange: 12
+  baseDamage: 40
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 0.7
+  baseCriticalChance: 10
+  idleAnimation: {fileID: 11400000, guid: aa6ed6f7356c2415b8068316ab327567, type: 2}
+  runAnimation: {fileID: 11400000, guid: f0e5b05f7bb68483586a8ec113caaf3a, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 41bfc112483794a21bcc9cb512c031c1, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 41bfc112483794a21bcc9cb512c031c1, type: 2}
+  specialAttackAnimation:
+  - name: Buutenks Multi Ghost !
+    description: 
+    animation: {fileID: 11400000, guid: 1d36564669bb24b1d87839088118a336, type: 2}
+  deadAnimation: {fileID: 0}
+  sameCharacter: []
+  synergies: []
