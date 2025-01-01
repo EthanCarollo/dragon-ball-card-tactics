@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a87c1eb9c8441a88d241afbe642005, type: 3}
+  m_Name: Ultra Kikoha
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: -3427238344498024457, guid: e4d142b2ea6b149d0bcbdcb43c95bc5e, type: 3}
+    time: 0.12
+  - sprite: {fileID: 8908906853091307176, guid: e4d142b2ea6b149d0bcbdcb43c95bc5e, type: 3}
+    time: 0.12
+  - sprite: {fileID: 8194044738816759660, guid: e4d142b2ea6b149d0bcbdcb43c95bc5e, type: 3}
+    time: 0.12
+  - sprite: {fileID: 7112268065443249145, guid: e4d142b2ea6b149d0bcbdcb43c95bc5e, type: 3}
+    time: 0.12
+  - sprite: {fileID: -5616682891449545220, guid: e4d142b2ea6b149d0bcbdcb43c95bc5e, type: 3}
+    time: 0.12
+  - sprite: {fileID: -405400445910667809, guid: e4d142b2ea6b149d0bcbdcb43c95bc5e, type: 3}
+    time: 0.6
+  attackFrameIndex: 4
+  kikoha: {fileID: -1736697969, guid: 4f65855047015427888b9542916a2420, type: 3}
+  particleAttack: {fileID: 0}
+  attackType: 0
+  attackMultiplicator: 4
+  startMargin: {x: 0.4, y: 0.6}
+  kikohaSize: {x: 6, y: 3}
+  dangerTileSprite: {fileID: 0}
