@@ -1,0 +1,660 @@
+fileFormatVersion: 2
+guid: d212c960a0eaf4519a7c209baf7bf3eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7046113842035731594
+    second: frieza-golden-hakaishin_0
+  - first:
+      213: 6133756992829725830
+    second: frieza-golden-hakaishin_1
+  - first:
+      213: -7478308165810817388
+    second: frieza-golden-hakaishin_2
+  - first:
+      213: 6570347046215933490
+    second: frieza-golden-hakaishin_3
+  - first:
+      213: -5153776378188830185
+    second: frieza-golden-hakaishin_4
+  - first:
+      213: 4843480427989319018
+    second: frieza-golden-hakaishin_5
+  - first:
+      213: -5964193653201785622
+    second: frieza-golden-hakaishin_6
+  - first:
+      213: -2105163870383515971
+    second: frieza-golden-hakaishin_7
+  - first:
+      213: 6875609796988939470
+    second: frieza-golden-hakaishin_8
+  - first:
+      213: 6896587689504062069
+    second: frieza-golden-hakaishin_9
+  - first:
+      213: -5479657855316313661
+    second: frieza-golden-hakaishin_10
+  - first:
+      213: -1472888673949554350
+    second: frieza-golden-hakaishin_11
+  - first:
+      213: 4462848825750561444
+    second: frieza-golden-hakaishin_12
+  - first:
+      213: 2592836853630404262
+    second: frieza-golden-hakaishin_13
+  - first:
+      213: 9173075206952340362
+    second: frieza-golden-hakaishin_14
+  - first:
+      213: -3515478508981783208
+    second: frieza-golden-hakaishin_15
+  - first:
+      213: -5614485887572462657
+    second: frieza-golden-hakaishin_16
+  - first:
+      213: -3199447468470000578
+    second: frieza-golden-hakaishin_17
+  - first:
+      213: 3480900919402470079
+    second: frieza-golden-hakaishin_18
+  - first:
+      213: 8022596957539994650
+    second: frieza-golden-hakaishin_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 452
+        width: 32
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.021276595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ca0891533d8c160800000000000000
+      internalID: 7046113842035731594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 451
+        width: 33
+        height: 47
+      alignment: 9
+      pivot: {x: 0.4848485, y: 0.021276595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c1f28ac7b7f1550800000000000000
+      internalID: 6133756992829725830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 451
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.021276595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49671ff4856b73890800000000000000
+      internalID: -7478308165810817388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 449
+        width: 32
+        height: 49
+      alignment: 9
+      pivot: {x: 0.4375, y: 0.020408163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23edcbcc3df8e2b50800000000000000
+      internalID: 6570347046215933490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 447
+        width: 62
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a614e90bb1a78b0800000000000000
+      internalID: -5153776378188830185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 460
+        width: 44
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d3cd299cf773340800000000000000
+      internalID: 4843480427989319018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 402
+        width: 54
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeca449d87dea3da0800000000000000
+      internalID: -5964193653201785622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 408
+        width: 55
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6ddcf0d94f8c2e0800000000000000
+      internalID: -2105163870383515971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 409
+        width: 53
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecca8bb8ea21b6f50800000000000000
+      internalID: 6875609796988939470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_9
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 340
+        width: 44
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ab833c6f995bf50800000000000000
+      internalID: 6896587689504062069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_10
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 339
+        width: 50
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9313b863854f3b0800000000000000
+      internalID: -5479657855316313661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_11
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 336
+        width: 65
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2596a830e8f3f8be0800000000000000
+      internalID: -1472888673949554350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_12
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 336
+        width: 76
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2a121ac593fed30800000000000000
+      internalID: 4462848825750561444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 336
+        width: 46
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a68e25816b9bf320800000000000000
+      internalID: 2592836853630404262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_14
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 176
+        width: 421
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 158, y: 0, z: 145, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b4658bc4f4d4f70800000000000000
+      internalID: 9173075206952340362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 279
+        width: 31
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855fe900ce2863fc0800000000000000
+      internalID: -3515478508981783208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_16
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 280
+        width: 41
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3bcc205d65512b0800000000000000
+      internalID: -5614485887572462657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_17
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 279
+        width: 40
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34a2549a774993d0800000000000000
+      internalID: -3199447468470000578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_18
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 280
+        width: 36
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba905f81f4ae4030800000000000000
+      internalID: 3480900919402470079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_19
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 281
+        width: 30
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c0d466d6df55f60800000000000000
+      internalID: 8022596957539994650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden-hakaishin_20
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 443
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bf69ef3a73e4f7ab9b5f807ca04c4a
+      internalID: -2143042705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 704ecbd1e954e41f98ce1a0e388bb375
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      frieza-golden-hakaishin_0: 7046113842035731594
+      frieza-golden-hakaishin_1: 6133756992829725830
+      frieza-golden-hakaishin_10: -5479657855316313661
+      frieza-golden-hakaishin_11: -1472888673949554350
+      frieza-golden-hakaishin_12: 4462848825750561444
+      frieza-golden-hakaishin_13: 2592836853630404262
+      frieza-golden-hakaishin_14: 9173075206952340362
+      frieza-golden-hakaishin_15: -3515478508981783208
+      frieza-golden-hakaishin_16: -5614485887572462657
+      frieza-golden-hakaishin_17: -3199447468470000578
+      frieza-golden-hakaishin_18: 3480900919402470079
+      frieza-golden-hakaishin_19: 8022596957539994650
+      frieza-golden-hakaishin_2: -7478308165810817388
+      frieza-golden-hakaishin_20: -2143042705
+      frieza-golden-hakaishin_3: 6570347046215933490
+      frieza-golden-hakaishin_4: -5153776378188830185
+      frieza-golden-hakaishin_5: 4843480427989319018
+      frieza-golden-hakaishin_6: -5964193653201785622
+      frieza-golden-hakaishin_7: -2105163870383515971
+      frieza-golden-hakaishin_8: 6875609796988939470
+      frieza-golden-hakaishin_9: 6896587689504062069
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
