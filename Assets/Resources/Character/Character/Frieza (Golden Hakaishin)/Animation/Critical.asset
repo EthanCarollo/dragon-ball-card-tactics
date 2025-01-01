@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Critical
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: 272133884369728683, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+  - sprite: {fileID: -3515478508981783208, guid: d212c960a0eaf4519a7c209baf7bf3eb, type: 3}
     time: 0.2
-  - sprite: {fileID: -1105085172639128626, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+  - sprite: {fileID: -5614485887572462657, guid: d212c960a0eaf4519a7c209baf7bf3eb, type: 3}
     time: 0.2
-  - sprite: {fileID: -6954148007391845124, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+  - sprite: {fileID: -3199447468470000578, guid: d212c960a0eaf4519a7c209baf7bf3eb, type: 3}
     time: 0.2
   attackFrameIndex: 1
   attackType: 0

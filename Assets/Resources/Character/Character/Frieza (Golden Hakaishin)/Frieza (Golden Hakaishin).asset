@@ -14,29 +14,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 50
   starNumber: 1
-  characterName: Black Goku
+  characterName: Frieza (Golden Hakaishin)
   role: 0
   characterType: 2
-  characterSprite: {fileID: -8590198778215293590, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-  characterIcon: {fileID: -7078338717840330999, guid: 3407391041a8c6c43aea578c78078f0c, type: 3}
+  characterSprite: {fileID: 7046113842035731594, guid: d212c960a0eaf4519a7c209baf7bf3eb, type: 3}
+  characterIcon: {fileID: 21300000, guid: e4d8792107616493fb5c7ebca869398c, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 340
+  maxHealth: 1300
   maxKi: 120
   baseRange: 1
-  baseDamage: 45
+  baseDamage: 105
   baseArmor: 25
   baseSpeed: 5
-  baseAttackSpeed: 0.7
-  baseCriticalChance: 18
-  idleAnimation: {fileID: 11400000, guid: 17b37fbc3c979478cbad0e6d65ae2cfd, type: 2}
-  runAnimation: {fileID: 11400000, guid: d2b27d1e15c774a0fa123c2efb94057c, type: 2}
-  attackAnimation: {fileID: 11400000, guid: 628dc5e141c3340e38f1b2d4666918e0, type: 2}
-  criticalAttackAnimation: {fileID: 11400000, guid: 1b5ebd9ea48474f8d853db0aa1ade752, type: 2}
+  baseAttackSpeed: 0.9
+  baseCriticalChance: 45
+  idleAnimation: {fileID: 11400000, guid: d4bda2699dad549c1b61175cd028e1df, type: 2}
+  runAnimation: {fileID: 11400000, guid: fb17b8f6f984040aaa797863aa72ea93, type: 2}
+  attackAnimation: {fileID: 11400000, guid: c1836499af0b94322bbcbeccfe19ebcf, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: d3d5db1dac0f24a69b3a9ab9c9ace395, type: 2}
   specialAttackAnimation:
   - name: Charged Ki
     description: Charge a Super Ki
-    animation: {fileID: 11400000, guid: b30eb3782fbe34fc88ac25a8af30708d, type: 2}
+    animation: {fileID: 11400000, guid: 3a1fc936afa2f48229300d99f88d24f4, type: 2}
   deadAnimation: {fileID: 0}
+  sameCharacter:
+  - {fileID: 11400000, guid: f9b20bbaea69544a397d0f57a57b3a89, type: 2}
+  - {fileID: 11400000, guid: be6c3934fcbe04ab6b4f28eba24830b5, type: 2}
+  - {fileID: 11400000, guid: b255e1f905a4e4ce7831d56473c2f166, type: 2}
   synergies:
+  - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
+  - {fileID: 11400000, guid: d650a485b7943417bb2b531cc2a4ba90, type: 2}
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
-  - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
+  - {fileID: 11400000, guid: e6b0f87b761094f0f979685b3c42f23a, type: 2}

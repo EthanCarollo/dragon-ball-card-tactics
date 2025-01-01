@@ -13,13 +13,11 @@ MonoBehaviour:
   m_Name: Attack
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: -7837581485286616581, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+  - sprite: {fileID: 3480900919402470079, guid: d212c960a0eaf4519a7c209baf7bf3eb, type: 3}
     time: 0.2
-  - sprite: {fileID: 4404476141685350812, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+  - sprite: {fileID: 8022596957539994650, guid: d212c960a0eaf4519a7c209baf7bf3eb, type: 3}
     time: 0.2
-  - sprite: {fileID: -2700617654505648548, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-    time: 0.2
-  attackFrameIndex: 1
+  attackFrameIndex: 0
   attackType: 0
   particleAttack: {fileID: 0}
   kiOnAttack: 10

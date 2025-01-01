@@ -13,19 +13,17 @@ MonoBehaviour:
   m_Name: Charged
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: 1471508838260862914, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+  - sprite: {fileID: 6896587689504062069, guid: d212c960a0eaf4519a7c209baf7bf3eb, type: 3}
     time: 0.14
-  - sprite: {fileID: -8799643425093672969, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+  - sprite: {fileID: -5479657855316313661, guid: d212c960a0eaf4519a7c209baf7bf3eb, type: 3}
     time: 0.14
-  - sprite: {fileID: 946800513, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+  - sprite: {fileID: -1472888673949554350, guid: d212c960a0eaf4519a7c209baf7bf3eb, type: 3}
     time: 0.14
-  - sprite: {fileID: 135910636, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+  - sprite: {fileID: 4462848825750561444, guid: d212c960a0eaf4519a7c209baf7bf3eb, type: 3}
     time: 0.14
-  - sprite: {fileID: -1273556271, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-    time: 0.14
-  - sprite: {fileID: 726623607, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
+  - sprite: {fileID: 2592836853630404262, guid: d212c960a0eaf4519a7c209baf7bf3eb, type: 3}
     time: 0.6
-  attackFrameIndex: 4
+  attackFrameIndex: 3
   kikoha: {fileID: 1800964581, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
   particleAttack: {fileID: 0}
   attackType: 0
