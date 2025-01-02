@@ -86,8 +86,9 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
                 });
 
                 if(character == null){
-                    goTransfo.GetComponent<TransformationContainer>().characterImage.color = new Color(0.4f, 0.4f, 0.4f);
-                    goTransfo.GetComponent<TransformationContainer>().characterToImage.color = new Color(0.4f, 0.4f, 0.4f);
+                    goTransfo.GetComponent<TransformationContainer>().characterImageBlack.gameObject.SetActive(true);
+                    goTransfo.GetComponent<TransformationContainer>().characterToImageBlack.gameObject.SetActive(true);
+                    goTransfo.GetComponent<TransformationContainer>().arrowImageBlack.gameObject.SetActive(true);
                 }
             }
         }
