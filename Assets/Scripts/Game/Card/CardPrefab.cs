@@ -14,6 +14,7 @@ public class CardPrefab : MonoBehaviour
 
     public Image fullArtImage;
     public TextMeshProUGUI fullArtCardName;
+    public TextMeshProUGUI fullArtCardDescription;
 
     protected Card card;
 
@@ -26,6 +27,7 @@ public class CardPrefab : MonoBehaviour
                 fullArtImage.gameObject.SetActive(true);
                 fullArtImage.sprite = card.fullartImage;
                 fullArtCardName.text = card.name;
+                if(fullArtCardDescription != null) fullArtCardDescription.text = card.GetDescription();
                 cardTextContainer.SetActive(false);
             }else{
                 if(fullArtImage != null){

@@ -61,4 +61,4 @@ MonoBehaviour:
     time: 0.3
   - sprite: {fileID: -4979497306412231992, guid: d450b19cc2d2446eeb03cbad7e6ff2c8, type: 3}
     time: 0.3
-  newCharacterData: {fileID: 11400000, guid: 16de4a8353f1445d38abd682f9b87717, type: 2}
+  newCharacterData: {fileID: 11400000, guid: 9cfac1c9f06f44a5bba686fca9b53cc3, type: 2}

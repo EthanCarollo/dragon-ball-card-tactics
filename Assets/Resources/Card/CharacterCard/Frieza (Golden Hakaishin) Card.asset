@@ -16,4 +16,5 @@ MonoBehaviour:
   rarity: 4
   name: Frieza (Golden Hakaishin)
   image: {fileID: 21300000, guid: e4d8792107616493fb5c7ebca869398c, type: 3}
+  fullartImage: {fileID: 21300000, guid: 213856ba93d014d7f8dd19e8cfe1da97, type: 3}
   character: {fileID: 11400000, guid: e46236b3c024a4d3685fc3c943c0b265, type: 2}

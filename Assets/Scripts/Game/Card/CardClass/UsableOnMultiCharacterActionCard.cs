@@ -30,6 +30,11 @@ public class TransformationCard : Card
         return null;
     }
 
+    public override string GetDescription()
+    {
+        return "Transform " + transformations[0].character.characterName + " into " + transformations[0].transformation.newCharacterData.characterName + " or in several other possibilities.";
+    }
+
     public override bool CanUseCard()
     {
         

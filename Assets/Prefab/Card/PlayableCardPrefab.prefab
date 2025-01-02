@@ -96,7 +96,7 @@ MonoBehaviour:
   m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 8
+  m_fontSizeMin: 6
   m_fontSizeMax: 12
   m_fontStyle: 0
   m_HorizontalAlignment: 2
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 15, y: 20, z: 15, w: 0}
+  m_margin: {x: 15, y: 20, z: 15, w: 15.950439}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1707,6 +1707,7 @@ MonoBehaviour:
   cardDescription: {fileID: 1963609447493864606}
   fullArtImage: {fileID: 890480819757475255}
   fullArtCardName: {fileID: 7706276525551374264}
+  fullArtCardDescription: {fileID: 0}
   hideGameObject: {fileID: 6945685494943391247}
   transformationInformation: {fileID: 3884327139467594983}
   transformationContainer: {fileID: 4812329636136165212}
