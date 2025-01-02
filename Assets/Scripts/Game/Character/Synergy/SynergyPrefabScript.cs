@@ -2,6 +2,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System.Collections.Generic;
+using System.Linq;
 
 public class SynergyPrefabScript : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler {
     public Synergy synergy;
@@ -9,6 +11,9 @@ public class SynergyPrefabScript : MonoBehaviour, IPointerEnterHandler, IPointer
     public GameObject tierDescription;
     public TextMeshProUGUI descriptionText;
     public Image synergyImage;
+
+    public Transform characterContainer;
+    public GameObject simpleCharacterContainer;
 
     public void Setup(Synergy synergy) {
         tierDescription.SetActive(false);
@@ -39,6 +44,28 @@ public class SynergyPrefabScript : MonoBehaviour, IPointerEnterHandler, IPointer
                     break;
             }
         }
+
+        foreach (Transform child in characterContainer)
+        {
+            Destroy(child.gameObject);
+        }
+
+        var (boardCharactersWithSynergy, databaseCharactersWithSynergy) = synergy.GetCharactersWithSynergy();
+
+        List<CharacterData> alreadyCreatedSynergy = new List<CharacterData>();
+        foreach (var bc in boardCharactersWithSynergy)
+        {
+            alreadyCreatedSynergy.Append(bc.character.GetCharacterData());
+            Instantiate(simpleCharacterContainer, characterContainer).GetComponent<Image>().sprite = bc.character.GetCharacterData().characterIcon;
+        }
+        foreach (var charWithSynergy in databaseCharactersWithSynergy)
+        {
+            if(alreadyCreatedSynergy.Contains(charWithSynergy)) continue;
+            var imageCharContainer = Instantiate(simpleCharacterContainer, characterContainer).GetComponent<Image>();
+            imageCharContainer.color = new Color(0.4f, 0.4f, 0.4f);
+            imageCharContainer.sprite = charWithSynergy.characterIcon;
+        }
+        
     }
 
     void IPointerEnterHandler.OnPointerEnter(PointerEventData eventData)

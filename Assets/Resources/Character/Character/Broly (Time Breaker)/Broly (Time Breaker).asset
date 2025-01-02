@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Broly (Time Breaker)
   m_EditorClassIdentifier: 
-  id: 20
+  id: 19
   starNumber: 1
   characterName: Broly (Time Breaker)
   role: 0
@@ -37,5 +37,7 @@ MonoBehaviour:
     description: Attack multiple enemies
     animation: {fileID: 11400000, guid: b95de02ba6c3f4639bd2cc1c254d7702, type: 2}
   deadAnimation: {fileID: 0}
+  sameCharacter: []
   synergies:
-  - {fileID: 11400000, guid: fb45fe0120531415a900315cc099c60a, type: 2}
+  - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
+  - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}

@@ -43,6 +43,26 @@ public class Synergy : ScriptableObject {
         }
         return activeUnit;
     }
+
+    public (List<BoardCharacter> boardCharactersWithSynergy, List<CharacterData> databaseCharactersWithSynergy) GetCharactersWithSynergy()
+    {
+        // Characters on the board with the synergy
+        var boardCharactersWithSynergy = GameManager.Instance.GetCharactersOnBoard()
+            .Where(boardCharacter =>
+                boardCharacter.isPlayerCharacter &&
+                boardCharacter.character.GetSynergies() != null &&
+                boardCharacter.character.GetSynergies().Contains(this))
+            .ToList();
+
+        // Characters in the CharacterDatabase with the synergy
+        var databaseCharactersWithSynergy = CharacterDatabase.Instance.characterDatas
+            .Where(characterData =>
+                characterData.synergies != null &&
+                characterData.synergies.Contains(this))
+            .ToList();
+
+        return (boardCharactersWithSynergy, databaseCharactersWithSynergy);
+    }
 }
 
 [Serializable]

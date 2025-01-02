@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Gamma 2
   m_EditorClassIdentifier: 
-  id: 31
+  id: 33
   starNumber: 1
   characterName: Gamma 2
   role: 1
@@ -37,5 +37,6 @@ MonoBehaviour:
     description: Fire an energy scatter shot from your blaster!
     animation: {fileID: 11400000, guid: 4538428d3628ff3439f72569083bca68, type: 2}
   deadAnimation: {fileID: 0}
-  characterPassive: []
-  card: {fileID: 0}
+  sameCharacter: []
+  synergies:
+  - {fileID: 11400000, guid: 2cb9ba8a614734a358c15cedc22a075f, type: 2}

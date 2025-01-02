@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Kid Buu
   m_EditorClassIdentifier: 
-  id: 46
+  id: 54
   starNumber: 1
   characterName: Kid Buu
   role: 0
@@ -41,5 +41,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a514cd09df0fc434bb7eaff92c919a58, type: 2}
   - {fileID: 11400000, guid: 920b5fb4a26ba4018ba92304f58c1eec, type: 2}
   synergies:
-  - {fileID: 11400000, guid: fb45fe0120531415a900315cc099c60a, type: 2}
-  - {fileID: 11400000, guid: d650a485b7943417bb2b531cc2a4ba90, type: 2}
+  - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
