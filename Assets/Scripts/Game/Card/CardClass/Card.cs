@@ -8,6 +8,7 @@ public abstract class Card : ScriptableObject
     public CardRarity rarity = CardRarity.Common;
     public new string name;
     public Sprite image;
+    public Sprite fullartImage;
 
     public virtual string GetDescription()
     {
