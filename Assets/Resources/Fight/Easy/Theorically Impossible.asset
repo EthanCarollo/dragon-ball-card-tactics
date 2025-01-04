@@ -18,3 +18,4 @@ MonoBehaviour:
   - characterData: {fileID: 11400000, guid: d8fb603e9a18a46e997d0497d47547e8, type: 2}
     position: {x: 9, y: 4}
   difficulty: 0
+  map: {fileID: 995354289898027383, guid: 60cf6c188a6a642c68b55b82e37083aa, type: 3}

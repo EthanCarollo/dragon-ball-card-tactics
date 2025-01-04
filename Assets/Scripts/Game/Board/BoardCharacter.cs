@@ -160,7 +160,7 @@ public class BoardCharacter : BoardObject
             {
                     var characterStar = new GameObject();
                     characterStar.AddComponent<Image>().sprite = charPrefabScript.starImage;
-                    characterStar.AddComponent<RectTransform>();
+                    // characterStar.AddComponent<RectTransform>();
                     characterStar.GetComponent<RectTransform>().sizeDelta = new Vector2(0.2f, 0.2f);
                     MonoBehaviour.Instantiate(characterStar, charPrefabScript.starContainer);
             }

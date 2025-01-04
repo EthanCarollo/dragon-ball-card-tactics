@@ -42,6 +42,7 @@ public class GameManager
     private GameManager()
     {
         _instance = this;
+        SetMap(PrefabDatabase.Instance.namekDefaultMap);
         difficultyMutliplicator = 1.00f;
         try {
             Cursor.SetCursor(SpriteDatabase.Instance.normalCursor, Vector2.zero, CursorMode.Auto);
@@ -52,6 +53,16 @@ public class GameManager
         PlayerCards = CardDatabase.Instance.playerCards.ToList();
         SetupCard();
         GoNextFight();
+    }
+
+    public GameObject actualMap;
+
+    public void SetMap(GameObject map){
+        if(actualMap != null){
+            MonoBehaviour.Destroy(actualMap);
+        }
+        actualMap = MonoBehaviour.Instantiate(map);
+        actualMap.transform.position = new Vector3(0, 0.3f, 0);
     }
 
     public void GoNextFight()
@@ -83,6 +94,9 @@ public class GameManager
         Debug.Log("Chosed fight is : " + ActualFight.name);
         BoardGameUiManager.Instance.SetupRoundText(actualRound);
         CleanGameBoard();
+        if(ActualFight.map != null){
+            SetMap(ActualFight.map);
+        }
         foreach (var characterContainerFight in ActualFight.opponents)
         {
             Debug.Log(characterContainerFight.characterData.name);

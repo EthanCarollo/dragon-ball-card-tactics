@@ -8,6 +8,8 @@ public class PrefabDatabase : ScriptableObject
 
     public GameObject annotationUiPrefab;
 
+    public GameObject namekDefaultMap;
+
     public static PrefabDatabase Instance
     {
         get
