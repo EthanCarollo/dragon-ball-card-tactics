@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: Critical
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: -5454188614626821060, guid: 6ad5b5f7e33b8024b82cbfb3e8d94617, type: 3}
-    time: 0.1
-  - sprite: {fileID: 6062475305618024161, guid: 6ad5b5f7e33b8024b82cbfb3e8d94617, type: 3}
-    time: 0.1
-  - sprite: {fileID: 2742623670555440445, guid: 6ad5b5f7e33b8024b82cbfb3e8d94617, type: 3}
-    time: 0.1
+  - sprite: {fileID: 1129288134758504408, guid: 71fe42dd5a1b64f90a8e83c0687a97ec, type: 3}
+    time: 0.2
+  - sprite: {fileID: 4148964548256253588, guid: 71fe42dd5a1b64f90a8e83c0687a97ec, type: 3}
+    time: 0.2
+  - sprite: {fileID: -445479998666184279, guid: 71fe42dd5a1b64f90a8e83c0687a97ec, type: 3}
+    time: 0.2
   attackFrameIndex: 1
-  attackType: 1
+  attackType: 0
   particleAttack: {fileID: 0}
   kiOnAttack: 10
   isCinematic: 0

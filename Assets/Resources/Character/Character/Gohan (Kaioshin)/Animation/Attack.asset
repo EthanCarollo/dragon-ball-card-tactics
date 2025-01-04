@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 53bfefa561a5c490cbc7b464bdfdad3a, type: 3}
-  m_Name: Critical
+  m_Name: Attack
   m_EditorClassIdentifier: 
   frameSprites:
-  - sprite: {fileID: -5454188614626821060, guid: 6ad5b5f7e33b8024b82cbfb3e8d94617, type: 3}
-    time: 0.1
-  - sprite: {fileID: 6062475305618024161, guid: 6ad5b5f7e33b8024b82cbfb3e8d94617, type: 3}
-    time: 0.1
-  - sprite: {fileID: 2742623670555440445, guid: 6ad5b5f7e33b8024b82cbfb3e8d94617, type: 3}
-    time: 0.1
+  - sprite: {fileID: -3765459986992949041, guid: 71fe42dd5a1b64f90a8e83c0687a97ec, type: 3}
+    time: 0.2
+  - sprite: {fileID: 8383199260568295126, guid: 71fe42dd5a1b64f90a8e83c0687a97ec, type: 3}
+    time: 0.2
+  - sprite: {fileID: -7873154026970866347, guid: 71fe42dd5a1b64f90a8e83c0687a97ec, type: 3}
+    time: 0.2
   attackFrameIndex: 1
-  attackType: 1
+  attackType: 0
   particleAttack: {fileID: 0}
   kiOnAttack: 10
   isCinematic: 0

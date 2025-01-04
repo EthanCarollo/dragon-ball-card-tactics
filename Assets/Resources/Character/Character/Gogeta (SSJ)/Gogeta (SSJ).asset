@@ -14,27 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 31
   starNumber: 1
-  characterName: Gogeta
+  characterName: Gogeta (SSJ)
   role: 0
   characterType: 1
-  characterSprite: {fileID: -6132506910392665543, guid: bb15a93afa7e382429c3632a6464965c, type: 3}
-  characterIcon: {fileID: 21300000, guid: d6ca938abab494941b7b02038679cfd0, type: 3}
+  characterSprite: {fileID: -1202608566997546685, guid: 6ad5b5f7e33b8024b82cbfb3e8d94617, type: 3}
+  characterIcon: {fileID: 21300000, guid: 9d04a4c1cb3ebe84fae63fcf25802b7e, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 650
-  maxKi: 105
+  maxHealth: 950
+  maxKi: 90
   baseRange: 1
-  baseDamage: 45
+  baseDamage: 65
   baseArmor: 65
-  baseSpeed: 9
-  baseAttackSpeed: 1.2
-  baseCriticalChance: 45
-  idleAnimation: {fileID: 11400000, guid: ef19f7620adb6d8419f1ad1645d0e7cf, type: 2}
-  runAnimation: {fileID: 11400000, guid: 5cf879b8221f36b479f85786605f66d4, type: 2}
-  attackAnimation: {fileID: 11400000, guid: 00fd20c87d599ac47b0f9239dc189df3, type: 2}
-  criticalAttackAnimation: {fileID: 11400000, guid: ffaff8c40bf5aff49a7e76c69fb29301, type: 2}
+  baseSpeed: 12
+  baseAttackSpeed: 1.4
+  baseCriticalChance: 55
+  idleAnimation: {fileID: 11400000, guid: 71b34c77aa7a1a2438cda37aa0c39992, type: 2}
+  runAnimation: {fileID: 11400000, guid: 06b3e4fce65ca4e43bd60912f2af074a, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 36c8ca023d39a9a45af70ed39e05d06e, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 043113f8ba8a8544ba90c1d7b86d51f0, type: 2}
   specialAttackAnimation:
-  - name: Coup d'iep
-    description: Big coup d'iep
-    animation: {fileID: 11400000, guid: b1367e2a9f70f314b91bb4c1c6870032, type: 2}
+  - name: Garric Cannon
+    description: GARRRIIIIIC
+    animation: {fileID: 11400000, guid: da4e9dd887bc8b647973ef607ccad3b7, type: 2}
   deadAnimation: {fileID: 0}
+  sameCharacter: []
   synergies: []
