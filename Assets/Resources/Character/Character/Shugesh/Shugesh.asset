@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Shugesh
+  m_EditorClassIdentifier: 
+  id: 16
+  starNumber: 1
+  characterName: Shugesh
+  role: 0
+  characterType: 3
+  characterSprite: {fileID: 2749711411104444156, guid: 33bb246fc1768dc4d8ff838bd4bfaa4f, type: 3}
+  characterIcon: {fileID: 21300000, guid: 74b35389dfd1f324c8697029a9e34e7d, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 190
+  maxKi: 75
+  baseRange: 5
+  baseDamage: 50
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 0.7
+  baseCriticalChance: 10
+  idleAnimation: {fileID: 11400000, guid: 18a9002b0339e91419401615a0176fd9, type: 2}
+  runAnimation: {fileID: 11400000, guid: 6546975591709f949adcaf228e0fedeb, type: 2}
+  attackAnimation: {fileID: 11400000, guid: f02a4b555be8e704fa18f3cd6b12ea36, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: f02a4b555be8e704fa18f3cd6b12ea36, type: 2}
+  specialAttackAnimation:
+  - name: Multiple attack
+    description: 
+    animation: {fileID: 11400000, guid: 2a485c4c6023099499b4e2883fe7c8d5, type: 2}
+  deadAnimation: {fileID: 0}
+  sameCharacter: []
+  synergies:
+  - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
