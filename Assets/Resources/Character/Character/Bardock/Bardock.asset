@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Bardock
   m_EditorClassIdentifier: 
-  id: 6
+  id: 8
   starNumber: 1
   characterName: Bardock
   role: 0
@@ -37,5 +37,7 @@ MonoBehaviour:
     description: 
     animation: {fileID: 11400000, guid: 6862d7942f7f94a4aa7a1201601a9f0e, type: 2}
   deadAnimation: {fileID: 11400000, guid: 3118b3fab87a32c4d8970f2fcac5f4ca, type: 2}
-  characterPassive: []
-  card: {fileID: 0}
+  sameCharacter: []
+  synergies:
+  - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
+  - {fileID: 11400000, guid: 93bde18f36b384f3ca211431ececea40, type: 2}

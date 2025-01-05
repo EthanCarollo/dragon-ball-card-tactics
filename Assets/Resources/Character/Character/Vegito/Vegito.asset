@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Vegito
+  m_EditorClassIdentifier: 
+  id: 31
+  starNumber: 1
+  characterName: Vegito
+  role: 0
+  characterType: 1
+  characterSprite: {fileID: -6360490423775793000, guid: ee1fc4573f1cf426eb5df4d550a8077c, type: 3}
+  characterIcon: {fileID: 21300000, guid: d17b528b45af04dd1a97fbe02f8ad3f9, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 860
+  maxKi: 110
+  baseRange: 1
+  baseDamage: 80
+  baseArmor: 65
+  baseSpeed: 9
+  baseAttackSpeed: 1.05
+  baseCriticalChance: 60
+  idleAnimation: {fileID: 11400000, guid: 21dd570fab1d844c28a3059a8c2caed0, type: 2}
+  runAnimation: {fileID: 11400000, guid: 42bdc62fa8e8b4457884116500495caa, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 33789de8eb37b4129b531607aeb07638, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: b2022348049cd4a139ffb168c6b0d7fc, type: 2}
+  specialAttackAnimation:
+  - name: Special Kameha
+    description: 
+    animation: {fileID: 11400000, guid: 6d7413f441db141069ed581048ae481b, type: 2}
+  deadAnimation: {fileID: 0}
+  sameCharacter: []
+  synergies:
+  - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}

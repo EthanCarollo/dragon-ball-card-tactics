@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Bardock (SSJ)
   m_EditorClassIdentifier: 
-  id: 7
+  id: 9
   starNumber: 1
   characterName: Bardock
   role: 0
+  characterType: 0
   characterSprite: {fileID: 3940136054517656064, guid: 251848955d6544141aae05a449eef5a6, type: 3}
   characterIcon: {fileID: -5238605233198477593, guid: bd2aa6c450846c84a85ea598d1687d0f, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
@@ -35,3 +36,8 @@ MonoBehaviour:
   - name: 
     description: 
     animation: {fileID: 11400000, guid: ab8e6200bbe51c142a094efe6662d543, type: 2}
+  deadAnimation: {fileID: 0}
+  sameCharacter: []
+  synergies:
+  - {fileID: 11400000, guid: 93bde18f36b384f3ca211431ececea40, type: 2}
+  - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
