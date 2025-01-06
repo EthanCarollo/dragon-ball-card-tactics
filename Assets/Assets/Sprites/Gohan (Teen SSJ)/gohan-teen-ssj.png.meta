@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 86dd22234984db346be1a9b7eb2608cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6808777092466254399
+    second: gohan-teen-ssj_0
+  - first:
+      213: -6884701659495066033
+    second: gohan-teen-ssj_1
+  - first:
+      213: -6384143196199161870
+    second: gohan-teen-ssj_2
+  - first:
+      213: -5885371877739346373
+    second: gohan-teen-ssj_3
+  - first:
+      213: -4782150702524927771
+    second: gohan-teen-ssj_4
+  - first:
+      213: 6010086589766451129
+    second: gohan-teen-ssj_5
+  - first:
+      213: 4045163501963234535
+    second: gohan-teen-ssj_6
+  - first:
+      213: -4360157844067956661
+    second: gohan-teen-ssj_7
+  - first:
+      213: 4530527193330115068
+    second: gohan-teen-ssj_8
+  - first:
+      213: 683758537500490586
+    second: gohan-teen-ssj_9
+  - first:
+      213: 7450332991472917781
+    second: gohan-teen-ssj_10
+  - first:
+      213: -8404145751246014500
+    second: gohan-teen-ssj_11
+  - first:
+      213: 6464161380364107285
+    second: gohan-teen-ssj_12
+  - first:
+      213: -8753942380775313096
+    second: gohan-teen-ssj_13
+  - first:
+      213: -8421826535977695263
+    second: gohan-teen-ssj_14
+  - first:
+      213: -2234637214247064924
+    second: gohan-teen-ssj_15
+  - first:
+      213: 739891247385123427
+    second: gohan-teen-ssj_16
+  - first:
+      213: -639057123867967144
+    second: gohan-teen-ssj_17
+  - first:
+      213: 7184547314002969781
+    second: gohan-teen-ssj_18
+  - first:
+      213: -2907473624942805300
+    second: gohan-teen-ssj_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gohan-teen-ssj_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 453
+        width: 26
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32a44fe0b2ad7e50800000000000000
+      internalID: 6808777092466254399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 453
+        width: 26
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4611414150a470a0800000000000000
+      internalID: -6884701659495066033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_2
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 453
+        width: 27
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff62537697f667a0800000000000000
+      internalID: -6384143196199161870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 455
+        width: 41
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36c5409575f25ea0800000000000000
+      internalID: -5885371877739346373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_4
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 461
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0fd91e54362adb0800000000000000
+      internalID: -4782150702524927771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 464
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf3e5c19ed186350800000000000000
+      internalID: 6010086589766451129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 391
+        width: 26
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ecc4e8d5ce432830800000000000000
+      internalID: 4045163501963234535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_7
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 395
+        width: 48
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4842bbba8b9d73c0800000000000000
+      internalID: -4360157844067956661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_8
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 395
+        width: 30
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf160b38a7aafde30800000000000000
+      internalID: 4530527193330115068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 389
+        width: 33
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b7bd364c23d7900800000000000000
+      internalID: 683758537500490586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 390
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ddd17d166e46760800000000000000
+      internalID: 7450332991472917781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_11
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 390
+        width: 28
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd77f5067f97e5b80800000000000000
+      internalID: -8404145751246014500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 317
+        width: 41
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51eb66fd68055b950800000000000000
+      internalID: 6464161380364107285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_13
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 316
+        width: 47
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83176a9f8cfb38680800000000000000
+      internalID: -8753942380775313096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_14
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 317
+        width: 40
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e74713e269af1b80800000000000000
+      internalID: -8421826535977695263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_15
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 317
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa6fe21b49fcf0e0800000000000000
+      internalID: -2234637214247064924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 248
+        width: 30
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a9fcc5b2f944a00800000000000000
+      internalID: 739891247385123427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_17
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 248
+        width: 53
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851caa48eec9127f0800000000000000
+      internalID: -639057123867967144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 248
+        width: 36
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4422b77b3a4b360800000000000000
+      internalID: 7184547314002969781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-teen-ssj_19
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 248
+        width: 37
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce777f742496a7d0800000000000000
+      internalID: -2907473624942805300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9688df4752b623543837284e1ae53dd1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gohan-teen-ssj_0: 6808777092466254399
+      gohan-teen-ssj_1: -6884701659495066033
+      gohan-teen-ssj_10: 7450332991472917781
+      gohan-teen-ssj_11: -8404145751246014500
+      gohan-teen-ssj_12: 6464161380364107285
+      gohan-teen-ssj_13: -8753942380775313096
+      gohan-teen-ssj_14: -8421826535977695263
+      gohan-teen-ssj_15: -2234637214247064924
+      gohan-teen-ssj_16: 739891247385123427
+      gohan-teen-ssj_17: -639057123867967144
+      gohan-teen-ssj_18: 7184547314002969781
+      gohan-teen-ssj_19: -2907473624942805300
+      gohan-teen-ssj_2: -6384143196199161870
+      gohan-teen-ssj_3: -5885371877739346373
+      gohan-teen-ssj_4: -4782150702524927771
+      gohan-teen-ssj_5: 6010086589766451129
+      gohan-teen-ssj_6: 4045163501963234535
+      gohan-teen-ssj_7: -4360157844067956661
+      gohan-teen-ssj_8: 4530527193330115068
+      gohan-teen-ssj_9: 683758537500490586
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
