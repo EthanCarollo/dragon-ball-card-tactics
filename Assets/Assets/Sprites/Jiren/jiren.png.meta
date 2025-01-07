@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 0851a3e08249f304b97fa3d117265eb3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7609910755881021222
+    second: jiren_0
+  - first:
+      213: 2605179920003881271
+    second: jiren_1
+  - first:
+      213: -4390197798107467739
+    second: jiren_2
+  - first:
+      213: -6750924941149325547
+    second: jiren_3
+  - first:
+      213: -2144678759248247685
+    second: jiren_4
+  - first:
+      213: -6926900627505268548
+    second: jiren_5
+  - first:
+      213: -5626697985074244666
+    second: jiren_6
+  - first:
+      213: 1425101344977070228
+    second: jiren_7
+  - first:
+      213: 9080372724282850078
+    second: jiren_8
+  - first:
+      213: -4475403103221213446
+    second: jiren_9
+  - first:
+      213: 1447998101900393870
+    second: jiren_10
+  - first:
+      213: 7454383929581525861
+    second: jiren_11
+  - first:
+      213: -5482387468041919271
+    second: jiren_12
+  - first:
+      213: -6655137591997201665
+    second: jiren_13
+  - first:
+      213: 3902110453165805493
+    second: jiren_14
+  - first:
+      213: -4345675113806363917
+    second: jiren_15
+  - first:
+      213: -2193547137280467081
+    second: jiren_16
+  - first:
+      213: 8281685442037830629
+    second: jiren_17
+  - first:
+      213: 4401553218439952428
+    second: jiren_18
+  - first:
+      213: 1809946138890418812
+    second: jiren_19
+  - first:
+      213: -1108070520264702498
+    second: jiren_20
+  - first:
+      213: -3639593775367055672
+    second: jiren_21
+  - first:
+      213: 1358901143038653507
+    second: jiren_22
+  - first:
+      213: 2656171946696257604
+    second: jiren_23
+  - first:
+      213: -3097107808435064322
+    second: jiren_24
+  - first:
+      213: 1345721024984672631
+    second: jiren_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jiren_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 452
+        width: 29
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f66b07385db9960800000000000000
+      internalID: 7609910755881021222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 460
+        width: 52
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739dfcb9555772420800000000000000
+      internalID: 2605179920003881271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 463
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5203a16ec52e213c0800000000000000
+      internalID: -4390197798107467739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 454
+        width: 40
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5173871b885ef42a0800000000000000
+      internalID: -6750924941149325547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 395
+        width: 43
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74cead08029c32e0800000000000000
+      internalID: -2144678759248247685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_5
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 395
+        width: 34
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb83e1f5494bedf90800000000000000
+      internalID: -6926900627505268548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_6
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 395
+        width: 54
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c35e3d7ef3f9e1b0800000000000000
+      internalID: -5626697985074244666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 390
+        width: 28
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4982a4c6f1af6c310800000000000000
+      internalID: 1425101344977070228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_8
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 390
+        width: 41
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b760302e6f30e70800000000000000
+      internalID: 9080372724282850078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_9
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 425
+        width: 12
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af691ddd69c24e1c0800000000000000
+      internalID: -4475403103221213446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 390
+        width: 36
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d76331a92581410800000000000000
+      internalID: 1447998101900393870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_11
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 331
+        width: 42
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b561e50ba437760800000000000000
+      internalID: 7454383929581525861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 331
+        width: 33
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4ee4e05a5aae3b0800000000000000
+      internalID: -5482387468041919271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_13
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 331
+        width: 48
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff288a9de9334a3a0800000000000000
+      internalID: -6655137591997201665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_14
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 238
+        width: 71
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf494b68c4172630800000000000000
+      internalID: 3902110453165805493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 238
+        width: 73
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f20154228f01b3c0800000000000000
+      internalID: -4345675113806363917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_16
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 271
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f92542084fe81e0800000000000000
+      internalID: -2193547137280467081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_17
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 238
+        width: 71
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3503208057ee270800000000000000
+      internalID: 8281685442037830629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_18
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 238
+        width: 70
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28371de455751d30800000000000000
+      internalID: 4401553218439952428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_19
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 239
+        width: 44
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a372f7c683e1910800000000000000
+      internalID: 1809946138890418812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 173
+        width: 45
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed54a8d8bb75f90f0800000000000000
+      internalID: -1108070520264702498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_21
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 173
+        width: 47
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c61684aeb09d7dc0800000000000000
+      internalID: -3639593775367055672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 173
+        width: 62
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344f0bbc369cbd210800000000000000
+      internalID: 1358901143038653507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_23
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 201
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4403031005e9cd420800000000000000
+      internalID: 2656171946696257604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_24
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 173
+        width: 53
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1b32f7bdcd405d0800000000000000
+      internalID: -3097107808435064322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_25
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 188
+        width: 15
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7796cfc6426fca210800000000000000
+      internalID: 1345721024984672631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ec51788440e77c44eb7e82fb6c69e62c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jiren_0: 7609910755881021222
+      jiren_1: 2605179920003881271
+      jiren_10: 1447998101900393870
+      jiren_11: 7454383929581525861
+      jiren_12: -5482387468041919271
+      jiren_13: -6655137591997201665
+      jiren_14: 3902110453165805493
+      jiren_15: -4345675113806363917
+      jiren_16: -2193547137280467081
+      jiren_17: 8281685442037830629
+      jiren_18: 4401553218439952428
+      jiren_19: 1809946138890418812
+      jiren_2: -4390197798107467739
+      jiren_20: -1108070520264702498
+      jiren_21: -3639593775367055672
+      jiren_22: 1358901143038653507
+      jiren_23: 2656171946696257604
+      jiren_24: -3097107808435064322
+      jiren_25: 1345721024984672631
+      jiren_3: -6750924941149325547
+      jiren_4: -2144678759248247685
+      jiren_5: -6926900627505268548
+      jiren_6: -5626697985074244666
+      jiren_7: 1425101344977070228
+      jiren_8: 9080372724282850078
+      jiren_9: -4475403103221213446
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

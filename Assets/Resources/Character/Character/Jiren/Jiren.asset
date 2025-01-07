@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Jiren
+  m_EditorClassIdentifier: 
+  id: 54
+  starNumber: 1
+  characterName: Jiren
+  role: 0
+  characterType: 2
+  characterSprite: {fileID: 7609910755881021222, guid: 0851a3e08249f304b97fa3d117265eb3, type: 3}
+  characterIcon: {fileID: 21300000, guid: bcfb3ac292980b3488bc2171a38ee363, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 980
+  maxKi: 95
+  baseRange: 1
+  baseDamage: 115
+  baseArmor: 95
+  baseSpeed: 12
+  baseAttackSpeed: 1.1
+  baseCriticalChance: 40
+  idleAnimation: {fileID: 11400000, guid: 0b6435ab9d0040b4f9558a300bba4a89, type: 2}
+  runAnimation: {fileID: 11400000, guid: b5be6196cce479e4a91da1705e1e1c21, type: 2}
+  attackAnimation: {fileID: 11400000, guid: c796fd4be63f794449e29e949d349bb3, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: bd95c00bd92c1644bb8a1c54147229bc, type: 2}
+  specialAttackAnimation:
+  - name: Big Smash Ki
+    description: 
+    animation: {fileID: 11400000, guid: 5c9c2e4877e436d4784bf4988c78a720, type: 2}
+  deadAnimation: {fileID: 0}
+  sameCharacter: []
+  synergies:
+  - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
