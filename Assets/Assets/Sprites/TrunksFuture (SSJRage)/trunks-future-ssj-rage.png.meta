@@ -1,0 +1,1336 @@
+fileFormatVersion: 2
+guid: 24ed9ccba42ff46818e88f56b5408933
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1584252648988778548
+    second: trunks-future-ssj-rage_0
+  - first:
+      213: -2181579859988459430
+    second: trunks-future-ssj-rage_1
+  - first:
+      213: 7766646453521170926
+    second: trunks-future-ssj-rage_2
+  - first:
+      213: -4483409469042732576
+    second: trunks-future-ssj-rage_3
+  - first:
+      213: 66726359678268590
+    second: trunks-future-ssj-rage_4
+  - first:
+      213: -1872418358920341115
+    second: trunks-future-ssj-rage_5
+  - first:
+      213: -3654876890693331546
+    second: trunks-future-ssj-rage_6
+  - first:
+      213: 3822087917220944196
+    second: trunks-future-ssj-rage_7
+  - first:
+      213: 1235383634578116354
+    second: trunks-future-ssj-rage_8
+  - first:
+      213: 4677719913018844300
+    second: trunks-future-ssj-rage_9
+  - first:
+      213: -3621873290652143915
+    second: trunks-future-ssj-rage_10
+  - first:
+      213: -5304811017150561440
+    second: trunks-future-ssj-rage_11
+  - first:
+      213: -3968538547484446869
+    second: trunks-future-ssj-rage_12
+  - first:
+      213: 6224982703054135340
+    second: trunks-future-ssj-rage_13
+  - first:
+      213: -2658545821967988606
+    second: trunks-future-ssj-rage_14
+  - first:
+      213: -8304436085690861199
+    second: trunks-future-ssj-rage_15
+  - first:
+      213: -8600786311494589062
+    second: trunks-future-ssj-rage_16
+  - first:
+      213: -7362813502328263357
+    second: trunks-future-ssj-rage_17
+  - first:
+      213: -2660701329981174819
+    second: trunks-future-ssj-rage_18
+  - first:
+      213: -1602697463825727794
+    second: trunks-future-ssj-rage_19
+  - first:
+      213: 8905670781578543222
+    second: trunks-future-ssj-rage_20
+  - first:
+      213: -2967279320163819495
+    second: trunks-future-ssj-rage_21
+  - first:
+      213: 2993455395690440839
+    second: trunks-future-ssj-rage_22
+  - first:
+      213: 154574783490086984
+    second: trunks-future-ssj-rage_23
+  - first:
+      213: -4011698609908202780
+    second: trunks-future-ssj-rage_24
+  - first:
+      213: -8853653770822010690
+    second: trunks-future-ssj-rage_25
+  - first:
+      213: -2954536645149131241
+    second: trunks-future-ssj-rage_26
+  - first:
+      213: 5750232892253237952
+    second: trunks-future-ssj-rage_27
+  - first:
+      213: 7781296319048361791
+    second: trunks-future-ssj-rage_28
+  - first:
+      213: 8780225630129804005
+    second: trunks-future-ssj-rage_29
+  - first:
+      213: 6636257817989065358
+    second: trunks-future-ssj-rage_30
+  - first:
+      213: 3336368732783714669
+    second: trunks-future-ssj-rage_31
+  - first:
+      213: 4236804194073868698
+    second: trunks-future-ssj-rage_32
+  - first:
+      213: 745004231453943704
+    second: trunks-future-ssj-rage_33
+  - first:
+      213: -1937524760523040651
+    second: trunks-future-ssj-rage_34
+  - first:
+      213: 708426603239950926
+    second: trunks-future-ssj-rage_35
+  - first:
+      213: 7970671299730413318
+    second: trunks-future-ssj-rage_36
+  - first:
+      213: 1484759561163558774
+    second: trunks-future-ssj-rage_37
+  - first:
+      213: -3002628998044366121
+    second: trunks-future-ssj-rage_38
+  - first:
+      213: -5852397433029795861
+    second: trunks-future-ssj-rage_39
+  - first:
+      213: -1981376451183327831
+    second: trunks-future-ssj-rage_40
+  - first:
+      213: -7542097242960264131
+    second: trunks-future-ssj-rage_41
+  - first:
+      213: 6679592317931484285
+    second: trunks-future-ssj-rage_42
+  - first:
+      213: 2954446869869450078
+    second: trunks-future-ssj-rage_43
+  - first:
+      213: 4872555515312112028
+    second: trunks-future-ssj-rage_44
+  - first:
+      213: -3766299219855014612
+    second: trunks-future-ssj-rage_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_0
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 887
+        width: 89
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430a279f3656cf510800000000000000
+      internalID: 1584252648988778548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_1
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 887
+        width: 91
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50dd340da879b1e0800000000000000
+      internalID: -2181579859988459430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_2
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 891
+        width: 63
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee14d2ecccba8cb60800000000000000
+      internalID: 7766646453521170926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_3
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 884
+        width: 80
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1d51f87dab7c1c0800000000000000
+      internalID: -4483409469042732576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_4
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 881
+        width: 79
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea437c5454f0de000800000000000000
+      internalID: 66726359678268590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_5
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 887
+        width: 71
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58912ad4c65d306e0800000000000000
+      internalID: -1872418358920341115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_6
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 904
+        width: 63
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5907015d4474dc0800000000000000
+      internalID: -3654876890693331546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_7
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 928
+        width: 9
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449544ed5b8ca0530800000000000000
+      internalID: 3822087917220944196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_8
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 954
+        width: 5
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f0c5cced6f42110800000000000000
+      internalID: 1235383634578116354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_9
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 948
+        width: 12
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84624e2a799ae040800000000000000
+      internalID: 4677719913018844300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_10
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 941
+        width: 13
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de24318e658cbdc0800000000000000
+      internalID: -3621873290652143915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 893
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063892a6c768166b0800000000000000
+      internalID: -5304811017150561440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 893
+        width: 29
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6faebf973bece8c0800000000000000
+      internalID: -3968538547484446869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 893
+        width: 47
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c202e7c79c4936650800000000000000
+      internalID: 6224982703054135340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_14
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 887
+        width: 33
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288cf7619a2fa1bd0800000000000000
+      internalID: -2658545821967988606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_15
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 887
+        width: 41
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179f57cf067b0cc80800000000000000
+      internalID: -8304436085690861199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_16
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 925
+        width: 7
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75a25a2b6ed3a880800000000000000
+      internalID: -8600786311494589062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_17
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 919
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d2646212802d990800000000000000
+      internalID: -7362813502328263357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_18
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 887
+        width: 33
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb0015cc3a431bd0800000000000000
+      internalID: -2660701329981174819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_19
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 908
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece7f3ae52312c9e0800000000000000
+      internalID: -1602697463825727794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_20
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 908
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670809e346c479b70800000000000000
+      internalID: 8905670781578543222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_21
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 894
+        width: 9
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910e54cfd2b12d6d0800000000000000
+      internalID: -2967279320163819495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_22
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 823
+        width: 29
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788ea1782d3ea8920800000000000000
+      internalID: 2993455395690440839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_23
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 823
+        width: 30
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848d82552f8252200800000000000000
+      internalID: 154574783490086984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 756
+        width: 32
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e24e728e559358c0800000000000000
+      internalID: -4011698609908202780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_25
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 756
+        width: 42
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb83bd9ddc0812580800000000000000
+      internalID: -8853653770822010690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_26
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 756
+        width: 37
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ef20633906ff6d0800000000000000
+      internalID: -2954536645149131241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_27
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 756
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c27586795eeccf40800000000000000
+      internalID: 5750232892253237952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_28
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 757
+        width: 39
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37aeec66c7bcfb60800000000000000
+      internalID: 7781296319048361791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_29
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 757
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2daa3e0b0a9d970800000000000000
+      internalID: 8780225630129804005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_30
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 692
+        width: 31
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8aa5273359b81c50800000000000000
+      internalID: 6636257817989065358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_31
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 692
+        width: 35
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d612b458fa92d4e20800000000000000
+      internalID: 3336368732783714669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_32
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 692
+        width: 34
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9978aa87f62cca30800000000000000
+      internalID: 4236804194073868698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_33
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 692
+        width: 39
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897a9fbb669c65a00800000000000000
+      internalID: 745004231453943704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_34
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 692
+        width: 33
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5781089ee778c15e0800000000000000
+      internalID: -1937524760523040651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_35
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 692
+        width: 34
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4acd830e36d4d900800000000000000
+      internalID: 708426603239950926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_36
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 692
+        width: 34
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60715d111538d9e60800000000000000
+      internalID: 7970671299730413318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_37
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 612
+        width: 49
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fc40c44fcea9410800000000000000
+      internalID: 1484759561163558774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_38
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 609
+        width: 51
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da474bb5d48456d0800000000000000
+      internalID: -3002628998044366121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_39
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 607
+        width: 52
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befd9dfba8b18cea0800000000000000
+      internalID: -5852397433029795861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_40
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 608
+        width: 53
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5c4ec8d9cb084e0800000000000000
+      internalID: -1981376451183327831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_41
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 606
+        width: 60
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3486eb6486155790800000000000000
+      internalID: -7542097242960264131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_42
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 608
+        width: 57
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74fbbab2dda2bc50800000000000000
+      internalID: 6679592317931484285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_43
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 656
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53555a56cd400920800000000000000
+      internalID: 2954446869869450078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_44
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 612
+        width: 35
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c918c8edc6bce9340800000000000000
+      internalID: 4872555515312112028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_45
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 635
+        width: 4
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2506b270da6bbbc0800000000000000
+      internalID: -3766299219855014612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trunks-future-ssj-rage_46
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 615
+        width: 43
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaa244ec872749afb469f298ffee6da
+      internalID: -1563878037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cd4f05ea02f3c4b9086367006b02d870
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      trunks-future-ssj-rage_0: 1584252648988778548
+      trunks-future-ssj-rage_1: -2181579859988459430
+      trunks-future-ssj-rage_10: -3621873290652143915
+      trunks-future-ssj-rage_11: -5304811017150561440
+      trunks-future-ssj-rage_12: -3968538547484446869
+      trunks-future-ssj-rage_13: 6224982703054135340
+      trunks-future-ssj-rage_14: -2658545821967988606
+      trunks-future-ssj-rage_15: -8304436085690861199
+      trunks-future-ssj-rage_16: -8600786311494589062
+      trunks-future-ssj-rage_17: -7362813502328263357
+      trunks-future-ssj-rage_18: -2660701329981174819
+      trunks-future-ssj-rage_19: -1602697463825727794
+      trunks-future-ssj-rage_2: 7766646453521170926
+      trunks-future-ssj-rage_20: 8905670781578543222
+      trunks-future-ssj-rage_21: -2967279320163819495
+      trunks-future-ssj-rage_22: 2993455395690440839
+      trunks-future-ssj-rage_23: 154574783490086984
+      trunks-future-ssj-rage_24: -4011698609908202780
+      trunks-future-ssj-rage_25: -8853653770822010690
+      trunks-future-ssj-rage_26: -2954536645149131241
+      trunks-future-ssj-rage_27: 5750232892253237952
+      trunks-future-ssj-rage_28: 7781296319048361791
+      trunks-future-ssj-rage_29: 8780225630129804005
+      trunks-future-ssj-rage_3: -4483409469042732576
+      trunks-future-ssj-rage_30: 6636257817989065358
+      trunks-future-ssj-rage_31: 3336368732783714669
+      trunks-future-ssj-rage_32: 4236804194073868698
+      trunks-future-ssj-rage_33: 745004231453943704
+      trunks-future-ssj-rage_34: -1937524760523040651
+      trunks-future-ssj-rage_35: 708426603239950926
+      trunks-future-ssj-rage_36: 7970671299730413318
+      trunks-future-ssj-rage_37: 1484759561163558774
+      trunks-future-ssj-rage_38: -3002628998044366121
+      trunks-future-ssj-rage_39: -5852397433029795861
+      trunks-future-ssj-rage_4: 66726359678268590
+      trunks-future-ssj-rage_40: -1981376451183327831
+      trunks-future-ssj-rage_41: -7542097242960264131
+      trunks-future-ssj-rage_42: 6679592317931484285
+      trunks-future-ssj-rage_43: 2954446869869450078
+      trunks-future-ssj-rage_44: 4872555515312112028
+      trunks-future-ssj-rage_45: -3766299219855014612
+      trunks-future-ssj-rage_46: -1563878037
+      trunks-future-ssj-rage_5: -1872418358920341115
+      trunks-future-ssj-rage_6: -3654876890693331546
+      trunks-future-ssj-rage_7: 3822087917220944196
+      trunks-future-ssj-rage_8: 1235383634578116354
+      trunks-future-ssj-rage_9: 4677719913018844300
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
