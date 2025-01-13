@@ -12,30 +12,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Krillin (Namek Saga)
   m_EditorClassIdentifier: 
-  id: 23
+  id: 61
   starNumber: 1
-  characterName: Black Vegeta
+  characterName: Krillin (Namek Saga)
   role: 0
   characterType: 1
-  characterSprite: {fileID: 8158688993613854608, guid: cb299a4ee97e84bd1ab782a14ff5346a, type: 3}
-  characterIcon: {fileID: 21300000, guid: 163d6bfed13c545ffbc974dabf0d4a0f, type: 3}
+  characterSprite: {fileID: 4637636157251465461, guid: 9a65e2bd8d019a74fa6b8e1ae371a6fa, type: 3}
+  characterIcon: {fileID: 21300000, guid: f07e429a08d5ce848bc949793b1b940b, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 950
+  maxHealth: 150
   maxKi: 45
   baseRange: 1
-  baseDamage: 125
+  baseDamage: 25
   baseArmor: 35
   baseSpeed: 8
   baseAttackSpeed: 1.4
-  baseCriticalChance: 55
-  idleAnimation: {fileID: 11400000, guid: 4de67b7867ead411faedd2037d3c8634, type: 2}
-  runAnimation: {fileID: 11400000, guid: c887c7cafde7744f190333111db23eb7, type: 2}
-  attackAnimation: {fileID: 11400000, guid: 9a59b4025f21d47c094ec6618891f12b, type: 2}
-  criticalAttackAnimation: {fileID: 11400000, guid: e2147ad4659664967ab4e027f315fcd9, type: 2}
+  baseCriticalChance: 10
+  idleAnimation: {fileID: 11400000, guid: 7eb088949f2ab4e4b84b84833bfab5dc, type: 2}
+  runAnimation: {fileID: 11400000, guid: 6ffb24eed6240164bb75b5d2799bf156, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 6190662d2fc395c4e8df16bb5f2f4484, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: d45a2a6c37a6ebc4687b353b747e0e78, type: 2}
   specialAttackAnimation:
-  - name: Black Kameha
+  - name: Super Kikoha
     description: 
-    animation: {fileID: 11400000, guid: 3d52ebe64620e4fc9b0d67be6b571cb0, type: 2}
+    animation: {fileID: 11400000, guid: c7e438f3f9e24614f9e333a546389aa6, type: 2}
   deadAnimation: {fileID: 0}
+  sameCharacter: []
   synergies:
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}

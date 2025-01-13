@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 66f8a9b049a614325af034a66922ee14
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8324787462739299952
+    second: goku-yadrat_0
+  - first:
+      213: -527837115816647961
+    second: goku-yadrat_1
+  - first:
+      213: -7862057143088310802
+    second: goku-yadrat_2
+  - first:
+      213: -5442397929539358819
+    second: goku-yadrat_3
+  - first:
+      213: -60180926657594818
+    second: goku-yadrat_4
+  - first:
+      213: -2956408526071958809
+    second: goku-yadrat_5
+  - first:
+      213: 5473190626492452541
+    second: goku-yadrat_6
+  - first:
+      213: 3535964581948834283
+    second: goku-yadrat_7
+  - first:
+      213: 6022531057251774423
+    second: goku-yadrat_8
+  - first:
+      213: -7237639234277894065
+    second: goku-yadrat_9
+  - first:
+      213: 7286803033021890856
+    second: goku-yadrat_10
+  - first:
+      213: 7619947782780394590
+    second: goku-yadrat_11
+  - first:
+      213: 5476863992101580197
+    second: goku-yadrat_12
+  - first:
+      213: 5496442056561297010
+    second: goku-yadrat_13
+  - first:
+      213: 5159986685686390417
+    second: goku-yadrat_14
+  - first:
+      213: 7510444634666491085
+    second: goku-yadrat_15
+  - first:
+      213: 6188059251290209967
+    second: goku-yadrat_16
+  - first:
+      213: 3656100223644119564
+    second: goku-yadrat_17
+  - first:
+      213: 5527660784968476485
+    second: goku-yadrat_18
+  - first:
+      213: -7844927753770542330
+    second: goku-yadrat_19
+  - first:
+      213: 6024064033314135549
+    second: goku-yadrat_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: goku-yadrat_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 457
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e833b3716978370800000000000000
+      internalID: 8324787462739299952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 456
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e26b7490febca8f0800000000000000
+      internalID: -527837115816647961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 455
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5166eeeac54e290800000000000000
+      internalID: -7862057143088310802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 407
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f2c7b0be7b874b0800000000000000
+      internalID: -5442397929539358819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 409
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3af15c14c13a2ff0800000000000000
+      internalID: -60180926657594818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 412
+        width: 51
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e27b88fb1ab8f6d0800000000000000
+      internalID: -2956408526071958809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 402
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe841860eda4fb40800000000000000
+      internalID: 5473190626492452541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_7
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 400
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be14c6d8d05421130800000000000000
+      internalID: 3535964581948834283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_8
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 401
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfef3c7614549350800000000000000
+      internalID: 6022531057251774423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 334
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f489f6c867dbe8b90800000000000000
+      internalID: -7237639234277894065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 335
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821428b50ccef1560800000000000000
+      internalID: 7286803033021890856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_11
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 332
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c96afd22e7fb960800000000000000
+      internalID: 7619947782780394590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_12
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 333
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ada75c78cab10c40800000000000000
+      internalID: 5476863992101580197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_13
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 332
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2768ad5dde8474c40800000000000000
+      internalID: 5496442056561297010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_14
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 332
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e15164d84fb9740800000000000000
+      internalID: 5159986685686390417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 260
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dccd88a6a957a3860800000000000000
+      internalID: 7510444634666491085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_16
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 259
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faef8327a1760e550800000000000000
+      internalID: 6188059251290209967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_17
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 259
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02b88558c31db230800000000000000
+      internalID: 3656100223644119564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_18
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 258
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54727e6723236bc40800000000000000
+      internalID: 5527660784968476485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_19
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 258
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b57eba5c7312390800000000000000
+      internalID: -7844927753770542330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-yadrat_20
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 257
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd55e94256c99350800000000000000
+      internalID: 6024064033314135549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4d2949a0af8aa4aad8724319206d1909
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      goku-yadrat_0: 8324787462739299952
+      goku-yadrat_1: -527837115816647961
+      goku-yadrat_10: 7286803033021890856
+      goku-yadrat_11: 7619947782780394590
+      goku-yadrat_12: 5476863992101580197
+      goku-yadrat_13: 5496442056561297010
+      goku-yadrat_14: 5159986685686390417
+      goku-yadrat_15: 7510444634666491085
+      goku-yadrat_16: 6188059251290209967
+      goku-yadrat_17: 3656100223644119564
+      goku-yadrat_18: 5527660784968476485
+      goku-yadrat_19: -7844927753770542330
+      goku-yadrat_2: -7862057143088310802
+      goku-yadrat_20: 6024064033314135549
+      goku-yadrat_3: -5442397929539358819
+      goku-yadrat_4: -60180926657594818
+      goku-yadrat_5: -2956408526071958809
+      goku-yadrat_6: 5473190626492452541
+      goku-yadrat_7: 3535964581948834283
+      goku-yadrat_8: 6022531057251774423
+      goku-yadrat_9: -7237639234277894065
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

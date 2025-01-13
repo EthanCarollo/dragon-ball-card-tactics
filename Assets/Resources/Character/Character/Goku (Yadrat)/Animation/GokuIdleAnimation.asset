@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03b16787bc87f453d9d2b4fb52cd1a0f, type: 3}
+  m_Name: GokuIdleAnimation
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: 8324787462739299952, guid: 66f8a9b049a614325af034a66922ee14, type: 3}
+    time: 0.2
+  - sprite: {fileID: -527837115816647961, guid: 66f8a9b049a614325af034a66922ee14, type: 3}
+    time: 0.2
+  - sprite: {fileID: -7862057143088310802, guid: 66f8a9b049a614325af034a66922ee14, type: 3}
+    time: 0.2

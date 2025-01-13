@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Goku (Yadrat)
+  m_EditorClassIdentifier: 
+  id: 40
+  starNumber: 1
+  characterName: Goku (Yadrat)
+  role: 0
+  characterType: 0
+  characterSprite: {fileID: 8324787462739299952, guid: 66f8a9b049a614325af034a66922ee14, type: 3}
+  characterIcon: {fileID: 21300000, guid: 7d5143beb2ec24759bacb76cb70bb111, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 390
+  maxKi: 20
+  baseRange: 1
+  baseDamage: 30
+  baseArmor: 10
+  baseSpeed: 4
+  baseAttackSpeed: 1.2
+  baseCriticalChance: 35
+  idleAnimation: {fileID: 11400000, guid: 4d4ba6182c03f424d9267d9ebcd0e0ed, type: 2}
+  runAnimation: {fileID: 11400000, guid: bb1f88337c05a4d5f841d274a383dbe9, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 509a0417e39554c79bbd8f0f4bee68ca, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 3d9cae7452cb8461db2b82db2bb89d49, type: 2}
+  specialAttackAnimation:
+  - name: Kameha
+    description: A bigger attack
+    animation: {fileID: 11400000, guid: d0cbb66675c6442509da6eaf824f15b0, type: 2}
+  deadAnimation: {fileID: 0}
+  sameCharacter:
+  - {fileID: 11400000, guid: 9b424d77e4f22ed409f878e0c2d3f275, type: 2}
+  - {fileID: 11400000, guid: b8153c8db51b02e469b29ecc91aa4c44, type: 2}
+  - {fileID: 11400000, guid: 7c72d6e2019ed431b86de89a71f06dc1, type: 2}
+  - {fileID: 11400000, guid: 9cfac1c9f06f44a5bba686fca9b53cc3, type: 2}
+  - {fileID: 11400000, guid: 8c612c643af604c4ba71d5a93fe524c8, type: 2}
+  synergies:
+  - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}

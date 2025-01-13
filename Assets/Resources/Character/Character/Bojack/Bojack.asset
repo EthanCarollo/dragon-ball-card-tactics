@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Bojack
   m_EditorClassIdentifier: 
-  id: 46
+  id: 16
   starNumber: 1
   characterName: Bojack
   role: 0
@@ -37,6 +37,8 @@ MonoBehaviour:
     description: Launch multiple attacks on multiple enemies
     animation: {fileID: 11400000, guid: 9c648dd53946449298861bc9e7666311, type: 2}
   deadAnimation: {fileID: 0}
+  sameCharacter:
+  - {fileID: 11400000, guid: 41b76d184a8a14023806cbbe64e6a85b, type: 2}
   synergies:
   - {fileID: 11400000, guid: fb45fe0120531415a900315cc099c60a, type: 2}
   - {fileID: 11400000, guid: d650a485b7943417bb2b531cc2a4ba90, type: 2}
