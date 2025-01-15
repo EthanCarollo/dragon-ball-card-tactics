@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Majin Buu
+  m_EditorClassIdentifier: 
+  id: 21
+  starNumber: 1
+  characterName: Majin Buu
+  role: 0
+  characterType: 2
+  characterSprite: {fileID: -7709562525834285356, guid: 55d56e6179c4e4cb0bbd2c02cf26cc43, type: 3}
+  characterIcon: {fileID: 21300000, guid: 82c7baf8fa8c641a686ce9adddd010e3, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 650
+  maxKi: 55
+  baseRange: 1
+  baseDamage: 35
+  baseArmor: 25
+  baseSpeed: 9
+  baseAttackSpeed: 1.2
+  baseCriticalChance: 35
+  idleAnimation: {fileID: 11400000, guid: 8caf081de93d245569c8fb7ea3b5fc0d, type: 2}
+  runAnimation: {fileID: 11400000, guid: 6a11a9d7bafa34c75b51f4ca14758b49, type: 2}
+  attackAnimation: {fileID: 11400000, guid: a6f930ace95234d3498ad233eaa6e63d, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 486e4c0bb62ea47f68e7ce449e58430e, type: 2}
+  specialAttackAnimation:
+  - name: Garic Canon
+    description: A powerful ki waves shot from both hands.
+    animation: {fileID: 11400000, guid: 99e5d617ea0704d3a8abf74bdef4374d, type: 2}
+  deadAnimation: {fileID: 0}
+  sameCharacter: []
+  synergies:
+  - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
