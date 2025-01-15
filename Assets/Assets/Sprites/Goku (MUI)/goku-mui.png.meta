@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 83ef03cb9e8574d48a1ca6037e09c5ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2049586097817535859
+    second: goku-mui_0
+  - first:
+      213: -2851908210540250888
+    second: goku-mui_1
+  - first:
+      213: 6869874416568417450
+    second: goku-mui_2
+  - first:
+      213: -783947784077393753
+    second: goku-mui_3
+  - first:
+      213: 1096971234657977319
+    second: goku-mui_4
+  - first:
+      213: 8751686328127791717
+    second: goku-mui_5
+  - first:
+      213: -8306934681515464674
+    second: goku-mui_6
+  - first:
+      213: 6214332014667517851
+    second: goku-mui_7
+  - first:
+      213: 9078762912788702710
+    second: goku-mui_8
+  - first:
+      213: 607671870583344441
+    second: goku-mui_9
+  - first:
+      213: -8084366617658180079
+    second: goku-mui_10
+  - first:
+      213: 6109704294734024296
+    second: goku-mui_11
+  - first:
+      213: 2868161791888948530
+    second: goku-mui_12
+  - first:
+      213: 3033068853724133130
+    second: goku-mui_13
+  - first:
+      213: 7910177357037507267
+    second: goku-mui_14
+  - first:
+      213: 6069755952857980352
+    second: goku-mui_15
+  - first:
+      213: -3898848607004355953
+    second: goku-mui_16
+  - first:
+      213: -2895007880644476194
+    second: goku-mui_17
+  - first:
+      213: -8473467679717117164
+    second: goku-mui_18
+  - first:
+      213: -3935792318875926867
+    second: goku-mui_19
+  - first:
+      213: 9001356970335317191
+    second: goku-mui_20
+  - first:
+      213: 5742818708151341725
+    second: goku-mui_21
+  - first:
+      213: -3628231563470134467
+    second: goku-mui_22
+  - first:
+      213: 6041985170257145631
+    second: goku-mui_23
+  - first:
+      213: 97331860759960910
+    second: goku-mui_24
+  - first:
+      213: 7438323518220553219
+    second: goku-mui_25
+  - first:
+      213: -8452713694443549832
+    second: goku-mui_26
+  - first:
+      213: 47223035417699857
+    second: goku-mui_27
+  - first:
+      213: -384080281910646732
+    second: goku-mui_28
+  - first:
+      213: 920791037698135512
+    second: goku-mui_29
+  - first:
+      213: -7518318665800015442
+    second: goku-mui_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: goku-mui_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 449
+        width: 31
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3754ef062b7917c10800000000000000
+      internalID: 2049586097817535859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 449
+        width: 31
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f87ab2b79cfb68d0800000000000000
+      internalID: -2851908210540250888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 449
+        width: 35
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacba1b3262b65f50800000000000000
+      internalID: 6869874416568417450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 449
+        width: 34
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0cc97d4abde15f0800000000000000
+      internalID: -783947784077393753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_4
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 452
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e34c92a689393f00800000000000000
+      internalID: 1096971234657977319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_5
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 431
+        width: 31
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56223b5d85c347970800000000000000
+      internalID: 8751686328127791717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_6
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 431
+        width: 37
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e18e5ef4be6d7bc80800000000000000
+      internalID: -8306934681515464674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_7
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 431
+        width: 49
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f489ada0ebd3650800000000000000
+      internalID: 6214332014667517851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_8
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 431
+        width: 57
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5e2c094ce3efd70800000000000000
+      internalID: 9078762912788702710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_9
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 460
+        width: 10
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d0e12c852ee6800800000000000000
+      internalID: 607671870583344441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 402
+        width: 47
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e3570e46f8ecf80800000000000000
+      internalID: -8084366617658180079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_11
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 388
+        width: 44
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ecc4a7fa70ac450800000000000000
+      internalID: 6109704294734024296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_12
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 387
+        width: 39
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d73eb14f1cdc720800000000000000
+      internalID: 2868161791888948530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_13
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 387
+        width: 39
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0737857d00a71a20800000000000000
+      internalID: 3033068853724133130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_14
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 430
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c21f84756896cd60800000000000000
+      internalID: 7910177357037507267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 308
+        width: 35
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd996351ea1c3450800000000000000
+      internalID: 6069755952857980352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_16
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 292
+        width: 72
+        height: 78
+      alignment: 9
+      pivot: {x: 0.2777778, y: 0.26923078}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f829a7259d184e9c0800000000000000
+      internalID: -3898848607004355953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_17
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 295
+        width: 72
+        height: 73
+      alignment: 9
+      pivot: {x: 0.2777778, y: 0.23287672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2ca34cbadd2d7d0800000000000000
+      internalID: -2895007880644476194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_18
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 288
+        width: 31
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41335b62a02386a80800000000000000
+      internalID: -8473467679717117164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_19
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 349
+        width: 31
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae70bb1db14169c0800000000000000
+      internalID: -3935792318875926867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_20
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 349
+        width: 33
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cca259297e3bec70800000000000000
+      internalID: 9001356970335317191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_21
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 349
+        width: 33
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9214d4303792bf40800000000000000
+      internalID: 5742818708151341725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_22
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 350
+        width: 40
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33a080cd9ee5adc0800000000000000
+      internalID: -3628231563470134467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_23
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 349
+        width: 38
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fea53208179d350800000000000000
+      internalID: 6041985170257145631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_24
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 350
+        width: 38
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ddce9cfcac95100800000000000000
+      internalID: 97331860759960910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_25
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 349
+        width: 33
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c48f374db3a3760800000000000000
+      internalID: 7438323518220553219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_26
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 348
+        width: 31
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87bcc96edade1ba80800000000000000
+      internalID: -8452713694443549832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_27
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 348
+        width: 31
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116a94bb915c7a000800000000000000
+      internalID: 47223035417699857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_28
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 287
+        width: 33
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438eb7fb4097baaf0800000000000000
+      internalID: -384080281910646732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_29
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 277
+        width: 47
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d55c5af19e47cc00800000000000000
+      internalID: 920791037698135512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-mui_30
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 283
+        width: 43
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea12dc8d10199a790800000000000000
+      internalID: -7518318665800015442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ef3b3a6b1dae04b9891ab8130ffd0af0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      goku-mui_0: 2049586097817535859
+      goku-mui_1: -2851908210540250888
+      goku-mui_10: -8084366617658180079
+      goku-mui_11: 6109704294734024296
+      goku-mui_12: 2868161791888948530
+      goku-mui_13: 3033068853724133130
+      goku-mui_14: 7910177357037507267
+      goku-mui_15: 6069755952857980352
+      goku-mui_16: -3898848607004355953
+      goku-mui_17: -2895007880644476194
+      goku-mui_18: -8473467679717117164
+      goku-mui_19: -3935792318875926867
+      goku-mui_2: 6869874416568417450
+      goku-mui_20: 9001356970335317191
+      goku-mui_21: 5742818708151341725
+      goku-mui_22: -3628231563470134467
+      goku-mui_23: 6041985170257145631
+      goku-mui_24: 97331860759960910
+      goku-mui_25: 7438323518220553219
+      goku-mui_26: -8452713694443549832
+      goku-mui_27: 47223035417699857
+      goku-mui_28: -384080281910646732
+      goku-mui_29: 920791037698135512
+      goku-mui_3: -783947784077393753
+      goku-mui_30: -7518318665800015442
+      goku-mui_4: 1096971234657977319
+      goku-mui_5: 8751686328127791717
+      goku-mui_6: -8306934681515464674
+      goku-mui_7: 6214332014667517851
+      goku-mui_8: 9078762912788702710
+      goku-mui_9: 607671870583344441
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Goku (MUI)
+  m_EditorClassIdentifier: 
+  id: 19
+  starNumber: 1
+  characterName: Goku (MUI)
+  role: 0
+  characterType: 1
+  characterSprite: {fileID: -783947784077393753, guid: 83ef03cb9e8574d48a1ca6037e09c5ab, type: 3}
+  characterIcon: {fileID: 21300000, guid: 09b198f5f2e454e34920f1b3ece4efaf, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 950
+  maxKi: 250
+  baseRange: 1
+  baseDamage: 140
+  baseArmor: 120
+  baseSpeed: 9
+  baseAttackSpeed: 1.6
+  baseCriticalChance: 50
+  idleAnimation: {fileID: 11400000, guid: e2c3a6035badc4577a821d345486fc26, type: 2}
+  runAnimation: {fileID: 11400000, guid: 1c6ec7414a3e249ad97042b2dd7125cc, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 646c535b4e9944fdfa4e884e2d3ad850, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 68e41cc2dc16d4530aee00194f13aa25, type: 2}
+  specialAttackAnimation:
+  - name: Special
+    description: Attack multiple enemies
+    animation: {fileID: 11400000, guid: ae794ed30db66457c830b4ef5810da78, type: 2}
+  deadAnimation: {fileID: 0}
+  sameCharacter:
+  - {fileID: 11400000, guid: 9cfac1c9f06f44a5bba686fca9b53cc3, type: 2}
+  - {fileID: 11400000, guid: 8c612c643af604c4ba71d5a93fe524c8, type: 2}
+  - {fileID: 11400000, guid: b8153c8db51b02e469b29ecc91aa4c44, type: 2}
+  - {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
+  - {fileID: 11400000, guid: 16de4a8353f1445d38abd682f9b87717, type: 2}
+  - {fileID: 11400000, guid: 9b424d77e4f22ed409f878e0c2d3f275, type: 2}
+  - {fileID: 11400000, guid: 7c72d6e2019ed431b86de89a71f06dc1, type: 2}
+  - {fileID: 11400000, guid: e2d0f6472834b4a6d854c8e58be15378, type: 2}
+  synergies:
+  - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
+  - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
