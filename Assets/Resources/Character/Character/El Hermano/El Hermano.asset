@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: El Hermano
+  m_EditorClassIdentifier: 
+  id: 61
+  starNumber: 1
+  characterName: El Hermano
+  role: 0
+  characterType: 1
+  characterSprite: {fileID: -4334403392998419198, guid: 9a73b011c47d0462a82eedbf2cc7a769, type: 3}
+  characterIcon: {fileID: 21300000, guid: a4bf385cc95af47b19045696e9c2dcc7, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 150
+  maxKi: 45
+  baseRange: 1
+  baseDamage: 25
+  baseArmor: 35
+  baseSpeed: 8
+  baseAttackSpeed: 1.4
+  baseCriticalChance: 10
+  idleAnimation: {fileID: 11400000, guid: 6fef986b0ccf540fc802a53543c2dd42, type: 2}
+  runAnimation: {fileID: 11400000, guid: 5d773a6a8c91d428bacbdbe112e9c2aa, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 2cc349852eb0641809d8483af8782142, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 5df3bb1a722464aa8994382ec8877d4e, type: 2}
+  specialAttackAnimation:
+  - name: Super Kikoha
+    description: 
+    animation: {fileID: 11400000, guid: aef4c89eb102c47a8990d1bc921cb852, type: 2}
+  deadAnimation: {fileID: 0}
+  sameCharacter: []
+  synergies:
+  - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}

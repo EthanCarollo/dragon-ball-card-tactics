@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 9a73b011c47d0462a82eedbf2cc7a769
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2035928488787693143
+    second: el-hermano_0
+  - first:
+      213: -4334403392998419198
+    second: el-hermano_1
+  - first:
+      213: -5618157531025925632
+    second: el-hermano_2
+  - first:
+      213: -444263249275776015
+    second: el-hermano_3
+  - first:
+      213: -3369393503799061068
+    second: el-hermano_4
+  - first:
+      213: -1873428411605579775
+    second: el-hermano_5
+  - first:
+      213: -6011373020522976747
+    second: el-hermano_6
+  - first:
+      213: -5147596905280357211
+    second: el-hermano_7
+  - first:
+      213: -2779439826428508981
+    second: el-hermano_8
+  - first:
+      213: -687966904068490959
+    second: el-hermano_9
+  - first:
+      213: -7659025887494505193
+    second: el-hermano_10
+  - first:
+      213: -4102514321568873663
+    second: el-hermano_11
+  - first:
+      213: -8963301486827289921
+    second: el-hermano_12
+  - first:
+      213: 5792363693314857915
+    second: el-hermano_13
+  - first:
+      213: 2016838694218802942
+    second: el-hermano_14
+  - first:
+      213: 7729762551864843947
+    second: el-hermano_15
+  - first:
+      213: -3813824662069481248
+    second: el-hermano_16
+  - first:
+      213: -3194536919823074188
+    second: el-hermano_17
+  - first:
+      213: -6544447655231373118
+    second: el-hermano_18
+  - first:
+      213: 1756401740873647867
+    second: el-hermano_19
+  - first:
+      213: 8324526155422088393
+    second: el-hermano_20
+  - first:
+      213: -7733734958058501805
+    second: el-hermano_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: el-hermano_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 437
+        width: 31
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a136b583ddeeb3e0800000000000000
+      internalID: -2035928488787693143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 437
+        width: 31
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205d417241b19d3c0800000000000000
+      internalID: -4334403392998419198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 437
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a9307ed7b4802b0800000000000000
+      internalID: -5618157531025925632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 443
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f31828bde8a5d9f0800000000000000
+      internalID: -444263249275776015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 442
+        width: 39
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b55c89c5728d31d0800000000000000
+      internalID: -3369393503799061068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_5
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 483
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108002619ce3006e0800000000000000
+      internalID: -1873428411605579775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_6
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 480
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a6c536610539ca0800000000000000
+      internalID: -6011373020522976747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 470
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac3dd543ef0098b0800000000000000
+      internalID: -5147596905280357211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 378
+        width: 40
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4c72734327d69d0800000000000000
+      internalID: -2779439826428508981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 394
+        width: 52
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139b5c9eeb9d376f0800000000000000
+      internalID: -687966904068490959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_10
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 397
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d7e5ad88ca5b590800000000000000
+      internalID: -7659025887494505193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_11
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 323
+        width: 40
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1434fe8e5f0f017c0800000000000000
+      internalID: -4102514321568873663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_12
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 323
+        width: 36
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2cdee89c4fb9380800000000000000
+      internalID: -8963301486827289921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 322
+        width: 37
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbd6edf61c926050800000000000000
+      internalID: 5792363693314857915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_14
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 316
+        width: 41
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6ac225b104dfb10800000000000000
+      internalID: 2016838694218802942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_15
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 316
+        width: 52
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae550e3612a54b60800000000000000
+      internalID: 7729762551864843947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_16
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 316
+        width: 55
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e079b52da2921bc0800000000000000
+      internalID: -3813824662069481248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_17
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 247
+        width: 53
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c3318c899baa3d0800000000000000
+      internalID: -3194536919823074188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_18
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 247
+        width: 64
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0cbc218837d25a0800000000000000
+      internalID: -6544447655231373118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_19
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 247
+        width: 48
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6c6a7d31eff5810800000000000000
+      internalID: 1756401740873647867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_20
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 247
+        width: 26
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ccb161ee68a68370800000000000000
+      internalID: 8324526155422088393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: el-hermano_21
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 247
+        width: 41
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35907edd7014ca490800000000000000
+      internalID: -7733734958058501805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5dcefccb360774165ad88ea5ccfdc475
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      el-hermano_0: -2035928488787693143
+      el-hermano_1: -4334403392998419198
+      el-hermano_10: -7659025887494505193
+      el-hermano_11: -4102514321568873663
+      el-hermano_12: -8963301486827289921
+      el-hermano_13: 5792363693314857915
+      el-hermano_14: 2016838694218802942
+      el-hermano_15: 7729762551864843947
+      el-hermano_16: -3813824662069481248
+      el-hermano_17: -3194536919823074188
+      el-hermano_18: -6544447655231373118
+      el-hermano_19: 1756401740873647867
+      el-hermano_2: -5618157531025925632
+      el-hermano_20: 8324526155422088393
+      el-hermano_21: -7733734958058501805
+      el-hermano_3: -444263249275776015
+      el-hermano_4: -3369393503799061068
+      el-hermano_5: -1873428411605579775
+      el-hermano_6: -6011373020522976747
+      el-hermano_7: -5147596905280357211
+      el-hermano_8: -2779439826428508981
+      el-hermano_9: -687966904068490959
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
