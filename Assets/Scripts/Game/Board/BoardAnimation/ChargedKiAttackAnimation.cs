@@ -13,7 +13,6 @@ public class ChargedKiAttackAnimation : BoardAnimation
     public int attackMultiplicator = 3;
     public Vector2 startMargin;
     public Vector2Int kikohaSize;
-    public Sprite dangerTileSprite;
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
@@ -72,7 +71,7 @@ public class ChargedKiAttackAnimation : BoardAnimation
                 dangerTile.transform.position = tilePosition;
                 dangerTile.transform.localScale = new Vector3(0.9f, 0.9f, 1);
                 SpriteRenderer tileSpriteRenderer = dangerTile.AddComponent<SpriteRenderer>();
-                tileSpriteRenderer.sprite = dangerTileSprite;
+                // tileSpriteRenderer.sprite = dangerTileSprite;
                 tileSpriteRenderer.color = new Color(1f, 0f, 0f, 1f);
                 tileSpriteRenderer.sortingOrder = 4;
 
