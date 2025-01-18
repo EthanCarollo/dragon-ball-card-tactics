@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Dyspo (Limit Breaker)
+  m_EditorClassIdentifier: 
+  id: 23
+  starNumber: 1
+  characterName: Dyspo (Limit Breaker)
+  role: 0
+  characterType: 1
+  characterSprite: {fileID: 5785152769581123229, guid: 1d7f7623190754af2b75f2d91a0ec069, type: 3}
+  characterIcon: {fileID: 21300000, guid: 034d890024f6c49ab9b15599471cdc9c, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 1040
+  maxKi: 45
+  baseRange: 1
+  baseDamage: 75
+  baseArmor: 45
+  baseSpeed: 13
+  baseAttackSpeed: 1.55
+  baseCriticalChance: 40
+  idleAnimation: {fileID: 11400000, guid: b729348871e6c4ab9812d95afd4b7e8a, type: 2}
+  runAnimation: {fileID: 11400000, guid: 89fff7333195046d1965e3ad752a3c64, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 10b31f7cd1ce04e899db0397d8ce4021, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 2c6b6935f2f47453693eef3bb9b9aa28, type: 2}
+  specialAttackAnimation:
+  - name: Super Kikoha
+    description: 
+    animation: {fileID: 11400000, guid: 126e9692ba7644f6a82fa973558d2d71, type: 2}
+  deadAnimation: {fileID: 0}
+  sameCharacter: []
+  synergies:
+  - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}

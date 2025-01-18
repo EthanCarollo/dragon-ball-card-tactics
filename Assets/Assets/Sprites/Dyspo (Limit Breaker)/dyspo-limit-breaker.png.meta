@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 1d7f7623190754af2b75f2d91a0ec069
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5785152769581123229
+    second: dyspo-limit-breaker_0
+  - first:
+      213: 4060208778968778594
+    second: dyspo-limit-breaker_1
+  - first:
+      213: -8739803785255469822
+    second: dyspo-limit-breaker_2
+  - first:
+      213: 3054574337432224737
+    second: dyspo-limit-breaker_3
+  - first:
+      213: -7246363631560444117
+    second: dyspo-limit-breaker_4
+  - first:
+      213: -1661555240040487468
+    second: dyspo-limit-breaker_5
+  - first:
+      213: 8862738693049133868
+    second: dyspo-limit-breaker_6
+  - first:
+      213: 3698447711064001391
+    second: dyspo-limit-breaker_7
+  - first:
+      213: 7648427847019459296
+    second: dyspo-limit-breaker_8
+  - first:
+      213: 8694821793194923081
+    second: dyspo-limit-breaker_9
+  - first:
+      213: 2318238056550503053
+    second: dyspo-limit-breaker_10
+  - first:
+      213: -402350039549063553
+    second: dyspo-limit-breaker_11
+  - first:
+      213: -3772860472112127632
+    second: dyspo-limit-breaker_12
+  - first:
+      213: -5586451995770930543
+    second: dyspo-limit-breaker_13
+  - first:
+      213: 9200311723723975547
+    second: dyspo-limit-breaker_14
+  - first:
+      213: 4650422423329987980
+    second: dyspo-limit-breaker_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dyspo-limit-breaker_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 449
+        width: 40
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d96004afacdf84050800000000000000
+      internalID: 5785152769581123229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dyspo-limit-breaker_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 449
+        width: 40
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2674b506f52c85830800000000000000
+      internalID: 4060208778968778594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dyspo-limit-breaker_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 449
+        width: 40
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20dbb3543caf5b680800000000000000
+      internalID: -8739803785255469822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dyspo-limit-breaker_3
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 385
+        width: 32
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e30ca21d27046a20800000000000000
+      internalID: 3054574337432224737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dyspo-limit-breaker_4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 385
+        width: 40
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27b7838baebf6b90800000000000000
+      internalID: -7246363631560444117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dyspo-limit-breaker_5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 385
+        width: 32
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5a2beff48f0f8e0800000000000000
+      internalID: -1661555240040487468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dyspo-limit-breaker_6
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 385
+        width: 39
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2bad4072e5cefa70800000000000000
+      internalID: 8862738693049133868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dyspo-limit-breaker_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 380
+        width: 33
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b83561996835330800000000000000
+      internalID: 3698447711064001391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dyspo-limit-breaker_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 380
+        width: 37
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2fccf8a9ca42a60800000000000000
+      internalID: 7648427847019459296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dyspo-limit-breaker_9
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 383
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94455b09a563aa870800000000000000
+      internalID: 8694821793194923081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dyspo-limit-breaker_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 327
+        width: 32
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d821c79da390c2020800000000000000
+      internalID: 2318238056550503053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dyspo-limit-breaker_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 337
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e405155c09a6af0800000000000000
+      internalID: -402350039549063553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dyspo-limit-breaker_12
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 340
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071e4acd36b14abc0800000000000000
+      internalID: -3772860472112127632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dyspo-limit-breaker_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 305
+        width: 32
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a3d45128fe872b0800000000000000
+      internalID: -5586451995770930543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dyspo-limit-breaker_14
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 305
+        width: 32
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bed6374c21eaf70800000000000000
+      internalID: 9200311723723975547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dyspo-limit-breaker_15
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 305
+        width: 41
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d58161e8e998040800000000000000
+      internalID: 4650422423329987980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f85560d092de64548884b06aa60345b9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dyspo-limit-breaker_0: 5785152769581123229
+      dyspo-limit-breaker_1: 4060208778968778594
+      dyspo-limit-breaker_10: 2318238056550503053
+      dyspo-limit-breaker_11: -402350039549063553
+      dyspo-limit-breaker_12: -3772860472112127632
+      dyspo-limit-breaker_13: -5586451995770930543
+      dyspo-limit-breaker_14: 9200311723723975547
+      dyspo-limit-breaker_15: 4650422423329987980
+      dyspo-limit-breaker_2: -8739803785255469822
+      dyspo-limit-breaker_3: 3054574337432224737
+      dyspo-limit-breaker_4: -7246363631560444117
+      dyspo-limit-breaker_5: -1661555240040487468
+      dyspo-limit-breaker_6: 8862738693049133868
+      dyspo-limit-breaker_7: 3698447711064001391
+      dyspo-limit-breaker_8: 7648427847019459296
+      dyspo-limit-breaker_9: 8694821793194923081
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
