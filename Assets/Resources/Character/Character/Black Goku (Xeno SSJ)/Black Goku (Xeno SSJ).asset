@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Black Goku (Xeno SSJ)
+  m_EditorClassIdentifier: 
+  id: 23
+  starNumber: 1
+  characterName: Black Goku (Xeno SSJ)
+  role: 0
+  characterType: 1
+  characterSprite: {fileID: 7044677198245912801, guid: ecd0e1c38a3f34ddbaa09fe46bdb13bd, type: 3}
+  characterIcon: {fileID: 21300000, guid: 6f2162c8c4d1e496b93052fc366ef0dc, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 650
+  maxKi: 45
+  baseRange: 1
+  baseDamage: 90
+  baseArmor: 35
+  baseSpeed: 8
+  baseAttackSpeed: 1.2
+  baseCriticalChance: 40
+  idleAnimation: {fileID: 11400000, guid: f62b9b228abc54938a01acfad3cb59a6, type: 2}
+  runAnimation: {fileID: 11400000, guid: dff5614ae64da43d1b776e2db25fd1fc, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 428340574960940608b32d9a346bde67, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 18ccbed9a92d74bbdb75faafa67eeb5e, type: 2}
+  specialAttackAnimation:
+  - name: Black Kameha
+    description: 
+    animation: {fileID: 11400000, guid: ae8f7a6aa13a94566af6193e3d925c3e, type: 2}
+  deadAnimation: {fileID: 0}
+  sameCharacter: []
+  synergies:
+  - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
+  - {fileID: 11400000, guid: cdfae772e7a344a7389762ed71ce02d4, type: 2}
