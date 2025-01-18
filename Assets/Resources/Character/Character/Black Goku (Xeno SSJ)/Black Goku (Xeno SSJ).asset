@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Black Goku (Xeno SSJ)
   m_EditorClassIdentifier: 
-  id: 23
+  id: 15
   starNumber: 1
   characterName: Black Goku (Xeno SSJ)
   role: 0
@@ -41,3 +41,4 @@ MonoBehaviour:
   synergies:
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
   - {fileID: 11400000, guid: cdfae772e7a344a7389762ed71ce02d4, type: 2}
+  - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}

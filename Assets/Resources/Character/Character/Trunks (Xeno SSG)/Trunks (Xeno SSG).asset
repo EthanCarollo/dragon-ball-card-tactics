@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Trunks (Xeno SSG)
   m_EditorClassIdentifier: 
-  id: 24
+  id: 85
   starNumber: 1
   characterName: Trunks (Xeno SSG)
   role: 0
@@ -37,5 +37,7 @@ MonoBehaviour:
     description: 
     animation: {fileID: 11400000, guid: 66564d92c0e974ea7a9aa783bae35c16, type: 2}
   deadAnimation: {fileID: 0}
+  sameCharacter: []
   synergies:
   - {fileID: 11400000, guid: cdfae772e7a344a7389762ed71ce02d4, type: 2}
+  - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}

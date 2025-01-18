@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Black Goku (SSJ4)
   m_EditorClassIdentifier: 
-  id: 50
+  id: 14
   starNumber: 1
   characterName: Black Goku (SSJ4)
   role: 0
@@ -37,8 +37,10 @@ MonoBehaviour:
     description: Charge a Super Ki
     animation: {fileID: 11400000, guid: d80df9c188c98421e85c95d66a2b7192, type: 2}
   deadAnimation: {fileID: 0}
+  sameCharacter: []
   synergies:
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
   - {fileID: 11400000, guid: cdfae772e7a344a7389762ed71ce02d4, type: 2}
   - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
+  - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Frieza (Golden Hakaishin)
   m_EditorClassIdentifier: 
-  id: 50
+  id: 32
   starNumber: 1
   characterName: Frieza (Golden Hakaishin)
   role: 0
@@ -46,3 +46,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d650a485b7943417bb2b531cc2a4ba90, type: 2}
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
   - {fileID: 11400000, guid: e6b0f87b761094f0f979685b3c42f23a, type: 2}
+  - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}

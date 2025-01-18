@@ -52,15 +52,15 @@ public class SynergyPrefabScript : MonoBehaviour, IPointerEnterHandler, IPointer
 
         var (boardCharactersWithSynergy, databaseCharactersWithSynergy) = synergy.GetCharactersWithSynergy();
 
-        List<CharacterData> alreadyCreatedSynergy = new List<CharacterData>();
+        List<int> alreadyCreatedSynergy = new List<int>();
         foreach (var bc in boardCharactersWithSynergy)
         {
-            alreadyCreatedSynergy.Append(bc.character.GetCharacterData());
+            alreadyCreatedSynergy.Add(bc.character.GetCharacterData().id);
             Instantiate(simpleCharacterContainer, characterContainer).GetComponent<Image>().sprite = bc.character.GetCharacterData().characterIcon;
         }
         foreach (var charWithSynergy in databaseCharactersWithSynergy)
         {
-            if(alreadyCreatedSynergy.Contains(charWithSynergy)) continue;
+            if(alreadyCreatedSynergy.Contains(charWithSynergy.id)) continue;
             var imageCharContainer = Instantiate(simpleCharacterContainer, characterContainer).GetComponent<Image>();
             imageCharContainer.color = new Color(0.4f, 0.4f, 0.4f);
             imageCharContainer.sprite = charWithSynergy.characterIcon;
