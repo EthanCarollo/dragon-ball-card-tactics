@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Saibaman 2
+  m_EditorClassIdentifier: 
+  id: 12
+  starNumber: 1
+  characterName: Saibaman 2
+  role: 0
+  characterType: 3
+  characterSprite: {fileID: -1314736759823260691, guid: f086a617837ea4990a317e2557898e02, type: 3}
+  characterIcon: {fileID: 21300000, guid: 51e7a1d8f80804a50a32fc78f97cb3bf, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 80
+  maxKi: 100
+  baseRange: 1
+  baseDamage: 10
+  baseArmor: 10
+  baseSpeed: 2
+  baseAttackSpeed: 1.2
+  baseCriticalChance: 10
+  idleAnimation: {fileID: 11400000, guid: 082ebb664b718471c84bae60b8dffd74, type: 2}
+  runAnimation: {fileID: 11400000, guid: d695b3d45c42b41bfa43878c5e123a7d, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 0c8d11a9392284b9cbbe397f908f0548, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 2497e7415ae1d4722936823a351c822e, type: 2}
+  specialAttackAnimation:
+  - name: Huge Fist
+    description: A huge fist !
+    animation: {fileID: 11400000, guid: de52487564a9d413789ec7fef9204603, type: 2}
+  deadAnimation: {fileID: 0}
+  sameCharacter: []
+  synergies: []
