@@ -81,6 +81,11 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
                     LeanTween.move(CharacterDragInfo.draggedObject, tileScript.gameObject.transform.position, 0.1f).setEaseOutSine();
                     return;
                 }
+                CharacterPrefabScript characterPrefab = hit.collider.GetComponent<CharacterPrefabScript>();
+                if (characterPrefab != null && characterPrefab.position.x <= 4){
+                    LeanTween.move(CharacterDragInfo.draggedObject, characterPrefab.position, 0.1f).setEaseOutSine();
+                    return;
+                }
             }
             LeanTween.move(CharacterDragInfo.draggedObject, Camera.main.ScreenToWorldPoint(mousePosition), 0.1f);
         }
@@ -101,17 +106,23 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
             if (hit.collider != null)
             {
                 TileBehaviour tileScript = hit.collider.GetComponent<TileBehaviour>();
-
-                if (tileScript == null || tileScript.position.x > 4)
-                {
-                    return;
-                }
                 
-                if (tileScript != null)
+                if (tileScript != null && tileScript.position.x <= 4)
                 {
                     var characterFrom =
                         GameManager.Instance.boardCharacterArray[tileScript.position.x, tileScript.position.y];
                     GameManager.Instance.boardCharacterArray[tileScript.position.x, tileScript.position.y] = boardCharacter;
+                    GameManager.Instance.boardCharacterArray[position.x, position.y] = characterFrom;
+                    boardCharacter.board.CreateBoard(GameManager.Instance.boardCharacterArray);
+                }
+
+                CharacterPrefabScript characterPrefab = hit.collider.GetComponent<CharacterPrefabScript>();
+                
+                if (characterPrefab != null && characterPrefab.position.x <= 4)
+                {
+                    var characterFrom =
+                        GameManager.Instance.boardCharacterArray[characterPrefab.position.x, characterPrefab.position.y];
+                    GameManager.Instance.boardCharacterArray[characterPrefab.position.x, characterPrefab.position.y] = boardCharacter;
                     GameManager.Instance.boardCharacterArray[position.x, position.y] = characterFrom;
                     boardCharacter.board.CreateBoard(GameManager.Instance.boardCharacterArray);
                 }
