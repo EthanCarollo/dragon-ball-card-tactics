@@ -19,15 +19,14 @@ public class CharacterCard : Card
             return false;
         }
         try {
-            var characterList = GameManager.Instance.GetCharactersOnBoard().Where(cha => cha.isPlayerCharacter).ToList();
+            var characterList = GameManager.Instance.GetCharactersOnBoard();
+            characterList = characterList.Where(cha => cha.isPlayerCharacter == true).ToList();
             BoardCharacter characterExist = characterList.Find((cha) => {
                 if(cha.character == null){
                     Debug.Log("BoardCharacter character isn't set.");
                     return false;
                 }
-                return 
-                cha.character.GetCharacterData() == character 
-                || cha.character.GetCharacterData().sameCharacter.Contains(character);
+                return cha.character.GetCharacterData() == character || cha.character.GetCharacterData().sameCharacter.Contains(character);
                 }
             );
             if(characterExist != null){

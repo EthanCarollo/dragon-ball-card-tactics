@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System;
+using UnityEditor.PackageManager;
 
 
 [CreateAssetMenu(fileName = "New Janemba Distance Attack Animation", menuName = "BoardAnimation/JanembaDistanceAttackAnimation")]
@@ -24,34 +25,47 @@ public class JanembaDistanceAttackAnimation : BoardAnimation {
             character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = frameSprite.sprite;
             yield return new WaitForSeconds(frameSprite.time); 
             if(index == attackFrameIndex){
-                GameObject handObject = new GameObject("JanembaPortalHand");
-                SpriteRenderer spriteRenderer = handObject.AddComponent<SpriteRenderer>();
-                handObject.transform.position = character.GetCharacterTarget().gameObject.transform.position + new Vector3(character.direction.normalized.x * 2f, 0.6f, 0);
-                handObject.transform.rotation = Quaternion.Euler(0, 0, 180 * character.direction.normalized.x);
-                if (character.direction.normalized.x < 0)
-                {
-                    handObject.transform.rotation = Quaternion.Euler(0, 0, 0);
-                }
-                spriteRenderer.sortingOrder = 5; // Temp
-                
-                var handIndex = 0;
-                foreach (FrameSprite handFrameSprite in handPortalAnimation)
-                {
-                    spriteRenderer.sprite = handFrameSprite.sprite;
-                    yield return new WaitForSeconds(handFrameSprite.time);
-                    if (handIndex == launchProjectHandIndex)
-                    {
-                        LaunchAttack(character, handObject.transform.position, target);
-                    }
-                    handIndex++;
-                }
-                
-                Destroy(handObject);
-
+                LaunchHandAnimation(character, target);
             }
             index++;
         }
         character.isAnimating = false;
+    }
+
+    private void LaunchHandAnimation(BoardCharacter character, BoardCharacter target){
+        FightBoard.Instance.StartCoroutine(HandAnimation(character, target));
+    }
+
+    private IEnumerator HandAnimation(BoardCharacter character, BoardCharacter target){
+        GameObject handObject = new GameObject("JanembaPortalHand");
+        try {
+            handObject.transform.SetParent(FightBoard.Instance.fightObjectContainer);
+        } catch(Exception error){
+            Debug.LogWarning("Cannot set hand object in fight board object container" + error.ToString());
+        }
+        SpriteRenderer spriteRenderer = handObject.AddComponent<SpriteRenderer>();
+        handObject.transform.position = character.GetCharacterTarget().gameObject.transform.position + new Vector3(character.direction.normalized.x * 2f, 0.6f, 0);
+        handObject.transform.rotation = Quaternion.Euler(0, 0, 180 * character.direction.normalized.x);
+        if (character.direction.normalized.x < 0)
+        {
+            handObject.transform.rotation = Quaternion.Euler(0, 0, 0);
+        }
+        spriteRenderer.sortingOrder = 5; // Temp
+        
+        var handIndex = 0;
+        foreach (FrameSprite handFrameSprite in handPortalAnimation)
+        {
+            spriteRenderer.sprite = handFrameSprite.sprite;
+            yield return new WaitForSeconds(handFrameSprite.time);
+            if (handIndex == launchProjectHandIndex)
+            {
+                LaunchAttack(character, handObject.transform.position, target);
+            }
+            handIndex++;
+        }
+        
+        Destroy(handObject);
+
     }
 
     private void LaunchAttack(BoardCharacter character, Vector3 fromPosition, BoardCharacter target){

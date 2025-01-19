@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.TextCore.Text;
+using System.Linq;
 
 [CreateAssetMenu(fileName = "NewCharacterDatabase", menuName = "Character/CharacterDatabase")]
 public class CharacterDatabase : ScriptableObject
@@ -64,6 +65,12 @@ public class CharacterDatabase : ScriptableObject
         {
             string path = AssetDatabase.GUIDToAssetPath(guids[i]);
             characterDatas[i] = AssetDatabase.LoadAssetAtPath<CharacterData>(path);
+        }
+
+        foreach(var character in characterDatas){
+            if(character.sameCharacter.Contains(null)){
+                Debug.LogWarning("This character contains bad same character : " + character.characterName);
+            }
         }
 
         EditorUtility.SetDirty(this);

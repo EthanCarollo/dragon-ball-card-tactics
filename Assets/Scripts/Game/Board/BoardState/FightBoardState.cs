@@ -90,6 +90,10 @@ public class FightBoardState : BoardState
         }
         BoardGameUiManager.Instance.characterBoardUi.HideCharacterBoard();
         BoardGameUiManager.Instance.RefreshUI();
+        foreach (Transform transformObject in board.fightObjectContainer)
+        {
+            MonoBehaviour.Destroy(transformObject.gameObject);
+        }
         board.CreateBoard(GameManager.Instance.boardCharacterArray);
     }
 

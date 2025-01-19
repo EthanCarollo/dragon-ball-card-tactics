@@ -358,7 +358,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1373237515857908563, guid: b86a249cad50c4a429b48c3f8c5d86a3, type: 3}
   m_PrefabInstance: {fileID: 6477683046836635798}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &348920255
+--- !u!1 &271465070
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -366,37 +366,24 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 348920257}
-  - component: {fileID: 348920256}
+  - component: {fileID: 271465071}
   m_Layer: 0
-  m_Name: BoardReserve
+  m_Name: FightContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &348920256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348920255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbcc4ea586c3c4dbab83a11428c854b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &348920257
+--- !u!4 &271465071
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348920255}
+  m_GameObject: {fileID: 271465070}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: -1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -859,6 +846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilePrefab: {fileID: 807518808109012985, guid: add58db2492cb554eacb120e9674b33d, type: 3}
+  fightObjectContainer: {fileID: 271465071}
   size: 1
 --- !u!1 &660445444
 GameObject:
@@ -3968,8 +3956,8 @@ SceneRoots:
   - {fileID: 1346804926}
   - {fileID: 1318234096}
   - {fileID: 575061415}
-  - {fileID: 348920257}
   - {fileID: 1569265300}
   - {fileID: 6477683046836635798}
   - {fileID: 1966061130}
   - {fileID: 1323971365}
+  - {fileID: 271465071}
