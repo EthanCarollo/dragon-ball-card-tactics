@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Tien-Shin-Han
+  m_EditorClassIdentifier: 
+  id: 35
+  starNumber: 1
+  characterName: Tien-Shin-Han
+  role: 0
+  characterType: 2
+  characterSprite: {fileID: -6998765234043771580, guid: d8c38b0df0e844e6499c9f94c9d73c1a, type: 3}
+  characterIcon: {fileID: 21300000, guid: 3e268deb21b9d43b19b0d80049b00d91, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 170
+  maxKi: 55
+  baseRange: 1
+  baseDamage: 25
+  baseArmor: 35
+  baseSpeed: 2
+  baseAttackSpeed: 0.9
+  baseCriticalChance: 20
+  idleAnimation: {fileID: 11400000, guid: 75013691abdc84c1d9b93d09c05649ec, type: 2}
+  runAnimation: {fileID: 11400000, guid: 12b7694eea8544296b30e6d1bd3e2689, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 67756b22699fc4a9c8e7aaaf4d417ecd, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 7884821de833349818831a9263d2c632, type: 2}
+  specialAttackAnimation:
+  - name: Charged Kikoha
+    description: 
+    animation: {fileID: 11400000, guid: 2b8fd039c48284503a47001f1894e910, type: 2}
+  deadAnimation: {fileID: 0}
+  sameCharacter: []
+  synergies:
+  - {fileID: 11400000, guid: 88ac827794bd8432ca5c1ba12d44fd40, type: 2}

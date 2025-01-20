@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: d8c38b0df0e844e6499c9f94c9d73c1a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2725896535869429807
+    second: Tien-Shin-Han_0
+  - first:
+      213: -5941786219981881156
+    second: Tien-Shin-Han_1
+  - first:
+      213: -6998765234043771580
+    second: Tien-Shin-Han_2
+  - first:
+      213: 2058357029510783549
+    second: Tien-Shin-Han_3
+  - first:
+      213: 3343991148459901151
+    second: Tien-Shin-Han_4
+  - first:
+      213: 5124950545624428504
+    second: Tien-Shin-Han_5
+  - first:
+      213: 4220138808564938757
+    second: Tien-Shin-Han_6
+  - first:
+      213: 6236140677948501707
+    second: Tien-Shin-Han_7
+  - first:
+      213: 4710401881657833948
+    second: Tien-Shin-Han_8
+  - first:
+      213: 3715826626745905029
+    second: Tien-Shin-Han_9
+  - first:
+      213: -1532717565727517354
+    second: Tien-Shin-Han_10
+  - first:
+      213: -2003430793628177045
+    second: Tien-Shin-Han_11
+  - first:
+      213: -432062319263533373
+    second: Tien-Shin-Han_12
+  - first:
+      213: -2159123267363617769
+    second: Tien-Shin-Han_13
+  - first:
+      213: 9169107751676495058
+    second: Tien-Shin-Han_14
+  - first:
+      213: 4950646240360067737
+    second: Tien-Shin-Han_15
+  - first:
+      213: 5201081493100271443
+    second: Tien-Shin-Han_16
+  - first:
+      213: -4149330736129384421
+    second: Tien-Shin-Han_17
+  - first:
+      213: -6071259339495925743
+    second: Tien-Shin-Han_18
+  - first:
+      213: 6555516592457670969
+    second: Tien-Shin-Han_19
+  - first:
+      213: -1092410351800480922
+    second: Tien-Shin-Han_20
+  - first:
+      213: -2329860727659491008
+    second: Tien-Shin-Han_21
+  - first:
+      213: 5774047261549377584
+    second: Tien-Shin-Han_22
+  - first:
+      213: -1203063963806046201
+    second: Tien-Shin-Han_23
+  - first:
+      213: -2705400503151220461
+    second: Tien-Shin-Han_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tien-Shin-Han_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 460
+        width: 21
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7e8050b8bab2ad0800000000000000
+      internalID: -2725896535869429807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 460
+        width: 21
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb04ba2f9e88a8da0800000000000000
+      internalID: -5941786219981881156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 460
+        width: 21
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445a776c9146fde90800000000000000
+      internalID: -6998765234043771580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 460
+        width: 23
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d322bec00d0c09c10800000000000000
+      internalID: 2058357029510783549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 466
+        width: 45
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0c0087b3e386e20800000000000000
+      internalID: 3343991148459901151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_5
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 487
+        width: 38
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df636b3e5b7f1740800000000000000
+      internalID: 5124950545624428504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_6
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 471
+        width: 60
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5087a5b13e1f09a30800000000000000
+      internalID: 4220138808564938757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_7
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 468
+        width: 70
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bceeb76f7e83b8650800000000000000
+      internalID: 6236140677948501707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 405
+        width: 29
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9fb89fd85be5140800000000000000
+      internalID: 4710401881657833948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 405
+        width: 47
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58fa02631a4419330800000000000000
+      internalID: 3715826626745905029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_10
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 405
+        width: 39
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6555fc1ae71babae0800000000000000
+      internalID: -1532717565727517354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_11
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 401
+        width: 42
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6da6bdce426234e0800000000000000
+      internalID: -2003430793628177045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_12
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 404
+        width: 39
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6377b1c91010af0800000000000000
+      internalID: -432062319263533373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_13
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 402
+        width: 26
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714c28ee3d04902e0800000000000000
+      internalID: -2159123267363617769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_14
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 306
+        width: 36
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d445fd8be63f3f70800000000000000
+      internalID: 9169107751676495058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_15
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 306
+        width: 40
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992f845a68a34b440800000000000000
+      internalID: 4950646240360067737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_16
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 306
+        width: 78
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357991cbf04fd2840800000000000000
+      internalID: 5201081493100271443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_17
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 306
+        width: 57
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10e569fdad9a66c0800000000000000
+      internalID: -4149330736129384421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_18
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 308
+        width: 39
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11892123ccd8ebba0800000000000000
+      internalID: -6071259339495925743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_19
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 235
+        width: 37
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9316e94bb9fd9fa50800000000000000
+      internalID: 6555516592457670969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_20
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 235
+        width: 32
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b09f7a29af6d0f0800000000000000
+      internalID: -1092410351800480922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_21
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 235
+        width: 32
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04119b7230caaafd0800000000000000
+      internalID: -2329860727659491008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_22
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 235
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038b7f46469812050800000000000000
+      internalID: 5774047261549377584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_23
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 235
+        width: 47
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7086443f2bbdd4fe0800000000000000
+      internalID: -1203063963806046201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tien-Shin-Han_24
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 235
+        width: 42
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3192282839c747ad0800000000000000
+      internalID: -2705400503151220461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0a280d05e6a5e407597d6a487bdf32a4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tien-Shin-Han_0: -2725896535869429807
+      Tien-Shin-Han_1: -5941786219981881156
+      Tien-Shin-Han_10: -1532717565727517354
+      Tien-Shin-Han_11: -2003430793628177045
+      Tien-Shin-Han_12: -432062319263533373
+      Tien-Shin-Han_13: -2159123267363617769
+      Tien-Shin-Han_14: 9169107751676495058
+      Tien-Shin-Han_15: 4950646240360067737
+      Tien-Shin-Han_16: 5201081493100271443
+      Tien-Shin-Han_17: -4149330736129384421
+      Tien-Shin-Han_18: -6071259339495925743
+      Tien-Shin-Han_19: 6555516592457670969
+      Tien-Shin-Han_2: -6998765234043771580
+      Tien-Shin-Han_20: -1092410351800480922
+      Tien-Shin-Han_21: -2329860727659491008
+      Tien-Shin-Han_22: 5774047261549377584
+      Tien-Shin-Han_23: -1203063963806046201
+      Tien-Shin-Han_24: -2705400503151220461
+      Tien-Shin-Han_3: 2058357029510783549
+      Tien-Shin-Han_4: 3343991148459901151
+      Tien-Shin-Han_5: 5124950545624428504
+      Tien-Shin-Han_6: 4220138808564938757
+      Tien-Shin-Han_7: 6236140677948501707
+      Tien-Shin-Han_8: 4710401881657833948
+      Tien-Shin-Han_9: 3715826626745905029
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

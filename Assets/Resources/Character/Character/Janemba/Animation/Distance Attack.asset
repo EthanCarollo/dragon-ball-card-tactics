@@ -18,17 +18,17 @@ MonoBehaviour:
   - sprite: {fileID: -6538211434888554205, guid: a2c6438b1a5187d4d9d8b6bb09ff62f6, type: 3}
     time: 0.1
   - sprite: {fileID: 1236131284862807086, guid: a2c6438b1a5187d4d9d8b6bb09ff62f6, type: 3}
-    time: 0.1
-  attackFrameIndex: 2
+    time: 0.4
+  attackFrameIndex: 0
   handPortalAnimation:
   - sprite: {fileID: -8417105382601958942, guid: a2c6438b1a5187d4d9d8b6bb09ff62f6, type: 3}
     time: 0.05
   - sprite: {fileID: -2121472967754759243, guid: a2c6438b1a5187d4d9d8b6bb09ff62f6, type: 3}
     time: 0.05
   - sprite: {fileID: 2082910369813648266, guid: a2c6438b1a5187d4d9d8b6bb09ff62f6, type: 3}
-    time: 0.1
+    time: 0.05
   - sprite: {fileID: -3013444995704284381, guid: a2c6438b1a5187d4d9d8b6bb09ff62f6, type: 3}
-    time: 0.1
+    time: 0.05
   - sprite: {fileID: -2121472967754759243, guid: a2c6438b1a5187d4d9d8b6bb09ff62f6, type: 3}
     time: 0.05
   - sprite: {fileID: -8417105382601958942, guid: a2c6438b1a5187d4d9d8b6bb09ff62f6, type: 3}
