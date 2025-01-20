@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 1eef536a5077841118f7607c30a5656c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1959650511510471565
+    second: goku-resurected_0
+  - first:
+      213: 4769909580410229006
+    second: goku-resurected_1
+  - first:
+      213: 863176393424928330
+    second: goku-resurected_2
+  - first:
+      213: 273381010527825825
+    second: goku-resurected_3
+  - first:
+      213: -2892450234549533472
+    second: goku-resurected_4
+  - first:
+      213: -7002705174595717314
+    second: goku-resurected_5
+  - first:
+      213: 1692100598014478074
+    second: goku-resurected_6
+  - first:
+      213: -335392401003013925
+    second: goku-resurected_7
+  - first:
+      213: 8028076924850244861
+    second: goku-resurected_8
+  - first:
+      213: -806054699421718183
+    second: goku-resurected_9
+  - first:
+      213: 296571798094293841
+    second: goku-resurected_10
+  - first:
+      213: 8016032656159912659
+    second: goku-resurected_11
+  - first:
+      213: -3047446399715298508
+    second: goku-resurected_12
+  - first:
+      213: -4483047477098442036
+    second: goku-resurected_13
+  - first:
+      213: 6013643216358340448
+    second: goku-resurected_14
+  - first:
+      213: -6460515077932494930
+    second: goku-resurected_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: goku-resurected_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 452
+        width: 31
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c71811e3cedc4e0800000000000000
+      internalID: -1959650511510471565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-resurected_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 452
+        width: 31
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e019517cd7f123240800000000000000
+      internalID: 4769909580410229006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-resurected_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 452
+        width: 32
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e78944b5e9afb00800000000000000
+      internalID: 863176393424928330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-resurected_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 456
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af29d4a49e3bc300800000000000000
+      internalID: 273381010527825825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-resurected_4
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 462
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e40e2726d3fbd7d0800000000000000
+      internalID: -2892450234549533472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-resurected_5
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 465
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37be61eeb461de90800000000000000
+      internalID: -7002705174595717314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-resurected_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 399
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af601ec578c8b7710800000000000000
+      internalID: 1692100598014478074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-resurected_7
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 399
+        width: 46
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd899d56362785bf0800000000000000
+      internalID: -335392401003013925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-resurected_8
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 399
+        width: 45
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc8537bd65796f60800000000000000
+      internalID: 8028076924850244861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-resurected_9
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 397
+        width: 39
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9592f63858150d4f0800000000000000
+      internalID: -806054699421718183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-resurected_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 397
+        width: 60
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b2fc3aa72ad1400800000000000000
+      internalID: 296571798094293841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-resurected_11
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 397
+        width: 45
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2b752ea3bae3f60800000000000000
+      internalID: 8016032656159912659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-resurected_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 327
+        width: 32
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4333de045ab45b5d0800000000000000
+      internalID: -3047446399715298508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-resurected_13
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 333
+        width: 37
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc21650621409c1c0800000000000000
+      internalID: -4483047477098442036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-resurected_14
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 334
+        width: 37
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067f9f4c4a0c47350800000000000000
+      internalID: 6013643216358340448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-resurected_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 334
+        width: 37
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf47c114c3a756a0800000000000000
+      internalID: -6460515077932494930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: da39296fcb48946fa9fa6305b18788ad
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      goku-resurected_0: -1959650511510471565
+      goku-resurected_1: 4769909580410229006
+      goku-resurected_10: 296571798094293841
+      goku-resurected_11: 8016032656159912659
+      goku-resurected_12: -3047446399715298508
+      goku-resurected_13: -4483047477098442036
+      goku-resurected_14: 6013643216358340448
+      goku-resurected_15: -6460515077932494930
+      goku-resurected_2: 863176393424928330
+      goku-resurected_3: 273381010527825825
+      goku-resurected_4: -2892450234549533472
+      goku-resurected_5: -7002705174595717314
+      goku-resurected_6: 1692100598014478074
+      goku-resurected_7: -335392401003013925
+      goku-resurected_8: 8028076924850244861
+      goku-resurected_9: -806054699421718183
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
