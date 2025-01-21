@@ -29,6 +29,10 @@ public class BoardGameUiManager : MonoBehaviour
 
     public Transform synergyContainer;
     public GameObject synergyPrefab;
+    public GameObject synergyPaginationContainer;
+    public TextMeshProUGUI currentPageSynergyText;
+    private int currentPageSynergy = 0;               
+    private const int itemsPerPage = 7; 
     
     public FightNameUi fightNameUi;
 
@@ -88,24 +92,69 @@ public class BoardGameUiManager : MonoBehaviour
         characterText.text = GameManager.Instance.GetCharactersOnBoard().Where(character => character.isPlayerCharacter).Count() + "/" + GameManager.Instance.Player.Level.maxUnit;
     }
 
-    public void SetupSynergy(){
-        try {
-            foreach (Transform item in synergyContainer)
-            {  
-                Destroy(item.gameObject); 
-            }
+    
+    public void SetupSynergy()
+    {
+        try
+        {
+            currentPageSynergy = 0; // Réinitialiser à la première page
+            synergyPaginationContainer.SetActive(true);
 
-            List<Synergy> ingameSynergy = GameManager.Instance.GetActiveSynergy();
-
-            foreach (var synergy in ingameSynergy)
+            // Si le nombre total d'éléments est inférieur ou égal à itemsPerPage, cacher la pagination
+            if (GameManager.Instance.GetActiveSynergy().Count <= itemsPerPage)
             {
-                var go = Instantiate(synergyPrefab , synergyContainer);
-                go.GetComponent<SynergyPrefabScript>().Setup(synergy);
+                synergyPaginationContainer.SetActive(false);
             }
-        } catch (Exception error){
+
+            // Afficher la première page
+            DisplayCurrentPageSynergy();
+        }
+        catch (Exception error)
+        {
             Debug.LogError("Error on setup synergies : " + error);
         }
-        
+    }
+
+    private void DisplayCurrentPageSynergy()
+    {
+        // Supprimer les anciens éléments
+        foreach (Transform item in synergyContainer)
+        {
+            Destroy(item.gameObject);
+        }
+
+        // Calculer les indices de début et de fin pour la page actuelle
+        int startIndex = currentPageSynergy * itemsPerPage;
+        int endIndex = Mathf.Min(startIndex + itemsPerPage, GameManager.Instance.GetActiveSynergy().Count);
+
+        // Ajouter les synergies de la page actuelle
+        for (int i = startIndex; i < endIndex; i++)
+        {
+            var go = Instantiate(synergyPrefab, synergyContainer);
+            go.GetComponent<SynergyPrefabScript>().Setup(GameManager.Instance.GetActiveSynergy()[i]);
+        }
+    }
+
+    public void GoNextSynergyPage()
+    {
+        // Vérifier s'il reste une page suivante
+        if ((currentPageSynergy + 1) * itemsPerPage < GameManager.Instance.GetActiveSynergy().Count)
+        {
+            currentPageSynergy++;
+            DisplayCurrentPageSynergy();
+            currentPageSynergyText.text = currentPageSynergy.ToString();
+        }
+    }
+
+    public void GoBackSynergyPage()
+    {
+        // Vérifier s'il existe une page précédente
+        if (currentPageSynergy > 0)
+        {
+            currentPageSynergy--;
+            DisplayCurrentPageSynergy();
+            currentPageSynergyText.text = currentPageSynergy.ToString();
+        }
     }
 
     public void SetupMultiplicatorText(){
