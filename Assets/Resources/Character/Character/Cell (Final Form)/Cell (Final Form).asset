@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Cell (Final Form)
   m_EditorClassIdentifier: 
-  id: 2
+  id: 24
   starNumber: 1
   characterName: Cell (Final Form)
   role: 1
@@ -37,6 +37,6 @@ MonoBehaviour:
     description: 
     animation: {fileID: 11400000, guid: be36b6766d88a0b4ab570d0632275916, type: 2}
   deadAnimation: {fileID: 0}
-  characterPassive:
-  - {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}
-  card: {fileID: 0}
+  sameCharacter: []
+  synergies:
+  - {fileID: 11400000, guid: 9c452569d04a944d4a77e1a9eae1b17f, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Cell Jr
   m_EditorClassIdentifier: 
-  id: 28
+  id: 25
   starNumber: 1
   characterName: Cell Jr
   role: 0
@@ -37,5 +37,6 @@ MonoBehaviour:
     description: A powerful ki waves shot.
     animation: {fileID: 11400000, guid: 53087d6719e8e8e4ab8f07e4f886792e, type: 2}
   deadAnimation: {fileID: 0}
-  characterPassive: []
-  card: {fileID: 0}
+  sameCharacter: []
+  synergies:
+  - {fileID: 11400000, guid: 9c452569d04a944d4a77e1a9eae1b17f, type: 2}
