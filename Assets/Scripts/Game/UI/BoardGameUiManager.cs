@@ -89,7 +89,7 @@ public class BoardGameUiManager : MonoBehaviour
     }
 
     public void SetupCharacterText(){
-        characterText.text = GameManager.Instance.GetCharactersOnBoard().Where(character => character.isPlayerCharacter).Count() + "/" + GameManager.Instance.Player.Level.maxUnit;
+        characterText.text = GameManager.Instance.GetCharactersOnBoard().Where(character => character.character.isPlayerCharacter).Count() + "/" + GameManager.Instance.Player.Level.maxUnit;
     }
 
     

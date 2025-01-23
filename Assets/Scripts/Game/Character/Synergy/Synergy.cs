@@ -9,10 +9,10 @@ public class Synergy : ScriptableObject {
     public Sprite synergyImage;
     public List<TierBonus> Tiers = new List<TierBonus>();
 
-    public List<TierBonus> GetActiveTierBonuses(){
+    public List<TierBonus> GetActiveTierBonuses(bool isPlayerCharacter){
         List<TierBonus> tierBonuses = new List<TierBonus>();
         foreach(var tierBonus in Tiers){
-            if(GetActiveUnit() >= tierBonus.RequiredUnits){
+            if(GetActiveUnit(isPlayerCharacter) >= tierBonus.RequiredUnits){
                 tierBonuses.Add(tierBonus);
             }
         }
@@ -30,14 +30,14 @@ public class Synergy : ScriptableObject {
         return description;
     }
 
-    public int GetActiveUnit(){
+    public int GetActiveUnit(bool isPlayerCharacter = true){
         int activeUnit = 0;
         var boardCharacters = GameManager.Instance.GetCharactersOnBoard();
         foreach (var boardCharacter in boardCharacters)
         {
             var synergies = boardCharacter.character.GetSynergies();
             if(synergies == null) continue;
-            if(boardCharacter.isPlayerCharacter && synergies.Contains(this)){
+            if(boardCharacter.character.isPlayerCharacter == isPlayerCharacter && synergies.Contains(this)){
                 activeUnit++;
             }
         }
@@ -49,7 +49,7 @@ public class Synergy : ScriptableObject {
         // Characters on the board with the synergy
         var boardCharactersWithSynergy = GameManager.Instance.GetCharactersOnBoard()
             .Where(boardCharacter =>
-                boardCharacter.isPlayerCharacter &&
+                boardCharacter.character.isPlayerCharacter &&
                 boardCharacter.character.GetSynergies() != null &&
                 boardCharacter.character.GetSynergies().Contains(this))
             .ToList();

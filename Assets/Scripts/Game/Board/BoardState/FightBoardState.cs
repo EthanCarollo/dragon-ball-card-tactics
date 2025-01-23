@@ -38,7 +38,8 @@ public class FightBoardState : BoardState
         List<Synergy> ingameSynergy = GameManager.Instance.GetActiveSynergy();
         foreach (var synergy in ingameSynergy)
         {
-            var tierBonuses = synergy.GetActiveTierBonuses();
+            // Maybe a bug here i think, i should fix that but idc
+            var tierBonuses = synergy.GetActiveTierBonuses(true);
             foreach (var tierBonus in tierBonuses)
             {
                 foreach (var bonus in tierBonus.Bonuses)

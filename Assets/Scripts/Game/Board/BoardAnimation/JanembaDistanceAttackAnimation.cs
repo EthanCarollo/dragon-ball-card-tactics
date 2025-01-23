@@ -12,7 +12,6 @@ public class JanembaDistanceAttackAnimation : BoardAnimation {
     public Sprite projectile;
     public Particle particleAttack;
     public AttackType attackType;
-    public Vector2 startMargin;
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
@@ -50,7 +49,7 @@ public class JanembaDistanceAttackAnimation : BoardAnimation {
         {
             handObject.transform.rotation = Quaternion.Euler(0, 0, 0);
         }
-        spriteRenderer.sortingOrder = 5; // Temp
+        spriteRenderer.sortingOrder = 5; 
         
         var handIndex = 0;
         foreach (FrameSprite handFrameSprite in handPortalAnimation)

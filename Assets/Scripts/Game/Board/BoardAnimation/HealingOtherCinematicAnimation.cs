@@ -31,7 +31,7 @@ public class HealingOtherCinematicAnimation : BoardAnimation
                 var characters = GameManager.Instance.boardCharacterArray;
                 foreach (var boardObject in characters)
                 {
-                    if (boardObject is BoardCharacter boardCharacter && boardCharacter.isPlayerCharacter == character.isPlayerCharacter)
+                    if (boardObject is BoardCharacter boardCharacter && boardCharacter.character.isPlayerCharacter == character.character.isPlayerCharacter)
                     {
                         // Ici c'est un heal de 20% des HP
                         boardCharacter.Heal(boardCharacter.character.GetCharacterMaxHealth() / 5);

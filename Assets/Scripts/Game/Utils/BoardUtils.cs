@@ -149,7 +149,7 @@ public static class BoardUtils
         {
             for (int j = 0; j < duplicateBoard.GetLength(1); j++)
             {
-                if(board[i, j] is BoardCharacter boardCharacter && withEnemy == false && boardCharacter.isPlayerCharacter == true){
+                if(board[i, j] is BoardCharacter boardCharacter && withEnemy == false && boardCharacter.character.isPlayerCharacter == true){
                     duplicateBoard[i, j] = board[i, j]?.Clone();
                 } else if(withEnemy == true) {
                     duplicateBoard[i, j] = board[i, j]?.Clone();

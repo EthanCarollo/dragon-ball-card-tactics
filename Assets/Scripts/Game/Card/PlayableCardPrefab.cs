@@ -79,7 +79,7 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
                 goTransfo.GetComponent<TransformationContainer>().characterToImage.sprite = transfo.transformation.newCharacterData.characterIcon;
                 
                 var character = GameManager.Instance.GetCharactersOnBoard()
-                .Where(cha => cha.isPlayerCharacter)
+                .Where(cha => cha.character.isPlayerCharacter)
                 .ToList()
                 .Find(cha => {
                     return transfo.character == cha.character.GetCharacterData();

@@ -33,7 +33,7 @@ public class DistanceAttackAnimation : BoardAnimation {
                     int otherAttack = 0;
                     foreach (var characterToAttack in characterOnBoard)
                     {
-                        if(characterToAttack == target || characterToAttack.isPlayerCharacter == character.isPlayerCharacter) continue;
+                        if(characterToAttack == target || characterToAttack.character.isPlayerCharacter == character.character.isPlayerCharacter) continue;
                         if(otherAttack >= otherTarget) break;
                         otherAttack++;
                         LaunchAttack(character, characterToAttack);

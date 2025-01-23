@@ -44,7 +44,7 @@ public class CharacterInventory : ScriptableObject
 
     public void AddCharacter(CharacterData character)
     {
-        characters.Add(new CharacterContainer(character.id, new List<CharacterPassive>(), 1));
+        characters.Add(new CharacterContainer(character.id, new List<CharacterPassive>(), 1, true));
     }
 }
 
@@ -65,14 +65,16 @@ public class CharacterContainer
     public int actualKi;
     public int selectedUltimateAttack = 0;
     public List<CharacterPassive> characterPassives = new List<CharacterPassive>();
+    public bool isPlayerCharacter = true;
     
-    public CharacterContainer(int characterId, List<CharacterPassive> characterPassives, int starNumber, float powerMultiplicator = 1)
+    public CharacterContainer(int characterId, List<CharacterPassive> characterPassives, int starNumber, bool isPlayerCharacter,float powerMultiplicator = 1)
     {
         this.characterPassives = characterPassives;
         this.powerMultiplicator = powerMultiplicator;
         this.characterId = characterId;
         this.actualHealth = GetCharacterMaxHealth();
         this.characterStar = starNumber;
+        this.isPlayerCharacter = isPlayerCharacter;
     }
 
     public void AddStar(int starNumber){
@@ -80,12 +82,13 @@ public class CharacterContainer
         NotifyCharacterChanged();
     }
     
-    public CharacterContainer(int characterId, int actualHealth, int actualKi, int starNumber)
+    public CharacterContainer(int characterId, int actualHealth, int actualKi, int starNumber, bool isPlayerCharacter)
     {
         this.characterId = characterId;
         this.actualHealth = actualHealth;
         this.actualKi = actualKi;
         this.characterStar = starNumber;
+        this.isPlayerCharacter = isPlayerCharacter;
     }
     
     public CharacterData GetCharacterData()
@@ -239,7 +242,7 @@ public class CharacterContainer
         if(synergies != null && synergies.Count() > 0){
             foreach (var synergie in synergies)
             {
-                foreach (var tierBonus in synergie.GetActiveTierBonuses())
+                foreach (var tierBonus in synergie.GetActiveTierBonuses(isPlayerCharacter))
                 {
                     foreach (var bonus in tierBonus.Bonuses)
                     {

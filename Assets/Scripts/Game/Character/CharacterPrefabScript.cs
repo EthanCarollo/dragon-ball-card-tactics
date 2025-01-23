@@ -29,7 +29,7 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
         {
             var newMaterial = new Material(ShadersDatabase.Instance.outlineMaterial);
             spriteRenderer.material = newMaterial;
-            spriteRenderer.material.SetColor("_OutlineColor", boardCharacter.isPlayerCharacter ? Color.green : Color.red);
+            spriteRenderer.material.SetColor("_OutlineColor", boardCharacter.character.isPlayerCharacter ? Color.green : Color.red);
             spriteRenderer.material.SetTexture("_MainTex", spriteRenderer.sprite.texture);
         }
     }
@@ -49,7 +49,7 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
 
     public void OnDrag(PointerEventData eventData)
     {
-        if (FightBoard.Instance.IsFighting() || boardCharacter.isPlayerCharacter == false)
+        if (FightBoard.Instance.IsFighting() || boardCharacter.character.isPlayerCharacter == false)
         {
             return;
         }
@@ -93,7 +93,7 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (FightBoard.Instance.IsFighting() || boardCharacter.isPlayerCharacter == false)
+        if (FightBoard.Instance.IsFighting() || boardCharacter.character.isPlayerCharacter == false)
         {
             return;
         }

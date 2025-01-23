@@ -15,8 +15,8 @@ public abstract class UsableCharacterActionCard : Card
         if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
         {
             return GameManager.Instance.GetCharactersOnBoard()
-                    .Where(cha => cha.isPlayerCharacter).ToList()
-                    .Find(cha => cha.character.GetCharacterData() == characterFor || cha.character.GetCharacterData().sameCharacter.Contains(characterFor));   
+                    .Where(cha => cha.character.isPlayerCharacter).ToList()
+                    .Find(cha => cha.character.GetCharacterData() == characterFor || cha.character.GetCharacterData().sameCharacters.Contains(characterFor));   
         }
         return null;
     }
@@ -67,7 +67,7 @@ public abstract class UsableCharacterActionCard : Card
             if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
             {
                 BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
-                    .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == characterFor || cha.character.GetCharacterData().sameCharacter.Contains(characterFor));
+                    .Where(cha => cha.character.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == characterFor || cha.character.GetCharacterData().sameCharacters.Contains(characterFor));
                 if(characterExist != null){
                     var positionCharacter = BoardUtils.FindPosition(GameManager.Instance.boardCharacterArray, characterExist);
                     var characterUiPosition = Camera.main.WorldToScreenPoint(new Vector3(positionCharacter.x, positionCharacter.y + 2, 0f));

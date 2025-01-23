@@ -18,10 +18,10 @@ public class SynergyPrefabScript : MonoBehaviour, IPointerEnterHandler, IPointer
     public void Setup(Synergy synergy) {
         tierDescription.SetActive(false);
         this.synergy = synergy;
-        synergyNumber.text = synergy.GetActiveUnit().ToString();
+        synergyNumber.text = synergy.GetActiveUnit(true).ToString();
         descriptionText.text = synergy.GetDescription();
         synergyImage.sprite = synergy.synergyImage;
-        var tierBonuses = synergy.GetActiveTierBonuses();
+        var tierBonuses = synergy.GetActiveTierBonuses(true);
         if(tierBonuses.ToArray().Length == 0){
             GetComponent<Image>().color = new Color(0.4f, 0.4f, 0.4f);
             transform.GetChild(0).GetComponent<Image>().color = new Color(0.4f, 0.4f, 0.4f);

@@ -26,7 +26,7 @@ public class DefaultBoardFightState : BoardFightState
                     // Check if character is alive
                     if (!boardChar.character.IsDead())
                     {
-                        if (boardChar.isPlayerCharacter)
+                        if (boardChar.character.isPlayerCharacter)
                         {
                             alivePlayerCount++;
                         }

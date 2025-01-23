@@ -11,7 +11,7 @@ public class LaunchFightButton : MonoBehaviour, IPointerClickHandler
     {
         try
         {
-            if (GameManager.Instance.GetCharactersOnBoard().Where((character => character.isPlayerCharacter)).Count() == 0)
+            if (GameManager.Instance.GetCharactersOnBoard().Where((character => character.character.isPlayerCharacter)).Count() == 0)
             {
                 return false;
             }

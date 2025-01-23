@@ -22,7 +22,7 @@ public class ApplyAllEffectAnimation : BoardAnimation {
             character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = frameSprite.sprite;
             yield return new WaitForSeconds(frameSprite.time); 
             if(index == attackFrameIndex){
-                var charactersToAffect = GameManager.Instance.GetCharactersOnBoard().Where(charac => charac.isPlayerCharacter == character.isPlayerCharacter);
+                var charactersToAffect = GameManager.Instance.GetCharactersOnBoard().Where(charac => charac.character.isPlayerCharacter == character.character.isPlayerCharacter);
                 foreach (var characterToAffect in charactersToAffect)
                 {
                     foreach (var effect in effectApplied)

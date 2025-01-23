@@ -101,7 +101,7 @@ public class GameManager
         {
             Debug.Log(characterContainerFight.characterData.name);
             boardCharacterArray[characterContainerFight.position.x, characterContainerFight.position.y] 
-                = new BoardCharacter(new CharacterContainer(characterContainerFight.characterData.id, new List<CharacterPassive>(), 1, difficultyMutliplicator), false);
+                = new BoardCharacter(new CharacterContainer(characterContainerFight.characterData.id, new List<CharacterPassive>(), 1, false, difficultyMutliplicator));
         }
         FightBoard.Instance.CreateBoard(boardCharacterArray);
     }
@@ -155,7 +155,7 @@ public class GameManager
         {
             for (int y = 0; y < boardCharacterArray.GetLength(1); y++)
             {
-                if (boardCharacterArray[x, y] is BoardCharacter boardCharacter && boardCharacter.isPlayerCharacter)
+                if (boardCharacterArray[x, y] is BoardCharacter boardCharacter && boardCharacter.character.isPlayerCharacter)
                 {
                     continue;
                 }
@@ -169,7 +169,7 @@ public class GameManager
         foreach (var boardCharacter in GetCharactersOnBoard())
         {
             var synergies = boardCharacter.character.GetSynergies();
-            if(boardCharacter.isPlayerCharacter == playerSynergy && synergies != null){
+            if(boardCharacter.character.isPlayerCharacter == playerSynergy && synergies != null){
                 foreach (var synergy in synergies)
                 {
                     if(ingameSynergy.Contains(synergy)) continue;

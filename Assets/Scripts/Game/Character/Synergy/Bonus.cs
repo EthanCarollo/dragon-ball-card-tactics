@@ -32,7 +32,7 @@ public class TransformCharacterBonus : Bonus
 
     public override bool OnStartSetupAction(bool isPlayerCharacter)
     {
-        var characters = GameManager.Instance.GetCharactersOnBoard().Where(character => character.isPlayerCharacter == isPlayerCharacter).ToList();
+        var characters = GameManager.Instance.GetCharactersOnBoard().Where(character => character.character.isPlayerCharacter == isPlayerCharacter).ToList();
         var characterFound = characters.Find(character => character.character.GetCharacterData() == this.character);
         if(characterFound != null){
             characterFound.PlayAnimation(transform);

@@ -11,7 +11,7 @@ public class FusionTransformAnimation : TransformAnimation {
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
-        bool isFusionForPlayer = character.isPlayerCharacter;
+        bool isFusionForPlayer = character.character.isPlayerCharacter;
         BoardCharacter holder1 = null;
         BoardCharacter holder2 = null;
         
@@ -24,7 +24,7 @@ public class FusionTransformAnimation : TransformAnimation {
 
                 if (boardObject is BoardCharacter boardChar)
                 {
-                    if (!boardChar.character.IsDead() && boardChar.isPlayerCharacter == isFusionForPlayer )
+                    if (!boardChar.character.IsDead() && boardChar.character.isPlayerCharacter == isFusionForPlayer )
                     {
                         if (boardChar.character.GetCharacterData() == characterData1)
                         {
@@ -51,14 +51,14 @@ public class FusionTransformAnimation : TransformAnimation {
             }
             character.isAnimating = true;
             yield return PlayAnimationCoroutineTransform(character);
-            character.SetupCharacter(new CharacterContainer(newCharacterData.id, newCharacterData.maxHealth, 1, 0));
+            character.SetupCharacter(new CharacterContainer(newCharacterData.id, newCharacterData.maxHealth, 1, 0, character.character.isPlayerCharacter));
             character.isAnimating = false;
         }
     }
     
     public override bool CanTransform(BoardCharacter character)
     {
-        bool isFusionForPlayer = character.isPlayerCharacter;
+        bool isFusionForPlayer = character.character.isPlayerCharacter;
         BoardCharacter holder1 = null;
         BoardCharacter holder2 = null;
         
@@ -71,7 +71,7 @@ public class FusionTransformAnimation : TransformAnimation {
 
                 if (boardObject is BoardCharacter boardChar)
                 {
-                    if (!boardChar.character.IsDead() && boardChar.isPlayerCharacter == isFusionForPlayer )
+                    if (!boardChar.character.IsDead() && boardChar.character.isPlayerCharacter == isFusionForPlayer )
                     {
                         if (boardChar.character.GetCharacterData() == characterData1)
                         {

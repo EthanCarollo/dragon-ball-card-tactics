@@ -20,13 +20,25 @@ public class CharacterCard : Card
         }
         try {
             var characterList = GameManager.Instance.GetCharactersOnBoard();
-            characterList = characterList.Where(cha => cha.isPlayerCharacter == true).ToList();
-            BoardCharacter characterExist = characterList.Find((cha) => {
-                if(cha.character == null){
-                    Debug.Log("BoardCharacter character isn't set.");
-                    return false;
-                }
-                return cha.character.GetCharacterData() == character || cha.character.GetCharacterData().sameCharacter.Contains(character);
+            characterList = characterList.Where(cha => cha.character.isPlayerCharacter).ToList();
+            BoardCharacter characterExist = characterList.Find(cha => {
+                    if(cha.character == null){
+                        Debug.Log("BoardCharacter character isn't set.");
+                        return false;
+                    }
+
+                    try
+                    {
+                        var charDataToTest = cha.character.GetCharacterData();
+                        if (charDataToTest == character) return true;
+                        if (charDataToTest.sameCharacters != null && charDataToTest.sameCharacters.Contains(character)) return true;
+                        return false;
+                    }
+                    catch (Exception errorLogged)
+                    {
+                        Debug.LogWarning("This code is so fucking messy, got a new error : " + errorLogged);
+                        return false;
+                    }
                 }
             );
             if(characterExist != null){
@@ -34,9 +46,9 @@ public class CharacterCard : Card
             }
         } catch (Exception error)
         {
-            Debug.Log("Error with card for the character : " + character.characterName + ", " + error.ToString());
+            Debug.Log("Error with can use card for the character : " + character.characterName + ", " + error.ToString());
         }
-        if(GameManager.Instance.Player.Level.maxUnit <= GameManager.Instance.GetCharactersOnBoard().Where(character => character.isPlayerCharacter).Count()){
+        if(GameManager.Instance.Player.Level.maxUnit <= GameManager.Instance.GetCharactersOnBoard().Where(character => character.character.isPlayerCharacter).Count()){
             return false;
         }
         return true;
@@ -58,7 +70,7 @@ public class CharacterCard : Card
 
 
             BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
-                    .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character || cha.character.GetCharacterData().sameCharacter.Contains(character));
+                    .Where(cha => cha.character.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character || cha.character.GetCharacterData().sameCharacters.Contains(character));
             if(characterExist != null){
                 characterExist.character.AddStar(1);
                 GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
@@ -82,7 +94,7 @@ public class CharacterCard : Card
 
             if (tileScript != null)
             {
-                tileScript.assignedBoard.AddCharacterFromBoard(new BoardCharacter(new CharacterContainer(character.id, new List<CharacterPassive>(), 1), true), tileScript.position);
+                tileScript.assignedBoard.AddCharacterFromBoard(new BoardCharacter(new CharacterContainer(character.id, new List<CharacterPassive>(), 1, true)), tileScript.position);
                 GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
                 BoardGameUiManager.Instance.ShowLooseMana(manaCost);
                 GameManager.Instance.RemoveCard(this);
@@ -97,7 +109,7 @@ public class CharacterCard : Card
     {
         CharacterDragInfo.canPlayOnBoardPosition = new Vector2Int(-1, -1);
         BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
-            .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character || cha.character.GetCharacterData().sameCharacter.Contains(character));
+            .Where(cha => cha.character.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character || cha.character.GetCharacterData().sameCharacters.Contains(character));
         if(characterExist != null){
             var positionCharacter = BoardUtils.FindPosition(GameManager.Instance.boardCharacterArray, characterExist);
             CharacterDragInfo.canPlayOnBoardPosition = positionCharacter;
@@ -112,8 +124,7 @@ public class CharacterCard : Card
         if(CanUseCard() == false) {
             return;
         }
-        if (FightBoard.Instance.IsFighting())
-        {
+        if (FightBoard.Instance.IsFighting()) {
             return;
         }
         if (CharacterDragInfo.draggedObject == null)
@@ -141,7 +152,7 @@ public class CharacterCard : Card
                 TileBehaviour tileScript = hit.collider.GetComponent<TileBehaviour>();
                 if(hit.collider.GetComponent<TileBehaviour>() || hit.collider.GetComponent<CharacterPrefabScript>()){
                     BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
-                        .Where(cha => cha.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character || cha.character.GetCharacterData().sameCharacter.Contains(character));
+                        .Where(cha => cha.character.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character || cha.character.GetCharacterData().sameCharacters.Contains(character));
                     if(characterExist != null){
                         var positionCharacter = BoardUtils.FindPosition(GameManager.Instance.boardCharacterArray, characterExist);
                         CharacterDragInfo.canPlayOnBoardPosition = positionCharacter;

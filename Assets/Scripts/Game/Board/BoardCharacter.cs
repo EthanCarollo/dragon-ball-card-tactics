@@ -11,7 +11,6 @@ public class BoardCharacter : BoardObject
 {
     public CharacterContainer character;
     public BoardCharacterState state;
-    public bool isPlayerCharacter;
     public Vector2 direction;
     // If the nextPosition is to negative infinity, it just don't have a next position at all
     public Vector2Int nextPosition = new Vector2Int(-1, -1);
@@ -26,11 +25,10 @@ public class BoardCharacter : BoardObject
         return null;
     }
 
-    public BoardCharacter(CharacterContainer character, bool isPlayerCharacter)
+    public BoardCharacter(CharacterContainer character)
     {
         SetupCharacter(character);
-        this.isPlayerCharacter = isPlayerCharacter;
-        if (!isPlayerCharacter)
+        if (!character.isPlayerCharacter)
         {
             direction = Vector2.left;
         }
@@ -221,8 +219,8 @@ public class BoardCharacter : BoardObject
     public override BoardObject Clone()
     {
         // Reset the character container
-        var newCharacter = new CharacterContainer(character.characterId, character.characterPassives, character.characterStar, character.powerMultiplicator);
-        BoardCharacter clonedCharacter = new BoardCharacter(newCharacter, isPlayerCharacter);
+        var newCharacter = new CharacterContainer(character.characterId, character.characterPassives, character.characterStar, character.isPlayerCharacter, character.powerMultiplicator);
+        BoardCharacter clonedCharacter = new BoardCharacter(newCharacter);
         clonedCharacter.SetGameObject(this.gameObject);
         clonedCharacter.SetBoard(this.board); 
         return clonedCharacter;

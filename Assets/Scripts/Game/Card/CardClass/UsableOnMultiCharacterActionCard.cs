@@ -20,7 +20,7 @@ public class TransformationCard : Card
             (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
         {
             return GameManager.Instance.GetCharactersOnBoard()
-                .Where(cha => cha.isPlayerCharacter)
+                .Where(cha => cha.character.isPlayerCharacter)
                 .ToList()
                 .Find(cha => {
                     // Vérifie si le CharacterData de cha.character est dans transformations
@@ -39,7 +39,7 @@ public class TransformationCard : Card
     {
         
         var characterOnBoard = GameManager.Instance.GetCharactersOnBoard()
-            .Where(cha => cha.isPlayerCharacter)
+            .Where(cha => cha.character.isPlayerCharacter)
             .ToList()
             .Find(cha =>
                 transformations.Any(trans => trans.character == cha.character.GetCharacterData())
@@ -125,7 +125,7 @@ public class TransformationCard : Card
             {
                 // Cherche un personnage sur le plateau qui correspond à un des personnages dans 'transformations'
                 BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
-                    .Where(cha => cha.isPlayerCharacter)
+                    .Where(cha => cha.character.isPlayerCharacter)
                     .ToList()
                     .Find(cha => 
                         transformations.Any(trans => trans.character == cha.character.GetCharacterData())

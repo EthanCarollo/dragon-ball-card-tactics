@@ -1,6 +1,7 @@
 ﻿
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.TextCore.Text;
 
 [CreateAssetMenu(fileName = "NewCharacterData", menuName = "Character/CharacterData")]
@@ -34,7 +35,7 @@ public class CharacterData : ScriptableObject
     public SpecialAttack[] specialAttackAnimation;
     public BoardAnimation deadAnimation;
 
-    public CharacterData[] sameCharacter; // This said if it's the same char than another, useful if we want to upgrade one
+    [FormerlySerializedAs("sameCharacter")] public CharacterData[] sameCharacters; // This said if it's the same char than another, useful if we want to upgrade one
 
     public Synergy[] synergies;
     

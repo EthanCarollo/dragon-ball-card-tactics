@@ -97,10 +97,10 @@ public class FightBoard : Board
                         charPrefabScript.boardCharacter = character;
                         charPrefabScript.position = new Vector2Int(x, y);
                         charPrefabScript.spriteSocle.color = 
-                            new Color(character.isPlayerCharacter? 0f: 1f, 0f, character.isPlayerCharacter? 1f: 0f, 0.2f);
+                            new Color(character.character.isPlayerCharacter? 0f: 1f, 0f, character.character.isPlayerCharacter? 1f: 0f, 0.2f);
                         charPrefabScript.spriteRenderer.sprite = character.character.GetCharacterData().characterSprite;
                         charPrefabScript.spriteRenderer.sortingOrder = 4;
-                        charPrefabScript.spriteRenderer.flipX = !character.isPlayerCharacter;
+                        charPrefabScript.spriteRenderer.flipX = !character.character.isPlayerCharacter;
                         character.SetCharacterSlider();
                     }
                 }
