@@ -156,11 +156,10 @@ public class BoardCharacter : BoardObject
             }
             for (int i = 0; i < character.characterStar; i++)
             {
-                    var characterStar = new GameObject();
+                    var characterStar = new GameObject("CharacterStar");
                     characterStar.AddComponent<Image>().sprite = charPrefabScript.starImage;
-                    // characterStar.AddComponent<RectTransform>();
                     characterStar.GetComponent<RectTransform>().sizeDelta = new Vector2(0.2f, 0.2f);
-                    MonoBehaviour.Instantiate(characterStar, charPrefabScript.starContainer);
+                    characterStar.transform.SetParent(charPrefabScript.starContainer);
             }
         }
         catch (Exception e)
