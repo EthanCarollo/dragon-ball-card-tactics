@@ -20,7 +20,7 @@ public class UltimeDistanceTopAttackAnimation : BoardAnimation {
         {
             fightBoard.LaunchCinematic();
         }
-        character.isAnimating = true;
+        character.actualAnimation = this;
         var startPos = character.gameObject.transform.position;
         character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = flySprite.sprite;
         LeanTween.move(character.gameObject, character.gameObject.transform.position + new Vector3(-1f, 2.5f, 0f), 0.8f).setEase(LeanTweenType.easeInOutQuad);
@@ -42,7 +42,12 @@ public class UltimeDistanceTopAttackAnimation : BoardAnimation {
         LeanTween.move(character.gameObject, startPos, 0.8f).setEase(LeanTweenType.easeInOutQuad);
         yield return new WaitForSeconds(0.8f);
         
-        character.isAnimating = false;
+        EndAnimation(character);
+    }
+
+    public override void EndAnimation(BoardCharacter character)
+    {
+        base.EndAnimation(character);
         
         if (character.board is FightBoard fightBoard2)
         {

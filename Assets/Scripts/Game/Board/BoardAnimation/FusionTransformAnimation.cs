@@ -49,10 +49,10 @@ public class FusionTransformAnimation : TransformAnimation {
             {
                 holder1.RemoveFromBoard();
             }
-            character.isAnimating = true;
+            character.actualAnimation = this;
             yield return PlayAnimationCoroutineTransform(character);
             character.SetupCharacter(new CharacterContainer(newCharacterData.id, newCharacterData.maxHealth, 1, 0, character.character.isPlayerCharacter));
-            character.isAnimating = false;
+            EndAnimation(character);
         }
     }
     

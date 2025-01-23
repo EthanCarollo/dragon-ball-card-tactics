@@ -70,7 +70,13 @@ public class CharacterCard : Card
 
 
             BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
-                    .Where(cha => cha.character.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character || cha.character.GetCharacterData().sameCharacters.Contains(character));
+                    .Where(cha => cha.character.isPlayerCharacter).ToList().Find(cha =>
+                    {
+                        var charDataToTest = cha.character.GetCharacterData();
+                        if (charDataToTest == character) return true;
+                        if (charDataToTest.sameCharacters != null && charDataToTest.sameCharacters.Contains(character)) return true;
+                        return false;
+                    });
             if(characterExist != null){
                 characterExist.character.AddStar(1);
                 GameManager.Instance.Player.Mana.CurrentMana -= manaCost;

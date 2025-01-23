@@ -25,7 +25,7 @@ public class AttackAnimation : BoardAnimation
             CameraScript.Instance.SetupCameraOnTarget(4.5f, character.gameObject.transform);
         }
         
-        character.isAnimating = true;
+        character.actualAnimation = this;
         var index = 0;
         foreach (FrameSprite frameSprite in frameSprites)
         {
@@ -76,12 +76,18 @@ public class AttackAnimation : BoardAnimation
             }
             index++;
         }
-        character.isAnimating = false;
         
-        if (character.board is FightBoard fightBoard2 && isCinematic)
+        EndAnimation(character);
+    }
+
+    public override void EndAnimation(BoardCharacter character)
+    {
+        base.EndAnimation(character);
+        
+        if (character.board is FightBoard fightBoard2)
         {
             fightBoard2.EndCinematic();
-            CameraScript.Instance.SetupNormalCamera();
         }
+        CameraScript.Instance.SetupNormalCamera();
     }
 }

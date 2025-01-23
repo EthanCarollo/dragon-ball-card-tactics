@@ -19,7 +19,7 @@ public class HealingOtherCinematicAnimation : BoardAnimation
         {
             fightBoard.LaunchCinematic();
         }
-        character.isAnimating = true;
+        character.actualAnimation = this;
         yield return new WaitForSeconds(0.5f);
         var index = 0;
         foreach (FrameSprite frameSprite in frameSprites)
@@ -40,7 +40,13 @@ public class HealingOtherCinematicAnimation : BoardAnimation
             }
             index++;
         }
-        character.isAnimating = false;
+        EndAnimation(character);
+    }
+
+    public override void EndAnimation(BoardCharacter character)
+    {
+        base.EndAnimation(character);
+        
         if (character.board is FightBoard fightBoard2)
         {
             fightBoard2.EndCinematic();

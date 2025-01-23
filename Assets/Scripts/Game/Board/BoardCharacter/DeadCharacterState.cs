@@ -17,6 +17,8 @@ public class DeadCharacterState : BoardCharacterState
         else
         {
             // Disappear 
+            if (boardCharacter.actualAnimation != null) boardCharacter.actualAnimation.EndAnimation(this.boardCharacter);
+            
             var spriteRenderer = this.boardCharacter.gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>();
             spriteRenderer.material = new Material(ShadersDatabase.Instance.disappearMaterial);
             spriteRenderer.material.SetFloat("_Fade", 1f);

@@ -14,8 +14,8 @@ public class ApplyAllEffectAnimation : BoardAnimation {
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         var target = character.GetCharacterTarget();
-        
-        character.isAnimating = true;
+
+        character.actualAnimation = this;
         var index = 0;
         foreach (FrameSprite frameSprite in frameSprites)
         {
@@ -33,6 +33,6 @@ public class ApplyAllEffectAnimation : BoardAnimation {
             }
             index++;
         }
-        character.isAnimating = false;
+        EndAnimation(character);
     }
 }

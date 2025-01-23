@@ -15,7 +15,7 @@ public class JanembaDistanceAttackAnimation : BoardAnimation {
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
-        character.isAnimating = true;
+        character.actualAnimation = this;
         var target = character.GetCharacterTarget();
         var index = 0;
         
@@ -28,7 +28,7 @@ public class JanembaDistanceAttackAnimation : BoardAnimation {
             }
             index++;
         }
-        character.isAnimating = false;
+        EndAnimation(character);
     }
 
     private void LaunchHandAnimation(BoardCharacter character, BoardCharacter target){

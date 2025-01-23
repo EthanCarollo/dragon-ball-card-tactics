@@ -20,7 +20,7 @@ public class DistanceAttackAnimation : BoardAnimation {
     {
         var target = character.GetCharacterTarget();
         
-        character.isAnimating = true;
+        character.actualAnimation = this;
         var index = 0;
         foreach (FrameSprite frameSprite in frameSprites)
         {
@@ -42,7 +42,7 @@ public class DistanceAttackAnimation : BoardAnimation {
             }
             index++;
         }
-        character.isAnimating = false;
+        EndAnimation(character);
     }
 
     private void LaunchAttack(BoardCharacter character, BoardCharacter target){

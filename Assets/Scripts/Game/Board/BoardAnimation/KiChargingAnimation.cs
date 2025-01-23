@@ -14,7 +14,7 @@ public class KiChargingAnimation : BoardAnimation
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
-        character.isAnimating = true;
+        character.actualAnimation = this;
         yield return new WaitForSeconds(0.5f);
         var index = 0;
         foreach (FrameSprite frameSprite in frameSprites)
@@ -26,6 +26,6 @@ public class KiChargingAnimation : BoardAnimation
             }
             index++;
         }
-        character.isAnimating = false;
+        EndAnimation(character);
     }
 }

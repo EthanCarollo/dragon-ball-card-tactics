@@ -22,19 +22,26 @@ public class TransformAnimation : BoardAnimation {
         }
         yield return new WaitForEndOfFrame();
         CameraScript.Instance.SetupCameraOnTarget(2.5f, character.gameObject.transform);
-        
-        character.isAnimating = true;
+
+        character.actualAnimation = this;
         yield return PlayAnimationCoroutineTransform(character);
         character.SetupCharacter(newCharacterData);
         character.Heal(character.character.GetCharacterMaxHealth());
-        character.isAnimating = false;
         
         CameraScript.Instance.SetupNormalCamera();
         yield return new WaitForEndOfFrame();
+        EndAnimation(character);
+    }
+
+    public override void EndAnimation(BoardCharacter character)
+    {
+        base.EndAnimation(character);
+        
         if (character.board is FightBoard fightBoard2)
         {
             fightBoard2.EndCinematic();
         }
+        CameraScript.Instance.SetupNormalCamera();
     }
 
     public IEnumerator PlayAnimationCoroutineTransform(BoardCharacter character)

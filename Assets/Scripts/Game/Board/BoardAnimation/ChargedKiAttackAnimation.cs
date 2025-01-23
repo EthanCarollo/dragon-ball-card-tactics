@@ -22,7 +22,7 @@ public class ChargedKiAttackAnimation : BoardAnimation
         {
             fightBoard.LaunchCinematic();
         }
-        character.isAnimating = true;
+        character.actualAnimation = this;
         var index = 0;
         foreach (FrameSprite frameSprite in frameSprites)
         {
@@ -35,13 +35,22 @@ public class ChargedKiAttackAnimation : BoardAnimation
             index++;
         }
         yield return new WaitForSeconds(0.25f); 
-        character.isAnimating = false;
+        
+        EndAnimation(character);
+    }
+
+    public override void EndAnimation(BoardCharacter character)
+    {
+        base.EndAnimation(character);
+        
         if (character.board is FightBoard fightBoard2)
         {
             fightBoard2.EndCinematic();
         }
         CameraScript.Instance.SetupNormalCamera();
     }
+    
+    
     private void LaunchAttack(BoardCharacter character)
     {
         GameObject newGameObject = new GameObject("Projectile");

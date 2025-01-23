@@ -14,7 +14,6 @@ public class BoardCharacter : BoardObject
     public Vector2 direction;
     // If the nextPosition is to negative infinity, it just don't have a next position at all
     public Vector2Int nextPosition = new Vector2Int(-1, -1);
-    public bool isAnimating = false;
     public bool isDying = false;
 
     public BoardCharacter GetCharacterTarget()
@@ -169,10 +168,15 @@ public class BoardCharacter : BoardObject
         
     }
 
+    public BoardAnimation actualAnimation;
+
+    public bool isAnimating() { return actualAnimation != null; }
+    
     public void PlayAnimation(BoardAnimation animation)
     {
         var characterScript = gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
         characterScript.StopAllCoroutines();
+        if (actualAnimation != null) actualAnimation.EndAnimation(this);
         characterScript.StartCoroutine(animation.PlayAnimationCoroutine(this));
     }
 
@@ -180,18 +184,13 @@ public class BoardCharacter : BoardObject
     {
         var characterScript = gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
         characterScript.StopAllCoroutines();
+        if (actualAnimation != null) actualAnimation.EndAnimation(this);
         characterScript.StartCoroutine(PlayAnimationWithCallback(animation, onAnimationComplete));
-    }
-
-    private IEnumerator PlayAnimationWithCallback(BoardAnimation animation, Action onAnimationComplete)
-    {
-        yield return gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().StartCoroutine(animation.PlayAnimationCoroutine(this));
-        onAnimationComplete?.Invoke();
     }
 
     public bool PlayAnimationIfNotRunning(BoardAnimation animation)
     {
-        if (!isAnimating)
+        if (!isAnimating())
         {
             gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().StartCoroutine(animation.PlayAnimationCoroutine(this));
             return true;
@@ -200,6 +199,12 @@ public class BoardCharacter : BoardObject
         {
             return false;
         }
+    }
+
+    private IEnumerator PlayAnimationWithCallback(BoardAnimation animation, Action onAnimationComplete)
+    {
+        yield return gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().StartCoroutine(animation.PlayAnimationCoroutine(this));
+        onAnimationComplete?.Invoke();
     }
 
     public void LaunchKikoha() 

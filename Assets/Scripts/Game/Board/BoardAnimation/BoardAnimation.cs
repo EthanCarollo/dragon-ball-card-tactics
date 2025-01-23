@@ -11,13 +11,18 @@ public class BoardAnimation : ScriptableObject {
 
     public virtual IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
-        character.isAnimating = true;
+        character.actualAnimation = this;
         foreach (FrameSprite frameSprite in frameSprites)
         {
             character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = frameSprite.sprite;
             yield return new WaitForSeconds(frameSprite.time); 
         }
-        character.isAnimating = false;
+        EndAnimation(character);
+    }
+
+    public virtual void EndAnimation(BoardCharacter character)
+    {
+        character.actualAnimation = null;
     }
 }
 
