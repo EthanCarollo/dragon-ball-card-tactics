@@ -37,11 +37,14 @@ public class TransformAnimation : BoardAnimation {
     {
         base.EndAnimation(character);
         
-        if (character.board is FightBoard fightBoard2)
+        if (character.board is FightBoard fightBoard)
         {
-            fightBoard2.EndCinematic();
+            fightBoard.EndCinematic();
+            if (!fightBoard.IsFighting())
+            {
+                CameraScript.Instance.SetupNormalCamera();
+            }
         }
-        CameraScript.Instance.SetupNormalCamera();
     }
 
     public IEnumerator PlayAnimationCoroutineTransform(BoardCharacter character)

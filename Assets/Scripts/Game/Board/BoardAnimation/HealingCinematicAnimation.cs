@@ -42,6 +42,5 @@ public class HealingCinematicAnimation : BoardAnimation
         {
             fightBoard2.EndCinematic();
         }
-        CameraScript.Instance.SetupNormalCamera();
     }
 }

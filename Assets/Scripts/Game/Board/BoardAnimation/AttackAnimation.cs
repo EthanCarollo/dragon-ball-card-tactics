@@ -84,10 +84,9 @@ public class AttackAnimation : BoardAnimation
     {
         base.EndAnimation(character);
         
-        if (character.board is FightBoard fightBoard2)
+        if (character.board is FightBoard fightBoard2 && isCinematic)
         {
             fightBoard2.EndCinematic();
         }
-        CameraScript.Instance.SetupNormalCamera();
     }
 }
