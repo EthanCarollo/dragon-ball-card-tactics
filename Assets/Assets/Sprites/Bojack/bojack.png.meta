@@ -596,6 +596,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: bojack_20
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 170
+        width: 52
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5076077, y: 0.04042759}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472a0a2e52c115542941f6a76dafd924
+      internalID: 1928257285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -623,6 +645,7 @@ TextureImporter:
       bojack_18: -140567817155735400
       bojack_19: 4306836911094538248
       bojack_2: 2469441598665329402
+      bojack_20: 1928257285
       bojack_3: -6241844520865459634
       bojack_4: -249784882143244920
       bojack_5: -1988985958501652695

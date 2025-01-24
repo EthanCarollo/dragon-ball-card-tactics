@@ -102,6 +102,7 @@ public class FightBoard : Board
                         charPrefabScript.spriteRenderer.sortingOrder = 4;
                         charPrefabScript.spriteRenderer.flipX = !character.character.isPlayerCharacter;
                         character.SetCharacterSlider();
+                        character.PlayAnimation(SpriteDatabase.Instance.disappearAnimation);
                     }
                 }
                 catch (Exception e) {

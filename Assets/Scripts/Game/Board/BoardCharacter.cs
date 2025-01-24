@@ -70,7 +70,6 @@ public class BoardCharacter : BoardObject
 
     public override void Update()
     {
-
         try
         {
             gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().flipX = direction == Vector2.left;

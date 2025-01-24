@@ -33,6 +33,7 @@ public class CharacterData : ScriptableObject
     public BoardAnimation attackAnimation;
     public BoardAnimation criticalAttackAnimation;
     public SpecialAttack[] specialAttackAnimation;
+    public BoardAnimation winPoseAnimation;
     public BoardAnimation deadAnimation;
 
     [FormerlySerializedAs("sameCharacter")] public CharacterData[] sameCharacters; // This said if it's the same char than another, useful if we want to upgrade one

@@ -36,8 +36,9 @@ MonoBehaviour:
   - name: Black Kameha
     description: 
     animation: {fileID: 11400000, guid: 0e16e5e3954e43b4eb1e97e52ada49c9, type: 2}
+  winPoseAnimation: {fileID: 11400000, guid: 82bda9151602e6f49b3564b1b008d6d6, type: 2}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
   - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}

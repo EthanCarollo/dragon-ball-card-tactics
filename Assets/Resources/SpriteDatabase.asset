@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58c5862ce862845aa9b107d33f6569e7, type: 3}
   m_Name: SpriteDatabase
   m_EditorClassIdentifier: 
-  disappearAnimation: {fileID: 11400000, guid: 521920f75506b40408b067a87956eb81, type: 2}
+  disappearAnimation: {fileID: 11400000, guid: 02e180d882a5fcb488af470850651b14, type: 2}
   basePassiveSprite: {fileID: -4359517640385838281, guid: 120414f6855a64acd915b0624ef743b8, type: 3}
   normalCursor: {fileID: 2800000, guid: ea23db8835975a442a495dcf7cbefa09, type: 3}
   pointerCursor: {fileID: 2800000, guid: f01a06849ad33164da39edcef2cad49a, type: 3}

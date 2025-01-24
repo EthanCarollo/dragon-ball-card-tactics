@@ -25,6 +25,10 @@ public class DefaultBoardState : BoardState
                 var character = GameManager.Instance.boardCharacterArray[x, y];
                 if (character == null) continue;
                 character.UpdateUi();
+                if (character is BoardCharacter boardCharacter)
+                {
+                    boardCharacter.PlayAnimationIfNotRunning(boardCharacter.character.GetCharacterData().idleAnimation);
+                }
             }
         }
     }

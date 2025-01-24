@@ -1146,6 +1146,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: blackgoku-kaio_42
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 562
+        width: 43
+        height: 72
+      alignment: 9
+      pivot: {x: 0.56968796, y: 0.10962168}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6016bf04f217683428d6339f01d4bcf1
+      internalID: 1596101555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -1197,6 +1219,7 @@ TextureImporter:
       blackgoku-kaio_4: -5632508811132128475
       blackgoku-kaio_40: -1188100145014753981
       blackgoku-kaio_41: -6436454464622499087
+      blackgoku-kaio_42: 1596101555
       blackgoku-kaio_5: 1129704214767688387
       blackgoku-kaio_6: -3669114929804919812
       blackgoku-kaio_7: 7048826413324347994
