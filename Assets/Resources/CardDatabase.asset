@@ -56,10 +56,11 @@ MonoBehaviour:
   playerCards:
   - {fileID: 11400000, guid: 7632b261a27804d23b87efd9e9ccb266, type: 2}
   - {fileID: 11400000, guid: fbdacb600f23b4d7ea2fc30d50f37db5, type: 2}
-  - {fileID: 11400000, guid: 9126d8dcb37a44d3e8a0f461bfacb582, type: 2}
+  - {fileID: 11400000, guid: 8b8c9e0cff4dd1748a64ab677ab3d0d4, type: 2}
   - {fileID: 11400000, guid: 56b151d01a5314efab0b3af6e4724deb, type: 2}
   - {fileID: 11400000, guid: c0ff74e51e61f47b997d885a0865c0af, type: 2}
   - {fileID: 11400000, guid: 9126d8dcb37a44d3e8a0f461bfacb582, type: 2}
   - {fileID: 11400000, guid: bc05bbf508b314ea294b8ec9c84e9998, type: 2}
   - {fileID: 11400000, guid: b4c0f3e1c231a42b2a5aa4e1ec875a60, type: 2}
   - {fileID: 11400000, guid: 704dcd15b402f43deaa8603188be06a4, type: 2}
+  - {fileID: 11400000, guid: 400486e3e40b146539886815683ad7ea, type: 2}

@@ -128,6 +128,10 @@ public class FightBoardState : BoardState
         }
 
         yield return new WaitForSeconds(0.3f);
+        foreach (Transform child in FightBoard.Instance.boardObjectContainer)
+        {
+            MonoBehaviour.Destroy(child.gameObject);
+        }
         board.UpdateState(new DefaultBoardState(board));
         GameManager.Instance.Player.Mana.AddMana(1);
         if(win == false){

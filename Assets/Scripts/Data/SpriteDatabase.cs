@@ -6,6 +6,7 @@ public class SpriteDatabase : ScriptableObject
     private static SpriteDatabase _instance;
     
     public BoardAnimation disappearAnimation;
+    public BoardAnimation appearAnimation;
     public Sprite basePassiveSprite;
     public Texture2D normalCursor;
     public Texture2D pointerCursor;

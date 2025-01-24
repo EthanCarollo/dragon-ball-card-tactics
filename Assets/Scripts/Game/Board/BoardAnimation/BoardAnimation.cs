@@ -22,7 +22,7 @@ public class BoardAnimation : ScriptableObject {
 
     public virtual void EndAnimation(BoardCharacter character)
     {
-        character.actualAnimation = null;
+        if(character.actualAnimation == this) character.actualAnimation = null;
     }
 }
 

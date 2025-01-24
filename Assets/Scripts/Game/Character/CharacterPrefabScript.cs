@@ -21,7 +21,7 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
     public void Start()
     {
         startMaterial = spriteRenderer.material;
-        boardCharacter.PlayAnimation(SpriteDatabase.Instance.disappearAnimation);
+        boardCharacter.PlayAnimation(SpriteDatabase.Instance.appearAnimation);
     }
 
     public void OnPointerEnter(PointerEventData eventData)

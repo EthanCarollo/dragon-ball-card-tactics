@@ -173,29 +173,51 @@ public class BoardCharacter : BoardObject
     
     public void PlayAnimation(BoardAnimation animation)
     {
-        var characterScript = gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
-        characterScript.StopAllCoroutines();
-        if (actualAnimation != null) actualAnimation.EndAnimation(this);
-        characterScript.StartCoroutine(animation.PlayAnimationCoroutine(this));
+        try
+        {
+            var characterScript = gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
+            characterScript.StopAllCoroutines();
+            if (actualAnimation != null) actualAnimation.EndAnimation(this);
+            characterScript.StartCoroutine(animation.PlayAnimationCoroutine(this));
+        } 
+        catch (Exception error)
+        {
+            Debug.LogError("Cannot run animation on character : " + character.GetCharacterData().characterName);
+        }
     }
 
     public void PlayAnimation(BoardAnimation animation, Action onAnimationComplete = null)
     {
-        var characterScript = gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
-        characterScript.StopAllCoroutines();
-        if (actualAnimation != null) actualAnimation.EndAnimation(this);
-        characterScript.StartCoroutine(PlayAnimationWithCallback(animation, onAnimationComplete));
+        try
+        {
+            var characterScript = gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
+            characterScript.StopAllCoroutines();
+            if (actualAnimation != null) actualAnimation.EndAnimation(this);
+            characterScript.StartCoroutine(PlayAnimationWithCallback(animation, onAnimationComplete));
+        } 
+        catch (Exception error)
+        {
+            Debug.LogError("Cannot run animation on character : " + character.GetCharacterData().characterName);
+        }
     }
 
     public bool PlayAnimationIfNotRunning(BoardAnimation animation)
     {
-        if (!isAnimating())
+        try
         {
-            gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().StartCoroutine(animation.PlayAnimationCoroutine(this));
-            return true;
+            if (!isAnimating())
+            {
+                gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().StartCoroutine(animation.PlayAnimationCoroutine(this));
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
-        else
+        catch (Exception error)
         {
+            Debug.LogError("Cannot run animation on character : " + character.GetCharacterData().characterName);
             return false;
         }
     }

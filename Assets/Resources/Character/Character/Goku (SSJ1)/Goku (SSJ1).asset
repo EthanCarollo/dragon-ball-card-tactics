@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku (SSJ1)
   m_EditorClassIdentifier: 
-  id: 44
+  id: 55
   starNumber: 1
   characterName: Goku (SSJ)
   role: 0
@@ -36,8 +36,9 @@ MonoBehaviour:
   - name: Charged Kikoha
     description: A charged kikoha
     animation: {fileID: 11400000, guid: 97e3aefe6847c13418e1194efeb123aa, type: 2}
+  winPoseAnimation: {fileID: 11400000, guid: f0f641b23b16fb846ab7fade5e26171d, type: 2}
   deadAnimation: {fileID: 0}
-  sameCharacter:
+  sameCharacters:
   - {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
   - {fileID: 11400000, guid: b8153c8db51b02e469b29ecc91aa4c44, type: 2}
   - {fileID: 11400000, guid: 7c72d6e2019ed431b86de89a71f06dc1, type: 2}

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DefaultBoardState : BoardState
 {
+    public bool isCinematic = false;
+    
     public DefaultBoardState(FightBoard board) : base(board) { 
         if(CameraScript.Instance != null){
             CameraScript.Instance.SetupNormalCamera();
@@ -25,7 +27,7 @@ public class DefaultBoardState : BoardState
                 var character = GameManager.Instance.boardCharacterArray[x, y];
                 if (character == null) continue;
                 character.UpdateUi();
-                if (character is BoardCharacter boardCharacter)
+                if (character is BoardCharacter boardCharacter && isCinematic == false)
                 {
                     boardCharacter.PlayAnimationIfNotRunning(boardCharacter.character.GetCharacterData().idleAnimation);
                 }
@@ -46,11 +48,13 @@ public class DefaultBoardState : BoardState
 
     public override void LaunchCinematic()
     {
+        isCinematic = true;
         BoardGameUiManager.Instance.launchFightButton.SetActive(false);
         CardUi.Instance.HideCardUi();
     }
     public override void EndCinematic()
     {
+        isCinematic = false;
         BoardGameUiManager.Instance.launchFightButton.SetActive(true);
         CardUi.Instance.ShowCardUi();
     }

@@ -15,6 +15,7 @@ public class TransformAnimation : BoardAnimation {
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
+        character.actualAnimation = this;
         // var target = character.GetCharacterTarget().gameObject.transform;
         if (character.board is FightBoard fightBoard)
         {
@@ -23,7 +24,6 @@ public class TransformAnimation : BoardAnimation {
         yield return new WaitForEndOfFrame();
         CameraScript.Instance.SetupCameraOnTarget(2.5f, character.gameObject.transform);
 
-        character.actualAnimation = this;
         yield return PlayAnimationCoroutineTransform(character);
         character.SetupCharacter(newCharacterData);
         character.Heal(character.character.GetCharacterMaxHealth());

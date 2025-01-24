@@ -91,7 +91,7 @@ public class GameManager
         if(actualRound > 1){
             difficultyMutliplicator += 0.05f;
         }
-        Debug.Log("Chosed fight is : " + ActualFight.name);
+        Debug.LogWarning("Chosed fight is : " + ActualFight.name);
         BoardGameUiManager.Instance.SetupRoundText(actualRound);
         CleanGameBoard();
         if(ActualFight.map != null){
@@ -100,6 +100,7 @@ public class GameManager
         foreach (var characterContainerFight in ActualFight.opponents)
         {
             Debug.Log(characterContainerFight.characterData.name);
+            Debug.Log(characterContainerFight.characterData.id);
             boardCharacterArray[characterContainerFight.position.x, characterContainerFight.position.y] 
                 = new BoardCharacter(new CharacterContainer(characterContainerFight.characterData.id, new List<CharacterPassive>(), 1, false, difficultyMutliplicator));    
         }

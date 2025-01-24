@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,6 +9,7 @@ public class FightBoard : Board
     public GameObject tilePrefab;  
     public BoardState state;
     public Transform fightObjectContainer;
+    public Transform boardObjectContainer;
     float _tileWidth = 1.0f;
     float _tileHeight = 1.0f;
 
@@ -72,9 +74,13 @@ public class FightBoard : Board
         }
         InitializeCharacter(boardCharacterArray);
     }
+    
+    private Dictionary<(BoardCharacter, Vector2Int), GameObject> instantiatedCharacters = new();
 
     private void InitializeCharacter(BoardObject[,] characters)
     {
+        HashSet<(BoardCharacter, Vector2Int)> activeKeys = new();
+        
         for (int x = 0; x < characters.GetLength(0); x++)
         {
             for (int y = 0; y < characters.GetLength(1); y++)
@@ -89,20 +95,16 @@ public class FightBoard : Board
                     if (boardObject is BoardCharacter character)
                     {
                         if (character.character.IsDead()) continue;
-                        GameObject characterGameObject = Instantiate(character.character.GetCharacterData().characterPrefab, position, Quaternion.identity, transform);
-                        character.SetGameObject(characterGameObject);
-                        character.SetBoard(this);
-                        var charPrefabScript = characterGameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
-                        charPrefabScript.assignedBoard = this;
-                        charPrefabScript.boardCharacter = character;
-                        charPrefabScript.position = new Vector2Int(x, y);
-                        charPrefabScript.spriteSocle.color = 
-                            new Color(character.character.isPlayerCharacter? 0f: 1f, 0f, character.character.isPlayerCharacter? 1f: 0f, 0.2f);
-                        charPrefabScript.spriteRenderer.sprite = character.character.GetCharacterData().characterSprite;
-                        charPrefabScript.spriteRenderer.sortingOrder = 4;
-                        charPrefabScript.spriteRenderer.flipX = !character.character.isPlayerCharacter;
-                        character.SetCharacterSlider();
-                        character.PlayAnimation(SpriteDatabase.Instance.disappearAnimation);
+                        
+                        var key = (character, new Vector2Int(x, y));
+                        activeKeys.Add(key);
+                        if (instantiatedCharacters.TryGetValue(key, out GameObject existingGameObject)) {
+                            if (existingGameObject == null) // Reinstantiate if destroyed
+                                instantiatedCharacters[key] = InstantiateCharacter(character, position);
+                        }
+                        else {
+                            instantiatedCharacters[key] = InstantiateCharacter(character, position);
+                        }
                     }
                 }
                 catch (Exception e) {
@@ -118,6 +120,40 @@ public class FightBoard : Board
                 }
             }
         }
+        
+        foreach (var key in new List<(BoardCharacter, Vector2Int)>(instantiatedCharacters.Keys))
+        {
+            if (!activeKeys.Contains(key) && instantiatedCharacters[key] != null)
+            {
+                Destroy(instantiatedCharacters[key]);
+                instantiatedCharacters.Remove(key);
+            }
+        }
+    }
+    
+    private GameObject InstantiateCharacter(BoardCharacter character, Vector3 position)
+    {
+        GameObject characterGameObject = Instantiate(character.character.GetCharacterData().characterPrefab, position, Quaternion.identity, boardObjectContainer);
+
+        // Configure GameObject
+        var charPrefabScript = characterGameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
+        charPrefabScript.assignedBoard = this;
+        charPrefabScript.boardCharacter = character;
+        charPrefabScript.position = new Vector2Int((int)(position.x / _tileWidth), (int)(position.y / _tileHeight));
+        charPrefabScript.spriteSocle.color = new Color(
+            character.character.isPlayerCharacter ? 0f : 1f, 0f, character.character.isPlayerCharacter ? 1f : 0f, 0.2f);
+        charPrefabScript.spriteRenderer.sprite = character.character.GetCharacterData().characterSprite;
+        charPrefabScript.spriteRenderer.sortingOrder = 4;
+        charPrefabScript.spriteRenderer.flipX = !character.character.isPlayerCharacter;
+
+        character.SetGameObject(characterGameObject);
+        character.SetBoard(this);
+        character.SetCharacterSlider();
+        character.PlayAnimation(SpriteDatabase.Instance.appearAnimation);
+        
+        Debug.LogWarning("Instantiated character : " + character.character.GetName());
+
+        return characterGameObject;
     }
 
     public override bool AddCharacterFromBoard(BoardCharacter character, Vector2Int position)

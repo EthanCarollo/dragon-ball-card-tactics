@@ -1133,6 +1133,72 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: goku-ssj_39
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 62
+        width: 27
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda96e1847268ed4d9bc53931a3506d1
+      internalID: 582490634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_40
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 62
+        width: 29
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60589c1d4974c62438b5508abc01c240
+      internalID: -764964842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku-ssj_41
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 62
+        width: 27
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ffed66532b2a44f8a9bb9c0e3c0ee5
+      internalID: -655537215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -1180,7 +1246,10 @@ TextureImporter:
       goku-ssj_36: -1121261282441760518
       goku-ssj_37: -4011180172967037726
       goku-ssj_38: -645302182
+      goku-ssj_39: 582490634
       goku-ssj_4: -8314659635227735935
+      goku-ssj_40: -764964842
+      goku-ssj_41: -655537215
       goku-ssj_5: -4680329627126238633
       goku-ssj_6: -844734365199913019
       goku-ssj_7: -371421322659105887
