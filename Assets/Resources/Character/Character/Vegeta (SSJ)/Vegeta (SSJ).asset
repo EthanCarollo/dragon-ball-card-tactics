@@ -38,6 +38,7 @@ MonoBehaviour:
     animation: {fileID: 11400000, guid: 10e44eb84a168464c9193721976e37ae, type: 2}
   winPoseAnimation: {fileID: 11400000, guid: 2df5d2b4e876e0441a914b28875629c5, type: 2}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 11400000, guid: 0875c67b3acfc094b9a106f94cb6dd4c, type: 2}
   sameCharacters:
   - {fileID: 11400000, guid: 0875c67b3acfc094b9a106f94cb6dd4c, type: 2}
   - {fileID: 11400000, guid: 88cfd0fd93d384ebea0ba068ea12b6e6, type: 2}

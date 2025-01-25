@@ -35,6 +35,9 @@ public class CharacterData : ScriptableObject
     public SpecialAttack[] specialAttackAnimation;
     public BoardAnimation winPoseAnimation;
     public BoardAnimation deadAnimation;
+    
+    // The base character, one without any transformation
+    public CharacterData baseCharacter;
 
     [FormerlySerializedAs("sameCharacter")] public CharacterData[] sameCharacters; // This said if it's the same char than another, useful if we want to upgrade one
 

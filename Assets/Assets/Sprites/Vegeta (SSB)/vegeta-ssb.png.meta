@@ -157,7 +157,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -171,7 +171,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 34
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -195,7 +195,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -223,12 +223,12 @@ TextureImporter:
       name: vegeta-ssb_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 428
-        width: 34
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 57
+        y: 429
+        width: 53
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -245,12 +245,12 @@ TextureImporter:
       name: vegeta-ssb_1
       rect:
         serializedVersion: 2
-        x: 56
-        y: 428
-        width: 55
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 127
+        y: 429
+        width: 49
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -267,12 +267,12 @@ TextureImporter:
       name: vegeta-ssb_2
       rect:
         serializedVersion: 2
-        x: 126
-        y: 428
+        x: 194
+        y: 429
         width: 51
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -289,12 +289,12 @@ TextureImporter:
       name: vegeta-ssb_3
       rect:
         serializedVersion: 2
-        x: 193
-        y: 428
-        width: 53
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 265
+        y: 429
+        width: 54
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -311,12 +311,12 @@ TextureImporter:
       name: vegeta-ssb_4
       rect:
         serializedVersion: 2
-        x: 264
-        y: 428
-        width: 56
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 336
+        y: 429
+        width: 37
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -333,12 +333,12 @@ TextureImporter:
       name: vegeta-ssb_5
       rect:
         serializedVersion: 2
-        x: 335
-        y: 428
-        width: 39
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 367
+        y: 479
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -355,12 +355,12 @@ TextureImporter:
       name: vegeta-ssb_6
       rect:
         serializedVersion: 2
-        x: 366
-        y: 478
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 391
+        y: 429
+        width: 49
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -377,12 +377,12 @@ TextureImporter:
       name: vegeta-ssb_7
       rect:
         serializedVersion: 2
-        x: 390
-        y: 428
-        width: 51
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 455
+        y: 429
+        width: 52
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -399,12 +399,12 @@ TextureImporter:
       name: vegeta-ssb_8
       rect:
         serializedVersion: 2
-        x: 454
-        y: 428
-        width: 54
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 642
+        y: 426
+        width: 49
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -421,12 +421,12 @@ TextureImporter:
       name: vegeta-ssb_9
       rect:
         serializedVersion: 2
-        x: 641
-        y: 425
-        width: 51
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 717
+        y: 426
+        width: 52
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -443,12 +443,12 @@ TextureImporter:
       name: vegeta-ssb_10
       rect:
         serializedVersion: 2
-        x: 716
-        y: 425
-        width: 54
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 12
+        y: 429
+        width: 32
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -465,12 +465,12 @@ TextureImporter:
       name: vegeta-ssb_11
       rect:
         serializedVersion: 2
-        x: 526
-        y: 425
-        width: 31
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 527
+        y: 426
+        width: 29
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -487,12 +487,12 @@ TextureImporter:
       name: vegeta-ssb_12
       rect:
         serializedVersion: 2
-        x: 581
-        y: 425
-        width: 36
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 582
+        y: 426
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -509,12 +509,12 @@ TextureImporter:
       name: vegeta-ssb_13
       rect:
         serializedVersion: 2
-        x: 6
-        y: 367
-        width: 30
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 7
+        y: 368
+        width: 28
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -531,12 +531,12 @@ TextureImporter:
       name: vegeta-ssb_14
       rect:
         serializedVersion: 2
-        x: 47
-        y: 367
-        width: 30
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 368
+        width: 28
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -553,12 +553,12 @@ TextureImporter:
       name: vegeta-ssb_15
       rect:
         serializedVersion: 2
-        x: 89
-        y: 367
-        width: 33
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 90
+        y: 368
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -575,12 +575,12 @@ TextureImporter:
       name: vegeta-ssb_16
       rect:
         serializedVersion: 2
-        x: 128
-        y: 369
-        width: 56
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 129
+        y: 370
+        width: 54
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -597,12 +597,12 @@ TextureImporter:
       name: vegeta-ssb_17
       rect:
         serializedVersion: 2
-        x: 198
-        y: 376
-        width: 53
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 199
+        y: 377
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -619,12 +619,12 @@ TextureImporter:
       name: vegeta-ssb_18
       rect:
         serializedVersion: 2
-        x: 255
-        y: 379
-        width: 53
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 380
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -641,12 +641,12 @@ TextureImporter:
       name: vegeta-ssb_19
       rect:
         serializedVersion: 2
-        x: 2
-        y: 304
-        width: 37
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3
+        y: 305
+        width: 35
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -663,12 +663,12 @@ TextureImporter:
       name: vegeta-ssb_20
       rect:
         serializedVersion: 2
-        x: 45
-        y: 304
-        width: 49
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 46
+        y: 305
+        width: 47
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -685,12 +685,12 @@ TextureImporter:
       name: vegeta-ssb_21
       rect:
         serializedVersion: 2
-        x: 103
-        y: 304
-        width: 49
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 104
+        y: 305
+        width: 47
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -707,12 +707,12 @@ TextureImporter:
       name: vegeta-ssb_22
       rect:
         serializedVersion: 2
-        x: 164
-        y: 304
-        width: 35
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 165
+        y: 305
+        width: 33
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -729,12 +729,12 @@ TextureImporter:
       name: vegeta-ssb_23
       rect:
         serializedVersion: 2
-        x: 203
-        y: 304
-        width: 42
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 204
+        y: 305
+        width: 40
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -751,12 +751,12 @@ TextureImporter:
       name: vegeta-ssb_24
       rect:
         serializedVersion: 2
-        x: 252
-        y: 304
-        width: 44
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 253
+        y: 305
+        width: 42
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -773,12 +773,12 @@ TextureImporter:
       name: vegeta-ssb_25
       rect:
         serializedVersion: 2
-        x: 299
-        y: 289
-        width: 33
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 300
+        y: 290
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -795,12 +795,12 @@ TextureImporter:
       name: vegeta-ssb_26
       rect:
         serializedVersion: 2
-        x: 347
-        y: 289
-        width: 35
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 348
+        y: 290
+        width: 33
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -817,12 +817,12 @@ TextureImporter:
       name: vegeta-ssb_27
       rect:
         serializedVersion: 2
-        x: 386
-        y: 289
-        width: 61
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 387
+        y: 290
+        width: 59
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -839,12 +839,12 @@ TextureImporter:
       name: vegeta-ssb_28
       rect:
         serializedVersion: 2
-        x: 461
-        y: 289
-        width: 36
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 462
+        y: 290
+        width: 34
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -861,12 +861,12 @@ TextureImporter:
       name: vegeta-ssb_29
       rect:
         serializedVersion: 2
-        x: 512
-        y: 289
-        width: 39
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 513
+        y: 290
+        width: 37
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -883,12 +883,12 @@ TextureImporter:
       name: vegeta-ssb_30
       rect:
         serializedVersion: 2
-        x: 94
-        y: 225
-        width: 26
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 95
+        y: 226
+        width: 24
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -905,12 +905,12 @@ TextureImporter:
       name: vegeta-ssb_31
       rect:
         serializedVersion: 2
-        x: 132
-        y: 225
-        width: 31
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 133
+        y: 226
+        width: 29
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -927,12 +927,12 @@ TextureImporter:
       name: vegeta-ssb_32
       rect:
         serializedVersion: 2
-        x: 173
-        y: 225
-        width: 28
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 174
+        y: 226
+        width: 26
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -949,12 +949,12 @@ TextureImporter:
       name: vegeta-ssb_33
       rect:
         serializedVersion: 2
-        x: 214
-        y: 225
-        width: 27
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 215
+        y: 226
+        width: 25
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -971,12 +971,12 @@ TextureImporter:
       name: vegeta-ssb_34
       rect:
         serializedVersion: 2
-        x: 253
-        y: 200
-        width: 31
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 254
+        y: 201
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -993,12 +993,12 @@ TextureImporter:
       name: vegeta-ssb_35
       rect:
         serializedVersion: 2
-        x: 298
-        y: 200
-        width: 32
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 299
+        y: 201
+        width: 30
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1015,12 +1015,12 @@ TextureImporter:
       name: vegeta-ssb_36
       rect:
         serializedVersion: 2
-        x: 345
-        y: 200
-        width: 55
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 346
+        y: 201
+        width: 53
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1037,12 +1037,12 @@ TextureImporter:
       name: vegeta-ssb_37
       rect:
         serializedVersion: 2
-        x: 402
-        y: 200
-        width: 84
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 403
+        y: 201
+        width: 82
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1059,12 +1059,12 @@ TextureImporter:
       name: vegeta-ssb_38
       rect:
         serializedVersion: 2
-        x: 488
-        y: 200
-        width: 77
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 489
+        y: 201
+        width: 75
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1081,12 +1081,12 @@ TextureImporter:
       name: vegeta-ssb_39
       rect:
         serializedVersion: 2
-        x: 573
-        y: 200
-        width: 33
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 574
+        y: 201
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1103,12 +1103,12 @@ TextureImporter:
       name: vegeta-ssb_40
       rect:
         serializedVersion: 2
-        x: 619
-        y: 189
-        width: 90
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 620
+        y: 190
+        width: 88
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1125,7 +1125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2315119decd07954fa1a3d06cc5c8d9d
     internalID: 0
     vertices: []
     indices: 
@@ -1134,7 +1134,48 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      vegeta-ssb_0: 8337672052568453058
+      vegeta-ssb_1: 6246943716047596602
+      vegeta-ssb_10: -6456837452823764324
+      vegeta-ssb_11: -884185076704102773
+      vegeta-ssb_12: 1838036074587955387
+      vegeta-ssb_13: 772480610358875037
+      vegeta-ssb_14: -9023023979132633208
+      vegeta-ssb_15: 3881487949588246395
+      vegeta-ssb_16: 5193892981043184000
+      vegeta-ssb_17: -511212820187848431
+      vegeta-ssb_18: 6516383616882471030
+      vegeta-ssb_19: -5714762567687776036
+      vegeta-ssb_2: 8998745494696365225
+      vegeta-ssb_20: -8501139144108949240
+      vegeta-ssb_21: 5303126169696655473
+      vegeta-ssb_22: 6434361286006037018
+      vegeta-ssb_23: 7932765988237660499
+      vegeta-ssb_24: 7522746964294993062
+      vegeta-ssb_25: -4253018890795418159
+      vegeta-ssb_26: 2723328465164134645
+      vegeta-ssb_27: 3847651037860806061
+      vegeta-ssb_28: -6157526335897366393
+      vegeta-ssb_29: 4859381861395056101
+      vegeta-ssb_3: -3054184626035236364
+      vegeta-ssb_30: 8005845333508604417
+      vegeta-ssb_31: -5825166405250234919
+      vegeta-ssb_32: -5601437711669327559
+      vegeta-ssb_33: -7422470218222435540
+      vegeta-ssb_34: 8731450760837015457
+      vegeta-ssb_35: -895755127745605167
+      vegeta-ssb_36: -1212105926399188681
+      vegeta-ssb_37: -6089733520690080387
+      vegeta-ssb_38: 7640953700679911189
+      vegeta-ssb_39: 2990855234005486210
+      vegeta-ssb_4: -5962646587437797731
+      vegeta-ssb_40: -1372274493263391765
+      vegeta-ssb_5: -1994909618521989985
+      vegeta-ssb_6: 3397608984224854262
+      vegeta-ssb_7: -1083591881591772973
+      vegeta-ssb_8: 1238295847179699523
+      vegeta-ssb_9: -3366332959058924308
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

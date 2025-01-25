@@ -41,3 +41,4 @@ MonoBehaviour:
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: e05f1db48fa7147409c98a17e75b6c65, type: 2}
+  - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
