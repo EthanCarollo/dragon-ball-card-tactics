@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Vegeta (Buu Saga)
   m_EditorClassIdentifier: 
-  id: 14
+  id: 98
   starNumber: 1
   characterName: Vegeta (Buu Saga)
   role: 0
@@ -36,5 +36,8 @@ MonoBehaviour:
   - name: Distance Ki Blast
     description: Huge big ki blast sphere.
     animation: {fileID: 11400000, guid: c218bf00aa2724446b52dd589bbfe4b0, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  synergies: []
+  sameCharacters: []
+  synergies:
+  - {fileID: 11400000, guid: e05f1db48fa7147409c98a17e75b6c65, type: 2}

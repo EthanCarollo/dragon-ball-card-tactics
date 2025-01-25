@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku (SSB)
   m_EditorClassIdentifier: 
-  id: 52
+  id: 54
   starNumber: 1
   characterName: Goku (SSB)
   role: 0
@@ -36,8 +36,9 @@ MonoBehaviour:
   - name: Super Kameha
     description: A charged Kameha
     animation: {fileID: 11400000, guid: 2632d3cd88db44d3a8c5a71e09d53012, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter:
+  sameCharacters:
   - {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
   - {fileID: 11400000, guid: b8153c8db51b02e469b29ecc91aa4c44, type: 2}
   - {fileID: 11400000, guid: 7c72d6e2019ed431b86de89a71f06dc1, type: 2}
@@ -47,3 +48,4 @@ MonoBehaviour:
   synergies:
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
   - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}
+  - {fileID: 11400000, guid: e05f1db48fa7147409c98a17e75b6c65, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku (MUI)
   m_EditorClassIdentifier: 
-  id: 51
+  id: 52
   starNumber: 1
   characterName: Goku (MUI)
   role: 0
@@ -36,8 +36,9 @@ MonoBehaviour:
   - name: Special
     description: Attack multiple enemies
     animation: {fileID: 11400000, guid: ae794ed30db66457c830b4ef5810da78, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter:
+  sameCharacters:
   - {fileID: 11400000, guid: 9cfac1c9f06f44a5bba686fca9b53cc3, type: 2}
   - {fileID: 11400000, guid: 8c612c643af604c4ba71d5a93fe524c8, type: 2}
   - {fileID: 11400000, guid: b8153c8db51b02e469b29ecc91aa4c44, type: 2}
@@ -50,3 +51,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
   - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
   - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}
+  - {fileID: 11400000, guid: e05f1db48fa7147409c98a17e75b6c65, type: 2}

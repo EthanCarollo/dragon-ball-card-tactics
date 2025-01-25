@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku (Grand Priest)
   m_EditorClassIdentifier: 
-  id: 45
+  id: 47
   starNumber: 1
   characterName: Goku (Grand Priest)
   role: 0
@@ -36,6 +36,10 @@ MonoBehaviour:
   - name: Multiple attacks
     description: Launch multiple attacks on multiple enemies
     animation: {fileID: 11400000, guid: 8dd8c563820b44599aa496c414c250c4, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: 92d8b234a8cd84d83823a4c703abe5a9, type: 2}
+  - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
+  - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku (SSJ3)
   m_EditorClassIdentifier: 
-  id: 45
+  id: 56
   starNumber: 1
   characterName: Goku (SSJ3)
   role: 0
@@ -36,11 +36,14 @@ MonoBehaviour:
   - name: Super Kameha
     description: A powerfull kameha.
     animation: {fileID: 11400000, guid: 6513dccd45c424e9594d7d23658e79bd, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter:
+  sameCharacters:
   - {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
   - {fileID: 11400000, guid: b8153c8db51b02e469b29ecc91aa4c44, type: 2}
   - {fileID: 11400000, guid: 9b424d77e4f22ed409f878e0c2d3f275, type: 2}
   - {fileID: 11400000, guid: 8c612c643af604c4ba71d5a93fe524c8, type: 2}
   - {fileID: 11400000, guid: 9cfac1c9f06f44a5bba686fca9b53cc3, type: 2}
-  synergies: []
+  synergies:
+  - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
+  - {fileID: 11400000, guid: e05f1db48fa7147409c98a17e75b6c65, type: 2}

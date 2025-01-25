@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Vegeta
   m_EditorClassIdentifier: 
-  id: 14
+  id: 97
   starNumber: 1
   characterName: Vegeta
   role: 0
@@ -36,7 +36,9 @@ MonoBehaviour:
   - name: "Kikomachinl\xE0"
     description: No description
     animation: {fileID: 11400000, guid: 7c4f3f42cefd5064bbd990c78c6bf138, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  characterPassive: []
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
+  - {fileID: 11400000, guid: e05f1db48fa7147409c98a17e75b6c65, type: 2}
