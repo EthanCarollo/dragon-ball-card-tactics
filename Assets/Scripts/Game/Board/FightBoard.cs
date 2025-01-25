@@ -151,7 +151,10 @@ public class FightBoard : Board
         character.SetCharacterSlider();
         character.PlayAnimation(SpriteDatabase.Instance.appearAnimation);
         
-        Debug.LogWarning("Instantiated character : " + character.character.GetName());
+        if (GlobalGameConfig.Instance.debug)
+        {
+            Debug.Log($"Instantiate character at position: {position} | Character: {character} | Name: {character.character.GetName()} | ID: {character.character.GetCharacterData().id}");
+        }
 
         return characterGameObject;
     }

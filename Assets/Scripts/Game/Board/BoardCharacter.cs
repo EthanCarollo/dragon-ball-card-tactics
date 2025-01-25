@@ -50,6 +50,9 @@ public class BoardCharacter : BoardObject
         this.character.selectedUltimateAttack = 0;
         state = new DefaultCharacterState(this);
         this.SetCharacterSlider();
+        
+        // For refreshing the display of synergies etc..
+        BoardGameUiManager.Instance.RefreshUI();
     }
 
     public void UpdateState(BoardCharacterState newState)
