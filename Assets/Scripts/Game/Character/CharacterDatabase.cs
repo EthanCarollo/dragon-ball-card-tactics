@@ -68,6 +68,10 @@ public class CharacterDatabase : ScriptableObject
         }
 
         foreach(var character in characterDatas){
+            if (character.sameCharacters == null){
+                Debug.LogWarning("This character has same characters to null wtf : " + character.characterName);
+                continue;
+            }
             if(character.sameCharacters.Contains(null)){
                 Debug.LogWarning("This character contains bad same character : " + character.characterName);
             }
