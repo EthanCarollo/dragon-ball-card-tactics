@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
 using System;
+using System.Collections.Generic;
 
 [CreateAssetMenu(fileName = "TransformationCard", menuName = "Card/TransformationCard")]
 public class TransformationCard : Card
@@ -15,19 +16,42 @@ public class TransformationCard : Card
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
 
-        
         if (hit.collider != null && 
             (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
         {
-            return GameManager.Instance.GetCharactersOnBoard()
+            var charactersUpdatable = GameManager.Instance.GetCharactersOnBoard()
                 .Where(cha => cha.character.isPlayerCharacter)
                 .ToList()
-                .Find(cha => {
+                .FindAll(cha => {
                     // Vérifie si le CharacterData de cha.character est dans transformations
                     return transformations.Any(trans => trans.character == cha.character.GetCharacterData());
                 });
+            if(charactersUpdatable.Count == 0) return null;
+
+            var mousePosInWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Debug.LogWarning("Mouse position = " + mousePosInWorld);
+
+            return GetClosestPosition(charactersUpdatable, mousePosInWorld);
         }
         return null;
+    }
+
+    BoardCharacter GetClosestPosition(List<BoardCharacter> characters, Vector3 target)
+    {
+        BoardCharacter closest = characters[0];
+        float closestDistance = Vector3.Distance(closest.gameObject.transform.position, target);
+
+        foreach (var character in characters)
+        {
+            float distance = Vector3.Distance(character.gameObject.transform.position, target);
+            if (distance < closestDistance)
+            {
+                closest = character;
+                closestDistance = distance;
+            }
+        }
+
+        return closest;
     }
 
     public override string GetDescription()

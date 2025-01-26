@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
 using System;
+using System.Collections.Generic;
 
 [CreateAssetMenu(fileName = "ResetCard", menuName = "Card/ResetCard")]
 public class ResetCard : Card
@@ -19,15 +20,39 @@ public class ResetCard : Card
         if (hit.collider != null && 
             (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
         {
-            return GameManager.Instance.GetCharactersOnBoard()
+            var charactersUpdatable =  GameManager.Instance.GetCharactersOnBoard()
                 .Where(cha => cha.character.isPlayerCharacter)
                 .ToList()
-                .Find(cha => {
+                .FindAll(cha => {
                     // Vérifie si le CharacterData de cha.character est dans transformations
                     return cha.character.GetCharacterData().baseCharacter != null;
                 });
+            if(charactersUpdatable.Count == 0) return null;
+
+            var mousePosInWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Debug.LogWarning("Mouse position = " + mousePosInWorld);
+
+            return GetClosestPosition(charactersUpdatable, mousePosInWorld);
         }
         return null;
+    }
+
+    BoardCharacter GetClosestPosition(List<BoardCharacter> characters, Vector3 target)
+    {
+        BoardCharacter closest = characters[0];
+        float closestDistance = Vector3.Distance(closest.gameObject.transform.position, target);
+
+        foreach (var character in characters)
+        {
+            float distance = Vector3.Distance(character.gameObject.transform.position, target);
+            if (distance < closestDistance)
+            {
+                closest = character;
+                closestDistance = distance;
+            }
+        }
+
+        return closest;
     }
 
     public override string GetDescription()
@@ -121,12 +146,7 @@ public class ResetCard : Card
                 (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
             {
                 // Cherche un personnage sur le plateau qui correspond à un des personnages dans 'transformations'
-                BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
-                    .Where(cha => cha.character.isPlayerCharacter)
-                    .ToList()
-                    .Find(cha => 
-                        cha.character.GetCharacterData().baseCharacter != null
-                    );
+                BoardCharacter characterExist = GetCharacterOnMouse();
 
                 if (characterExist != null)
                 {
