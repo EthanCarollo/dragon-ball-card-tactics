@@ -13,7 +13,7 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
     public Slider kiSlider;
     public Board assignedBoard;
     public Vector2Int position;
-    private Material startMaterial;
+    public Material startMaterial;
 
     public Transform starContainer;
     public Sprite starImage;
@@ -26,22 +26,38 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (boardCharacter != null && boardCharacter.character.IsDead() == false)
+        if (IsValidBoardCharacter())
         {
-            var newMaterial = new Material(ShadersDatabase.Instance.outlineMaterial);
-            spriteRenderer.material = newMaterial;
-            spriteRenderer.material.SetColor("_OutlineColor", boardCharacter.character.isPlayerCharacter ? Color.green : Color.red);
-            spriteRenderer.material.SetTexture("_MainTex", spriteRenderer.sprite.texture);
+            ApplyOutlineMaterial(boardCharacter.character.isPlayerCharacter ? Color.green : Color.red);
         }
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        if (boardCharacter != null && boardCharacter.character.IsDead() == false)
+        if (IsValidBoardCharacter())
         {
-            spriteRenderer.material = startMaterial;
+            ResetMaterial();
         }
     }
+
+    public bool IsValidBoardCharacter()
+    {
+        return boardCharacter != null && boardCharacter.character.IsDead() == false;
+    }
+
+    public void ApplyOutlineMaterial(Color outlineColor)
+    {
+        var newMaterial = new Material(ShadersDatabase.Instance.outlineMaterial);
+        spriteRenderer.material = newMaterial;
+        spriteRenderer.material.SetColor("_OutlineColor", outlineColor);
+        spriteRenderer.material.SetTexture("_MainTex", spriteRenderer.sprite.texture);
+    }
+
+    public void ResetMaterial()
+    {
+        spriteRenderer.material = startMaterial;
+    }
+
 
     public void OnPointerClick(PointerEventData eventData)
     {

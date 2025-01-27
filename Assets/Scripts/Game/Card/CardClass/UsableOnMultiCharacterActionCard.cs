@@ -123,6 +123,8 @@ public class TransformationCard : Card
         
     }
     
+    BoardCharacter actualSelectCharacter = null;
+    
     public override void OnDrag(PointerEventData eventData)
     {
         if (DraggedActionCard.DraggedCard == null)
@@ -157,6 +159,15 @@ public class TransformationCard : Card
 
                 if (characterExist != null)
                 {
+                    if(actualSelectCharacter != null && actualSelectCharacter != characterExist){
+                        try {
+                            actualSelectCharacter.gameObject.GetComponentInChildren<CharacterPrefabScript>()?.ResetMaterial();
+                            actualSelectCharacter = null;
+                        } catch (Exception error){
+                            Debug.LogError(error);
+                        }
+                    }
+                    actualSelectCharacter = characterExist;
                     // Trouve la position du personnage sur le plateau
                     var positionCharacter = BoardUtils.FindPosition(GameManager.Instance.boardCharacterArray, characterExist);
                     var characterUiPosition = Camera.main.WorldToScreenPoint(new Vector3(positionCharacter.x, positionCharacter.y + 2, 0f));
@@ -166,7 +177,24 @@ public class TransformationCard : Card
 
                     // Affiche le panneau "Play Card"
                     BoardGameUiManager.Instance.ShowPlayCardPanel();
+
+                    if (characterExist != null && characterExist.character.IsDead() == false) {
+                        try {
+                            characterExist.gameObject.GetComponentInChildren<CharacterPrefabScript>()?.ApplyOutlineMaterial(Color.white);
+                        } catch (Exception error){
+                            Debug.LogError(error);
+                        }
+                    }
                     return;
+                }
+            } else {
+                if(actualSelectCharacter != null){
+                    try {
+                        actualSelectCharacter.gameObject.GetComponentInChildren<CharacterPrefabScript>()?.ResetMaterial();
+                        actualSelectCharacter = null;
+                    } catch (Exception error){
+                        Debug.LogError(error);
+                    }
                 }
             }
 
