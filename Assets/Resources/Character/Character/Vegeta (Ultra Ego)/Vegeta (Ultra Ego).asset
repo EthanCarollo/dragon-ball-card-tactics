@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Vegeta (Ultra Ego)
+  m_EditorClassIdentifier: 
+  id: 101
+  starNumber: 1
+  characterName: Vegeta (Ultra Ego)
+  role: 0
+  characterType: 1
+  characterSprite: {fileID: 3881487949588246395, guid: 8c5c875d9f355cc41bc938cdc428b654, type: 3}
+  characterIcon: {fileID: 21300000, guid: 164e787dd83bc40459352598b6f22a36, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 1590
+  maxKi: 105
+  baseRange: 1
+  baseDamage: 120
+  baseArmor: 80
+  baseSpeed: 13
+  baseAttackSpeed: 1.1
+  baseCriticalChance: 70
+  idleAnimation: {fileID: 11400000, guid: 2dfd200961a9b4303ae666d7f706c796, type: 2}
+  runAnimation: {fileID: 11400000, guid: b172d5f1ec29f4dedbd1feab73a40ca5, type: 2}
+  attackAnimation: {fileID: 11400000, guid: ecaae72bc27b44a069896137838d0df7, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 4530fdf3306f54bc79f30374c6d76f54, type: 2}
+  specialAttackAnimation:
+  - name: Charged Kikoha
+    description: No description
+    animation: {fileID: 11400000, guid: b021f2ee4dde34bfb8b4749a6c572c45, type: 2}
+  winPoseAnimation: {fileID: 11400000, guid: 0734e35585f2e4fd7b4c55dccde7bf4f, type: 2}
+  deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 11400000, guid: 0875c67b3acfc094b9a106f94cb6dd4c, type: 2}
+  sameCharacters:
+  - {fileID: 11400000, guid: 0875c67b3acfc094b9a106f94cb6dd4c, type: 2}
+  - {fileID: 11400000, guid: 88cfd0fd93d384ebea0ba068ea12b6e6, type: 2}
+  - {fileID: 11400000, guid: 6bcf45ee515b990478f3afb43f42466a, type: 2}
+  - {fileID: 11400000, guid: 28fa8f8e07ecfc243bedd782b907b60d, type: 2}
+  - {fileID: 11400000, guid: 3008ceeeab6cf2f4fad40fdd2423fee9, type: 2}
+  synergies:
+  - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
+  - {fileID: 11400000, guid: e05f1db48fa7147409c98a17e75b6c65, type: 2}
+  - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}

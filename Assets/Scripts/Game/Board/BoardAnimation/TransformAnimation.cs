@@ -6,6 +6,7 @@ using System;
 
 [CreateAssetMenu(fileName = "New Transform Animation", menuName = "BoardAnimation/TransformAnimation")]
 public class TransformAnimation : BoardAnimation {
+    public bool resetToBaseCharacter;
     public CharacterData newCharacterData;
 
     public virtual bool CanTransform(BoardCharacter character)
@@ -23,6 +24,10 @@ public class TransformAnimation : BoardAnimation {
         }
         yield return new WaitForEndOfFrame();
         CameraScript.Instance.SetupCameraOnTarget(2.5f, character.gameObject.transform);
+
+        if(resetToBaseCharacter && character.character.GetCharacterData().baseCharacter != null){
+            yield return SpriteDatabase.Instance.basicTransformAnimation.PlayAnimationCoroutineTransform(character);
+        }
 
         yield return PlayAnimationCoroutineTransform(character);
         character.SetupCharacter(newCharacterData);
