@@ -196,17 +196,26 @@ public class ResetCard : Card
     {
         BoardGameUiManager.Instance.HidePlayCardPanel();
         GameManager.Instance.ResetCharacterShader();
-        if (DraggedActionCard.DraggedCard != null)
-        {
-            MonoBehaviour.Destroy(DraggedActionCard.DraggedCard.gameObject);
-        }
 
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
         
         if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
         {
-            this.UseCard();    
+            LeanTween.move(DraggedActionCard.DraggedCard, Camera.main.WorldToScreenPoint(new Vector3(GetCharacterOnMouse().gameObject.transform.position.x, GetCharacterOnMouse().gameObject.transform.position.y + 0.25f)), 0.2f).setEaseInCirc();
+            LeanTween.scale(DraggedActionCard.DraggedCard, Vector3.zero, 0.2f).setEaseInCirc()
+            .setOnComplete(() => {
+                this.UseCard(); 
+                if (DraggedActionCard.DraggedCard != null)
+                {
+                    MonoBehaviour.Destroy(DraggedActionCard.DraggedCard.gameObject);
+                }
+            });
+        } else {
+            if (DraggedActionCard.DraggedCard != null)
+            {
+                MonoBehaviour.Destroy(DraggedActionCard.DraggedCard.gameObject);
+            }
         }
     }
 }
