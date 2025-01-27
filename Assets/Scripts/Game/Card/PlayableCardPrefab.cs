@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System;
 using System.Linq;
-using Coffee.UIExtensions;
+using Coffee.UIEffects;
 using System.Collections;
 
 public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler {
@@ -13,7 +13,7 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
     public GameObject transformationInformation;
     public Transform transformationContainer;
     public GameObject transformationPrefab;
-    public ShinyEffectForUGUI shinyEffectForUGUI;
+    public UIEffect effectForGui;
 
     void Update()
     {
@@ -24,15 +24,8 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
     {
         transformationInformation.SetActive(false);
         base.SetupCard(card);
-        StartCoroutine(PlayShinyEffect());
-    }
-
-    private IEnumerator PlayShinyEffect()
-    {
-        while (card.highlight)
-        {
-            shinyEffectForUGUI.Play(0.75f);
-            yield return new WaitForSeconds(1.5f); // Wait for 2 seconds
+        if(card.highlight == true){
+            effectForGui.LoadPreset("Shiny");
         }
     }
 

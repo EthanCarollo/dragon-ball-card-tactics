@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using System.Linq;
 using System;
 using System.Collections.Generic;
+using Coffee.UIEffects;
 
 [CreateAssetMenu(fileName = "ResetCard", menuName = "Card/ResetCard")]
 public class ResetCard : Card
@@ -202,8 +203,9 @@ public class ResetCard : Card
         
         if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
         {
-            LeanTween.move(DraggedActionCard.DraggedCard, Camera.main.WorldToScreenPoint(new Vector3(GetCharacterOnMouse().gameObject.transform.position.x, GetCharacterOnMouse().gameObject.transform.position.y + 0.25f)), 0.2f).setEaseInCirc();
-            LeanTween.scale(DraggedActionCard.DraggedCard, Vector3.zero, 0.2f).setEaseInCirc()
+            DraggedActionCard.DraggedCard.GetComponent<UIEffectTweener>().PlayForward();
+            LeanTween.move(DraggedActionCard.DraggedCard, Camera.main.WorldToScreenPoint(new Vector3(GetCharacterOnMouse().gameObject.transform.position.x, GetCharacterOnMouse().gameObject.transform.position.y + 0.25f)), 0.6f).setEaseInCirc();
+            LeanTween.scale(DraggedActionCard.DraggedCard, new Vector3(0.3f, 0.3f, 1f), 0.6f).setEaseInCirc()
             .setOnComplete(() => {
                 this.UseCard(); 
                 if (DraggedActionCard.DraggedCard != null)
