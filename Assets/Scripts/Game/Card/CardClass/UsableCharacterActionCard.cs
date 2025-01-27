@@ -2,6 +2,7 @@ using UnityEngine.EventSystems;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using TMPro;
 
 public abstract class UsableCharacterActionCard : Card
 {
@@ -48,15 +49,7 @@ public abstract class UsableCharacterActionCard : Card
         if (DraggedActionCard.DraggedCard == null)
         {
             Debug.Log("Drag a character");
-            DraggedActionCard.DraggedCard = MonoBehaviour.Instantiate(BoardGameUiManager.Instance.draggedCardPrefab, BoardGameUiManager.Instance.transform);
-            Vector3 mousePosition = Input.mousePosition;
-            mousePosition.z = 10f; 
-            DraggedActionCard.DraggedCard.transform.position = (mousePosition);
-            DraggedActionCard.DraggedCard.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
-            Image spRenderer = DraggedActionCard.DraggedCard.transform.GetChild(0).gameObject.GetComponent<Image>();
-            spRenderer.sprite = this.image;
-            spRenderer.color = new Color(1f, 1f, 1f, 0.5f);
-            DraggedActionCard.DraggedCard.gameObject.GetComponent<Image>().color = new Color(1f, 1f, 1f, 0.5f);
+            DraggedActionCard.DraggedCard = DraggedActionCard.InstantiateCard(this);
         }
         else
         {
@@ -106,4 +99,18 @@ public abstract class UsableCharacterActionCard : Card
 public static class DraggedActionCard
 {
     public static GameObject DraggedCard;
+
+    public static GameObject InstantiateCard(Card card){
+        var go = MonoBehaviour.Instantiate(PrefabDatabase.Instance.draggedCardPrefab, BoardGameUiManager.Instance.transform);
+        Vector3 mousePosition = Input.mousePosition;
+        mousePosition.z = 10f; 
+        go.transform.position = (mousePosition);
+        go.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+        Image spRenderer = go.transform.GetChild(0).gameObject.GetComponent<Image>();
+        go.transform.GetChild(1).gameObject.GetComponentInChildren<TextMeshProUGUI>().text = card.name;
+        spRenderer.sprite = card.image;
+        // spRenderer.color = new Color(1f, 1f, 1f, 0.5f);
+        // go.gameObject.GetComponent<Image>().color = new Color(1f, 1f, 1f, 0.5f);
+        return go;
+    }
 }

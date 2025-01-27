@@ -220,6 +220,7 @@ public class BoardCharacter : BoardObject
         }
         catch (Exception error)
         {
+            Debug.LogError(error);
             Debug.LogError("Cannot run animation on character : " + character.GetCharacterData().characterName);
             return false;
         }

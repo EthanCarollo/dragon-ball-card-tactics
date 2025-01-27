@@ -10,6 +10,8 @@ public class PrefabDatabase : ScriptableObject
 
     public GameObject namekDefaultMap;
 
+    public GameObject draggedCardPrefab;
+
     public static PrefabDatabase Instance
     {
         get

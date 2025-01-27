@@ -30,7 +30,7 @@ public class ResetCard : Card
             if(charactersUpdatable.Count == 0) return null;
 
             var mousePosInWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Debug.LogWarning("Mouse position = " + mousePosInWorld);
+            // Debug.LogWarning("Mouse position = " + mousePosInWorld);
 
             return GetClosestPosition(charactersUpdatable, mousePosInWorld);
         }
@@ -128,15 +128,7 @@ public class ResetCard : Card
         if (DraggedActionCard.DraggedCard == null)
         {
             Debug.Log("Drag a character");
-            DraggedActionCard.DraggedCard = MonoBehaviour.Instantiate(BoardGameUiManager.Instance.draggedCardPrefab, BoardGameUiManager.Instance.transform);
-            Vector3 mousePosition = Input.mousePosition;
-            mousePosition.z = 10f; 
-            DraggedActionCard.DraggedCard.transform.position = (mousePosition);
-            DraggedActionCard.DraggedCard.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
-            Image spRenderer = DraggedActionCard.DraggedCard.transform.GetChild(0).gameObject.GetComponent<Image>();
-            spRenderer.sprite = this.image;
-            spRenderer.color = new Color(1f, 1f, 1f, 0.5f);
-            DraggedActionCard.DraggedCard.gameObject.GetComponent<Image>().color = new Color(1f, 1f, 1f, 0.5f);
+            DraggedActionCard.DraggedCard = DraggedActionCard.InstantiateCard(this);
         }
         else
         {
