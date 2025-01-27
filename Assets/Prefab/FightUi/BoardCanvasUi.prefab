@@ -2944,6 +2944,8 @@ MonoBehaviour:
   looseManaText: {fileID: 5669530694717512033}
   synergyContainer: {fileID: 7922818434185359608}
   synergyPrefab: {fileID: 2247542352714119117, guid: d3dd15a52f86b48b488888864740c3e4, type: 3}
+  synergyPaginationContainer: {fileID: 0}
+  currentPageSynergyText: {fileID: 0}
   fightNameUi: {fileID: 0}
   roundIndicatorContainer: {fileID: 0}
   roundIndicatorIcon: {fileID: 0}

@@ -9,6 +9,7 @@ public abstract class Card : ScriptableObject
     public new string name;
     public Sprite image;
     public Sprite fullartImage;
+    public bool highlight;
 
     public virtual string GetDescription()
     {

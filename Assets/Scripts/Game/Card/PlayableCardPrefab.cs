@@ -4,6 +4,8 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System;
 using System.Linq;
+using Coffee.UIExtensions;
+using System.Collections;
 
 public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler {
     public GameObject hideGameObject;
@@ -11,8 +13,10 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
     public GameObject transformationInformation;
     public Transform transformationContainer;
     public GameObject transformationPrefab;
+    public ShinyEffectForUGUI shinyEffectForUGUI;
 
-    public void Update(){
+    void Update()
+    {
         SetCardColor();
     }
 
@@ -20,6 +24,16 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
     {
         transformationInformation.SetActive(false);
         base.SetupCard(card);
+        StartCoroutine(PlayShinyEffect());
+    }
+
+    private IEnumerator PlayShinyEffect()
+    {
+        while (card.highlight)
+        {
+            shinyEffectForUGUI.Play(0.75f);
+            yield return new WaitForSeconds(1.5f); // Wait for 2 seconds
+        }
     }
 
     public void SetCardColor(){

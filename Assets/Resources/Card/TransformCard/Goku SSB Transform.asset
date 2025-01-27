@@ -17,6 +17,7 @@ MonoBehaviour:
   name: Goku SSB
   image: {fileID: 21300000, guid: 301cda47ce8c44f208c0dd9c61889c33, type: 3}
   fullartImage: {fileID: 21300000, guid: 37000b0c36cfc4780801d0ebc71bd17d, type: 3}
+  highlight: 1
   transformations:
   - character: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
     transformation: {fileID: 11400000, guid: 40c808cf72afa4a3d9bd90e5e00e32b6, type: 2}

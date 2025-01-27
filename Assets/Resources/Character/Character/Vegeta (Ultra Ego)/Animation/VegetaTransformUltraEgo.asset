@@ -25,13 +25,13 @@ MonoBehaviour:
     time: 0.2
   - sprite: {fileID: -7007262638218901292, guid: 738fdf43028234ec6a6c903c325f2ad9, type: 3}
     time: 0.2
+  - sprite: {fileID: 481727919665810803, guid: 738fdf43028234ec6a6c903c325f2ad9, type: 3}
+    time: 0.2
+  - sprite: {fileID: -6412859652413329965, guid: 738fdf43028234ec6a6c903c325f2ad9, type: 3}
+    time: 0.2
   - sprite: {fileID: 7346296785054864137, guid: 738fdf43028234ec6a6c903c325f2ad9, type: 3}
     time: 0.2
   - sprite: {fileID: 1158982899162612145, guid: 738fdf43028234ec6a6c903c325f2ad9, type: 3}
     time: 0.2
-  - sprite: {fileID: 1158982899162612145, guid: 738fdf43028234ec6a6c903c325f2ad9, type: 3}
-    time: 0.2
-  - sprite: {fileID: 1158982899162612145, guid: 738fdf43028234ec6a6c903c325f2ad9, type: 3}
-    time: 0.2
-  startCharacter: {fileID: 11400000, guid: ccb470c201a9e8d43864f8452aa02a95, type: 2}
+  resetToBaseCharacter: 1
   newCharacterData: {fileID: 11400000, guid: 9467697ec81964c24847fcb7e7a7c4e4, type: 2}

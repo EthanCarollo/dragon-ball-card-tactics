@@ -6,9 +6,7 @@ using UnityEditor;
 public class CardDatabase : ScriptableObject
 {
     private static CardDatabase _instance;
-
     public Card[] cards;
-
     public Card[] playerCards;
 
     public static CardDatabase Instance
