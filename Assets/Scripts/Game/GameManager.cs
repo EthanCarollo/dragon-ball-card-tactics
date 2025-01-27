@@ -42,6 +42,10 @@ public class GameManager
     private GameManager()
     {
         _instance = this;
+
+        // To be sure that the character database id variable are correctly set
+        CharacterDatabase.Instance.AssignUniqueIDs();
+        
         SetMap(PrefabDatabase.Instance.namekDefaultMap);
         difficultyMutliplicator = 1.00f;
         try {
@@ -99,8 +103,11 @@ public class GameManager
         }
         foreach (var characterContainerFight in ActualFight.opponents)
         {
-            Debug.Log(characterContainerFight.characterData.name);
-            Debug.Log(characterContainerFight.characterData.id);
+            if(CharacterDatabase.Instance.GetCharacterById(characterContainerFight.characterData.id).characterName != characterContainerFight.characterData.characterName){
+                Debug.LogWarning("Weird behaviour, ID of character in fight : " + ActualFight.name + " is not the same than the real id");
+                Debug.Log(characterContainerFight.characterData.id);
+                Debug.Log(characterContainerFight.characterData.characterName);
+            };
             boardCharacterArray[characterContainerFight.position.x, characterContainerFight.position.y] 
                 = new BoardCharacter(new CharacterContainer(characterContainerFight.characterData.id, new List<CharacterPassive>(), 1, false, difficultyMutliplicator));    
         }

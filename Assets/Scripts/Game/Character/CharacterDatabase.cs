@@ -21,19 +21,19 @@ public class CharacterDatabase : ScriptableObject
                 {
                     Debug.LogError("CharacterDatabase instance not found in Resources folder!");
                 }
-                AssignUniqueIDs();
+                _instance.AssignUniqueIDs();
             }
             return _instance;
         }
     }
 
-    private static void AssignUniqueIDs()
+    public void AssignUniqueIDs()
     {
-        if (_instance.characterDatas != null)
+        if (this.characterDatas != null)
         {
-            for (int i = 0; i < _instance.characterDatas.Length; i++)
+            for (int i = 0; i < this.characterDatas.Length; i++)
             {
-                _instance.characterDatas[i].id = i;
+                this.characterDatas[i].id = i;
             }
         }
     }
@@ -77,6 +77,7 @@ public class CharacterDatabase : ScriptableObject
             }
         }
 
+        this.AssignUniqueIDs();
         EditorUtility.SetDirty(this);
         Debug.Log("Character list refreshed!");
     }

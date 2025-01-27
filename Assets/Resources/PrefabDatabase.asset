@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   annotationUiPrefab: {fileID: 7155403158819275519, guid: aab67787958844c3da05acb3b2a261bf, type: 3}
   namekDefaultMap: {fileID: 995354289898027383, guid: f64c79d6e4b5c4890852b64b1e322d79, type: 3}
+  draggedCardPrefab: {fileID: 9023534854517842936, guid: c182de61f7d26994db9c21880e96b18e, type: 3}

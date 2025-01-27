@@ -1,0 +1,2567 @@
+fileFormatVersion: 2
+guid: 738fdf43028234ec6a6c903c325f2ad9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1758577292554002719
+    second: vegeta-ultra-ego_0
+  - first:
+      213: -988765847210139261
+    second: vegeta-ultra-ego_1
+  - first:
+      213: 6616701285921541536
+    second: vegeta-ultra-ego_2
+  - first:
+      213: -9065138518533873504
+    second: vegeta-ultra-ego_3
+  - first:
+      213: -8544812217980819736
+    second: vegeta-ultra-ego_4
+  - first:
+      213: 7789773460172123548
+    second: vegeta-ultra-ego_5
+  - first:
+      213: -8453200868732629586
+    second: vegeta-ultra-ego_6
+  - first:
+      213: -1010895351171111320
+    second: vegeta-ultra-ego_7
+  - first:
+      213: -6147156394365671537
+    second: vegeta-ultra-ego_8
+  - first:
+      213: 539533558336804872
+    second: vegeta-ultra-ego_9
+  - first:
+      213: -1396457181842384261
+    second: vegeta-ultra-ego_10
+  - first:
+      213: -115221386013600581
+    second: vegeta-ultra-ego_11
+  - first:
+      213: -225294434276788816
+    second: vegeta-ultra-ego_12
+  - first:
+      213: 514386201531994796
+    second: vegeta-ultra-ego_13
+  - first:
+      213: 4340208779911490142
+    second: vegeta-ultra-ego_14
+  - first:
+      213: -2971980398440899704
+    second: vegeta-ultra-ego_15
+  - first:
+      213: -7887561555763225779
+    second: vegeta-ultra-ego_16
+  - first:
+      213: 8033984440908908040
+    second: vegeta-ultra-ego_17
+  - first:
+      213: -4186000051970736379
+    second: vegeta-ultra-ego_18
+  - first:
+      213: -8697053514390808374
+    second: vegeta-ultra-ego_19
+  - first:
+      213: -6361405794724632910
+    second: vegeta-ultra-ego_20
+  - first:
+      213: -7592190755670553229
+    second: vegeta-ultra-ego_21
+  - first:
+      213: 4411493089626994368
+    second: vegeta-ultra-ego_22
+  - first:
+      213: 5746117483519011962
+    second: vegeta-ultra-ego_23
+  - first:
+      213: 3158852249750754772
+    second: vegeta-ultra-ego_24
+  - first:
+      213: 5158633388975604329
+    second: vegeta-ultra-ego_25
+  - first:
+      213: -6335766165727429799
+    second: vegeta-ultra-ego_26
+  - first:
+      213: -1917828863720826220
+    second: vegeta-ultra-ego_27
+  - first:
+      213: -8340338502289391282
+    second: vegeta-ultra-ego_28
+  - first:
+      213: -4745047702440126064
+    second: vegeta-ultra-ego_29
+  - first:
+      213: -3503483952995067746
+    second: vegeta-ultra-ego_30
+  - first:
+      213: 7972714743464353355
+    second: vegeta-ultra-ego_31
+  - first:
+      213: -5302306014109680606
+    second: vegeta-ultra-ego_32
+  - first:
+      213: -3214112004645356339
+    second: vegeta-ultra-ego_33
+  - first:
+      213: 1508998864518535069
+    second: vegeta-ultra-ego_34
+  - first:
+      213: -6701222426448873345
+    second: vegeta-ultra-ego_35
+  - first:
+      213: -6003354361393353792
+    second: vegeta-ultra-ego_36
+  - first:
+      213: 6659132783457354568
+    second: vegeta-ultra-ego_37
+  - first:
+      213: -1061751089925846749
+    second: vegeta-ultra-ego_38
+  - first:
+      213: 1433088064481569210
+    second: vegeta-ultra-ego_39
+  - first:
+      213: 5520846648457323242
+    second: vegeta-ultra-ego_40
+  - first:
+      213: 3983309791189672669
+    second: vegeta-ultra-ego_41
+  - first:
+      213: 9055579872685806243
+    second: vegeta-ultra-ego_42
+  - first:
+      213: 7945751697681472394
+    second: vegeta-ultra-ego_43
+  - first:
+      213: 532059462094819506
+    second: vegeta-ultra-ego_44
+  - first:
+      213: -2683843232044381719
+    second: vegeta-ultra-ego_45
+  - first:
+      213: 521135757282031870
+    second: vegeta-ultra-ego_46
+  - first:
+      213: -8745486325711966945
+    second: vegeta-ultra-ego_47
+  - first:
+      213: -3360724103100174013
+    second: vegeta-ultra-ego_48
+  - first:
+      213: -191399558184520386
+    second: vegeta-ultra-ego_49
+  - first:
+      213: -6676352025092298099
+    second: vegeta-ultra-ego_50
+  - first:
+      213: 4742283391348532484
+    second: vegeta-ultra-ego_51
+  - first:
+      213: 7105164520933846619
+    second: vegeta-ultra-ego_52
+  - first:
+      213: 4441545369416334798
+    second: vegeta-ultra-ego_53
+  - first:
+      213: 7925728489152721866
+    second: vegeta-ultra-ego_54
+  - first:
+      213: -2960091527860789477
+    second: vegeta-ultra-ego_55
+  - first:
+      213: 7048505958093722923
+    second: vegeta-ultra-ego_56
+  - first:
+      213: 8238922085508361158
+    second: vegeta-ultra-ego_57
+  - first:
+      213: 6861726562825034995
+    second: vegeta-ultra-ego_58
+  - first:
+      213: -6100000465014573223
+    second: vegeta-ultra-ego_59
+  - first:
+      213: 4119110911385825732
+    second: vegeta-ultra-ego_60
+  - first:
+      213: -5287041314767108374
+    second: vegeta-ultra-ego_61
+  - first:
+      213: -1152968523159827044
+    second: vegeta-ultra-ego_62
+  - first:
+      213: 4099375396726065474
+    second: vegeta-ultra-ego_63
+  - first:
+      213: -477292759019506551
+    second: vegeta-ultra-ego_64
+  - first:
+      213: 1532371495450903380
+    second: vegeta-ultra-ego_65
+  - first:
+      213: -2507837110594737998
+    second: vegeta-ultra-ego_66
+  - first:
+      213: -3328891356139616865
+    second: vegeta-ultra-ego_67
+  - first:
+      213: -4717201790642686882
+    second: vegeta-ultra-ego_68
+  - first:
+      213: 4658568505717440989
+    second: vegeta-ultra-ego_69
+  - first:
+      213: -2734767197912212051
+    second: vegeta-ultra-ego_70
+  - first:
+      213: -1073225375105498915
+    second: vegeta-ultra-ego_71
+  - first:
+      213: -1542652972851412196
+    second: vegeta-ultra-ego_72
+  - first:
+      213: 4630672671997189365
+    second: vegeta-ultra-ego_73
+  - first:
+      213: 7200099475580616685
+    second: vegeta-ultra-ego_74
+  - first:
+      213: -5357151723700444980
+    second: vegeta-ultra-ego_75
+  - first:
+      213: 5590186532851864870
+    second: vegeta-ultra-ego_76
+  - first:
+      213: 481727919665810803
+    second: vegeta-ultra-ego_77
+  - first:
+      213: -6412859652413329965
+    second: vegeta-ultra-ego_78
+  - first:
+      213: -7225410485875326885
+    second: vegeta-ultra-ego_79
+  - first:
+      213: 4360004077161734274
+    second: vegeta-ultra-ego_80
+  - first:
+      213: 243202874272664150
+    second: vegeta-ultra-ego_81
+  - first:
+      213: 3966651708737719891
+    second: vegeta-ultra-ego_82
+  - first:
+      213: 5160669354782651726
+    second: vegeta-ultra-ego_83
+  - first:
+      213: -6588618811958515391
+    second: vegeta-ultra-ego_84
+  - first:
+      213: 4472303511254874272
+    second: vegeta-ultra-ego_85
+  - first:
+      213: -8005245712715488288
+    second: vegeta-ultra-ego_86
+  - first:
+      213: 7527608819428002150
+    second: vegeta-ultra-ego_87
+  - first:
+      213: 4330372908917453579
+    second: vegeta-ultra-ego_88
+  - first:
+      213: -7007262638218901292
+    second: vegeta-ultra-ego_89
+  - first:
+      213: 7346296785054864137
+    second: vegeta-ultra-ego_90
+  - first:
+      213: 4047243570287948656
+    second: vegeta-ultra-ego_91
+  - first:
+      213: 366384532957737546
+    second: vegeta-ultra-ego_92
+  - first:
+      213: 1158982899162612145
+    second: vegeta-ultra-ego_93
+  - first:
+      213: -3980850463664618804
+    second: vegeta-ultra-ego_94
+  - first:
+      213: 6483227253773599711
+    second: vegeta-ultra-ego_95
+  - first:
+      213: 593482200111231194
+    second: vegeta-ultra-ego_96
+  - first:
+      213: 8605324920616163538
+    second: vegeta-ultra-ego_97
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 959
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee104f05474897e0800000000000000
+      internalID: -1758577292554002719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 959
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381600f53b23742f0800000000000000
+      internalID: -988765847210139261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 959
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad493443ce33db50800000000000000
+      internalID: 6616701285921541536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_3
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 959
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0e31beb88223280800000000000000
+      internalID: -9065138518533873504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_4
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 959
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6e5d26f8aba6980800000000000000
+      internalID: -8544812217980819736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_5
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 959
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d2356a0b5da1c60800000000000000
+      internalID: 7789773460172123548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_6
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 959
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead0b2cc89230ba80800000000000000
+      internalID: -8453200868732629586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_7
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 959
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8662a58b80498f1f0800000000000000
+      internalID: -1010895351171111320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_8
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 958
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87201f04d9e0baa0800000000000000
+      internalID: -6147156394365671537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 887
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8085119a9eecc7700800000000000000
+      internalID: 539533558336804872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_10
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 887
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7add348799ce9ce0800000000000000
+      internalID: -1396457181842384261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_11
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 887
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4912882c6a66ef0800000000000000
+      internalID: -115221386013600581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_12
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 890
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b53f0bd7e79fdcf0800000000000000
+      internalID: -225294434276788816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_13
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 893
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca25da36687732700800000000000000
+      internalID: 514386201531994796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_14
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 894
+        width: 56
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ae7a1d3e48b3c30800000000000000
+      internalID: 4340208779911490142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 824
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b9187e29761c6d0800000000000000
+      internalID: -2971980398440899704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_16
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 816
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b94bc1e80c98290800000000000000
+      internalID: -7887561555763225779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_17
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 816
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806046b78427e7f60800000000000000
+      internalID: 8033984440908908040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_18
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 817
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f7480912758e5c0800000000000000
+      internalID: -4186000051970736379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 826
+        width: 68
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac85c2a58ebdd4780800000000000000
+      internalID: -8697053514390808374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_20
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 826
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6a355422fb7b7a0800000000000000
+      internalID: -6361405794724632910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_21
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 833
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d804d9bbe13a690800000000000000
+      internalID: -7592190755670553229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_22
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 824
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6be488795c83d30800000000000000
+      internalID: 4411493089626994368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_23
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 824
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7cefc2386f4ebf40800000000000000
+      internalID: 5746117483519011962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 749
+        width: 116
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d55654826f76db20800000000000000
+      internalID: 3158852249750754772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_25
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 744
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9624c545cb5279740800000000000000
+      internalID: 5158633388975604329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_26
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 744
+        width: 126
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bb0e79d36d218a0800000000000000
+      internalID: -6335766165727429799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_27
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 778
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49added3fc08265e0800000000000000
+      internalID: -1917828863720826220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_28
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 781
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e410788325a214c80800000000000000
+      internalID: -8340338502289391282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_29
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 779
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099d5c54144362eb0800000000000000
+      internalID: -4745047702440126064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_30
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 774
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98927138ef116fc0800000000000000
+      internalID: -3503483952995067746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_31
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 783
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e56b361d5c4ae60800000000000000
+      internalID: 7972714743464353355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_32
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 785
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c3392e5cc6a66b0800000000000000
+      internalID: -5302306014109680606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 770
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc7bce292e2563d0800000000000000
+      internalID: -3214112004645356339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_34
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 689
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d975816e87a01f410800000000000000
+      internalID: 1508998864518535069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_35
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 760
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7832ae25b97003a0800000000000000
+      internalID: -6701222426448873345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_36
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 772
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb6b54f30dcfaca0800000000000000
+      internalID: -6003354361393353792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_37
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 689
+        width: 94
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84342262cfdf96c50800000000000000
+      internalID: 6659132783457354568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_38
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 698
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32906155207e341f0800000000000000
+      internalID: -1061751089925846749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_39
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 689
+        width: 67
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9a647700a53e310800000000000000
+      internalID: 1433088064481569210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_40
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 587
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae264bca6ccfd9c40800000000000000
+      internalID: 5520846648457323242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_41
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 586
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2223e862f874730800000000000000
+      internalID: 3983309791189672669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_42
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 584
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a25d9a6ae1ebad70800000000000000
+      internalID: 9055579872685806243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_43
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 583
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8bd2c5121bf44e60800000000000000
+      internalID: 7945751697681472394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_44
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 587
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b01c850341426700800000000000000
+      internalID: 532059462094819506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_45
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 587
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e98821dcc211cad0800000000000000
+      internalID: -2683843232044381719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_46
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 586
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8bc8cc5327b3700800000000000000
+      internalID: 521135757282031870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_47
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 562
+        width: 186
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1de6e7b58ac1a680800000000000000
+      internalID: -8745486325711966945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_48
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 450
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341fe9eeb3f4c51d0800000000000000
+      internalID: -3360724103100174013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_49
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 503
+        width: 90
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35be3cad13085df0800000000000000
+      internalID: -191399558184520386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_50
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 503
+        width: 58
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ae9ecb435d853a0800000000000000
+      internalID: -6676352025092298099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_51
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 450
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40560956e99ffc140800000000000000
+      internalID: 4742283391348532484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_52
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 450
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e68fcac7d9a9260800000000000000
+      internalID: 7105164520933846619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_53
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 450
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd77dd2bf983ad30800000000000000
+      internalID: 4441545369416334798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_54
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 491
+        width: 58
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3342e8118ddfd60800000000000000
+      internalID: 7925728489152721866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_55
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 483
+        width: 90
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1fd63b4074abe6d0800000000000000
+      internalID: -2960091527860789477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_56
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 482
+        width: 90
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25966503d251d160800000000000000
+      internalID: 7048505958093722923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_57
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 473
+        width: 97
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cba8de2cf7865270800000000000000
+      internalID: 8238922085508361158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_58
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 475
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc5c0334ffb93f50800000000000000
+      internalID: 6861726562825034995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_59
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 477
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957b61175e1785ba0800000000000000
+      internalID: -6100000465014573223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_60
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 462
+        width: 114
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c17697cc850a2930800000000000000
+      internalID: 4119110911385825732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_61
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 455
+        width: 58
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae60e78afe7a0a6b0800000000000000
+      internalID: -5287041314767108374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_62
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 463
+        width: 90
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d0ad3ac35dfffe0800000000000000
+      internalID: -1152968523159827044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_63
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 451
+        width: 90
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24945d23438e3e830800000000000000
+      internalID: 4099375396726065474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_64
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 450
+        width: 58
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984b6c4b3c05069f0800000000000000
+      internalID: -477292759019506551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_65
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 439
+        width: 90
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453094a91c3144510800000000000000
+      internalID: 1532371495450903380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_66
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 439
+        width: 58
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8657c5f6f523dd0800000000000000
+      internalID: -2507837110594737998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_67
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 350
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f950e65e2f66dc1d0800000000000000
+      internalID: -3328891356139616865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_68
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 355
+        width: 145
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54f7e6d6f1298eb0800000000000000
+      internalID: -4717201790642686882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_69
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 352
+        width: 146
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd14c11bf5f86a040800000000000000
+      internalID: 4658568505717440989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_70
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 358
+        width: 92
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad5d0119b72c0ad0800000000000000
+      internalID: -2734767197912212051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_71
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 379
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0c6e025332b11f0800000000000000
+      internalID: -1073225375105498915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_72
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 348
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13cd756b45679ae0800000000000000
+      internalID: -1542652972851412196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_73
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 347
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc5085c244734040800000000000000
+      internalID: 4630672671997189365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_74
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 345
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def75754354ebe360800000000000000
+      internalID: 7200099475580616685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_75
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 344
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0a6f404e297a5b0800000000000000
+      internalID: -5357151723700444980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_76
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 235
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625dec69805549d40800000000000000
+      internalID: 5590186532851864870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_77
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 235
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d811a9df07fa600800000000000000
+      internalID: 481727919665810803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_78
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 235
+        width: 66
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dde7777f12f007a0800000000000000
+      internalID: -6412859652413329965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_79
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 235
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50c409e17f2abb90800000000000000
+      internalID: -7225410485875326885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_80
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 280
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280ea7e9b98d18c30800000000000000
+      internalID: 4360004077161734274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_81
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 292
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a4061c9b7006300800000000000000
+      internalID: 243202874272664150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_82
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 288
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e020f76b06c0730800000000000000
+      internalID: 3966651708737719891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_83
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 235
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45701f8f616e9740800000000000000
+      internalID: 5160669354782651726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_84
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 235
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149a1c839168094a0800000000000000
+      internalID: -6588618811958515391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_85
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 235
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a834142950d01e30800000000000000
+      internalID: 4472303511254874272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_86
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 235
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3efd91077a7e090800000000000000
+      internalID: -8005245712715488288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_87
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 269
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6698a1a9650777860800000000000000
+      internalID: 7527608819428002150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_88
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 267
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03fff4a733981c30800000000000000
+      internalID: 4330372908917453579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_89
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 235
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d88811b1c331ce90800000000000000
+      internalID: -7007262638218901292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_90
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 235
+        width: 71
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9031acfe00a43f560800000000000000
+      internalID: 7346296785054864137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_91
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 275
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0733f7e7592ba2830800000000000000
+      internalID: 4047243570287948656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_92
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 249
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42b422aac8a51500800000000000000
+      internalID: 366384532957737546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_93
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 234
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b107556ec8851010800000000000000
+      internalID: 1158982899162612145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_94
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 251
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc24251489d21c8c0800000000000000
+      internalID: -3980850463664618804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_95
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 242
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd38e4376dc09f950800000000000000
+      internalID: 6483227253773599711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_96
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 252
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0b526aae87c3800800000000000000
+      internalID: 593482200111231194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegeta-ultra-ego_97
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 239
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8942e1c614c6770800000000000000
+      internalID: 8605324920616163538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

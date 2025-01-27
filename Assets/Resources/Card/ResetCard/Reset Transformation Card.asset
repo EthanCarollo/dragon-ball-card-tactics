@@ -15,6 +15,6 @@ MonoBehaviour:
   manaCost: 1
   rarity: 0
   name: Reset Transformation Card
-  image: {fileID: 21300000, guid: 5599100996fbc411d913efc6e142b4e5, type: 3}
+  image: {fileID: 21300000, guid: ff59b1b7f91d64fe6bc6fa3ead60cd4c, type: 3}
   fullartImage: {fileID: 0}
   transformation: {fileID: 11400000, guid: 3bdd78dcf42d03a46954ef559e5c606d, type: 2}
