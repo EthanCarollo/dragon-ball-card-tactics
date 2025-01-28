@@ -712,7 +712,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4536367063949219974
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1002,7 +1002,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1877753322722084072
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1019,7 +1019,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 70}
+  m_AnchoredPosition: {x: 0, y: 60.469}
   m_SizeDelta: {x: 214.9529, y: 214.9529}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9211115466490972525
@@ -1230,7 +1230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3764233907694644273
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1306,45 +1306,45 @@ MonoBehaviour:
   m_ToneIntensity: 1
   m_ToneParams: {x: 0, y: 0, z: 0, w: 0}
   m_ColorFilter: 0
-  m_ColorIntensity: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_ColorIntensity: 0.8958399
+  m_Color: {r: 0, g: 0.8002429, b: 1, a: 1}
   m_ColorGlow: 0
   m_SamplingFilter: 0
-  m_SamplingIntensity: 0.5
+  m_SamplingIntensity: 1
   m_SamplingWidth: 1
   m_SamplingScale: 1
   m_TransitionFilter: 0
-  m_TransitionRate: 0.5
+  m_TransitionRate: 0.8958399
   m_TransitionReverse: 0
-  m_TransitionTex: {fileID: 0}
+  m_TransitionTex: {fileID: 2800000, guid: 944c3fa29663042a1bdc35546c2eda58, type: 3}
   m_TransitionTexScale: {x: 1, y: 1}
   m_TransitionTexOffset: {x: 0, y: 0}
-  m_TransitionRotation: 0
+  m_TransitionRotation: 135
   m_TransitionKeepAspectRatio: 1
-  m_TransitionWidth: 0.2
-  m_TransitionSoftness: 0.2
+  m_TransitionWidth: 0.25
+  m_TransitionSoftness: 0.5
   m_TransitionRange:
     m_Min: 0
     m_Max: 1
   m_TransitionColorFilter: 6
-  m_TransitionColor: {r: 0, g: 0.5, b: 1, a: 1}
+  m_TransitionColor: {r: 1, g: 1, b: 1, a: 1}
   m_TransitionColorGlow: 0
   m_TransitionPatternReverse: 0
   m_TransitionAutoPlaySpeed: 0
   m_TargetMode: 0
   m_TargetColor: {r: 1, g: 1, b: 1, a: 1}
-  m_TargetRange: 0.1
+  m_TargetRange: 1
   m_TargetSoftness: 0.5
   m_BlendType: 1
   m_SrcBlendMode: 1
   m_DstBlendMode: 10
   m_ShadowMode: 0
   m_ShadowDistance: {x: 1, y: -1}
-  m_ShadowIteration: 1
-  m_ShadowFade: 0.9
+  m_ShadowIteration: 3
+  m_ShadowFade: 0.765
   m_ShadowMirrorScale: 0.5
   m_ShadowBlurIntensity: 1
-  m_ShadowColorFilter: 4
+  m_ShadowColorFilter: 5
   m_ShadowColor: {r: 1, g: 1, b: 1, a: 1}
   m_ShadowColorGlow: 0
   m_GradationMode: 0
@@ -1380,16 +1380,16 @@ MonoBehaviour:
     m_ColorSpace: -1
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  m_GradationOffset: 0
+  m_GradationOffset: 0.05719006
   m_GradationScale: 1
   m_GradationRotation: 0
   m_AllowToModifyMeshShape: 1
   m_EdgeMode: 0
-  m_EdgeWidth: 0.5
-  m_EdgeColorFilter: 4
+  m_EdgeWidth: 0
+  m_EdgeColorFilter: 6
   m_EdgeColor: {r: 1, g: 1, b: 1, a: 1}
-  m_EdgeShinyWidth: 0.5
-  m_EdgeShinyAutoPlaySpeed: 1
+  m_EdgeShinyWidth: 0.434
+  m_EdgeShinyAutoPlaySpeed: -1.21
   m_PatternArea: 1
 --- !u!114 &7470990652196898361
 MonoBehaviour:
@@ -1434,7 +1434,7 @@ MonoBehaviour:
   m_Interval: 0
   m_PlayOnEnable: 1
   m_ResetTimeOnEnable: 1
-  m_WrapMode: 1
+  m_WrapMode: 3
   m_UpdateMode: 0
   m_OnComplete:
     m_PersistentCalls:

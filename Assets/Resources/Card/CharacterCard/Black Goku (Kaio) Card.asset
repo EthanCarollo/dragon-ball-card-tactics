@@ -17,4 +17,5 @@ MonoBehaviour:
   name: Black Goku (Kaio)
   image: {fileID: 21300000, guid: 330c22571e9e8c941aec3574a81c718a, type: 3}
   fullartImage: {fileID: 21300000, guid: 5c6a81e8c0fef481da9db20a8e1bf3ab, type: 3}
+  uiEffectPreset: 
   character: {fileID: 11400000, guid: 40f0987214eb37a4497e97db89e3d752, type: 2}

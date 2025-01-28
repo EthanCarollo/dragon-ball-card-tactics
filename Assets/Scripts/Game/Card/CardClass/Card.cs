@@ -9,7 +9,7 @@ public abstract class Card : ScriptableObject
     public new string name;
     public Sprite image;
     public Sprite fullartImage;
-    public bool highlight;
+    public string uiEffectPreset;
 
     public virtual string GetDescription()
     {

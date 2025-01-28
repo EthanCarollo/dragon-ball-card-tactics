@@ -30,8 +30,10 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
     {
         transformationInformation.SetActive(false);
         base.SetupCard(card);
-        if(card.highlight == true){
-            effectForGui.LoadPreset("Shiny");
+        if(card.uiEffectPreset != null && card.uiEffectPreset.Length != 0){
+            effectForGui.LoadPreset(card.uiEffectPreset);
+        }else{
+            effectForGui.LoadPreset("None");
         }
     }
 

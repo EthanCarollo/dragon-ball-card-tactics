@@ -27,8 +27,12 @@ public class CardDeckPrefab : CardPrefab, IPointerClickHandler
     public override void SetupCard(Card card){
         Card = card;
         base.SetupCard(card);
-        if(card.highlight == true){
-            effectForGui.LoadPreset("Shiny");
+        Debug.Log(card.uiEffectPreset);
+        if(card.uiEffectPreset != null && card.uiEffectPreset.Length != 0){
+            Debug.Log(card.uiEffectPreset);
+            effectForGui.LoadPreset(card.uiEffectPreset);
+        }else{
+            effectForGui.LoadPreset("None");
         }
     }
 }
