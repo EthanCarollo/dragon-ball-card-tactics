@@ -1,11 +1,13 @@
 using UnityEngine.EventSystems;
 using UnityEngine;
 using System.Linq;
+using Coffee.UIEffects;
 
 public class CardDeckPrefab : CardPrefab, IPointerClickHandler
 {
     public Card Card;
     public bool isInHand = false;
+    public UIEffect effectForGui;
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -25,5 +27,8 @@ public class CardDeckPrefab : CardPrefab, IPointerClickHandler
     public override void SetupCard(Card card){
         Card = card;
         base.SetupCard(card);
+        if(card.highlight == true){
+            effectForGui.LoadPreset("Shiny");
+        }
     }
 }
