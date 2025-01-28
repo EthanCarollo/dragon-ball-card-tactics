@@ -1,14 +1,28 @@
 using UnityEngine.EventSystems;
 using UnityEngine;
+using System.Linq;
 
 public class CardDeckPrefab : CardPrefab, IPointerClickHandler
 {
-        public void OnPointerClick(PointerEventData eventData)
-        {
+    public Card Card;
+    public bool isInHand = false;
 
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if(isInHand == false){
+            var cards = CardDatabase.Instance.playerCards.ToList();
+            cards.Add(card);
+            CardDatabase.Instance.playerCards = cards.ToArray();
+        } else {
+            var cards = CardDatabase.Instance.playerCards.ToList();
+            cards.Remove(card);
+            CardDatabase.Instance.playerCards = cards.ToArray();
         }
+        CardDeckMenuUiManager.Instance.RefreshUiCard();
+    }
 
-        public override void SetupCard(Card card){
-                base.SetupCard(card);
-        }
+    public override void SetupCard(Card card){
+        Card = card;
+        base.SetupCard(card);
+    }
 }
