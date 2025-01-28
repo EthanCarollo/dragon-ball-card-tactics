@@ -10,6 +10,7 @@ public class CardDeckPrefab : CardPrefab, IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         if(isInHand == false){
+            if(CardDeckMenuUiManager.Instance.cardHandLimit <= CardDatabase.Instance.playerCards.Length) return;
             var cards = CardDatabase.Instance.playerCards.ToList();
             cards.Add(card);
             CardDatabase.Instance.playerCards = cards.ToArray();
