@@ -16,12 +16,12 @@ MonoBehaviour:
   - sprite: {fileID: -8590198778215293590, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
     time: 1.3
   - sprite: {fileID: -1994797815, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-    time: 0.05
+    time: 0.2
   - sprite: {fileID: -844238046, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-    time: 0.05
+    time: 0.2
   - sprite: {fileID: -920189325, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-    time: 0.05
+    time: 0.2
   - sprite: {fileID: 476312430, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-    time: 0.05
+    time: 0.2
   - sprite: {fileID: 1823861836, guid: 9a14e3b8834244eb782b019489f17331, type: 3}
-    time: 0.05
+    time: 0.2

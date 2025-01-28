@@ -642,8 +642,8 @@ TextureImporter:
         y: 595
         width: 34
         height: 53
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5588235, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -664,8 +664,8 @@ TextureImporter:
         y: 595
         width: 31
         height: 53
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.516129, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -686,8 +686,8 @@ TextureImporter:
         y: 595
         width: 31
         height: 53
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.516129, y: -0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -706,10 +706,10 @@ TextureImporter:
         serializedVersion: 2
         x: 435
         y: 595
-        width: 33
+        width: 34
         height: 53
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -726,12 +726,12 @@ TextureImporter:
       name: black-goku_26
       rect:
         serializedVersion: 2
-        x: 479
+        x: 475
         y: 595
-        width: 37
+        width: 41
         height: 53
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.48780486, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

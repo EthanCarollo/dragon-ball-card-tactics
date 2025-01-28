@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8282209be8d284a7d8a77d277e6ede60, type: 3}
+  m_Name: Teleport Attack
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: -6232014225643753145, guid: e74a92690a1cb4256aae5ef8093d1bd1, type: 3}
+    time: 0.2
+  tpSprite:
+    sprite: {fileID: -2211740645249127798, guid: e74a92690a1cb4256aae5ef8093d1bd1, type: 3}
+    time: 0
+  attackType: 0
+  particleAttack: {fileID: 0}
+  kiOnAttack: 10
+  effectApplied: []
+  references:
+    version: 2
+    RefIds: []

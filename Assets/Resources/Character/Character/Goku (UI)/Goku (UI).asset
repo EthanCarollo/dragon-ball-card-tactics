@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku (UI)
   m_EditorClassIdentifier: 
-  id: 52
+  id: 57
   starNumber: 1
   characterName: Goku (UI)
   role: 0
@@ -21,9 +21,9 @@ MonoBehaviour:
   characterIcon: {fileID: 21300000, guid: ae08859c82c7b43aaa3b447a0ab7c055, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
   maxHealth: 1250
-  maxKi: 250
+  maxKi: 25
   baseRange: 1
-  baseDamage: 140
+  baseDamage: 125
   baseArmor: 120
   baseSpeed: 18
   baseAttackSpeed: 1.7
@@ -35,7 +35,7 @@ MonoBehaviour:
   specialAttackAnimation:
   - name: Special
     description: Attack multiple enemies
-    animation: {fileID: 11400000, guid: 6a46e50c3200b4d35baf971ab1139dc7, type: 2}
+    animation: {fileID: 11400000, guid: 97ccaf4207bf1429cb57ebf7fa7a91bd, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
