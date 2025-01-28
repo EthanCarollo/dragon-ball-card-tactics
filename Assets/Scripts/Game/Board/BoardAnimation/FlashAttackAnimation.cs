@@ -105,6 +105,7 @@ public class FlashAttackAnimation : BoardAnimation
     public override void EndAnimation(BoardCharacter character)
     {
         base.EndAnimation(character);
+        CameraScript.Instance.SetupFightCamera();
         
         if (character.board is FightBoard fightBoard2)
         {

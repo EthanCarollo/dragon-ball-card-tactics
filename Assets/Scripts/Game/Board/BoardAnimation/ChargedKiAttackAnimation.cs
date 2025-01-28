@@ -47,7 +47,7 @@ public class ChargedKiAttackAnimation : BoardAnimation
         {
             fightBoard2.EndCinematic();
         }
-        CameraScript.Instance.SetupNormalCamera();
+        CameraScript.Instance.SetupFightCamera();
     }
     
     
