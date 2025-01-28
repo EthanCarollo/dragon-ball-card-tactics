@@ -10,32 +10,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
-  m_Name: Goku (MUI)
+  m_Name: Goku (UI)
   m_EditorClassIdentifier: 
   id: 52
   starNumber: 1
-  characterName: Goku (MUI)
+  characterName: Goku (UI)
   role: 0
-  characterType: 1
-  characterSprite: {fileID: -783947784077393753, guid: 83ef03cb9e8574d48a1ca6037e09c5ab, type: 3}
-  characterIcon: {fileID: 21300000, guid: 09b198f5f2e454e34920f1b3ece4efaf, type: 3}
+  characterType: 3
+  characterSprite: {fileID: -4749056420158358125, guid: e74a92690a1cb4256aae5ef8093d1bd1, type: 3}
+  characterIcon: {fileID: 21300000, guid: ae08859c82c7b43aaa3b447a0ab7c055, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 3600
-  maxKi: 70
+  maxHealth: 1250
+  maxKi: 250
   baseRange: 1
-  baseDamage: 290
+  baseDamage: 140
   baseArmor: 120
-  baseSpeed: 24
-  baseAttackSpeed: 1.9
-  baseCriticalChance: 90
-  idleAnimation: {fileID: 11400000, guid: e2c3a6035badc4577a821d345486fc26, type: 2}
-  runAnimation: {fileID: 11400000, guid: 1c6ec7414a3e249ad97042b2dd7125cc, type: 2}
-  attackAnimation: {fileID: 11400000, guid: 646c535b4e9944fdfa4e884e2d3ad850, type: 2}
-  criticalAttackAnimation: {fileID: 11400000, guid: 68e41cc2dc16d4530aee00194f13aa25, type: 2}
+  baseSpeed: 18
+  baseAttackSpeed: 1.7
+  baseCriticalChance: 60
+  idleAnimation: {fileID: 11400000, guid: f96679d968a8e4a8a9ecc0348118a042, type: 2}
+  runAnimation: {fileID: 11400000, guid: 6ddfb34328fbb4f1f89f06e147e18d46, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 6a46e50c3200b4d35baf971ab1139dc7, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: eef0fb8a0f1094dc8bcebabef3ef2208, type: 2}
   specialAttackAnimation:
   - name: Special
     description: Attack multiple enemies
-    animation: {fileID: 11400000, guid: ae794ed30db66457c830b4ef5810da78, type: 2}
+    animation: {fileID: 11400000, guid: 6a46e50c3200b4d35baf971ab1139dc7, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}

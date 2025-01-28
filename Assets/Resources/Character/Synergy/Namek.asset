@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c6eb036ffd84111b40ffd02f9fe47e, type: 3}
+  m_Name: Namek
+  m_EditorClassIdentifier: 
+  synergyName: Namek
+  synergyImage: {fileID: -2409190750713450014, guid: cd622fe9ce3c46b438c1df36a5f346bd, type: 3}
+  Tiers:
+  - RequiredUnits: 2
+    Description: Give 300 max hp to all namek.
+    Bonuses:
+    - rid: 2093936973571424332
+  references:
+    version: 2
+    RefIds:
+    - rid: 2093936973571424332
+      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 300
+        maxHpBonus: 0
+        attackSpeedBonus: 0
+        criticalChanceBonus: 0
+        effectsOnHit: []

@@ -1,7 +1,7 @@
 
 public class PlayerLevel {
     public int CurrentLevel = 1;
-    public int MaxLevel = 8;
+    public int MaxLevel = 10;
     public int CurrentExperience = 0;
     public int MaxExperience = 4;
     public int maxUnit = 4;

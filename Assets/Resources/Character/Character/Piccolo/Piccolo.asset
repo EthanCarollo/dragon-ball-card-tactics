@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Piccolo
   m_EditorClassIdentifier: 
-  id: 1
+  id: 72
   starNumber: 1
   characterName: Piccolo
   role: 0
@@ -36,7 +36,9 @@ MonoBehaviour:
   - name: Masenko
     description: Mini Masenko Attack
     animation: {fileID: 11400000, guid: c78f2c8edb05af24f80643efabf2ccf2, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  characterPassive:
-  - {fileID: 11400000, guid: de29a932174d840ca9ea9c7cc52ecd75, type: 2}
-  card: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  sameCharacters: []
+  synergies:
+  - {fileID: 11400000, guid: a7bad2349afd947499f9f1b3f845e3a1, type: 2}
