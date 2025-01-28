@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Turles
   m_EditorClassIdentifier: 
-  id: 29
+  id: 95
   starNumber: 1
   characterName: Turles
   role: 0
@@ -36,6 +36,10 @@ MonoBehaviour:
   - name: Death from the top
     description: 
     animation: {fileID: 11400000, guid: 901700f3083a52848a5286558c152147, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: d650a485b7943417bb2b531cc2a4ba90, type: 2}
+  - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}

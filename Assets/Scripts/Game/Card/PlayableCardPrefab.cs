@@ -15,6 +15,12 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
     public GameObject transformationPrefab;
     public UIEffect effectForGui;
 
+    void Start()
+    {
+        this.GetComponent<UIEffect>().LoadPreset("PlayableCardPreset");
+            this.GetComponent<UIEffectTweener>().Stop();
+    }
+
     void Update()
     {
         SetCardColor();
@@ -66,6 +72,9 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
 
     public void OnPointerEnter(PointerEventData eventData)
     {
+        if(card.CanUseCard() == true){
+            this.GetComponent<UIEffectTweener>().PlayForward();
+        }
         if(card is TransformationCard transfoCard){
 
             if(card.CanUseCard() == false){
@@ -103,6 +112,8 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
 
     public void OnPointerExit(PointerEventData eventData)
     {
+        this.GetComponent<UIEffect>().LoadPreset("PlayableCardPreset");
+        this.GetComponent<UIEffectTweener>().SetPause(true);
         transformationInformation.SetActive(false);
     }
 }
