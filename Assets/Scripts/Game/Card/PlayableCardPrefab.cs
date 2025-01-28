@@ -18,7 +18,7 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
     void Start()
     {
         this.GetComponent<UIEffect>().LoadPreset("PlayableCardPreset");
-            this.GetComponent<UIEffectTweener>().Stop();
+        this.GetComponent<UIEffectTweener>().Stop();
     }
 
     void Update()
