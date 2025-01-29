@@ -9,4 +9,6 @@ public class PlayerLife {
             CurrentLife = 0;
         }
     }
+
+    public bool IsAlive() => CurrentLife > 0;
 }

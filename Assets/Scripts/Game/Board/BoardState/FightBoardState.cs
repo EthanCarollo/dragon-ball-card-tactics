@@ -137,7 +137,11 @@ public class FightBoardState : BoardState
         if(win == false){
             GameManager.Instance.boardCharacterArray = boardBeforeFight;
             GameManager.Instance.Player.Life.LooseLife(1);
-            GameManager.Instance.GoNextFight();
+            if(GameManager.Instance.Player.Life.IsAlive() == false){
+                LoosePanelUiManager.Instance.ShowLoosePanel();
+            } else {
+                GameManager.Instance.GoNextFight();
+            }
         } else {
             GameManager.Instance.boardCharacterArray = boardBeforeFightEmpty;
             GameManager.Instance.Player.Level.AddExperience(3);

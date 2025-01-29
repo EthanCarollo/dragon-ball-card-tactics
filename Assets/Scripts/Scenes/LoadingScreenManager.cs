@@ -41,8 +41,10 @@ public class LoadingScreenManager : MonoBehaviour
 
         loadingSlider.value = 1f;
         asyncSceneToLoad.allowSceneActivation = true; // this will enter the level now
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForEndOfFrame();
+        yield return new WaitForFixedUpdate();
         onEndCallback.Invoke();
+        yield return new WaitForSeconds(0.2f);
         LeanTween.moveY(loadingScreenImage.rectTransform, -startPosition, 1f)
             .setEase( LeanTweenType.easeInQuart )
             .setIgnoreTimeScale(true);

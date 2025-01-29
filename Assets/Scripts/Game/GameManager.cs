@@ -42,10 +42,12 @@ public class GameManager
     private GameManager()
     {
         _instance = this;
+        boardCharacterArray = new BoardObject[BoardWidth, BoardHeight];
+    }
 
-        // To be sure that the character database id variable are correctly set
+    // This function should be called on start scene
+    public void Start(){
         CharacterDatabase.Instance.AssignUniqueIDs();
-        
         SetMap(PrefabDatabase.Instance.namekDefaultMap);
         difficultyMutliplicator = 1.00f;
         try {
@@ -55,8 +57,16 @@ public class GameManager
         }
         boardCharacterArray = new BoardObject[BoardWidth, BoardHeight];
         PlayerCards = CardDatabase.Instance.playerCards.ToList();
-        SetupCard();
-        GoNextFight();
+        try {
+            SetupCard();
+        } catch(Exception error){
+            Debug.LogError(error);
+        }
+        try {
+            GoNextFight();
+        } catch(Exception error){
+            Debug.LogError(error);
+        }
     }
 
     public GameObject actualMap;
