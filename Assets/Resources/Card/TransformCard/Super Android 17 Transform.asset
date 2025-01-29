@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Super Android 17 Transform
   m_EditorClassIdentifier: 
   manaCost: 4
-  rarity: 3
+  rarity: 2
   name: Super Android 17
   image: {fileID: 21300000, guid: 2c0701adb35354fa88088ab63eb8c276, type: 3}
+  fullartImage: {fileID: 21300000, guid: e425ee10e6bf34eba9d78fe93696ab2a, type: 3}
+  uiEffectPreset: Shiny
   transformations:
   - character: {fileID: 11400000, guid: 17a6fdaa57c594f2183c3b158029e01e, type: 2}
     transformation: {fileID: 11400000, guid: 96bc9eecdf34f4cb69ff60ce2770086b, type: 2}

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe206b63a12884410b001ddff079c3c8, type: 3}
-  m_Name: Black Goku (Kaio) Card
+  m_Name: Dyspo (LB) Card
   m_EditorClassIdentifier: 
-  manaCost: 5
-  rarity: 3
-  name: Black Goku (Kaio)
-  image: {fileID: 21300000, guid: 330c22571e9e8c941aec3574a81c718a, type: 3}
-  fullartImage: {fileID: 21300000, guid: 5c6a81e8c0fef481da9db20a8e1bf3ab, type: 3}
+  manaCost: 3
+  rarity: 4
+  name: Dyspo Limit Breaker
+  image: {fileID: 21300000, guid: 034d890024f6c49ab9b15599471cdc9c, type: 3}
+  fullartImage: {fileID: 21300000, guid: fb890a0695e8c4a709cc9b7793dfaf29, type: 3}
   uiEffectPreset: Shiny
-  character: {fileID: 11400000, guid: 40f0987214eb37a4497e97db89e3d752, type: 2}
+  character: {fileID: 11400000, guid: 33a0f64eca23c47e98c78a07d5df2886, type: 2}
