@@ -115,7 +115,14 @@ public class CharacterCard : Card
     {
         CharacterDragInfo.canPlayOnBoardPosition = new Vector2Int(-1, -1);
         BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
-            .Where(cha => cha.character.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character || cha.character.GetCharacterData().sameCharacters.Contains(character));
+                .Where(cha => cha.character.isPlayerCharacter).ToList().Find(cha =>
+                {
+                    var charDataToTest = cha.character.GetCharacterData();
+                    if (charDataToTest == character) return true;
+                    if (charDataToTest.sameCharacters != null && charDataToTest.sameCharacters.Contains(character)) return true;
+                    return false;
+                });
+
         if(characterExist != null){
             var positionCharacter = BoardUtils.FindPosition(GameManager.Instance.boardCharacterArray, characterExist);
             CharacterDragInfo.canPlayOnBoardPosition = positionCharacter;
@@ -158,7 +165,14 @@ public class CharacterCard : Card
                 TileBehaviour tileScript = hit.collider.GetComponent<TileBehaviour>();
                 if(hit.collider.GetComponent<TileBehaviour>() || hit.collider.GetComponent<CharacterPrefabScript>()){
                     BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
-                        .Where(cha => cha.character.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == character || cha.character.GetCharacterData().sameCharacters.Contains(character));
+                        .Where(cha => cha.character.isPlayerCharacter).ToList().Find(cha =>
+                        {
+                            var charDataToTest = cha.character.GetCharacterData();
+                            if (charDataToTest == character) return true;
+                            if (charDataToTest.sameCharacters != null && charDataToTest.sameCharacters.Contains(character)) return true;
+                            return false;
+                        });
+                    
                     if(characterExist != null){
                         var positionCharacter = BoardUtils.FindPosition(GameManager.Instance.boardCharacterArray, characterExist);
                         CharacterDragInfo.canPlayOnBoardPosition = positionCharacter;

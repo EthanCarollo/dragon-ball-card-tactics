@@ -46,13 +46,17 @@ public class AttackAnimation : BoardAnimation
                     {
                         if(bonus is SpecialCharacterBonus specialCharacterBonus){ 
                             if(specialCharacterBonus.character == character.character.GetCharacterData()){
-                                foreach(Effect effect in bonus.effectsOnHit){
-                                    target.character.AddEffect(effect);
+                                if(bonus.effectsOnHit != null){
+                                    foreach(Effect effect in bonus.effectsOnHit){
+                                        target.character.AddEffect(effect);
+                                    }
                                 }
                             }
                         } else {
-                            foreach(Effect effect in bonus.effectsOnHit){
-                                target.character.AddEffect(effect);
+                            if(bonus.effectsOnHit != null){
+                                foreach(Effect effect in bonus.effectsOnHit){
+                                    if(effect != null) target.character.AddEffect(effect);
+                                }
                             }
                         }
                     }
