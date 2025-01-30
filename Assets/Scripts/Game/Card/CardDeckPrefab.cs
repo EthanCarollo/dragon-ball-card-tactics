@@ -2,12 +2,26 @@ using UnityEngine.EventSystems;
 using UnityEngine;
 using System.Linq;
 using Coffee.UIEffects;
+using Unity.VisualScripting;
 
 public class CardDeckPrefab : CardPrefab, IPointerClickHandler
 {
     public Card Card;
     public bool isInHand = false;
     public UIEffect effectForGui;
+    public GameObject blackOverlay;
+
+    public void Update(){
+        if(isInHand == true) {
+            blackOverlay.SetActive(false);
+            return;
+        }
+        if(CardDeckMenuUiManager.Instance.cardHandLimit <= CardDatabase.Instance.playerCards.Length){
+            blackOverlay.SetActive(true);
+        } else {
+            blackOverlay.SetActive(false);
+        }
+    }
 
     public void OnPointerClick(PointerEventData eventData)
     {

@@ -172,7 +172,7 @@ TextureImporter:
       name: brolyssj_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 262
         y: 434
         width: 29
         height: 61
@@ -194,7 +194,7 @@ TextureImporter:
       name: brolyssj_1
       rect:
         serializedVersion: 2
-        x: 45
+        x: 301
         y: 434
         width: 36
         height: 63
@@ -216,7 +216,7 @@ TextureImporter:
       name: brolyssj_2
       rect:
         serializedVersion: 2
-        x: 90
+        x: 346
         y: 434
         width: 39
         height: 62
@@ -238,7 +238,7 @@ TextureImporter:
       name: brolyssj_3
       rect:
         serializedVersion: 2
-        x: 143
+        x: 399
         y: 434
         width: 34
         height: 58
@@ -260,7 +260,7 @@ TextureImporter:
       name: brolyssj_4
       rect:
         serializedVersion: 2
-        x: 187
+        x: 443
         y: 434
         width: 47
         height: 50
@@ -282,7 +282,7 @@ TextureImporter:
       name: brolyssj_5
       rect:
         serializedVersion: 2
-        x: 242
+        x: 498
         y: 442
         width: 50
         height: 29
@@ -304,7 +304,7 @@ TextureImporter:
       name: brolyssj_6
       rect:
         serializedVersion: 2
-        x: 298
+        x: 554
         y: 445
         width: 51
         height: 22
@@ -326,7 +326,7 @@ TextureImporter:
       name: brolyssj_7
       rect:
         serializedVersion: 2
-        x: 5
+        x: 261
         y: 368
         width: 34
         height: 52
@@ -348,7 +348,7 @@ TextureImporter:
       name: brolyssj_8
       rect:
         serializedVersion: 2
-        x: 53
+        x: 309
         y: 368
         width: 48
         height: 46
@@ -370,7 +370,7 @@ TextureImporter:
       name: brolyssj_9
       rect:
         serializedVersion: 2
-        x: 107
+        x: 363
         y: 368
         width: 46
         height: 46
@@ -392,10 +392,10 @@ TextureImporter:
       name: brolyssj_10
       rect:
         serializedVersion: 2
-        x: 8
-        y: 279
-        width: 30
-        height: 55
+        x: 677
+        y: 315
+        width: 67
+        height: 54
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: brolyssj_11
       rect:
         serializedVersion: 2
-        x: 55
-        y: 278
-        width: 42
-        height: 55
+        x: 749
+        y: 315
+        width: 77
+        height: 61
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +436,10 @@ TextureImporter:
       name: brolyssj_12
       rect:
         serializedVersion: 2
-        x: 120
-        y: 315
-        width: 15
-        height: 21
+        x: 829
+        y: 313
+        width: 86
+        height: 85
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,10 +458,10 @@ TextureImporter:
       name: brolyssj_13
       rect:
         serializedVersion: 2
-        x: 123
-        y: 276
-        width: 48
-        height: 56
+        x: 916
+        y: 313
+        width: 88
+        height: 82
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,10 +480,10 @@ TextureImporter:
       name: brolyssj_14
       rect:
         serializedVersion: 2
-        x: 193
-        y: 278
-        width: 57
-        height: 58
+        x: 264
+        y: 279
+        width: 30
+        height: 55
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,10 +502,10 @@ TextureImporter:
       name: brolyssj_15
       rect:
         serializedVersion: 2
-        x: 273
+        x: 311
         y: 278
         width: 42
-        height: 54
+        height: 55
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,10 +524,10 @@ TextureImporter:
       name: brolyssj_16
       rect:
         serializedVersion: 2
-        x: 55
-        y: 169
-        width: 273
-        height: 81
+        x: 376
+        y: 315
+        width: 15
+        height: 21
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,10 +546,10 @@ TextureImporter:
       name: brolyssj_17
       rect:
         serializedVersion: 2
-        x: 64
-        y: 102
-        width: 34
-        height: 52
+        x: 379
+        y: 276
+        width: 48
+        height: 56
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -568,10 +568,10 @@ TextureImporter:
       name: brolyssj_18
       rect:
         serializedVersion: 2
-        x: 112
-        y: 102
-        width: 48
-        height: 46
+        x: 449
+        y: 278
+        width: 57
+        height: 58
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,10 +590,10 @@ TextureImporter:
       name: brolyssj_19
       rect:
         serializedVersion: 2
-        x: 166
-        y: 102
-        width: 46
-        height: 46
+        x: 529
+        y: 278
+        width: 42
+        height: 54
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,10 +612,10 @@ TextureImporter:
       name: brolyssj_20
       rect:
         serializedVersion: 2
-        x: 220
-        y: 58
-        width: 30
-        height: 52
+        x: 618
+        y: 315
+        width: 57
+        height: 51
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,10 +634,10 @@ TextureImporter:
       name: brolyssj_21
       rect:
         serializedVersion: 2
-        x: 266
-        y: 51
-        width: 65
-        height: 86
+        x: 311
+        y: 169
+        width: 273
+        height: 81
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,10 +656,10 @@ TextureImporter:
       name: brolyssj_22
       rect:
         serializedVersion: 2
-        x: 345
-        y: 54
-        width: 69
-        height: 83
+        x: 320
+        y: 102
+        width: 34
+        height: 52
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,10 +678,10 @@ TextureImporter:
       name: brolyssj_23
       rect:
         serializedVersion: 2
-        x: 434
-        y: 52
-        width: 67
-        height: 93
+        x: 368
+        y: 102
+        width: 48
+        height: 46
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -692,6 +692,116 @@ TextureImporter:
       bones: []
       spriteID: 2bb3d19e372b674f0800000000000000
       internalID: -831280870301287502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyssj_24
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 102
+        width: 46
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf448efd9b09a44c2a01e43ddad1b651
+      internalID: 1986254545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyssj_25
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 58
+        width: 30
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f7cd389e7bc402abb6f9e804332e0f
+      internalID: -264794950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyssj_26
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 51
+        width: 65
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d886e5289ff7412a956cf91de7c71de
+      internalID: -1155066774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyssj_27
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 54
+        width: 69
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e7ece54777c492d89a84aedd0af168
+      internalID: -55074688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brolyssj_28
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 52
+        width: 67
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a639e3fee9de64dc8bb8ad86a55601c7
+      internalID: 471700414
       vertices: []
       indices: 
       edges: []
@@ -727,6 +837,11 @@ TextureImporter:
       brolyssj_21: 2880169918458046041
       brolyssj_22: -4020943305979550362
       brolyssj_23: -831280870301287502
+      brolyssj_24: 1986254545
+      brolyssj_25: -264794950
+      brolyssj_26: -1155066774
+      brolyssj_27: -55074688
+      brolyssj_28: 471700414
       brolyssj_3: -5068619497051505303
       brolyssj_4: -7988760063199243448
       brolyssj_5: -5679735070874738392

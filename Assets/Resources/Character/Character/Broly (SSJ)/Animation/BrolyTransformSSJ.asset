@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55017e58dbbc4db1901c7554f19dc6a0, type: 3}
+  m_Name: BrolyTransformSSJ
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: 3897912770000359582, guid: dde213a8b169e4d8a9077510b7b8b453, type: 3}
+    time: 0.2
+  - sprite: {fileID: -3505268065011119884, guid: dde213a8b169e4d8a9077510b7b8b453, type: 3}
+    time: 0.2
+  - sprite: {fileID: 9086258311675158865, guid: dde213a8b169e4d8a9077510b7b8b453, type: 3}
+    time: 0.2
+  - sprite: {fileID: 5615685877015786500, guid: dde213a8b169e4d8a9077510b7b8b453, type: 3}
+    time: 0.2
+  - sprite: {fileID: -7797481268601979737, guid: dde213a8b169e4d8a9077510b7b8b453, type: 3}
+    time: 0.2
+  - sprite: {fileID: -1444229559725168204, guid: dde213a8b169e4d8a9077510b7b8b453, type: 3}
+    time: 0.2
+  - sprite: {fileID: -4805918802842454729, guid: dde213a8b169e4d8a9077510b7b8b453, type: 3}
+    time: 0.2
+  resetToBaseCharacter: 0
+  newCharacterData: {fileID: 11400000, guid: b7c09c08fd054419e9233e2b0e3926ce, type: 2}
