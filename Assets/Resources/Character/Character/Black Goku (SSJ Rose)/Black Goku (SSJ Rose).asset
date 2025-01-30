@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Black Goku (SSJ Rose)
+  m_EditorClassIdentifier: 
+  id: 15
+  starNumber: 1
+  characterName: Black Goku (SSJ Rose)
+  role: 0
+  characterType: 2
+  characterSprite: {fileID: -5206271754230981652, guid: 0b7d05655749b4c3f8bd9a6328a76f72, type: 3}
+  characterIcon: {fileID: 21300000, guid: 5472b1e02d6174553bea56623a9ce4c9, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 1250
+  maxKi: 120
+  baseRange: 1
+  baseDamage: 90
+  baseArmor: 45
+  baseSpeed: 12
+  baseAttackSpeed: 1.05
+  baseCriticalChance: 50
+  idleAnimation: {fileID: 11400000, guid: 587176e34402e4e6fa02175cf36828de, type: 2}
+  runAnimation: {fileID: 11400000, guid: 3f42ae6bc01cf46fb8b8710f86bb09fb, type: 2}
+  attackAnimation: {fileID: 11400000, guid: f10ac273cde5e4ee689991611b34c323, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: d01346fe634634993bff403835d4e916, type: 2}
+  specialAttackAnimation:
+  - name: Black Kameha
+    description: A big kameha
+    animation: {fileID: 11400000, guid: 12d399b6824a64d5090cdcdfaad57f0a, type: 2}
+  winPoseAnimation: {fileID: 0}
+  deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  sameCharacters: []
+  synergies:
+  - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
+  - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
+  - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}

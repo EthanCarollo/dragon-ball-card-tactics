@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55017e58dbbc4db1901c7554f19dc6a0, type: 3}
+  m_Name: Transform Black Goku (SSJRose)
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: 5239746320759259188, guid: 0b7d05655749b4c3f8bd9a6328a76f72, type: 3}
+    time: 0.2
+  - sprite: {fileID: 1908498957679257983, guid: 0b7d05655749b4c3f8bd9a6328a76f72, type: 3}
+    time: 0.2
+  - sprite: {fileID: 7454437642062158341, guid: 0b7d05655749b4c3f8bd9a6328a76f72, type: 3}
+    time: 0.2
+  - sprite: {fileID: -6841827834872474750, guid: 0b7d05655749b4c3f8bd9a6328a76f72, type: 3}
+    time: 0.2
+  - sprite: {fileID: 7075299204714537487, guid: 0b7d05655749b4c3f8bd9a6328a76f72, type: 3}
+    time: 0.2
+  - sprite: {fileID: 4837054586546211325, guid: 0b7d05655749b4c3f8bd9a6328a76f72, type: 3}
+    time: 0.2
+  - sprite: {fileID: 295139420569003357, guid: 0b7d05655749b4c3f8bd9a6328a76f72, type: 3}
+    time: 0.2
+  - sprite: {fileID: -1452647653030286280, guid: 0b7d05655749b4c3f8bd9a6328a76f72, type: 3}
+    time: 0.2
+  - sprite: {fileID: 883249003613175598, guid: 0b7d05655749b4c3f8bd9a6328a76f72, type: 3}
+    time: 0.2
+  - sprite: {fileID: -5206271754230981652, guid: 0b7d05655749b4c3f8bd9a6328a76f72, type: 3}
+    time: 0.2
+  - sprite: {fileID: 4883374914955439807, guid: 0b7d05655749b4c3f8bd9a6328a76f72, type: 3}
+    time: 0.2
+  - sprite: {fileID: -5176445583429475471, guid: 0b7d05655749b4c3f8bd9a6328a76f72, type: 3}
+    time: 0.2
+  - sprite: {fileID: -6402282497213446999, guid: 0b7d05655749b4c3f8bd9a6328a76f72, type: 3}
+    time: 0.2
+  resetToBaseCharacter: 1
+  newCharacterData: {fileID: 11400000, guid: 5391d7c52e6a145d1acf13fca2a6569a, type: 2}
