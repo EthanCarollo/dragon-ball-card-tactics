@@ -1,0 +1,1542 @@
+fileFormatVersion: 2
+guid: b4edf0cdeb2bb48f8b56868356466d54
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 922706605299043796
+    second: frieza-golden_0
+  - first:
+      213: -1088862060282987556
+    second: frieza-golden_1
+  - first:
+      213: 3952791234371336276
+    second: frieza-golden_2
+  - first:
+      213: -1072207052784462602
+    second: frieza-golden_3
+  - first:
+      213: 7269885296880480955
+    second: frieza-golden_4
+  - first:
+      213: 1152452702846718127
+    second: frieza-golden_5
+  - first:
+      213: -8500756424464884336
+    second: frieza-golden_6
+  - first:
+      213: 2116092235425782555
+    second: frieza-golden_7
+  - first:
+      213: -3869167049320445544
+    second: frieza-golden_8
+  - first:
+      213: -3149425039171151883
+    second: frieza-golden_9
+  - first:
+      213: -417080241899900274
+    second: frieza-golden_10
+  - first:
+      213: -6819760363018626183
+    second: frieza-golden_11
+  - first:
+      213: -1186433138544139555
+    second: frieza-golden_12
+  - first:
+      213: 1938848118743690888
+    second: frieza-golden_13
+  - first:
+      213: 4179142258799053388
+    second: frieza-golden_14
+  - first:
+      213: 2927916903185518219
+    second: frieza-golden_15
+  - first:
+      213: -8281167477343809931
+    second: frieza-golden_16
+  - first:
+      213: -5534052341413345081
+    second: frieza-golden_17
+  - first:
+      213: 5365793080172535909
+    second: frieza-golden_18
+  - first:
+      213: -7370035802352274833
+    second: frieza-golden_19
+  - first:
+      213: -7110418439609721991
+    second: frieza-golden_20
+  - first:
+      213: -2819389117311095712
+    second: frieza-golden_21
+  - first:
+      213: 4769288897397535597
+    second: frieza-golden_22
+  - first:
+      213: 45197489586389770
+    second: frieza-golden_23
+  - first:
+      213: -7426102293931539693
+    second: frieza-golden_24
+  - first:
+      213: 602222841836444881
+    second: frieza-golden_25
+  - first:
+      213: -3698208428990862105
+    second: frieza-golden_26
+  - first:
+      213: 3544558671197950968
+    second: frieza-golden_27
+  - first:
+      213: 794850092141704087
+    second: frieza-golden_28
+  - first:
+      213: 137771200578407672
+    second: frieza-golden_29
+  - first:
+      213: -3873864604755655827
+    second: frieza-golden_30
+  - first:
+      213: -1462938216222191457
+    second: frieza-golden_31
+  - first:
+      213: -4454534638381619663
+    second: frieza-golden_32
+  - first:
+      213: 131194536011299876
+    second: frieza-golden_33
+  - first:
+      213: 8688014521834061746
+    second: frieza-golden_34
+  - first:
+      213: 4412797025491587820
+    second: frieza-golden_35
+  - first:
+      213: 8059075814473892357
+    second: frieza-golden_36
+  - first:
+      213: -1791600792095139165
+    second: frieza-golden_37
+  - first:
+      213: -8142042892791356379
+    second: frieza-golden_38
+  - first:
+      213: 5512957427440417559
+    second: frieza-golden_39
+  - first:
+      213: 4321464952182079650
+    second: frieza-golden_40
+  - first:
+      213: -8665610558914452405
+    second: frieza-golden_41
+  - first:
+      213: -5117990175399589693
+    second: frieza-golden_42
+  - first:
+      213: 1255860238581271760
+    second: frieza-golden_43
+  - first:
+      213: -7606309460452507932
+    second: frieza-golden_44
+  - first:
+      213: 4599433382070287219
+    second: frieza-golden_45
+  - first:
+      213: 7999433538660463196
+    second: frieza-golden_46
+  - first:
+      213: -6969607030375087154
+    second: frieza-golden_47
+  - first:
+      213: 3037476533459622751
+    second: frieza-golden_48
+  - first:
+      213: -3388047131088033287
+    second: frieza-golden_49
+  - first:
+      213: 6133392714712194958
+    second: frieza-golden_50
+  - first:
+      213: 6815025029743914775
+    second: frieza-golden_51
+  - first:
+      213: 6666931807129328251
+    second: frieza-golden_52
+  - first:
+      213: -7765741529280485268
+    second: frieza-golden_53
+  - first:
+      213: 488776282691941335
+    second: frieza-golden_54
+  - first:
+      213: 4873402710865920648
+    second: frieza-golden_55
+  - first:
+      213: -3469583871859286520
+    second: frieza-golden_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: frieza-golden_0
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 937
+        width: 111
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd81c0d4cc1ecc00800000000000000
+      internalID: 922706605299043796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_1
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 937
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbbe67a9b593e0f0800000000000000
+      internalID: -1088862060282987556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_2
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1014
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4583bf35fa22bd630800000000000000
+      internalID: 3952791234371336276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_3
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 937
+        width: 79
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f41d15cd51ce11f0800000000000000
+      internalID: -1072207052784462602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_4
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 937
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb27566f822d3e460800000000000000
+      internalID: 7269885296880480955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_5
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 937
+        width: 65
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa01e9590a55eff00800000000000000
+      internalID: 1152452702846718127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_6
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 971
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d96a5221f370a80800000000000000
+      internalID: -8500756424464884336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_7
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 997
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b14843daedd5d10800000000000000
+      internalID: 2116092235425782555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_8
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 991
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899cb908115fd4ac0800000000000000
+      internalID: -3869167049320445544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_9
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 984
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f79b7dfc9efa44d0800000000000000
+      internalID: -3149425039171151883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 937
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82f8b2dabb363af0800000000000000
+      internalID: -417080241899900274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_11
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 937
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b5cfc15185b51a0800000000000000
+      internalID: -6819760363018626183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_12
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 937
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd22353b851f88fe0800000000000000
+      internalID: -1186433138544139555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_13
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 937
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ee62f671c28ea10800000000000000
+      internalID: 1938848118743690888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 937
+        width: 78
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a8a890ebb4ff930800000000000000
+      internalID: 4179142258799053388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_15
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 937
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e0c3229ec02a820800000000000000
+      internalID: 2927916903185518219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_16
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 968
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e876b0e02631d80800000000000000
+      internalID: -8281167477343809931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_17
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 962
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c883a557b81333b0800000000000000
+      internalID: -5534052341413345081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_18
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 937
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560eee19060277a40800000000000000
+      internalID: 5365793080172535909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_19
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 879
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62b1e26c7f58b990800000000000000
+      internalID: -7370035802352274833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_20
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 879
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97bdcae0a18b25d90800000000000000
+      internalID: -7110418439609721991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_21
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 879
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ce11b19848fd8d0800000000000000
+      internalID: -2819389117311095712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_22
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 879
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d633890cbfaef2240800000000000000
+      internalID: 4769288897397535597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_23
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 879
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03498790e290a000800000000000000
+      internalID: 45197489586389770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_24
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 838
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3134f701f4f21f890800000000000000
+      internalID: -7426102293931539693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_25
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 915
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc9943eb768b5800800000000000000
+      internalID: 602222841836444881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_26
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 838
+        width: 79
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ece4ac17035dacc0800000000000000
+      internalID: -3698208428990862105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_27
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 838
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3d842e45dc03130800000000000000
+      internalID: 3544558671197950968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_28
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 836
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793facf82ffd70b00800000000000000
+      internalID: 794850092141704087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_29
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 839
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc41ce4d2679e100800000000000000
+      internalID: 137771200578407672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_30
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 838
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d638495aaa44d3ac0800000000000000
+      internalID: -3873864604755655827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_31
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 838
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f909bbd717992bbe0800000000000000
+      internalID: -1462938216222191457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_32
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 838
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1362797f8505e22c0800000000000000
+      internalID: -4454534638381619663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_33
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 838
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42cfc634cb812d100800000000000000
+      internalID: 131194536011299876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_34
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 833
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfba513d27029870800000000000000
+      internalID: 8688014521834061746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_35
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 834
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce29352c3876d3d30800000000000000
+      internalID: 4412797025491587820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_36
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 720
+        width: 66
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50288a321c697df60800000000000000
+      internalID: 8059075814473892357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_37
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 780
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa5cd76294f227e0800000000000000
+      internalID: -1791600792095139165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 780
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5246d2d9027a10f80800000000000000
+      internalID: -8142042892791356379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_39
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 779
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bff644295f18c40800000000000000
+      internalID: 5512957427440417559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_40
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 779
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a00d185a7de8fb30800000000000000
+      internalID: 4321464952182079650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_41
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 721
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44a70aeb119db780800000000000000
+      internalID: -8665610558914452405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_42
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 721
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c84e5f3d0f39f8b0800000000000000
+      internalID: -5117990175399589693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_43
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 721
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc8c20bb36bd6110800000000000000
+      internalID: 1255860238581271760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_44
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 721
+        width: 57
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eef80e78d5f07690800000000000000
+      internalID: -7606309460452507932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_45
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 720
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b7f5aca4874df30800000000000000
+      internalID: 4599433382070287219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_46
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 721
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52f33cab62b30f60800000000000000
+      internalID: 7999433538660463196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_47
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 721
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec38d6a155bf64f90800000000000000
+      internalID: -6969607030375087154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_48
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 721
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b127e50d8472a20800000000000000
+      internalID: 3037476533459622751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_49
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 691
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9673db51d3bf0d0800000000000000
+      internalID: -3388047131088033287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_50
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 691
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f936c8d203e1550800000000000000
+      internalID: 6133392714712194958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_51
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 691
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f28413825d39e50800000000000000
+      internalID: 6815025029743914775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_52
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 691
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a52b9d723b58c50800000000000000
+      internalID: 6666931807129328251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_53
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 691
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68ecb9493b8a3490800000000000000
+      internalID: -7765741529280485268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_54
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 727
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d33d70807b78c600800000000000000
+      internalID: 488776282691941335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_55
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 579
+        width: 385
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882c694f1fdc1a340800000000000000
+      internalID: 4873402710865920648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frieza-golden_56
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 691
+        width: 55
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e1767e9df89dfc0800000000000000
+      internalID: -3469583871859286520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

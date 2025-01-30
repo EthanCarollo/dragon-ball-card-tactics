@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53bfefa561a5c490cbc7b464bdfdad3a, type: 3}
+  m_Name: Critical
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: -2638037247319469402, guid: 322e25809b5ab44589e0c399d91953e9, type: 3}
+    time: 0.1
+  - sprite: {fileID: -3457951224320691887, guid: 322e25809b5ab44589e0c399d91953e9, type: 3}
+    time: 0.1
+  - sprite: {fileID: -7444249520261872344, guid: 322e25809b5ab44589e0c399d91953e9, type: 3}
+    time: 0.1
+  attackFrameIndex: 1
+  attackType: 1
+  particleAttack: {fileID: 0}
+  kiOnAttack: 10
+  isCinematic: 0
+  effectApplied: []
+  references:
+    version: 2
+    RefIds: []
