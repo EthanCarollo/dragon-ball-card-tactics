@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a87c1eb9c8441a88d241afbe642005, type: 3}
+  m_Name: Charged
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: -7404011579883318807, guid: 78ba18071cfda417e8d308e87a38189c, type: 3}
+    time: 0.1
+  - sprite: {fileID: -5172949957828512749, guid: 78ba18071cfda417e8d308e87a38189c, type: 3}
+    time: 0.1
+  - sprite: {fileID: -1481958486199284652, guid: 78ba18071cfda417e8d308e87a38189c, type: 3}
+    time: 0.1
+  - sprite: {fileID: 4568724638948130639, guid: 78ba18071cfda417e8d308e87a38189c, type: 3}
+    time: 0.1
+  - sprite: {fileID: 1587593637932280326, guid: 78ba18071cfda417e8d308e87a38189c, type: 3}
+    time: 0.1
+  - sprite: {fileID: -8106014531643249449, guid: 78ba18071cfda417e8d308e87a38189c, type: 3}
+    time: 0.1
+  - sprite: {fileID: -4341663435008002666, guid: 78ba18071cfda417e8d308e87a38189c, type: 3}
+    time: 0.1
+  - sprite: {fileID: 7938276266411388008, guid: 78ba18071cfda417e8d308e87a38189c, type: 3}
+    time: 0.2
+  - sprite: {fileID: -6428284372206447466, guid: 78ba18071cfda417e8d308e87a38189c, type: 3}
+    time: 0.2
+  - sprite: {fileID: -1941837131696066867, guid: 78ba18071cfda417e8d308e87a38189c, type: 3}
+    time: 0.2
+  - sprite: {fileID: -8566455202509289948, guid: 78ba18071cfda417e8d308e87a38189c, type: 3}
+    time: 0.2
+  - sprite: {fileID: -40565700204475293, guid: 78ba18071cfda417e8d308e87a38189c, type: 3}
+    time: 0.2
+  - sprite: {fileID: -326768000448029313, guid: 78ba18071cfda417e8d308e87a38189c, type: 3}
+    time: 0.2
+  - sprite: {fileID: -326768000448029313, guid: 78ba18071cfda417e8d308e87a38189c, type: 3}
+    time: 0.2
+  attackFrameIndex: 12
+  kikoha: {fileID: 3279814359311402580, guid: 78ba18071cfda417e8d308e87a38189c, type: 3}
+  particleAttack: {fileID: 0}
+  attackType: 2
+  attackMultiplicator: 8
+  startMargin: {x: 0.5, y: 0.6}
+  kikohaSize: {x: 6, y: 3}

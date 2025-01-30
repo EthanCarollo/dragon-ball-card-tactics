@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a96663c368a73465aa7247c462f32203, type: 3}
+  m_Name: Gohan Mirai SSJ Transform
+  m_EditorClassIdentifier: 
+  manaCost: 3
+  rarity: 2
+  name: Gohan Mirai SSJ
+  image: {fileID: 21300000, guid: 07551d70ef3ef49cbbcfee909af9858c, type: 3}
+  fullartImage: {fileID: 21300000, guid: b931181c1062d4e6b826f7436e6b0a57, type: 3}
+  uiEffectPreset: Shiny
+  transformations:
+  - character: {fileID: 11400000, guid: 223c5fe9937854c36a6a7cc83d64c75a, type: 2}
+    transformation: {fileID: 11400000, guid: 5c5378b813bcb496d87705075e93082c, type: 2}
