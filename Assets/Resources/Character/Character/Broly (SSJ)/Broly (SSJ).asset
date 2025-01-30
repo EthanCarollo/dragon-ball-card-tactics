@@ -25,9 +25,9 @@ MonoBehaviour:
   baseRange: 1
   baseDamage: 90
   baseArmor: 25
-  baseSpeed: 2
-  baseAttackSpeed: 0.9
-  baseCriticalChance: 10
+  baseSpeed: 12
+  baseAttackSpeed: 1.05
+  baseCriticalChance: 40
   idleAnimation: {fileID: 11400000, guid: a0c22ffb6e2df41d0983a34231d7535b, type: 2}
   runAnimation: {fileID: 11400000, guid: d99b9cf04bd8543ea9942eeb437acc2f, type: 2}
   attackAnimation: {fileID: 11400000, guid: 7e0605cbec68f408abbcc14ec3a361d8, type: 2}

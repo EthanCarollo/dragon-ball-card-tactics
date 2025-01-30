@@ -709,8 +709,8 @@ TextureImporter:
         y: 709
         width: 266
         height: 126
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
       border: {x: 135, y: 0, z: 129, w: 0}
       customData: 
       outline: []
@@ -921,6 +921,116 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: buuhan_33
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 391
+        width: 53
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d927d0d37f14c0fa69faa93dbf00ae
+      internalID: 1841763338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buuhan_34
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 391
+        width: 49
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e96693afed0413e867a46487c4e431
+      internalID: 1053250058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buuhan_35
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 391
+        width: 51
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c35ccb28b1848609f140992b235030
+      internalID: -454769243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buuhan_36
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 393
+        width: 32
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a938d211d5649e8bf33eef8214e5ea
+      internalID: -341540009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buuhan_37
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 393
+        width: 32
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ae11348bf2b4b92bfa562b82ee26ce
+      internalID: 2107969563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -962,6 +1072,11 @@ TextureImporter:
       buuhan_30: 2512242723482842350
       buuhan_31: -1832031152399648996
       buuhan_32: 2377689701777748624
+      buuhan_33: 1841763338
+      buuhan_34: 1053250058
+      buuhan_35: -454769243
+      buuhan_36: -341540009
+      buuhan_37: 2107969563
       buuhan_4: -9088522737003152955
       buuhan_5: 798856005254432171
       buuhan_6: 7398842273090957733

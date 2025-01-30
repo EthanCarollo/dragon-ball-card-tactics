@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Buuhan
   m_EditorClassIdentifier: 
-  id: 21
+  id: 24
   starNumber: 1
   characterName: Buuhan
   role: 0
@@ -20,13 +20,13 @@ MonoBehaviour:
   characterSprite: {fileID: 2971601105599322557, guid: 3f3eb0111656f4323bbd76354d6aa975, type: 3}
   characterIcon: {fileID: 21300000, guid: 78a3dbeb1ba9d4715bf808b20b91509f, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 340
+  maxHealth: 380
   maxKi: 120
   baseRange: 1
   baseDamage: 45
   baseArmor: 25
   baseSpeed: 5
-  baseAttackSpeed: 0.7
+  baseAttackSpeed: 0.9
   baseCriticalChance: 18
   idleAnimation: {fileID: 11400000, guid: 61ffd9748a37048f1a0e09aedfedde92, type: 2}
   runAnimation: {fileID: 11400000, guid: 8dec17c8f1e664f9f82232dec8e8df0a, type: 2}
@@ -36,8 +36,10 @@ MonoBehaviour:
   - name: Charged Ki
     description: Charge a Super Ki
     animation: {fileID: 11400000, guid: b43a4d479e15c4406bd7dd31a0d1b82c, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter:
+  baseCharacter: {fileID: 11400000, guid: a514cd09df0fc434bb7eaff92c919a58, type: 2}
+  sameCharacters:
   - {fileID: 11400000, guid: ab3a9d4dbb3fb4bfe8926b7ef647f7c9, type: 2}
   - {fileID: 11400000, guid: a514cd09df0fc434bb7eaff92c919a58, type: 2}
   synergies:
