@@ -596,6 +596,116 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: buutenks_20
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 191
+        width: 53
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516448549f07c4bb98290ebb8fc4cdb4
+      internalID: -1064906571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_21
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 191
+        width: 49
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d0a1ea91bbb480992223c4c35e3f8f
+      internalID: 1852423651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_22
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 191
+        width: 51
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447c827912217442fa9e1583c6c106b5
+      internalID: -867076342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_23
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 196
+        width: 30
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70f9d121b5674f8999310e0d9b320bf
+      internalID: 1205308288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buutenks_24
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 196
+        width: 30
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49eef9b599964aa8a9978546e5b90c6
+      internalID: 1920920212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -623,6 +733,11 @@ TextureImporter:
       buutenks_18: -3784664134940747818
       buutenks_19: 5615136226077034389
       buutenks_2: 7475916489591118054
+      buutenks_20: -1064906571
+      buutenks_21: 1852423651
+      buutenks_22: -867076342
+      buutenks_23: 1205308288
+      buutenks_24: 1920920212
       buutenks_3: -5096157933277063514
       buutenks_4: -6021019058529324050
       buutenks_5: 6869488707060391449

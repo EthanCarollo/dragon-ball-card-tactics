@@ -36,6 +36,8 @@ MonoBehaviour:
   - name: Buutenks Multi Ghost !
     description: 
     animation: {fileID: 11400000, guid: 1d36564669bb24b1d87839088118a336, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 11400000, guid: a514cd09df0fc434bb7eaff92c919a58, type: 2}
+  sameCharacters: []
   synergies: []
