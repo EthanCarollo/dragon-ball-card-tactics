@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Black Goku (SSJ Rose)
   m_EditorClassIdentifier: 
-  id: 15
+  id: 14
   starNumber: 1
   characterName: Black Goku (SSJ Rose)
   role: 0
@@ -38,7 +38,7 @@ MonoBehaviour:
     animation: {fileID: 11400000, guid: 12d399b6824a64d5090cdcdfaad57f0a, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  baseCharacter: {fileID: 0}
+  baseCharacter: {fileID: 11400000, guid: cf5f3a12fa8e94e5cae2c339ba5c7246, type: 2}
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}

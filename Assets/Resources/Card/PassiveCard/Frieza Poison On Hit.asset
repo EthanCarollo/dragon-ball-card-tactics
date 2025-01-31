@@ -16,5 +16,7 @@ MonoBehaviour:
   rarity: 2
   name: Frieza Poison On Hit
   image: {fileID: -7528005875610918250, guid: 8d572925844034e3f9b9fc7934e9457c, type: 3}
+  fullartImage: {fileID: 21300000, guid: 05550a10041fb40da9fedaf225950827, type: 3}
+  uiEffectPreset: Shiny
   characterFor: {fileID: 11400000, guid: f9b20bbaea69544a397d0f57a57b3a89, type: 2}
   passive: {fileID: 11400000, guid: b0628bb2954aa4b5684ecfa5e1ac8d72, type: 2}
