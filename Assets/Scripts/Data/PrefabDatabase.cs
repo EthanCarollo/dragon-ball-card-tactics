@@ -14,6 +14,10 @@ public class PrefabDatabase : ScriptableObject
 
     public GameObject cardDeckMainMenuPrefab;
 
+    public GameObject historyPrefab;
+
+    public GameObject littleCharacterContainer;
+
     public static PrefabDatabase Instance
     {
         get

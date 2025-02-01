@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7282f81c676044faea1d50c0e67a3fba, type: 3}
+  m_Name: HistoryDatabase
+  m_EditorClassIdentifier: 
+  history:
+  - characters:
+    - powerMultiplicator: 0
+      characterStar: 0
+      characterId: 0
+      actualHealth: 0
+      actualKi: 0
+      selectedUltimateAttack: 0
+      characterPassives: []
+      isPlayerCharacter: 0
+    - powerMultiplicator: 0
+      characterStar: 0
+      characterId: 33
+      actualHealth: 0
+      actualKi: 0
+      selectedUltimateAttack: 0
+      characterPassives: []
+      isPlayerCharacter: 0
+    round: 34
+    seconds: 2983
+  - characters:
+    - powerMultiplicator: 0
+      characterStar: 0
+      characterId: 0
+      actualHealth: 0
+      actualKi: 0
+      selectedUltimateAttack: 0
+      characterPassives: []
+      isPlayerCharacter: 0
+    - powerMultiplicator: 0
+      characterStar: 0
+      characterId: 33
+      actualHealth: 0
+      actualKi: 0
+      selectedUltimateAttack: 0
+      characterPassives: []
+      isPlayerCharacter: 0
+    round: 34
+    seconds: 2983
+  - characters:
+    - powerMultiplicator: 0
+      characterStar: 0
+      characterId: 0
+      actualHealth: 0
+      actualKi: 0
+      selectedUltimateAttack: 0
+      characterPassives: []
+      isPlayerCharacter: 0
+    - powerMultiplicator: 0
+      characterStar: 0
+      characterId: 33
+      actualHealth: 0
+      actualKi: 0
+      selectedUltimateAttack: 0
+      characterPassives: []
+      isPlayerCharacter: 0
+    round: 34
+    seconds: 2983
+  - characters:
+    - powerMultiplicator: 0
+      characterStar: 0
+      characterId: 0
+      actualHealth: 0
+      actualKi: 0
+      selectedUltimateAttack: 0
+      characterPassives: []
+      isPlayerCharacter: 0
+    - powerMultiplicator: 0
+      characterStar: 0
+      characterId: 33
+      actualHealth: 0
+      actualKi: 0
+      selectedUltimateAttack: 0
+      characterPassives: []
+      isPlayerCharacter: 0
+    round: 34
+    seconds: 2983

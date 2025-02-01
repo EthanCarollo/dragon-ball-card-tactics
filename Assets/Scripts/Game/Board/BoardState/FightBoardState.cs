@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -138,6 +139,10 @@ public class FightBoardState : BoardState
             GameManager.Instance.boardCharacterArray = boardBeforeFight;
             GameManager.Instance.Player.Life.LooseLife(1);
             if(GameManager.Instance.Player.Life.IsAlive() == false){
+                ;
+                HistoryDatabase.Instance.AddFight(GameManager.Instance.GetCharactersOnBoard()
+                    .Where(character => character.character.isPlayerCharacter).Select(character => character.character).ToArray(), 
+                    GameManager.Instance.actualRound, 0);
                 LoosePanelUiManager.Instance.ShowLoosePanel();
             } else {
                 GameManager.Instance.GoNextFight();

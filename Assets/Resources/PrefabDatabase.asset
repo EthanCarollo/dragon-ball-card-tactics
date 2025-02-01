@@ -16,3 +16,5 @@ MonoBehaviour:
   namekDefaultMap: {fileID: 995354289898027383, guid: f64c79d6e4b5c4890852b64b1e322d79, type: 3}
   draggedCardPrefab: {fileID: 9023534854517842936, guid: c182de61f7d26994db9c21880e96b18e, type: 3}
   cardDeckMainMenuPrefab: {fileID: 9023534854517842936, guid: d1eeeb80da06649b3a9170388d7fb76c, type: 3}
+  historyPrefab: {fileID: 3150679705245051667, guid: 6f028515bc87444648be3d5cc23e8088, type: 3}
+  littleCharacterContainer: {fileID: 2896640020421041948, guid: 8b2ebbc04f2e64db6bf9c74272e20bad, type: 3}
