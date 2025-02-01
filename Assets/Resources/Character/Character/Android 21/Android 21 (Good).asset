@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Android 21 (Good)
   m_EditorClassIdentifier: 
-  id: 8
+  id: 7
   starNumber: 1
   characterName: Android 21 (Good)
   role: 1
@@ -25,7 +25,7 @@ MonoBehaviour:
   baseRange: 1
   baseDamage: 25
   baseArmor: 65
-  baseSpeed: 2
+  baseSpeed: 14
   baseAttackSpeed: 0.35
   baseCriticalChance: 5
   idleAnimation: {fileID: 11400000, guid: 60fa079c90898aa4f87d94e3dd3174ef, type: 2}
@@ -36,7 +36,9 @@ MonoBehaviour:
   - name: Connoisseur Cut
     description: Stabs the opponent with an energy blade
     animation: {fileID: 11400000, guid: 3c2e323e6d75eb34fa80793ed7e78b6d, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  characterPassive:
-  - {fileID: 11400000, guid: 74b98c19010129d489393e128c5c762c, type: 2}
-  card: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  sameCharacters:
+  - {fileID: 11400000, guid: 8a24df437e4906c438f9597645f64b8b, type: 2}
+  synergies: []

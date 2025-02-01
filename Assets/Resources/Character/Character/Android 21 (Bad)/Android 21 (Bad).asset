@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Android 21 (Bad)
   m_EditorClassIdentifier: 
-  id: 13
+  id: 6
   starNumber: 1
   characterName: Android 21 (Bad)
   role: 0
@@ -25,7 +25,7 @@ MonoBehaviour:
   baseRange: 1
   baseDamage: 65
   baseArmor: 25
-  baseSpeed: 2
+  baseSpeed: 14
   baseAttackSpeed: 1.25
   baseCriticalChance: 40
   idleAnimation: {fileID: 11400000, guid: 63ca0da561c69ed4192c412c1c64ae55, type: 2}
@@ -36,5 +36,9 @@ MonoBehaviour:
   - name: 'Kamehameha '
     description: Fires a Kamehameha forward.
     animation: {fileID: 11400000, guid: 8b7814fbfb5b8324e9ddc461445c038e, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  characterPassive: []
+  baseCharacter: {fileID: 0}
+  sameCharacters:
+  - {fileID: 11400000, guid: 12084a8006bfe504fa66250ef4072a91, type: 2}
+  synergies: []

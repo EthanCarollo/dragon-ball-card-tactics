@@ -11,6 +11,7 @@ public class TransformationCard : Card
 {
     [SerializeField]
     public TransformationsPossible[] transformations;
+    public bool infiniteUse = false;
 
     protected BoardCharacter GetCharacterOnMouse()
     {
@@ -114,7 +115,7 @@ public class TransformationCard : Card
             BoardGameUiManager.Instance.RefreshUI();
 
             // Retire la carte après utilisation
-            GameManager.Instance.RemoveCard(this);
+            if(infiniteUse == false) GameManager.Instance.RemoveCard(this);
         }
     }
 
