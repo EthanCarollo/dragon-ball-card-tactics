@@ -35,9 +35,11 @@ MonoBehaviour:
   specialAttackAnimation:
   - name: 
     description: 
-    animation: {fileID: 11400000, guid: e0446bacbc0bac947a0f5d959f48eac2, type: 2}
+    animation: {fileID: 11400000, guid: 94ed4dc8937e74d2f808dc60cf4355b8, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
   - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}

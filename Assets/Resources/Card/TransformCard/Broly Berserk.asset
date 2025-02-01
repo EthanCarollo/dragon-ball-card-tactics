@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a96663c368a73465aa7247c462f32203, type: 3}
+  m_Name: Broly Berserk
+  m_EditorClassIdentifier: 
+  manaCost: 6
+  rarity: 4
+  name: Broly Berserk
+  image: {fileID: 21300000, guid: 58c2c991c6cab47c2af370ade4f353a3, type: 3}
+  fullartImage: {fileID: 21300000, guid: 79e271e5d52274b8d8eb1c893f2e95a4, type: 3}
+  uiEffectPreset: DemonicEffect
+  transformations:
+  - character: {fileID: 11400000, guid: 1555c465fc48e4cb89353fe5b1a3b679, type: 2}
+    transformation: {fileID: 11400000, guid: 8021f7d76204044e99b1a563a79cffcf, type: 2}
+  - character: {fileID: 11400000, guid: b7c09c08fd054419e9233e2b0e3926ce, type: 2}
+    transformation: {fileID: 11400000, guid: 45017b60def1b4fd484adff113384f74, type: 2}

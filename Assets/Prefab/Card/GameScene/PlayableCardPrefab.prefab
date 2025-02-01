@@ -689,7 +689,7 @@ MonoBehaviour:
   m_Interval: 0
   m_PlayOnEnable: 1
   m_ResetTimeOnEnable: 1
-  m_WrapMode: 1
+  m_WrapMode: 3
   m_UpdateMode: 0
   m_OnComplete:
     m_PersistentCalls:

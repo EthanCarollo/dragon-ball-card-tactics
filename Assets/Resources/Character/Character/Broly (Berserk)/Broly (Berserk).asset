@@ -10,38 +10,38 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
-  m_Name: Broly (SSJ)
+  m_Name: Broly (Berserk)
   m_EditorClassIdentifier: 
-  id: 22
+  id: 21
   starNumber: 1
-  characterName: Broly (SSJ)
+  characterName: Broly (Berserk)
   role: 0
   characterType: 3
-  characterSprite: {fileID: -4805918802842454729, guid: dde213a8b169e4d8a9077510b7b8b453, type: 3}
-  characterIcon: {fileID: 21300000, guid: f0160f6f9761b452893661d30b4df150, type: 3}
+  characterSprite: {fileID: 3780324624086923800, guid: a9211ec45e97b44669aacd2b5c4d7687, type: 3}
+  characterIcon: {fileID: 21300000, guid: 58c2c991c6cab47c2af370ade4f353a3, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 670
+  maxHealth: 4900
   maxKi: 75
   baseRange: 1
-  baseDamage: 90
-  baseArmor: 25
-  baseSpeed: 12
-  baseAttackSpeed: 1.05
-  baseCriticalChance: 40
-  idleAnimation: {fileID: 11400000, guid: a0c22ffb6e2df41d0983a34231d7535b, type: 2}
-  runAnimation: {fileID: 11400000, guid: d99b9cf04bd8543ea9942eeb437acc2f, type: 2}
-  attackAnimation: {fileID: 11400000, guid: 7e0605cbec68f408abbcc14ec3a361d8, type: 2}
-  criticalAttackAnimation: {fileID: 11400000, guid: 7e0605cbec68f408abbcc14ec3a361d8, type: 2}
+  baseDamage: 400
+  baseArmor: 120
+  baseSpeed: 20
+  baseAttackSpeed: 1.4
+  baseCriticalChance: 50
+  idleAnimation: {fileID: 11400000, guid: 1d3378b44d7394a3489e2c7072537ffc, type: 2}
+  runAnimation: {fileID: 11400000, guid: a5946955122d14fa5b39d911cafde655, type: 2}
+  attackAnimation: {fileID: 11400000, guid: be288533359a7485b9a48de9e9e57512, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 64a8aea5c3cf44de6bec74fc8bfc88ef, type: 2}
   specialAttackAnimation:
   - name: Super Ki Blast
     description: Ultra Ki Blast
-    animation: {fileID: 11400000, guid: 96e90d7696f03417c9b43f67a96e7be0, type: 2}
+    animation: {fileID: 11400000, guid: 477f89601f6ed4370a13e4c9ebcd0720, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 11400000, guid: 1555c465fc48e4cb89353fe5b1a3b679, type: 2}
   sameCharacters:
-  - {fileID: 11400000, guid: db28d55647504416897638f35ba82a2c, type: 2}
   - {fileID: 11400000, guid: 1555c465fc48e4cb89353fe5b1a3b679, type: 2}
+  - {fileID: 11400000, guid: b7c09c08fd054419e9233e2b0e3926ce, type: 2}
   synergies:
   - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
