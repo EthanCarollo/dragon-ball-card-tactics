@@ -10,6 +10,7 @@ public class GameManager
     public static bool DebugMode = true;
     public static int BoardWidth = 11;
     public static int BoardHeight = 7;
+    public float elapsedTime = 0f;
     
     public static GameManager Instance
     {
@@ -50,6 +51,7 @@ public class GameManager
         CharacterDatabase.Instance.AssignUniqueIDs();
         SetMap(PrefabDatabase.Instance.namekDefaultMap);
         difficultyMutliplicator = 1.00f;
+        elapsedTime = 0f;
         try {
             Cursor.SetCursor(SpriteDatabase.Instance.normalCursor, Vector2.zero, CursorMode.Auto);
         } catch(Exception error){

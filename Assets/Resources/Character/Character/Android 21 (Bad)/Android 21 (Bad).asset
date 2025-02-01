@@ -20,7 +20,7 @@ MonoBehaviour:
   characterSprite: {fileID: -2744442725662649983, guid: d1c91efce88d4bb42922fdb458228e17, type: 3}
   characterIcon: {fileID: 1000722348694945793, guid: 867840d238ee60a4fb9dbf7229b0dedc, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 4050
+  maxHealth: 1250
   maxKi: 95
   baseRange: 1
   baseDamage: 65
@@ -41,4 +41,8 @@ MonoBehaviour:
   baseCharacter: {fileID: 0}
   sameCharacters:
   - {fileID: 11400000, guid: 12084a8006bfe504fa66250ef4072a91, type: 2}
-  synergies: []
+  synergies:
+  - {fileID: 11400000, guid: 2cb9ba8a614734a358c15cedc22a075f, type: 2}
+  - {fileID: 11400000, guid: 4ba1bf47f6be1489fb5be013c0e05f1e, type: 2}
+  - {fileID: 11400000, guid: 4c06df1b7d77047398c15d5152c8ec1b, type: 2}
+  - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}

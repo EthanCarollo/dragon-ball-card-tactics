@@ -3,8 +3,14 @@ using UnityEngine;
 
 public class HistoryContainer : MonoBehaviour {
     public Transform historyFightContainer;
+    public TextMeshProUGUI nothingText;
 
     public void Start(){
+        if(HistoryDatabase.Instance.history.Length == 0){
+            nothingText.gameObject.SetActive(true);
+        }else{
+            nothingText.gameObject.SetActive(false);
+        }
         foreach(Transform child in historyFightContainer){
             Destroy(child.gameObject);
         }

@@ -142,7 +142,7 @@ public class FightBoardState : BoardState
                 ;
                 HistoryDatabase.Instance.AddFight(GameManager.Instance.GetCharactersOnBoard()
                     .Where(character => character.character.isPlayerCharacter).Select(character => character.character).ToArray(), 
-                    GameManager.Instance.actualRound, 0);
+                    GameManager.Instance.actualRound, Mathf.RoundToInt(GameManager.Instance.elapsedTime));
                 LoosePanelUiManager.Instance.ShowLoosePanel();
             } else {
                 GameManager.Instance.GoNextFight();

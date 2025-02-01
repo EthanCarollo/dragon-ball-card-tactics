@@ -8,10 +8,9 @@ public class HistoryFightGameObject : MonoBehaviour {
     public Transform characterContainer;
 
     public void Setup(HistoryFight history){
-        int minutes = history.seconds / 60;
-        int seconds = history.seconds % 60;
-        
-        timeText.text = minutes.ToString() + ":" + seconds.ToString();
+        int minutes = Mathf.FloorToInt(history.seconds / 60);
+        int seconds = Mathf.FloorToInt(history.seconds % 60);
+        timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
         roundText.text = "Round : " + history.round.ToString();
         foreach(Transform child in characterContainer){
             Destroy(child.gameObject);
