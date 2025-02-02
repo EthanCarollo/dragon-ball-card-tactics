@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEditor;
 using UnityEngine.TextCore.Text;
 using System.Linq;
-using System.Collections.Generic;
 
 [CreateAssetMenu(fileName = "NewCharacterDatabase", menuName = "Character/CharacterDatabase")]
 public class CharacterDatabase : ScriptableObject
@@ -32,22 +31,12 @@ public class CharacterDatabase : ScriptableObject
     {
         if (this.characterDatas != null)
         {
-            HashSet<int> existingIds = new HashSet<int>(characterDatas.Select(c => c.id));
-
-            int nextAvailableId = existingIds.Count > 0 ? existingIds.Max() + 1 : 0;
-
-            foreach (var character in this.characterDatas)
+            for (int i = 0; i < this.characterDatas.Length; i++)
             {
-                if (character.id < 0 || existingIds.Contains(character.id) == false)
-                {
-                    character.id = nextAvailableId;
-                    existingIds.Add(nextAvailableId);
-                    nextAvailableId++;
-                }
+                this.characterDatas[i].id = i;
             }
         }
     }
-
     
     public CharacterData GetCharacterById(int id)
     {
@@ -70,15 +59,16 @@ public class CharacterDatabase : ScriptableObject
     public void RefreshCharacterList()
     {
         string[] guids = AssetDatabase.FindAssets("t:CharacterData");
-        characterDatas = new CharacterData[guids.Length];
+        var newCharacterDatas = new CharacterData[guids.Length];
 
         for (int i = 0; i < guids.Length; i++)
         {
             string path = AssetDatabase.GUIDToAssetPath(guids[i]);
-            characterDatas[i] = AssetDatabase.LoadAssetAtPath<CharacterData>(path);
+            newCharacterDatas[i] = AssetDatabase.LoadAssetAtPath<CharacterData>(path);
         }
 
-        foreach(var character in characterDatas){
+        foreach(var character in newCharacterDatas){
+            if(characterDatas.Contains(character)) continue;
             if (character.sameCharacters == null){
                 Debug.LogWarning("This character has same characters to null wtf : " + character.characterName);
                 continue;
@@ -86,6 +76,10 @@ public class CharacterDatabase : ScriptableObject
             if(character.sameCharacters.Contains(null)){
                 Debug.LogWarning("This character contains bad same character : " + character.characterName);
             }
+            Debug.LogWarning("Add new character : " + character.characterName);
+            var characterDataList = characterDatas.ToList();
+            characterDataList.Add(character);
+            characterDatas = characterDataList.ToArray();
         }
 
         this.AssignUniqueIDs();

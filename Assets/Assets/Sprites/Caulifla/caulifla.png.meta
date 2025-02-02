@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 4efb7059e187d4b55bbdfe038e583e23
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8059007915168830003
+    second: caulifla_0
+  - first:
+      213: 4019206338786666031
+    second: caulifla_1
+  - first:
+      213: 3756231264928663846
+    second: caulifla_2
+  - first:
+      213: 8749572636772608545
+    second: caulifla_3
+  - first:
+      213: -3561281578331694132
+    second: caulifla_4
+  - first:
+      213: -3646903680122251522
+    second: caulifla_5
+  - first:
+      213: 7265506985301566710
+    second: caulifla_6
+  - first:
+      213: -9046769883982536658
+    second: caulifla_7
+  - first:
+      213: 8728082091254896517
+    second: caulifla_8
+  - first:
+      213: -5865843307239767234
+    second: caulifla_9
+  - first:
+      213: 5471675036668776412
+    second: caulifla_10
+  - first:
+      213: 8457691137220095718
+    second: caulifla_11
+  - first:
+      213: 1737896379274508420
+    second: caulifla_12
+  - first:
+      213: -3838615974066610099
+    second: caulifla_13
+  - first:
+      213: 97983966264605519
+    second: caulifla_14
+  - first:
+      213: -742094379280896
+    second: caulifla_15
+  - first:
+      213: -3054942489108074998
+    second: caulifla_16
+  - first:
+      213: 482322131562706875
+    second: caulifla_17
+  - first:
+      213: 4185337644481639163
+    second: caulifla_18
+  - first:
+      213: 593033380076846821
+    second: caulifla_19
+  - first:
+      213: 9141577298733541421
+    second: caulifla_20
+  - first:
+      213: 4844847018872685037
+    second: caulifla_21
+  - first:
+      213: 1723981867641176085
+    second: caulifla_22
+  - first:
+      213: -8632159954629338839
+    second: caulifla_23
+  - first:
+      213: 2469255053911569496
+    second: caulifla_24
+  - first:
+      213: -4648030809730770524
+    second: caulifla_25
+  - first:
+      213: 6876889142136870498
+    second: caulifla_26
+  - first:
+      213: -8133604386507749075
+    second: caulifla_27
+  - first:
+      213: -6730600039876793592
+    second: caulifla_28
+  - first:
+      213: -2072576379656409378
+    second: caulifla_29
+  - first:
+      213: -4274111757923958908
+    second: caulifla_30
+  - first:
+      213: 4503765390385388272
+    second: caulifla_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: caulifla_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 956
+        width: 29
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcdec46eff6a82090800000000000000
+      internalID: -8059007915168830003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 956
+        width: 30
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26a066ded617c730800000000000000
+      internalID: 4019206338786666031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 956
+        width: 31
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6290a402f60d02430800000000000000
+      internalID: 3756231264928663846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 959
+        width: 37
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a2f47b4f9bc6970800000000000000
+      internalID: 8749572636772608545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_4
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 968
+        width: 54
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb9562e549c39ec0800000000000000
+      internalID: -3561281578331694132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_5
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 982
+        width: 48
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef69f30dc68936dc0800000000000000
+      internalID: -3646903680122251522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_6
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 968
+        width: 61
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4e40cdb1444d460800000000000000
+      internalID: 7265506985301566710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_7
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 976
+        width: 46
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20e48ce8ba637280800000000000000
+      internalID: -9046769883982536658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_8
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 968
+        width: 36
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58752bb2b60602970800000000000000
+      internalID: 8728082091254896517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 968
+        width: 50
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e330fd33796589ea0800000000000000
+      internalID: -5865843307239767234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 894
+        width: 30
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfc307a47b4feb40800000000000000
+      internalID: 5471675036668776412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_11
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 894
+        width: 36
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee29fd4741cf5570800000000000000
+      internalID: 8457691137220095718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_12
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 895
+        width: 33
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48838179c8f3e1810800000000000000
+      internalID: 1737896379274508420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_13
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 892
+        width: 35
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40ae940c1f7abac0800000000000000
+      internalID: -3838615974066610099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 892
+        width: 47
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bb2eee5eb1c5100800000000000000
+      internalID: 97983966264605519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_15
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 892
+        width: 51
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0061220b11d5dfff0800000000000000
+      internalID: -742094379280896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_16
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 893
+        width: 36
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e277fedf9aa95d0800000000000000
+      internalID: -3054942489108074998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_17
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 894
+        width: 36
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7ba175c6d81b600800000000000000
+      internalID: 482322131562706875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_18
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 810
+        width: 27
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2f56ca96e451a30800000000000000
+      internalID: 4185337644481639163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_19
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 810
+        width: 30
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eefd6797b0ea3800800000000000000
+      internalID: 593033380076846821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_20
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 810
+        width: 33
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28a9c97e186dde70800000000000000
+      internalID: 9141577298733541421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_21
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 830
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1440fc1ba5c3340800000000000000
+      internalID: 4844847018872685037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_22
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 810
+        width: 34
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51087f3ef50dce710800000000000000
+      internalID: 1723981867641176085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_23
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 810
+        width: 32
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92957f3a148643880800000000000000
+      internalID: -8632159954629338839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_24
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 810
+        width: 30
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854bc3c836e844220800000000000000
+      internalID: 2469255053911569496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_25
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 810
+        width: 29
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a91de8da90ee7fb0800000000000000
+      internalID: -4648030809730770524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_26
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 810
+        width: 29
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2661fcc4d3e9f6f50800000000000000
+      internalID: 6876889142136870498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_27
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 810
+        width: 28
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2985a677e1af1f80800000000000000
+      internalID: -8133604386507749075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_28
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 810
+        width: 27
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80be9e98cea1892a0800000000000000
+      internalID: -6730600039876793592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 810
+        width: 33
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edee6b083cabc33e0800000000000000
+      internalID: -2072576379656409378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_30
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 810
+        width: 33
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f3f9a500e4fa4c0800000000000000
+      internalID: -4274111757923958908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caulifla_31
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 799
+        width: 209
+        height: 76
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 94, y: 0, z: 51, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa9e95b2c6908e30800000000000000
+      internalID: 4503765390385388272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cffd5c7df42aa472f89a4075099aabac
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      caulifla_0: -8059007915168830003
+      caulifla_1: 4019206338786666031
+      caulifla_10: 5471675036668776412
+      caulifla_11: 8457691137220095718
+      caulifla_12: 1737896379274508420
+      caulifla_13: -3838615974066610099
+      caulifla_14: 97983966264605519
+      caulifla_15: -742094379280896
+      caulifla_16: -3054942489108074998
+      caulifla_17: 482322131562706875
+      caulifla_18: 4185337644481639163
+      caulifla_19: 593033380076846821
+      caulifla_2: 3756231264928663846
+      caulifla_20: 9141577298733541421
+      caulifla_21: 4844847018872685037
+      caulifla_22: 1723981867641176085
+      caulifla_23: -8632159954629338839
+      caulifla_24: 2469255053911569496
+      caulifla_25: -4648030809730770524
+      caulifla_26: 6876889142136870498
+      caulifla_27: -8133604386507749075
+      caulifla_28: -6730600039876793592
+      caulifla_29: -2072576379656409378
+      caulifla_3: 8749572636772608545
+      caulifla_30: -4274111757923958908
+      caulifla_31: 4503765390385388272
+      caulifla_4: -3561281578331694132
+      caulifla_5: -3646903680122251522
+      caulifla_6: 7265506985301566710
+      caulifla_7: -9046769883982536658
+      caulifla_8: 8728082091254896517
+      caulifla_9: -5865843307239767234
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
