@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      frieza-golden-icon_0: 5335474603300150612
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

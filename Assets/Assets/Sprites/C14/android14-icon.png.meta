@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      android14-icon_0: 6304240045349015979
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

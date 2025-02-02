@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      android14_0: -2174024474987752116
+      android14_1: 5625094956623200591
+      android14_10: 4493036086484965561
+      android14_11: 8864792196652414046
+      android14_12: 9191209719109907598
+      android14_13: -6065951553083239662
+      android14_14: -2605512125936419880
+      android14_15: -8904323123566978603
+      android14_2: 36921839282612022
+      android14_3: 1070275631122745508
+      android14_4: -669455027942060469
+      android14_5: -3040053307876745600
+      android14_6: 4902965371649167960
+      android14_7: 1313595149105931517
+      android14_8: 4244687010166354102
+      android14_9: 2790303690701638827
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

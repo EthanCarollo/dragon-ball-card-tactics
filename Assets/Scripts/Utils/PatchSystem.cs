@@ -132,7 +132,13 @@ public class PatchSystem : MonoBehaviour
         LogMessage("Applying update...");
         try
         {
-            string appPath = Application.dataPath;  // Path for extracting the patch
+            string appPath = Directory.GetParent(Application.dataPath.Replace("_Data", "")).FullName;
+            // Path for extracting the patch
+            
+            #if UNITY_STANDALONE_OSX
+                        appPath = Application.dataPath;  
+            #endif
+
 
             if (File.Exists(patchFilePath) && new FileInfo(patchFilePath).Length > 0)
             {
@@ -173,58 +179,46 @@ public class PatchSystem : MonoBehaviour
     {
         try
         {
-            // Ensure the application directory exists
             if (!Directory.Exists(extractPath))
             {
                 Directory.CreateDirectory(extractPath);
                 LogMessage("Creating app directory: " + extractPath);
             }
-
             using (ZipArchive archive = ZipFile.OpenRead(zipPath))
             {
                 foreach (ZipArchiveEntry entry in archive.Entries)
                 {
                     string destinationPath = Path.Combine(extractPath, entry.FullName);
-
-                    // If the entry is a directory, create it
                     if (string.IsNullOrEmpty(entry.Name))
                     {
                         Directory.CreateDirectory(destinationPath);
                         LogMessage("Creating directory: " + destinationPath);
                         continue;
                     }
-
-                    // Create necessary parent directories
                     string directoryPath = Path.GetDirectoryName(destinationPath);
                     if (!Directory.Exists(directoryPath))
                     {
                         Directory.CreateDirectory(directoryPath);
                         LogMessage("Creating directory: " + directoryPath);
                     }
-
-                    // Delete existing file if it exists (to overwrite)
                     if (File.Exists(destinationPath))
                     {
                         LogMessage("Deleting existing file: " + destinationPath);
                         File.Delete(destinationPath); // Delete old file
                     }
-
-                    // Extract the file and overwrite
                     entry.ExtractToFile(destinationPath, true);
                     LogMessage("Extracted and replaced file: " + destinationPath);
-
-                    // Ensure app is executable
+                    
+#if UNITY_STANDALONE_OSX
                     string appExecutablePath = Path.Combine(extractPath, "MacOS/Dragon Ball Card Tactics");  // macOS executable path
                     if (File.Exists(appExecutablePath))
                     {
-                        // Set execute permission on the executable
                         System.Diagnostics.Process.Start("chmod", "+x \"" + appExecutablePath + "\"");
                         LogMessage("Added execute permissions to: " + appExecutablePath);
-
-                        // Remove quarantine attribute if necessary
                         System.Diagnostics.Process.Start("xattr", "-d com.apple.quarantine \"" + appExecutablePath + "\"");
                         LogMessage("Removed quarantine attribute for: " + appExecutablePath);
-                    }
+                    } 
+#endif
                 }
             }
         }
