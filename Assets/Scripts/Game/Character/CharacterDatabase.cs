@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityEngine.TextCore.Text;
 using System.Linq;
+using System.Collections.Generic;
 
 [CreateAssetMenu(fileName = "NewCharacterDatabase", menuName = "Character/CharacterDatabase")]
 public class CharacterDatabase : ScriptableObject
@@ -31,12 +32,22 @@ public class CharacterDatabase : ScriptableObject
     {
         if (this.characterDatas != null)
         {
-            for (int i = 0; i < this.characterDatas.Length; i++)
+            HashSet<int> existingIds = new HashSet<int>(characterDatas.Select(c => c.id));
+
+            int nextAvailableId = existingIds.Count > 0 ? existingIds.Max() + 1 : 0;
+
+            foreach (var character in this.characterDatas)
             {
-                this.characterDatas[i].id = i;
+                if (character.id < 0 || existingIds.Contains(character.id) == false)
+                {
+                    character.id = nextAvailableId;
+                    existingIds.Add(nextAvailableId);
+                    nextAvailableId++;
+                }
             }
         }
     }
+
     
     public CharacterData GetCharacterById(int id)
     {
