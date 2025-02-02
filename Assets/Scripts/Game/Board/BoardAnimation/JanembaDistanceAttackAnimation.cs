@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections;
 using System;
-using UnityEditor.PackageManager;
 
 
 [CreateAssetMenu(fileName = "New Janemba Distance Attack Animation", menuName = "BoardAnimation/JanembaDistanceAttackAnimation")]

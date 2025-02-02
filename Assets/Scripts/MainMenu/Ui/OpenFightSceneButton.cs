@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 class OpenFightSceneButton : MonoBehaviour, IPointerClickHandler {
     public void OnPointerClick(PointerEventData eventData)
     {
-        SceneTransitor.Instance.LoadScene(1, () => {
+        SceneTransitor.Instance.LoadScene(2, () => {
             GameManager.Instance.Start();
         });
     }

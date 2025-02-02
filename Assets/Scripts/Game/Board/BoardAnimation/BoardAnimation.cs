@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections;
 using System;
-using UnityEditor.UIElements;
 
 
 [CreateAssetMenu(fileName = "New Board Animation", menuName = "BoardAnimation/BoardAnimation")]
