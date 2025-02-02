@@ -17,6 +17,7 @@ public class PatchSystem : MonoBehaviour
     public TextMeshProUGUI statusText;
     public TextMeshProUGUI logText;
     public TextMeshProUGUI pathText;
+    public TextMeshProUGUI versionText;
     public Button updateButton;  // Reference to the button
 
     private string localVersion;
@@ -31,6 +32,7 @@ public class PatchSystem : MonoBehaviour
         {
             EnableUpdateButton();
             statusText.text = "Running in Unity Editor, no patching logic.";
+            versionText.text = "version unity editor";
         }
         else
         {
@@ -49,17 +51,9 @@ public class PatchSystem : MonoBehaviour
         statusText.text = "Checking for updates...";
         LogMessage("Checking for updates...");
         
-        // Load local version
-        if (File.Exists(Application.persistentDataPath + "/" + localVersionFile))
-        {
-            localVersion = File.ReadAllText(Application.persistentDataPath + "/" + localVersionFile).Trim();
-        }
-        else
-        {
-            localVersion = "0.0.0"; // Default version if no local version file
-            File.WriteAllText(Application.persistentDataPath + "/" + localVersionFile, localVersion); // Write version to prevent issues next time
-        }
+        localVersion = GlobalGameConfig.version;
 
+        versionText.text = "version " + localVersion;
         LogMessage("Local version: " + localVersion);
         
         // Get remote version
@@ -148,16 +142,10 @@ public class PatchSystem : MonoBehaviour
                 // Delete the patch file after processing
                 File.Delete(patchFilePath);
                 
-                // Update local version file
-                File.WriteAllText(Application.persistentDataPath + "/" + localVersionFile, remoteVersion);
-                
                 // Notify that update is done and app is ready to restart
                 statusText.text = "Update complete! Restarting...";
                 LogMessage("Update complete! Restarting...");
                 
-                // Enable the update button after successful patch
-                EnableUpdateButton();
-
                 // Restart the application
                 StartCoroutine(RestartGame());
             }
