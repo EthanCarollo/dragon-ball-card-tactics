@@ -79,6 +79,7 @@ public class CharacterContainer
 
     public void AddStar(int starNumber){
         characterStar += starNumber;
+        this.actualHealth = this.GetCharacterMaxHealth();
         NotifyCharacterChanged();
     }
     

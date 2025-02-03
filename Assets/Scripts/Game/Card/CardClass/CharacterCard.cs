@@ -79,6 +79,7 @@ public class CharacterCard : Card
                     });
             if(characterExist != null){
                 characterExist.character.AddStar(1);
+                characterExist.SetCharacterSlider();
                 GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
                 BoardGameUiManager.Instance.ShowLooseMana(manaCost);
                 GameManager.Instance.RemoveCard(this);
