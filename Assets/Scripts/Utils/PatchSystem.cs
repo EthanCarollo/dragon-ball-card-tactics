@@ -10,15 +10,17 @@ using UnityEngine.UI;
 public class PatchSystem : MonoBehaviour
 {
     public string versionFileUrl = "http://localhost:3000/version.txt";
-    public string windowsPatchFileUrl = "http://localhost:3000/patch_windows.zip";  // Windows patch URL
-    public string macPatchFileUrl = "http://localhost:3000/patch_mac.zip";  // macOS patch URL
+    public string windowsPatchFileUrl = "http://localhost:3000/patch_windows.zip";
+    public string macPatchFileUrl = "http://localhost:3000/patch_mac.zip";
     public string localVersionFile = "version.txt";
-    public string localPatchPath = "patch.zip";  // This will be overwritten based on platform
+    public string localPatchPath = "patch.zip";
     public TextMeshProUGUI statusText;
     public TextMeshProUGUI logText;
     public TextMeshProUGUI pathText;
     public TextMeshProUGUI versionText;
-    public Button updateButton;  // Reference to the button
+    public TextMeshProUGUI progressText;
+    public Slider progressBar;
+    public Button updateButton;
 
     private string localVersion;
     private string remoteVersion;
@@ -36,7 +38,14 @@ public class PatchSystem : MonoBehaviour
         }
         else
         {
-            StartCoroutine(CheckForUpdates());
+            try
+            {
+                StartCoroutine(CheckForUpdates());
+            }
+            catch (Exception error)
+            {
+                statusText.text = error.Message;
+            }
         }
     }
 
@@ -46,17 +55,17 @@ public class PatchSystem : MonoBehaviour
         logText.text += message + "\n";
     }
 
+    
+
     IEnumerator CheckForUpdates()
     {
         statusText.text = "Checking for updates...";
         LogMessage("Checking for updates...");
         
         localVersion = GlobalGameConfig.version;
-
         versionText.text = "version " + localVersion;
         LogMessage("Local version: " + localVersion);
         
-        // Get remote version
         using (UnityWebRequest request = UnityWebRequest.Get(versionFileUrl))
         {
             yield return request.SendWebRequest();
@@ -79,8 +88,6 @@ public class PatchSystem : MonoBehaviour
             {
                 statusText.text = "Failed to check for updates. Please try again later.";
                 LogMessage("Failed to check for updates. Error: " + request.error);
-                
-                // Even if the update check failed, enable the button so the game can be played
                 EnableUpdateButton();
             }
         }
@@ -91,40 +98,38 @@ public class PatchSystem : MonoBehaviour
         statusText.text = "Downloading update...";
         LogMessage("Downloading update...");
 
-        // Determine the platform-specific patch URL
         string patchFileUrl = Application.platform == RuntimePlatform.WindowsPlayer ? windowsPatchFileUrl : macPatchFileUrl;
         string patchFilePath = Application.persistentDataPath + "/" + localPatchPath;
 
         using (UnityWebRequest request = UnityWebRequest.Get(patchFileUrl))
         {
             request.downloadHandler = new DownloadHandlerFile(patchFilePath);
-            yield return request.SendWebRequest();
-            try
+            request.SendWebRequest();
+            
+            while (!request.isDone)
             {
-                if (request.result == UnityWebRequest.Result.Success)
-                {
-                    LogMessage("Download complete, applying patch...");
-                    ApplyPatch(patchFilePath);
-                }
-                else
-                {
-                    statusText.text = "Failed to download patch: " + request.error;
-                    LogMessage("Failed to download patch: " + request.error);
-                    
-                    // Enable the button so the user can continue playing
-                    EnableUpdateButton();
-                }
+                float progress = request.downloadProgress * 100;
+                progressText.text = "Downloading: " + progress.ToString("F2") + "%";
+                progressBar.value = request.downloadProgress;
+                yield return null;
             }
-            catch (Exception ex)
+            
+            if (request.result == UnityWebRequest.Result.Success)
             {
-                LogMessage("Download error: " + ex.Message);
-                statusText.text = "Download error: " + ex.Message;
-                
-                // Enable the button so the user can continue playing
+                LogMessage("Download complete, applying patch...");
+                ApplyPatch(patchFilePath);
+            }
+            else
+            {
+                statusText.text = "Failed to download patch: " + request.error;
+                LogMessage("Failed to download patch: " + request.error);
                 EnableUpdateButton();
             }
         }
     }
+
+
+    
 
     void ApplyPatch(string patchFilePath)
     {
@@ -133,34 +138,23 @@ public class PatchSystem : MonoBehaviour
         try
         {
             string appPath = Directory.GetParent(Application.dataPath.Replace("_Data", "")).FullName;
-            // Path for extracting the patch
             
-            #if UNITY_STANDALONE_OSX
-                        appPath = Application.dataPath;  
-            #endif
-
+#if UNITY_STANDALONE_OSX
+                appPath = Application.dataPath;
+#endif
 
             if (File.Exists(patchFilePath) && new FileInfo(patchFilePath).Length > 0)
             {
-                // If patch file exists, start extraction
                 ExtractAndOverwrite(patchFilePath, appPath);
-                
-                // Delete the patch file after processing
                 File.Delete(patchFilePath);
-                
-                // Notify that update is done and app is ready to restart
                 statusText.text = "Update complete! Restarting...";
                 LogMessage("Update complete! Restarting...");
-                
-                // Restart the application
                 StartCoroutine(RestartGame());
             }
             else
             {
                 statusText.text = "Patch file is missing or empty.";
                 LogMessage("Patch file is missing or empty.");
-                
-                // Enable the button so the user can continue playing
                 EnableUpdateButton();
             }
         }
@@ -169,8 +163,6 @@ public class PatchSystem : MonoBehaviour
             Debug.LogError("Error applying patch: " + error);
             statusText.text = "Error applying patch: " + error.Message;
             LogMessage("Error applying patch: " + error.Message);
-            
-            // Enable the button so the user can continue playing
             EnableUpdateButton();
         }
     }
