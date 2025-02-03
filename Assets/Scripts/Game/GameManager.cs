@@ -52,6 +52,7 @@ public class GameManager
         SetMap(PrefabDatabase.Instance.namekDefaultMap);
         difficultyMutliplicator = 1.00f;
         elapsedTime = 0f;
+        actualRound = 0;
         try {
             Cursor.SetCursor(SpriteDatabase.Instance.normalCursor, Vector2.zero, CursorMode.Auto);
         } catch(Exception error){
