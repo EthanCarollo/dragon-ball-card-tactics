@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609dedaaa8204c1eb888bbdc7aa4b758, type: 3}
+  m_Name: SoundDatabase
+  m_EditorClassIdentifier: 
+  hoverButtonSound: {fileID: 8300000, guid: 6ef56305eff99994886899bb56f2088a, type: 3}
+  clickButtonSound: {fileID: 8300000, guid: e0668ae74377b6d4495b4eb15daf8e33, type: 3}
+  addCardInDeckSound: {fileID: 8300000, guid: 28fed97aff4c52b418acb6a0dc1b6e0a, type: 3}
+  retireCardInDeckSound: {fileID: 8300000, guid: 8663f49af33e36342b68b7cbd0f6c9ac, type: 3}

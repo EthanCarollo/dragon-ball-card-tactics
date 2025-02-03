@@ -10,6 +10,7 @@ public class CardDeckPrefab : CardPrefab, IPointerClickHandler
     public bool isInHand = false;
     public UIEffect effectForGui;
     public GameObject blackOverlay;
+    public AudioSource audioSource;
 
     public void Update(){
         if(isInHand == true) {
@@ -30,10 +31,14 @@ public class CardDeckPrefab : CardPrefab, IPointerClickHandler
             var cards = CardDatabase.Instance.playerCards.ToList();
             cards.Add(card);
             CardDatabase.Instance.playerCards = cards.ToArray();
+            audioSource.clip = SoundDatabase.Instance.addCardInDeckSound;
+            audioSource.Play();
         } else {
             var cards = CardDatabase.Instance.playerCards.ToList();
             cards.Remove(card);
             CardDatabase.Instance.playerCards = cards.ToArray();
+            audioSource.clip = SoundDatabase.Instance.retireCardInDeckSound;
+            audioSource.Play();
         }
         CardDeckMenuUiManager.Instance.RefreshUiCard();
     }

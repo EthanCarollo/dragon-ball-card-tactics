@@ -8,6 +8,7 @@ public class CardDeckMenuUiManager : MonoBehaviour {
     public static CardDeckMenuUiManager Instance;
     public int cardHandLimit = 3;
     public GameObject cardEmptyPrefab;
+    public AudioSource audioSource;
 
     public void Awake(){
         Instance = this;
@@ -37,6 +38,7 @@ public class CardDeckMenuUiManager : MonoBehaviour {
             var cb = Instantiate(PrefabDatabase.Instance.cardDeckMainMenuPrefab, cardHandContainer)
                 .GetComponent<CardDeckPrefab>();
             cb.SetupCard(card);
+            cb.audioSource = audioSource;
             cb.isInHand = true;
             
         }
@@ -46,8 +48,10 @@ public class CardDeckMenuUiManager : MonoBehaviour {
         {
             var card = cards[i];
             if(CardDatabase.Instance.playerCards.Contains(card)) continue;
-            Instantiate(PrefabDatabase.Instance.cardDeckMainMenuPrefab, cardDeckContainer)
-                .GetComponent<CardDeckPrefab>().SetupCard(cards[i]);
+            var cb = Instantiate(PrefabDatabase.Instance.cardDeckMainMenuPrefab, cardDeckContainer)
+                .GetComponent<CardDeckPrefab>();
+            cb.SetupCard(cards[i]);
+            cb.audioSource = audioSource;
         }
 
     }
