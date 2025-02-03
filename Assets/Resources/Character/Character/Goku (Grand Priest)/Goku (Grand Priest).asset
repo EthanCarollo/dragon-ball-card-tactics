@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku (Grand Priest)
   m_EditorClassIdentifier: 
-  id: 47
+  id: 51
   starNumber: 1
   characterName: Goku (Grand Priest)
   role: 0
   characterType: 2
-  characterSprite: {fileID: 7181375262653415248, guid: ccf548b6aeea947b38d198cd00b74ad2, type: 3}
-  characterIcon: {fileID: 21300000, guid: f0bbd4e5437434406a346eb699c933b1, type: 3}
+  characterSprite: {fileID: -4596623137041338643, guid: 5c01390b65ded47b6986f226fba8de24, type: 3}
+  characterIcon: {fileID: 21300000, guid: 6cf08e18a6ef54cf7a4c4788eaf81c31, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
   maxHealth: 2250
   maxKi: 65
@@ -38,6 +38,7 @@ MonoBehaviour:
     animation: {fileID: 11400000, guid: 8dd8c563820b44599aa496c414c250c4, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: 92d8b234a8cd84d83823a4c703abe5a9, type: 2}

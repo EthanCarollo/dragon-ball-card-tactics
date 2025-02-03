@@ -73,3 +73,6 @@ MonoBehaviour:
   playerCards:
   - {fileID: 11400000, guid: 857a4c63156ec4a8ba4fb1a90876366c, type: 2}
   - {fileID: 11400000, guid: 6b49052efb1454cb083c614e42a9dd9a, type: 2}
+  - {fileID: 11400000, guid: c3d1c7d9f66ad47f7a39ef18311eb52e, type: 2}
+  - {fileID: 11400000, guid: c3d1c7d9f66ad47f7a39ef18311eb52e, type: 2}
+  - {fileID: 11400000, guid: c3d1c7d9f66ad47f7a39ef18311eb52e, type: 2}
