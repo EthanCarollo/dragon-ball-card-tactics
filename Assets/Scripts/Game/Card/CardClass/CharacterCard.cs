@@ -101,6 +101,8 @@ public class CharacterCard : Card
 
             if (tileScript != null)
             {
+                if (GameManager.Instance.boardCharacterArray[tileScript.position.x, tileScript.position.y] !=
+                    null) return;
                 tileScript.assignedBoard.AddCharacterFromBoard(new BoardCharacter(new CharacterContainer(character.id, new List<CharacterPassive>(), 1, true)), tileScript.position);
                 GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
                 BoardGameUiManager.Instance.ShowLooseMana(manaCost);
@@ -185,7 +187,8 @@ public class CharacterCard : Card
                         return;
                     }
                 }
-                if (tileScript != null && tileScript.position.x <= 4)
+                if (tileScript != null && tileScript.position.x <= 4 && 
+                    GameManager.Instance.boardCharacterArray[tileScript.position.x, tileScript.position.y] == null)
                 {
                     LeanTween.move(CharacterDragInfo.draggedObject, tileScript.gameObject.transform.position, 0.1f).setEaseOutSine();
                     return;
