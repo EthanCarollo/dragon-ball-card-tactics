@@ -29,6 +29,10 @@ public class DefaultBoardState : BoardState
                 character.UpdateUi();
                 if (character is BoardCharacter boardCharacter && isCinematic == false)
                 {
+                    // On default board state every character are full life
+                    boardCharacter.character.actualHealth = boardCharacter.character.GetCharacterMaxHealth();
+                    boardCharacter.SetCharacterSlider();
+                    
                     boardCharacter.PlayAnimationIfNotRunning(boardCharacter.character.GetCharacterData().idleAnimation);
                 }
             }
