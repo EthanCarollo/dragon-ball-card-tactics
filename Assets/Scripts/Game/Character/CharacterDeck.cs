@@ -64,6 +64,7 @@ public class CharacterContainer
     public int actualHealth;
     public int actualKi;
     public int selectedUltimateAttack = 0;
+    public int maxCharacterStar = 5;
     public List<CharacterPassive> characterPassives = new List<CharacterPassive>();
     public bool isPlayerCharacter = true;
     
@@ -77,10 +78,16 @@ public class CharacterContainer
         this.isPlayerCharacter = isPlayerCharacter;
     }
 
-    public void AddStar(int starNumber){
+    public bool CanAddStar(){
+        return maxCharacterStar > characterStar;
+    }
+
+    public void AddStar(int starNumber = 1){
+        if(CanAddStar() == false) return;
         characterStar += starNumber;
         this.actualHealth = this.GetCharacterMaxHealth();
         NotifyCharacterChanged();
+        return;
     }
     
     public CharacterContainer(int characterId, int actualHealth, int actualKi, int starNumber, bool isPlayerCharacter)

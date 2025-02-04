@@ -41,6 +41,10 @@ public class CharacterCard : Card
                     }
                 }
             );
+
+            if(characterExist != null && characterExist.character.CanAddStar() == false){
+                return false;
+            }
             if(characterExist != null){
                 return true;
             }
@@ -79,7 +83,10 @@ public class CharacterCard : Card
                         return false;
                     });
             if(characterExist != null){
-                characterExist.character.AddStar(1);
+                if(characterExist.character.CanAddStar() == false){
+                    return;
+                }
+                characterExist.character.AddStar();
                 characterExist.SetCharacterSlider();
                 GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
                 BoardGameUiManager.Instance.ShowLooseMana(manaCost);
