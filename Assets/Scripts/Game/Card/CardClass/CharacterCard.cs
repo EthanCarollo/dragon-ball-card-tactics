@@ -66,7 +66,8 @@ public class CharacterCard : Card
         if (hit.collider != null)
         {
             TileBehaviour tileScript = hit.collider.GetComponent<TileBehaviour>();
-            if (tileScript == null) return;
+            CharacterPrefabScript characterScript = hit.collider.GetComponentInChildren<CharacterPrefabScript>();
+            if (tileScript == null && characterScript == null) return;
 
 
             BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
@@ -88,16 +89,8 @@ public class CharacterCard : Card
                 return;
             }
 
-            if (tileScript.position.x > 4)
-            {
-                return;
-            }
-            
-            CharacterPrefabScript characterScript = hit.collider.GetComponentInChildren<CharacterPrefabScript>();
-            if (characterScript != null)
-            {
-                return;
-            }
+            if (tileScript.position.x > 4) return;
+            if (characterScript != null) return;
 
             if (tileScript != null)
             {
@@ -203,7 +196,9 @@ public class CharacterCard : Card
 
     public override void OnEndDrag(PointerEventData eventData)
     {
+        Debug.Log("End drag card..");
         if(CanUseCard() == false) {
+            Debug.Log("Can't use card sorry bro..");
             return;
         }
         if (FightBoard.Instance.IsFighting())
@@ -212,6 +207,7 @@ public class CharacterCard : Card
         }
         if (CharacterDragInfo.draggedObject != null)
         {
+            Debug.Log("Use card..");
             UseCard();
         }
     }
