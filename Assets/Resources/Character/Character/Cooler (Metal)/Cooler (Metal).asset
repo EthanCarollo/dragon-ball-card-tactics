@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Cooler (Metal)
+  m_EditorClassIdentifier: 
+  id: 20
+  starNumber: 1
+  characterName: Cooler (Metal)
+  role: 0
+  characterType: 1
+  characterSprite: {fileID: 8205462067600199126, guid: 31a82bb6f6e864b64907194440c19be1, type: 3}
+  characterIcon: {fileID: 21300000, guid: 6d6fb7927263f42c983ca414a68bcb84, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 975
+  maxKi: 25
+  baseRange: 1
+  baseDamage: 40
+  baseArmor: 30
+  baseSpeed: 24
+  baseAttackSpeed: 1.15
+  baseCriticalChance: 35
+  idleAnimation: {fileID: 11400000, guid: f936ba4e90b4944b689df41c7446038d, type: 2}
+  runAnimation: {fileID: 11400000, guid: c5deb3268087a4122be3d98868304b1e, type: 2}
+  attackAnimation: {fileID: 11400000, guid: c1808fcc581214b0e92bce9a16b2cd1f, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 1a35ec0712d6d4009a695f8146179d5c, type: 2}
+  specialAttackAnimation:
+  - name: Special
+    description: Attack multiple enemies
+    animation: {fileID: 11400000, guid: 316cd87be32fb46acb6d1bebbb6164ff, type: 2}
+  winPoseAnimation: {fileID: 0}
+  deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  sameCharacters: []
+  synergies:
+  - {fileID: 11400000, guid: 3783c350991614099bfa12186d81ccd3, type: 2}
+  - {fileID: 11400000, guid: 2cb9ba8a614734a358c15cedc22a075f, type: 2}
+  - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
+  - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
+  - {fileID: 11400000, guid: d650a485b7943417bb2b531cc2a4ba90, type: 2}
+  - {fileID: 11400000, guid: e6b0f87b761094f0f979685b3c42f23a, type: 2}

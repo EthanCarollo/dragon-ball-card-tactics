@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 875982c274ea44468cc86a0e0fb5ab10, type: 3}
+  m_Name: Trunks Mirai SSJ2
+  m_EditorClassIdentifier: 
+  opponents:
+  - characterData: {fileID: 11400000, guid: 5fb82b3f0d3ab4bb39a90fa133674f4e, type: 2}
+    position: {x: 8, y: 4}
+  - characterData: {fileID: 11400000, guid: 0b992f85552444b93bd4db3e83688ad3, type: 2}
+    position: {x: 6, y: 3}
+  - characterData: {fileID: 11400000, guid: 61d06a2a79bda4c5fb8fa059fbc6a5f6, type: 2}
+    position: {x: 6, y: 5}
+  difficulty: 2
+  map: {fileID: 995354289898027383, guid: 60cf6c188a6a642c68b55b82e37083aa, type: 3}
