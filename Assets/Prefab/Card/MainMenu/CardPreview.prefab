@@ -1602,7 +1602,6 @@ GameObject:
   - component: {fileID: 7423396284186785581}
   - component: {fileID: 8493844759246016850}
   - component: {fileID: -466158716149139176}
-  - component: {fileID: 2228491118194503553}
   - component: {fileID: 9124328962521437911}
   m_Layer: 5
   m_Name: CardPreview
@@ -1687,30 +1686,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hotSpot: {x: 0, y: 0}
---- !u!114 &2228491118194503553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9023534854517842936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bac6c0cb0180f4cdeb951d6d48a4ebbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardImage: {fileID: 4023236157811489390}
-  cardTextContainer: {fileID: 6633649649222336459}
-  cardName: {fileID: 9206463613299722491}
-  cardMana: {fileID: 4833325527681649418}
-  cardDescription: {fileID: 1963609447493864606}
-  fullArtImage: {fileID: 2551628593360075735}
-  fullArtCardName: {fileID: 924139514231343351}
-  fullArtCardDescription: {fileID: 965225544148341773}
-  Card: {fileID: 0}
-  isInHand: 0
-  effectForGui: {fileID: 5774130140369513519}
-  blackOverlay: {fileID: 9001911799919183193}
 --- !u!114 &9124328962521437911
 MonoBehaviour:
   m_ObjectHideFlags: 0

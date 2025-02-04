@@ -3,6 +3,7 @@ using UnityEngine;
 using System.Linq;
 using Coffee.UIEffects;
 using Unity.VisualScripting;
+using System;
 
 public class CardDeckPrefab : CardPrefab, IPointerClickHandler
 {
@@ -46,9 +47,7 @@ public class CardDeckPrefab : CardPrefab, IPointerClickHandler
     public override void SetupCard(Card card){
         Card = card;
         base.SetupCard(card);
-        Debug.Log(card.uiEffectPreset);
         if(card.uiEffectPreset != null && card.uiEffectPreset.Length != 0){
-            Debug.Log(card.uiEffectPreset);
             effectForGui.LoadPreset(card.uiEffectPreset);
         }else{
             effectForGui.LoadPreset("None");
