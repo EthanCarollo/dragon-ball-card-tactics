@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Toppo (God Power)
+  m_EditorClassIdentifier: 
+  id: 20
+  starNumber: 1
+  characterName: Toppo (God Power)
+  role: 0
+  characterType: 1
+  characterSprite: {fileID: 5095999608820548820, guid: f13c674e5fd214efe8344595acd65e38, type: 3}
+  characterIcon: {fileID: 21300000, guid: 5eec0b6dbc1564e9c8979a3aa63b8868, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 4500
+  maxKi: 60
+  baseRange: 1
+  baseDamage: 60
+  baseArmor: 90
+  baseSpeed: 34
+  baseAttackSpeed: 1.25
+  baseCriticalChance: 45
+  idleAnimation: {fileID: 11400000, guid: c28df124d7adc4180a5d9881e7f930de, type: 2}
+  runAnimation: {fileID: 11400000, guid: f4570b68a34684a3c8b6ada19dd9dee5, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 1943597d14dcf4aa6924ed31de946db2, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 784a0323d414641ac8915913bcf9886c, type: 2}
+  specialAttackAnimation:
+  - name: Special
+    description: Attack multiple enemies
+    animation: {fileID: 11400000, guid: b7b893369f7f44130803eb3fc65b4cf8, type: 2}
+  winPoseAnimation: {fileID: 0}
+  deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  sameCharacters: []
+  synergies:
+  - {fileID: 11400000, guid: 979d164dc9dc64d7fa0f2ad50a6d5453, type: 2}
+  - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
+  - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}
