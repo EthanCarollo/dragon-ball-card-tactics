@@ -14,11 +14,7 @@ public class GetCardPrefab : CardPrefab, IPointerClickHandler
         }
 
         public override void SetupCard(Card card){
-                if(isReloadable){
-                        reloadButton.SetActive(true);
-                }else{
-                        reloadButton.SetActive(false);
-                }
+                reloadButton.SetActive(isReloadable);
                 base.SetupCard(card);
         }
 

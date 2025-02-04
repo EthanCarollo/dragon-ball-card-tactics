@@ -102,7 +102,6 @@ public class GameManager
             difficulty = FightDifficulty.Easy;
         }
         ActualFight = FightDatabase.Instance.GetRandomFight(difficulty);
-
         BoardGameUiManager.Instance.fightNameUi.OpenFightNamePanel(ActualFight);
         actualRound ++;
         if(actualRound > 1){
