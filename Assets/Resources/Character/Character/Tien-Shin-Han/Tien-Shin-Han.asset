@@ -36,7 +36,8 @@ MonoBehaviour:
   - name: Charged Kikoha
     description: 
     animation: {fileID: 11400000, guid: 2b8fd039c48284503a47001f1894e910, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
-  synergies:
-  - {fileID: 11400000, guid: 88ac827794bd8432ca5c1ba12d44fd40, type: 2}
+  baseCharacter: {fileID: 0}
+  sameCharacters: []
+  synergies: []

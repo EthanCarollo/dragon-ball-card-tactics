@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 33076d71bdc6b4e17b462cf8b82e3ae0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5173117321913591739
+    second: yamcha_0
+  - first:
+      213: -8114340615083873852
+    second: yamcha_1
+  - first:
+      213: -5453148036078505676
+    second: yamcha_2
+  - first:
+      213: -7347778572239050061
+    second: yamcha_3
+  - first:
+      213: 8792259079242061099
+    second: yamcha_4
+  - first:
+      213: 7950524187260539795
+    second: yamcha_5
+  - first:
+      213: -7501446267851785679
+    second: yamcha_6
+  - first:
+      213: 7549925827192360192
+    second: yamcha_7
+  - first:
+      213: 8760056152762128810
+    second: yamcha_8
+  - first:
+      213: -8237539808771087288
+    second: yamcha_9
+  - first:
+      213: -1586425981894668386
+    second: yamcha_10
+  - first:
+      213: 5579660467125339682
+    second: yamcha_11
+  - first:
+      213: -8161140038104772965
+    second: yamcha_12
+  - first:
+      213: -904071717247954624
+    second: yamcha_13
+  - first:
+      213: -6848368962486897789
+    second: yamcha_14
+  - first:
+      213: -5594988009240965837
+    second: yamcha_15
+  - first:
+      213: -1102214552358764902
+    second: yamcha_16
+  - first:
+      213: 6275778763392231243
+    second: yamcha_17
+  - first:
+      213: -8353455468408176456
+    second: yamcha_18
+  - first:
+      213: -802226275981144087
+    second: yamcha_19
+  - first:
+      213: 8012146818610157769
+    second: yamcha_20
+  - first:
+      213: -2211978664061823986
+    second: yamcha_21
+  - first:
+      213: 4697295768048398083
+    second: yamcha_22
+  - first:
+      213: -38537964501719730
+    second: yamcha_23
+  - first:
+      213: 7634859185775571821
+    second: yamcha_24
+  - first:
+      213: -1816082379135550544
+    second: yamcha_25
+  - first:
+      213: 3732490467970415695
+    second: yamcha_26
+  - first:
+      213: 8499900976481618321
+    second: yamcha_27
+  - first:
+      213: 2290658190636902237
+    second: yamcha_28
+  - first:
+      213: -4085868640282679161
+    second: yamcha_29
+  - first:
+      213: -6398473871600107389
+    second: yamcha_30
+  - first:
+      213: 7776073587808665751
+    second: yamcha_31
+  - first:
+      213: -1230462475475560622
+    second: yamcha_32
+  - first:
+      213: 1088788901816127835
+    second: yamcha_33
+  - first:
+      213: -6606147331086564086
+    second: yamcha_34
+  - first:
+      213: -3404138679552861345
+    second: yamcha_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yamcha_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 964
+        width: 41
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5489bed34356538b0800000000000000
+      internalID: -5173117321913591739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 964
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9a663c332146f80800000000000000
+      internalID: -8114340615083873852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 967
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431fbe1d0c68254b0800000000000000
+      internalID: -5453148036078505676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 952
+        width: 25
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bae6799152770a90800000000000000
+      internalID: -7347778572239050061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_4
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 952
+        width: 26
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b251d679c01640a70800000000000000
+      internalID: 8792259079242061099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 897
+        width: 35
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393d0d7ef9fe55e60800000000000000
+      internalID: 7950524187260539795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_6
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 897
+        width: 28
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ab30f1d5285e790800000000000000
+      internalID: -7501446267851785679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_7
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 897
+        width: 29
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d0952e989b6c860800000000000000
+      internalID: 7549925827192360192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_8
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 897
+        width: 32
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa99cdd78a8f19970800000000000000
+      internalID: 8760056152762128810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_9
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 887
+        width: 30
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8446f0330316ead80800000000000000
+      internalID: -8237539808771087288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_10
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 887
+        width: 29
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9fc7b689f1ebf9e0800000000000000
+      internalID: -1586425981894668386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_11
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 887
+        width: 29
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226cb4ee1afee6d40800000000000000
+      internalID: 5579660467125339682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_12
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 887
+        width: 28
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e0c8aff5ecdbe80800000000000000
+      internalID: -8161140038104772965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 816
+        width: 38
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04155f920971473f0800000000000000
+      internalID: -904071717247954624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 826
+        width: 61
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383782c76b4b5f0a0800000000000000
+      internalID: -6848368962486897789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_15
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 823
+        width: 47
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d4f929c0c9a52b0800000000000000
+      internalID: -5594988009240965837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_16
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 816
+        width: 27
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9eb36454b524b0f0800000000000000
+      internalID: -1102214552358764902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_17
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 826
+        width: 48
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b472fe8e88b081750800000000000000
+      internalID: 6275778763392231243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_18
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 825
+        width: 46
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b08c7e8280921c80800000000000000
+      internalID: -8353455468408176456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_19
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 816
+        width: 37
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9efc8aec37bedd4f0800000000000000
+      internalID: -802226275981144087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_20
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 816
+        width: 32
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8d883d41dd03f60800000000000000
+      internalID: 8012146818610157769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 755
+        width: 32
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e041ad5ef197d41e0800000000000000
+      internalID: -2211978664061823986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_22
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 755
+        width: 47
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f687b1d95203140800000000000000
+      internalID: 4697295768048398083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_23
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 755
+        width: 46
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45228bece5177ff0800000000000000
+      internalID: -38537964501719730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_24
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 755
+        width: 30
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63f74e6af774f960800000000000000
+      internalID: 7634859185775571821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_25
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 755
+        width: 48
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb77ccb2bafbc6e0800000000000000
+      internalID: -1816082379135550544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_26
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 755
+        width: 41
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c78e61e487cc330800000000000000
+      internalID: 3732490467970415695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_27
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 684
+        width: 30
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199ce2957e6b5f570800000000000000
+      internalID: 8499900976481618321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_28
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 684
+        width: 30
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5760caec7d0acf10800000000000000
+      internalID: 2290658190636902237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_29
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 684
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788ea099e141c47c0800000000000000
+      internalID: -4085868640282679161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_30
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 684
+        width: 39
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38048a21aed0437a0800000000000000
+      internalID: -6398473871600107389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 684
+        width: 39
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79002ac8ab92aeb60800000000000000
+      internalID: 7776073587808665751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_32
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 684
+        width: 44
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257d4d7d5e48ceee0800000000000000
+      internalID: -1230462475475560622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_33
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 684
+        width: 43
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b515320dcb72c1f00800000000000000
+      internalID: 1088788901816127835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_34
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 684
+        width: 38
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05c0b4d0004254a0800000000000000
+      internalID: -6606147331086564086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yamcha_35
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 692
+        width: 63
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b951728e112c0d0800000000000000
+      internalID: -3404138679552861345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 984f40fe1a66e4bba87e6012505cb23e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      yamcha_0: -5173117321913591739
+      yamcha_1: -8114340615083873852
+      yamcha_10: -1586425981894668386
+      yamcha_11: 5579660467125339682
+      yamcha_12: -8161140038104772965
+      yamcha_13: -904071717247954624
+      yamcha_14: -6848368962486897789
+      yamcha_15: -5594988009240965837
+      yamcha_16: -1102214552358764902
+      yamcha_17: 6275778763392231243
+      yamcha_18: -8353455468408176456
+      yamcha_19: -802226275981144087
+      yamcha_2: -5453148036078505676
+      yamcha_20: 8012146818610157769
+      yamcha_21: -2211978664061823986
+      yamcha_22: 4697295768048398083
+      yamcha_23: -38537964501719730
+      yamcha_24: 7634859185775571821
+      yamcha_25: -1816082379135550544
+      yamcha_26: 3732490467970415695
+      yamcha_27: 8499900976481618321
+      yamcha_28: 2290658190636902237
+      yamcha_29: -4085868640282679161
+      yamcha_3: -7347778572239050061
+      yamcha_30: -6398473871600107389
+      yamcha_31: 7776073587808665751
+      yamcha_32: -1230462475475560622
+      yamcha_33: 1088788901816127835
+      yamcha_34: -6606147331086564086
+      yamcha_35: -3404138679552861345
+      yamcha_4: 8792259079242061099
+      yamcha_5: 7950524187260539795
+      yamcha_6: -7501446267851785679
+      yamcha_7: 7549925827192360192
+      yamcha_8: 8760056152762128810
+      yamcha_9: -8237539808771087288
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
