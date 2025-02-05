@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Android 13 (Super)
   m_EditorClassIdentifier: 
-  id: 26
+  id: 0
   starNumber: 1
   characterName: Android 13 (Super)
   role: 0
@@ -20,14 +20,14 @@ MonoBehaviour:
   characterSprite: {fileID: -270948531, guid: 4f65855047015427888b9542916a2420, type: 3}
   characterIcon: {fileID: 21300000, guid: 051df5807a464406693bd60a808b2233, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 250
-  maxKi: 75
+  maxHealth: 450
+  maxKi: 55
   baseRange: 1
-  baseDamage: 50
+  baseDamage: 30
   baseArmor: 25
   baseSpeed: 2
-  baseAttackSpeed: 0.5
-  baseCriticalChance: 10
+  baseAttackSpeed: 1.1
+  baseCriticalChance: 35
   idleAnimation: {fileID: 11400000, guid: 5843defc8c3274a95aeadf6eb66e779d, type: 2}
   runAnimation: {fileID: 11400000, guid: 9a36ecc581fe94433891eeafae822ef9, type: 2}
   attackAnimation: {fileID: 11400000, guid: bbd6d396f5e16457387aafe927207cee, type: 2}
@@ -36,6 +36,11 @@ MonoBehaviour:
   - name: Full-Power Energy Wave
     description: A powerful ki waves shot.
     animation: {fileID: 11400000, guid: d2aeafd676ced4b3cb1b2a6db2c51941, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  characterPassive: []
-  card: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  sameCharacters:
+  - {fileID: 11400000, guid: 309a3e9e42b794cfbbe46b55b07fe4a1, type: 2}
+  synergies:
+  - {fileID: 11400000, guid: 2cb9ba8a614734a358c15cedc22a075f, type: 2}
+  - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}

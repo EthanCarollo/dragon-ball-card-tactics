@@ -1,0 +1,2300 @@
+fileFormatVersion: 2
+guid: cfa10f449ab0a4e09ab6d59edf97ff6a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7714615319278628965
+    second: android-13_0
+  - first:
+      213: 7579630268785900721
+    second: android-13_1
+  - first:
+      213: -8535651150590795239
+    second: android-13_2
+  - first:
+      213: -415894598626234682
+    second: android-13_3
+  - first:
+      213: 5926155294002551364
+    second: android-13_4
+  - first:
+      213: -6898586488008510938
+    second: android-13_5
+  - first:
+      213: 8176373255909891823
+    second: android-13_6
+  - first:
+      213: 1826072176890076011
+    second: android-13_7
+  - first:
+      213: -8290524861818057617
+    second: android-13_8
+  - first:
+      213: 44607579708357450
+    second: android-13_9
+  - first:
+      213: -8227327621376058043
+    second: android-13_10
+  - first:
+      213: -7362199884043949305
+    second: android-13_11
+  - first:
+      213: -3629704422411753339
+    second: android-13_12
+  - first:
+      213: 7961490413256863984
+    second: android-13_13
+  - first:
+      213: -2568122227649462875
+    second: android-13_14
+  - first:
+      213: 4345995059248039677
+    second: android-13_15
+  - first:
+      213: -5304108229420102161
+    second: android-13_16
+  - first:
+      213: -1370966339055436112
+    second: android-13_17
+  - first:
+      213: -1681514783063616345
+    second: android-13_18
+  - first:
+      213: 6219712553474735431
+    second: android-13_19
+  - first:
+      213: 6673765236788167975
+    second: android-13_20
+  - first:
+      213: -3837138365709515204
+    second: android-13_21
+  - first:
+      213: 8024107433192385116
+    second: android-13_22
+  - first:
+      213: -1121466012225742192
+    second: android-13_23
+  - first:
+      213: 5417821069851759070
+    second: android-13_24
+  - first:
+      213: 4198136375006904375
+    second: android-13_25
+  - first:
+      213: 6137649295974223793
+    second: android-13_26
+  - first:
+      213: -5551862689422168759
+    second: android-13_27
+  - first:
+      213: 9142496644929972030
+    second: android-13_28
+  - first:
+      213: -5881605928658764226
+    second: android-13_29
+  - first:
+      213: 5684900152939885437
+    second: android-13_30
+  - first:
+      213: -8946235433791995472
+    second: android-13_31
+  - first:
+      213: -4032679928253635014
+    second: android-13_32
+  - first:
+      213: -5937788596960125710
+    second: android-13_33
+  - first:
+      213: 4072103934909716123
+    second: android-13_34
+  - first:
+      213: -6475995695765308125
+    second: android-13_35
+  - first:
+      213: -6921089465878483936
+    second: android-13_36
+  - first:
+      213: -7968854764292278571
+    second: android-13_37
+  - first:
+      213: -1829627679262087173
+    second: android-13_38
+  - first:
+      213: -3303685945700678929
+    second: android-13_39
+  - first:
+      213: -1846423357922794857
+    second: android-13_40
+  - first:
+      213: 3034338455327231567
+    second: android-13_41
+  - first:
+      213: 4066060671902169823
+    second: android-13_42
+  - first:
+      213: -8511648061745177732
+    second: android-13_43
+  - first:
+      213: -3286367828960562691
+    second: android-13_44
+  - first:
+      213: -4893947241208097881
+    second: android-13_45
+  - first:
+      213: -7028610412557420203
+    second: android-13_46
+  - first:
+      213: 7373492920656237281
+    second: android-13_47
+  - first:
+      213: -9027841817640816375
+    second: android-13_48
+  - first:
+      213: 3438518375313308018
+    second: android-13_49
+  - first:
+      213: 4025350290264764878
+    second: android-13_50
+  - first:
+      213: -1809014822181925306
+    second: android-13_51
+  - first:
+      213: -5231023600082048724
+    second: android-13_52
+  - first:
+      213: 3329959051360752597
+    second: android-13_53
+  - first:
+      213: -1709165719126263392
+    second: android-13_54
+  - first:
+      213: -3789744838041391619
+    second: android-13_55
+  - first:
+      213: 399316826306551804
+    second: android-13_56
+  - first:
+      213: -7607191536130381493
+    second: android-13_57
+  - first:
+      213: 8355087551751101207
+    second: android-13_58
+  - first:
+      213: -7448583182064025019
+    second: android-13_59
+  - first:
+      213: 5700288928427427709
+    second: android-13_60
+  - first:
+      213: 7181955458257124143
+    second: android-13_61
+  - first:
+      213: 6376524557214611463
+    second: android-13_62
+  - first:
+      213: 3347066043250958656
+    second: android-13_63
+  - first:
+      213: 216763507672624250
+    second: android-13_64
+  - first:
+      213: 5661186654768505947
+    second: android-13_65
+  - first:
+      213: -8832321230224107543
+    second: android-13_66
+  - first:
+      213: 5614355321109183326
+    second: android-13_67
+  - first:
+      213: 2905961977533841504
+    second: android-13_68
+  - first:
+      213: 6686731406435389939
+    second: android-13_69
+  - first:
+      213: 6175809346192115627
+    second: android-13_70
+  - first:
+      213: -2214890555820535750
+    second: android-13_71
+  - first:
+      213: -6516203707684485595
+    second: android-13_72
+  - first:
+      213: -8563355493656385509
+    second: android-13_73
+  - first:
+      213: 7706240736741152568
+    second: android-13_74
+  - first:
+      213: -8169973296342697702
+    second: android-13_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: android-13_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 947
+        width: 25
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84f90bba656649bea2862d9174dab3f
+      internalID: -870388028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 947
+        width: 23
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd387e95a11114189980d5082cfe6347
+      internalID: 935485438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 947
+        width: 25
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10286b1e51e6f4e699ceffe50815b9fe
+      internalID: 1332933293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 947
+        width: 29
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d48989703fd480fbccb7e3c77019fb
+      internalID: 44418780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 947
+        width: 30
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545dc53cda7ea43e59efc8cd0daa7d9c
+      internalID: 2000420933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_5
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 947
+        width: 31
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ad979029e0949c38e7b506557f4ec1
+      internalID: -1171288225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_6
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 946
+        width: 34
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c6b6bcd6fa5424588fac959de66a8f
+      internalID: -917250873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_7
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 946
+        width: 37
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3686e30d1e2046e38ed55c6dcf65f52
+      internalID: 1035442204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_8
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 946
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ed58ffc7905448da56ef2b2f6b3cf6
+      internalID: -335974503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_9
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 946
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07814b38c06f64d8b9d844d0e209dd23
+      internalID: 844717701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_10
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 955
+        width: 60
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc5e2ec1d0564ece86a6b8253613435
+      internalID: -988975153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_11
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 955
+        width: 52
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d18e8d38246417f9d1e585ef8daf90
+      internalID: 1713088780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_12
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 958
+        width: 53
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afd4da1d9411424c82475c36676ce0d
+      internalID: 1052694649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_13
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 952
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c58a6d58ae64799aec182b81f5721a
+      internalID: -1870098736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_14
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 952
+        width: 46
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab97f5d7273447d3b34ce8b4c0e9349
+      internalID: 235446158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_15
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 952
+        width: 44
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f592597df02724e7cb1c0b68f98d8678
+      internalID: -979575473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 882
+        width: 32
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bdbaa5ac2c04bc49702f6fc9e537bb
+      internalID: 648736126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_17
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 882
+        width: 35
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76eea510912f44928ac2b3c14f2d120
+      internalID: -1354434944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_18
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 882
+        width: 34
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52ceeadb159049bbbb9ca1163a5b092
+      internalID: 716002113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_19
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 883
+        width: 35
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010812174cb5c4cd89c74fa6df4cf4a3
+      internalID: -1847957743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_20
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 885
+        width: 44
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a228604d3d5db4659873bc2eed2638f1
+      internalID: 2131811962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_21
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 884
+        width: 37
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb8d23a3492942f2a5eb3553c58d855
+      internalID: 2130348555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_22
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 745
+        width: 96
+        height: 115
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a061f7613daf04efb98d03737a99ad1c
+      internalID: -1116020503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_23
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 844
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120ab23b504924f6f9eaf7c624235c48
+      internalID: 1646151529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_24
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 849
+        width: 36
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc55f0a23613b4a12860317e10b53ffb
+      internalID: -725742597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_25
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 750
+        width: 98
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ff9c3b1984144738b1ef64c87e8d89
+      internalID: 218310416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_26
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 829
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6e7bcea675f41b2b0f808643c0b032
+      internalID: -1115551400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_27
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 838
+        width: 13
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59ec750bfd5947b6a43c4cbb5ede933
+      internalID: 1615049681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_28
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 764
+        width: 39
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6d5547f04354981bd7bb377535f17c
+      internalID: 329298512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_29
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 764
+        width: 41
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fac87a108bd64fcf97632ecb6123e55
+      internalID: 1257112357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_30
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 764
+        width: 58
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d525e85f4d5694c5fb583839b2e30519
+      internalID: -321335147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_31
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 822
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5113753f67c454d5ba7df4d2f35e2d93
+      internalID: 1111836271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_32
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 764
+        width: 39
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3caa228f14b542fd9cee9ca388efa3c
+      internalID: 1528063066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_33
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 823
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35536556dd3af440ca26c872a3a85660
+      internalID: 108245324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_34
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 764
+        width: 40
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885c9952d5d23475482f5dc1f5851b26
+      internalID: 1413690990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_35
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 764
+        width: 44
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4796aa4f97628468eb2382c71f6077a9
+      internalID: 1525577066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_36
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 764
+        width: 33
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bf535459a534713b248daa2771490d
+      internalID: -1892853049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_37
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 764
+        width: 39
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e27f32d628d4719a7b68cd233bdc1b
+      internalID: 1957179228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_38
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 764
+        width: 39
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e7091cdda9944e69c676da3659583a
+      internalID: -1862035838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_39
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 764
+        width: 31
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fe884cf855543fd9b242936e0fc87e
+      internalID: 1310861510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_40
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 764
+        width: 29
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465fcca66f1c54cc4a61d7ad915d9611
+      internalID: -1693933473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_41
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 764
+        width: 29
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acafe979b14924d1b88a8267247fe59a
+      internalID: 2140330612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_42
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 764
+        width: 30
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf23492e61caa44768cf0493abc043d8
+      internalID: -710294579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_43
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 764
+        width: 29
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5808e8f13dd34462c8d6d04624d50e99
+      internalID: 1316287980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_44
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 764
+        width: 26
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86f665cb9fca4b46a4edd20d57705c7
+      internalID: -1190158502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_45
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 764
+        width: 28
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f488e50286e4e83bb84a9d396b0eb0
+      internalID: 5066459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_46
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 764
+        width: 33
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8605d392b534e1cb646b9fac6077dc
+      internalID: 1930465835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_47
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 764
+        width: 36
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d729cc525d21945ef81539c43a055937
+      internalID: 1344887764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_48
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 764
+        width: 35
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753a157b94624424dad8ae847716ffad
+      internalID: 907134044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_49
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 764
+        width: 36
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f555a3837cea4b22ba58aadc41c5f65
+      internalID: -1125601123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_50
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 764
+        width: 39
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41790b59d88340699b600f8304f9a4d
+      internalID: -413854196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_51
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 766
+        width: 15
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba902c46d03a94ff48942f28730c178f
+      internalID: 1548416017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_52
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 798
+        width: 7
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6236f8380b4ac4607a327cc5918f2b40
+      internalID: -150074508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_53
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 771
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddda22078eb944c383bb0890869e8d5
+      internalID: -212899536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_54
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 784
+        width: 4
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42edb19dd06f64ce8bd3a61db83bd48c
+      internalID: -1491309806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_55
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 776
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0035a7be76409404a8b7bcb0a9b0c017
+      internalID: -1687044249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_56
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 751
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe35c34b4c194b01b93a9e185b51a4f
+      internalID: 786840796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_57
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 757
+        width: 15
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da28a856305c4fca9f92743ae63fb7c
+      internalID: -42369471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_58
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 746
+        width: 10
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafb1b93ecb14404fba4dde446a481e6
+      internalID: -749882802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_59
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 744
+        width: 34
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4aa438b013e4690b87d1f9f31174a6
+      internalID: 888614263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_60
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 693
+        width: 40
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e9e0cec7fae4f509cfe39e0c56625f
+      internalID: 1750351778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_61
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 693
+        width: 46
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd4272e0032b4f0a954b4fd7a889286
+      internalID: -971768609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_62
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 693
+        width: 47
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b9f019c08414a81bc3e4b34e174e1a
+      internalID: 1735920863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_63
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 693
+        width: 53
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02cc301f66cf40f9a2d8026f397a9f9
+      internalID: -588920673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_64
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 616
+        width: 27
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501b98b312694419ea627fdc73c8f504
+      internalID: -324122047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_65
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 616
+        width: 32
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a2c7f0edb8c4c2b8e41e9b7cd2fa47
+      internalID: -1709918561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_66
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 655
+        width: 14
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c5461d635ba46f5ba0323138824f64
+      internalID: 277184551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_67
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 616
+        width: 39
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1870d425422a4d5fbf25dadab4ff10e
+      internalID: 1268400557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_68
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 652
+        width: 15
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0466173a2d8f42b3a697e5c13f247d0
+      internalID: 704621519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_69
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 616
+        width: 47
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9876b74e88346dcaaa80b55a1eed15
+      internalID: -1274623373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_70
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 616
+        width: 41
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4cc73889bf448838883de05e57db5d
+      internalID: -1946240703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_71
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 616
+        width: 36
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9774cfe6df2b340ce87b6c2e225c730d
+      internalID: 723904860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_72
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 662
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b16df84c735445781ae444b0924efd
+      internalID: 1785401884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_73
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 616
+        width: 27
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2357ca510063f478b8849466c60b953b
+      internalID: -1539841511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_74
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 616
+        width: 27
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b741a38e1ded4f9eb34c9524035c9c9
+      internalID: -1358443560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_75
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 632
+        width: 56
+        height: 31
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f64a917b6ccf4bf58563fc582537d76
+      internalID: -308934345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_76
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 642
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd474118cfe484c8196e3b42fcd1d66a
+      internalID: -1852970593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_77
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 646
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348ef5f65a12d4e6cb35776468ee4297
+      internalID: -1381627608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_78
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 650
+        width: 7
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1675914736d884f3f854ed11490a5c84
+      internalID: -1527309071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_79
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 626
+        width: 18
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc6901a8a3804df58203e0cd415420c
+      internalID: 1379603304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_80
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 641
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c5114a04b7546318ea04e6a68b6f82
+      internalID: 961195375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_81
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 641
+        width: 4
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434df1ea2ec354f3b9a69213e53d9198
+      internalID: 1045001679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_82
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 632
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164563a1250a6409b84d5ee2710173af
+      internalID: -441228849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_83
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 626
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b344f786f764431e95b395f2d9e57c3
+      internalID: 1394010742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: android-13_84
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 631
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27dee7f764ac41c2bd3af4a80e40871
+      internalID: -766802618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c1454ef227489445c8f282dae6c15d7c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      android-13_0: -870388028
+      android-13_1: 935485438
+      android-13_10: -988975153
+      android-13_11: 1713088780
+      android-13_12: 1052694649
+      android-13_13: -1870098736
+      android-13_14: 235446158
+      android-13_15: -979575473
+      android-13_16: 648736126
+      android-13_17: -1354434944
+      android-13_18: 716002113
+      android-13_19: -1847957743
+      android-13_2: 1332933293
+      android-13_20: 2131811962
+      android-13_21: 2130348555
+      android-13_22: -1116020503
+      android-13_23: 1646151529
+      android-13_24: -725742597
+      android-13_25: 218310416
+      android-13_26: -1115551400
+      android-13_27: 1615049681
+      android-13_28: 329298512
+      android-13_29: 1257112357
+      android-13_3: 44418780
+      android-13_30: -321335147
+      android-13_31: 1111836271
+      android-13_32: 1528063066
+      android-13_33: 108245324
+      android-13_34: 1413690990
+      android-13_35: 1525577066
+      android-13_36: -1892853049
+      android-13_37: 1957179228
+      android-13_38: -1862035838
+      android-13_39: 1310861510
+      android-13_4: 2000420933
+      android-13_40: -1693933473
+      android-13_41: 2140330612
+      android-13_42: -710294579
+      android-13_43: 1316287980
+      android-13_44: -1190158502
+      android-13_45: 5066459
+      android-13_46: 1930465835
+      android-13_47: 1344887764
+      android-13_48: 907134044
+      android-13_49: -1125601123
+      android-13_5: -1171288225
+      android-13_50: -413854196
+      android-13_51: 1548416017
+      android-13_52: -150074508
+      android-13_53: -212899536
+      android-13_54: -1491309806
+      android-13_55: -1687044249
+      android-13_56: 786840796
+      android-13_57: -42369471
+      android-13_58: -749882802
+      android-13_59: 888614263
+      android-13_6: -917250873
+      android-13_60: 1750351778
+      android-13_61: -971768609
+      android-13_62: 1735920863
+      android-13_63: -588920673
+      android-13_64: -324122047
+      android-13_65: -1709918561
+      android-13_66: 277184551
+      android-13_67: 1268400557
+      android-13_68: 704621519
+      android-13_69: -1274623373
+      android-13_7: 1035442204
+      android-13_70: -1946240703
+      android-13_71: 723904860
+      android-13_72: 1785401884
+      android-13_73: -1539841511
+      android-13_74: -1358443560
+      android-13_75: -308934345
+      android-13_76: -1852970593
+      android-13_77: -1381627608
+      android-13_78: -1527309071
+      android-13_79: 1379603304
+      android-13_8: -335974503
+      android-13_80: 961195375
+      android-13_81: 1045001679
+      android-13_82: -441228849
+      android-13_83: 1394010742
+      android-13_84: -766802618
+      android-13_9: 844717701
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

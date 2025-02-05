@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Android 13
+  m_EditorClassIdentifier: 
+  id: 122
+  starNumber: 1
+  characterName: Android 13
+  role: 0
+  characterType: 0
+  characterSprite: {fileID: 44418780, guid: cfa10f449ab0a4e09ab6d59edf97ff6a, type: 3}
+  characterIcon: {fileID: 21300000, guid: 3c5facafde97141868b738dd1fbcfac2, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 125
+  maxKi: 40
+  baseRange: 1
+  baseDamage: 50
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 0.5
+  baseCriticalChance: 10
+  idleAnimation: {fileID: 11400000, guid: d6dcf4c86aa7144d2896d51388b3b572, type: 2}
+  runAnimation: {fileID: 11400000, guid: b7d49f443ed8a43f9bd45bebcafb7ef0, type: 2}
+  attackAnimation: {fileID: 11400000, guid: ab75585ea3ec74130bfdc47faa2af971, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 5bd31ca2a2d2c4e118b55191273d8a91, type: 2}
+  specialAttackAnimation:
+  - name: Full-Power Energy Wave
+    description: A powerful ki waves shot.
+    animation: {fileID: 11400000, guid: b0c2ad4503d354c9e9f7982b299e4345, type: 2}
+  winPoseAnimation: {fileID: 0}
+  deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  sameCharacters:
+  - {fileID: 11400000, guid: 361e9f9acfe824adcbcf3f4af0ca844c, type: 2}
+  synergies:
+  - {fileID: 11400000, guid: 2cb9ba8a614734a358c15cedc22a075f, type: 2}

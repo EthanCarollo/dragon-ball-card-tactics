@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a87c1eb9c8441a88d241afbe642005, type: 3}
+  m_Name: Charged
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: 1750351778, guid: cfa10f449ab0a4e09ab6d59edf97ff6a, type: 3}
+    time: 0.1
+  - sprite: {fileID: -971768609, guid: cfa10f449ab0a4e09ab6d59edf97ff6a, type: 3}
+    time: 0.2
+  - sprite: {fileID: 1735920863, guid: cfa10f449ab0a4e09ab6d59edf97ff6a, type: 3}
+    time: 0.2
+  - sprite: {fileID: -588920673, guid: cfa10f449ab0a4e09ab6d59edf97ff6a, type: 3}
+    time: 0.4
+  attackFrameIndex: 2
+  kikoha: {fileID: -1736697969, guid: 4f65855047015427888b9542916a2420, type: 3}
+  particleAttack: {fileID: 0}
+  attackType: 2
+  attackMultiplicator: 3
+  startMargin: {x: 0.5, y: 0.6}
+  kikohaSize: {x: 6, y: 3}
