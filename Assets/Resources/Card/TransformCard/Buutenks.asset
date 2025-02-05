@@ -23,3 +23,6 @@ MonoBehaviour:
     transformation: {fileID: 11400000, guid: 07a673aec01eb4e45970af170bb0e7e8, type: 2}
   - character: {fileID: 11400000, guid: 920b5fb4a26ba4018ba92304f58c1eec, type: 2}
     transformation: {fileID: 11400000, guid: 07a673aec01eb4e45970af170bb0e7e8, type: 2}
+  - character: {fileID: 11400000, guid: 9e792fedc1e0e4a9fa43460bdca91563, type: 2}
+    transformation: {fileID: 11400000, guid: 07a673aec01eb4e45970af170bb0e7e8, type: 2}
+  infiniteUse: 0
