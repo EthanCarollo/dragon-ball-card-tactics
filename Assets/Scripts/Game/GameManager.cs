@@ -53,6 +53,7 @@ public class GameManager
         difficultyMutliplicator = 1.00f;
         elapsedTime = 0f;
         actualRound = 0;
+        this.Player.Life.CurrentLife = Player.Life.MaxLife;
         try {
             Cursor.SetCursor(SpriteDatabase.Instance.normalCursor, Vector2.zero, CursorMode.Auto);
         } catch(Exception error){

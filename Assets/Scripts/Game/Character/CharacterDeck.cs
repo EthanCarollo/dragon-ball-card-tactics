@@ -68,13 +68,24 @@ public class CharacterContainer
     public List<CharacterPassive> characterPassives = new List<CharacterPassive>();
     public bool isPlayerCharacter = true;
     
-    public CharacterContainer(int characterId, List<CharacterPassive> characterPassives, int starNumber, bool isPlayerCharacter,float powerMultiplicator = 1)
+    public CharacterContainer(int characterId, List<CharacterPassive> characterPassives, int starNumber, bool isPlayerCharacter, float powerMultiplicator = 1)
     {
         this.characterPassives = characterPassives;
         this.powerMultiplicator = powerMultiplicator;
         this.characterId = characterId;
         this.actualHealth = GetCharacterMaxHealth();
-        this.characterStar = starNumber;
+
+        int additionalStars = Mathf.FloorToInt(powerMultiplicator - 1); // Ex: 3.0 → +2 étoiles
+        float extraStarChance = powerMultiplicator - Mathf.Floor(powerMultiplicator);
+        starNumber += additionalStars;
+        if (UnityEngine.Random.value < extraStarChance && starNumber < 5)
+        {
+            starNumber++;
+        }
+
+        // S'assurer que starNumber reste entre 1 et 5
+        this.characterStar = Mathf.Clamp(starNumber, 1, 5);
+
         this.isPlayerCharacter = isPlayerCharacter;
     }
 
