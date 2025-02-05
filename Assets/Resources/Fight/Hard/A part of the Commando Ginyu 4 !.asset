@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 875982c274ea44468cc86a0e0fb5ab10, type: 3}
-  m_Name: A part of the Commando Ginyu !
+  m_Name: A part of the Commando Ginyu 4 !
   m_EditorClassIdentifier: 
   opponents:
-  - characterData: {fileID: 11400000, guid: 05e134e06013ffe4d9aca00c7e62b751, type: 2}
+  - characterData: {fileID: 11400000, guid: 5f7905abf5ecf41b480c80f211b9c164, type: 2}
     position: {x: 8, y: 4}
   - characterData: {fileID: 11400000, guid: 8277f2b57dc3a6f499cb6fe03fe71cf1, type: 2}
-    position: {x: 6, y: 3}
+    position: {x: 8, y: 1}
   - characterData: {fileID: 11400000, guid: 98d786988c2db47d198c285dab0998b8, type: 2}
     position: {x: 8, y: 1}
-  difficulty: 0
+  difficulty: 2
   map: {fileID: 0}

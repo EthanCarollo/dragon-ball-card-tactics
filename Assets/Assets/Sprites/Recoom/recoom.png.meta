@@ -1,0 +1,848 @@
+fileFormatVersion: 2
+guid: 9a37fa6b41b624d3abd076afd1faa604
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1516088198515916721
+    second: recoom_0
+  - first:
+      213: 9089011126020366709
+    second: recoom_1
+  - first:
+      213: 7666831402001281764
+    second: recoom_2
+  - first:
+      213: 5349359551450673387
+    second: recoom_3
+  - first:
+      213: -8956304147458312307
+    second: recoom_4
+  - first:
+      213: -2737128157897453010
+    second: recoom_5
+  - first:
+      213: -6322316776962454442
+    second: recoom_6
+  - first:
+      213: -485271117155307193
+    second: recoom_7
+  - first:
+      213: 9206080233582612568
+    second: recoom_8
+  - first:
+      213: -7051924207930089622
+    second: recoom_9
+  - first:
+      213: -7037607055920986539
+    second: recoom_10
+  - first:
+      213: -5163319832184974255
+    second: recoom_11
+  - first:
+      213: -5943544292107937924
+    second: recoom_12
+  - first:
+      213: -3862734571499373830
+    second: recoom_13
+  - first:
+      213: -2533429004444174176
+    second: recoom_14
+  - first:
+      213: 5014759455974917449
+    second: recoom_15
+  - first:
+      213: -5133397938591475184
+    second: recoom_16
+  - first:
+      213: 862631106623733755
+    second: recoom_17
+  - first:
+      213: 588331529694920195
+    second: recoom_18
+  - first:
+      213: 415749771388155198
+    second: recoom_19
+  - first:
+      213: 1415785388052215694
+    second: recoom_20
+  - first:
+      213: -1538381624033012493
+    second: recoom_21
+  - first:
+      213: 5142709997902192536
+    second: recoom_22
+  - first:
+      213: -6408423614951527020
+    second: recoom_23
+  - first:
+      213: 8632684835102700530
+    second: recoom_24
+  - first:
+      213: -2987773263395305956
+    second: recoom_25
+  - first:
+      213: 1228676078614486523
+    second: recoom_26
+  - first:
+      213: -6267560963148960562
+    second: recoom_27
+  - first:
+      213: -4380812097022364280
+    second: recoom_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: recoom_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 948
+        width: 47
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce5660a041c746dd9f87b1680482b20
+      internalID: 895133681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 948
+        width: 47
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0866d74a312d842ff8c57c950d86f96c
+      internalID: 988744648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 948
+        width: 48
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426dd3a53fdf54288baf0f6b1f040655
+      internalID: 1019434134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 948
+        width: 47
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0176711ca54840feb2995e5df09f9b7
+      internalID: 1203133326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_4
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 952
+        width: 41
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c2999f51e7344ff813a1d99e3f752f
+      internalID: -1992707191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 891
+        width: 56
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60cd8c4f43344d1f8fb38b9a1433616
+      internalID: -1734913927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 900
+        width: 55
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1c499b357314d2ca1a761a60e91594
+      internalID: -3437579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 825
+        width: 46
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e9cd22ca4374ed88c7b7ac673130b8
+      internalID: 108784821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 825
+        width: 49
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009c793e6caf54e38ba458c72dddeb26
+      internalID: 627063788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_9
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 825
+        width: 48
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14bf931f1fca45d8a25d69c3ef5e006
+      internalID: -1463695289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_10
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 825
+        width: 47
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb32a53dacac4f5e9199862459ae5d3
+      internalID: 211044993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_11
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 825
+        width: 48
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9248aa6ab1e354acd8d77dba2bf5f9c8
+      internalID: -477157811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_12
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 825
+        width: 38
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c27edd0fe46a46daa72a489490d1f86
+      internalID: 1749778328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_13
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 825
+        width: 53
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2f3ae6edaf948de93ba1270f033c8d
+      internalID: -651197933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_14
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 825
+        width: 53
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05323681cef144751a07360cceefbc63
+      internalID: 900627941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_15
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 826
+        width: 49
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5132e21baf1a94e159074ff3a85e53eb
+      internalID: -1654996552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_16
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 826
+        width: 51
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f333d5d0170a436486c0df53014ebe2
+      internalID: 1266118941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_17
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 826
+        width: 45
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb4884274acc4bea9c5a4ddf22acab5
+      internalID: 964012792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_18
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 826
+        width: 46
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125d56b9cafc04cc79fcd0dd48a16647
+      internalID: 788724822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_19
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 753
+        width: 38
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cba033f7e7e9411786d0cb279b8df76
+      internalID: 133345553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_20
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 753
+        width: 33
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5ecf1c1fe9542538fe024d49056650
+      internalID: -215018926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_21
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 753
+        width: 36
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e407f038f43694745a20caf0ee8c1f81
+      internalID: -1729605970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_22
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 752
+        width: 40
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd08f9ebbddb402d9f726a2b1b12515
+      internalID: 884556867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_23
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 680
+        width: 47
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55dcb0a5331e40c38f87d06a4f1b7e7
+      internalID: -1329337586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 680
+        width: 47
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eca6ad20c5a14a9b94fb07c5bea2d40
+      internalID: 851021727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_25
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 680
+        width: 38
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d372fcac8a87d4b838ce9dbb63a6acf3
+      internalID: 1572580688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_26
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 680
+        width: 34
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35da738c7004f4695a879b2a4764642b
+      internalID: 1189780133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recoom_27
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 680
+        width: 49
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e527969d27f4f42b2fa76d11081222
+      internalID: -1318825166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6776adae47ed741809b75d4b71d81fa5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      recoom_0: 895133681
+      recoom_1: 988744648
+      recoom_10: 211044993
+      recoom_11: -477157811
+      recoom_12: 1749778328
+      recoom_13: -651197933
+      recoom_14: 900627941
+      recoom_15: -1654996552
+      recoom_16: 1266118941
+      recoom_17: 964012792
+      recoom_18: 788724822
+      recoom_19: 133345553
+      recoom_2: 1019434134
+      recoom_20: -215018926
+      recoom_21: -1729605970
+      recoom_22: 884556867
+      recoom_23: -1329337586
+      recoom_24: 851021727
+      recoom_25: 1572580688
+      recoom_26: 1189780133
+      recoom_27: -1318825166
+      recoom_3: 1203133326
+      recoom_4: -1992707191
+      recoom_5: -1734913927
+      recoom_6: -3437579
+      recoom_7: 108784821
+      recoom_8: 627063788
+      recoom_9: -1463695289
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

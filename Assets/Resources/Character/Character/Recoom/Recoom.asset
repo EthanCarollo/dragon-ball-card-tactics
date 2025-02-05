@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Recoom
+  m_EditorClassIdentifier: 
+  id: 123
+  starNumber: 1
+  characterName: Recoom
+  role: 0
+  characterType: 2
+  characterSprite: {fileID: 895133681, guid: 9a37fa6b41b624d3abd076afd1faa604, type: 3}
+  characterIcon: {fileID: 21300000, guid: e0419bd65fa9744ddb08e95239cfe1ba, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 350
+  maxKi: 35
+  baseRange: 1
+  baseDamage: 15
+  baseArmor: 25
+  baseSpeed: 13
+  baseAttackSpeed: 0.7
+  baseCriticalChance: 20
+  idleAnimation: {fileID: 11400000, guid: ccd3aaa78f37c4843a4c7ae42ee576d8, type: 2}
+  runAnimation: {fileID: 11400000, guid: 1292d42a1bd7a478db4128c5db9ff19f, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 1b7fc4df3a3964c96ba0bb5d593c4c47, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: d6501df3d7be84da89811daf6b6225a7, type: 2}
+  specialAttackAnimation:
+  - name: Charged Ki
+    description: Charge a Super Ki
+    animation: {fileID: 11400000, guid: ea6cec8ef9b13465d9aa1741da433107, type: 2}
+  winPoseAnimation: {fileID: 11400000, guid: 747be6ee341ee4e099f55b144d282cde, type: 2}
+  deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  sameCharacters: []
+  synergies:
+  - {fileID: 11400000, guid: 88ac827794bd8432ca5c1ba12d44fd40, type: 2}
