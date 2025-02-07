@@ -5,7 +5,11 @@ public class WinFightUi : MonoBehaviour
 {
         public static WinFightUi Instance;
         public Transform winFightUi;
-        public CardPrefab[] cardPrefab;
+
+        public Card upgradeCard;
+        public GetCardPrefab cardPrefabLeft;
+        public GetCardPrefab cardPrefabMiddle;
+        public GetCardPrefab cardPrefabRight;
         
         private void Awake()
         {
@@ -16,13 +20,9 @@ public class WinFightUi : MonoBehaviour
         {
                 winFightUi.gameObject.SetActive(true);
                 var dropRate = new CardDropRate(GameManager.Instance.Player.Level.CurrentLevel);
-                foreach (var card in cardPrefab)
-                {
-                        if(card is GetCardPrefab getCardPrefab){
-                                getCardPrefab.isReloadable = true;
-                        }
-                        card.SetupCard(CardDatabase.Instance.GetRandomCard(dropRate.GetRarityOnDropRate()));
-                }
+                cardPrefabLeft.SetupCard(upgradeCard, false);
+                cardPrefabMiddle.SetupCard(CardDatabase.Instance.GetRandomCard(dropRate.GetRarityOnDropRate()), true);
+                cardPrefabRight.SetupCard(CardDatabase.Instance.GetRandomCard(dropRate.GetRarityOnDropRate()), true);
         }
 
         public void CloseWinFightUi()

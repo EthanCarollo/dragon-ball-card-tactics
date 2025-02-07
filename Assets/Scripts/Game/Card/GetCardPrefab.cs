@@ -13,6 +13,12 @@ public class GetCardPrefab : CardPrefab, IPointerClickHandler
                 WinFightUi.Instance.CloseWinFightUi();
         }
 
+        public void SetupCard(Card newCard, bool isReloadable)
+        {
+                this.isReloadable = isReloadable;
+                SetupCard(newCard);
+        }
+
         public override void SetupCard(Card card){
                 reloadButton.SetActive(isReloadable);
                 base.SetupCard(card);
