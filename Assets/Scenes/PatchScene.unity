@@ -1629,7 +1629,6 @@ GameObject:
   - component: {fileID: 1514422106}
   - component: {fileID: 1514422105}
   - component: {fileID: 1514422104}
-  - component: {fileID: 1514422103}
   - component: {fileID: 1514422110}
   m_Layer: 5
   m_Name: LaunchCampaignButton
@@ -1658,19 +1657,6 @@ RectTransform:
   m_AnchoredPosition: {x: -40, y: 40}
   m_SizeDelta: {x: 480.1931, y: 62.6302}
   m_Pivot: {x: 1, y: 0}
---- !u!114 &1514422103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514422101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcf0043250edd4aa2a5295139334bf1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneIndex: 1
 --- !u!114 &1514422104
 MonoBehaviour:
   m_ObjectHideFlags: 0

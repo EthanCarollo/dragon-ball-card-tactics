@@ -8,7 +8,7 @@ public class GlobalGameConfig : ScriptableObject
     public bool debug;
     
     // If you want to update version of the game, update it here
-    public static string version{ get => "0.0.5"; }
+    public static string version{ get => "0.0.6"; }
 
     public static GlobalGameConfig Instance
     {
