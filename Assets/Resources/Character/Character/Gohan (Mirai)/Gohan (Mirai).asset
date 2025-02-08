@@ -36,7 +36,11 @@ MonoBehaviour:
   - name: Mirai Kameha
     description: A big kameha, but with one hand lol.
     animation: {fileID: 11400000, guid: 064388e5f661a4dc282c3e7ee3af4782, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  sameCharacters:
+  - {fileID: 11400000, guid: 62273676d495847fdb1ab58326980d9b, type: 2}
   synergies:
   - {fileID: 11400000, guid: 09b71321303674dfb884845c6d6a9493, type: 2}
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}

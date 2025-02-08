@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Broly Black (Berserk)
+  m_EditorClassIdentifier: 
+  id: 126
+  starNumber: 1
+  characterName: Broly Black (Berserk)
+  role: 0
+  characterType: 0
+  characterSprite: {fileID: -2780379788047381327, guid: 2462e1ef6ae435d438c511dfc03ce5ae, type: 3}
+  characterIcon: {fileID: 21300000, guid: 3670d7a2bcc59ec4db07bb07c896eac8, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 9800
+  maxKi: 65
+  baseRange: 1
+  baseDamage: 125
+  baseArmor: 25
+  baseSpeed: 24
+  baseAttackSpeed: 0.9
+  baseCriticalChance: 35
+  idleAnimation: {fileID: 11400000, guid: 4113cc5bfa9ada5499813b2537f8db44, type: 2}
+  runAnimation: {fileID: 11400000, guid: 9a33c0610705c2042875f8727dd2f046, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 2286be82d382b704b88991bf642cafea, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: f3f67d84ab1b3d94e875a98b7fbc5919, type: 2}
+  specialAttackAnimation:
+  - name: Full-Power Energy Wave
+    description: A powerful ki waves shot.
+    animation: {fileID: 11400000, guid: c771fac039c33b84592f1e3b7508d9b6, type: 2}
+  winPoseAnimation: {fileID: 0}
+  deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  sameCharacters: []
+  synergies:
+  - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
+  - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
+  - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
+  - {fileID: 11400000, guid: 4c06df1b7d77047398c15d5152c8ec1b, type: 2}
+  - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}
