@@ -61,11 +61,8 @@ public class GameManager
         }
         boardCharacterArray = new BoardObject[BoardWidth, BoardHeight];
         PlayerCards = CardDatabase.Instance.playerCards.ToList();
-        try {
-            SetupCard();
-        } catch(Exception error){
-            Debug.LogError(error);
-        }
+        SetupCard();
+        
         try {
             GoNextFight();
         } catch(Exception error){

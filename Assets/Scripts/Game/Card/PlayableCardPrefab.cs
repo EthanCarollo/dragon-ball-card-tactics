@@ -14,6 +14,8 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
     public Transform transformationContainer;
     public GameObject transformationPrefab;
     public UIEffect effectForGui;
+    public GameObject innerContainer;
+    public Image innerContainerImage;
 
     void Start()
     {
@@ -28,6 +30,7 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
 
     public override void SetupCard(Card card)
     {
+        innerContainerImage.color = card.rarity.GetRarityColor();
         transformationInformation.SetActive(false);
         base.SetupCard(card);
         if(card.uiEffectPreset != null && card.uiEffectPreset.Length != 0){
@@ -38,7 +41,7 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
     }
 
     public void SetCardColor(){
-        hideGameObject.SetActive(!card.CanUseCard());
+        if(card != null && hideGameObject != null) hideGameObject.SetActive(!card.CanUseCard());
     }
 
     public void UseCard(){
@@ -74,8 +77,10 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if(card.CanUseCard() == true){
+        if(card != null && card.CanUseCard() == true){
             this.GetComponent<UIEffectTweener>().PlayForward();
+            LeanTween.cancel(this.innerContainer);
+            LeanTween.moveLocalY(this.innerContainer, 40f, 0.2f).setEaseOutCirc();
         }
         if(card is TransformationCard transfoCard){
 
@@ -88,9 +93,7 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
             {
                 Destroy(child.gameObject);
             }
-
             
-
             foreach(var transfo in transfoCard.transformations){
                 var goTransfo = Instantiate(transformationPrefab, transformationContainer);
                 goTransfo.GetComponent<TransformationContainer>().characterImage.sprite = transfo.character.characterIcon;
@@ -115,6 +118,8 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
     public void OnPointerExit(PointerEventData eventData)
     {
         this.GetComponent<UIEffect>().LoadPreset("PlayableCardPreset");
+        LeanTween.cancel(this.innerContainer);
+        LeanTween.moveLocalY(this.innerContainer, 0f, 0.2f).setEaseInCirc();
         this.GetComponent<UIEffectTweener>().SetPause(true);
         transformationInformation.SetActive(false);
     }

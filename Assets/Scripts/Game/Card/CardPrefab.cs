@@ -19,8 +19,15 @@ public class CardPrefab : MonoBehaviour
     protected Card card;
 
     public virtual void SetupCard(Card card){
-        try {
+        try
+        {
             this.GetComponent<Image>().color = card.rarity.GetRarityColor();
+        }
+        catch (Exception e)
+        {
+            Debug.Log("Image isn't set on the main card prefab");   
+        }
+        try {
             cardImage.sprite = card.image;
             if(fullArtImage != null && card.fullartImage != null){
                 cardImage.gameObject.SetActive(false);

@@ -28,7 +28,7 @@ public class CardUiPanel : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         LeanTween.value(this.gameObject, f =>
         {
             horizontalLayout.spacing = f;
-        }, horizontalLayout.spacing, -130f, 0.2f).setEaseInSine();
+        }, horizontalLayout.spacing, -(130f + GameManager.Instance.PlayerCards.Count * 8), 0.2f).setEaseInSine();
         LeanTween.value(this.gameObject, f =>
         {
             horizontalLayout.padding.top = Mathf.FloorToInt(f);
