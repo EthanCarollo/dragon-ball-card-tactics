@@ -36,6 +36,8 @@ MonoBehaviour:
   - name: 
     description: 
     animation: {fileID: 11400000, guid: e0446bacbc0bac947a0f5d959f48eac2, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  sameCharacters: []
   synergies: []

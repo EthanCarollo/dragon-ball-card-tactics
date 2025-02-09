@@ -10,38 +10,38 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
-  m_Name: Gohan (Mirai SSJ)
+  m_Name: Gohan (Mirai SSJ3)
   m_EditorClassIdentifier: 
-  id: 46
+  id: 127
   starNumber: 1
-  characterName: Gohan (Mirai SSJ)
+  characterName: Gohan (Mirai SSJ3)
   role: 0
   characterType: 0
-  characterSprite: {fileID: 2236145736672497871, guid: 78ba18071cfda417e8d308e87a38189c, type: 3}
-  characterIcon: {fileID: 21300000, guid: 07551d70ef3ef49cbbcfee909af9858c, type: 3}
+  characterSprite: {fileID: -6994428942968764865, guid: 73912772509b7466599f4f054fa05317, type: 3}
+  characterIcon: {fileID: 21300000, guid: 81cfac1d93a8249e28342814a0755f56, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 450
-  maxKi: 50
+  maxHealth: 1290
+  maxKi: 80
   baseRange: 1
-  baseDamage: 60
-  baseArmor: 25
-  baseSpeed: 9
-  baseAttackSpeed: 1.1
-  baseCriticalChance: 10
-  idleAnimation: {fileID: 11400000, guid: 3716301fcfdd64548876cc93f248d03a, type: 2}
-  runAnimation: {fileID: 11400000, guid: 6a808f0d697a443499faf8c01335acf4, type: 2}
-  attackAnimation: {fileID: 11400000, guid: b6498b4e7c63c4bde9674eae12581cc5, type: 2}
-  criticalAttackAnimation: {fileID: 11400000, guid: 19c14ba6e4cfa40f3881bdb3cd5691a2, type: 2}
+  baseDamage: 95
+  baseArmor: 40
+  baseSpeed: 13
+  baseAttackSpeed: 1.2
+  baseCriticalChance: 35
+  idleAnimation: {fileID: 11400000, guid: e1be0873b18c74c3fbe2948f8ca4039b, type: 2}
+  runAnimation: {fileID: 11400000, guid: bb34aa4e403e74dd5b1d64a05ddcb4fe, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 26224cdbae1f840f687086a7a229eb62, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: c93bee71adffc4269bde64a619469cc6, type: 2}
   specialAttackAnimation:
   - name: Mirai Kameha
     description: A big kameha, but with one hand lol.
-    animation: {fileID: 11400000, guid: 97fe0059e4a8442ccb3d18d8a9764393, type: 2}
+    animation: {fileID: 11400000, guid: ebbeeca2549f1442caec007497f8b46a, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 11400000, guid: 223c5fe9937854c36a6a7cc83d64c75a, type: 2}
   sameCharacters:
   - {fileID: 11400000, guid: 223c5fe9937854c36a6a7cc83d64c75a, type: 2}
-  - {fileID: 11400000, guid: 6f659314e368e44ceb3e3a151d1e3609, type: 2}
+  - {fileID: 11400000, guid: 62273676d495847fdb1ab58326980d9b, type: 2}
   synergies:
   - {fileID: 11400000, guid: 09b71321303674dfb884845c6d6a9493, type: 2}
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}

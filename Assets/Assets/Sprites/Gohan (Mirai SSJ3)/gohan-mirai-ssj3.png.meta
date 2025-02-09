@@ -1,0 +1,1440 @@
+fileFormatVersion: 2
+guid: 73912772509b7466599f4f054fa05317
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3436385313769297846
+    second: gohan-mirai-ssj3_0
+  - first:
+      213: -89095690112665804
+    second: gohan-mirai-ssj3_1
+  - first:
+      213: 4532429191336245537
+    second: gohan-mirai-ssj3_2
+  - first:
+      213: 1663109344569495394
+    second: gohan-mirai-ssj3_3
+  - first:
+      213: 4682032173018576789
+    second: gohan-mirai-ssj3_4
+  - first:
+      213: -169122280093762989
+    second: gohan-mirai-ssj3_5
+  - first:
+      213: 5371376648015005196
+    second: gohan-mirai-ssj3_6
+  - first:
+      213: 7707103782852741053
+    second: gohan-mirai-ssj3_7
+  - first:
+      213: -1969407117069031844
+    second: gohan-mirai-ssj3_8
+  - first:
+      213: 115065193336409262
+    second: gohan-mirai-ssj3_9
+  - first:
+      213: -4831016302388360617
+    second: gohan-mirai-ssj3_10
+  - first:
+      213: 2318693434460374678
+    second: gohan-mirai-ssj3_11
+  - first:
+      213: -6994428942968764865
+    second: gohan-mirai-ssj3_12
+  - first:
+      213: 4955102618310993634
+    second: gohan-mirai-ssj3_13
+  - first:
+      213: -8028885421010588742
+    second: gohan-mirai-ssj3_14
+  - first:
+      213: -3805150626886462794
+    second: gohan-mirai-ssj3_15
+  - first:
+      213: -6036216684092677447
+    second: gohan-mirai-ssj3_16
+  - first:
+      213: -3850275054519938835
+    second: gohan-mirai-ssj3_17
+  - first:
+      213: 1463609790995603869
+    second: gohan-mirai-ssj3_18
+  - first:
+      213: 8703830342024570162
+    second: gohan-mirai-ssj3_19
+  - first:
+      213: -8660568912850894469
+    second: gohan-mirai-ssj3_20
+  - first:
+      213: -6972715281516567984
+    second: gohan-mirai-ssj3_21
+  - first:
+      213: 3799967822175725465
+    second: gohan-mirai-ssj3_22
+  - first:
+      213: 9078872561566339814
+    second: gohan-mirai-ssj3_23
+  - first:
+      213: -7931339921644264827
+    second: gohan-mirai-ssj3_24
+  - first:
+      213: -8668198824560093581
+    second: gohan-mirai-ssj3_25
+  - first:
+      213: -8490086538918990060
+    second: gohan-mirai-ssj3_26
+  - first:
+      213: 1850558669106127654
+    second: gohan-mirai-ssj3_27
+  - first:
+      213: 4657375112006089715
+    second: gohan-mirai-ssj3_28
+  - first:
+      213: 6862286153785857317
+    second: gohan-mirai-ssj3_29
+  - first:
+      213: -759423984308228920
+    second: gohan-mirai-ssj3_30
+  - first:
+      213: 2016788991504391839
+    second: gohan-mirai-ssj3_31
+  - first:
+      213: -1982887973896506251
+    second: gohan-mirai-ssj3_32
+  - first:
+      213: 2378295352450355958
+    second: gohan-mirai-ssj3_33
+  - first:
+      213: -8493476536870510123
+    second: gohan-mirai-ssj3_34
+  - first:
+      213: 3717226485036923479
+    second: gohan-mirai-ssj3_35
+  - first:
+      213: -7069614991469053891
+    second: gohan-mirai-ssj3_36
+  - first:
+      213: -3629130706281254572
+    second: gohan-mirai-ssj3_37
+  - first:
+      213: -5181002661489336451
+    second: gohan-mirai-ssj3_38
+  - first:
+      213: 4227500807086146225
+    second: gohan-mirai-ssj3_39
+  - first:
+      213: 2697425873917389166
+    second: gohan-mirai-ssj3_40
+  - first:
+      213: 1320138246553911359
+    second: gohan-mirai-ssj3_41
+  - first:
+      213: -3468504484950672396
+    second: gohan-mirai-ssj3_42
+  - first:
+      213: -8845770724409966726
+    second: gohan-mirai-ssj3_43
+  - first:
+      213: -7298749516553689450
+    second: gohan-mirai-ssj3_44
+  - first:
+      213: -909756195660270105
+    second: gohan-mirai-ssj3_45
+  - first:
+      213: 5315002808773396223
+    second: gohan-mirai-ssj3_46
+  - first:
+      213: 7819795783135694183
+    second: gohan-mirai-ssj3_47
+  - first:
+      213: 5727298975522617095
+    second: gohan-mirai-ssj3_48
+  - first:
+      213: -8361920657069072487
+    second: gohan-mirai-ssj3_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 919
+        width: 26
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b796927c3e70bf20800000000000000
+      internalID: 3436385313769297846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 919
+        width: 25
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437f0df11f773cef0800000000000000
+      internalID: -89095690112665804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 919
+        width: 23
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129353fe55c66ee30800000000000000
+      internalID: 4532429191336245537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 919
+        width: 30
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f82b9232d841710800000000000000
+      internalID: 1663109344569495394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 919
+        width: 29
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597f8b3747be9f040800000000000000
+      internalID: 4682032173018576789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 917
+        width: 44
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a386bae2827adf0800000000000000
+      internalID: -169122280093762989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_6
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 918
+        width: 63
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0643c34a96fa8a40800000000000000
+      internalID: 5371376648015005196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_7
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 918
+        width: 69
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7c1087e0225fa60800000000000000
+      internalID: 7707103782852741053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_8
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 955
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5669f059a24ba4e0800000000000000
+      internalID: -1969407117069031844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_9
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 915
+        width: 45
+        height: 57
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.07017544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac04d60f2bc89100800000000000000
+      internalID: 115065193336409262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_10
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 913
+        width: 129
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a4500d448c4fcb0800000000000000
+      internalID: -4831016302388360617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_11
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 918
+        width: 37
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6968a08c467ad2020800000000000000
+      internalID: 2318693434460374678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_12
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 918
+        width: 36
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36c2a73febceee90800000000000000
+      internalID: -6994428942968764865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_13
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 916
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6e80ef39f04c440800000000000000
+      internalID: 4955102618310993634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_14
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 925
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abbe95a9f3ba39090800000000000000
+      internalID: -8028885421010588742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_15
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 916
+        width: 57
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2d3975aa3613bc0800000000000000
+      internalID: -3805150626886462794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 854
+        width: 36
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2ae5538ec0b3ca0800000000000000
+      internalID: -6036216684092677447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_17
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 854
+        width: 40
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de09acfcc33119ac0800000000000000
+      internalID: -3850275054519938835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_18
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 854
+        width: 39
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91a312b959cf4410800000000000000
+      internalID: 1463609790995603869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_19
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 852
+        width: 36
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23524a9c4973ac870800000000000000
+      internalID: 8703830342024570162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_20
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 852
+        width: 39
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b714bbc957a7fc780800000000000000
+      internalID: -8660568912850894469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_21
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 852
+        width: 37
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052644df460fb3f90800000000000000
+      internalID: -6972715281516567984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_22
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 861
+        width: 38
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997e2b6e9923cb430800000000000000
+      internalID: 3799967822175725465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_23
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 852
+        width: 37
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2d3392e72aefd70800000000000000
+      internalID: 9078872561566339814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_24
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 852
+        width: 41
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582e4810d583ee190800000000000000
+      internalID: -7931339921644264827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_25
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 783
+        width: 38
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37613ab581f54b780800000000000000
+      internalID: -8668198824560093581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_26
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 783
+        width: 40
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f686776472d2a80800000000000000
+      internalID: -8490086538918990060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_27
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 783
+        width: 49
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623271c0e418ea910800000000000000
+      internalID: 1850558669106127654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_28
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 780
+        width: 39
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb3ed01df152a040800000000000000
+      internalID: 4657375112006089715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_29
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 780
+        width: 37
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525dc7f16ecbb3f50800000000000000
+      internalID: 6862286153785857317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_30
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 772
+        width: 36
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc656de8ebf575f0800000000000000
+      internalID: -759423984308228920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_31
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 772
+        width: 39
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e998107e21dfb10800000000000000
+      internalID: 2016788991504391839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_32
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 772
+        width: 45
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574318eb4ed5b74e0800000000000000
+      internalID: -1982887973896506251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_33
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 772
+        width: 63
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f214c5b507610120800000000000000
+      internalID: 2378295352450355958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_34
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 772
+        width: 69
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1e7bf071c112a80800000000000000
+      internalID: -8493476536870510123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_35
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 714
+        width: 37
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75abc4e1bcd369330800000000000000
+      internalID: 3717226485036923479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_36
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 714
+        width: 47
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38f5b62f9ea3ed90800000000000000
+      internalID: -7069614991469053891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_37
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 714
+        width: 43
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451b4a0c9dcb2adc0800000000000000
+      internalID: -3629130706281254572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_38
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 714
+        width: 39
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f139d87816918b0800000000000000
+      internalID: -5181002661489336451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_39
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 714
+        width: 38
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b20c06f5991baa30800000000000000
+      internalID: 4227500807086146225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_40
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 714
+        width: 36
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e692bce6a8e2f6520800000000000000
+      internalID: 2697425873917389166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_41
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 713
+        width: 36
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30c048adb2125210800000000000000
+      internalID: 1320138246553911359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_42
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 714
+        width: 51
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb7aa04c856ddfc0800000000000000
+      internalID: -3468504484950672396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_43
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 714
+        width: 53
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f7efe94628d3580800000000000000
+      internalID: -8845770724409966726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_44
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 640
+        width: 40
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69663413cf1a5ba90800000000000000
+      internalID: -7298749516553689450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_45
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 635
+        width: 74
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e575756f85ef53f0800000000000000
+      internalID: -909756195660270105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_46
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 640
+        width: 61
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6442df4eea2c940800000000000000
+      internalID: 5315002808773396223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_47
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 640
+        width: 58
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d86ed65de758c60800000000000000
+      internalID: 7819795783135694183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_48
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 640
+        width: 43
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707fb7ed2147b7f40800000000000000
+      internalID: 5727298975522617095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_49
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 640
+        width: 42
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f956b377d74fb80800000000000000
+      internalID: -8361920657069072487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-ssj3_50
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 572
+        width: 43
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccee977b768e74cce87b2b2fc581fd00
+      internalID: 1904721889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8064bb59a533c420093de841b0786e5e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gohan-mirai-ssj3_0: 3436385313769297846
+      gohan-mirai-ssj3_1: -89095690112665804
+      gohan-mirai-ssj3_10: -4831016302388360617
+      gohan-mirai-ssj3_11: 2318693434460374678
+      gohan-mirai-ssj3_12: -6994428942968764865
+      gohan-mirai-ssj3_13: 4955102618310993634
+      gohan-mirai-ssj3_14: -8028885421010588742
+      gohan-mirai-ssj3_15: -3805150626886462794
+      gohan-mirai-ssj3_16: -6036216684092677447
+      gohan-mirai-ssj3_17: -3850275054519938835
+      gohan-mirai-ssj3_18: 1463609790995603869
+      gohan-mirai-ssj3_19: 8703830342024570162
+      gohan-mirai-ssj3_2: 4532429191336245537
+      gohan-mirai-ssj3_20: -8660568912850894469
+      gohan-mirai-ssj3_21: -6972715281516567984
+      gohan-mirai-ssj3_22: 3799967822175725465
+      gohan-mirai-ssj3_23: 9078872561566339814
+      gohan-mirai-ssj3_24: -7931339921644264827
+      gohan-mirai-ssj3_25: -8668198824560093581
+      gohan-mirai-ssj3_26: -8490086538918990060
+      gohan-mirai-ssj3_27: 1850558669106127654
+      gohan-mirai-ssj3_28: 4657375112006089715
+      gohan-mirai-ssj3_29: 6862286153785857317
+      gohan-mirai-ssj3_3: 1663109344569495394
+      gohan-mirai-ssj3_30: -759423984308228920
+      gohan-mirai-ssj3_31: 2016788991504391839
+      gohan-mirai-ssj3_32: -1982887973896506251
+      gohan-mirai-ssj3_33: 2378295352450355958
+      gohan-mirai-ssj3_34: -8493476536870510123
+      gohan-mirai-ssj3_35: 3717226485036923479
+      gohan-mirai-ssj3_36: -7069614991469053891
+      gohan-mirai-ssj3_37: -3629130706281254572
+      gohan-mirai-ssj3_38: -5181002661489336451
+      gohan-mirai-ssj3_39: 4227500807086146225
+      gohan-mirai-ssj3_4: 4682032173018576789
+      gohan-mirai-ssj3_40: 2697425873917389166
+      gohan-mirai-ssj3_41: 1320138246553911359
+      gohan-mirai-ssj3_42: -3468504484950672396
+      gohan-mirai-ssj3_43: -8845770724409966726
+      gohan-mirai-ssj3_44: -7298749516553689450
+      gohan-mirai-ssj3_45: -909756195660270105
+      gohan-mirai-ssj3_46: 5315002808773396223
+      gohan-mirai-ssj3_47: 7819795783135694183
+      gohan-mirai-ssj3_48: 5727298975522617095
+      gohan-mirai-ssj3_49: -8361920657069072487
+      gohan-mirai-ssj3_5: -169122280093762989
+      gohan-mirai-ssj3_50: 1904721889
+      gohan-mirai-ssj3_6: 5371376648015005196
+      gohan-mirai-ssj3_7: 7707103782852741053
+      gohan-mirai-ssj3_8: -1969407117069031844
+      gohan-mirai-ssj3_9: 115065193336409262
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
