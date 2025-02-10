@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Jiren
   m_EditorClassIdentifier: 
-  id: 54
+  id: 68
   starNumber: 1
   characterName: Jiren
   role: 0
@@ -36,7 +36,11 @@ MonoBehaviour:
   - name: Big Smash Ki
     description: 
     animation: {fileID: 11400000, guid: 5c9c2e4877e436d4784bf4988c78a720, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
+  - {fileID: 11400000, guid: 979d164dc9dc64d7fa0f2ad50a6d5453, type: 2}
+  - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}

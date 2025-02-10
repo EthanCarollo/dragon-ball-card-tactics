@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 
 public class SynergyPrefabScript : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler {
@@ -65,16 +66,28 @@ public class SynergyPrefabScript : MonoBehaviour, IPointerEnterHandler, IPointer
             imageCharContainer.color = new Color(0.4f, 0.4f, 0.4f);
             imageCharContainer.sprite = charWithSynergy.characterIcon;
         }
-        
+        if((tierDescription.GetComponent<RectTransform>().position.y - tierDescription.GetComponent<RectTransform>().sizeDelta.y) < 0){
+            tierDescription.GetComponent<RectTransform>().position = new Vector2(tierDescription.GetComponent<RectTransform>().position.x, tierDescription.GetComponent<RectTransform>().sizeDelta.y + 40);
+        }
     }
 
     void IPointerEnterHandler.OnPointerEnter(PointerEventData eventData)
     {
         tierDescription.SetActive(true);
+        StartCoroutine(SetTierDescriptionPosition());
     }
 
     void IPointerExitHandler.OnPointerExit(PointerEventData eventData)
     {
         tierDescription.SetActive(false);
+        StartCoroutine(SetTierDescriptionPosition());
+    }
+
+    private IEnumerator SetTierDescriptionPosition(){
+        yield return new WaitForEndOfFrame();
+        yield return new WaitForEndOfFrame();
+        if((tierDescription.GetComponent<RectTransform>().position.y - tierDescription.GetComponent<RectTransform>().sizeDelta.y) < 0){
+            tierDescription.GetComponent<RectTransform>().position = new Vector2(tierDescription.GetComponent<RectTransform>().position.x, tierDescription.GetComponent<RectTransform>().sizeDelta.y + 40);
+        }
     }
 }

@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Super Buu
   m_EditorClassIdentifier: 
-  id: 24
+  id: 88
   starNumber: 1
   characterName: Super Buu
   role: 1
   characterType: 0
   characterSprite: {fileID: 7962816981571868995, guid: 6b0a2ed1b13d46d4cae6dc5488f2de73, type: 3}
-  characterIcon: {fileID: 4199835679713569971, guid: 485fece4df5fb3b489587afd07f83505, type: 3}
+  characterIcon: {fileID: 21300000, guid: 485fece4df5fb3b489587afd07f83505, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
   maxHealth: 750
   maxKi: 75
@@ -36,8 +36,14 @@ MonoBehaviour:
   - name: 
     description: 
     animation: {fileID: 11400000, guid: 246cfb881dfdf87459109f0f37b30203, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter:
+  baseCharacter: {fileID: 0}
+  sameCharacters:
   - {fileID: 11400000, guid: ab3a9d4dbb3fb4bfe8926b7ef647f7c9, type: 2}
   - {fileID: 11400000, guid: 920b5fb4a26ba4018ba92304f58c1eec, type: 2}
-  synergies: []
+  synergies:
+  - {fileID: 11400000, guid: 4ba1bf47f6be1489fb5be013c0e05f1e, type: 2}
+  - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
+  - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
+  - {fileID: 11400000, guid: 4c06df1b7d77047398c15d5152c8ec1b, type: 2}
