@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -10,6 +11,16 @@ public class PassiveCard : UsableCharacterActionCard
     public override string GetDescription()
     {
         return "Grants " + passive.passiveName + " to " + characterFor.name;
+    }
+
+    public override bool CanUseCard()
+    {
+        if(base.CanUseCard() == false){
+            return false;
+        }
+        return GameManager.Instance.GetCharactersOnBoard()
+                    .Where(cha => cha.character.isPlayerCharacter).ToList()
+                    .Find(cha => cha.character.GetCharacterData() == characterFor || cha.character.GetCharacterData().sameCharacters.Contains(characterFor)) != null;
     }
 
     public override void UseCard()
