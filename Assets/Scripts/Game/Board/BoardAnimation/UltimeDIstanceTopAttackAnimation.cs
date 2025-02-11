@@ -53,6 +53,7 @@ public class UltimeDistanceTopAttackAnimation : BoardAnimation {
         {
             fightBoard2.EndCinematic();
         }
+        CameraScript.Instance.SetupFightCamera();
     }
 
     private void LaunchAttack(BoardCharacter character, BoardCharacter target){
