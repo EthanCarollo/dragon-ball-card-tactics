@@ -22,11 +22,14 @@ public class PatchSystem : MonoBehaviour
     public Slider progressBar;
     public Button updateButton;
 
+    public TextMeshProUGUI patchNoteText;
+
     private string localVersion;
     private string remoteVersion;
 
     void Start()
     {
+        patchNoteText.text = GlobalGameConfig.patchNotes;
         LogMessage("Persistent Path: " + Application.persistentDataPath);
 
         // If in the Unity Editor, just enable the button (don't run patch logic)
