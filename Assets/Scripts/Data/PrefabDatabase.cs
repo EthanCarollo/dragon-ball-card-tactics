@@ -18,6 +18,8 @@ public class PrefabDatabase : ScriptableObject
 
     public GameObject littleCharacterContainer;
 
+    public GameObject contextMenuPrefab;
+
     public static PrefabDatabase Instance
     {
         get

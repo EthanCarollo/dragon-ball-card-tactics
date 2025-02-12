@@ -7,7 +7,7 @@ using System.Linq;
 using Coffee.UIEffects;
 using System.Collections;
 
-public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler {
+public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler {
     public GameObject hideGameObject;
 
     public GameObject transformationInformation;
@@ -26,6 +26,14 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
     void Update()
     {
         SetCardColor();
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (eventData.button == PointerEventData.InputButton.Right) {
+            // TODO : Show context menu
+            Debug.Log("Right click");
+        }
     }
 
     public override void SetupCard(Card card)

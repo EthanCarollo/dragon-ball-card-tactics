@@ -8,9 +8,12 @@ public class GlobalGameConfig : ScriptableObject
     public bool debug;
     
     // If you want to update version of the game, update it here
-    public static string version{ get => "0.0.7"; }
+    public static string version{ get => "0.0.8"; }
     public static string patchNotes{ get => 
-@"<size=100%>v0.0.7 <size=50%>(actual)
+@"<size=100%>v0.0.8 <size=50%>(actual)
+<size=60%>- Add context menu on card
+
+<size=100%>v0.0.7
 <size=60%>- Add Gohan Mirai SSJ3, Broly Black (Berserk)
 - Add Logo
 - Add Pause Panel
@@ -18,6 +21,7 @@ public class GlobalGameConfig : ScriptableObject
 - Fixed condition for passive card
 - Add on pointer interaction with card
 - Fix camera reset on end ultimate distance top attack
+- Add patch notes
 
 <size=100%>v0.0.6
 <size=60%>- Fixed skip of patch scene 
