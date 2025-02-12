@@ -28,11 +28,20 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
         SetCardColor();
     }
 
+    private GameObject contextCardMenuObject;
+
     public void OnPointerClick(PointerEventData eventData)
     {
         if (eventData.button == PointerEventData.InputButton.Right) {
             // TODO : Show context menu
             Debug.Log("Right click");
+            if(contextCardMenuObject != null){
+                contextCardMenuObject.GetComponent<RectTransform>().position = Input.mousePosition;
+                return;
+            } 
+            contextCardMenuObject = Instantiate(PrefabDatabase.Instance.contextCardMenuPrefab, this.transform);
+            contextCardMenuObject.GetComponent<RectTransform>().position = Input.mousePosition;
+            contextCardMenuObject.GetComponent<PlayableCardContextMenu>().SetupMenu(card);
         }
     }
 
@@ -125,6 +134,9 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
 
     public void OnPointerExit(PointerEventData eventData)
     {
+        if(contextCardMenuObject != null){
+            Destroy(contextCardMenuObject);
+        }
         this.GetComponent<UIEffect>().LoadPreset("PlayableCardPreset");
         LeanTween.cancel(this.innerContainer);
         LeanTween.moveLocalY(this.innerContainer, 0f, 0.2f).setEaseInCirc();
