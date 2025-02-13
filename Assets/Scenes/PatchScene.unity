@@ -847,7 +847,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: -20}
-  m_SizeDelta: {x: 726.4971, y: 173.0964}
+  m_SizeDelta: {x: 726.4971, y: 803.0378}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &580584726
 MonoBehaviour:
@@ -960,9 +960,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc781e9156c6a46b0af28b5bc710981b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  versionFileUrl: https://dragon-ball-card-tactics.ethan-folio.fr/version.txt
-  windowsPatchFileUrl: https://dragon-ball-card-tactics.ethan-folio.fr/patch_windows.zip
-  macPatchFileUrl: https://dragon-ball-card-tactics.ethan-folio.fr/patch_mac.zip
   localVersionFile: version.txt
   localPatchPath: patch.zip
   statusText: {fileID: 302456663}

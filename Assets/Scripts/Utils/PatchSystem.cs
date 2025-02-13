@@ -9,9 +9,6 @@ using UnityEngine.UI;
 
 public class PatchSystem : MonoBehaviour
 {
-    public string versionFileUrl = "http://localhost:3000/version.txt";
-    public string windowsPatchFileUrl = "http://localhost:3000/patch_windows.zip";
-    public string macPatchFileUrl = "http://localhost:3000/patch_mac.zip";
     public string localVersionFile = "version.txt";
     public string localPatchPath = "patch.zip";
     public TextMeshProUGUI statusText;
@@ -27,17 +24,44 @@ public class PatchSystem : MonoBehaviour
     private string localVersion;
     private string remoteVersion;
 
+    private string repoOwner = "EthanCarollo"; // Replace with the repository owner's username
+    private string repoName = "dragon-ball-card-tactics"; // Replace with the repository name
+    // This is just a token that is straight forward, it's like JUST JUST to get the archive, he doesn't have any other right
+    private string githubPat = "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";
+
+
     void Start()
     {
         patchNoteText.text = GlobalGameConfig.patchNotes;
         LogMessage("Persistent Path: " + Application.persistentDataPath);
 
+        if (Application.isEditor)
+        {
+            EnableUpdateButton();
+            statusText.text = "Running in Unity Editor, no patching logic.";
+            versionText.text = "version unity editor (" + GlobalGameConfig.version + ")";
+            return;
+        }
+
+        try {
+            StartCoroutine(CheckLatestVersion());
+        } catch (Exception error) {
+            LogMessage("---- ERROR MESSAGE ----");
+            LogMessage("---- ERROR MESSAGE ----");
+            LogMessage("---- ERROR MESSAGE ----");
+            LogMessage(error.ToString());
+            LogMessage("---- ERROR MESSAGE ----");
+            LogMessage("---- ERROR MESSAGE ----");
+            LogMessage("---- ERROR MESSAGE ----");
+            EnableUpdateButton();
+        }
+        /*
         // If in the Unity Editor, just enable the button (don't run patch logic)
         if (Application.isEditor)
         {
             EnableUpdateButton();
             statusText.text = "Running in Unity Editor, no patching logic.";
-            versionText.text = "version unity editor";
+            versionText.text = "version unity editor (" + GlobalGameConfig.version + ")";
         }
         else
         {
@@ -50,6 +74,7 @@ public class PatchSystem : MonoBehaviour
                 statusText.text = error.Message;
             }
         }
+        */
     }
 
     void LogMessage(string message)
@@ -58,54 +83,55 @@ public class PatchSystem : MonoBehaviour
         logText.text += message + "\n";
     }
 
-    
-
-    IEnumerator CheckForUpdates()
+    private IEnumerator CheckLatestVersion()
     {
-        statusText.text = "Checking for updates...";
-        LogMessage("Checking for updates...");
-        
-        localVersion = GlobalGameConfig.version;
-        versionText.text = "version " + localVersion;
-        LogMessage("Local version: " + localVersion);
-        
-        using (UnityWebRequest request = UnityWebRequest.Get(versionFileUrl))
+        string url = $"https://api.github.com/repos/{repoOwner}/{repoName}/releases/latest";
+
+        using (UnityWebRequest request = UnityWebRequest.Get(url))
         {
+            request.SetRequestHeader("User-Agent", "Unity-App");
+            request.SetRequestHeader("Authorization", "token " + githubPat);
+
             yield return request.SendWebRequest();
+
             if (request.result == UnityWebRequest.Result.Success)
             {
-                remoteVersion = request.downloadHandler.text.Trim();
-                LogMessage("Remote version: " + remoteVersion);
-                if (remoteVersion != localVersion)
-                {
-                    StartCoroutine(DownloadPatch());
-                }
-                else
-                {
-                    statusText.text = "Game is up to date!";
-                    LogMessage("Game is up to date!");
-                    EnableUpdateButton();
+                string json = request.downloadHandler.text;
+                GitHubRelease release = JsonUtility.FromJson<GitHubRelease>(json);
+                Debug.Log("Latest Version: " + release.tag_name);
+                var wantedRelease = Application.platform == RuntimePlatform.WindowsPlayer ? 
+                    "DragonBallCardTactics-StandaloneWindows64.zip" : "DragonBallCardTactics-StandaloneOSX.zip";
+                foreach(var asset in release.assets){
+                    if(asset.name == wantedRelease){
+                        LogMessage(asset.browser_download_url);
+                        StartCoroutine(DownloadPatch(asset.url));
+                    }
                 }
             }
             else
             {
-                statusText.text = "Failed to check for updates. Please try again later.";
-                LogMessage("Failed to check for updates. Error: " + request.error);
-                EnableUpdateButton();
+                Debug.LogError("Failed to fetch latest version: " + request.error);
             }
         }
     }
 
-    IEnumerator DownloadPatch()
+    IEnumerator DownloadPatch(string url)
     {
         statusText.text = "Downloading update...";
+        
+        LogMessage("Local version: " + localVersion);
+        LogMessage("Remote version: " + remoteVersion);
         LogMessage("Downloading update...");
+        LogMessage("Download URL : " + url);
 
-        string patchFileUrl = Application.platform == RuntimePlatform.WindowsPlayer ? windowsPatchFileUrl : macPatchFileUrl;
         string patchFilePath = Application.persistentDataPath + "/" + localPatchPath;
 
-        using (UnityWebRequest request = UnityWebRequest.Get(patchFileUrl))
+        using (UnityWebRequest request = UnityWebRequest.Get(url))
         {
+            request.SetRequestHeader("User-Agent", "Unity-App");
+            request.SetRequestHeader("Authorization", "token " + githubPat);
+            request.SetRequestHeader("Accept", "application/octet-stream");
+
             request.downloadHandler = new DownloadHandlerFile(patchFilePath);
             request.SendWebRequest();
             
@@ -116,6 +142,8 @@ public class PatchSystem : MonoBehaviour
                 progressBar.value = request.downloadProgress;
                 yield return null;
             }
+            progressText.text = "Downloading: " + 100.ToString("F2") + "%";
+            progressBar.value = progressBar.maxValue;
             
             if (request.result == UnityWebRequest.Result.Success)
             {
@@ -143,7 +171,7 @@ public class PatchSystem : MonoBehaviour
             string appPath = Directory.GetParent(Application.dataPath.Replace("_Data", "")).FullName;
             
 #if UNITY_STANDALONE_OSX
-                appPath = Application.dataPath;
+            appPath = Application.dataPath;
 #endif
 
             if (File.Exists(patchFilePath) && new FileInfo(patchFilePath).Length > 0)
@@ -172,58 +200,23 @@ public class PatchSystem : MonoBehaviour
 
     void ExtractAndOverwrite(string zipPath, string extractPath)
     {
+        LogMessage(zipPath);
+        LogMessage(extractPath);
+
         try
         {
-            if (!Directory.Exists(extractPath))
-            {
-                Directory.CreateDirectory(extractPath);
-                LogMessage("Creating app directory: " + extractPath);
-            }
-            using (ZipArchive archive = ZipFile.OpenRead(zipPath))
-            {
-                foreach (ZipArchiveEntry entry in archive.Entries)
-                {
-                    string destinationPath = Path.Combine(extractPath, entry.FullName);
-                    if (string.IsNullOrEmpty(entry.Name))
-                    {
-                        Directory.CreateDirectory(destinationPath);
-                        LogMessage("Creating directory: " + destinationPath);
-                        continue;
-                    }
-                    string directoryPath = Path.GetDirectoryName(destinationPath);
-                    if (!Directory.Exists(directoryPath))
-                    {
-                        Directory.CreateDirectory(directoryPath);
-                        LogMessage("Creating directory: " + directoryPath);
-                    }
-                    if (File.Exists(destinationPath))
-                    {
-                        LogMessage("Deleting existing file: " + destinationPath);
-                        File.Delete(destinationPath); // Delete old file
-                    }
-                    entry.ExtractToFile(destinationPath, true);
-                    LogMessage("Extracted and replaced file: " + destinationPath);
-                    
-#if UNITY_STANDALONE_OSX
-                    string appExecutablePath = Path.Combine(extractPath, "MacOS/Dragon Ball Card Tactics");  // macOS executable path
-                    if (File.Exists(appExecutablePath))
-                    {
-                        System.Diagnostics.Process.Start("chmod", "+x \"" + appExecutablePath + "\"");
-                        LogMessage("Added execute permissions to: " + appExecutablePath);
-                        System.Diagnostics.Process.Start("xattr", "-d com.apple.quarantine \"" + appExecutablePath + "\"");
-                        LogMessage("Removed quarantine attribute for: " + appExecutablePath);
-                    } 
-#endif
-                }
-            }
+            // Log the paths for reference
+            LogMessage($"ZIP Path: {zipPath}");
+            LogMessage($"Extract Path: {extractPath}");
+
+            Directory.CreateDirectory(extractPath);
+            ZipFile.ExtractToDirectory(zipPath, extractPath, true); 
+
+            LogMessage("Extraction complete.");
         }
-        catch (Exception error)
+        catch (Exception ex)
         {
-            LogMessage("Extraction failed: " + error.Message);
-            statusText.text = "Error applying patch: " + error.Message;
-            
-            // Enable the button so the user can continue playing
-            EnableUpdateButton();
+            LogMessage($"Error: {ex.Message}");
         }
     }
 
@@ -235,22 +228,19 @@ public class PatchSystem : MonoBehaviour
 
         if (Application.platform == RuntimePlatform.WindowsPlayer)
         {
-            // Windows: Path to the .exe file
             exePath = Application.dataPath.Replace("_Data", ".exe");
         }
         else if (Application.platform == RuntimePlatform.OSXPlayer)
         {
-            // macOS: Path to the app's executable inside the bundle
-            exePath = Application.dataPath + "/MacOS/Dragon Ball Card Tactics";  // Replace with your app's name
+            exePath = Application.dataPath + "/MacOS/Dragon Ball Card Tactics";
         }
 
         try
         {
-            // Ensure the path exists before attempting to start the app
             if (File.Exists(exePath))
             {
-                System.Diagnostics.Process.Start(exePath);  // Restart the app
-                Application.Quit();
+                // System.Diagnostics.Process.Start(exePath);  // Restart the app
+                // Application.Quit();
             }
             else
             {
@@ -272,4 +262,19 @@ public class PatchSystem : MonoBehaviour
         updateButton.interactable = true;
         LogMessage("Update button enabled!");
     }
+}
+
+[Serializable]
+public class GitHubRelease
+{
+    public string tag_name;
+    public GitHubAssets[] assets;
+}
+
+[Serializable]
+public class GitHubAssets
+{
+    public string url;
+    public string name;
+    public string browser_download_url;
 }

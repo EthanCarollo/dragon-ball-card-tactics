@@ -8,10 +8,12 @@ public class GlobalGameConfig : ScriptableObject
     public bool debug;
     
     // If you want to update version of the game, update it here
-    public static string version{ get => "0.0.8"; }
+    public static string version{ get => Application.version; }
     public static string patchNotes{ get => 
-@"<size=100%>v0.0.8 <size=50%>(actual)
-<size=60%>- Add context menu on card
+@"<size=100%>v0.0.9 <size=50%>(actual)
+
+<size=100%>v0.0.8 
+<size=60%>- Add context menu on card to remove it
 
 <size=100%>v0.0.7
 <size=60%>- Add Gohan Mirai SSJ3, Broly Black (Berserk)
