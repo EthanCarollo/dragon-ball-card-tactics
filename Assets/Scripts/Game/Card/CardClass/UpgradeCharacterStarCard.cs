@@ -93,19 +93,22 @@ public class UpgradeCharacterStarCard : Card
 
         if (targetCharacter != null)
         {
-            // Trouve la transformation correspondante pour le CharacterData du personnage
+            LeanTween.delayedCall(0.5f, () =>
+            {
+                // Trouve la transformation correspondante pour le CharacterData du personnage
 
-            targetCharacter.character.AddStar(1);
+                targetCharacter.character.AddStar(1);
 
-            // Réduit le mana du joueur
-            GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
+                // Réduit le mana du joueur
+                GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
 
-            // Met à jour l'UI pour refléter la perte de mana
-            BoardGameUiManager.Instance.ShowLooseMana(manaCost);
-            BoardGameUiManager.Instance.RefreshUI();
+                // Met à jour l'UI pour refléter la perte de mana
+                BoardGameUiManager.Instance.ShowLooseMana(manaCost);
+                BoardGameUiManager.Instance.RefreshUI();
 
-            // Retire la carte après utilisation
-            GameManager.Instance.RemoveCard(this);
+                // Retire la carte après utilisation
+                GameManager.Instance.RemoveCard(this);
+            });
         }
     }
 
@@ -196,11 +199,11 @@ public class UpgradeCharacterStarCard : Card
         
         if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
         {
+            this.UseCard(); 
             DraggedActionCard.DraggedCard.GetComponent<UIEffectTweener>().PlayForward();
             LeanTween.move(DraggedActionCard.DraggedCard, Camera.main.WorldToScreenPoint(new Vector3(GetCharacterOnMouse().gameObject.transform.position.x, GetCharacterOnMouse().gameObject.transform.position.y + 0.25f)), 0.6f).setEaseInCirc();
             LeanTween.scale(DraggedActionCard.DraggedCard, new Vector3(0.3f, 0.3f, 1f), 0.6f).setEaseInCirc()
             .setOnComplete(() => {
-                this.UseCard(); 
                 if (DraggedActionCard.DraggedCard != null)
                 {
                     MonoBehaviour.Destroy(DraggedActionCard.DraggedCard.gameObject);

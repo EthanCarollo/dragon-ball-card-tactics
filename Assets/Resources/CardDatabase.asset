@@ -54,6 +54,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 24c97dd0b9ac74ac38b40ba357ca597e, type: 2}
   - {fileID: 11400000, guid: fdc42edcefa894631950a8f8a0ffbcc3, type: 2}
   - {fileID: 11400000, guid: c77c968391a3ddc4093c4e7b404d7915, type: 2}
+  - {fileID: 11400000, guid: 6df81c0ca71655543bedd842bd5d2eed, type: 2}
   - {fileID: 11400000, guid: 8d2e183093a5b3847b2aa6b59b58d0fa, type: 2}
   - {fileID: 11400000, guid: 6b49052efb1454cb083c614e42a9dd9a, type: 2}
   - {fileID: 11400000, guid: a69c191e3c521442783c93c5be1ef281, type: 2}
@@ -77,5 +78,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 864360ef188624184bc4eab5c62fd24b, type: 2}
   playerCards:
   - {fileID: 11400000, guid: 93db20c66251d4cc6ae178d290692206, type: 2}
-  - {fileID: 11400000, guid: 8c9513d2e24904b4b90bb33f5b63d55e, type: 2}
-  - {fileID: 11400000, guid: 9892ec054526542d7b55694f7cf7fddf, type: 2}
+  - {fileID: 11400000, guid: 6df81c0ca71655543bedd842bd5d2eed, type: 2}
+  - {fileID: 11400000, guid: f1678ce631b394e8ebd9e1aaf0f6fd15, type: 2}

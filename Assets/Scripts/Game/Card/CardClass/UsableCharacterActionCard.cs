@@ -1,7 +1,9 @@
+using System.Collections.Generic;
 using UnityEngine.EventSystems;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using Coffee.UIEffects;
 using TMPro;
 
 public abstract class UsableCharacterActionCard : Card
@@ -13,13 +15,42 @@ public abstract class UsableCharacterActionCard : Card
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
 
-        if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
+        
+        if (hit.collider != null && 
+            (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
         {
-            return GameManager.Instance.GetCharactersOnBoard()
-                    .Where(cha => cha.character.isPlayerCharacter).ToList()
-                    .Find(cha => cha.character.GetCharacterData() == characterFor || cha.character.GetCharacterData().sameCharacters.Contains(characterFor));   
+            var charactersUpdatable =  GameManager.Instance.GetCharactersOnBoard()
+                .Where(cha => cha.character.isPlayerCharacter)
+                .ToList()
+                .FindAll(cha =>
+                {
+                    if (characterFor == null) return true;
+                    return cha.character.GetCharacterData() == characterFor;
+                });
+            if(charactersUpdatable.Count == 0) return null;
+
+            var mousePosInWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            return GetClosestPosition(charactersUpdatable, mousePosInWorld);
         }
         return null;
+    }
+
+    BoardCharacter GetClosestPosition(List<BoardCharacter> characters, Vector3 target)
+    {
+        BoardCharacter closest = characters[0];
+        float closestDistance = Vector3.Distance(closest.gameObject.transform.position, target);
+
+        foreach (var character in characters)
+        {
+            float distance = Vector3.Distance(character.gameObject.transform.position, target);
+            if (distance < closestDistance)
+            {
+                closest = character;
+                closestDistance = distance;
+            }
+        }
+
+        return closest;
     }
 
     public override void OnBeginDrag(PointerEventData eventData)
@@ -29,23 +60,6 @@ public abstract class UsableCharacterActionCard : Card
     
     public override void OnDrag(PointerEventData eventData)
     {
-        /*
-        if (GetCharacterOnMouse() != null)
-        {
-            var newMaterial = new Material(ShadersDatabase.Instance.outlineMaterial);
-            newMaterial.color = Color.white;
-            SpriteRenderer renderer =
-                GetCharacterOnMouse().gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>();
-            renderer.material = newMaterial;
-            renderer.material.SetTexture("_MainTex", renderer.sprite.texture);
-            BoardGameUiManager.Instance.ShowPlayCardPanel();
-        }
-        else
-        {
-            BoardGameUiManager.Instance.HidePlayCardPanel();
-            GameManager.Instance.ResetCharacterShader();
-        }
-        */
         if (DraggedActionCard.DraggedCard == null)
         {
             Debug.Log("Drag a character");
@@ -59,8 +73,7 @@ public abstract class UsableCharacterActionCard : Card
             
             if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
             {
-                BoardCharacter characterExist = GameManager.Instance.GetCharactersOnBoard()
-                    .Where(cha => cha.character.isPlayerCharacter).ToList().Find(cha => cha.character.GetCharacterData() == characterFor || cha.character.GetCharacterData().sameCharacters.Contains(characterFor));
+                BoardCharacter characterExist = GetCharacterOnMouse(); 
                 if(characterExist != null){
                     var positionCharacter = BoardUtils.FindPosition(GameManager.Instance.boardCharacterArray, characterExist);
                     var characterUiPosition = Camera.main.WorldToScreenPoint(new Vector3(positionCharacter.x, positionCharacter.y + 2, 0f));
@@ -81,17 +94,27 @@ public abstract class UsableCharacterActionCard : Card
     {
         BoardGameUiManager.Instance.HidePlayCardPanel();
         GameManager.Instance.ResetCharacterShader();
-        if (DraggedActionCard.DraggedCard != null)
-        {
-            MonoBehaviour.Destroy(DraggedActionCard.DraggedCard.gameObject);
-        }
 
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
         
         if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
         {
-            this.UseCard();    
+            this.UseCard();
+            DraggedActionCard.DraggedCard.GetComponent<UIEffectTweener>().PlayForward();
+            LeanTween.move(DraggedActionCard.DraggedCard, Camera.main.WorldToScreenPoint(new Vector3(GetCharacterOnMouse().gameObject.transform.position.x, GetCharacterOnMouse().gameObject.transform.position.y + 0.25f)), 0.6f).setEaseInCirc();
+            LeanTween.scale(DraggedActionCard.DraggedCard, new Vector3(0.3f, 0.3f, 1f), 0.6f).setEaseInCirc()
+                .setOnComplete(() => {
+                    if (DraggedActionCard.DraggedCard != null)
+                    {
+                        MonoBehaviour.Destroy(DraggedActionCard.DraggedCard.gameObject);
+                    }
+                });
+        } else {
+            if (DraggedActionCard.DraggedCard != null)
+            {
+                MonoBehaviour.Destroy(DraggedActionCard.DraggedCard.gameObject);
+            }
         }
     }
 }

@@ -10,7 +10,8 @@ public class PassiveCard : UsableCharacterActionCard
 
     public override string GetDescription()
     {
-        return "Grants " + passive.passiveName + " to " + characterFor.name;
+        if(characterFor == null) return "Grants " + passive.passiveName + " to a character";
+        return "Grants " + passive.passiveName + " to " + characterFor.characterName;
     }
 
     public override bool CanUseCard()
@@ -18,6 +19,11 @@ public class PassiveCard : UsableCharacterActionCard
         if(base.CanUseCard() == false){
             return false;
         }
+
+        if (GameManager.Instance.GetCharactersOnBoard()
+                .Where(cha => cha.character.isPlayerCharacter).ToList().Count == 0) return false;
+        if (characterFor == null) return true;
+        
         return GameManager.Instance.GetCharactersOnBoard()
                     .Where(cha => cha.character.isPlayerCharacter).ToList()
                     .Find(cha => cha.character.GetCharacterData() == characterFor || cha.character.GetCharacterData().sameCharacters.Contains(characterFor)) != null;
@@ -25,16 +31,19 @@ public class PassiveCard : UsableCharacterActionCard
 
     public override void UseCard()
     {
-        if(CanUseCard() == false) {
-            return;
-        }
-        if (GetCharacterOnMouse() != null)
+        LeanTween.delayedCall(0.5f, () =>
         {
-            GetCharacterOnMouse().character.AddPassive(passive);
-            GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
-            BoardGameUiManager.Instance.ShowLooseMana(manaCost);
-            BoardGameUiManager.Instance.RefreshUI();
-            GameManager.Instance.RemoveCard(this);
-        }
+            if(CanUseCard() == false) {
+                return;
+            }
+            if (GetCharacterOnMouse() != null)
+            {
+                GetCharacterOnMouse().character.AddPassive(passive);
+                GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
+                BoardGameUiManager.Instance.ShowLooseMana(manaCost);
+                BoardGameUiManager.Instance.RefreshUI();
+                GameManager.Instance.RemoveCard(this);
+            }
+        });
     }
 }

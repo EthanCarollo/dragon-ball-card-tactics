@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ee56c30d3b14d05b8e157bcf7df0b41, type: 3}
+  m_Name: More Damage On Hit
+  m_EditorClassIdentifier: 
+  manaCost: 1
+  rarity: 3
+  name: More Damage On Hit
+  image: {fileID: 21300000, guid: 651ddbe4f68ae2d4b9274a3095ddaa9e, type: 3}
+  fullartImage: {fileID: 21300000, guid: 651ddbe4f68ae2d4b9274a3095ddaa9e, type: 3}
+  uiEffectPreset: Shiny
+  characterFor: {fileID: 0}
+  passive: {fileID: 11400000, guid: 1d296cd44464ed54c81d78004a7073db, type: 2}

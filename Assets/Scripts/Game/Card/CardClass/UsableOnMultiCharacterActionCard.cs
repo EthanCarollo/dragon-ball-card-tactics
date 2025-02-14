@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using Coffee.UIEffects;
 
+// Todo : Rename the file into TransformationCard.cs
 [CreateAssetMenu(fileName = "TransformationCard", menuName = "Card/TransformationCard")]
 public class TransformationCard : Card
 {
@@ -98,24 +99,27 @@ public class TransformationCard : Card
 
         if (targetCharacter != null)
         {
-            // Trouve la transformation correspondante pour le CharacterData du personnage
-            var transformation = transformations.FirstOrDefault(trans => trans.character == targetCharacter.character.GetCharacterData());
-
-            if (transformation != null)
+            LeanTween.delayedCall(0.5f, () =>
             {
-                // Joue l'animation de transformation pour le personnage
-                targetCharacter.PlayAnimation(transformation.transformation);
-            }
+                // Trouve la transformation correspondante pour le CharacterData du personnage
+                var transformation = transformations.FirstOrDefault(trans => trans.character == targetCharacter.character.GetCharacterData());
 
-            // Réduit le mana du joueur
-            GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
+                if (transformation != null)
+                {
+                    // Joue l'animation de transformation pour le personnage
+                    targetCharacter.PlayAnimation(transformation.transformation);
+                }
 
-            // Met à jour l'UI pour refléter la perte de mana
-            BoardGameUiManager.Instance.ShowLooseMana(manaCost);
-            BoardGameUiManager.Instance.RefreshUI();
+                // Réduit le mana du joueur
+                GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
 
-            // Retire la carte après utilisation
-            if(infiniteUse == false) GameManager.Instance.RemoveCard(this);
+                // Met à jour l'UI pour refléter la perte de mana
+                BoardGameUiManager.Instance.ShowLooseMana(manaCost);
+                BoardGameUiManager.Instance.RefreshUI();
+
+                // Retire la carte après utilisation
+                if(infiniteUse == false) GameManager.Instance.RemoveCard(this);
+            });
         }
     }
 
@@ -209,11 +213,11 @@ public class TransformationCard : Card
         
         if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
         {
+            this.UseCard();
             DraggedActionCard.DraggedCard.GetComponent<UIEffectTweener>().PlayForward();
             LeanTween.move(DraggedActionCard.DraggedCard, Camera.main.WorldToScreenPoint(new Vector3(GetCharacterOnMouse().gameObject.transform.position.x, GetCharacterOnMouse().gameObject.transform.position.y + 0.25f)), 0.6f).setEaseInCirc();
             LeanTween.scale(DraggedActionCard.DraggedCard, new Vector3(0.3f, 0.3f, 1f), 0.6f).setEaseInCirc()
-            .setOnComplete(() => {
-                this.UseCard(); 
+            .setOnComplete(() => { 
                 if (DraggedActionCard.DraggedCard != null)
                 {
                     MonoBehaviour.Destroy(DraggedActionCard.DraggedCard.gameObject);

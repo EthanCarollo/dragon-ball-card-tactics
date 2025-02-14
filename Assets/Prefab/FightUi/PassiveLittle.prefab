@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.8639, y: 36.956577}
-  m_SizeDelta: {x: 200, y: 26.0867}
+  m_AnchoredPosition: {x: -0.00039864, y: 62.737}
+  m_SizeDelta: {x: 299.88, y: 26.0867}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2027558827288458740
 CanvasRenderer:
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -199,6 +199,7 @@ MonoBehaviour:
   descriptionText: {fileID: 7363498792574962236}
   passiveImage: {fileID: 3835599660289067300}
   passiveInformation: {fileID: 8233841036072123496}
+  passive: {fileID: 0}
 --- !u!1 &2958059313006765703
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,8 +234,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.8639, y: -13.043}
-  m_SizeDelta: {x: 200, y: 73.913}
+  m_AnchoredPosition: {x: -0.0011826, y: -13.043}
+  m_SizeDelta: {x: 299.88, y: 125.47}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4551262934611785018
 CanvasRenderer:
@@ -260,7 +261,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -552,8 +553,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150.9, y: -12.5}
-  m_SizeDelta: {x: 205.7278, y: 100}
+  m_AnchoredPosition: {x: -197.97685, y: -38.28018}
+  m_SizeDelta: {x: 299.8815, y: 151.5604}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4581053426718699511
 CanvasRenderer:
@@ -579,7 +580,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
