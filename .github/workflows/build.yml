@@ -16,8 +16,10 @@ jobs:
     strategy:
       matrix:
         targetPlatform:
+          - StandaloneWindows
           - StandaloneWindows64
           - StandaloneOSX
+          - StandaloneLinux64
     steps:
       - uses: actions/checkout@v3
         with:
