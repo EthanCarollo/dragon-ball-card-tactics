@@ -106,7 +106,7 @@ jobs:
           tag_name: ${{ github.ref_name }}
           release_name: "Release ${{ github.ref_name }}"
           body: "${{ env.Changelog }}"
-          draft: true
+          draft: false
           prerelease: false
 
       - name: Upload Assets to Release
