@@ -1018,7 +1018,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2194588360678129931, guid: b86a249cad50c4a429b48c3f8c5d86a3, type: 3}
       propertyPath: sceneIndex
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300163181677245310, guid: b86a249cad50c4a429b48c3f8c5d86a3, type: 3}
       propertyPath: m_SizeDelta.y
