@@ -14,7 +14,7 @@
 
 To develop or run *Dragon Ball Card Tactics*, you'll need:
 
-- **Unity Editor Version**: 6000.0.23f1  
+- **Unity Editor Version**: 6000.0.27f1  
   Ensure this specific version of Unity is installed to maintain compatibility with the project's files and dependencies.
 
 ### Setting Up the Project
@@ -22,7 +22,7 @@ To develop or run *Dragon Ball Card Tactics*, you'll need:
 1. Install Unity 6000.0.27f1 from the [Unity Hub](https://unity.com/download).
 2. Clone this repository:
 ```bash
-git clone https://github.com/EthanCarollo/dragon-ball-omega-tactics.git
+git clone https://github.com/EthanCarollo/dragon-ball-card-tactics.git
 ```
 3. Open the project in Unity:
    - Launch Unity Hub and select **Open Project**.
