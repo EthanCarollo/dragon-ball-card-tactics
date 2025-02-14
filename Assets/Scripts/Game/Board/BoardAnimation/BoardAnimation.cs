@@ -7,9 +7,11 @@ using System;
 public class BoardAnimation : ScriptableObject {
     [SerializeField]
     public FrameSprite[] frameSprites;
+    public AudioClip audio;
 
     public virtual IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
+        PlaySound(character.gameObject.GetComponentInChildren<AudioSource>());
         character.actualAnimation = this;
         foreach (FrameSprite frameSprite in frameSprites)
         {
@@ -22,6 +24,12 @@ public class BoardAnimation : ScriptableObject {
     public virtual void EndAnimation(BoardCharacter character)
     {
         if(character.actualAnimation == this) character.actualAnimation = null;
+    }
+
+    private void PlaySound(AudioSource audioSource){
+        if(audio != null){
+            audioSource.PlayOneShot(audio);
+        }
     }
 }
 

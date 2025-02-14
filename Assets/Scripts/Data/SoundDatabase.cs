@@ -11,6 +11,7 @@ public class SoundDatabase : ScriptableObject
     public AudioClip clickButtonSound;
     public AudioClip addCardInDeckSound;
     public AudioClip retireCardInDeckSound;
+    public AudioClip teleportSound;
 
     public static SoundDatabase Instance
     {

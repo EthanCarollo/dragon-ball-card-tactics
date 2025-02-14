@@ -16,3 +16,4 @@ MonoBehaviour:
   clickButtonSound: {fileID: 8300000, guid: e0668ae74377b6d4495b4eb15daf8e33, type: 3}
   addCardInDeckSound: {fileID: 8300000, guid: 28fed97aff4c52b418acb6a0dc1b6e0a, type: 3}
   retireCardInDeckSound: {fileID: 8300000, guid: 8663f49af33e36342b68b7cbd0f6c9ac, type: 3}
+  teleportSound: {fileID: 8300000, guid: fa69f98197b044391ac561226c6b5f84, type: 3}
