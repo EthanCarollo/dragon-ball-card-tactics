@@ -22,7 +22,8 @@ public abstract class Card : ScriptableObject
         }
         return true;
     }
-    
+
+    public abstract string GetCardType();
     public abstract void UseCard();
     public abstract void OnBeginDrag(PointerEventData eventData);
     public abstract void OnDrag(PointerEventData eventData);

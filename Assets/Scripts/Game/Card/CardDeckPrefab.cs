@@ -4,14 +4,17 @@ using System.Linq;
 using Coffee.UIEffects;
 using Unity.VisualScripting;
 using System;
+using TMPro;
 
-public class CardDeckPrefab : CardPrefab, IPointerClickHandler
+public class CardDeckPrefab : CardPrefab, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
     public Card Card;
     public bool isInHand = false;
     public UIEffect effectForGui;
     public GameObject blackOverlay;
     public AudioSource audioSource;
+    public TextMeshProUGUI cardTypeText;
+    public GameObject cardTypeContainer;
 
     public void Update(){
         if(isInHand == true) {
@@ -23,6 +26,16 @@ public class CardDeckPrefab : CardPrefab, IPointerClickHandler
         } else {
             blackOverlay.SetActive(false);
         }
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        cardTypeContainer.SetActive(true);
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        cardTypeContainer.SetActive(false);
     }
 
     public void OnPointerClick(PointerEventData eventData)
@@ -46,6 +59,9 @@ public class CardDeckPrefab : CardPrefab, IPointerClickHandler
 
     public override void SetupCard(Card card){
         Card = card;
+        cardTypeContainer.SetActive(false);
+        cardTypeText.text = card.GetCardType();
+        cardTypeText.maskable = false;
         base.SetupCard(card);
         if(card.uiEffectPreset != null && card.uiEffectPreset.Length != 0){
             effectForGui.LoadPreset(card.uiEffectPreset);

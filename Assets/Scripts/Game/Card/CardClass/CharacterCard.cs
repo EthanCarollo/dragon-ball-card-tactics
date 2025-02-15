@@ -218,4 +218,9 @@ public class CharacterCard : Card
             UseCard();
         }
     }
+
+    public override string GetCardType()
+    {
+        return "Character";
+    }
 }

@@ -46,4 +46,9 @@ public class PassiveCard : UsableCharacterActionCard
             }
         });
     }
+
+    public override string GetCardType()
+    {
+        return "Passive";
+    }
 }

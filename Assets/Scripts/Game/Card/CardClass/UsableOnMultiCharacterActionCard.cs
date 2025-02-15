@@ -230,6 +230,11 @@ public class TransformationCard : Card
             }
         }
     }
+
+    public override string GetCardType()
+    {
+        return "Transform";
+    }
 }
 
 [Serializable]

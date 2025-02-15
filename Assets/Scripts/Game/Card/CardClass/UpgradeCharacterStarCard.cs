@@ -216,4 +216,9 @@ public class UpgradeCharacterStarCard : Card
             }
         }
     }
+
+    public override string GetCardType()
+    {
+        return "Upgrade";
+    }
 }

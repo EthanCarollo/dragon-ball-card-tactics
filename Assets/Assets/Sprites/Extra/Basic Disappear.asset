@@ -19,3 +19,4 @@ MonoBehaviour:
     time: 0.1
   - sprite: {fileID: -549317179, guid: 66558bc4039c49b439b6be90478f8510, type: 3}
     time: 0.05
+  audio: {fileID: 8300000, guid: fa69f98197b044391ac561226c6b5f84, type: 3}

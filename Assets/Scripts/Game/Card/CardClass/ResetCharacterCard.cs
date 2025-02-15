@@ -220,4 +220,9 @@ public class ResetCard : Card
             }
         }
     }
+
+    public override string GetCardType()
+    {
+        return "Reset Transform";
+    }
 }
