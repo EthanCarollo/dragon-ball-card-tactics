@@ -24,9 +24,9 @@ MonoBehaviour:
   maxKi: 250
   baseRange: 1
   baseDamage: 180
-  baseArmor: 120
+  baseArmor: 60
   baseSpeed: 9
-  baseAttackSpeed: 1
+  baseAttackSpeed: 0.6
   baseCriticalChance: 50
   idleAnimation: {fileID: 11400000, guid: 1c98402eb5206844bbcd5238d881f5cc, type: 2}
   runAnimation: {fileID: 11400000, guid: 301e5f8c191ad8b40953183c73e6dd6a, type: 2}
@@ -36,7 +36,9 @@ MonoBehaviour:
   - name: Charged Ki
     description: Attack multiple enemies
     animation: {fileID: 11400000, guid: 79138982bd2e1b144b473ee92438b1bb, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}

@@ -25,12 +25,23 @@ MonoBehaviour:
     Bonuses:
     - rid: 6739222798441644107
   - RequiredUnits: 4
-    Description: If Bojack is in game, transform it in full power.
+    Description: If Bojack is in game, transform it in full power & give him 50 attack
+      damage bonus.
     Bonuses:
     - rid: 6739222801471242315
+    - rid: 5533071599581265998
   references:
     version: 2
     RefIds:
+    - rid: 5533071599581265998
+      type: {class: SpecialCharacterBonus, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 50
+        maxHpBonus: 0
+        attackSpeedBonus: 0
+        criticalChanceBonus: 0
+        effectsOnHit: []
+        character: {fileID: 11400000, guid: 41b76d184a8a14023806cbbe64e6a85b, type: 2}
     - rid: 6739222776896290892
       type: {class: Bonus, ns: , asm: Assembly-CSharp}
       data:

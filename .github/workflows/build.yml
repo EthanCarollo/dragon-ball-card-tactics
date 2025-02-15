@@ -69,8 +69,6 @@ jobs:
           name: DragonBallCardTactics-Zipped-${{ matrix.targetPlatform }}
           path: DragonBallCardTactics-${{ matrix.targetPlatform }}.zip
 
-
-
   release:
     name: 🚀 Create GitHub Release
     needs: buildForAllSupportedPlatforms
@@ -88,11 +86,15 @@ jobs:
           echo "Previous tag: $PREV_TAG"
           echo "prev_tag=$PREV_TAG" >> $GITHUB_ENV
 
-      - name: Generate changelog
+      - name: Generate changelog from commits
         id: generate_changelog
         run: |
-          echo "Changelog=$LOG" >> $GITHUB_ENV
-          
+          LOG=$(git log --pretty=format:"- %s" ${{ env.prev_tag }}..HEAD)
+          echo "Changelog generated:"
+          echo "$LOG"
+          echo "Changelog<<EOF" >> $GITHUB_ENV
+          echo "$LOG" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
 
       - name: Download build artifacts
         uses: actions/download-artifact@v4

@@ -26,7 +26,7 @@ MonoBehaviour:
   baseDamage: 150
   baseArmor: 75
   baseSpeed: 9
-  baseAttackSpeed: 0.1
+  baseAttackSpeed: 0.45
   baseCriticalChance: 5
   idleAnimation: {fileID: 11400000, guid: 285cfb0174ca348e9a0f72f09d2594d7, type: 2}
   runAnimation: {fileID: 11400000, guid: 06c248875e9804e3c8fadf203bcc2037, type: 2}
@@ -36,6 +36,10 @@ MonoBehaviour:
   - name: 'Double Sunday '
     description: A powerful ki waves shot from both hands.
     animation: {fileID: 11400000, guid: aedeea3b7a6bd4345b9e0c17d1de360d, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: e6b0f87b761094f0f979685b3c42f23a, type: 2}
+  - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}

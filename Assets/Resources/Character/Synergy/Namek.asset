@@ -16,17 +16,29 @@ MonoBehaviour:
   synergyImage: {fileID: -2409190750713450014, guid: cd622fe9ce3c46b438c1df36a5f346bd, type: 3}
   Tiers:
   - RequiredUnits: 2
-    Description: Give 300 max hp to all namek.
+    Description: Give 650 max hp to all namek.
     Bonuses:
     - rid: 2093936973571424332
+  - RequiredUnits: 5
+    Description: Give 2000 max hp to all namek.
+    Bonuses:
+    - rid: 5533071599581265999
   references:
     version: 2
     RefIds:
     - rid: 2093936973571424332
       type: {class: Bonus, ns: , asm: Assembly-CSharp}
       data:
-        attackBonus: 300
-        maxHpBonus: 0
+        attackBonus: 0
+        maxHpBonus: 650
+        attackSpeedBonus: 0
+        criticalChanceBonus: 0
+        effectsOnHit: []
+    - rid: 5533071599581265999
+      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 0
+        maxHpBonus: 2000
         attackSpeedBonus: 0
         criticalChanceBonus: 0
         effectsOnHit: []

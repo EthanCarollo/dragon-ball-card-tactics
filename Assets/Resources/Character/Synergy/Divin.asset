@@ -15,18 +15,30 @@ MonoBehaviour:
   synergyName: Divin
   synergyImage: {fileID: 21300000, guid: c87d14123e70945e6ba39cc4cf12abff, type: 3}
   Tiers:
-  - RequiredUnits: 2
+  - RequiredUnits: 3
     Description: Give 20 attack and 0.1 attack speed to all Divin Synergy.
+    Bonuses:
+    - rid: 5533071599581265997
+  - RequiredUnits: 6
+    Description: Give 90 attack and 0.3 attack speed to all Divin Synergy.
     Bonuses:
     - rid: 6739222654909153354
   references:
     version: 2
     RefIds:
-    - rid: 6739222654909153354
+    - rid: 5533071599581265997
       type: {class: Bonus, ns: , asm: Assembly-CSharp}
       data:
         attackBonus: 20
         maxHpBonus: 0
         attackSpeedBonus: 0.1
+        criticalChanceBonus: 0
+        effectsOnHit: []
+    - rid: 6739222654909153354
+      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 90
+        maxHpBonus: 0
+        attackSpeedBonus: 0.3
         criticalChanceBonus: 0
         effectsOnHit: []
