@@ -39,6 +39,8 @@ MonoBehaviour:
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 0}
+  spriteCredit: 'JCO200  ErickJCrack507  Theflearenton  ErickFl  JustOruma  azazel300 
+    Arisrad  '
   sameCharacters:
   - {fileID: 11400000, guid: 361e9f9acfe824adcbcf3f4af0ca844c, type: 2}
   synergies:

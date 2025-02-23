@@ -39,6 +39,7 @@ MonoBehaviour:
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 0}
+  spriteCredit: Azazel300
   sameCharacters:
   - {fileID: 11400000, guid: 309a3e9e42b794cfbbe46b55b07fe4a1, type: 2}
   synergies:

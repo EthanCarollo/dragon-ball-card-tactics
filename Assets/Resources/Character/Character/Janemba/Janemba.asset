@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Janemba
   m_EditorClassIdentifier: 
-  id: 60
+  id: 66
   starNumber: 1
   characterName: Janemba
   role: 0
@@ -39,7 +39,10 @@ MonoBehaviour:
   - name: Little super attack
     description: A little super attack
     animation: {fileID: 11400000, guid: 0badf5a831b265d44b42755cd9b173f8, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: orumaitoobeso  LukasAhl1  arisrad  qsab101  Mattfv  ErickJCrack507
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: 4c06df1b7d77047398c15d5152c8ec1b, type: 2}

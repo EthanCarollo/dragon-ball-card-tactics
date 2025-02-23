@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Buutenks
   m_EditorClassIdentifier: 
-  id: 16
+  id: 25
   starNumber: 1
   characterName: Buutenks
   role: 0
@@ -39,5 +39,6 @@ MonoBehaviour:
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 11400000, guid: a514cd09df0fc434bb7eaff92c919a58, type: 2}
+  spriteCredit: 'AlexKX29 qsab101 '
   sameCharacters: []
   synergies: []

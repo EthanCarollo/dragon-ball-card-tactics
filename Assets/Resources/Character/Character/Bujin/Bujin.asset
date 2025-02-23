@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Bujin
   m_EditorClassIdentifier: 
-  id: 48
+  id: 23
   starNumber: 1
   characterName: Bujin
   role: 0
@@ -36,6 +36,11 @@ MonoBehaviour:
   - name: Special
     description: Attack multiple enemies
     animation: {fileID: 11400000, guid: a6b0312364efb4d99b8c864ddb0a0981, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit: bite035 dyan diesel jardi_jard contadodavid dark boom 59430 menakiai
+    que squab Suten94
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: fb45fe0120531415a900315cc099c60a, type: 2}

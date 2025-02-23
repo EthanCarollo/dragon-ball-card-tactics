@@ -38,6 +38,7 @@ public class CharacterData : ScriptableObject
     
     // The base character, one without any transformation
     public CharacterData baseCharacter;
+    public string spriteCredit;
 
     [FormerlySerializedAs("sameCharacter")] public CharacterData[] sameCharacters; // This said if it's the same char than another, useful if we want to upgrade one
 

@@ -32,6 +32,8 @@ public class CharacterBoardUi : MonoBehaviour
 
         public SpecialAttackContainer specialAttackContainer;
 
+        public TextMeshProUGUI spriteCredit;
+
         public void Start()
         {
                 RefreshUi();
@@ -62,6 +64,13 @@ public class CharacterBoardUi : MonoBehaviour
                 charImage.sprite = characterContainer.GetCharacterData().characterIcon;
 
                 specialAttackContainer.Setup(characterContainer.GetCharacterSpecialAttack());
+
+                if(characterContainer.GetCharacterData().spriteCredit != null && characterContainer.GetCharacterData().spriteCredit != ""){
+                        spriteCredit.gameObject.SetActive(true);
+                        spriteCredit.text = "Credits : " + characterContainer.GetCharacterData().spriteCredit;
+                }else{
+                        spriteCredit.gameObject.SetActive(false);
+                }
                 
                 foreach (Transform child in synergyContainer)
                 {

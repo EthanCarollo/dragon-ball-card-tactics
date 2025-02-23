@@ -38,6 +38,9 @@ MonoBehaviour:
     animation: {fileID: 11400000, guid: 9c648dd53946449298861bc9e7666311, type: 2}
   winPoseAnimation: {fileID: 11400000, guid: 8d569f3c094ca924aa880dcfa6a74883, type: 2}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit: bite035 dyan diesel jardi_jard contadodavid dark boom 59430 menakiai
+    que squab Suten94
   sameCharacters:
   - {fileID: 11400000, guid: 41b76d184a8a14023806cbbe64e6a85b, type: 2}
   synergies:

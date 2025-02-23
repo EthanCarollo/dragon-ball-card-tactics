@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Zamasu (Fusion)
   m_EditorClassIdentifier: 
-  id: 103
+  id: 115
   starNumber: 1
   characterName: Zamasu (Fusion)
   role: 0
@@ -36,8 +36,16 @@ MonoBehaviour:
   - name: Coup d'iep
     description: Big coup d'iep
     animation: {fileID: 0}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: 'ErickFl MiguelGuerreiroZ YoloKing777 BoogeyBoy1 KambaYT3 TansaKi
+    FoxySpriter AldetSkywalker CookieFlames SonGoku0911 algustinhovg MiguelBR2005
+    Jack-Hedgehog ultrasonicultimate TaikeruRekujin SaribS naickmer thekrillmaster
+    MV95 qsab101 Aslo345 kaivo2003 jetrix97 Paulo343r Gougours BlackVinas AnimeWorldYT
+    breckhhh ErickJCrack507 Ningensprites Bite035 PeculiarDoc xBae12 azazel300 Tougarashi635
+    DyanDisel Windi101 izanagi797 frankmster '
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Bardock (DBS)
   m_EditorClassIdentifier: 
-  id: 26
+  id: 118
   starNumber: 1
   characterName: Bardock (DBS)
   role: 0
@@ -39,6 +39,7 @@ MonoBehaviour:
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 0}
+  spriteCredit: Qsab Dryy Azazel300 Dyandisel ThePropsXD Thisbault-deboom
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}

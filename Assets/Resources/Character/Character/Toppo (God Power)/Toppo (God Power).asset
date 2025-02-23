@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Toppo (God Power)
   m_EditorClassIdentifier: 
-  id: 20
+  id: 120
   starNumber: 1
   characterName: Toppo (God Power)
   role: 0
@@ -39,6 +39,7 @@ MonoBehaviour:
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 0}
+  spriteCredit: Woothrad Que08 TheKrillMaster
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: 979d164dc9dc64d7fa0f2ad50a6d5453, type: 2}

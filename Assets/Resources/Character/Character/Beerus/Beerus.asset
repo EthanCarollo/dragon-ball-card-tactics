@@ -36,8 +36,11 @@ MonoBehaviour:
   - name: Multi Ki Blast
     description: Multi Ki Blast !
     animation: {fileID: 11400000, guid: e007f7cd9fcdc417691afe3e50b96cca, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: xBae12  allenyael YoloKing777 Bite035 qsab101
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
   - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}

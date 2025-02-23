@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Broly (Berserk)
   m_EditorClassIdentifier: 
-  id: 21
+  id: 20
   starNumber: 1
   characterName: Broly (Berserk)
   role: 0
@@ -39,6 +39,7 @@ MonoBehaviour:
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 11400000, guid: 1555c465fc48e4cb89353fe5b1a3b679, type: 2}
+  spriteCredit: qsab101 thekrillmaster extremebutoden luka arisrad majinvegeta95
   sameCharacters:
   - {fileID: 11400000, guid: 1555c465fc48e4cb89353fe5b1a3b679, type: 2}
   - {fileID: 11400000, guid: b7c09c08fd054419e9233e2b0e3926ce, type: 2}
