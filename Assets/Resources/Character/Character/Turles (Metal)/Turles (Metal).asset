@@ -36,7 +36,10 @@ MonoBehaviour:
   - name: Super Kikoha
     description: 
     animation: {fileID: 11400000, guid: 9395cbd758be04a03bfe3da576a3fc1b, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: Xenowhite2
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: d650a485b7943417bb2b531cc2a4ba90, type: 2}

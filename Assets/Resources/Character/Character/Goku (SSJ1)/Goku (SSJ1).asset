@@ -39,6 +39,8 @@ MonoBehaviour:
   winPoseAnimation: {fileID: 11400000, guid: f0f641b23b16fb846ab7fade5e26171d, type: 2}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
+  spriteCredit: 'SonGoku0911  Woothrad cenker AldetSkywalker ErickJCrack507 KambaYT3
+    AndresZ2021 JGDRMEMES '
   sameCharacters:
   - {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
   - {fileID: 11400000, guid: b8153c8db51b02e469b29ecc91aa4c44, type: 2}

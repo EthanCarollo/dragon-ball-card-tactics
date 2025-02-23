@@ -37,7 +37,10 @@ MonoBehaviour:
     description: Increase the attack speed of every character player by 0.4 for 6
       seconds.
     animation: {fileID: 11400000, guid: 44ae3f46e94864697840764b43ef5838, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: qsab DarkSheep123 kaivo2003 dyandisel bite035 omegasuper
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}

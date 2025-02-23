@@ -36,8 +36,11 @@ MonoBehaviour:
   - name: "Kikomachinl\xE0"
     description: No description
     animation: {fileID: 11400000, guid: 69f99b77213d84366894ffa7dd7a7424, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: qsab101 ErickJCrack507 arisrad TowerCrack07 DyanDisel 078087056166y227
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
   - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}

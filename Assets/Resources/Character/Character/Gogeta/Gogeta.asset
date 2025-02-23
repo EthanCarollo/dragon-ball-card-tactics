@@ -36,5 +36,10 @@ MonoBehaviour:
   - name: Coup d'iep
     description: Big coup d'iep
     animation: {fileID: 11400000, guid: b1367e2a9f70f314b91bb4c1c6870032, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit: qsab101 orumaitoobeso PapuroTekikujimo Tougarashi635 allenyael Sonsuki
+    AldetSkywalker xBae12 Bite035
+  sameCharacters: []
   synergies: []

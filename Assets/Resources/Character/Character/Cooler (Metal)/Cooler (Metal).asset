@@ -39,6 +39,8 @@ MonoBehaviour:
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 0}
+  spriteCredit: 'qsab101 AubreiPrince Nightmarex07 arisrad breckhhh orumaitoobeso
+    Bite035 Aslo345 XenoZaiko allenyael TarloEgnaro ErickJCrack507 sylerkil '
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: 3783c350991614099bfa12186d81ccd3, type: 2}

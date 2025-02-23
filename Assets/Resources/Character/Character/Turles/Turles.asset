@@ -39,6 +39,7 @@ MonoBehaviour:
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 0}
+  spriteCredit: "BlackVinas Andr\xE9s Z2021 AxPsArts plusultra05 dfakua2"
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: d650a485b7943417bb2b531cc2a4ba90, type: 2}

@@ -39,7 +39,12 @@ MonoBehaviour:
   - name: Little super attack
     description: A little super attack
     animation: {fileID: 11400000, guid: 0badf5a831b265d44b42755cd9b173f8, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit: 'qsab101 AubreiPrince Nightmarex07 arisrad breckhhh orumaitoobeso
+    Bite035 Aslo345 XenoZaiko allenyael TarloEgnaro ErickJCrack507 sylerkil '
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: e6b0f87b761094f0f979685b3c42f23a, type: 2}
   - {fileID: 11400000, guid: 3783c350991614099bfa12186d81ccd3, type: 2}

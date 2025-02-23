@@ -39,6 +39,7 @@ MonoBehaviour:
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 0}
+  spriteCredit: allenyael Mangal666 MacXxtak
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: e6b0f87b761094f0f979685b3c42f23a, type: 2}

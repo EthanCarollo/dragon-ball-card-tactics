@@ -36,7 +36,10 @@ MonoBehaviour:
   - name: Full-Power Energy Wave
     description: A powerful ki waves shot.
     animation: {fileID: 11400000, guid: 53087d6719e8e8e4ab8f07e4f886792e, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: orumaitoobeso LukasAhl1 arisrad qsab101 Goruto6
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: 9c452569d04a944d4a77e1a9eae1b17f, type: 2}

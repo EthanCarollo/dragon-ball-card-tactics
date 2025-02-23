@@ -36,8 +36,12 @@ MonoBehaviour:
   - name: Super Kikoha
     description: 
     animation: {fileID: 11400000, guid: aef4c89eb102c47a8990d1bc921cb852, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: rud390 Omegasuper thekrillmaster KyzenAnimation qsab101 Woothrad
+    StevenGD
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
   - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}

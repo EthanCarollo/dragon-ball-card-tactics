@@ -39,6 +39,8 @@ MonoBehaviour:
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 11400000, guid: b3a2e62ae4b74c3488d9354778659184, type: 2}
+  spriteCredit: 'xenowhite2 lsweb mitozfighter SteveThao21 MatheusAnima  Qsab101 
+    MrNegative04  Alquimistask  Xbae12 i think  Arisrad  BrianTorres  Orumaitoobeso '
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: d650a485b7943417bb2b531cc2a4ba90, type: 2}
