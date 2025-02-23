@@ -32,6 +32,7 @@ public class CharacterBoardUi : MonoBehaviour
 
         public SpecialAttackContainer specialAttackContainer;
 
+        public GameObject spriteCreditContainer;
         public TextMeshProUGUI spriteCredit;
 
         public void Start()
@@ -66,9 +67,12 @@ public class CharacterBoardUi : MonoBehaviour
                 specialAttackContainer.Setup(characterContainer.GetCharacterSpecialAttack());
 
                 if(characterContainer.GetCharacterData().spriteCredit != null && characterContainer.GetCharacterData().spriteCredit != ""){
+                        spriteCreditContainer.SetActive(true);
                         spriteCredit.gameObject.SetActive(true);
-                        spriteCredit.text = "Credits : " + characterContainer.GetCharacterData().spriteCredit;
+                        spriteCredit.text = "Sprite Credits : " + characterContainer.GetCharacterData().spriteCredit;
+                        spriteCredit.maskable = false;
                 }else{
+                        spriteCreditContainer.SetActive(false);
                         spriteCredit.gameObject.SetActive(false);
                 }
                 
