@@ -82,7 +82,11 @@ public class DefaultCharacterState : BoardCharacterState
     {
         Vector2 targetPosition = boardCharacter.nextPosition;
         float step = boardCharacter.character.GetSpeed() * Time.deltaTime;
-        boardCharacter.PlayAnimationIfNotRunning(boardCharacter.character.GetCharacterData().runAnimation);
+        if(boardCharacter.actualAnimation != boardCharacter.character.GetCharacterData().runAnimation){
+            boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterData().runAnimation);
+        } else {
+            boardCharacter.PlayAnimationIfNotRunning(boardCharacter.character.GetCharacterData().runAnimation);
+        }
         boardCharacter.gameObject.transform.position = Vector3.MoveTowards(boardCharacter.gameObject.transform.position, targetPosition, step);
         if (Vector3.Distance(boardCharacter.gameObject.transform.position, targetPosition) < 0.001f)
         {
