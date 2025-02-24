@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Krillin (Namek Saga)
   m_EditorClassIdentifier: 
-  id: 61
+  id: 74
   starNumber: 1
   characterName: Krillin (Namek Saga)
   role: 0
@@ -36,7 +36,11 @@ MonoBehaviour:
   - name: Super Kikoha
     description: 
     animation: {fileID: 11400000, guid: c7e438f3f9e24614f9e333a546389aa6, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: erickjcrack dyan diesel orunaito suten 894 bite 835 igdreenes contadodavid
+    gorutoo woothrad enadart qsab arisrad que  syler
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Android 18
   m_EditorClassIdentifier: 
-  id: 16
+  id: 4
   starNumber: 1
   characterName: Android 18
   role: 0
@@ -36,7 +36,10 @@ MonoBehaviour:
   - name: Kienzan
     description: 
     animation: {fileID: 11400000, guid: e14a6fd210d0142779769ae48e7e4b76, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: Qsab101 Oruma Kude Luka MatheusAnimaYt ErickFl
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: 2cb9ba8a614734a358c15cedc22a075f, type: 2}

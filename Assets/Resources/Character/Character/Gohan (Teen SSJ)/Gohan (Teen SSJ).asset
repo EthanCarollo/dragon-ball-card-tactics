@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Gohan (Teen SSJ)
   m_EditorClassIdentifier: 
-  id: 16
+  id: 48
   starNumber: 1
   characterName: Gohan (Teen SSJ)
   role: 0
@@ -36,7 +36,11 @@ MonoBehaviour:
   - name: Multiple Attack
     description: 
     animation: {fileID: 11400000, guid: df31a3813701abd48acb3086cdb54c6a, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: Qsab101 Xxxfuredi Aslo345 Goruto6 DyanDisel Aldetskywalker Gougours
+    Enteithehedgehog Dragon Exe
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}

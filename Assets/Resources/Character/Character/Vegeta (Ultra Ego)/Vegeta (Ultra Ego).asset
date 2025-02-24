@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Vegeta (Ultra Ego)
   m_EditorClassIdentifier: 
-  id: 103
+  id: 108
   starNumber: 1
   characterName: Vegeta (Ultra Ego)
   role: 0
@@ -39,6 +39,7 @@ MonoBehaviour:
   winPoseAnimation: {fileID: 11400000, guid: 0734e35585f2e4fd7b4c55dccde7bf4f, type: 2}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 11400000, guid: 0875c67b3acfc094b9a106f94cb6dd4c, type: 2}
+  spriteCredit: qsab101 ErickJCrack507 azazel300
   sameCharacters:
   - {fileID: 11400000, guid: 0875c67b3acfc094b9a106f94cb6dd4c, type: 2}
   - {fileID: 11400000, guid: 88cfd0fd93d384ebea0ba068ea12b6e6, type: 2}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Frieza (Golden Hakaishin)
   m_EditorClassIdentifier: 
-  id: 32
+  id: 36
   starNumber: 1
   characterName: Frieza (Golden Hakaishin)
   role: 0
@@ -36,8 +36,11 @@ MonoBehaviour:
   - name: Charged Ki
     description: Charge a Super Ki
     animation: {fileID: 11400000, guid: 3a1fc936afa2f48229300d99f88d24f4, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter:
+  baseCharacter: {fileID: 0}
+  spriteCredit: BRIANTORRES Qsab Bite035 OmegaSuper Nightmarex07 Dyandisel
+  sameCharacters:
   - {fileID: 11400000, guid: f9b20bbaea69544a397d0f57a57b3a89, type: 2}
   - {fileID: 11400000, guid: be6c3934fcbe04ab6b4f28eba24830b5, type: 2}
   - {fileID: 11400000, guid: b255e1f905a4e4ce7831d56473c2f166, type: 2}

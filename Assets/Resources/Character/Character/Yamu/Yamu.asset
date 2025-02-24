@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Yamu
   m_EditorClassIdentifier: 
-  id: 33
+  id: 112
   starNumber: 1
   characterName: Yamu
   role: 1
@@ -36,6 +36,11 @@ MonoBehaviour:
   - name: Ki Blast
     description: The most basic form of energy blast.
     animation: {fileID: 11400000, guid: 5bf137ae244a14fe5a6cd64f7e721030, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit: orumaito suten94 erickjcrak tarloegnaro kude erickFl jgdrmemes jardi_jard
+    shenn taugarshi35 juan gone gg rockgenius breckhhh dyan diesel
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: 4ba1bf47f6be1489fb5be013c0e05f1e, type: 2}

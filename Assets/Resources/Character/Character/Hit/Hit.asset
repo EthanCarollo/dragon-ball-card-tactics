@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Hit
   m_EditorClassIdentifier: 
-  id: 63
+  id: 65
   starNumber: 1
   characterName: Hit
   role: 0
@@ -39,6 +39,8 @@ MonoBehaviour:
   winPoseAnimation: {fileID: 11400000, guid: 06d2a20dd91cc4483b6821baf5ae53e1, type: 2}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 0}
+  spriteCredit: OmegaSuper, Thekrillmaster , Majin Vegeta95 , Luka , angryboy , Que
+    , Extreme Butoden , DB Fighterz
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: 7d26e55960375489a9b8e851d3df2ecc, type: 2}
