@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -37,7 +38,7 @@ public class DropRateBox : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     }
 
     public void SetupBox(){
-        text.text = new CardDropRate(GameManager.Instance.Player.Level.CurrentLevel).GetRarityPercentage(rarity).ToString() + "%";
+        text.text = Math.Round(new CardDropRate(GameManager.Instance.Player.Level.CurrentLevel).GetRarityPercentage(rarity), 1).ToString() + "%";
         image.color = rarity.GetRarityColor();
     }
 
