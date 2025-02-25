@@ -14,7 +14,10 @@ public class HistoryFightGameObject : MonoBehaviour, IPointerClickHandler {
     public void OnPointerClick(PointerEventData eventData)
     {
         historyActionGameObject.SetActive(!historyActionGameObject.activeSelf);
-        LayoutRebuilder.ForceRebuildLayoutImmediate(historyFightContainer.GetComponent<RectTransform>());
+        var parentRectTransform = this.transform.parent.GetComponent<RectTransform>();
+        if(parentRectTransform != null) LayoutRebuilder.ForceRebuildLayoutImmediate(parentRectTransform);
+        var historyRectTransform = historyFightContainer.GetComponent<RectTransform>();
+        if(historyRectTransform != null) LayoutRebuilder.ForceRebuildLayoutImmediate(historyRectTransform);
     }
 
     public void Setup(HistoryFight history, Transform historyFightContainer){
