@@ -17,7 +17,7 @@ public class HistoryContainer : MonoBehaviour {
 
         foreach(var history in HistoryDatabase.Instance.history){
             Instantiate(PrefabDatabase.Instance.historyPrefab, historyFightContainer)
-            .GetComponent<HistoryFightGameObject>().Setup(history);
+            .GetComponent<HistoryFightGameObject>().Setup(history, historyFightContainer);
         }
     }
 }

@@ -12,4 +12,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7282f81c676044faea1d50c0e67a3fba, type: 3}
   m_Name: HistoryDatabase
   m_EditorClassIdentifier: 
-  history: []
+  history:
+  - characters:
+    - powerMultiplicator: 0
+      characterStar: 0
+      characterId: 0
+      actualHealth: 0
+      actualKi: 0
+      selectedUltimateAttack: 0
+      maxCharacterStar: 0
+      characterPassives: []
+      isPlayerCharacter: 0
+    historyActions:
+    - rid: 5533071839517474892
+    - rid: 5533071839517474893
+    round: 0
+    seconds: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 5533071839517474892
+      type: {class: PlayCardHistoryAction, ns: , asm: Assembly-CSharp}
+      data:
+        time: 10
+        cardPlayed: {fileID: 11400000, guid: ef51641237669437192bb3a166857178, type: 2}
+    - rid: 5533071839517474893
+      type: {class: EndFightHistoryAction, ns: , asm: Assembly-CSharp}
+      data:
+        time: 0
+        fightEnded: {fileID: 11400000, guid: 8f3f8192eba754a6aa4fedd97df0a0f9, type: 2}

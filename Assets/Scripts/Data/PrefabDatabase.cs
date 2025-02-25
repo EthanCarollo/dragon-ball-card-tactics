@@ -20,6 +20,12 @@ public class PrefabDatabase : ScriptableObject
 
     public GameObject contextCardMenuPrefab;
 
+    public GameObject defaultHistoryActionPrefab;
+
+    public GameObject playCardHistoryActionPrefab;
+
+    public GameObject endFightHistoryActionPrefab;
+
     public static PrefabDatabase Instance
     {
         get
