@@ -11,6 +11,7 @@ public class GameManager
     public static int BoardWidth = 11;
     public static int BoardHeight = 7;
     public float elapsedTime = 0f;
+    public HistoryAction[] historyActions;
     
     public static GameManager Instance
     {
@@ -43,6 +44,7 @@ public class GameManager
     private GameManager()
     {
         _instance = this;
+        historyActions = new HistoryAction[0];
         boardCharacterArray = new BoardObject[BoardWidth, BoardHeight];
     }
 
@@ -78,6 +80,12 @@ public class GameManager
         }
         actualMap = MonoBehaviour.Instantiate(map);
         actualMap.transform.position = new Vector3(0, 0.3f, 0);
+    }
+
+    public void AddHistoryAction(HistoryAction historyAction){
+        var historyActionsList = historyActions.ToList();
+        historyActionsList.Add(historyAction);
+        historyActions = historyActionsList.ToArray();
     }
 
     public void GoNextFight()

@@ -11,16 +11,22 @@ public abstract class Card : ScriptableObject
     public Sprite fullartImage;
     public string uiEffectPreset;
 
-    public virtual string GetDescription()
-    {
+    public virtual string GetDescription() {
         return "";
     }
 
-    public virtual bool CanUseCard(){
+    public virtual bool CanUseCard() {
         if(manaCost > GameManager.Instance.Player.Mana.CurrentMana){
             return false;
         }
         return true;
+    }
+
+    public void RegisterCardHistory() {
+        var historyAction = new PlayCardHistoryAction();
+        historyAction.cardPlayed = this;
+        historyAction.time = Mathf.RoundToInt(GameManager.Instance.elapsedTime);
+        GameManager.Instance.AddHistoryAction(historyAction);
     }
 
     public abstract string GetCardType();

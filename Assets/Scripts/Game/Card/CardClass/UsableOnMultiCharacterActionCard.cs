@@ -118,6 +118,7 @@ public class TransformationCard : Card
                 BoardGameUiManager.Instance.RefreshUI();
 
                 // Retire la carte après utilisation
+                RegisterCardHistory();
                 if(infiniteUse == false) GameManager.Instance.RemoveCard(this);
             });
         }

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Android 20
   m_EditorClassIdentifier: 
-  id: 39
+  id: 5
   starNumber: 1
   characterName: Android 20
   role: 1
@@ -26,7 +26,7 @@ MonoBehaviour:
   baseDamage: 50
   baseArmor: 25
   baseSpeed: 2
-  baseAttackSpeed: 0.5
+  baseAttackSpeed: 0.3
   baseCriticalChance: 10
   idleAnimation: {fileID: 11400000, guid: 8bb1c709cb2d04aebb9a3a7ded43e983, type: 2}
   runAnimation: {fileID: 11400000, guid: 44ddfa9a2c65f4bfa9c0f0904ccffc2b, type: 2}
@@ -36,8 +36,10 @@ MonoBehaviour:
   - name: Ki Blast
     description: The most basic form of energy blast.
     animation: {fileID: 11400000, guid: 7edcaeefadc1e485e827611ad3a06c48, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  characterPassive: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: 2cb9ba8a614734a358c15cedc22a075f, type: 2}
-  card: {fileID: 0}

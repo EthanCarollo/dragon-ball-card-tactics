@@ -32,10 +32,12 @@ public class HistoryDatabase : ScriptableObject
         }
     }
 
-    public void AddFight(CharacterContainer[] characters, int round, int seconds)
+    public void AddFight(CharacterContainer[] characters, int round, int seconds, HistoryAction[] historyActions)
     {
         var historyList = history.ToList();
-        historyList.Add(new HistoryFight(characters, round, seconds));
+        HistoryFight historyFight = new HistoryFight(characters, round, seconds);
+        historyFight.historyActions = historyActions;
+        historyList.Add(historyFight);
         history = historyList.ToArray();
         SaveHistory();
     }

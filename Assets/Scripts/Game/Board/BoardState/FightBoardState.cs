@@ -135,14 +135,21 @@ public class FightBoardState : BoardState
         }
         board.UpdateState(new DefaultBoardState(board));
         GameManager.Instance.Player.Mana.AddMana(1);
+
+        var historyAction = new EndFightHistoryAction();
+        historyAction.fightEnded = GameManager.Instance.ActualFight;
+        historyAction.winFight = win;
+        historyAction.time = Mathf.RoundToInt(GameManager.Instance.elapsedTime);
+
         if(win == false){
             GameManager.Instance.boardCharacterArray = boardBeforeFight;
             GameManager.Instance.Player.Life.LooseLife(1);
             if(GameManager.Instance.Player.Life.IsAlive() == false){
-                ;
                 HistoryDatabase.Instance.AddFight(GameManager.Instance.GetCharactersOnBoard()
                     .Where(character => character.character.isPlayerCharacter).Select(character => character.character).ToArray(), 
-                    GameManager.Instance.actualRound, Mathf.RoundToInt(GameManager.Instance.elapsedTime));
+                    GameManager.Instance.actualRound, Mathf.RoundToInt(GameManager.Instance.elapsedTime), GameManager.Instance.historyActions);
+
+                GameManager.Instance.historyActions = new HistoryAction[0];
                 LoosePanelUiManager.Instance.ShowLoosePanel();
             } else {
                 GameManager.Instance.GoNextFight();
@@ -156,6 +163,7 @@ public class FightBoardState : BoardState
                 GameManager.Instance.GoNextFight();
             }
         }
+        GameManager.Instance.AddHistoryAction(historyAction);
         BoardGameUiManager.Instance.characterBoardUi.HideCharacterBoard();
         BoardGameUiManager.Instance.RefreshUI();
         board.CreateBoard(GameManager.Instance.boardCharacterArray);

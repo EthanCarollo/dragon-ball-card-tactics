@@ -1,6 +1,6 @@
 
 public class PlayerLife {
-    public int CurrentLife = 5;
+    public int CurrentLife = 1;
     public int MaxLife = 5;
 
     public void LooseLife(int life){

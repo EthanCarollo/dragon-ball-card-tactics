@@ -42,6 +42,7 @@ public class PassiveCard : UsableCharacterActionCard
                 GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
                 BoardGameUiManager.Instance.ShowLooseMana(manaCost);
                 BoardGameUiManager.Instance.RefreshUI();
+                RegisterCardHistory();
                 GameManager.Instance.RemoveCard(this);
             }
         });

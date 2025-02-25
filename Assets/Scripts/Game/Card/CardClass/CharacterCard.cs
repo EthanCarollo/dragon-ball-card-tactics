@@ -90,6 +90,7 @@ public class CharacterCard : Card
                 characterExist.SetCharacterSlider();
                 GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
                 BoardGameUiManager.Instance.ShowLooseMana(manaCost);
+                RegisterCardHistory();
                 GameManager.Instance.RemoveCard(this);
                 BoardGameUiManager.Instance.RefreshUI();
                 FightBoard.Instance.CreateBoard(GameManager.Instance.boardCharacterArray);
@@ -106,6 +107,7 @@ public class CharacterCard : Card
                 tileScript.assignedBoard.AddCharacterFromBoard(new BoardCharacter(new CharacterContainer(character.id, new List<CharacterPassive>(), 1, true)), tileScript.position);
                 GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
                 BoardGameUiManager.Instance.ShowLooseMana(manaCost);
+                RegisterCardHistory();
                 GameManager.Instance.RemoveCard(this);
                 tileScript.assignedBoard.CreateBoard(GameManager.Instance.boardCharacterArray);
                 BoardGameUiManager.Instance.RefreshUI();

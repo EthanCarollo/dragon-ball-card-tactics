@@ -28,6 +28,7 @@ public class PlayCardHistoryAction : HistoryAction {
 [Serializable]
 public class EndFightHistoryAction : HistoryAction {
     public Fight fightEnded;
+    public bool winFight;
 
     public override void CreateGameObject(Transform parent){
         var go = MonoBehaviour.Instantiate(PrefabDatabase.Instance.endFightHistoryActionPrefab, parent);

@@ -107,6 +107,7 @@ public class UpgradeCharacterStarCard : Card
                 BoardGameUiManager.Instance.RefreshUI();
 
                 // Retire la carte après utilisation
+                RegisterCardHistory();
                 GameManager.Instance.RemoveCard(this);
             });
         }
