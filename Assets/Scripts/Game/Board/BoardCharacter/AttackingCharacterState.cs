@@ -6,6 +6,11 @@ public class AttackingCharacterState : BoardCharacterState
     public BoardCharacter characterTarget;
     private float timeSinceLastAttack = 0f;
     private bool isSpecialAttacking = false;
+    private bool canAttack{
+        get {
+            return timeSinceLastAttack >= (1 / boardCharacter.character.GetAttackSpeed());
+        }
+    }
     
     public AttackingCharacterState(BoardCharacter character, BoardCharacter characterTarget) : base(character)
     {
@@ -34,7 +39,9 @@ public class AttackingCharacterState : BoardCharacterState
             return;
         }
         timeSinceLastAttack += Time.deltaTime;
-        if (timeSinceLastAttack >= (1 / boardCharacter.character.GetAttackSpeed()))
+        // Attack only if the animation is idle or run
+        if (canAttack && boardCharacter.actualAnimation == boardCharacter.character.GetCharacterData().idleAnimation || 
+                boardCharacter.actualAnimation == boardCharacter.character.GetCharacterData().runAnimation )
         {
             if (boardCharacter.character.actualKi >= boardCharacter.character.GetCharacterMaxKi())
             {
