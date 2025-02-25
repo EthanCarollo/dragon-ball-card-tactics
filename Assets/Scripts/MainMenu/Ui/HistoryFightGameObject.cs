@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -37,7 +38,11 @@ public class HistoryFightGameObject : MonoBehaviour, IPointerClickHandler {
 
         foreach (var historyAction in history.historyActions)
         {
-            historyAction.CreateGameObject(historyActionGameObject.transform);
+            try {
+                historyAction.CreateGameObject(historyActionGameObject.transform);
+            } catch(Exception error){
+                Debug.LogWarning("Error creating game object: " + error);
+            }
         }
 
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.historyFightContainer.GetComponent<RectTransform>());

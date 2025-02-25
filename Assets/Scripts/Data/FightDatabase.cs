@@ -34,7 +34,21 @@ public class FightDatabase : ScriptableObject
                     Debug.LogError("FightDatabase instance not found in Resources folder!");
                 }
             }
+            _instance.AssignUniqueIDs();
             return _instance;
+        }
+    }
+
+
+
+    public void AssignUniqueIDs()
+    {
+        if (this.fights != null)
+        {
+            for (int i = 0; i < this.fights.Length; i++)
+            {
+                this.fights[i].id = i;
+            }
         }
     }
 

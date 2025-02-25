@@ -137,7 +137,7 @@ public class FightBoardState : BoardState
         GameManager.Instance.Player.Mana.AddMana(1);
 
         var historyAction = new EndFightHistoryAction();
-        historyAction.fightEnded = GameManager.Instance.ActualFight;
+        historyAction.fightEndedId = GameManager.Instance.ActualFight.id;
         historyAction.winFight = win;
         historyAction.time = Mathf.RoundToInt(GameManager.Instance.elapsedTime);
 

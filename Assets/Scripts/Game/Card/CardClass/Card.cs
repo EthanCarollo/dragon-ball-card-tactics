@@ -4,6 +4,7 @@ using UnityEngine.EventSystems;
 
 public abstract class Card : ScriptableObject
 {
+    public int id;
     public int manaCost = 1;
     public CardRarity rarity = CardRarity.Common;
     public new string name;
@@ -24,7 +25,7 @@ public abstract class Card : ScriptableObject
 
     public void RegisterCardHistory() {
         var historyAction = new PlayCardHistoryAction();
-        historyAction.cardPlayed = this;
+        historyAction.cardPlayedId = this.id;
         historyAction.time = Mathf.RoundToInt(GameManager.Instance.elapsedTime);
         GameManager.Instance.AddHistoryAction(historyAction);
     }

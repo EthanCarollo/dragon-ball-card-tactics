@@ -23,9 +23,9 @@ public class CardPrefab : MonoBehaviour
         {
             this.GetComponent<Image>().color = card.rarity.GetRarityColor();
         }
-        catch (Exception e)
+        catch (Exception error)
         {
-            Debug.Log("Image isn't set on the main card prefab");   
+            Debug.Log("Image isn't set on the main card prefab" + "  " + error);   
         }
         try {
             cardImage.sprite = card.image;

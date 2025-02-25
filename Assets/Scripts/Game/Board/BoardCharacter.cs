@@ -184,7 +184,7 @@ public class BoardCharacter : BoardObject
         } 
         catch (Exception error)
         {
-            Debug.LogError("Cannot run animation on character : " + character.GetCharacterData().characterName);
+            Debug.LogError("Cannot run animation on character : " + character.GetCharacterData().characterName + "  " + error);
         }
     }
 
@@ -199,7 +199,7 @@ public class BoardCharacter : BoardObject
         } 
         catch (Exception error)
         {
-            Debug.LogError("Cannot run animation on character : " + character.GetCharacterData().characterName);
+            Debug.LogError("Cannot run animation on character : " + character.GetCharacterData().characterName + "  " + error);
         }
     }
 

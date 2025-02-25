@@ -1,6 +1,7 @@
 using System.Linq;
 using UnityEngine;
 using UnityEditor;
+using Unity.VisualScripting;
 
 [CreateAssetMenu(fileName = "CardDatabase", menuName = "Card/CardDatabase")]
 public class CardDatabase : ScriptableObject
@@ -21,7 +22,19 @@ public class CardDatabase : ScriptableObject
                     Debug.LogError("CardDatabase instance not found in Resources folder!");
                 }
             }
+            _instance.AssignUniqueIDs();
             return _instance;
+        }
+    }
+
+    public void AssignUniqueIDs()
+    {
+        if (cards != null)
+        {
+            for (int i = 0; i < cards.Length; i++)
+            {
+                cards[i].id = i;
+            }
         }
     }
 
