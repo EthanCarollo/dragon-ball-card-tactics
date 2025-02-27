@@ -11,8 +11,6 @@ public class FlashAttackAnimation : BoardAnimation
     public AttackType attackType;
     public Particle particleAttack;
     public int kiOnAttack = 10;
-    
-    [SerializeReference, SubclassSelector]
     public Effect[] effectApplied;
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)

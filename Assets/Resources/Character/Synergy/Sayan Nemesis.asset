@@ -19,9 +19,21 @@ MonoBehaviour:
     Description: Give 120 max HP to all Sayan Nemesis.
     Bonuses:
     - rid: 6739222660124246094
+  - RequiredUnits: 4
+    Description: Give 680 max HP to all Sayan Nemesis.
+    Bonuses:
+    - rid: 5533071885913555023
   references:
     version: 2
     RefIds:
+    - rid: 5533071885913555023
+      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 0
+        maxHpBonus: 680
+        attackSpeedBonus: 0
+        criticalChanceBonus: 0
+        effectsOnHit: []
     - rid: 6739222660124246094
       type: {class: Bonus, ns: , asm: Assembly-CSharp}
       data:
@@ -29,3 +41,4 @@ MonoBehaviour:
         maxHpBonus: 120
         attackSpeedBonus: 0
         criticalChanceBonus: 0
+        effectsOnHit: []

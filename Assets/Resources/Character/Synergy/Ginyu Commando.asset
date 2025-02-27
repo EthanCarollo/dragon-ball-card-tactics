@@ -16,11 +16,12 @@ MonoBehaviour:
   synergyImage: {fileID: 21300000, guid: 46f03910a9930ff4c91141e51cf9625d, type: 3}
   Tiers:
   - RequiredUnits: 2
-    Description: Give 10 attack and 10 max HP to all Ginyu Commando.
+    Description: Give 10 attack, 190 max HP and attack apply Slow Attack Speed effect
+      to all Ginyu Commando.
     Bonuses:
     - rid: 6739222861892288590
   - RequiredUnits: 4
-    Description: Give 40 attack to all Ginyu Commando.
+    Description: Give 40 attack and 0.2 attack speed to all Ginyu Commando.
     Bonuses:
     - rid: 6739222861892288589
   references:
@@ -31,14 +32,15 @@ MonoBehaviour:
       data:
         attackBonus: 40
         maxHpBonus: 0
-        attackSpeedBonus: 0
+        attackSpeedBonus: 0.2
         criticalChanceBonus: 0
         effectsOnHit: []
     - rid: 6739222861892288590
       type: {class: Bonus, ns: , asm: Assembly-CSharp}
       data:
         attackBonus: 10
-        maxHpBonus: 10
+        maxHpBonus: 190
         attackSpeedBonus: 0
         criticalChanceBonus: 0
-        effectsOnHit: []
+        effectsOnHit:
+        - {fileID: 11400000, guid: 21ec188c3939d4c21ba4c366b46a48a1, type: 2}

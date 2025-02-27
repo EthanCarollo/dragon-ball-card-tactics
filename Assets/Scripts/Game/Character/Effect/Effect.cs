@@ -1,9 +1,11 @@
 using System;
+using UnityEngine;
 
-[Serializable]
-public abstract class Effect {
-    public readonly string effectName = "";
-    public readonly string effectDescription = "";
+public abstract class Effect : ScriptableObject {
+    public string effectName = "";
+    public string effectDescription = "";
+    [NonSerialized]
+    public Sprite effectSprite;
 
     public int attackBonus = 0;
     public float attackSpeedBonus = 0;

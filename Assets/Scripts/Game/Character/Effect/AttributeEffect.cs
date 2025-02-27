@@ -1,11 +1,9 @@
 using System;
+using UnityEngine;
 
-[Serializable]
+[CreateAssetMenu(fileName = "AttributeEffect", menuName = "Effect/AttributeEffect")]
 public class AttributeEffect : Effect
 {
-    public new readonly string effectName = "Attribute effect";
-    public new readonly string effectDescription = "";
-
     public override void OnEffectTick(BoardCharacter character)
     {
 

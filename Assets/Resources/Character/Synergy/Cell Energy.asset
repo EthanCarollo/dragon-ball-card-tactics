@@ -19,6 +19,11 @@ MonoBehaviour:
     Description: Give 0.1 attack speed and 4 attack damage to all Cell Energy.
     Bonuses:
     - rid: 2093936776230731851
+  - RequiredUnits: 4
+    Description: Give 0.4 attack speed, 30 attack damage and apply Slow Attack Speed
+      on hit to all Cell Energy.
+    Bonuses:
+    - rid: 5533071885727957068
   references:
     version: 2
     RefIds:
@@ -29,4 +34,14 @@ MonoBehaviour:
         maxHpBonus: 0
         attackSpeedBonus: 0.1
         criticalChanceBonus: 0
-        effectsOnHit: []
+        effectsOnHit:
+        - {fileID: 0}
+    - rid: 5533071885727957068
+      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 30
+        maxHpBonus: 0
+        attackSpeedBonus: 0.4
+        criticalChanceBonus: 0
+        effectsOnHit:
+        - {fileID: 0}

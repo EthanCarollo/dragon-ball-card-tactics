@@ -12,8 +12,7 @@ public class AttackAnimation : BoardAnimation
     public Particle particleAttack;
     public int kiOnAttack = 10;
     public bool isCinematic = false;
-    
-    [SerializeReference, SubclassSelector]
+
     public Effect[] effectApplied;
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)

@@ -1,12 +1,9 @@
 using System;
 using UnityEngine;
 
-[Serializable]
+[CreateAssetMenu(fileName = "PoisonEffect", menuName = "Effect/PoisonEffect")]
 public class PoisonEffect : Effect
 {
-    public new readonly string effectName = "Poison effect";
-    public new readonly string effectDescription = "";
-
     [SerializeField]
     private int damagePerTick;
     public Particle particle;

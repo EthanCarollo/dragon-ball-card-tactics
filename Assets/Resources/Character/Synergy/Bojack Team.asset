@@ -49,7 +49,8 @@ MonoBehaviour:
         maxHpBonus: 40
         attackSpeedBonus: 0.1
         criticalChanceBonus: 0
-        effectsOnHit: []
+        effectsOnHit:
+        - {fileID: 0}
     - rid: 6739222798441644107
       type: {class: TransformCharacterBonus, ns: , asm: Assembly-CSharp}
       data:

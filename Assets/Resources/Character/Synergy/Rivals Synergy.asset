@@ -15,13 +15,26 @@ MonoBehaviour:
   synergyName: Rivals Synergy
   synergyImage: {fileID: 21300000, guid: aee82f2679c657f43bfc7bdc01caa566, type: 3}
   Tiers:
-  - RequiredUnits: 2
+  - RequiredUnits: 1
     Description: Give 40 attack damage and 200 max hp to all rivals synergy.
     Bonuses:
     - rid: 6739222861892288591
+  - RequiredUnits: 2
+    Description: Give 0.2 attack speed, 30 critical chance and 950 max hp to all
+      rivals synergy.
+    Bonuses:
+    - rid: 5533071885913555022
   references:
     version: 2
     RefIds:
+    - rid: 5533071885913555022
+      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 0
+        maxHpBonus: 950
+        attackSpeedBonus: 0.2
+        criticalChanceBonus: 30
+        effectsOnHit: []
     - rid: 6739222861892288591
       type: {class: Bonus, ns: , asm: Assembly-CSharp}
       data:

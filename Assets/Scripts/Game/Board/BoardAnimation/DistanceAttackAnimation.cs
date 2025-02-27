@@ -13,7 +13,6 @@ public class DistanceAttackAnimation : BoardAnimation {
     public int kiOnAttack = 10;
     public int otherTarget = 0;
     
-    [SerializeReference, SubclassSelector]
     public Effect[] effectApplied;
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)

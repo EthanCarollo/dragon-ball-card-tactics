@@ -22,6 +22,10 @@ MonoBehaviour:
   - RequiredUnits: 3
     Description: Give 120 attack damage and 320 max hp to all Android.
     Bonuses:
+    - rid: 5533071885913555020
+  - RequiredUnits: 5
+    Description: Apply Poison Effect on hit for all Android.
+    Bonuses:
     - rid: 6739222654909153357
   references:
     version: 2
@@ -34,7 +38,7 @@ MonoBehaviour:
         attackSpeedBonus: 0
         criticalChanceBonus: 0
         effectsOnHit: []
-    - rid: 6739222654909153357
+    - rid: 5533071885913555020
       type: {class: Bonus, ns: , asm: Assembly-CSharp}
       data:
         attackBonus: 120
@@ -42,3 +46,12 @@ MonoBehaviour:
         attackSpeedBonus: 0
         criticalChanceBonus: 0
         effectsOnHit: []
+    - rid: 6739222654909153357
+      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 0
+        maxHpBonus: 0
+        attackSpeedBonus: 0
+        criticalChanceBonus: 0
+        effectsOnHit:
+        - {fileID: 11400000, guid: 9ee187b83074f4ecebe54a114cb189ec, type: 2}

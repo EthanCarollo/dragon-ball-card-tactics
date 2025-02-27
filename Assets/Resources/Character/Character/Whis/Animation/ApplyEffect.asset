@@ -19,17 +19,8 @@ MonoBehaviour:
     time: 0.2
   - sprite: {fileID: 5037922730436610252, guid: e382060083c2e4203b00d9f51815af83, type: 3}
     time: 0.2
+  audio: {fileID: 0}
   attackFrameIndex: 1
   effectApplied:
-  - rid: 6739222754424782924
-  references:
-    version: 2
-    RefIds:
-    - rid: 6739222754424782924
-      type: {class: AttributeEffect, ns: , asm: Assembly-CSharp}
-      data:
-        attackBonus: 0
-        attackSpeedBonus: 0.4
-        effectDuration: 6
-        tickInterval: 2
-        nextTickTime: 2
+  - {fileID: 11400000, guid: 3c6858b55bb6144b58bea79a57c27aa4, type: 2}
+  - {fileID: 11400000, guid: a995d86ce9d2141d59398ca95f35d4f5, type: 2}

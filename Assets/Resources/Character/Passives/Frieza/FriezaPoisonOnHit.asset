@@ -16,16 +16,4 @@ MonoBehaviour:
   passiveName: Poison on hit
   passiveDescription: Give Poison Effect on hit enemy during 6 seconds inflicting
     20 damage every 1.5 seconds.
-  effectApplied:
-    rid: 6739222655967690828
-  references:
-    version: 2
-    RefIds:
-    - rid: 6739222655967690828
-      type: {class: PoisonEffect, ns: , asm: Assembly-CSharp}
-      data:
-        effectDuration: 6
-        tickInterval: 1.5
-        nextTickTime: 0.75
-        damagePerTick: 20
-        particle: {fileID: 11400000, guid: 596e08eb421024550922371c0991c5cd, type: 2}
+  effectApplied: {fileID: 11400000, guid: 9ee187b83074f4ecebe54a114cb189ec, type: 2}

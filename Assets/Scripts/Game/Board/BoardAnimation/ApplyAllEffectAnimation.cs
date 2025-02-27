@@ -8,7 +8,6 @@ using System.Linq;
 public class ApplyAllEffectAnimation : BoardAnimation {
     public int attackFrameIndex;
     
-    [SerializeReference, SubclassSelector]
     public Effect[] effectApplied;
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)

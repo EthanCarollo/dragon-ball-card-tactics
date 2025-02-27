@@ -33,7 +33,8 @@ MonoBehaviour:
         maxHpBonus: 0
         attackSpeedBonus: 0.1
         criticalChanceBonus: 0
-        effectsOnHit: []
+        effectsOnHit:
+        - {fileID: 0}
     - rid: 6739222654909153354
       type: {class: Bonus, ns: , asm: Assembly-CSharp}
       data:

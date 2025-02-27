@@ -19,9 +19,22 @@ MonoBehaviour:
     Description: Give 20 attack to all majin.
     Bonuses:
     - rid: 6739222924810518528
+  - RequiredUnits: 4
+    Description: Apply Slow Attack Speed effect on hit for all Majin.
+    Bonuses:
+    - rid: 5533071885913555021
   references:
     version: 2
     RefIds:
+    - rid: 5533071885913555021
+      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 0
+        maxHpBonus: 0
+        attackSpeedBonus: 0
+        criticalChanceBonus: 0
+        effectsOnHit:
+        - {fileID: 11400000, guid: 21ec188c3939d4c21ba4c366b46a48a1, type: 2}
     - rid: 6739222924810518528
       type: {class: Bonus, ns: , asm: Assembly-CSharp}
       data:
