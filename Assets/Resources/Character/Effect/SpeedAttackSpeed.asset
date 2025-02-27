@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed457c48e8d348e2a1151b6e6c398d1, type: 3}
   m_Name: SpeedAttackSpeed
   m_EditorClassIdentifier: 
-  effectName: Slow Attack Speed
+  effectName: Speed Attack Speed
   effectDescription: 
+  effectSprite: {fileID: 0}
   attackBonus: 0
   attackSpeedBonus: 0.4
-  effectDuration: 5
+  totalEffectDuration: 5
   tickInterval: 0
-  nextTickTime: 0

@@ -160,7 +160,7 @@ public class CharacterContainer
 
         foreach (var effect in activeEffects)
         {
-            totalAdditionalAttack += effect.attackBonus;
+            totalAdditionalAttack += effect.effect.attackBonus;
         }
 
         totalAdditionalAttack += (characterStar - 1) * 10;
@@ -220,7 +220,7 @@ public class CharacterContainer
 
         foreach (var effect in activeEffects)
         {
-            attackSpeed += effect.attackSpeedBonus;
+            attackSpeed += effect.effect.attackSpeedBonus;
         }
         attackSpeed += (float)((characterStar - 1) * 0.05);
         return attackSpeed;
@@ -283,7 +283,7 @@ public class CharacterContainer
     }
 
     // Effect part
-    public List<Effect> activeEffects = new List<Effect>();
+    public List<InGameEffect> activeEffects = new List<InGameEffect>();
 
     public void UpdateEffect(BoardCharacter boardCharacter){
         float deltaTime = Time.deltaTime;
@@ -294,7 +294,7 @@ public class CharacterContainer
             // Retirer les effets terminés
             if (activeEffects[i].IsEffectFinished())
             {
-                Debug.Log($"Effet {activeEffects[i].effectName} terminé pour {GetName()}");
+                Debug.Log($"Effet {activeEffects[i].effect.effectName} terminé pour {GetName()}");
                 activeEffects.RemoveAt(i);
                 NotifyCharacterChanged();
             }
@@ -303,18 +303,18 @@ public class CharacterContainer
 
     public void AddEffect(Effect newEffect)
     {
-        Effect existingEffect = activeEffects.Find(effect => effect.effectName == newEffect.effectName);
+        InGameEffect existingEffect = activeEffects.Find(effect => effect.effect.effectName == newEffect.effectName);
 
         if (existingEffect != null)
         {
             // Si l'effet existe déjà, rafraîchir sa durée.
-            existingEffect.effectDuration = newEffect.effectDuration;
-            Debug.Log($"Effet {newEffect.effectName} rafraîchi pour {GetName()}. Nouvelle durée : {newEffect.effectDuration}s");
+            existingEffect.effectDuration = newEffect.totalEffectDuration;
+            Debug.Log($"Effet {newEffect.effectName} rafraîchi pour {GetName()}. Nouvelle durée : {newEffect.totalEffectDuration}s");
         }
         else
         {
             // Sinon, ajouter un nouvel effet.
-            activeEffects.Add(newEffect.Clone());
+            activeEffects.Add(new InGameEffect(newEffect));
             Debug.Log($"Effet {newEffect.effectName} ajouté à {GetName()}");
         }
         NotifyCharacterChanged();

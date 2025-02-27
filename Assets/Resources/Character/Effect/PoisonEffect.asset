@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9f4ddf310ce741baa1d03e1d82633ec, type: 3}
   m_Name: PoisonEffect
   m_EditorClassIdentifier: 
-  effectName: PoisonEffect
+  effectName: Poison
   effectDescription: 
+  effectSprite: {fileID: 0}
   attackBonus: 0
   attackSpeedBonus: 0
-  effectDuration: 5
+  totalEffectDuration: 5
   tickInterval: 1
-  nextTickTime: 0
   damagePerTick: 15
   particle: {fileID: 11400000, guid: 596e08eb421024550922371c0991c5cd, type: 2}

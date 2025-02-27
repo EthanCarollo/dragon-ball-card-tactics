@@ -3,6 +3,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using TMPro;
 
 public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler
 {
@@ -14,12 +15,14 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
     public Board assignedBoard;
     public Vector2Int position;
     public Material startMaterial;
+    public TextMeshProUGUI effectText;
 
     public Transform starContainer;
     public Sprite starImage;
 
     public void Start()
     {
+        effectText.text = "";
         startMaterial = spriteRenderer.material;
         boardCharacter.PlayAnimation(SpriteDatabase.Instance.appearAnimation);
     }

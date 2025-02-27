@@ -17,13 +17,13 @@ MonoBehaviour:
     time: 0.2
   - sprite: {fileID: 6430114156165872744, guid: 8d572925844034e3f9b9fc7934e9457c, type: 3}
     time: 0.2
+  audio: {fileID: 0}
   attackFrameIndex: 1
   projectile: {fileID: -8508620423662913838, guid: a2c6438b1a5187d4d9d8b6bb09ff62f6, type: 3}
   particleAttack: {fileID: 11400000, guid: a05d66441daab4e42b62f1079ed76f45, type: 2}
   attackType: 0
   startMargin: {x: 0.5, y: 0.7}
   kiOnAttack: 10
-  effectApplied: []
-  references:
-    version: 2
-    RefIds: []
+  otherTarget: 0
+  effectApplied:
+  - {fileID: 11400000, guid: 9ee187b83074f4ecebe54a114cb189ec, type: 2}

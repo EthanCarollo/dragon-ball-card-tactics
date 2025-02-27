@@ -150,6 +150,16 @@ public class BoardCharacter : BoardObject
             charPrefabScript.healthSlider.maxValue = this.character.GetCharacterMaxHealth();
             charPrefabScript.healthSlider.value = this.character.actualHealth;
 
+            string effectContent = "";
+            foreach (InGameEffect effect in character.activeEffects)
+            {
+                if(effectContent == "") {
+                    effectContent = effect.effect.effectName;
+                } else {
+                    effectContent += "\n" + effect.effect.effectName;
+                }
+            }
+            charPrefabScript.effectText.text = effectContent;
             foreach (Transform child in charPrefabScript.starContainer)
             {
                     MonoBehaviour.Destroy(child.gameObject);

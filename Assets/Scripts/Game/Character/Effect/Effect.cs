@@ -4,15 +4,30 @@ using UnityEngine;
 public abstract class Effect : ScriptableObject {
     public string effectName = "";
     public string effectDescription = "";
-    [NonSerialized]
     public Sprite effectSprite;
 
     public int attackBonus = 0;
     public float attackSpeedBonus = 0;
 
+    public float totalEffectDuration; // Durée totale de l'effet.
+    public float tickInterval; // Temps entre chaque tick.
+
+    public abstract void OnEffectTick(BoardCharacter character);
+}
+
+public class InGameEffect{
+    public Effect effect;
+
     public float effectDuration; // Durée totale de l'effet.
     public float tickInterval; // Temps entre chaque tick.
     public float nextTickTime; // Temps avant le prochain tick.
+
+    public InGameEffect(Effect effect){
+        this.effect = effect;
+        effectDuration = effect.totalEffectDuration;
+        tickInterval = effect.tickInterval;
+        nextTickTime = effect.tickInterval;
+    }
 
     public void UpdateEffect(float deltaTime, BoardCharacter character)
     {
@@ -23,21 +38,13 @@ public abstract class Effect : ScriptableObject {
 
         if (nextTickTime <= 0)
         {
-            OnEffectTick(character);
+            effect.OnEffectTick(character);
             nextTickTime = tickInterval;
         }
     }
 
-    public abstract void OnEffectTick(BoardCharacter character);
-
     public bool IsEffectFinished()
     {
         return effectDuration <= 0;
-    }
-
-    public Effect Clone()
-    {
-        string serialized = UnityEngine.JsonUtility.ToJson(this);  // Serialize to JSON.
-        return (Effect)UnityEngine.JsonUtility.FromJson(serialized, this.GetType());  // Deserialize back to a new instance.
     }
 }
