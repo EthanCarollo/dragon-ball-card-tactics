@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Gohan (Mirai Kaioken)
+  m_EditorClassIdentifier: 
+  id: 2
+  starNumber: 1
+  characterName: Gohan (Mirai Kaioken)
+  role: 0
+  characterType: 0
+  characterSprite: {fileID: -748662366606821148, guid: 554423ec24ad24cf78c001b9fb272d38, type: 3}
+  characterIcon: {fileID: 21300000, guid: 06c018f242e7442acbc36a611452bcf6, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 240
+  maxKi: 50
+  baseRange: 1
+  baseDamage: 60
+  baseArmor: 25
+  baseSpeed: 2
+  baseAttackSpeed: 0.8
+  baseCriticalChance: 15
+  idleAnimation: {fileID: 11400000, guid: 6f7d4a05a31704fd7b3ec2d442b66e9b, type: 2}
+  runAnimation: {fileID: 11400000, guid: 6cd8db08cc7dd4dcf8b1670a65ea28ca, type: 2}
+  attackAnimation: {fileID: 11400000, guid: 03f0253b1060e487692fc529ca456ada, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 2b1a8af287d924a1fa0eaf125d199bd5, type: 2}
+  specialAttackAnimation:
+  - name: Mirai Kameha
+    description: A big kameha, but with one hand lol.
+    animation: {fileID: 11400000, guid: 5c72b5b1a361b4b3cb7092e2248111a0, type: 2}
+  winPoseAnimation: {fileID: 0}
+  deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit: ANGAYBOY LUHA BALTHAZAR DE FISHTERZ EHTREME BUTODEN JUMP ULTIMATE
+    STARS SUPERSONIC WARRIORS LSW BLASTRIDER GORU QUE PAPURO
+  sameCharacters:
+  - {fileID: 11400000, guid: 223c5fe9937854c36a6a7cc83d64c75a, type: 2}
+  synergies:
+  - {fileID: 11400000, guid: 09b71321303674dfb884845c6d6a9493, type: 2}
+  - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}

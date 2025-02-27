@@ -1,0 +1,1664 @@
+fileFormatVersion: 2
+guid: 554423ec24ad24cf78c001b9fb272d38
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2603075780851249668
+    second: gohan-mirai-kaioken_0
+  - first:
+      213: 1381357422636011690
+    second: gohan-mirai-kaioken_1
+  - first:
+      213: 3820555320622279074
+    second: gohan-mirai-kaioken_2
+  - first:
+      213: -6028106368754065975
+    second: gohan-mirai-kaioken_3
+  - first:
+      213: 6478968506187186969
+    second: gohan-mirai-kaioken_4
+  - first:
+      213: -4809956184214991332
+    second: gohan-mirai-kaioken_5
+  - first:
+      213: -7457110038669572759
+    second: gohan-mirai-kaioken_6
+  - first:
+      213: -748662366606821148
+    second: gohan-mirai-kaioken_7
+  - first:
+      213: -6121206538522982950
+    second: gohan-mirai-kaioken_8
+  - first:
+      213: 6474140739929888395
+    second: gohan-mirai-kaioken_9
+  - first:
+      213: 9162443456930430148
+    second: gohan-mirai-kaioken_10
+  - first:
+      213: 4800231695755654492
+    second: gohan-mirai-kaioken_11
+  - first:
+      213: 7349035773761751392
+    second: gohan-mirai-kaioken_12
+  - first:
+      213: 3753738601270759443
+    second: gohan-mirai-kaioken_13
+  - first:
+      213: 2012036614581455779
+    second: gohan-mirai-kaioken_14
+  - first:
+      213: -8365701207946262092
+    second: gohan-mirai-kaioken_15
+  - first:
+      213: 3983941845722460871
+    second: gohan-mirai-kaioken_16
+  - first:
+      213: -5387656258000285190
+    second: gohan-mirai-kaioken_17
+  - first:
+      213: 1625472573389434885
+    second: gohan-mirai-kaioken_18
+  - first:
+      213: 2060878752136426200
+    second: gohan-mirai-kaioken_19
+  - first:
+      213: -1271319481652449383
+    second: gohan-mirai-kaioken_20
+  - first:
+      213: -5395266314097694084
+    second: gohan-mirai-kaioken_21
+  - first:
+      213: -1490886914684137486
+    second: gohan-mirai-kaioken_22
+  - first:
+      213: -2421787468001536289
+    second: gohan-mirai-kaioken_23
+  - first:
+      213: 767978703365523051
+    second: gohan-mirai-kaioken_24
+  - first:
+      213: 5767568801670934788
+    second: gohan-mirai-kaioken_25
+  - first:
+      213: 5739085296633478525
+    second: gohan-mirai-kaioken_26
+  - first:
+      213: 4705071389356735757
+    second: gohan-mirai-kaioken_27
+  - first:
+      213: 2704342431485642649
+    second: gohan-mirai-kaioken_28
+  - first:
+      213: -7297765778489948045
+    second: gohan-mirai-kaioken_29
+  - first:
+      213: 3600089079809561147
+    second: gohan-mirai-kaioken_30
+  - first:
+      213: 4899469066514905997
+    second: gohan-mirai-kaioken_31
+  - first:
+      213: 3269233932298202182
+    second: gohan-mirai-kaioken_32
+  - first:
+      213: -3501229955395952904
+    second: gohan-mirai-kaioken_33
+  - first:
+      213: -5825921343261395339
+    second: gohan-mirai-kaioken_34
+  - first:
+      213: -6637816784743530233
+    second: gohan-mirai-kaioken_35
+  - first:
+      213: 7212885323116231721
+    second: gohan-mirai-kaioken_36
+  - first:
+      213: -2171530214401024986
+    second: gohan-mirai-kaioken_37
+  - first:
+      213: 6299593896672829079
+    second: gohan-mirai-kaioken_38
+  - first:
+      213: -119873884391396617
+    second: gohan-mirai-kaioken_39
+  - first:
+      213: -3678437054113766785
+    second: gohan-mirai-kaioken_40
+  - first:
+      213: 8505756383933179690
+    second: gohan-mirai-kaioken_41
+  - first:
+      213: -7347388245393327624
+    second: gohan-mirai-kaioken_42
+  - first:
+      213: -3130434341094520468
+    second: gohan-mirai-kaioken_43
+  - first:
+      213: -6729102830650837952
+    second: gohan-mirai-kaioken_44
+  - first:
+      213: 7192187589028521117
+    second: gohan-mirai-kaioken_45
+  - first:
+      213: 2010320653653781069
+    second: gohan-mirai-kaioken_46
+  - first:
+      213: 3959320272918805227
+    second: gohan-mirai-kaioken_47
+  - first:
+      213: -6423090102054930860
+    second: gohan-mirai-kaioken_48
+  - first:
+      213: 1135004375307438780
+    second: gohan-mirai-kaioken_49
+  - first:
+      213: -8878602675689953594
+    second: gohan-mirai-kaioken_50
+  - first:
+      213: -908116299824191306
+    second: gohan-mirai-kaioken_51
+  - first:
+      213: 6940993876670147083
+    second: gohan-mirai-kaioken_52
+  - first:
+      213: 901290014989592976
+    second: gohan-mirai-kaioken_53
+  - first:
+      213: -623746918834637744
+    second: gohan-mirai-kaioken_54
+  - first:
+      213: 4198004983528992635
+    second: gohan-mirai-kaioken_55
+  - first:
+      213: -231682045206529179
+    second: gohan-mirai-kaioken_56
+  - first:
+      213: -8124766962512296244
+    second: gohan-mirai-kaioken_57
+  - first:
+      213: -1842190076561671101
+    second: gohan-mirai-kaioken_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 34
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 436
+        width: 30
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd40f67e5400ebd0800000000000000
+      internalID: -2603075780851249668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 436
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa09114d1419b2310800000000000000
+      internalID: 1381357422636011690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 440
+        width: 52
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a96b6a62d6550530800000000000000
+      internalID: 3820555320622279074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 438
+        width: 65
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdd426223dd75ca0800000000000000
+      internalID: -6028106368754065975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_4
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 438
+        width: 65
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9130b32878be9e950800000000000000
+      internalID: 6478968506187186969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 442
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e0caea55a9f3db0800000000000000
+      internalID: -4809956184214991332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 443
+        width: 31
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965c916ede5038890800000000000000
+      internalID: -7457110038669572759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 371
+        width: 26
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e872bd4b873c95f0800000000000000
+      internalID: -748662366606821148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 371
+        width: 28
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad50a82b51b1d0ba0800000000000000
+      internalID: -6121206538522982950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 372
+        width: 32
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86d76593b4c8d950800000000000000
+      internalID: 6474140739929888395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_10
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 371
+        width: 23
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ccb0f487c9872f70800000000000000
+      internalID: 9162443456930430148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_11
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 371
+        width: 26
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5536196b49dd9240800000000000000
+      internalID: 4800231695755654492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_12
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 373
+        width: 27
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06905b079150df560800000000000000
+      internalID: 7349035773761751392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_13
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 376
+        width: 28
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3105a64ae55f71430800000000000000
+      internalID: 3753738601270759443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 317
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab053704a03ceb10800000000000000
+      internalID: 2012036614581455779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_15
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 314
+        width: 34
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b98e43231f07eb80800000000000000
+      internalID: -8365701207946262092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 317
+        width: 37
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2f918300ec94730800000000000000
+      internalID: 3983941845722460871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_17
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 317
+        width: 68
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af19bf9ad233b35b0800000000000000
+      internalID: -5387656258000285190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_18
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 329
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500740181b6de8610800000000000000
+      internalID: 1625472573389434885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_19
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 320
+        width: 51
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2fd3a5e46b99c10800000000000000
+      internalID: 2060878752136426200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 323
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f621ccaad5b5ee0800000000000000
+      internalID: -1271319481652449383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_21
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 329
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a63976fd92025b0800000000000000
+      internalID: -5395266314097694084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_22
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 312
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff49f9004e4f4be0800000000000000
+      internalID: -1490886914684137486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_23
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 313
+        width: 29
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd696480125146ed0800000000000000
+      internalID: -2421787468001536289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_24
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 304
+        width: 24
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66ca21df8868aa00800000000000000
+      internalID: 767978703365523051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_25
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 304
+        width: 24
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401b83964458a0050800000000000000
+      internalID: 5767568801670934788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_26
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 305
+        width: 24
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d71899ba355af40800000000000000
+      internalID: 5739085296633478525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_27
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 305
+        width: 39
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d36750085cb4140800000000000000
+      internalID: 4705071389356735757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_28
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 305
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997c7bbfc11c78520800000000000000
+      internalID: 2704342431485642649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_29
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 314
+        width: 24
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378ca1f80b029ba90800000000000000
+      internalID: -7297765778489948045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_30
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 245
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32dfc9a1f516f130800000000000000
+      internalID: 3600089079809561147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_31
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 249
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bb2a158296ef340800000000000000
+      internalID: 4899469066514905997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_32
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 252
+        width: 31
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ca946b0f6ae5d20800000000000000
+      internalID: 3269233932298202182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_33
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 247
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fedaa7e7e1296fc0800000000000000
+      internalID: -3501229955395952904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 247
+        width: 24
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576b985c76b262fa0800000000000000
+      internalID: -5825921343261395339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_35
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 245
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7018c3d8dccb1e3a0800000000000000
+      internalID: -6637816784743530233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_36
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 259
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92cb8f16cf0591460800000000000000
+      internalID: 7212885323116231721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_37
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 176
+        width: 33
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c599776cc2dd1e0800000000000000
+      internalID: -2171530214401024986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_38
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 176
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e1768b547ac6750800000000000000
+      internalID: 6299593896672829079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_39
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 176
+        width: 46
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa2107565f165ef0800000000000000
+      internalID: -119873884391396617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_40
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 176
+        width: 36
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f722aec0df093fcc0800000000000000
+      internalID: -3678437054113766785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_41
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 174
+        width: 43
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a272952ad548a0670800000000000000
+      internalID: 8505756383933179690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 178
+        width: 47
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f93376a155d80a90800000000000000
+      internalID: -7347388245393327624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_43
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 178
+        width: 47
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6980627d867e84d0800000000000000
+      internalID: -3130434341094520468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_44
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 178
+        width: 45
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0443bf9b0ac6d92a0800000000000000
+      internalID: -6729102830650837952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_45
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 182
+        width: 55
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94a402a188cfc360800000000000000
+      internalID: 7192187589028521117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_46
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 177
+        width: 53
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a2aadbbf716eb10800000000000000
+      internalID: 2010320653653781069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_47
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 177
+        width: 53
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beaf3539fc452f630800000000000000
+      internalID: 3959320272918805227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_48
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 110
+        width: 30
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45630ba45999cd6a0800000000000000
+      internalID: -6423090102054930860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_49
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 110
+        width: 41
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbac6b0477850cf00800000000000000
+      internalID: 1135004375307438780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_50
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 111
+        width: 35
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6eaa548edd8c480800000000000000
+      internalID: -8878602675689953594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_51
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 118
+        width: 59
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8ac366909b563f0800000000000000
+      internalID: -908116299824191306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_52
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 117
+        width: 43
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ae517e72d535060800000000000000
+      internalID: 6940993876670147083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_53
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 113
+        width: 27
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099af0f4e76028c00800000000000000
+      internalID: 901290014989592976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_54
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 110
+        width: 34
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054fd196b710857f0800000000000000
+      internalID: -623746918834637744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_55
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 110
+        width: 29
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fa0906a4f424a30800000000000000
+      internalID: 4198004983528992635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_56
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 113
+        width: 34
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bf0aa4866e8ccf0800000000000000
+      internalID: -231682045206529179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_57
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 114
+        width: 52
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc600a49e770f3f80800000000000000
+      internalID: -8124766962512296244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gohan-mirai-kaioken_58
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 114
+        width: 45
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34cbacdb2e93f66e0800000000000000
+      internalID: -1842190076561671101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 252f93b9a071d434ca9f992ffd6f78d0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gohan-mirai-kaioken_0: -2603075780851249668
+      gohan-mirai-kaioken_1: 1381357422636011690
+      gohan-mirai-kaioken_10: 9162443456930430148
+      gohan-mirai-kaioken_11: 4800231695755654492
+      gohan-mirai-kaioken_12: 7349035773761751392
+      gohan-mirai-kaioken_13: 3753738601270759443
+      gohan-mirai-kaioken_14: 2012036614581455779
+      gohan-mirai-kaioken_15: -8365701207946262092
+      gohan-mirai-kaioken_16: 3983941845722460871
+      gohan-mirai-kaioken_17: -5387656258000285190
+      gohan-mirai-kaioken_18: 1625472573389434885
+      gohan-mirai-kaioken_19: 2060878752136426200
+      gohan-mirai-kaioken_2: 3820555320622279074
+      gohan-mirai-kaioken_20: -1271319481652449383
+      gohan-mirai-kaioken_21: -5395266314097694084
+      gohan-mirai-kaioken_22: -1490886914684137486
+      gohan-mirai-kaioken_23: -2421787468001536289
+      gohan-mirai-kaioken_24: 767978703365523051
+      gohan-mirai-kaioken_25: 5767568801670934788
+      gohan-mirai-kaioken_26: 5739085296633478525
+      gohan-mirai-kaioken_27: 4705071389356735757
+      gohan-mirai-kaioken_28: 2704342431485642649
+      gohan-mirai-kaioken_29: -7297765778489948045
+      gohan-mirai-kaioken_3: -6028106368754065975
+      gohan-mirai-kaioken_30: 3600089079809561147
+      gohan-mirai-kaioken_31: 4899469066514905997
+      gohan-mirai-kaioken_32: 3269233932298202182
+      gohan-mirai-kaioken_33: -3501229955395952904
+      gohan-mirai-kaioken_34: -5825921343261395339
+      gohan-mirai-kaioken_35: -6637816784743530233
+      gohan-mirai-kaioken_36: 7212885323116231721
+      gohan-mirai-kaioken_37: -2171530214401024986
+      gohan-mirai-kaioken_38: 6299593896672829079
+      gohan-mirai-kaioken_39: -119873884391396617
+      gohan-mirai-kaioken_4: 6478968506187186969
+      gohan-mirai-kaioken_40: -3678437054113766785
+      gohan-mirai-kaioken_41: 8505756383933179690
+      gohan-mirai-kaioken_42: -7347388245393327624
+      gohan-mirai-kaioken_43: -3130434341094520468
+      gohan-mirai-kaioken_44: -6729102830650837952
+      gohan-mirai-kaioken_45: 7192187589028521117
+      gohan-mirai-kaioken_46: 2010320653653781069
+      gohan-mirai-kaioken_47: 3959320272918805227
+      gohan-mirai-kaioken_48: -6423090102054930860
+      gohan-mirai-kaioken_49: 1135004375307438780
+      gohan-mirai-kaioken_5: -4809956184214991332
+      gohan-mirai-kaioken_50: -8878602675689953594
+      gohan-mirai-kaioken_51: -908116299824191306
+      gohan-mirai-kaioken_52: 6940993876670147083
+      gohan-mirai-kaioken_53: 901290014989592976
+      gohan-mirai-kaioken_54: -623746918834637744
+      gohan-mirai-kaioken_55: 4198004983528992635
+      gohan-mirai-kaioken_56: -231682045206529179
+      gohan-mirai-kaioken_57: -8124766962512296244
+      gohan-mirai-kaioken_58: -1842190076561671101
+      gohan-mirai-kaioken_6: -7457110038669572759
+      gohan-mirai-kaioken_7: -748662366606821148
+      gohan-mirai-kaioken_8: -6121206538522982950
+      gohan-mirai-kaioken_9: 6474140739929888395
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
