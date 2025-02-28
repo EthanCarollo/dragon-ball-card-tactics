@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using System;
+using UnityEngine.Tilemaps;
 
 public class GameManager
 {
@@ -73,13 +74,25 @@ public class GameManager
     }
 
     public GameObject actualMap;
+    private GameObject actualMapReference;
 
     public void SetMap(GameObject map){
-        if(actualMap != null){
-            MonoBehaviour.Destroy(actualMap);
+        if(actualMap != null && actualMapReference != map){
+            var oldMap = actualMap;
+            oldMap.transform.GetChild(0).GetComponent<TilemapRenderer>().material = new Material(ShadersDatabase.Instance.disappearMaterial);
+            oldMap.transform.GetChild(0).GetComponent<TilemapRenderer>().sortingOrder = 1;
+            LeanTween.value(oldMap, f => { 
+                oldMap.transform.GetChild(0).GetComponent<TilemapRenderer>().material.SetFloat("_Fade", f);
+            }, 1f, 0f,  1f)
+            .setOnComplete(f => {
+                MonoBehaviour.Destroy(oldMap);
+            });
         }
-        actualMap = MonoBehaviour.Instantiate(map);
-        actualMap.transform.position = new Vector3(0, 0.3f, 0);
+        if(actualMapReference != map){
+            actualMapReference = map;
+            actualMap = MonoBehaviour.Instantiate(map);
+            actualMap.transform.position = new Vector3(0, 0.3f, 0);
+        }
     }
 
     public void AddHistoryAction(HistoryAction historyAction){
@@ -118,6 +131,8 @@ public class GameManager
         CleanGameBoard();
         if(ActualFight.map != null){
             SetMap(ActualFight.map);
+        } else {
+            SetMap(PrefabDatabase.Instance.namekDefaultMap);
         }
         foreach (var characterContainerFight in ActualFight.opponents)
         {

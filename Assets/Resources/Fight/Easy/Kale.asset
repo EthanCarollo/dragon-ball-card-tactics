@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 875982c274ea44468cc86a0e0fb5ab10, type: 3}
   m_Name: Kale
   m_EditorClassIdentifier: 
+  id: 14
   opponents:
   - characterData: {fileID: 11400000, guid: bc4535e01f978234b80ebaa4c100c79b, type: 2}
     position: {x: 8, y: 4}
   difficulty: 0
-  map: {fileID: 0}
+  map: {fileID: 995354289898027383, guid: 60cf6c188a6a642c68b55b82e37083aa, type: 3}
