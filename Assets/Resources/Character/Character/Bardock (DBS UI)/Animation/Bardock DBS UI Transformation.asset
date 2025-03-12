@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55017e58dbbc4db1901c7554f19dc6a0, type: 3}
+  m_Name: Bardock DBS UI Transformation
+  m_EditorClassIdentifier: 
+  frameSprites:
+  - sprite: {fileID: -8298078101879957504, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.1
+  - sprite: {fileID: 7544448520733315721, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.1
+  - sprite: {fileID: -6337554295516573509, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  - sprite: {fileID: 5435680123362515892, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  - sprite: {fileID: -688848070379438564, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  - sprite: {fileID: -7910963805918569834, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  - sprite: {fileID: 2981891584775131474, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  - sprite: {fileID: 4413321424437532300, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  - sprite: {fileID: -5847809652953552294, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  - sprite: {fileID: -3749655278854532531, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  - sprite: {fileID: 6970227598424292661, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  - sprite: {fileID: 1708464394052482301, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  - sprite: {fileID: 6646747876306358304, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  - sprite: {fileID: 1066611022027280799, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  - sprite: {fileID: -4985030787055702557, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  - sprite: {fileID: -8514473150143690819, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  - sprite: {fileID: -1567384198598410076, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  - sprite: {fileID: 6492343845953485130, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  - sprite: {fileID: -3342857612542834541, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  - sprite: {fileID: 517606943937492158, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  - sprite: {fileID: 8566590872513980968, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+    time: 0.15
+  audio: {fileID: 0}
+  resetToBaseCharacter: 1
+  newCharacterData: {fileID: 11400000, guid: 8c663d96d023142969dba6d0cf4e5934, type: 2}

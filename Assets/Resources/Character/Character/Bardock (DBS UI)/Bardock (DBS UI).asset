@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
+  m_Name: Bardock (DBS UI)
+  m_EditorClassIdentifier: 
+  id: 118
+  starNumber: 1
+  characterName: Bardock (DBS UI)
+  role: 0
+  characterType: 1
+  characterSprite: {fileID: 517606943937492158, guid: f1924b8dd50af4372b710592f0be4fc7, type: 3}
+  characterIcon: {fileID: 21300000, guid: 736349409e79742ea8d472383d2dcdfa, type: 3}
+  characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
+  maxHealth: 4980
+  maxKi: 35
+  baseRange: 1
+  baseDamage: 75
+  baseArmor: 90
+  baseSpeed: 15
+  baseAttackSpeed: 1.3
+  baseCriticalChance: 35
+  idleAnimation: {fileID: 11400000, guid: a456a3b68b3f1432bbda2036a64fb647, type: 2}
+  runAnimation: {fileID: 11400000, guid: b9599617bd2f04fd8b8613ccc20f2790, type: 2}
+  attackAnimation: {fileID: 11400000, guid: bd0e1056c670b411e9908fce88a60594, type: 2}
+  criticalAttackAnimation: {fileID: 11400000, guid: 5908b724b05c84ff5a9eff600d304c46, type: 2}
+  specialAttackAnimation:
+  - name: Flash Attack
+    description: 
+    animation: {fileID: 11400000, guid: 77bca9a0d2bb3456b99c2071d7b78168, type: 2}
+  winPoseAnimation: {fileID: 0}
+  deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit: Dryyy
+  sameCharacters:
+  - {fileID: 11400000, guid: f543668a036464d38be0cdfa01d319a5, type: 2}
+  synergies:
+  - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
+  - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}
+  - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}

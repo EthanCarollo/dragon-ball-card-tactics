@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe206b63a12884410b001ddff079c3c8, type: 3}
+  m_Name: Bardock (DBS) Card
+  m_EditorClassIdentifier: 
+  id: 7
+  manaCost: 3
+  rarity: 2
+  name: Bardock (DBS)
+  image: {fileID: 21300000, guid: c926de91d49cb4f72b469159bd9ada19, type: 3}
+  fullartImage: {fileID: 0}
+  uiEffectPreset: 
+  character: {fileID: 11400000, guid: f543668a036464d38be0cdfa01d319a5, type: 2}
