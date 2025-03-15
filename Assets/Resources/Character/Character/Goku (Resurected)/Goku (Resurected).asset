@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku (Resurected)
   m_EditorClassIdentifier: 
-  id: 35
+  id: 57
   starNumber: 1
   characterName: Goku (Resurected)
   role: 0
@@ -34,9 +34,13 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 11896eb8b9e1c4746ad46b0adb2414f2, type: 2}
   specialAttackAnimation:
   - name: Kameha
-    description: 
+    description: Charges and releases a powerful blue energy wave, dealing high damage
+      with a wide range.
     animation: {fileID: 11400000, guid: 5909e71f677f64274bce68f322c45970, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: 88ac827794bd8432ca5c1ba12d44fd40, type: 2}

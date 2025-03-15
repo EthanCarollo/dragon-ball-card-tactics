@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Gohan (Mirai)
   m_EditorClassIdentifier: 
-  id: 2
+  id: 47
   starNumber: 1
   characterName: Gohan (Mirai)
   role: 0
@@ -34,11 +34,13 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: f831663ab6d034ea49647cdcd2215103, type: 2}
   specialAttackAnimation:
   - name: Mirai Kameha
-    description: A big kameha, but with one hand lol.
+    description: Fires a strong Kamehameha, infused with his determination to protect
+      the future.
     animation: {fileID: 11400000, guid: 064388e5f661a4dc282c3e7ee3af4782, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 0}
+  spriteCredit: 
   sameCharacters:
   - {fileID: 11400000, guid: 62273676d495847fdb1ab58326980d9b, type: 2}
   synergies:

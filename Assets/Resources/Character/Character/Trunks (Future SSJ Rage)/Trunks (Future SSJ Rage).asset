@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Trunks (Future SSJ Rage)
   m_EditorClassIdentifier: 
-  id: 10
+  id: 91
   starNumber: 1
   characterName: Trunks (Future SSJ Rage)
   role: 1
@@ -33,9 +33,13 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 85185484efdde49fd81179640cb3912b, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: daa73d7da0b144d078a9ffcdc6922ed4, type: 2}
   specialAttackAnimation:
-  - name: Rage Garric Canon
-    description: 
+  - name: Garlic Gun
+    description: Channels his intense anger and immense power into a devastating
+      Garlic Gun.
     animation: {fileID: 11400000, guid: 21f79e1e361ef48bcb8b8bfb3318db66, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
   synergies: []

@@ -33,8 +33,9 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 41bfc112483794a21bcc9cb512c031c1, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: 41bfc112483794a21bcc9cb512c031c1, type: 2}
   specialAttackAnimation:
-  - name: Buutenks Multi Ghost !
-    description: 
+  - name: Multi-Ghost Attack
+    description: Creates multiple ghostly figures that rush toward his enemy, each
+      one exploding upon impact for massive damage.
     animation: {fileID: 11400000, guid: 1d36564669bb24b1d87839088118a336, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}

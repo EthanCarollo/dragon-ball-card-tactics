@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Cooler (Metal)
   m_EditorClassIdentifier: 
-  id: 20
+  id: 119
   starNumber: 1
   characterName: Cooler (Metal)
   role: 0
@@ -33,8 +33,9 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: c1808fcc581214b0e92bce9a16b2cd1f, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: 1a35ec0712d6d4009a695f8146179d5c, type: 2}
   specialAttackAnimation:
-  - name: Special
-    description: Attack multiple enemies
+  - name: Ki Blast
+    description: Releases a rapid burst of energy in all directions, hitting multiple
+      enemies within the same area with precision.
     animation: {fileID: 11400000, guid: 316cd87be32fb46acb6d1bebbb6164ff, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}

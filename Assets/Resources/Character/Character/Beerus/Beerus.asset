@@ -34,7 +34,7 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 4c8f22e564f044b1d8f44ff136d152bd, type: 2}
   specialAttackAnimation:
   - name: Multi Ki Blast
-    description: Multi Ki Blast !
+    description: Rapidly fires a flurry of energy blasts from both hands.
     animation: {fileID: 11400000, guid: e007f7cd9fcdc417691afe3e50b96cca, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}

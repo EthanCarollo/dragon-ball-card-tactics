@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku (SSB)
   m_EditorClassIdentifier: 
-  id: 54
+  id: 58
   starNumber: 1
   characterName: Goku (SSB)
   role: 0
@@ -34,11 +34,13 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 80a9aa04de460477bb37d99f8e73bccb, type: 2}
   specialAttackAnimation:
   - name: Super Kameha
-    description: A charged Kameha
+    description: nleashes a massive, super-charged version of the Kamehameha, delivering
+      devastating damage with a wider and more powerful beam.
     animation: {fileID: 11400000, guid: 2632d3cd88db44d3a8c5a71e09d53012, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
+  spriteCredit: 
   sameCharacters:
   - {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
   - {fileID: 11400000, guid: b8153c8db51b02e469b29ecc91aa4c44, type: 2}

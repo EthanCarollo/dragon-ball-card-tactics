@@ -33,9 +33,10 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 0063353a2e672d44aa6c68a9ce4d29f1, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: c530dfcfd3ca5f046aa5d91d56207834, type: 2}
   specialAttackAnimation:
-  - name: 
-    description: 
-    animation: {fileID: 11400000, guid: 6862d7942f7f94a4aa7a1201601a9f0e, type: 2}
+  - name: Critical Strike
+    description: Charges his fist with explosive energy and delivers a devastating
+      punch
+    animation: {fileID: 11400000, guid: c530dfcfd3ca5f046aa5d91d56207834, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 11400000, guid: 3118b3fab87a32c4d8970f2fcac5f4ca, type: 2}
   baseCharacter: {fileID: 0}

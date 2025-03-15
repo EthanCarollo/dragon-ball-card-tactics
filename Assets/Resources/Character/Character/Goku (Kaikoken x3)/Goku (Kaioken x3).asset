@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku (Kaioken x3)
   m_EditorClassIdentifier: 
-  id: 49
+  id: 53
   starNumber: 1
   characterName: Goku (Kaioken x3)
   role: 1
@@ -34,11 +34,13 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: e62df90c86b223a49ac5deda3788353e, type: 2}
   specialAttackAnimation:
   - name: Kaioken Kameha
-    description: A powerful Kameha
+    description: Amplifies his power with the Kaioken and combines it with the Kamehameha,
+      creating a fiery, devastating beam that deals immense damage.
     animation: {fileID: 11400000, guid: 31435646c6adb774d92fa509d5c53c54, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
+  spriteCredit: 
   sameCharacters:
   - {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
   - {fileID: 11400000, guid: 9b424d77e4f22ed409f878e0c2d3f275, type: 2}

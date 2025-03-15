@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Turles
   m_EditorClassIdentifier: 
-  id: 95
+  id: 100
   starNumber: 1
   characterName: Turles
   role: 0
@@ -33,8 +33,9 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: af9debda3b8afd047a1afede5dba4e9c, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: 25804ed0c4a13364997e1d7970834a1a, type: 2}
   specialAttackAnimation:
-  - name: Death from the top
-    description: 
+  - name: Death Kikoha
+    description: He charges up a devastating Death Kikoha, a concentrated blast of
+      Ki, and hurls it downward with explosive force.
     animation: {fileID: 11400000, guid: 901700f3083a52848a5286558c152147, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}

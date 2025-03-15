@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Black Goku (Kaio)
   m_EditorClassIdentifier: 
-  id: 13
+  id: 12
   starNumber: 1
   characterName: Black Goku (Kaio)
   role: 0
@@ -34,10 +34,13 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: ad00afd68fd91ec4c9fb6c9db285647e, type: 2}
   specialAttackAnimation:
   - name: Black Kameha
-    description: 
+    description: Channels his fierce Saiyan spirit, turning the classic Kamehameha
+      into a destructive black energy wave.
     animation: {fileID: 11400000, guid: 0e16e5e3954e43b4eb1e97e52ada49c9, type: 2}
   winPoseAnimation: {fileID: 11400000, guid: 82bda9151602e6f49b3564b1b008d6d6, type: 2}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}

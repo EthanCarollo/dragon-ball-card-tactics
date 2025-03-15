@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Gohan (Young)
   m_EditorClassIdentifier: 
-  id: 20
+  id: 49
   starNumber: 1
   characterName: Gohan (Young)
   role: 0
@@ -34,8 +34,12 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: ab329c6b35c6e024090847748ec2bb72, type: 2}
   specialAttackAnimation:
   - name: Kameha
-    description: 
+    description: Releases a powerful Kamehameha, channeling his energy into a focused
+      wave that deals solid damage.
     animation: {fileID: 11400000, guid: 12bd5f8ea520d2c4b9d3bcfe05f8f978, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  characterPassive: []
-  card: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
+  synergies: []

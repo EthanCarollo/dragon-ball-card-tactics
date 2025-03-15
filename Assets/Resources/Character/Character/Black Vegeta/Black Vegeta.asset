@@ -33,11 +33,15 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 9a59b4025f21d47c094ec6618891f12b, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: e2147ad4659664967ab4e027f315fcd9, type: 2}
   specialAttackAnimation:
-  - name: Black Kameha
-    description: 
+  - name: Black Kikoha
+    description: Concentrates his energy, gathering a powerful ball of Ki in his
+      palm before releasing it in a devastating, concentrated blast.
     animation: {fileID: 11400000, guid: 3d52ebe64620e4fc9b0d67be6b571cb0, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
   - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}

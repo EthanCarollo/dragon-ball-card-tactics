@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Vegeta
   m_EditorClassIdentifier: 
-  id: 97
+  id: 103
   starNumber: 1
   characterName: Vegeta
   role: 0
@@ -33,11 +33,14 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 7bb650c819d3fd14e9456e56acdf91a5, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: 13157ae9e1960ab4fb44e7085fe70c8f, type: 2}
   specialAttackAnimation:
-  - name: "Kikomachinl\xE0"
-    description: No description
+  - name: Close-Range Kikoha
+    description: Concentrates his Ki into his hands and fires a quick, powerful Kikoha
+      point-blank at his opponent.
     animation: {fileID: 11400000, guid: 7c4f3f42cefd5064bbd990c78c6bf138, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}

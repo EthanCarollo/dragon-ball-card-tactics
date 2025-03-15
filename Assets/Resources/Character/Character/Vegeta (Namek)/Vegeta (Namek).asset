@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Vegeta (Namek)
   m_EditorClassIdentifier: 
-  id: 5
+  id: 105
   starNumber: 1
   characterName: Vegeta
   role: 0
@@ -33,10 +33,14 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 5b7be29c84efea644b172a037f88d351, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: df24dc20473a84e4abc6e97d2258f4df, type: 2}
   specialAttackAnimation:
-  - name: Garic Canon
-    description: 
+  - name: Garlic Gun
+    description: 'Gathers immense energy into his hands and forms a concentrated
+      Ki blast, which he then fires in a rapid, destructive stream. '
     animation: {fileID: 11400000, guid: e154bd8741d77b9499c1226ee3845103, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  characterPassive: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}

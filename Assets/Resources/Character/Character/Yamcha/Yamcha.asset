@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Yamcha
   m_EditorClassIdentifier: 
-  id: 35
+  id: 121
   starNumber: 1
   characterName: Yamcha
   role: 0
@@ -34,7 +34,8 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: bfbffa3af5c7246e9b88da6d9c5049bd, type: 2}
   specialAttackAnimation:
   - name: Charged Kikoha
-    description: 
+    description: Concentrates his energy into his palms, charging up a Kikoha (Spirit
+      Wave) with explosive force.
     animation: {fileID: 11400000, guid: 021288e3ffe324828aabcd99e41b15f6, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}

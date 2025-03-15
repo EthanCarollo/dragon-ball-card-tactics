@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Turles (SSJ)
   m_EditorClassIdentifier: 
-  id: 97
+  id: 102
   starNumber: 1
   characterName: Turles (SSJ)
   role: 0
@@ -33,8 +33,9 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 289300313934cd7418e76dc11640184e, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: 813bf243feb9c70418a49a4b26d7aa63, type: 2}
   specialAttackAnimation:
-  - name: Lot of punch
-    description: 
+  - name: Wild Rush
+    description: Taps into his brutal fighting style, unleashing a rapid series of
+      devastating punches.
     animation: {fileID: 11400000, guid: d761ccc6b98b9474c94c07e09c79ef2b, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}

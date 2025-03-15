@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Jeice
   m_EditorClassIdentifier: 
-  id: 35
+  id: 67
   starNumber: 1
   characterName: Jeice
   role: 0
@@ -33,9 +33,14 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: e0fcbf6663ebf674d82c70cd97327e71, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: b764837f376347242afb4dc94c3398e9, type: 2}
   specialAttackAnimation:
-  - name: Death from the top
-    description: 
+  - name: Aerial Crusher Kikoha
+    description: Takes to the air, gathering his energy as he forms a powerful Kikoha
+      in his hands.
     animation: {fileID: 11400000, guid: b0d167ef5d426ff4caf89cf0af9a39f8, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: 88ac827794bd8432ca5c1ba12d44fd40, type: 2}

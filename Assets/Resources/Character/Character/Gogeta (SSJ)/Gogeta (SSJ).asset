@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Gogeta (SSJ)
   m_EditorClassIdentifier: 
-  id: 31
+  id: 44
   starNumber: 1
   characterName: Gogeta (SSJ)
   role: 0
@@ -33,9 +33,13 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 36c8ca023d39a9a45af70ed39e05d06e, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: 043113f8ba8a8544ba90c1d7b86d51f0, type: 2}
   specialAttackAnimation:
-  - name: Garric Cannon
-    description: GARRRIIIIIC
+  - name: Garlic Gun
+    description: Channels powerful Ki into a devastating Garlic Gun, launching a
+      massive energy wave that overwhelms his opponent with force.
     animation: {fileID: 11400000, guid: da4e9dd887bc8b647973ef607ccad3b7, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
   synergies: []

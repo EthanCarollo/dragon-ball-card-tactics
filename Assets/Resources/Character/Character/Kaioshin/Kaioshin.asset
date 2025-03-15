@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Kaioshin
   m_EditorClassIdentifier: 
-  id: 61
+  id: 69
   starNumber: 1
   characterName: Kaioshin
   role: 0
@@ -33,10 +33,14 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: b9c2a4854bcb24cc78fa916e351b6a3e, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: b9c2a4854bcb24cc78fa916e351b6a3e, type: 2}
   specialAttackAnimation:
-  - name: Cube
-    description: Cube.
+  - name: Energy Cube Throw
+    description: Harnesses his divine energy to form a small, concentrated cube of
+      Ki. With a swift motion, he hurls the cube at his opponent.
     animation: {fileID: 11400000, guid: a1b34c48bf8684b22ae3db9b0ea5107a, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}

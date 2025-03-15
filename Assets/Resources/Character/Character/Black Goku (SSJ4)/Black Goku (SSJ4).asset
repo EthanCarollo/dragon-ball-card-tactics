@@ -34,10 +34,14 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 742cd808a97fa4357bfa4d10e85261db, type: 2}
   specialAttackAnimation:
   - name: Charged Ki
-    description: Charge a Super Ki
+    description: Concentrates his energy, gathering a powerful ball of Ki in his
+      palm before releasing it in a devastating, concentrated blast.
     animation: {fileID: 11400000, guid: d80df9c188c98421e85c95d66a2b7192, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}

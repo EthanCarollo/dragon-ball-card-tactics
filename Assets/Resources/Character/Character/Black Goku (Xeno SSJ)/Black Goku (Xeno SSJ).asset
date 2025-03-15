@@ -34,10 +34,14 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 18ccbed9a92d74bbdb75faafa67eeb5e, type: 2}
   specialAttackAnimation:
   - name: Black Kameha
-    description: 
+    description: Channels his fierce Saiyan spirit, turning the classic Kamehameha
+      into a destructive black energy wave.
     animation: {fileID: 11400000, guid: ae8f7a6aa13a94566af6193e3d925c3e, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
   - {fileID: 11400000, guid: cdfae772e7a344a7389762ed71ce02d4, type: 2}

@@ -33,8 +33,9 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: ecaae72bc27b44a069896137838d0df7, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: 4530fdf3306f54bc79f30374c6d76f54, type: 2}
   specialAttackAnimation:
-  - name: Charged Kikoha
-    description: No description
+  - name: Final Flash
+    description: Harnesses his pride and immense power to unleash an amplified Final
+      Flash.
     animation: {fileID: 11400000, guid: b021f2ee4dde34bfb8b4749a6c572c45, type: 2}
   winPoseAnimation: {fileID: 11400000, guid: 0734e35585f2e4fd7b4c55dccde7bf4f, type: 2}
   deadAnimation: {fileID: 0}

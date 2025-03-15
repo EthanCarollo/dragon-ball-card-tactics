@@ -34,7 +34,8 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 1da3009fea9344212ba3a2e7e9332dcc, type: 2}
   specialAttackAnimation:
   - name: Charged Ki
-    description: Charge a Super Ki
+    description: Charges a powerful orb of energy and launches it at his opponent,
+      dealing devastating damage upon impact.
     animation: {fileID: 11400000, guid: b43a4d479e15c4406bd7dd31a0d1b82c, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}

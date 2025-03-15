@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Broly
   m_EditorClassIdentifier: 
-  id: 20
+  id: 19
   starNumber: 1
   characterName: Broly
   role: 0
@@ -34,12 +34,13 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 888c4c0b2aa7e4ca98257c8142db8196, type: 2}
   specialAttackAnimation:
   - name: Super Ki Blast
-    description: 'Ultra Ki Blast \n Passive : Normal attack gives poison effect to
-      Enemy.'
+    description: Harnesses his incredible Ki and fires a powerful, large-scale energy
+      blast that packs immense force on multiple targets.
     animation: {fileID: 11400000, guid: 5e1b1714c7a134fc29aad36dfb7925e1, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 0}
+  spriteCredit: 
   sameCharacters:
   - {fileID: 11400000, guid: db28d55647504416897638f35ba82a2c, type: 2}
   - {fileID: 11400000, guid: b7c09c08fd054419e9233e2b0e3926ce, type: 2}

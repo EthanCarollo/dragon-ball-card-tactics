@@ -34,7 +34,8 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 2e1044458ccee44f5bc49d26a8096b4d, type: 2}
   specialAttackAnimation:
   - name: Ki Blast
-    description: Blast of ki.
+    description: Fires a quick, small Ki blast at his opponent, dealing moderate
+      damage with speed and precision.
     animation: {fileID: 11400000, guid: 425bd18e4120f430b8a6c473a7eac480, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}

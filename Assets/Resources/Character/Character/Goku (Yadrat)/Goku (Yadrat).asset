@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku (Yadrat)
   m_EditorClassIdentifier: 
-  id: 40
+  id: 62
   starNumber: 1
   characterName: Goku (Yadrat)
   role: 0
@@ -34,10 +34,14 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 3d9cae7452cb8461db2b82db2bb89d49, type: 2}
   specialAttackAnimation:
   - name: Kameha
-    description: A bigger attack
+    description: Charges and releases a powerful blue energy wave, dealing high damage
+      with a wide range.
     animation: {fileID: 11400000, guid: d0cbb66675c6442509da6eaf824f15b0, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter:
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters:
   - {fileID: 11400000, guid: 9b424d77e4f22ed409f878e0c2d3f275, type: 2}
   - {fileID: 11400000, guid: b8153c8db51b02e469b29ecc91aa4c44, type: 2}
   - {fileID: 11400000, guid: 7c72d6e2019ed431b86de89a71f06dc1, type: 2}

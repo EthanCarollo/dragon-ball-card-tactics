@@ -34,7 +34,7 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: cb524430c376c4fd5a2b4720a29dca74, type: 2}
   specialAttackAnimation:
   - name: Heal
-    description: 
+    description: 'Channels his Saiyan resilience, focusing his energy to heal himself. '
     animation: {fileID: 11400000, guid: 48831c5312f5a474d815b6f807c46f81, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}

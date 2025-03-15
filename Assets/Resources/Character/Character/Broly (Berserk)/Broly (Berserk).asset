@@ -34,7 +34,8 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 64a8aea5c3cf44de6bec74fc8bfc88ef, type: 2}
   specialAttackAnimation:
   - name: Super Ki Blast
-    description: Ultra Ki Blast
+    description: Harnesses his incredible Ki and fires a powerful, large-scale energy
+      blast that packs immense force
     animation: {fileID: 11400000, guid: 477f89601f6ed4370a13e4c9ebcd0720, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}

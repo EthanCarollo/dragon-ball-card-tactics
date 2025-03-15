@@ -33,12 +33,13 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 229b20d039d45da4cac70902e3e75840, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: c6cc04612b6efb04492b32c9ab1912df, type: 2}
   specialAttackAnimation:
-  - name: 
-    description: 
+  - name: Final Spirit Cannon
+    description: Bardock and his squad unleash a devastating, combined energy wave.
     animation: {fileID: 11400000, guid: ab8e6200bbe51c142a094efe6662d543, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 0}
+  spriteCredit: 
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: 93bde18f36b384f3ca211431ececea40, type: 2}

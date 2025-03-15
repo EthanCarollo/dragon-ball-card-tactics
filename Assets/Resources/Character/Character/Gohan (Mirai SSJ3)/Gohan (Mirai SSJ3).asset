@@ -33,12 +33,14 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 26224cdbae1f840f687086a7a229eb62, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: c93bee71adffc4269bde64a619469cc6, type: 2}
   specialAttackAnimation:
-  - name: Mirai Kameha
-    description: A big kameha, but with one hand lol.
+  - name: Super Mirai Kamehameha
+    description: Channels immense energy into a powerful, upgraded Kamehameha, unleashing
+      a devastating wave of Ki.
     animation: {fileID: 11400000, guid: ebbeeca2549f1442caec007497f8b46a, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 11400000, guid: 223c5fe9937854c36a6a7cc83d64c75a, type: 2}
+  spriteCredit: 
   sameCharacters:
   - {fileID: 11400000, guid: 223c5fe9937854c36a6a7cc83d64c75a, type: 2}
   - {fileID: 11400000, guid: 62273676d495847fdb1ab58326980d9b, type: 2}

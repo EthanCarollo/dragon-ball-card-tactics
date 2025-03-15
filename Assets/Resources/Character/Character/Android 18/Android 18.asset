@@ -34,7 +34,8 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 736a7feed32b548968a5cb8e2ae2bdef, type: 2}
   specialAttackAnimation:
   - name: Kienzan
-    description: 
+    description: A razor-sharp, spinning energy disc technique, capable of slicing
+      through nearly any defense.
     animation: {fileID: 11400000, guid: e14a6fd210d0142779769ae48e7e4b76, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}

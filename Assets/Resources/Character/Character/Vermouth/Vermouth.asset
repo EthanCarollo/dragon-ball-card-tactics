@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Vermouth
   m_EditorClassIdentifier: 
-  id: 98
+  id: 110
   starNumber: 1
   characterName: Vermouth
   role: 0
@@ -33,8 +33,9 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 6019cbd05a362444db14948a1c889aa1, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: 893b9153c81d14570a3f188da1245d6a, type: 2}
   specialAttackAnimation:
-  - name: "Kikomachinl\xE0"
-    description: No description
+  - name: Godly Kikoha
+    description: Focuses his godly energy into a massive Kikoha, charging it to its
+      fullest potential.
     animation: {fileID: 11400000, guid: 69f99b77213d84366894ffa7dd7a7424, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}

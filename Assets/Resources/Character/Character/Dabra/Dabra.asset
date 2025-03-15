@@ -34,7 +34,8 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 2411283f61113449390a686da069600f, type: 2}
   specialAttackAnimation:
   - name: Heal
-    description: Heal using the base damage
+    description: Uses his dark magic to restore his health, regenerating a portion
+      of his vitality.
     animation: {fileID: 11400000, guid: aed98195735ea47869c39cf1e32bafae, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}

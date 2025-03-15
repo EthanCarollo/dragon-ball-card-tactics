@@ -34,11 +34,13 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 19c14ba6e4cfa40f3881bdb3cd5691a2, type: 2}
   specialAttackAnimation:
   - name: Mirai Kameha
-    description: A big kameha, but with one hand lol.
+    description: Fires a strong Kamehameha, infused with his determination to protect
+      the future.
     animation: {fileID: 11400000, guid: 97fe0059e4a8442ccb3d18d8a9764393, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 11400000, guid: 223c5fe9937854c36a6a7cc83d64c75a, type: 2}
+  spriteCredit: 
   sameCharacters:
   - {fileID: 11400000, guid: 223c5fe9937854c36a6a7cc83d64c75a, type: 2}
   - {fileID: 11400000, guid: 6f659314e368e44ceb3e3a151d1e3609, type: 2}

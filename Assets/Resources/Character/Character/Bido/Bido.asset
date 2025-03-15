@@ -33,8 +33,9 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 82bba3a6b9aae46a09a286b88cf31ba1, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: 04f91989340a64dfab74144e278bc476, type: 2}
   specialAttackAnimation:
-  - name: Special
-    description: Attack multiple enemies
+  - name: Ki Barrage
+    description: Charges his energy and unleashes a wild storm of Ki blasts at high
+      speed.
     animation: {fileID: 11400000, guid: f8c3ff90625c34fb898d6e53d2ae18d9, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}

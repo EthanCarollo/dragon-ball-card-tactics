@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Gohan (Mirai Kaioken)
   m_EditorClassIdentifier: 
-  id: 2
+  id: 128
   starNumber: 1
   characterName: Gohan (Mirai Kaioken)
   role: 0
@@ -33,8 +33,9 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 03f0253b1060e487692fc529ca456ada, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: 2b1a8af287d924a1fa0eaf125d199bd5, type: 2}
   specialAttackAnimation:
-  - name: Mirai Kameha
-    description: A big kameha, but with one hand lol.
+  - name: Mirai Kaioken Kamehameha
+    description: Amplifies his Kamehameha, creating an explosive, high-powered wave
+      that devastates enemies.
     animation: {fileID: 11400000, guid: 5c72b5b1a361b4b3cb7092e2248111a0, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}

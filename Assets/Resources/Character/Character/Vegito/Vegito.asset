@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Vegito
   m_EditorClassIdentifier: 
-  id: 31
+  id: 109
   starNumber: 1
   characterName: Vegito
   role: 0
@@ -33,10 +33,14 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 33789de8eb37b4129b531607aeb07638, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: b2022348049cd4a139ffb168c6b0d7fc, type: 2}
   specialAttackAnimation:
-  - name: Special Kameha
-    description: 
+  - name: Special Kamehameha
+    description: Combines his immense power and unmatched speed to unleash a devastating
+      Kamehameha wave with a twist.
     animation: {fileID: 11400000, guid: 6d7413f441db141069ed581048ae481b, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}

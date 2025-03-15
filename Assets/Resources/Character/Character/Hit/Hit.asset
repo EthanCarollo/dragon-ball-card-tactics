@@ -33,8 +33,9 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 85848c10db2f848f9a1a41535d19c135, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: 423015e8a4ee74f9bb50a9452182c6c2, type: 2}
   specialAttackAnimation:
-  - name: Teleport Flash Attack
-    description: 
+  - name: Teleportation Strike
+    description: 'Uses his time-skipping ability to phase out of existence and instantly
+      reappear behind his opponent, delivering a devastating blow. '
     animation: {fileID: 11400000, guid: 0dfdb5b45fbf44e95a1644168722804c, type: 2}
   winPoseAnimation: {fileID: 11400000, guid: 06d2a20dd91cc4483b6821baf5ae53e1, type: 2}
   deadAnimation: {fileID: 0}

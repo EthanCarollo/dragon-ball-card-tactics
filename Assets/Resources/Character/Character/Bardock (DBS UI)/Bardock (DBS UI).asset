@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Bardock (DBS UI)
   m_EditorClassIdentifier: 
-  id: 118
+  id: 129
   starNumber: 1
   characterName: Bardock (DBS UI)
   role: 0
@@ -34,7 +34,8 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 5908b724b05c84ff5a9eff600d304c46, type: 2}
   specialAttackAnimation:
   - name: Flash Attack
-    description: 
+    description: Releases a sudden burst of blinding energy, striking his opponent
+      with incredible speed.
     animation: {fileID: 11400000, guid: 77bca9a0d2bb3456b99c2071d7b78168, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}

@@ -34,7 +34,8 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 2475be720a2f4d149aa8c1df7306dbe5, type: 2}
   specialAttackAnimation:
   - name: Kameha
-    description: 
+    description: Channels his energy into a powerful Kamehameha wave, unleashing
+      it with overwhelming force to deal massive damage.
     animation: {fileID: 11400000, guid: be36b6766d88a0b4ab570d0632275916, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}

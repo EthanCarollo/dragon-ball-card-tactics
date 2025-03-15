@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Kakaroto
   m_EditorClassIdentifier: 
-  id: 4
+  id: 70
   starNumber: 1
   characterName: Kakaroto
   role: 0
@@ -33,9 +33,14 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: ee96d88577425e24bb8f8ac98d1a086d, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: ee96d88577425e24bb8f8ac98d1a086d, type: 2}
   specialAttackAnimation:
-  - name: 
-    description: 
+  - name: Basic Kikoha
+    description: 'Quickly gathers energy in his palms, launching a small but concentrated
+      Kikoha at his opponent. '
     animation: {fileID: 11400000, guid: ee96d88577425e24bb8f8ac98d1a086d, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}

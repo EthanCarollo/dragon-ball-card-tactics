@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Black Goku
   m_EditorClassIdentifier: 
-  id: 12
+  id: 113
   starNumber: 1
   characterName: Black Goku
   role: 0
@@ -33,11 +33,15 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 628dc5e141c3340e38f1b2d4666918e0, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: 1b5ebd9ea48474f8d853db0aa1ade752, type: 2}
   specialAttackAnimation:
-  - name: Charged Ki
-    description: Charge a Super Ki
+  - name: Black Kamehameha
+    description: Channels his fierce Saiyan spirit, turning the classic Kamehameha
+      into a destructive black energy wave.
     animation: {fileID: 11400000, guid: b30eb3782fbe34fc88ac25a8af30708d, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}

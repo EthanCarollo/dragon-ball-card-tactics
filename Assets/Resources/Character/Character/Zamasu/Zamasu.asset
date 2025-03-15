@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Zamasu
   m_EditorClassIdentifier: 
-  id: 102
+  id: 114
   starNumber: 1
   characterName: Zamasu
   role: 0
@@ -33,12 +33,13 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: aff45946abaa04bacb5cbe8751390287, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: aff45946abaa04bacb5cbe8751390287, type: 2}
   specialAttackAnimation:
-  - name: 
-    description: 
+  - name: Divine Wrath
+    description: Ascends to the heavens, channeling immense energy through his hands.
     animation: {fileID: 11400000, guid: 94ed4dc8937e74d2f808dc60cf4355b8, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 0}
+  spriteCredit: 
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}

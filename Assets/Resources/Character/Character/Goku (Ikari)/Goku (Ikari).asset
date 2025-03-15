@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku (Ikari)
   m_EditorClassIdentifier: 
-  id: 54
+  id: 125
   starNumber: 1
   characterName: Goku (Ikari)
   role: 0
@@ -34,11 +34,13 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 34976fe8c522a474896148ceac3c9b08, type: 2}
   specialAttackAnimation:
   - name: Destroy Sphere
-    description: Destroyyy !
+    description: Channels his Ikari power into a destructive energy sphere, hurling
+      it at his opponent for massive damage.
     animation: {fileID: 11400000, guid: 252fb8c5d816c264c82dceab832ff8d0, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 0}
+  spriteCredit: 
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}

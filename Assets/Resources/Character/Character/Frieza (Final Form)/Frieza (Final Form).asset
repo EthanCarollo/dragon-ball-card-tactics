@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Frieza (Final Form)
   m_EditorClassIdentifier: 
-  id: 50
+  id: 35
   starNumber: 1
   characterName: Frieza (Final Form)
   role: 0
@@ -34,10 +34,14 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 46dd415e4dd42470c9dbb1a74cd4af54, type: 2}
   specialAttackAnimation:
   - name: Death Ball
-    description: Death Ball from top !
+    description: Gathers an immense amount of Ki into a small orb and hurls it at
+      his opponent, unleashing a devastating explosion on impact.
     animation: {fileID: 11400000, guid: a706b28f9729f4b469765c27614603d9, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter:
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters:
   - {fileID: 11400000, guid: f9b20bbaea69544a397d0f57a57b3a89, type: 2}
   - {fileID: 11400000, guid: b255e1f905a4e4ce7831d56473c2f166, type: 2}
   synergies:

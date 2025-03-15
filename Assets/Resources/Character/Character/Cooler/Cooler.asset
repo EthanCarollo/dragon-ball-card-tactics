@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Cooler
   m_EditorClassIdentifier: 
-  id: 18
+  id: 29
   starNumber: 1
   characterName: Cooler
   role: 0
@@ -34,7 +34,8 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: d5db2ebaec31ee0409f64ce8079301fb, type: 2}
   specialAttackAnimation:
   - name: Death Beam
-    description: 
+    description: Fires a precise, energy-based beam at his opponent, dealing high
+      damage with pinpoint accuracy.
     animation: {fileID: 11400000, guid: ee57b3496af81f44ba6e382c9d0c287b, type: 2}
   - name: Little super attack
     description: A little super attack
