@@ -122,8 +122,12 @@ public class BoardCharacter : BoardObject
 
     public void HitDamage(int damageAmount)
     {
-        this.character.HitDamage(damageAmount, this);
-        ParticleManager.Instance.ShowAttackNumber(this, damageAmount);
+        float damageReceived = 100 / (100 + character.GetArmor());
+        int damageAmountCalculated = Mathf.FloorToInt(damageAmount * damageReceived);
+
+        character.HitDamage(damageAmountCalculated, this);
+        ParticleManager.Instance.ShowAttackNumber(this, damageAmountCalculated);
+        
         SetCharacterSlider();
     }
 

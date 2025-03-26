@@ -172,9 +172,9 @@ public class CharacterContainer
     {
         return GetCharacterData().name;
     }
-    public int GetArmor()
+    public float GetArmor()
     {
-        return Mathf.FloorToInt(GetCharacterData().baseArmor * powerMultiplicator);
+        return GetCharacterData().baseArmor * powerMultiplicator;
     }
     public int GetSpeed()
     {
