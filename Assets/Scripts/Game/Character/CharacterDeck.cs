@@ -132,6 +132,9 @@ public class CharacterContainer
 
     public CharacterPassive[] GetCharacterPassives()
     {
+        if(GetDefaultPassive() == null){
+            return characterPassives.ToArray();
+        }
         var getCharacterPassives = new List<CharacterPassive>(characterPassives)
         {
             GetDefaultPassive()
