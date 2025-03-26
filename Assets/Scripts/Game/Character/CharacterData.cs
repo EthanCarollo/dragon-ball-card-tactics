@@ -59,6 +59,8 @@ public class CharacterData : ScriptableObject
         }
         return Color.white;
     }
+
+    public CharacterPassive defaultPassive;
 }
 
 [Serializable]

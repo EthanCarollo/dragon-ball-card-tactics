@@ -45,3 +45,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 361e9f9acfe824adcbcf3f4af0ca844c, type: 2}
   synergies:
   - {fileID: 11400000, guid: 2cb9ba8a614734a358c15cedc22a075f, type: 2}
+  defaultPassive: {fileID: 11400000, guid: 57565a02c674042ffb19386a20859da5, type: 2}

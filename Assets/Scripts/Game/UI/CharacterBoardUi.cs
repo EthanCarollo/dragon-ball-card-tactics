@@ -35,6 +35,10 @@ public class CharacterBoardUi : MonoBehaviour
         public GameObject spriteCreditContainer;
         public TextMeshProUGUI spriteCredit;
 
+        public GameObject defaultCharacterPassiveGameObject;
+        public Image defaultCharacterPassiveImage;
+        public TextMeshProUGUI defaultCharacterPassiveText;
+
         public void Start()
         {
                 RefreshUi();
@@ -95,8 +99,8 @@ public class CharacterBoardUi : MonoBehaviour
                 foreach (Transform child in passiveContainer)
                 {
                         var passiveContainer = child.gameObject.GetComponent<PassiveContainer>();
-                        if(passiveContainer != null && characterContainer.GetCharacterPassives() != null){
-                                if(characterContainer.GetCharacterPassives().Contains(passiveContainer.passive)){
+                        if(passiveContainer != null && characterContainer.GetCharacterAdditionalPassives() != null){
+                                if(characterContainer.GetCharacterAdditionalPassives().Contains(passiveContainer.passive)){
                                         alreadyCreatedPassive.Add(passiveContainer.passive);
                                         continue;
                                 }
@@ -104,14 +108,14 @@ public class CharacterBoardUi : MonoBehaviour
                         Destroy(child.gameObject);
                 }
 
-                if(characterContainer.GetCharacterPassives() != null){
-                        foreach (var passive in characterContainer.GetCharacterPassives()){
+                if(characterContainer.GetCharacterAdditionalPassives() != null){
+                        foreach (var passive in characterContainer.GetCharacterAdditionalPassives()){
                                 if(passive == null || alreadyCreatedPassive.Contains(passive)) continue;
                                 
                                 Instantiate(passiveLittlePrefab, passiveContainer).GetComponent<PassiveContainer>().Setup(passive);
                         }
 
-                        if(characterContainer.GetCharacterPassives().Length > 0) {
+                        if(characterContainer.GetCharacterAdditionalPassives().Length > 0) {
                                 passiveWholeContainer.SetActive(true);
                         } else {
                                 passiveWholeContainer.SetActive(false);
@@ -129,6 +133,15 @@ public class CharacterBoardUi : MonoBehaviour
                         characterStar.AddComponent<RectTransform>();
                         characterStar.GetComponent<RectTransform>().sizeDelta = new Vector2(45, 45);
                         Instantiate(characterStar, starsContainer);
+                }
+
+                if(characterContainer.GetDefaultPassive() == null) {
+                        defaultCharacterPassiveGameObject.SetActive(false);
+                } else {
+                        defaultCharacterPassiveGameObject.SetActive(true);
+                        defaultCharacterPassiveImage.sprite = characterContainer.GetDefaultPassive().passiveImage;
+                        defaultCharacterPassiveText.text = characterContainer.GetDefaultPassive().passiveName + "\n \n" + characterContainer.GetDefaultPassive().passiveDescription;
+                        defaultCharacterPassiveText.maskable = false;
                 }
         }
 

@@ -125,9 +125,18 @@ public class CharacterContainer
         return actualHealth <= 0;
     }
 
-    public CharacterPassive[] GetCharacterPassives()
+    public CharacterPassive[] GetCharacterAdditionalPassives()
     {
         return characterPassives.ToArray();
+    }
+
+    public CharacterPassive[] GetCharacterPassives()
+    {
+        var getCharacterPassives = new List<CharacterPassive>(characterPassives)
+        {
+            GetDefaultPassive()
+        };
+        return getCharacterPassives.ToArray();
     }
 
     public int GetAttackDamage()
@@ -168,6 +177,10 @@ public class CharacterContainer
         return Mathf.FloorToInt((GetCharacterData().baseDamage + totalAdditionalAttack)  * powerMultiplicator);
     }
 
+    public CharacterPassive GetDefaultPassive()
+    {
+        return GetCharacterData().defaultPassive;
+    }
     public string GetName()
     {
         return GetCharacterData().name;
