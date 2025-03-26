@@ -47,3 +47,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
   - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}
   - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
+  defaultPassive: {fileID: 11400000, guid: 36134f0e283b84d3ea49a95032f37dfd, type: 2}

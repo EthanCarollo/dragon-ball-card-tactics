@@ -135,7 +135,7 @@ public class CharacterBoardUi : MonoBehaviour
                         Instantiate(characterStar, starsContainer);
                 }
 
-                if(characterContainer.GetDefaultPassive() == null) {
+                if (characterContainer.GetDefaultPassive() == null) {
                         defaultCharacterPassiveGameObject.SetActive(false);
                 } else {
                         defaultCharacterPassiveGameObject.SetActive(true);
@@ -149,7 +149,6 @@ public class CharacterBoardUi : MonoBehaviour
         {
                 if (characterContainer != null)
                 {
-                        // Unsubscribe from the previous character's event
                         characterContainer.OnCharacterChanged -= RefreshUi;
                 }
 
@@ -157,10 +156,8 @@ public class CharacterBoardUi : MonoBehaviour
 
                 if (characterContainer != null)
                 {
-                        // Subscribe to the new character's event
                         characterContainer.OnCharacterChanged += RefreshUi;
                 }
-
                 RefreshUi();
         }
 
@@ -168,7 +165,6 @@ public class CharacterBoardUi : MonoBehaviour
         {
                 if (characterContainer != null)
                 {
-                        // Unsubscribe from the current character's event
                         characterContainer.OnCharacterChanged -= RefreshUi;
                 }
 
