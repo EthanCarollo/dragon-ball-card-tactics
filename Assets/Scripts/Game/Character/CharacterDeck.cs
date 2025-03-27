@@ -190,7 +190,19 @@ public class CharacterContainer
     }
     public float GetArmor()
     {
-        return GetCharacterData().baseArmor * powerMultiplicator;
+        var totalAdditionalArmor = GetCharacterData().baseArmor * powerMultiplicator;
+
+        if(GetCharacterPassives() != null)
+        {
+            foreach (var passive in GetCharacterPassives())
+            {
+                if(passive != null)
+                {
+                    totalAdditionalArmor += passive.AdditionalArmor(this);
+                }
+            }
+        }
+        return totalAdditionalArmor;
     }
     public int GetSpeed()
     {

@@ -14,6 +14,11 @@ public class CharacterPassive : ScriptableObject
                 return 0;
         }
 
+        public virtual int AdditionalArmor(CharacterContainer character)
+        {
+                return 0;
+        }
+
         public virtual void GetHit(int amount, BoardCharacter character)
         {
                 
@@ -21,6 +26,12 @@ public class CharacterPassive : ScriptableObject
 
         // Called when we additionnal hit
         public virtual void HitCharacter(BoardCharacter character, BoardCharacter target)
+        {
+
+        }
+
+        // Called when we kill an enemy
+        public virtual void KilledAnEnemy(BoardCharacter character, BoardCharacter target)
         {
 
         }

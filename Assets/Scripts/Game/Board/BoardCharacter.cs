@@ -109,9 +109,16 @@ public class BoardCharacter : BoardObject
             passive.HitCharacter(this, target);
         }
 
-        if (target != null)
+        if (target != null && target.character.IsDead() == false)
         {
             target.HitDamage(character.GetAttackDamage() * multiplicator);
+            if(target.character.IsDead() == true)
+            {
+                foreach (var passive in character.GetCharacterPassives())
+                {
+                    passive.KilledAnEnemy(this, target);
+                }
+            }
         }
     }
 

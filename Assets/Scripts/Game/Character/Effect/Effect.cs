@@ -2,8 +2,8 @@ using System;
 using UnityEngine;
 
 public abstract class Effect : ScriptableObject {
-    public string effectName = "";
-    public string effectDescription = "";
+    public string effectName;
+    public string effectDescription;
     public Sprite effectSprite;
 
     public int attackBonus = 0;

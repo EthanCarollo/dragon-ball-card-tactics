@@ -38,7 +38,7 @@ public class PassiveCard : UsableCharacterActionCard
             }
             if (GetCharacterOnMouse() != null)
             {
-                GetCharacterOnMouse().character.AddPassive(passive);
+                GetCharacterOnMouse().character.AddPassive(Instantiate(passive));
                 GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
                 BoardGameUiManager.Instance.ShowLooseMana(manaCost);
                 BoardGameUiManager.Instance.RefreshUI();
