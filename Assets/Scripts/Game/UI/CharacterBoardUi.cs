@@ -140,7 +140,7 @@ public class CharacterBoardUi : MonoBehaviour
                 } else {
                         defaultCharacterPassiveGameObject.SetActive(true);
                         defaultCharacterPassiveImage.sprite = characterContainer.GetDefaultPassive().passiveImage;
-                        defaultCharacterPassiveText.text = characterContainer.GetDefaultPassive().passiveName + "\n \n" + characterContainer.GetDefaultPassive().passiveDescription;
+                        defaultCharacterPassiveText.text = characterContainer.GetDefaultPassive().passiveName + "\n \n" + characterContainer.GetDefaultPassive().GetDescription();
                         defaultCharacterPassiveText.maskable = false;
                 }
         }

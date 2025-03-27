@@ -18,7 +18,7 @@ public class PassiveContainer : MonoBehaviour, IPointerEnterHandler, IPointerExi
             nameText.text = passive.passiveName;
         }
         if(descriptionText != null){
-            descriptionText.text = passive.passiveDescription;
+            descriptionText.text = passive.GetDescription();
         }
         if(passiveImage != null && passive.passiveImage != null){
             passiveImage.sprite = passive.passiveImage;

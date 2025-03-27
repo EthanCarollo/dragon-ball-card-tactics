@@ -9,6 +9,10 @@ public class CharacterPassive : ScriptableObject
         public string passiveName;
         public string passiveDescription;
 
+        public virtual string GetDescription(){
+                return passiveDescription;
+        }
+
         public virtual int AdditionalAttack(CharacterContainer character)
         {
                 return 0;

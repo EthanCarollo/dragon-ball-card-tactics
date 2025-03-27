@@ -5,6 +5,11 @@ using UnityEngine;
 public class RegenOnKillPassive : CharacterPassive {
     public int regen = 250;
 
+    public override string GetDescription()
+    {
+        return "Regen " + regen + " HP on kill.";
+    }
+
     public override void KilledAnEnemy(BoardCharacter character, BoardCharacter target)
     {
         character.character.Heal(regen);

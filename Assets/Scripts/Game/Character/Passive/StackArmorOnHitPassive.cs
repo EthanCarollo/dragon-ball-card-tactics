@@ -11,9 +11,15 @@ public class StackArmorOnHitPassive : CharacterPassive {
         moreArmor = 0;
     }
 
+    public override string GetDescription()
+    {
+        return "Add " + armorStackedOnHit + " armor on hit (actual armor : " + moreArmor + " ).";
+    }
+
     public override void HitCharacter(BoardCharacter character, BoardCharacter target)
     {
         moreArmor += armorStackedOnHit;
+        character.character.NotifyCharacterChanged();
     }
     
     public override int AdditionalArmor(CharacterContainer character)
