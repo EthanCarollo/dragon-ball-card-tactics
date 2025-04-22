@@ -68,7 +68,7 @@ public class CharacterBoardUi : MonoBehaviour
                 charKiText.text = characterContainer.actualKi + " / " + characterContainer.GetCharacterMaxKi();
                 charImage.sprite = characterContainer.GetCharacterData().characterIcon;
 
-                specialAttackContainer.Setup(characterContainer.GetCharacterSpecialAttack());
+                specialAttackContainer.Setup(characterContainer.GetCharacterSpecialAttack(), characterContainer);
 
                 if(characterContainer.GetCharacterData().spriteCredit != null && characterContainer.GetCharacterData().spriteCredit != ""){
                         spriteCreditContainer.SetActive(true);

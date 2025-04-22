@@ -67,7 +67,6 @@ public class CharacterData : ScriptableObject
 public class SpecialAttack
 {
     public string name;
-    public string description;
     public BoardAnimation animation;
 }
 

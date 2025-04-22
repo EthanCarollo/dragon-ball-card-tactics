@@ -10,6 +10,10 @@ public class BoardAnimation : ScriptableObject {
     public AudioClip audio;
     public Sprite animationIcon;
 
+    public virtual string GetDescription(CharacterContainer character){
+        return "";
+    }
+
     public virtual IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         PlaySound(character.gameObject.GetComponentInChildren<AudioSource>());

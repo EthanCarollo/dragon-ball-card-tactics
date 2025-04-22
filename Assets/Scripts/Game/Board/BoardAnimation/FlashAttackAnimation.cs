@@ -13,6 +13,12 @@ public class FlashAttackAnimation : BoardAnimation
     public int kiOnAttack = 10;
     public Effect[] effectApplied;
 
+    public override string GetDescription(CharacterContainer character)
+    {
+        return $"Teleports to all enemies and strikes them with a <color=#6A5ACD>{attackType}</color> attack, dealing <color=#D60000>{character.GetAttackDamage()}</color> damage and restoring <color=#007ACC>{kiOnAttack}</color> ki per hit.";
+    }
+
+
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         if (character.board is FightBoard fightBoard)

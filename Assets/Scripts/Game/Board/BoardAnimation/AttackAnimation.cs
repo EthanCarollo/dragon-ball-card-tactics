@@ -15,6 +15,13 @@ public class AttackAnimation : BoardAnimation
 
     public Effect[] effectApplied;
 
+    public override string GetDescription(CharacterContainer character)
+    {
+        int damage = character.GetAttackDamage();
+        return $"Performs an attack with a <color=#6A5ACD>{attackType}</color> strike, dealing <color=#D60000>{damage}</color> damage and restoring <color=#007ACC>{kiOnAttack}</color> ki.";
+    }
+
+
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         var target = character.GetCharacterTarget();

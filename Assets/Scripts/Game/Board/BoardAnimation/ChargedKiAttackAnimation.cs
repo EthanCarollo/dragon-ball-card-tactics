@@ -14,6 +14,11 @@ public class ChargedKiAttackAnimation : BoardAnimation
     public Vector2 startMargin;
     public Vector2Int kikohaSize;
 
+    public override string GetDescription(CharacterContainer character)
+    {
+        return $"Launches a kikoha blast (<color=#007ACC>{kikohaSize.x}</color> x <color=#007ACC>{kikohaSize.y}</color>) forward, dealing <color=#D60000>{character.GetAttackDamage() * attackMultiplicator}</color> damage.";
+    }
+
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         CameraScript.Instance.SetupCameraOnTarget(3.5f, character.gameObject.transform);

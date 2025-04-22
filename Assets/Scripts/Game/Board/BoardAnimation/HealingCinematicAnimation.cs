@@ -11,6 +11,12 @@ public class HealingCinematicAnimation : BoardAnimation
     public AttackType attackType;
     public Particle particleAttack;
 
+    public override string GetDescription(CharacterContainer character)
+    {
+        int healingAmount = character.GetAttackDamage(); // Assuming healing uses attack damage as the base.
+        return $"Performs a healing, restoring <color=#32CD32>{healingAmount}</color> health to the target using a <color=#6A5ACD>{attackType}</color> healing attack.";
+    }
+
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         CameraScript.Instance.SetupCameraOnTarget(3.5f, character.gameObject.transform);

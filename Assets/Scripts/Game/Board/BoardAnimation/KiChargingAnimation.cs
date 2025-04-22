@@ -12,6 +12,11 @@ public class KiChargingAnimation : BoardAnimation
     public Particle particleAttack;
     public int kiGived;
 
+    public override string GetDescription(CharacterContainer character)
+    {
+        return $"Focuses energy and charges up, gaining <color=#007ACC>{kiGived}</color> ki.";
+    }
+
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         character.actualAnimation = this;

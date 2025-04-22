@@ -12,6 +12,11 @@ public class UltimeDistanceTopAttackAnimation : BoardAnimation {
     public AttackType attackType;
     public Vector2 startMargin;
 
+    public override string GetDescription(CharacterContainer character)
+    {
+        return $"Soars into the air and launches a <color=#6A5ACD>{attackType}</color> projectile from above, dealing <color=#D60000>{character.GetAttackDamage()}</color> damage to the target.";
+    }
+
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         CameraScript.Instance.SetupCameraOnTarget(4.5f, character.gameObject.transform);

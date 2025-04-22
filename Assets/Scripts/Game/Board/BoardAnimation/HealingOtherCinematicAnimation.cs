@@ -11,6 +11,11 @@ public class HealingOtherCinematicAnimation : BoardAnimation
     public AttackType attackType;
     public Particle particleAttack;
 
+    public override string GetDescription(CharacterContainer character)
+    {
+        return $"Performs a healing cinematic, restoring <color=#32CD32>20%</color> max health to all allies of the same team using a <color=#6A5ACD>{attackType}</color> healing attack.";
+    }
+
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         CameraScript.Instance.SetupCameraOnTarget(5.5f, character.gameObject.transform);
@@ -33,7 +38,6 @@ public class HealingOtherCinematicAnimation : BoardAnimation
                 {
                     if (boardObject is BoardCharacter boardCharacter && boardCharacter.character.isPlayerCharacter == character.character.isPlayerCharacter)
                     {
-                        // Ici c'est un heal de 20% des HP
                         boardCharacter.Heal(boardCharacter.character.GetCharacterMaxHealth() / 5);
                     }
                 }
