@@ -143,6 +143,7 @@ public class CharacterBoardUi : MonoBehaviour
                         defaultCharacterPassiveText.text = characterContainer.GetDefaultPassive().passiveName + "\n \n" + characterContainer.GetDefaultPassive().GetDescription();
                         defaultCharacterPassiveText.maskable = false;
                 }
+                LayoutRebuilder.ForceRebuildLayoutImmediate(characterBoardUi.gameObject.GetComponent<RectTransform>());
         }
 
         public void ShowCharacterBoard(CharacterContainer character)

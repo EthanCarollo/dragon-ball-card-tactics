@@ -23,6 +23,11 @@ public class CharacterPassive : ScriptableObject
                 return 0;
         }
 
+        public virtual int AdditionalAbilityValue(CharacterContainer character)
+        {
+                return 0;
+        }
+
         public virtual void GetHit(int amount, BoardCharacter character)
         {
                 

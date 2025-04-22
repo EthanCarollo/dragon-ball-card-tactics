@@ -8,6 +8,7 @@ public class BoardAnimation : ScriptableObject {
     [SerializeField]
     public FrameSprite[] frameSprites;
     public AudioClip audio;
+    public Sprite animationIcon;
 
     public virtual IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {

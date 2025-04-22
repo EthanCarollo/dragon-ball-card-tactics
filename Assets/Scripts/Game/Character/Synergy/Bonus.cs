@@ -7,6 +7,7 @@ public class Bonus
 {
     public int attackBonus;
     public int maxHpBonus;
+    public int abilityValueBonus = 0;
     public float attackSpeedBonus;
     public int criticalChanceBonus;
     public Effect[] effectsOnHit;

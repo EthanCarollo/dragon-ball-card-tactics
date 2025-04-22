@@ -188,6 +188,33 @@ public class CharacterContainer
     {
         return GetCharacterData().name;
     }
+    public float GetAugmentedAbiltiyValue()
+    {
+        var totalAbilityValue = 1;
+        if(GetCharacterPassives() != null)
+        {
+            foreach (var passive in GetCharacterPassives())
+            {
+                if(passive != null)
+                {
+                    totalAbilityValue += passive.AdditionalAbilityValue(this);
+                }
+            }
+        }
+
+        var activeBonuses = GetAllActiveBonuses();
+        foreach (var bonus in activeBonuses)
+        {
+            if(bonus is SpecialCharacterBonus specialCharacterBonus){ 
+                if(specialCharacterBonus.character == GetCharacterData()){
+                    totalAbilityValue += bonus.abilityValueBonus;   
+                }
+            } else {
+                totalAbilityValue += bonus.abilityValueBonus;   
+            }
+        }
+        return totalAbilityValue;
+    }
     public float GetArmor()
     {
         var totalAdditionalArmor = GetCharacterData().baseArmor * powerMultiplicator;
