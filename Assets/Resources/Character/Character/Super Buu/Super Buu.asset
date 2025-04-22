@@ -33,12 +33,12 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: a2eb637ba517bc44cba78f9f62e0319e, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: d13769781218ae14abbba6d03e6ff782, type: 2}
   specialAttackAnimation:
-  - name: 
-    description: 
+  - name: Super Kikoha
     animation: {fileID: 11400000, guid: 246cfb881dfdf87459109f0f37b30203, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 0}
+  spriteCredit: 
   sameCharacters:
   - {fileID: 11400000, guid: ab3a9d4dbb3fb4bfe8926b7ef647f7c9, type: 2}
   - {fileID: 11400000, guid: 920b5fb4a26ba4018ba92304f58c1eec, type: 2}
@@ -47,3 +47,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
   - {fileID: 11400000, guid: 4c06df1b7d77047398c15d5152c8ec1b, type: 2}
+  defaultPassive: {fileID: 0}

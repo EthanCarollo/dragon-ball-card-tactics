@@ -16,7 +16,7 @@ public class SpecialAttackContainer : MonoBehaviour
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
         try
         {
-            if(attack.animation.animationIcon != null) spriteImage.sprite = attack.animation.animationIcon;
+            if(attack.animation.GetIcon() != null) spriteImage.sprite = attack.animation.GetIcon();
         }
         catch (Exception error)
         {

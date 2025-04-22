@@ -17,6 +17,11 @@ public class UltimeDistanceTopAttackAnimation : BoardAnimation {
         return $"Soars into the air and launches a <color=#6A5ACD>{attackType}</color> projectile from above, dealing <color=#D60000>{character.GetAttackDamage()}</color> damage to the target.";
     }
 
+    public override Sprite GetIcon(){
+        if(animationIcon != null) return base.GetIcon();
+        else return SpriteDatabase.Instance.distanceTopAttackAbilityIcon;
+    }
+
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         CameraScript.Instance.SetupCameraOnTarget(4.5f, character.gameObject.transform);

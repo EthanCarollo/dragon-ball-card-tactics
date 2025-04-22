@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Trunks (Xeno)
   m_EditorClassIdentifier: 
-  id: 24
+  id: 98
   starNumber: 1
   characterName: Trunks (Xeno)
   role: 0
@@ -33,9 +33,13 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 1d96ca8ee793442b492a2b9538fb5ba6, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: 325f058745c844711bdbf861c0d5c77f, type: 2}
   specialAttackAnimation:
-  - name: 
-    description: 
+  - name: Xeno Kameha
     animation: {fileID: 11400000, guid: d9a660656019848a0823a5838e923bbc, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: cdfae772e7a344a7389762ed71ce02d4, type: 2}
+  defaultPassive: {fileID: 0}

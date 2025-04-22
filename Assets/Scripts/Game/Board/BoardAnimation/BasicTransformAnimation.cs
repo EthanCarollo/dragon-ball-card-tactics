@@ -28,6 +28,11 @@ public class BasicTransformAnimation : BoardAnimation
         EndAnimation(character);
     }
 
+    public override Sprite GetIcon(){
+        if(animationIcon != null) return base.GetIcon();
+        else return SpriteDatabase.Instance.transformAbilityIcon;
+    }
+
     public override void EndAnimation(BoardCharacter character)
     {
         base.EndAnimation(character);

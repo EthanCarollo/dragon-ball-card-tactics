@@ -17,6 +17,11 @@ public class KiChargingAnimation : BoardAnimation
         return $"Focuses energy and charges up, gaining <color=#007ACC>{kiGived}</color> ki.";
     }
 
+    public override Sprite GetIcon(){
+        if(animationIcon != null) return base.GetIcon();
+        else return SpriteDatabase.Instance.kiChargingAbilityIcon;
+    }
+
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         character.actualAnimation = this;

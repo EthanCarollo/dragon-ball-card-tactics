@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Sorbet
   m_EditorClassIdentifier: 
-  id: 16
+  id: 85
   starNumber: 1
   characterName: Sorbet
   role: 0
@@ -33,10 +33,13 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: a8bbb122a259b42819cd67a36b848edc, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: a8bbb122a259b42819cd67a36b848edc, type: 2}
   specialAttackAnimation:
-  - name: 
-    description: 
+  - name: Mini Kikoha
     animation: {fileID: 11400000, guid: a8bbb122a259b42819cd67a36b848edc, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: 88ac827794bd8432ca5c1ba12d44fd40, type: 2}
+  defaultPassive: {fileID: 0}

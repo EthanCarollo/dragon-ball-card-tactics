@@ -9,6 +9,11 @@ public class FusionTransformAnimation : TransformAnimation {
     public CharacterData characterData1;
     public CharacterData characterData2;
 
+    public override Sprite GetIcon(){
+        if(animationIcon != null) return base.GetIcon();
+        else return SpriteDatabase.Instance.fusionTransformAbilityIcon;
+    }
+
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         bool isFusionForPlayer = character.character.isPlayerCharacter;

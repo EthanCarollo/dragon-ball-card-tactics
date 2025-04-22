@@ -12,6 +12,11 @@ public class JanembaDistanceAttackAnimation : BoardAnimation {
     public Particle particleAttack;
     public AttackType attackType;
 
+    public override Sprite GetIcon(){
+        if(animationIcon != null) return base.GetIcon();
+        else return SpriteDatabase.Instance.janembaAttackAbilityIcon;
+    }
+
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         character.actualAnimation = this;

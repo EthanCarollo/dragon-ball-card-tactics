@@ -20,6 +20,10 @@ public class DistanceAttackAnimation : BoardAnimation {
         return $"Fires a projectile forward, applying effects on hit and restoring <color=#007ACC>{kiOnAttack}</color> ki. Hits <color=#D60000>{1 + otherTarget}</color> target{(otherTarget > 0 ? "s" : "")}.";
     }
 
+    public override Sprite GetIcon(){
+        if(animationIcon != null) return base.GetIcon();
+        else return SpriteDatabase.Instance.kikohaAbilityIcon;
+    }
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {

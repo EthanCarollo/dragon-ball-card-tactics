@@ -19,6 +19,11 @@ public class ChargedKiAttackAnimation : BoardAnimation
         return $"Launches a kikoha blast (<color=#007ACC>{kikohaSize.x}</color> x <color=#007ACC>{kikohaSize.y}</color>) forward, dealing <color=#D60000>{character.GetAttackDamage() * attackMultiplicator}</color> damage.";
     }
 
+    public override Sprite GetIcon(){
+        if(animationIcon != null) return base.GetIcon();
+        else return SpriteDatabase.Instance.superKikohaAbilityIcon;
+    }
+
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         CameraScript.Instance.SetupCameraOnTarget(3.5f, character.gameObject.transform);

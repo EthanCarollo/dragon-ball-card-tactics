@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Nappa
   m_EditorClassIdentifier: 
-  id: 3
+  id: 77
   starNumber: 1
   characterName: Nappa
   role: 1
@@ -33,8 +33,12 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 7ae7cd96ff922184fb3a6f004a942049, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: 07da4869e621c6649bb17c1112fb720b, type: 2}
   specialAttackAnimation:
-  - name: 
-    description: 
+  - name: Super Kikoha
     animation: {fileID: 11400000, guid: 2ae88cbdd4fe21c409848a99dc80cedc, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
   synergies: []
+  defaultPassive: {fileID: 0}

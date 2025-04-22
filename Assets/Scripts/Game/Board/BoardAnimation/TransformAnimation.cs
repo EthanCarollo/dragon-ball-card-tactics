@@ -14,6 +14,11 @@ public class TransformAnimation : BoardAnimation {
         return true;
     }
 
+    public override Sprite GetIcon(){
+        if(animationIcon != null) return base.GetIcon();
+        else return SpriteDatabase.Instance.transformAbilityIcon;
+    }
+
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         character.actualAnimation = this;

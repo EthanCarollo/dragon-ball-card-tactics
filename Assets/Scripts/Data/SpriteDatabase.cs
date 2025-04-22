@@ -16,6 +16,19 @@ public class SpriteDatabase : ScriptableObject
     public Sprite fullfillHeart;
     public Sprite emptyHeart;
 
+    public Sprite attackAbilityIcon;
+    public Sprite kikohaAbilityIcon;
+    public Sprite superKikohaAbilityIcon;
+    public Sprite flashAttackAbilityIcon;
+    public Sprite healingAbilityIcon;
+    public Sprite healingOtherAbilityIcon;
+    public Sprite transformAbilityIcon;
+    public Sprite fusionTransformAbilityIcon;
+    public Sprite distanceTopAttackAbilityIcon;
+    public Sprite applyAllEffectAbilityIcon;
+    public Sprite janembaAttackAbilityIcon;
+    public Sprite kiChargingAbilityIcon;
+
     public static SpriteDatabase Instance
     {
         get

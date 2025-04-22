@@ -10,6 +10,10 @@ public class BoardAnimation : ScriptableObject {
     public AudioClip audio;
     public Sprite animationIcon;
 
+    public virtual Sprite GetIcon(){
+        return animationIcon;
+    }
+
     public virtual string GetDescription(CharacterContainer character){
         return "";
     }
