@@ -12,12 +12,18 @@ public class DistanceAttackAnimation : BoardAnimation {
     public Vector2 startMargin;
     public int kiOnAttack = 10;
     public int otherTarget = 0;
+    public bool isAugmentedAbilityValue = false;
     
     public Effect[] effectApplied;
 
+    public int GetOtherTargetValue(CharacterContainer character){
+        if(isAugmentedAbilityValue == false) return otherTarget;
+        return otherTarget + character.GetAugmentedAbiltiyValue();
+    }
+
     public override string GetDescription(CharacterContainer character)
     {
-        return $"Fires a projectile forward, applying effects on hit, doing <color=#6A5ACD>{character.GetAttackDamage()}</color> damages and restoring <color=#007ACC>{kiOnAttack}</color> ki. Hits <color=#D60000>{1 + otherTarget}</color> target{(otherTarget > 0 ? "s" : "")}.";
+        return $"Fires a projectile forward, applying effects on hit, doing <color=#6A5ACD>{character.GetAttackDamage()}</color> damages and restoring <color=#007ACC>{kiOnAttack}</color> ki. Hits <color=#D60000>{1 + GetOtherTargetValue(character)}</color> target{(GetOtherTargetValue(character) > 0 ? "s" : "")}.";
     }
 
     public override Sprite GetIcon(){
@@ -31,7 +37,7 @@ public class DistanceAttackAnimation : BoardAnimation {
         
         character.actualAnimation = this;
         var index = 0;
-        var newOtherTarget = otherTarget + character.character.GetAugmentedAbiltiyValue();
+        var newOtherTarget = GetOtherTargetValue(character.character);
         foreach (FrameSprite frameSprite in frameSprites)
         {
             character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = frameSprite.sprite;

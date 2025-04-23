@@ -188,7 +188,7 @@ public class CharacterContainer
     {
         return GetCharacterData().name;
     }
-    public float GetAugmentedAbiltiyValue()
+    public int GetAugmentedAbiltiyValue()
     {
         var totalAbilityValue = 1;
         if(GetCharacterPassives() != null)

@@ -13,10 +13,16 @@ public class ChargedKiAttackAnimation : BoardAnimation
     public int attackMultiplicator = 3;
     public Vector2 startMargin;
     public Vector2Int kikohaSize;
+    public bool isAugmentedAbilityValue = false;
+
+    public Vector2Int GetKikohaSize(CharacterContainer character){
+        if(isAugmentedAbilityValue == false) return kikohaSize;
+        return new Vector2Int(kikohaSize.x + character.GetAugmentedAbiltiyValue(), kikohaSize.y);
+    }
 
     public override string GetDescription(CharacterContainer character)
     {
-        return $"Launches a kikoha blast (<color=#007ACC>{kikohaSize.x}</color> x <color=#007ACC>{kikohaSize.y}</color>) forward, dealing <color=#D60000>{character.GetAttackDamage() * attackMultiplicator}</color> damage.";
+        return $"Launches a kikoha blast (<color=#007ACC>{GetKikohaSize(character).x}</color> x <color=#007ACC>{GetKikohaSize(character).y}</color>) forward, dealing <color=#D60000>{character.GetAttackDamage() * attackMultiplicator}</color> damage.";
     }
 
     public override Sprite GetIcon(){
@@ -78,10 +84,11 @@ public class ChargedKiAttackAnimation : BoardAnimation
 
         List<GameObject> dangerTiles = new List<GameObject>(); // Declare the dangerTiles list
         List<Vector2Int> dangerTilesPositions = new List<Vector2Int>();
+        var actualKikohaSize = GetKikohaSize(character.character);
 
-        for (int i = 1; i <= kikohaSize.x; i++)
+        for (int i = 1; i <= actualKikohaSize.x; i++)
         {
-            for (int j = -(kikohaSize.y / 2); j <= (kikohaSize.y / 2); j++)
+            for (int j = -(actualKikohaSize.y / 2); j <= (actualKikohaSize.y / 2); j++)
             {
                 Vector3 offset = new Vector3(direction.y, -direction.x) * j;
                 Vector3 tilePosition = character.gameObject.transform.position + direction * i + offset;

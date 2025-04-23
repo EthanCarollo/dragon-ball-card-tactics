@@ -34,7 +34,6 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 9a3d73d6cc1f440eeb48c4a5b47ad8d0, type: 2}
   specialAttackAnimation:
   - name: Multiple attacks
-    description: Launch multiple attacks on multiple enemies
     animation: {fileID: 11400000, guid: 9c648dd53946449298861bc9e7666311, type: 2}
   winPoseAnimation: {fileID: 11400000, guid: 8d569f3c094ca924aa880dcfa6a74883, type: 2}
   deadAnimation: {fileID: 0}
@@ -46,3 +45,5 @@ MonoBehaviour:
   synergies:
   - {fileID: 11400000, guid: fb45fe0120531415a900315cc099c60a, type: 2}
   - {fileID: 11400000, guid: d650a485b7943417bb2b531cc2a4ba90, type: 2}
+  - {fileID: 11400000, guid: 77108007453964566a867623cabb838b, type: 2}
+  defaultPassive: {fileID: 0}

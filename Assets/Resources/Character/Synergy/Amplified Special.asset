@@ -20,15 +20,15 @@ MonoBehaviour:
 
 '
     Bonuses:
-    - rid: 6235699304582348895
+    - rid: 6235699304582348897
   - RequiredUnits: 3
-    Description: 'Give 1 ability augment to all Amplified Attack.
+    Description: 'Give 1 ability augment and 150 hp to all Amplified Attack.
 
 '
     Bonuses:
-    - rid: 6235699304582348895
+    - rid: 6235699304582348896
   - RequiredUnits: 4
-    Description: 'Give 1 ability augment and 20 attack to all Amplified Attack.
+    Description: 'Give 1 ability augment, 150 hp and 20 attack to all Amplified Attack.
 
 '
     Bonuses:
@@ -37,6 +37,24 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 6235699304582348895
+      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 20
+        maxHpBonus: 150
+        abilityValueBonus: 1
+        attackSpeedBonus: 0
+        criticalChanceBonus: 0
+        effectsOnHit: []
+    - rid: 6235699304582348896
+      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      data:
+        attackBonus: 0
+        maxHpBonus: 150
+        abilityValueBonus: 1
+        attackSpeedBonus: 0
+        criticalChanceBonus: 0
+        effectsOnHit: []
+    - rid: 6235699304582348897
       type: {class: Bonus, ns: , asm: Assembly-CSharp}
       data:
         attackBonus: 0

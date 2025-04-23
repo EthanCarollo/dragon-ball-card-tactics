@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Yadrat
   m_EditorClassIdentifier: 
-  id: 84
+  id: 111
   starNumber: 1
   characterName: Yadrat
   role: 0
@@ -34,8 +34,12 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: c4509b4b7631c4e66865456c63d06de4, type: 2}
   specialAttackAnimation:
   - name: Multiple attacks
-    description: Launch multiple attacks on multiple enemies
     animation: {fileID: 11400000, guid: 5afc53c0db65f42faa936f3564fb9373, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
-  synergies: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
+  synergies:
+  - {fileID: 11400000, guid: 77108007453964566a867623cabb838b, type: 2}
+  defaultPassive: {fileID: 0}
