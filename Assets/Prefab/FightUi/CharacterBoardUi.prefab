@@ -869,7 +869,7 @@ MonoBehaviour:
     m_Bottom: 20
   m_ChildAlignment: 0
   m_StartCorner: 0
-  m_StartAxis: 0
+  m_StartAxis: 1
   m_CellSize: {x: 165, y: 60}
   m_Spacing: {x: 7.5, y: 10}
   m_Constraint: 1
@@ -1105,6 +1105,8 @@ MonoBehaviour:
   synergy: {fileID: 0}
   synergyNumber: {fileID: 7363232293213391120}
   synergyImage: {fileID: 1108085028759395412}
+  synergyDescriptionContainer: {fileID: 0}
+  synergyDescriptionText: {fileID: 0}
 --- !u!114 &3455342933475238251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4331,6 +4333,8 @@ MonoBehaviour:
   synergy: {fileID: 0}
   synergyNumber: {fileID: 3186910339353716665}
   synergyImage: {fileID: 5005170056594207485}
+  synergyDescriptionContainer: {fileID: 0}
+  synergyDescriptionText: {fileID: 0}
 --- !u!114 &5797886083195527940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4792,6 +4796,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: {fileID: 2976980666909754591}
   description: {fileID: 4266612710434597277}
+  spriteImage: {fileID: 0}
 --- !u!114 &5285026987642315415
 MonoBehaviour:
   m_ObjectHideFlags: 0
