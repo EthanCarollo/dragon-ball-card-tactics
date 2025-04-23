@@ -16,6 +16,11 @@ public class HealingOtherCinematicAnimation : BoardAnimation
         return $"Performs a healing cinematic, restoring <color=#32CD32>20%</color> max health to all allies of the same team using a <color=#6A5ACD>{attackType}</color> healing attack.";
     }
 
+    public override string GetDetailledDescription(CharacterContainer character)
+    {
+        return $"Performs a healing cinematic, restoring <color=#32CD32>20%</color> max health to all allies of the same team using a <color=#6A5ACD>{attackType}</color> healing attack.";
+    }
+
     public override Sprite GetIcon(){
         if(animationIcon != null) return base.GetIcon();
         else return SpriteDatabase.Instance.healingOtherAbilityIcon;

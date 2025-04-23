@@ -190,7 +190,7 @@ public class CharacterContainer
     }
     public int GetAugmentedAbiltiyValue()
     {
-        var totalAbilityValue = 1;
+        var totalAbilityValue = 0;
         if(GetCharacterPassives() != null)
         {
             foreach (var passive in GetCharacterPassives())

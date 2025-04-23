@@ -34,8 +34,6 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: ee96d88577425e24bb8f8ac98d1a086d, type: 2}
   specialAttackAnimation:
   - name: Basic Kikoha
-    description: 'Quickly gathers energy in his palms, launching a small but concentrated
-      Kikoha at his opponent. '
     animation: {fileID: 11400000, guid: ee96d88577425e24bb8f8ac98d1a086d, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
@@ -44,3 +42,5 @@ MonoBehaviour:
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
+  - {fileID: 11400000, guid: 77108007453964566a867623cabb838b, type: 2}
+  defaultPassive: {fileID: 0}

@@ -26,6 +26,12 @@ public class DistanceAttackAnimation : BoardAnimation {
         return $"Fires a projectile forward, applying effects on hit, doing <color=#6A5ACD>{character.GetAttackDamage()}</color> damages and restoring <color=#007ACC>{kiOnAttack}</color> ki. Hits <color=#D60000>{1 + GetOtherTargetValue(character)}</color> target{(GetOtherTargetValue(character) > 0 ? "s" : "")}.";
     }
 
+    public override string GetDetailledDescription(CharacterContainer character)
+    {
+        if(isAugmentedAbilityValue == false) return $"Fires a projectile forward, applying effects on hit, doing <color=#6A5ACD>{character.GetAttackDamage()}</color> damages and restoring <color=#007ACC>{kiOnAttack}</color> ki. Hits <color=#D60000>{1 + GetOtherTargetValue(character)}</color> target{(GetOtherTargetValue(character) > 0 ? "s" : "")}.";
+        return $"Fires a projectile forward, applying effects on hit, doing <color=#6A5ACD>{character.GetAttackDamage()}</color> damages and restoring <color=#007ACC>{kiOnAttack}</color> ki. Hits <color=#D60000>{1 + otherTarget}</color> and <color=#D60000>{character.GetAugmentedAbiltiyValue()}</color> target{(GetOtherTargetValue(character) > 0 ? "s" : "")}.";
+    }
+
     public override Sprite GetIcon(){
         if(animationIcon != null) return base.GetIcon();
         else return SpriteDatabase.Instance.kikohaAbilityIcon;

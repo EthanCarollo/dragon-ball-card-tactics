@@ -17,6 +17,8 @@ MonoBehaviour:
     time: 0.15
   - sprite: {fileID: 8781171074548329238, guid: e176d172fb59f4a7f88408e560eca63d, type: 3}
     time: 0.15
+  audio: {fileID: 0}
+  animationIcon: {fileID: 0}
   attackFrameIndex: 0
   projectile: {fileID: 5229828119913399708, guid: e176d172fb59f4a7f88408e560eca63d, type: 3}
   particleAttack: {fileID: 11400000, guid: a05d66441daab4e42b62f1079ed76f45, type: 2}
@@ -24,7 +26,5 @@ MonoBehaviour:
   startMargin: {x: 0.5, y: 0.7}
   kiOnAttack: 10
   otherTarget: 3
+  isAugmentedAbilityValue: 1
   effectApplied: []
-  references:
-    version: 2
-    RefIds: []

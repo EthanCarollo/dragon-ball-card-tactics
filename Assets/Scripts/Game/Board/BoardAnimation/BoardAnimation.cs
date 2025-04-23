@@ -18,6 +18,10 @@ public class BoardAnimation : ScriptableObject {
         return "";
     }
 
+    public virtual string GetDetailledDescription(CharacterContainer character){
+        return "";
+    }
+
     public virtual IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
         PlaySound(character.gameObject.GetComponentInChildren<AudioSource>());

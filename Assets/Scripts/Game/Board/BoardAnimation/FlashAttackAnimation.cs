@@ -18,6 +18,11 @@ public class FlashAttackAnimation : BoardAnimation
         return $"Teleports to all enemies and strikes them with a <color=#6A5ACD>{attackType}</color> attack, dealing <color=#D60000>{character.GetAttackDamage()}</color> damage and restoring <color=#007ACC>{kiOnAttack}</color> ki per hit.";
     }
 
+    public override string GetDetailledDescription(CharacterContainer character)
+    {
+        return $"Teleports to all enemies and strikes them with a <color=#6A5ACD>{attackType}</color> attack, dealing <color=#D60000>{character.GetAttackDamage()}</color> damage and restoring <color=#007ACC>{kiOnAttack}</color> ki per hit.";
+    }
+
     public override Sprite GetIcon(){
         if(animationIcon != null) return base.GetIcon();
         else return SpriteDatabase.Instance.flashAttackAbilityIcon;

@@ -34,8 +34,6 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 04f91989340a64dfab74144e278bc476, type: 2}
   specialAttackAnimation:
   - name: Ki Barrage
-    description: Charges his energy and unleashes a wild storm of Ki blasts at high
-      speed.
     animation: {fileID: 11400000, guid: f8c3ff90625c34fb898d6e53d2ae18d9, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
@@ -45,3 +43,5 @@ MonoBehaviour:
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: fb45fe0120531415a900315cc099c60a, type: 2}
+  - {fileID: 11400000, guid: 77108007453964566a867623cabb838b, type: 2}
+  defaultPassive: {fileID: 0}

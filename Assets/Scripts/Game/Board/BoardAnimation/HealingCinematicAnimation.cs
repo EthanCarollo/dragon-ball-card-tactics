@@ -17,6 +17,12 @@ public class HealingCinematicAnimation : BoardAnimation
         return $"Performs a healing, restoring <color=#32CD32>{healingAmount}</color> health to the target using a <color=#6A5ACD>{attackType}</color> healing attack.";
     }
 
+    public override string GetDetailledDescription(CharacterContainer character)
+    {
+        int healingAmount = character.GetAttackDamage(); // Assuming healing uses attack damage as the base.
+        return $"Performs a healing, restoring <color=#32CD32>{healingAmount}</color> health to the target using a <color=#6A5ACD>{attackType}</color> healing attack.";
+    }
+
     public override Sprite GetIcon(){
         if(animationIcon != null) return base.GetIcon();
         else return SpriteDatabase.Instance.healingAbilityIcon;

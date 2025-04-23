@@ -33,9 +33,8 @@ MonoBehaviour:
   attackAnimation: {fileID: 11400000, guid: 82ae2f62c394c49fb9b608e750cbc711, type: 2}
   criticalAttackAnimation: {fileID: 11400000, guid: 7a67070273b384a82b317969190ba388, type: 2}
   specialAttackAnimation:
-  - name: Coup d'iep
-    description: Big coup d'iep
-    animation: {fileID: 0}
+  - name: Super Kikoha
+    animation: {fileID: 11400000, guid: 810060e437134443fb99d5c1bfb02c1c, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 0}
@@ -50,3 +49,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
   - {fileID: 11400000, guid: b0bdb58ae9c5b4aca92ddefb67a906bd, type: 2}
   - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}
+  defaultPassive: {fileID: 0}
