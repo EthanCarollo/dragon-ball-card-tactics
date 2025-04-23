@@ -17,7 +17,7 @@ public class DistanceAttackAnimation : BoardAnimation {
 
     public override string GetDescription(CharacterContainer character)
     {
-        return $"Fires a projectile forward, applying effects on hit and restoring <color=#007ACC>{kiOnAttack}</color> ki. Hits <color=#D60000>{1 + otherTarget}</color> target{(otherTarget > 0 ? "s" : "")}.";
+        return $"Fires a projectile forward, applying effects on hit, doing <color=#6A5ACD>{character.GetAttackDamage()}</color> damages and restoring <color=#007ACC>{kiOnAttack}</color> ki. Hits <color=#D60000>{1 + otherTarget}</color> target{(otherTarget > 0 ? "s" : "")}.";
     }
 
     public override Sprite GetIcon(){
@@ -31,19 +31,20 @@ public class DistanceAttackAnimation : BoardAnimation {
         
         character.actualAnimation = this;
         var index = 0;
+        var newOtherTarget = otherTarget + character.character.GetAugmentedAbiltiyValue();
         foreach (FrameSprite frameSprite in frameSprites)
         {
             character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = frameSprite.sprite;
             yield return new WaitForSeconds(frameSprite.time); 
             if(index == attackFrameIndex){
                 LaunchAttack(character, target);
-                if(otherTarget != 0){
+                if(newOtherTarget != 0){
                     var characterOnBoard = GameManager.Instance.GetCharactersOnBoard();
                     int otherAttack = 0;
                     foreach (var characterToAttack in characterOnBoard)
                     {
                         if(characterToAttack == target || characterToAttack.character.isPlayerCharacter == character.character.isPlayerCharacter) continue;
-                        if(otherAttack >= otherTarget) break;
+                        if(otherAttack >= newOtherTarget) break;
                         otherAttack++;
                         LaunchAttack(character, characterToAttack);
                     }
