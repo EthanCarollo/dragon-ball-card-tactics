@@ -475,8 +475,10 @@ MonoBehaviour:
   passiveWholeContainer: {fileID: 843034992543324108}
   passiveLittlePrefab: {fileID: 576781877490566231, guid: f32c4bbe4f94046c0b558654b658aebc, type: 3}
   passiveContainer: {fileID: 6780721921331916997}
+  showStars: 1
   starsContainer: {fileID: 7703620033598080856}
   star: {fileID: -8296968986904153838, guid: f7f80d30195594eee8bd13c086a1e2ab, type: 3}
+  specialAttackContainerLayout: {fileID: 2737323620926412170}
   specialAttackContainer: {fileID: 8271962447069245709}
   spriteCreditContainer: {fileID: 5972573766858397362}
   spriteCredit: {fileID: 5319628102132372495}
@@ -2396,6 +2398,11 @@ MonoBehaviour:
 --- !u!1 &843034992543324108 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 677336284263153824, guid: 6b5e00aed10f84e4bbd4c93178488522, type: 3}
+  m_PrefabInstance: {fileID: 204190411352823660}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &2737323620926412170 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2821931005770924774, guid: 6b5e00aed10f84e4bbd4c93178488522, type: 3}
   m_PrefabInstance: {fileID: 204190411352823660}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &2899490396615355639 stripped

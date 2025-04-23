@@ -2145,6 +2145,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1017698601923993144, guid: 9ca7e6016a6cd473980b09705bad451e, type: 3}
+      propertyPath: showStars
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1065356980698958313, guid: 9ca7e6016a6cd473980b09705bad451e, type: 3}
       propertyPath: m_Name
       value: CharacterInformation
@@ -2838,7 +2842,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8393551349093227751, guid: 9ca7e6016a6cd473980b09705bad451e, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ca7e6016a6cd473980b09705bad451e, type: 3}

@@ -27,9 +27,11 @@ public class CharacterBoardUi : MonoBehaviour
         public GameObject passiveLittlePrefab;
         public Transform passiveContainer;
 
+        public bool showStars = true;
         public Transform starsContainer;
         public Sprite star;
 
+        public RectTransform specialAttackContainerLayout;
         public SpecialAttackContainer specialAttackContainer;
 
         public GameObject spriteCreditContainer;
@@ -69,6 +71,7 @@ public class CharacterBoardUi : MonoBehaviour
                 charImage.sprite = characterContainer.GetCharacterData().characterIcon;
 
                 specialAttackContainer.Setup(characterContainer.GetCharacterSpecialAttack(), characterContainer);
+                LayoutRebuilder.ForceRebuildLayoutImmediate(specialAttackContainerLayout);
 
                 if(characterContainer.GetCharacterData().spriteCredit != null && characterContainer.GetCharacterData().spriteCredit != ""){
                         spriteCreditContainer.SetActive(true);
@@ -128,11 +131,13 @@ public class CharacterBoardUi : MonoBehaviour
                 }
                 for (int i = 0; i < characterContainer.characterStar; i++)
                 {
-                        var characterStar = new GameObject();
-                        characterStar.AddComponent<Image>().sprite = star;
-                        characterStar.AddComponent<RectTransform>();
-                        characterStar.GetComponent<RectTransform>().sizeDelta = new Vector2(45, 45);
-                        Instantiate(characterStar, starsContainer);
+                        if(starsContainer != null && showStars == true){
+                                var characterStar = new GameObject();
+                                characterStar.AddComponent<Image>().sprite = star;
+                                characterStar.AddComponent<RectTransform>();
+                                characterStar.GetComponent<RectTransform>().sizeDelta = new Vector2(45, 45);
+                                Instantiate(characterStar, starsContainer);
+                        }
                 }
 
                 if (characterContainer.GetDefaultPassive() == null) {
