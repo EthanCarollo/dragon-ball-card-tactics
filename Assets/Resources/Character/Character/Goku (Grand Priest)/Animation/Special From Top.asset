@@ -23,8 +23,10 @@ MonoBehaviour:
     time: 0.2
   - sprite: {fileID: -4902704480650630831, guid: 5c01390b65ded47b6986f226fba8de24, type: 3}
     time: 0.6
+  audio: {fileID: 0}
+  animationIcon: {fileID: 0}
   flySprite:
-    sprite: {fileID: -2004985424286247753, guid: 5c01390b65ded47b6986f226fba8de24, type: 3}
+    sprite: {fileID: 6271530339012876124, guid: 5c01390b65ded47b6986f226fba8de24, type: 3}
     time: 0
   attackFrameIndex: 3
   projectile: {fileID: 0}

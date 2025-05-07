@@ -27,8 +27,9 @@ public class ChargedKiAttackAnimation : BoardAnimation
 
     public override string GetDetailledDescription(CharacterContainer character)
     {
-        if(isAugmentedAbilityValue == false) return GetDescription(character);
-        return $"Launches a kikoha blast (<color=#007ACC>{kikohaSize.x}</color> * <color=#007ACC>{character.GetAugmentedAbiltiyValue()}</color> x <color=#007ACC>{kikohaSize.y}</color> * <color=#007ACC>{character.GetAugmentedAbiltiyValue()}</color>) forward, dealing <color=#D60000>{character.GetAttackDamage()}</color> * <color=#D60000>{attackMultiplicator}</color> damage.";
+        if(isAugmentedAbilityValue == false) return $"Launches a kikoha blast (<color=#007ACC>{GetKikohaSize(character).x}</color> x <color=#007ACC>{GetKikohaSize(character).y}</color>) forward, dealing <color=#D60000>{character.GetAttackDamage() * attackMultiplicator}</color> <color=#D60000>({100*attackMultiplicator}% of attack damage)</color> damage.";
+
+        return $"Launches a kikoha blast (<color=#007ACC>{kikohaSize.x}</color> * <color=#007ACC>{character.GetAugmentedAbiltiyValue()}</color> x <color=#007ACC>{kikohaSize.y}</color> * <color=#007ACC>{character.GetAugmentedAbiltiyValue()}</color>) forward, dealing <color=#D60000>{character.GetAttackDamage() * attackMultiplicator}</color> <color=#D60000>({100*attackMultiplicator}% of attack damage)</color> damage.";
     }
 
     public override Sprite GetIcon(){

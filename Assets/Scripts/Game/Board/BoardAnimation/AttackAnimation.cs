@@ -24,7 +24,7 @@ public class AttackAnimation : BoardAnimation
     public override string GetDetailledDescription(CharacterContainer character)
     {
         int damage = character.GetAttackDamage();
-        return $"Performs an attack with a <color=#6A5ACD>{attackType}</color> strike, dealing <color=#D60000>{damage}</color> damage and restoring <color=#007ACC>{kiOnAttack}</color> ki.";
+        return $"Performs an attack with a <color=#6A5ACD>{attackType}</color> strike, dealing <color=#D60000>{damage}</color> <color=#D60000>(100% of attack damage)</color> damage and restoring <color=#007ACC>{kiOnAttack}</color> ki.";
     }
 
     public override Sprite GetIcon(){
