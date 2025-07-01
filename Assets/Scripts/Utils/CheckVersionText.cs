@@ -34,8 +34,6 @@ public class CheckVersionText : MonoBehaviour
 
         using (UnityWebRequest request = UnityWebRequest.Get(url))
         {
-            request.SetRequestHeader("User-Agent", "Unity-App");
-            request.SetRequestHeader("Authorization", "token " + githubPat);
 
             yield return request.SendWebRequest();
 

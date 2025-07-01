@@ -95,18 +95,10 @@ public class UpgradeCharacterStarCard : Card
         {
             LeanTween.delayedCall(0.5f, () =>
             {
-                // Trouve la transformation correspondante pour le CharacterData du personnage
-
                 targetCharacter.character.AddStar(1);
-
-                // Réduit le mana du joueur
                 GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
-
-                // Met à jour l'UI pour refléter la perte de mana
                 BoardGameUiManager.Instance.ShowLooseMana(manaCost);
                 BoardGameUiManager.Instance.RefreshUI();
-
-                // Retire la carte après utilisation
                 RegisterCardHistory();
                 GameManager.Instance.RemoveCard(this);
             });

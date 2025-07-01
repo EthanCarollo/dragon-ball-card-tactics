@@ -7471,6 +7471,7 @@ GameObject:
   - component: {fileID: 1493523254}
   - component: {fileID: 1493523253}
   - component: {fileID: 1493523256}
+  - component: {fileID: 1493523257}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -7580,6 +7581,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding: {x: 4, y: 4, z: 4, w: 4}
   m_Softness: {x: 0, y: 0}
+--- !u!114 &1493523257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493523251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb0a9d692584dd4ab49d0eed8c3af92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1493523253}
+  content: {fileID: 916610744}
 --- !u!1001 &1504223132
 PrefabInstance:
   m_ObjectHideFlags: 0
