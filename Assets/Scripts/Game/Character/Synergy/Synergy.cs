@@ -7,7 +7,7 @@ using UnityEngine;
 public class Synergy : ScriptableObject {
     public string synergyName;
     public Sprite synergyImage;
-    public List<TierBonus> Tiers = new List<TierBonus>();
+    public List<TierBonus> Tiers;
 
     public List<TierBonus> GetActiveTierBonuses(bool isPlayerCharacter){
         List<TierBonus> tierBonuses = new List<TierBonus>();

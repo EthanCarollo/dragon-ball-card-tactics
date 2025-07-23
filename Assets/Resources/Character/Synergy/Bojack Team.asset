@@ -38,6 +38,7 @@ MonoBehaviour:
       data:
         attackBonus: 50
         maxHpBonus: 0
+        abilityValueBonus: 0
         attackSpeedBonus: 0
         criticalChanceBonus: 0
         effectsOnHit: []
@@ -47,15 +48,16 @@ MonoBehaviour:
       data:
         attackBonus: 10
         maxHpBonus: 40
+        abilityValueBonus: 0
         attackSpeedBonus: 0.1
         criticalChanceBonus: 0
-        effectsOnHit:
-        - {fileID: 0}
+        effectsOnHit: []
     - rid: 6739222798441644107
       type: {class: TransformCharacterBonus, ns: , asm: Assembly-CSharp}
       data:
         attackBonus: 0
         maxHpBonus: 0
+        abilityValueBonus: 0
         attackSpeedBonus: 0
         criticalChanceBonus: 0
         effectsOnHit: []
@@ -66,6 +68,7 @@ MonoBehaviour:
       data:
         attackBonus: 0
         maxHpBonus: 0
+        abilityValueBonus: 0
         attackSpeedBonus: 0
         criticalChanceBonus: 0
         effectsOnHit: []

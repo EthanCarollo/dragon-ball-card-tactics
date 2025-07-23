@@ -40,6 +40,7 @@ MonoBehaviour:
       data:
         attackBonus: 50
         maxHpBonus: 0
+        abilityValueBonus: 0
         attackSpeedBonus: 0
         criticalChanceBonus: 0
         effectsOnHit: []
@@ -48,15 +49,17 @@ MonoBehaviour:
       data:
         attackBonus: 33
         maxHpBonus: 0
+        abilityValueBonus: 0
         attackSpeedBonus: 0
         criticalChanceBonus: 0
         effectsOnHit:
-        - rid: 6739222818731327563
+        - {fileID: 11400000, guid: 9ee187b83074f4ecebe54a114cb189ec, type: 2}
     - rid: 6739222660124246092
       type: {class: Bonus, ns: , asm: Assembly-CSharp}
       data:
         attackBonus: 0
         maxHpBonus: 0
+        abilityValueBonus: 0
         attackSpeedBonus: 0.33
         criticalChanceBonus: 0
         effectsOnHit: []
@@ -65,16 +68,7 @@ MonoBehaviour:
       data:
         attackBonus: 0
         maxHpBonus: 0
+        abilityValueBonus: 0
         attackSpeedBonus: 0
         criticalChanceBonus: 33
         effectsOnHit: []
-    - rid: 6739222818731327563
-      type: {class: PoisonEffect, ns: , asm: Assembly-CSharp}
-      data:
-        attackBonus: 0
-        attackSpeedBonus: 0
-        effectDuration: 5
-        tickInterval: 1
-        nextTickTime: 1
-        damagePerTick: 10
-        particle: {fileID: 11400000, guid: 596e08eb421024550922371c0991c5cd, type: 2}

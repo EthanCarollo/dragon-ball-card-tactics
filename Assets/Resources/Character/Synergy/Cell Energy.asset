@@ -32,16 +32,17 @@ MonoBehaviour:
       data:
         attackBonus: 4
         maxHpBonus: 0
+        abilityValueBonus: 0
         attackSpeedBonus: 0.1
         criticalChanceBonus: 0
-        effectsOnHit:
-        - {fileID: 0}
+        effectsOnHit: []
     - rid: 5533071885727957068
       type: {class: Bonus, ns: , asm: Assembly-CSharp}
       data:
         attackBonus: 30
         maxHpBonus: 0
+        abilityValueBonus: 0
         attackSpeedBonus: 0.4
         criticalChanceBonus: 0
         effectsOnHit:
-        - {fileID: 0}
+        - {fileID: 11400000, guid: 21ec188c3939d4c21ba4c366b46a48a1, type: 2}
