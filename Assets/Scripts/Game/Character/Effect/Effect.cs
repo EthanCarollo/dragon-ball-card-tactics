@@ -12,7 +12,10 @@ public abstract class Effect : ScriptableObject {
     public float totalEffectDuration; // Durée totale de l'effet.
     public float tickInterval; // Temps entre chaque tick.
 
-    public abstract void OnEffectTick(BoardCharacter character);
+    public virtual void OnEffectTick(BoardCharacter character)
+    {
+        return;
+    }
 }
 
 public class InGameEffect{

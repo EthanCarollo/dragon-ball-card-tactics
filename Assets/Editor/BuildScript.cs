@@ -1,10 +1,15 @@
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class BuildScript
 {
     public static void PerformBuild()
     {
+        PlayerSettings.WebGL.template = "PROJECT:DragonBallCardTactics";
+        PlayerSettings.SetGraphicsAPIs(BuildTarget.WebGL, new[] { GraphicsDeviceType.OpenGLES3 });
+        
+        
         string buildPath = "Build/WebGL";
         string[] scenes = new string[] {
             "Assets/Scenes/MainMenuScene.unity",

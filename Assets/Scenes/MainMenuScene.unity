@@ -7593,8 +7593,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb0a9d692584dd4ab49d0eed8c3af92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollRect: {fileID: 1493523253}
-  content: {fileID: 916610744}
 --- !u!1001 &1504223132
 PrefabInstance:
   m_ObjectHideFlags: 0
