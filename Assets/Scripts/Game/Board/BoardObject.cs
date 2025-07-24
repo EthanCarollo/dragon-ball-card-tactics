@@ -4,10 +4,12 @@ public abstract class BoardObject
 {
     public GameObject gameObject;
     public Board board;
+    public bool isInstantiated = false;
 
     public BoardObject SetGameObject(GameObject gameObject)
     {
         this.gameObject = gameObject;
+        this.isInstantiated = true;
         return this;
     }
 
