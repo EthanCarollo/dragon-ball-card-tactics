@@ -10,10 +10,8 @@ using UnityEngine.UI;
 public class CheckVersionText : MonoBehaviour
 {
     public TextMeshProUGUI text;
-    private string repoOwner = "EthanCarollo"; // Replace with the repository owner's username
-    private string repoName = "dragon-ball-card-tactics"; // Replace with the repository name
-    // This is just a token that is straight forward, it's like JUST JUST to get the archive, he doesn't have any other right
-    private string githubPat = "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";
+    private string repoOwner = "EthanCarollo";
+    private string repoName = "dragon-ball-card-tactics";
 
     private void Start()
     {

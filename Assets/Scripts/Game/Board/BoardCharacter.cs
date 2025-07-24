@@ -25,7 +25,9 @@ public class BoardCharacter : BoardObject
 
     public BoardCharacter(CharacterContainer character)
     {
-        SetupCharacter(character);
+        this.character = character;
+        state = new DefaultCharacterState(this);
+        
         if (!character.isPlayerCharacter)
         {
             direction = Vector2.left;
@@ -40,7 +42,10 @@ public class BoardCharacter : BoardObject
     {
         this.character = character;
         state = new DefaultCharacterState(this);
-        this.SetCharacterSlider();
+
+        if (isInstantiated) this.SetCharacterSlider();
+        else Debug.LogWarning("Character Instantiated but not gameobject, cannot set slider.");
+        
     }
 
     public void SetupCharacter(CharacterData character)
@@ -153,9 +158,20 @@ public class BoardCharacter : BoardObject
 
     public void SetCharacterSlider()
     {
-        try
+        if (gameObject == null)
         {
-            var charPrefabScript = gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
+            Debug.LogWarning("Gameobject isn't set :/ (called too early)");
+            return;
+        }
+        var firstChild = gameObject.transform.GetChild(0);
+        if (firstChild == null)
+        {
+            Debug.LogWarning("Character has no children :/ (called too early)");
+            return;
+        }
+        var charPrefabScript = firstChild.GetComponent<CharacterPrefabScript>();
+        if (charPrefabScript != null)
+        {
             charPrefabScript.kiSlider.maxValue = this.character.GetCharacterMaxKi();
             charPrefabScript.kiSlider.value = this.character.actualKi;
             charPrefabScript.healthSlider.maxValue = this.character.GetCharacterMaxHealth();
@@ -173,20 +189,22 @@ public class BoardCharacter : BoardObject
             charPrefabScript.effectText.text = effectContent;
             foreach (Transform child in charPrefabScript.starContainer)
             {
-                    MonoBehaviour.Destroy(child.gameObject);
+                MonoBehaviour.Destroy(child.gameObject);
             }
             for (int i = 0; i < character.characterStar; i++)
             {
-                    var characterStar = new GameObject("CharacterStar");
-                    characterStar.AddComponent<Image>().sprite = charPrefabScript.starImage;
-                    characterStar.GetComponent<RectTransform>().sizeDelta = new Vector2(0.2f, 0.2f);
-                    characterStar.transform.SetParent(charPrefabScript.starContainer);
+                var characterStar = new GameObject("CharacterStar");
+                characterStar.AddComponent<Image>().sprite = charPrefabScript.starImage;
+                characterStar.GetComponent<RectTransform>().sizeDelta = new Vector2(0.2f, 0.2f);
+                characterStar.transform.SetParent(charPrefabScript.starContainer);
             }
         }
-        catch (Exception e)
+        else
         {
-            Debug.Log("Cannot set character slider, charPrefabScript isn't probably set, its too early bro, " + e.ToString());
+            Debug.LogWarning("No character prefab script on this object. (maybe it has been called too early ?)");
         }
+        
+        
         
     }
 
@@ -196,6 +214,11 @@ public class BoardCharacter : BoardObject
     
     public void PlayAnimation(BoardAnimation animation)
     {
+        if (isInstantiated == false)
+        {
+            Debug.LogWarning("Cannot play animation if character is not isntantiated");
+            return;
+        }
         try
         {
             var characterScript = gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
@@ -211,6 +234,12 @@ public class BoardCharacter : BoardObject
 
     public void PlayAnimation(BoardAnimation animation, Action onAnimationComplete = null)
     {
+        if (isInstantiated == false)
+        {
+            Debug.LogWarning("Cannot play animation if character is not isntantiated");
+            return;
+        }
+        
         try
         {
             var characterScript = gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
@@ -226,6 +255,12 @@ public class BoardCharacter : BoardObject
 
     public bool PlayAnimationIfNotRunning(BoardAnimation animation)
     {
+        if (isInstantiated == false)
+        {
+            Debug.LogWarning("Cannot play animation if character is not isntantiated");
+            return false;
+        }
+        
         try
         {
             if (!isAnimating())
@@ -267,7 +302,9 @@ public class BoardCharacter : BoardObject
 
     public override BoardObject Clone()
     {
-        // Reset the character container
+        // Reset the character container and clone it to a new BoardObject, but
+        // we have the same gameobject than this boardcharacter, that can cause
+        // some bugs
         var newCharacter = new CharacterContainer(character.characterId, character.characterPassives, character.characterStar, character.isPlayerCharacter, character.powerMultiplicator);
         BoardCharacter clonedCharacter = new BoardCharacter(newCharacter);
         clonedCharacter.SetGameObject(this.gameObject);

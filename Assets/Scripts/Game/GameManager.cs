@@ -126,7 +126,7 @@ public class GameManager
         if(actualRound > 1){
             difficultyMutliplicator += 0.05f;
         }
-        Debug.LogWarning("Chosed fight is : " + ActualFight.name);
+        Debug.Log("Chosed fight is : " + ActualFight.name);
         BoardGameUiManager.Instance.SetupRoundText(actualRound);
         CleanGameBoard();
         if(ActualFight.map != null){
