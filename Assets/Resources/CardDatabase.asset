@@ -83,7 +83,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: eac7828cc3e81de4fbad5014097c170b, type: 2}
   - {fileID: 11400000, guid: 90ce50d466320d141a07c39debba6388, type: 2}
   - {fileID: 11400000, guid: 864360ef188624184bc4eab5c62fd24b, type: 2}
-  playerCards:
-  - {fileID: 11400000, guid: d6b9301ef87694c5ab4c2990fc2a5956, type: 2}
-  - {fileID: 11400000, guid: dbb2aa6c5be7a4e49b569b5bd007307d, type: 2}
-  - {fileID: 11400000, guid: f1678ce631b394e8ebd9e1aaf0f6fd15, type: 2}
+  selectableCards:
+  - {fileID: 11400000, guid: 8b8c9e0cff4dd1748a64ab677ab3d0d4, type: 2}
+  - {fileID: 11400000, guid: ccb470c201a9e8d43864f8452aa02a95, type: 2}
+  - {fileID: 11400000, guid: ef6f549b955b1b747ba824dd158142e2, type: 2}
+  - {fileID: 11400000, guid: 9b36532a22a4245f5a070d0678d2fedf, type: 2}
+  - {fileID: 11400000, guid: 4f9971c698e1b4ec38298b58c9bd07e2, type: 2}
+  - {fileID: 11400000, guid: 90ce50d466320d141a07c39debba6388, type: 2}
+  - {fileID: 11400000, guid: 400486e3e40b146539886815683ad7ea, type: 2}
+  playerCards: []

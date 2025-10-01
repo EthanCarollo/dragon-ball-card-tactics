@@ -43,7 +43,7 @@ public class CardDeckMenuUiManager : MonoBehaviour {
             
         }
         
-        var cards = CardDatabase.Instance.cards.OrderBy(card => card.name).ToList();
+        var cards = CardDatabase.Instance.selectableCards.OrderBy(card => card.name).ToList();
         for (int i = 0; i < cards.Count; i++)
         {
             var card = cards[i];

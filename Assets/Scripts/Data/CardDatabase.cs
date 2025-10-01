@@ -7,7 +7,14 @@ using Unity.VisualScripting;
 public class CardDatabase : ScriptableObject
 {
     private static CardDatabase _instance;
-    public Card[] cards;
+    
+    [Tooltip("The full list of all cards in the game. This is the master collection.")]
+    public Card[] cards; 
+    
+    [Tooltip("Cards that can be chosen in specific selections (e.g., draft).")]
+    public Card[] selectableCards; 
+    
+    [Tooltip("Cards that belong to the player (e.g., starting deck).")]
     public Card[] playerCards;
 
     public static CardDatabase Instance
