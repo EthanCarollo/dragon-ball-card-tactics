@@ -20,8 +20,8 @@ MonoBehaviour:
   characterSprite: {fileID: 4088238103705031156, guid: 8fad84532d65c4e6fa0e764e3f479d62, type: 3}
   characterIcon: {fileID: 21300000, guid: 57b792f7504264c378d694b62bd6d972, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 350
-  maxKi: 60
+  maxHealth: 400
+  maxKi: 1
   baseRange: 1
   baseDamage: 65
   baseArmor: 25

@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Zamasu
   m_EditorClassIdentifier: 
   id: 114
-  starNumber: 1
+  starNumber: 3
   characterName: Zamasu
   role: 0
   characterType: 3
   characterSprite: {fileID: 2076750636268312859, guid: 2d00977622e1d4c4c86acfdfd29fbadf, type: 3}
   characterIcon: {fileID: 21300000, guid: 18dafa70ab2ec412bbba0073e94ee2d4, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 190
-  maxKi: 75
+  maxHealth: 290
+  maxKi: 3
   baseRange: 5
-  baseDamage: 50
+  baseDamage: 100
   baseArmor: 25
   baseSpeed: 2
   baseAttackSpeed: 0.7

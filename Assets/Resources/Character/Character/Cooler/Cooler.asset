@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Cooler
   m_EditorClassIdentifier: 
   id: 29
-  starNumber: 1
+  starNumber: 4
   characterName: Cooler
   role: 0
   characterType: 1
   characterSprite: {fileID: -5701723127870413254, guid: bae51e241c4c2f948b1c66942be26bc1, type: 3}
   characterIcon: {fileID: 21300000, guid: 424435eb8e6e24d4391acb12fdf0a7ac, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 320
-  maxKi: 50
+  maxHealth: 780
+  maxKi: 3
   baseRange: 1
-  baseDamage: 50
+  baseDamage: 89
   baseArmor: 10
   baseSpeed: 2
   baseAttackSpeed: 1

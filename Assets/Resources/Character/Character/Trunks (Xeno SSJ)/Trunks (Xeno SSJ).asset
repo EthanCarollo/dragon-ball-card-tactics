@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Trunks (Xeno SSJ)
   m_EditorClassIdentifier: 
   id: 24
-  starNumber: 1
+  starNumber: 3
   characterName: Trunks (Xeno SSJ)
   role: 0
   characterType: 0
   characterSprite: {fileID: -3611608004115867279, guid: 6f4e76c91fc0e484a8f6097d1bcbc768, type: 3}
   characterIcon: {fileID: 21300000, guid: a64ae96c6613e4f7386772181a8c86aa, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 750
-  maxKi: 50
+  maxHealth: 700
+  maxKi: 1
   baseRange: 1
-  baseDamage: 90
+  baseDamage: 85
   baseArmor: 55
   baseSpeed: 7
   baseAttackSpeed: 0.7

@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Goku (Kaioken SSB)
   m_EditorClassIdentifier: 
   id: 54
-  starNumber: 1
+  starNumber: 5
   characterName: Goku (Kaioken SSB)
   role: 0
   characterType: 0
   characterSprite: {fileID: -4734059711825787608, guid: d450b19cc2d2446eeb03cbad7e6ff2c8, type: 3}
   characterIcon: {fileID: 21300000, guid: 42900609d0e32473f8ed2c591fa4aff8, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 1450
-  maxKi: 70
+  maxHealth: 3250
+  maxKi: 6
   baseRange: 1
-  baseDamage: 130
+  baseDamage: 500
   baseArmor: 25
   baseSpeed: 14
   baseAttackSpeed: 1.6

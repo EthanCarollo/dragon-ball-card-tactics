@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Vegeta (Buu Saga)
   m_EditorClassIdentifier: 
   id: 104
-  starNumber: 1
+  starNumber: 3
   characterName: Vegeta (Buu Saga)
   role: 0
   characterType: 0
   characterSprite: {fileID: -2124234219010104648, guid: 6ed97cb6223144148a6a7fac9c18b26e, type: 3}
   characterIcon: {fileID: 21300000, guid: b55229aba4d90454da7d55816c775634, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 450
-  maxKi: 105
+  maxHealth: 575
+  maxKi: 2
   baseRange: 1
-  baseDamage: 95
+  baseDamage: 75
   baseArmor: 65
   baseSpeed: 2
   baseAttackSpeed: 0.35

@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: Vegito
   m_EditorClassIdentifier: 
   id: 109
-  starNumber: 1
+  starNumber: 4
   characterName: Vegito
   role: 0
   characterType: 1
   characterSprite: {fileID: -6360490423775793000, guid: ee1fc4573f1cf426eb5df4d550a8077c, type: 3}
   characterIcon: {fileID: 21300000, guid: d17b528b45af04dd1a97fbe02f8ad3f9, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 860
-  maxKi: 110
+  maxHealth: 875
+  maxKi: 4
   baseRange: 1
   baseDamage: 80
   baseArmor: 65

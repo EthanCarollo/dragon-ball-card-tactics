@@ -23,7 +23,7 @@ MonoBehaviour:
   maxHealth: 750
   maxKi: 45
   baseRange: 1
-  baseDamage: 65
+  baseDamage: 95
   baseArmor: 30
   baseSpeed: 2
   baseAttackSpeed: 1.1

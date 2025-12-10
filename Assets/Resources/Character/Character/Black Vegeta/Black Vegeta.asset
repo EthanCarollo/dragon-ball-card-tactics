@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Black Vegeta
   m_EditorClassIdentifier: 
   id: 16
-  starNumber: 1
+  starNumber: 4
   characterName: Black Vegeta
   role: 0
   characterType: 1
   characterSprite: {fileID: 8158688993613854608, guid: cb299a4ee97e84bd1ab782a14ff5346a, type: 3}
   characterIcon: {fileID: 21300000, guid: 163d6bfed13c545ffbc974dabf0d4a0f, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 950
-  maxKi: 45
+  maxHealth: 1250
+  maxKi: 3
   baseRange: 1
-  baseDamage: 125
+  baseDamage: 95
   baseArmor: 35
   baseSpeed: 8
   baseAttackSpeed: 1.4

@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Whis
   m_EditorClassIdentifier: 
   id: 44
-  starNumber: 1
+  starNumber: 5
   characterName: Whis
   role: 2
   characterType: 0
   characterSprite: {fileID: -774022169325252119, guid: e382060083c2e4203b00d9f51815af83, type: 3}
   characterIcon: {fileID: 21300000, guid: 1eac35e5805e74863a41705ef9ef7a20, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 225
-  maxKi: 75
+  maxHealth: 1000
+  maxKi: 4
   baseRange: 8
-  baseDamage: 50
+  baseDamage: 60
   baseArmor: 25
   baseSpeed: 2
   baseAttackSpeed: 1

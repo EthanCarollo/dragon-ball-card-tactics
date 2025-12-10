@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Cooler (Metal)
   m_EditorClassIdentifier: 
   id: 119
-  starNumber: 1
+  starNumber: 5
   characterName: Cooler (Metal)
   role: 0
   characterType: 1
   characterSprite: {fileID: 8205462067600199126, guid: 31a82bb6f6e864b64907194440c19be1, type: 3}
   characterIcon: {fileID: 21300000, guid: 6d6fb7927263f42c983ca414a68bcb84, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 220
-  maxKi: 25
+  maxHealth: 3000
+  maxKi: 6
   baseRange: 1
-  baseDamage: 7
+  baseDamage: 370
   baseArmor: 30
   baseSpeed: 24
   baseAttackSpeed: 1.15

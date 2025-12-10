@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Goku (Ikari)
   m_EditorClassIdentifier: 
   id: 125
-  starNumber: 1
+  starNumber: 5
   characterName: Goku (Ikari)
   role: 0
   characterType: 2
   characterSprite: {fileID: 2913044983329423177, guid: 9a9cfbe98684e4f4ab590e9db6eae0a5, type: 3}
   characterIcon: {fileID: 21300000, guid: d5cab18196706ad4097cf52efa4d5110, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 235
-  maxKi: 105
+  maxHealth: 975
+  maxKi: 5
   baseRange: 1
-  baseDamage: 85
+  baseDamage: 235
   baseArmor: 25
   baseSpeed: 5
   baseAttackSpeed: 0.7
