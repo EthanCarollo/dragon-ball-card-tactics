@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 875982c274ea44468cc86a0e0fb5ab10, type: 3}
+  m_Name: Ultimate Fusion
+  m_EditorClassIdentifier:
+  opponents:
+  - characterData: {fileID: 11400000, guid: 1ee484a6913044957992e93ca192e573, type: 2}
+    position: {x: 7, y: 5}
+  - characterData: {fileID: 11400000, guid: 5f4748448bc664d3e8d93b9367d3c363, type: 2}
+    position: {x: 8, y: 3}
+  - characterData: {fileID: 11400000, guid: 9cfac1c9f06f44a5bba686fca9b53cc3, type: 2}
+    position: {x: 6, y: 4}
+  difficulty: 3
+  map: {fileID: 0}
