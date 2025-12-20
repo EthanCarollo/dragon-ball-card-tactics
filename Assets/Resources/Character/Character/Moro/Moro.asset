@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Moro
   m_EditorClassIdentifier: 
-  id: 68
+  id: 76
   starNumber: 1
   characterName: Moro
   role: 0
@@ -20,10 +20,10 @@ MonoBehaviour:
   characterSprite: {fileID: 7473691886330051238, guid: 72ceea3e479974df48df45600ac4077e, type: 3}
   characterIcon: {fileID: 21300000, guid: db290d1ad347c430d82cbd587414733b, type: 3}
   characterPrefab: {fileID: 6372735850506996749, guid: 7967560a04d25a3419c12af51dfbd820, type: 3}
-  maxHealth: 650
+  maxHealth: 2000
   maxKi: 105
   baseRange: 1
-  baseDamage: 45
+  baseDamage: 175
   baseArmor: 65
   baseSpeed: 9
   baseAttackSpeed: 1.2
@@ -34,10 +34,13 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 28399f9a3aac742c2857fc43b2cdc9ab, type: 2}
   specialAttackAnimation:
   - name: Ki blast
-    description: Blast a georgous ki from mouth
     animation: {fileID: 11400000, guid: 29199c444044846a3942edd02a0b5a42, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit: 
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
   - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}
+  defaultPassive: {fileID: 0}
