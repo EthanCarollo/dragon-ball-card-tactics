@@ -33,6 +33,7 @@ git clone https://github.com/EthanCarollo/dragon-ball-card-tactics.git
 
 - Ensure all external assets are properly imported and configured as outlined in the project documentation.
 - Use Unity's built-in package manager to resolve any missing dependencies.
+- See [the project structure guide](docs/PROJECT_STRUCTURE.md) for the asset layout, naming conventions and safe maintenance workflow.
 
 ### Disclaimer
 
