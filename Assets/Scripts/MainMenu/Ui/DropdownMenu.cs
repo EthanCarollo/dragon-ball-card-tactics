@@ -14,20 +14,22 @@ public class DropdownMenu : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     private void Start()
     {
-        menuPanel.SetActive(false); // Cache le menu au début
+        menuPanel?.SetActive(false); // Cache le menu au début
 
         // Associe chaque bouton à un GameObject à activer
-        for (int i = 0; i < menuButtons.Count; i++)
+        for (int i = 0; i < (menuButtons?.Count ?? 0); i++)
         {
             int index = i; // Empêche le problème de closure
-            menuButtons[i].onClick.AddListener(() => ActivateOnlyObject(index));
+            menuButtons[i]?.onClick.AddListener(() => ActivateOnlyObject(index));
         }
     }
 
     private void Update()
     {
         // Vérifie si la souris quitte la zone et ferme le menu
-        if (isMenuOpen && !isMouseOver && !RectTransformUtility.RectangleContainsScreenPoint(menuPanel.GetComponent<RectTransform>(), Input.mousePosition))
+        var menuRectTransform = menuPanel == null ? null : menuPanel.GetComponent<RectTransform>();
+        if (isMenuOpen && !isMouseOver && menuRectTransform != null &&
+            !RectTransformUtility.RectangleContainsScreenPoint(menuRectTransform, Input.mousePosition))
         {
             CloseMenu();
         }
@@ -46,28 +48,28 @@ public class DropdownMenu : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
 
     private void OpenMenu()
     {
-        menuPanel.SetActive(true);
+        menuPanel?.SetActive(true);
         isMenuOpen = true;
     }
 
     private void CloseMenu()
     {
-        menuPanel.SetActive(false);
+        menuPanel?.SetActive(false);
         isMenuOpen = false;
     }
 
     private void ActivateOnlyObject(int index)
     {
         // Désactive tous les objets
-        foreach (GameObject obj in objectsToActivate)
+        foreach (GameObject obj in objectsToActivate ?? new List<GameObject>())
         {
-            obj.SetActive(false);
+            obj?.SetActive(false);
         }
 
         // Active uniquement l'objet sélectionné
-        if (index < objectsToActivate.Count)
+        if (objectsToActivate != null && index >= 0 && index < objectsToActivate.Count)
         {
-            objectsToActivate[index].SetActive(true);
+            objectsToActivate[index]?.SetActive(true);
         }
 
         // Ferme le menu après activation

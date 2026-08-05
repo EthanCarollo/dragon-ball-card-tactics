@@ -8,31 +8,31 @@ public class MainMenuUiManager : MonoBehaviour
 
         public void GoToSelectCardMenu()
         {
-                LeanTween.move(HistoryMenu.GetComponent<RectTransform>(), new Vector2(-1920*2, 0), 0.4f)
-                        .setEaseInOutCirc();
-                LeanTween.move(MainMenu.GetComponent<RectTransform>(), new Vector2(-1920, 0), 0.4f)
-                        .setEaseInOutCirc();
-                LeanTween.move(SelectCardMenu.GetComponent<RectTransform>(), new Vector2(0, 0), 0.4f)
-                        .setEaseInOutCirc();
+                MoveMenu(HistoryMenu, new Vector2(-1920*2, 0));
+                MoveMenu(MainMenu, new Vector2(-1920, 0));
+                MoveMenu(SelectCardMenu, Vector2.zero);
         }
 
         public void GoToMainMenu()
         {
-                LeanTween.move(HistoryMenu.GetComponent<RectTransform>(), new Vector2(-1920, 0), 0.4f)
-                        .setEaseInOutCirc();
-                LeanTween.move(MainMenu.GetComponent<RectTransform>(), new Vector2(0, 0), 0.4f)
-                        .setEaseInOutCirc();
-                LeanTween.move(SelectCardMenu.GetComponent<RectTransform>(), new Vector2(1920, 0), 0.4f)
-                        .setEaseInOutCirc();
+                MoveMenu(HistoryMenu, new Vector2(-1920, 0));
+                MoveMenu(MainMenu, Vector2.zero);
+                MoveMenu(SelectCardMenu, new Vector2(1920, 0));
         }
 
         public void GoToHistoryMenu()
         {
-                LeanTween.move(HistoryMenu.GetComponent<RectTransform>(), new Vector2(0, 0), 0.4f)
-                        .setEaseInOutCirc();
-                LeanTween.move(MainMenu.GetComponent<RectTransform>(), new Vector2(1920, 0), 0.4f)
-                        .setEaseInOutCirc();
-                LeanTween.move(SelectCardMenu.GetComponent<RectTransform>(), new Vector2(1920*2, 0), 0.4f)
-                        .setEaseInOutCirc();
+                MoveMenu(HistoryMenu, Vector2.zero);
+                MoveMenu(MainMenu, new Vector2(1920, 0));
+                MoveMenu(SelectCardMenu, new Vector2(1920*2, 0));
+        }
+
+        private static void MoveMenu(GameObject menu, Vector2 position)
+        {
+                var rectTransform = menu == null ? null : menu.GetComponent<RectTransform>();
+                if (rectTransform != null)
+                {
+                        LeanTween.move(rectTransform, position, 0.4f).setEaseInOutCirc();
+                }
         }
 }

@@ -1,6 +1,5 @@
 using System;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -14,9 +13,23 @@ public class DropRateBox : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        GameObject annotationPrefab = PrefabDatabase.Instance.annotationUiPrefab;
+        var prefabDatabase = PrefabDatabase.Instance;
+        if (prefabDatabase == null || prefabDatabase.annotationUiPrefab == null)
+        {
+            return;
+        }
+
+        GameObject annotationPrefab = prefabDatabase.annotationUiPrefab;
         annotationInstance = Instantiate(annotationPrefab, transform);
-        annotationInstance.GetComponentInChildren<TextMeshProUGUI>().text = "Card drop rate for " + rarity.ToString().FirstCharacterToUpper() + " rarity";
+        var annotationText = annotationInstance.GetComponentInChildren<TextMeshProUGUI>();
+        if (annotationText != null)
+        {
+            var rarityName = rarity.ToString();
+            var formattedRarityName = rarityName.Length == 0
+                ? rarityName
+                : char.ToUpperInvariant(rarityName[0]) + rarityName.Substring(1);
+            annotationText.text = "Card drop rate for " + formattedRarityName + " rarity";
+        }
         annotationInstance.transform.position = Input.mousePosition;
     }
 
@@ -38,8 +51,19 @@ public class DropRateBox : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     }
 
     public void SetupBox(){
-        text.text = Math.Round(new CardDropRate(GameManager.Instance.Player.Level.CurrentLevel).GetRarityPercentage(rarity), 1).ToString() + "%";
-        image.color = rarity.GetRarityColor();
+        if (GameManager.Instance == null)
+        {
+            return;
+        }
+
+        if (text != null)
+        {
+            text.text = Math.Round(new CardDropRate(GameManager.Instance.Player.Level.CurrentLevel).GetRarityPercentage(rarity), 1).ToString() + "%";
+        }
+        if (image != null)
+        {
+            image.color = rarity.GetRarityColor();
+        }
     }
 
     
