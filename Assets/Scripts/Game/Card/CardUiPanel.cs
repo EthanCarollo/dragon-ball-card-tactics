@@ -7,6 +7,11 @@ public class CardUiPanel : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public void OnPointerEnter(PointerEventData eventData)
     {
+        if (horizontalLayout == null)
+        {
+            return;
+        }
+
         LeanTween.cancel(this.gameObject);
         LeanTween.value(this.gameObject, f =>
         {
@@ -24,6 +29,11 @@ public class CardUiPanel : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public void OnPointerExit(PointerEventData eventData)
     {
+        if (horizontalLayout == null)
+        {
+            return;
+        }
+
         LeanTween.cancel(this.gameObject);
         LeanTween.value(this.gameObject, f =>
         {

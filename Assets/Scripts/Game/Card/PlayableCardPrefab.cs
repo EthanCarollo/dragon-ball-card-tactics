@@ -19,8 +19,8 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
 
     void Start()
     {
-        this.GetComponent<UIEffect>().LoadPreset("PlayableCardPreset");
-        this.GetComponent<UIEffectTweener>().Stop();
+        GetComponent<UIEffect>()?.LoadPreset("PlayableCardPreset");
+        GetComponent<UIEffectTweener>()?.Stop();
     }
 
     void Update()
@@ -32,28 +32,53 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (eventData.button == PointerEventData.InputButton.Right) {
+        if (eventData == null || eventData.button != PointerEventData.InputButton.Right || card == null)
+        {
+            return;
+        }
+
             // TODO : Show context menu
             Debug.Log("Right click");
             if(contextCardMenuObject != null){
-                contextCardMenuObject.GetComponent<RectTransform>().position = Input.mousePosition;
+                var existingRectTransform = contextCardMenuObject.GetComponent<RectTransform>();
+                if (existingRectTransform != null)
+                {
+                    existingRectTransform.position = Input.mousePosition;
+                }
                 return;
-            } 
-            contextCardMenuObject = Instantiate(PrefabDatabase.Instance.contextCardMenuPrefab, this.transform);
-            contextCardMenuObject.GetComponent<RectTransform>().position = Input.mousePosition;
-            contextCardMenuObject.GetComponent<PlayableCardContextMenu>().SetupMenu(card);
+            }
+
+            var prefabDatabase = PrefabDatabase.Instance;
+            if (prefabDatabase == null || prefabDatabase.contextCardMenuPrefab == null)
+            {
+                Debug.LogWarning("Cannot open card context menu: its prefab is missing.");
+                return;
+            }
+
+            contextCardMenuObject = Instantiate(prefabDatabase.contextCardMenuPrefab, transform);
+            contextCardMenuObject.GetComponent<RectTransform>()?.SetPositionAndRotation(Input.mousePosition, Quaternion.identity);
+            contextCardMenuObject.GetComponent<PlayableCardContextMenu>()?.SetupMenu(card);
         }
-    }
 
     public override void SetupCard(Card card)
     {
-        innerContainerImage.color = card.rarity.GetRarityColor();
-        transformationInformation.SetActive(false);
+        if (innerContainerImage != null && card != null)
+        {
+            innerContainerImage.color = card.rarity.GetRarityColor();
+        }
+        if (transformationInformation != null)
+        {
+            transformationInformation.SetActive(false);
+        }
+
         base.SetupCard(card);
-        if(card.uiEffectPreset != null && card.uiEffectPreset.Length != 0){
-            effectForGui.LoadPreset(card.uiEffectPreset);
-        }else{
-            effectForGui.LoadPreset("None");
+        if (effectForGui != null)
+        {
+            if(card != null && card.uiEffectPreset != null && card.uiEffectPreset.Length != 0){
+                effectForGui.LoadPreset(card.uiEffectPreset);
+            }else{
+                effectForGui.LoadPreset("None");
+            }
         }
     }
 
@@ -67,6 +92,11 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        if (card == null)
+        {
+            return;
+        }
+
         try {
             card.OnBeginDrag(eventData);
         } catch(Exception error){
@@ -76,6 +106,11 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
 
     public void OnDrag(PointerEventData eventData)
     {
+        if (card == null)
+        {
+            return;
+        }
+
         try {
             card.OnDrag(eventData);
         } catch(Exception error){
@@ -85,6 +120,11 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        if (card == null)
+        {
+            return;
+        }
+
         try {
             card.OnEndDrag(eventData);
         } catch(Exception error){
@@ -95,38 +135,57 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
     public void OnPointerEnter(PointerEventData eventData)
     {
         if(card != null && card.CanUseCard() == true){
-            this.GetComponent<UIEffectTweener>().PlayForward();
-            LeanTween.cancel(this.innerContainer);
-            LeanTween.moveLocalY(this.innerContainer, 40f, 0.2f).setEaseOutCirc();
+            GetComponent<UIEffectTweener>()?.PlayForward();
+            if (innerContainer != null)
+            {
+                LeanTween.cancel(innerContainer);
+                LeanTween.moveLocalY(innerContainer, 40f, 0.2f).setEaseOutCirc();
+            }
         }
         if(card is TransformationCard transfoCard){
 
             if(card.CanUseCard() == false){
-                transformationInformation.SetActive(false);
+                transformationInformation?.SetActive(false);
                 return;
             }
-            transformationInformation.SetActive(true);
+            transformationInformation?.SetActive(true);
+            if (transformationContainer == null || transformationPrefab == null)
+            {
+                return;
+            }
+
             foreach (Transform child in transformationContainer)
             {
                 Destroy(child.gameObject);
             }
-            
-            foreach(var transfo in transfoCard.transformations){
+
+            foreach(var transfo in transfoCard.transformations ?? Array.Empty<TransformationsPossible>()){
+                if (transfo?.character == null || transfo.transformation?.newCharacterData == null)
+                {
+                    continue;
+                }
+
                 var goTransfo = Instantiate(transformationPrefab, transformationContainer);
-                goTransfo.GetComponent<TransformationContainer>().characterImage.sprite = transfo.character.characterIcon;
-                goTransfo.GetComponent<TransformationContainer>().characterToImage.sprite = transfo.transformation.newCharacterData.characterIcon;
+                var transformationContainerScript = goTransfo.GetComponent<TransformationContainer>();
+                if (transformationContainerScript == null)
+                {
+                    continue;
+                }
+
+                transformationContainerScript.characterImage.sprite = transfo.character.characterIcon;
+                transformationContainerScript.characterToImage.sprite = transfo.transformation.newCharacterData.characterIcon;
                 
                 var character = GameManager.Instance.GetCharactersOnBoard()
-                .Where(cha => cha.character.isPlayerCharacter)
+                .Where(cha => cha?.character != null && cha.character.isPlayerCharacter)
                 .ToList()
                 .Find(cha => {
                     return transfo.character == cha.character.GetCharacterData();
                 });
 
                 if(character == null){
-                    goTransfo.GetComponent<TransformationContainer>().characterImageBlack.gameObject.SetActive(true);
-                    goTransfo.GetComponent<TransformationContainer>().characterToImageBlack.gameObject.SetActive(true);
-                    goTransfo.GetComponent<TransformationContainer>().arrowImageBlack.gameObject.SetActive(true);
+                    transformationContainerScript.characterImageBlack?.gameObject.SetActive(true);
+                    transformationContainerScript.characterToImageBlack?.gameObject.SetActive(true);
+                    transformationContainerScript.arrowImageBlack?.gameObject.SetActive(true);
                 }
             }
         }
@@ -137,10 +196,13 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
         if(contextCardMenuObject != null){
             Destroy(contextCardMenuObject);
         }
-        this.GetComponent<UIEffect>().LoadPreset("PlayableCardPreset");
-        LeanTween.cancel(this.innerContainer);
-        LeanTween.moveLocalY(this.innerContainer, 0f, 0.2f).setEaseInCirc();
-        this.GetComponent<UIEffectTweener>().SetPause(true);
-        transformationInformation.SetActive(false);
+        GetComponent<UIEffect>()?.LoadPreset("PlayableCardPreset");
+        if (innerContainer != null)
+        {
+            LeanTween.cancel(innerContainer);
+            LeanTween.moveLocalY(innerContainer, 0f, 0.2f).setEaseInCirc();
+        }
+        GetComponent<UIEffectTweener>()?.SetPause(true);
+        transformationInformation?.SetActive(false);
     }
 }

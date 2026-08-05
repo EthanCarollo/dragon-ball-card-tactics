@@ -11,6 +11,11 @@ public class PlayableCardContextMenu : MonoBehaviour {
 
     void Update()
     {
+        if (rectTransform == null)
+        {
+            return;
+        }
+
         if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
         {
             // Vérifie si la souris est en dehors du GameObject
@@ -33,8 +38,13 @@ public class PlayableCardContextMenu : MonoBehaviour {
     }
 
     public void RemoveCard(){
-        Debug.Log("Remove attached card, so just add 1 mana.");
-        GameManager.Instance.RemoveCard(this.card);
+        if (card == null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        GameManager.Instance.RemoveCard(card);
         GameManager.Instance.Player.Mana.AddMana(1);
         Destroy(gameObject);
     }
