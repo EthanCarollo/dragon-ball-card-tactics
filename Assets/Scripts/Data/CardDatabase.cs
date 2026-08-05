@@ -91,7 +91,9 @@ public class CardDatabase : ScriptableObject
             transformationCard.transformations.Any(transformation =>
                 transformation != null &&
                 transformation.character == character.character.GetCharacterData() &&
-                transformationCard.manaCost == GetMinimumTransformationCost(transformation.character)));
+                CardRewardRules.IsTransformationProgressionAvailable(
+                    transformationCard.manaCost,
+                    GetMinimumTransformationCost(transformation.character))));
     }
 
     private IEnumerable<Card> GetRewardCards(ISet<Card> excludedCards)
@@ -193,11 +195,7 @@ public class CardDatabase : ScriptableObject
 
     private int GetMaximumRewardManaCost()
     {
-        // The first three rounds only expose cards costing up to 3 mana.
-        // One additional mana point is unlocked every three completed rounds.
-        int completedRounds = Mathf.Max(1, GameManager.Instance.actualRound);
-        int progressionStep = Mathf.Clamp((completedRounds - 1) / 3, 0, 3);
-        return 3 + progressionStep;
+        return CardRewardRules.GetMaximumRewardManaCost(GameManager.Instance.actualRound);
     }
 
 
