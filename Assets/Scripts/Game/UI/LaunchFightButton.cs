@@ -1,4 +1,3 @@
-using System;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,28 +8,25 @@ public class LaunchFightButton : MonoBehaviour, IPointerClickHandler
     public Button button;
     private bool CanLaunchFight()
     {
-        try
+        if (GameManager.Instance == null)
         {
-            if (GameManager.Instance.GetCharactersOnBoard().Where((character => character.character.isPlayerCharacter)).Count() == 0)
-            {
-                return false;
-            }
-            return true;
-        }
-        catch (Exception e)
-        {
-            Debug.LogWarning(e);
             return false;
         }
+
+        return GameManager.Instance.GetCharactersOnBoard()
+            .Any(character => character?.character != null && character.character.isPlayerCharacter);
     }
     
     public void Update()
     {
         if (CanLaunchFight())
         {
-            button.interactable = true;
+            if (button != null)
+            {
+                button.interactable = true;
+            }
         }
-        else
+        else if (button != null)
         {
             button.interactable = false;
         }
@@ -40,7 +36,7 @@ public class LaunchFightButton : MonoBehaviour, IPointerClickHandler
     {
         if (CanLaunchFight())
         {
-            FightBoard.Instance.LaunchFight();
+            FightBoard.Instance?.LaunchFight();
         }
     }
 }

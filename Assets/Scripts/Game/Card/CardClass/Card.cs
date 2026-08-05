@@ -17,13 +17,19 @@ public abstract class Card : ScriptableObject
     }
 
     public virtual bool CanUseCard() {
-        if(manaCost > GameManager.Instance.Player.Mana.CurrentMana){
+        if (GameManager.Instance == null || manaCost < 0 ||
+            manaCost > GameManager.Instance.Player.Mana.CurrentMana){
             return false;
         }
         return true;
     }
 
     public void RegisterCardHistory() {
+        if (GameManager.Instance == null)
+        {
+            return;
+        }
+
         var historyAction = new PlayCardHistoryAction();
         historyAction.cardPlayedId = this.id;
         historyAction.time = Mathf.RoundToInt(GameManager.Instance.elapsedTime);

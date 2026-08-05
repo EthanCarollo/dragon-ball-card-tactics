@@ -13,9 +13,11 @@ public class GetCardPrefab : CardPrefab, IPointerClickHandler
                         return;
                 }
 
-                Debug.Log("GetCardPrefab OnPointerClick");
-                GameManager.Instance.AddCard(card);
-                WinFightUi.Instance.CloseWinFightUi();
+                if (GameManager.Instance != null)
+                {
+                        GameManager.Instance.AddCard(card);
+                }
+                WinFightUi.Instance?.CloseWinFightUi();
         }
 
         public void SetupCard(Card newCard, bool isReloadable)
@@ -25,7 +27,7 @@ public class GetCardPrefab : CardPrefab, IPointerClickHandler
         }
 
         public override void SetupCard(Card card){
-                reloadButton.SetActive(isReloadable);
+                reloadButton?.SetActive(isReloadable);
                 base.SetupCard(card);
         }
 
@@ -34,7 +36,11 @@ public class GetCardPrefab : CardPrefab, IPointerClickHandler
                 if (isReloadable == true && card != null)
                 {
                         isReloadable = false;
-                        SetupCard(WinFightUi.Instance.RerollCard(card));
+                        var replacement = WinFightUi.Instance?.RerollCard(card);
+                        if (replacement != null)
+                        {
+                                SetupCard(replacement);
+                        }
                 }
         }
 }

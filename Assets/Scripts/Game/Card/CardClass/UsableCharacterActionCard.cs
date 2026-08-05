@@ -12,6 +12,11 @@ public abstract class UsableCharacterActionCard : Card
 
     protected BoardCharacter GetCharacterOnMouse()
     {
+        if (Camera.main == null || GameManager.Instance == null)
+        {
+            return null;
+        }
+
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
 
@@ -20,7 +25,7 @@ public abstract class UsableCharacterActionCard : Card
             (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
         {
             var charactersUpdatable =  GameManager.Instance.GetCharactersOnBoard()
-                .Where(cha => cha.character.isPlayerCharacter)
+                .Where(cha => cha?.character != null && cha.character.isPlayerCharacter && cha.gameObject != null)
                 .ToList()
                 .FindAll(cha =>
                 {
@@ -60,6 +65,11 @@ public abstract class UsableCharacterActionCard : Card
     
     public override void OnDrag(PointerEventData eventData)
     {
+        if (!CanUseCard() || Camera.main == null || GameManager.Instance == null)
+        {
+            return;
+        }
+
         if (DraggedActionCard.DraggedCard == null)
         {
             Debug.Log("Drag a character");
@@ -78,11 +88,11 @@ public abstract class UsableCharacterActionCard : Card
                     var positionCharacter = BoardUtils.FindPosition(GameManager.Instance.boardCharacterArray, characterExist);
                     var characterUiPosition = Camera.main.WorldToScreenPoint(new Vector3(positionCharacter.x, positionCharacter.y + 2, 0f));
                     LeanTween.move(DraggedActionCard.DraggedCard, characterUiPosition, 0.1f).setEaseOutSine();
-                    BoardGameUiManager.Instance.ShowPlayCardPanel();
+                    BoardGameUiManager.Instance?.ShowPlayCardPanel();
                     return;
                 }
             }
-            BoardGameUiManager.Instance.HidePlayCardPanel();
+            BoardGameUiManager.Instance?.HidePlayCardPanel();
             
             Vector3 mousePosition = Input.mousePosition;
             mousePosition.z = 10f; 
@@ -92,29 +102,43 @@ public abstract class UsableCharacterActionCard : Card
 
     public override void OnEndDrag(PointerEventData eventData)
     {
-        BoardGameUiManager.Instance.HidePlayCardPanel();
-        GameManager.Instance.ResetCharacterShader();
+        BoardGameUiManager.Instance?.HidePlayCardPanel();
+        GameManager.Instance?.ResetCharacterShader();
+
+        if (!CanUseCard() || Camera.main == null)
+        {
+            DestroyDraggedCard();
+            return;
+        }
 
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
         
         if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
         {
-            this.UseCard();
-            DraggedActionCard.DraggedCard.GetComponent<UIEffectTweener>().PlayForward();
-            LeanTween.move(DraggedActionCard.DraggedCard, Camera.main.WorldToScreenPoint(new Vector3(GetCharacterOnMouse().gameObject.transform.position.x, GetCharacterOnMouse().gameObject.transform.position.y + 0.25f)), 0.6f).setEaseInCirc();
-            LeanTween.scale(DraggedActionCard.DraggedCard, new Vector3(0.3f, 0.3f, 1f), 0.6f).setEaseInCirc()
-                .setOnComplete(() => {
-                    if (DraggedActionCard.DraggedCard != null)
-                    {
-                        MonoBehaviour.Destroy(DraggedActionCard.DraggedCard.gameObject);
-                    }
-                });
-        } else {
-            if (DraggedActionCard.DraggedCard != null)
+            var characterOnMouse = GetCharacterOnMouse();
+            if (characterOnMouse == null || DraggedActionCard.DraggedCard == null)
             {
-                MonoBehaviour.Destroy(DraggedActionCard.DraggedCard.gameObject);
+                DestroyDraggedCard();
+                return;
             }
+
+            this.UseCard();
+            DraggedActionCard.DraggedCard.GetComponent<UIEffectTweener>()?.PlayForward();
+            LeanTween.move(DraggedActionCard.DraggedCard, Camera.main.WorldToScreenPoint(new Vector3(characterOnMouse.gameObject.transform.position.x, characterOnMouse.gameObject.transform.position.y + 0.25f)), 0.6f).setEaseInCirc();
+            LeanTween.scale(DraggedActionCard.DraggedCard, new Vector3(0.3f, 0.3f, 1f), 0.6f).setEaseInCirc()
+                .setOnComplete(DestroyDraggedCard);
+        } else {
+            DestroyDraggedCard();
+        }
+    }
+
+    private static void DestroyDraggedCard()
+    {
+        if (DraggedActionCard.DraggedCard != null)
+        {
+            MonoBehaviour.Destroy(DraggedActionCard.DraggedCard.gameObject);
+            DraggedActionCard.DraggedCard = null;
         }
     }
 }
@@ -124,14 +148,29 @@ public static class DraggedActionCard
     public static GameObject DraggedCard;
 
     public static GameObject InstantiateCard(Card card){
+        if (card == null || PrefabDatabase.Instance == null || PrefabDatabase.Instance.draggedCardPrefab == null ||
+            BoardGameUiManager.Instance == null)
+        {
+            return null;
+        }
+
         var go = MonoBehaviour.Instantiate(PrefabDatabase.Instance.draggedCardPrefab, BoardGameUiManager.Instance.transform);
         Vector3 mousePosition = Input.mousePosition;
         mousePosition.z = 10f; 
         go.transform.position = (mousePosition);
         go.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
-        Image spRenderer = go.transform.GetChild(0).gameObject.GetComponent<Image>();
-        go.transform.GetChild(1).gameObject.GetComponentInChildren<TextMeshProUGUI>().text = card.name;
-        spRenderer.sprite = card.image;
+        if (go.transform.childCount > 0)
+        {
+            Image spRenderer = go.transform.GetChild(0).gameObject.GetComponent<Image>();
+            if (spRenderer != null)
+            {
+                spRenderer.sprite = card.image;
+            }
+        }
+        if (go.transform.childCount > 1)
+        {
+            go.transform.GetChild(1).gameObject.GetComponentInChildren<TextMeshProUGUI>()?.SetText(card.name);
+        }
         // spRenderer.color = new Color(1f, 1f, 1f, 0.5f);
         // go.gameObject.GetComponent<Image>().color = new Color(1f, 1f, 1f, 0.5f);
         return go;

@@ -17,11 +17,30 @@ public class WinFightUi : MonoBehaviour
         
         private void Awake()
         {
+                if (Instance != null && Instance != this)
+                {
+                        Destroy(gameObject);
+                        return;
+                }
+
                 Instance = this;
+        }
+
+        private void OnDestroy()
+        {
+                if (Instance == this)
+                {
+                        Instance = null;
+                }
         }
 
         public void OpenWinFightUi(Board board)
         {
+                if (winFightUi == null || CardDatabase.Instance == null)
+                {
+                        return;
+                }
+
                 winFightUi.gameObject.SetActive(true);
                 var dropRate = new CardDropRate(GameManager.Instance.Player.Level.CurrentLevel);
                 displayedCards.Clear();
@@ -31,14 +50,20 @@ public class WinFightUi : MonoBehaviour
                         displayedCards.Add(upgradeCard);
                 }
 
-                cardPrefabLeft.SetupCard(upgradeCard, false);
+                cardPrefabLeft?.SetupCard(upgradeCard, false);
                 var middleCard = CardDatabase.Instance.GetRandomCard(dropRate.GetRarityOnDropRate(), displayedCards);
-                displayedCards.Add(middleCard);
+                if (middleCard != null)
+                {
+                        displayedCards.Add(middleCard);
+                }
                 var rightCard = CardDatabase.Instance.GetRandomCard(dropRate.GetRarityOnDropRate(), displayedCards);
-                displayedCards.Add(rightCard);
+                if (rightCard != null)
+                {
+                        displayedCards.Add(rightCard);
+                }
 
-                cardPrefabMiddle.SetupCard(middleCard, true);
-                cardPrefabRight.SetupCard(rightCard, true);
+                cardPrefabMiddle?.SetupCard(middleCard, true);
+                cardPrefabRight?.SetupCard(rightCard, true);
         }
 
         public Card RerollCard(Card currentCard)
@@ -52,6 +77,11 @@ public class WinFightUi : MonoBehaviour
                 var excludedCards = displayedCards
                         .Where(card => card != null && card != currentCard)
                         .ToList();
+                if (CardDatabase.Instance == null || GameManager.Instance == null)
+                {
+                        return currentCard;
+                }
+
                 var dropRate = new CardDropRate(GameManager.Instance.Player.Level.CurrentLevel);
                 var replacement = CardDatabase.Instance.GetRandomCard(dropRate.GetRarityOnDropRate(), excludedCards);
 
@@ -66,7 +96,10 @@ public class WinFightUi : MonoBehaviour
 
         public void CloseWinFightUi()
         {
-                winFightUi.gameObject.SetActive(false);
-                GameManager.Instance.GoNextFight();
+                if (winFightUi != null)
+                {
+                        winFightUi.gameObject.SetActive(false);
+                }
+                GameManager.Instance?.GoNextFight();
         }
 }

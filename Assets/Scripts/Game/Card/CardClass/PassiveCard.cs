@@ -1,6 +1,5 @@
 using System;
 using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "PassiveCard", menuName = "Card/PassiveCard")]
@@ -10,8 +9,9 @@ public class PassiveCard : UsableCharacterActionCard
 
     public override string GetDescription()
     {
-        if(characterFor == null) return "Grants " + passive.passiveName + " to a character";
-        return "Grants " + passive.passiveName + " to " + characterFor.characterName;
+        var passiveName = passive == null ? "an unconfigured passive" : passive.passiveName;
+        if(characterFor == null) return "Grants " + passiveName + " to a character";
+        return "Grants " + passiveName + " to " + characterFor.characterName;
     }
 
     public override bool CanUseCard()
@@ -21,27 +21,30 @@ public class PassiveCard : UsableCharacterActionCard
         }
 
         if (GameManager.Instance.GetCharactersOnBoard()
-                .Where(cha => cha.character.isPlayerCharacter).ToList().Count == 0) return false;
+                .Count(cha => cha?.character != null && cha.character.isPlayerCharacter) == 0 || passive == null) return false;
         if (characterFor == null) return true;
         
         return GameManager.Instance.GetCharactersOnBoard()
-                    .Where(cha => cha.character.isPlayerCharacter).ToList()
-                    .Find(cha => cha.character.GetCharacterData() == characterFor || cha.character.GetCharacterData().sameCharacters.Contains(characterFor)) != null;
+                    .Where(cha => cha?.character != null && cha.character.isPlayerCharacter)
+                    .Any(cha => cha.character.GetCharacterData() == characterFor ||
+                               (cha.character.GetCharacterData()?.sameCharacters != null &&
+                                cha.character.GetCharacterData().sameCharacters.Contains(characterFor)));
     }
 
     public override void UseCard()
     {
         LeanTween.delayedCall(0.5f, () =>
         {
-            if(CanUseCard() == false) {
+            if(!CanUseCard()) {
                 return;
             }
-            if (GetCharacterOnMouse() != null)
+            var target = GetCharacterOnMouse();
+            if (target != null && passive != null)
             {
-                GetCharacterOnMouse().character.AddPassive(Instantiate(passive));
+                target.character.AddPassive(Instantiate(passive));
                 GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
-                BoardGameUiManager.Instance.ShowLooseMana(manaCost);
-                BoardGameUiManager.Instance.RefreshUI();
+                BoardGameUiManager.Instance?.ShowLooseMana(manaCost);
+                BoardGameUiManager.Instance?.RefreshUI();
                 RegisterCardHistory();
                 GameManager.Instance.RemoveCard(this);
             }
