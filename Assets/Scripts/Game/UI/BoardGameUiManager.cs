@@ -286,13 +286,15 @@ public class BoardGameUiManager : MonoBehaviour
 
         looseManaText.gameObject.SetActive(true);
         looseManaText.alpha = 1f;
-        looseManaText.GetComponent<RectTransform>().anchoredPosition = new Vector2(0f, 0f);
+        var looseManaRectTransform = looseManaText.GetComponent<RectTransform>();
+        if (looseManaRectTransform == null) return;
+        looseManaRectTransform.anchoredPosition = new Vector2(0f, 0f);
 
         looseManaText.text = "-" + amount.ToString();
 
         LeanTween.cancel(looseManaText.gameObject);
         LeanTween.value(looseManaText.gameObject, f => looseManaText.alpha=f,1f,0f, 0.75f).setDelay(0.5f);
-        LeanTween.moveX(looseManaText.gameObject.GetComponent<RectTransform>(), 15f, 1.25f).setEaseOutCirc();
+        LeanTween.moveX(looseManaRectTransform, 15f, 1.25f).setEaseOutCirc();
     }
 
     public void ShowPlayCardPanel(string useCardText = "Use Card")
@@ -302,18 +304,24 @@ public class BoardGameUiManager : MonoBehaviour
             return;
         }
 
+        var playCardRectTransform = playCardScreen.GetComponent<RectTransform>();
+        if (playCardRectTransform == null)
+        {
+            return;
+        }
+
         if (playCardScreen.activeInHierarchy == false)
         {
             isTweeningEnd = false;
             LeanTween.cancel(playCardScreen);
-            var newPosition = playCardScreen.GetComponent<RectTransform>().sizeDelta.y;
-            playCardScreen.GetComponent<RectTransform>().localPosition = 
-                new Vector2(playCardScreen.GetComponent<RectTransform>().localPosition.x, newPosition);
+            var newPosition = playCardRectTransform.sizeDelta.y;
+            playCardRectTransform.localPosition =
+                new Vector2(playCardRectTransform.localPosition.x, newPosition);
             playCardScreen.SetActive(true);
             LeanTween.value(playCardScreen, (f) =>
             {
-                playCardScreen.GetComponent<RectTransform>().localPosition =
-                    new Vector2(playCardScreen.GetComponent<RectTransform>().localPosition.x,
+                playCardRectTransform.localPosition =
+                    new Vector2(playCardRectTransform.localPosition.x,
                         f);
             }, newPosition, 0f, 0.2f).setEaseInOutCirc();
         }
@@ -327,14 +335,20 @@ public class BoardGameUiManager : MonoBehaviour
             return;
         }
 
+        var playCardRectTransform = playCardScreen.GetComponent<RectTransform>();
+        if (playCardRectTransform == null)
+        {
+            return;
+        }
+
         if (playCardScreen.activeInHierarchy && isTweeningEnd == false)
         {
             isTweeningEnd = true;
-            var newPosition = playCardScreen.GetComponent<RectTransform>().sizeDelta.y;
+            var newPosition = playCardRectTransform.sizeDelta.y;
             LeanTween.value(playCardScreen, (f) =>
             {
-                playCardScreen.GetComponent<RectTransform>().localPosition =
-                    new Vector2(playCardScreen.GetComponent<RectTransform>().localPosition.x,
+                playCardRectTransform.localPosition =
+                    new Vector2(playCardRectTransform.localPosition.x,
                         f);
             }, 0f, newPosition, 0.2f).setEaseInOutCirc().setOnComplete(() =>
             {

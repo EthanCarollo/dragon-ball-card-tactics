@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using System;
 
 
@@ -48,14 +49,16 @@ public class FlashAttackAnimation : BoardAnimation
             try {
                 var newPos = target.gameObject.transform.position;
                 character.gameObject.transform.position = new Vector3(newPos.x - 1, newPos.y);
-                character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = tpSprite.sprite;
+                var spriteRenderer = GetCharacterSpriteRenderer(character);
+                if (spriteRenderer != null && tpSprite != null) spriteRenderer.sprite = tpSprite.sprite;
             } catch(Exception error){
                 Debug.LogWarning(error);
             }
             yield return new WaitForSeconds(0.1f);
             yield return AttackCharacter(character, target);
         }
-        character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = tpSprite.sprite;
+        var characterSpriteRenderer = GetCharacterSpriteRenderer(character);
+        if (characterSpriteRenderer != null && tpSprite != null) characterSpriteRenderer.sprite = tpSprite.sprite;
         yield return new WaitForSeconds(0.1f);
         character.gameObject.transform.position = actualPosition;
         EndAnimation(character);
@@ -64,11 +67,13 @@ public class FlashAttackAnimation : BoardAnimation
     private IEnumerator AttackCharacter(BoardCharacter character, BoardCharacter target){
 
         var index = 0;
-        foreach (FrameSprite frameSprite in frameSprites)
+        var validFrames = new List<FrameSprite>(GetValidFrames());
+        var characterSpriteRenderer = GetCharacterSpriteRenderer(character);
+        foreach (FrameSprite frameSprite in validFrames)
         {
-            character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = frameSprite.sprite;
-            yield return new WaitForSeconds(frameSprite.time); 
-            if(index == frameSprites.Length-1){
+            if (characterSpriteRenderer != null) characterSpriteRenderer.sprite = frameSprite.sprite;
+            yield return new WaitForSeconds(GetFrameDuration(frameSprite));
+            if(index == validFrames.Count - 1){
                 if(effectApplied != null && effectApplied.Length > 0)
                 {
                     foreach (var effect in effectApplied)

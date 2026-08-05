@@ -15,18 +15,29 @@ public class FightNameUi : MonoBehaviour
 
         public void OpenFightNamePanel(Fight fight)
         {
-                fightPanel.GetComponent<RectTransform>().anchoredPosition = 
+                if (fight == null || fightPanel == null)
+                {
+                        return;
+                }
+
+                var panelRectTransform = fightPanel.GetComponent<RectTransform>();
+                if (panelRectTransform == null)
+                {
+                        return;
+                }
+
+                panelRectTransform.anchoredPosition =
                         new Vector2(fightPanel.GetComponent<RectTransform>().sizeDelta.x, 0f);
                 fightPanel.SetActive(true);
-                fightNameText.text = fight.name;
-                fightDifficultyText.text = "Difficulty : " + fight.difficulty.ToString();
+                if (fightNameText != null) fightNameText.text = fight.name;
+                if (fightDifficultyText != null) fightDifficultyText.text = "Difficulty : " + fight.difficulty.ToString();
 
-                fightPanel.GetComponent<RectTransform>().localScale = Vector3.zero;
-                fightPanel.GetComponent<RectTransform>().rotation = Quaternion.Euler(0, 0, -15);
+                panelRectTransform.localScale = Vector3.zero;
+                panelRectTransform.rotation = Quaternion.Euler(0, 0, -15);
 
                 LeanTween.scale(fightPanel, Vector3.one, 0.5f).setEaseOutBack();
                 LeanTween.rotateZ(fightPanel, 0f, 0.5f).setEaseOutBack();
-                LeanTween.moveX(fightPanel.GetComponent<RectTransform>(), 0f, 0.5f).setEaseOutBack()
+                LeanTween.moveX(panelRectTransform, 0f, 0.5f).setEaseOutBack()
                         .setOnComplete(() =>
                         {
                                 // Animation de pulsation
@@ -35,7 +46,7 @@ public class FightNameUi : MonoBehaviour
                                         .setLoopPingPong(1);
 
                                 // Animation de sortie
-                                LeanTween.moveX(fightPanel.GetComponent<RectTransform>(), -fightPanel.GetComponent<RectTransform>().sizeDelta.x, 0.5f)
+                                LeanTween.moveX(panelRectTransform, -panelRectTransform.sizeDelta.x, 0.5f)
                                         .setEaseInBack()
                                         .setDelay(2f)
                                         .setOnComplete(() =>
@@ -44,26 +55,26 @@ public class FightNameUi : MonoBehaviour
                                         });
                         });
 
-                fightNameText.color = new Color(fightNameText.color.r, fightNameText.color.g, fightNameText.color.b, 0);
-                fightDifficultyText.color = new Color(fightDifficultyText.color.r, fightDifficultyText.color.g, fightDifficultyText.color.b, 0);
+                if (fightNameText != null) fightNameText.color = new Color(fightNameText.color.r, fightNameText.color.g, fightNameText.color.b, 0);
+                if (fightDifficultyText != null) fightDifficultyText.color = new Color(fightDifficultyText.color.r, fightDifficultyText.color.g, fightDifficultyText.color.b, 0);
 
                 LeanTween.value(fightPanel, 0f, 1f, 0.5f)
                         .setDelay(0.25f)
                         .setOnUpdate((float val) =>
                         {
-                                fightNameText.color = new Color(fightNameText.color.r, fightNameText.color.g, fightNameText.color.b, val);
+                                if (fightNameText != null) fightNameText.color = new Color(fightNameText.color.r, fightNameText.color.g, fightNameText.color.b, val);
                         });
 
                 LeanTween.value(fightPanel, 0f, 1f, 0.5f)
                         .setDelay(0.5f)
                         .setOnUpdate((float val) =>
                         {
-                                fightDifficultyText.color = new Color(fightDifficultyText.color.r, fightDifficultyText.color.g, fightDifficultyText.color.b, val);
+                                if (fightDifficultyText != null) fightDifficultyText.color = new Color(fightDifficultyText.color.r, fightDifficultyText.color.g, fightDifficultyText.color.b, val);
                         });
         }
 
         public void ExitFightNamePanel()
         {
-                fightPanel.SetActive(false);
+                fightPanel?.SetActive(false);
         }
 }

@@ -14,6 +14,10 @@ public class PassiveContainer : MonoBehaviour, IPointerEnterHandler, IPointerExi
     public void Setup(CharacterPassive passive)
     {
         this.passive = passive;
+        if (passive == null)
+        {
+            return;
+        }
         if(nameText != null){
             nameText.text = passive.passiveName;
         }
@@ -27,11 +31,11 @@ public class PassiveContainer : MonoBehaviour, IPointerEnterHandler, IPointerExi
     
     public void OnPointerEnter(PointerEventData eventData)
     {
-        passiveInformation.SetActive(true);
+        passiveInformation?.SetActive(true);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        passiveInformation.SetActive(false);
+        passiveInformation?.SetActive(false);
     }
 }

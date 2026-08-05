@@ -43,10 +43,11 @@ public class AttackAnimation : BoardAnimation
         
         character.actualAnimation = this;
         var index = 0;
-        foreach (FrameSprite frameSprite in frameSprites)
+        var spriteRenderer = GetCharacterSpriteRenderer(character);
+        foreach (FrameSprite frameSprite in GetValidFrames())
         {
-            character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = frameSprite.sprite;
-            yield return new WaitForSeconds(frameSprite.time); 
+            if (spriteRenderer != null) spriteRenderer.sprite = frameSprite.sprite;
+            yield return new WaitForSeconds(GetFrameDuration(frameSprite));
             if(index == attackFrameIndex){
                 if(effectApplied != null && effectApplied.Length > 0)
                 {

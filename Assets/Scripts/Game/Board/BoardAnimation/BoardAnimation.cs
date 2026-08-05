@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using System;
 
 
@@ -49,6 +50,27 @@ public class BoardAnimation : ScriptableObject {
             yield return new WaitForSeconds(Mathf.Max(0f, frameSprite.time));
         }
         EndAnimation(character);
+    }
+
+    protected SpriteRenderer GetCharacterSpriteRenderer(BoardCharacter character)
+    {
+        return character?.GetCharacterPrefabScript()?.spriteRenderer;
+    }
+
+    protected IEnumerable<FrameSprite> GetValidFrames()
+    {
+        foreach (var frameSprite in frameSprites ?? Array.Empty<FrameSprite>())
+        {
+            if (frameSprite != null)
+            {
+                yield return frameSprite;
+            }
+        }
+    }
+
+    protected static float GetFrameDuration(FrameSprite frameSprite)
+    {
+        return Mathf.Max(0f, frameSprite?.time ?? 0f);
     }
 
     public virtual void EndAnimation(BoardCharacter character)

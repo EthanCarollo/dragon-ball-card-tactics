@@ -44,10 +44,11 @@ public class DistanceAttackAnimation : BoardAnimation {
         character.actualAnimation = this;
         var index = 0;
         var newOtherTarget = GetOtherTargetValue(character.character);
-        foreach (FrameSprite frameSprite in frameSprites)
+        var spriteRenderer = GetCharacterSpriteRenderer(character);
+        foreach (FrameSprite frameSprite in GetValidFrames())
         {
-            character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = frameSprite.sprite;
-            yield return new WaitForSeconds(frameSprite.time); 
+            if (spriteRenderer != null) spriteRenderer.sprite = frameSprite.sprite;
+            yield return new WaitForSeconds(GetFrameDuration(frameSprite));
             if(index == attackFrameIndex){
                 LaunchAttack(character, target);
                 if(newOtherTarget != 0){

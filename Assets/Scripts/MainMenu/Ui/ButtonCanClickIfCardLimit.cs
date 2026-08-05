@@ -7,21 +7,20 @@ class ButtonCanClickIfCardLimit : MonoBehaviour, IPointerEnterHandler, IPointerE
     public GameObject cantLaunchInformation;
 
     public void Update(){
-        if(CardDatabase.Instance.playerCards.Length > 0 && CardDatabase.Instance.playerCards.Any(card => card is CharacterCard)){
-            cantLaunchInformation.SetActive(false);
-            GetComponent<Button>().interactable = true;
-        }else{
-            GetComponent<Button>().interactable = false;
-        }
+        var button = GetComponent<Button>();
+        var cards = CardDatabase.Instance?.playerCards;
+        var canLaunch = cards != null && cards.Any(card => card is CharacterCard);
+        if (button != null) button.interactable = canLaunch;
+        cantLaunchInformation?.SetActive(!canLaunch);
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        cantLaunchInformation.SetActive(true);
+        cantLaunchInformation?.SetActive(true);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        cantLaunchInformation.SetActive(false);
+        cantLaunchInformation?.SetActive(false);
     }
 }

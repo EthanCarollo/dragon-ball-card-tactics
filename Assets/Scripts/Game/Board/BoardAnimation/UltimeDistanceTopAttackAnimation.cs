@@ -37,15 +37,16 @@ public class UltimeDistanceTopAttackAnimation : BoardAnimation {
         }
         character.actualAnimation = this;
         var startPos = character.gameObject.transform.position;
-        character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = flySprite.sprite;
+        var spriteRenderer = GetCharacterSpriteRenderer(character);
+        if (spriteRenderer != null && flySprite != null) spriteRenderer.sprite = flySprite.sprite;
         LeanTween.move(character.gameObject, character.gameObject.transform.position + new Vector3(-1f, 2.5f, 0f), 0.8f).setEase(LeanTweenType.easeInOutQuad);
         yield return new WaitForSeconds(0.8f);
         
         var index = 0;
-        foreach (FrameSprite frameSprite in frameSprites)
+        foreach (FrameSprite frameSprite in GetValidFrames())
         {
-            character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = frameSprite.sprite;
-            yield return new WaitForSeconds(frameSprite.time); 
+            if (spriteRenderer != null) spriteRenderer.sprite = frameSprite.sprite;
+            yield return new WaitForSeconds(GetFrameDuration(frameSprite));
             if(index == attackFrameIndex){
                 LaunchAttack(character, target);
             }
@@ -53,7 +54,7 @@ public class UltimeDistanceTopAttackAnimation : BoardAnimation {
         }
         
         
-        character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = flySprite.sprite;
+        if (spriteRenderer != null && flySprite != null) spriteRenderer.sprite = flySprite.sprite;
         LeanTween.move(character.gameObject, startPos, 0.8f).setEase(LeanTweenType.easeInOutQuad);
         yield return new WaitForSeconds(0.8f);
         

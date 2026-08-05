@@ -34,21 +34,20 @@ public class ApplyAllEffectAnimation : BoardAnimation {
 
     public override IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
-        var target = character.GetCharacterTarget();
-
         character.actualAnimation = this;
         var index = 0;
-        foreach (FrameSprite frameSprite in frameSprites)
+        var spriteRenderer = GetCharacterSpriteRenderer(character);
+        foreach (FrameSprite frameSprite in GetValidFrames())
         {
-            character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = frameSprite.sprite;
-            yield return new WaitForSeconds(frameSprite.time); 
+            if (spriteRenderer != null) spriteRenderer.sprite = frameSprite.sprite;
+            yield return new WaitForSeconds(GetFrameDuration(frameSprite));
             if(index == attackFrameIndex){
                 var charactersToAffect = GameManager.Instance.GetCharactersOnBoard().Where(charac => charac.character.isPlayerCharacter == character.character.isPlayerCharacter);
                 foreach (var characterToAffect in charactersToAffect)
                 {
-                    foreach (var effect in effectApplied)
+                    foreach (var effect in effectApplied ?? Array.Empty<Effect>())
                     {
-                        characterToAffect.character.AddEffect(effect);
+                        if (effect != null) characterToAffect.character.AddEffect(effect);
                     }
                 }
             }

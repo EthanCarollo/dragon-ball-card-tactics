@@ -10,7 +10,14 @@ public class ChargingCharacterState : BoardCharacterState
 
     public void LaunchAnimation()
     {
-        var anim = this.boardCharacter.character.GetCharacterData().specialAttackAnimation[0].animation;
+        var characterData = boardCharacter?.character?.GetCharacterData();
+        var specialAttacks = characterData?.specialAttackAnimation;
+        if (specialAttacks == null || specialAttacks.Length == 0 || specialAttacks[0] == null)
+        {
+            return;
+        }
+
+        var anim = specialAttacks[0].animation;
         if(anim is ChargedKiAttackAnimation chargedAnimation){
             GameObject newGameObject = new GameObject("Projectile");
             newGameObject.transform.localScale = new Vector3(1, 1, 0);
@@ -28,13 +35,10 @@ public class ChargingCharacterState : BoardCharacterState
 
             var delay = 0f;
             var index = 0;
-            var animationEnded = false;
-
-            while(animationEnded == false){
-                if(index == chargedAnimation.attackFrameIndex){
-                    break;
-                }
-                delay+=chargedAnimation.frameSprites[index].time;
+            var frames = chargedAnimation.frameSprites ?? new FrameSprite[0];
+            var attackFrame = Mathf.Clamp(chargedAnimation.attackFrameIndex, 0, frames.Length);
+            while(index < attackFrame){
+                if (frames[index] != null) delay += Mathf.Max(0f, frames[index].time);
                 index++;
             }
 
@@ -56,6 +60,10 @@ public class ChargingCharacterState : BoardCharacterState
     {
         if(animateKikoha == true && kikohaGameobject != null){
             SpriteRenderer spriteRenderer = kikohaGameobject.GetComponent<SpriteRenderer>();
+            if (spriteRenderer == null)
+            {
+                return;
+            }
             float shakeAmount = Mathf.Sin(Time.time * 50) * 0.003f; 
             float sizeKikoha = maxSize * percentage / 100;
             spriteRenderer.size = new Vector2(sizeKikoha + shakeAmount, spriteRenderer.size.y);
@@ -70,11 +78,11 @@ public class ChargingCharacterState : BoardCharacterState
     }
     
     public override void EndKikoha(){
-        MonoBehaviour.Destroy(kikohaGameobject);
-        boardCharacter.PlayAnimation(SpriteDatabase.Instance.disappearAnimation);
+        if (kikohaGameobject != null) MonoBehaviour.Destroy(kikohaGameobject);
+        boardCharacter?.PlayAnimation(SpriteDatabase.Instance?.disappearAnimation);
         LeanTween.delayedCall(0.4f, () =>
         {
-            boardCharacter.UpdateState(new DefaultCharacterState(this.boardCharacter));
+            if (boardCharacter != null) boardCharacter.UpdateState(new DefaultCharacterState(this.boardCharacter));
         });
     }
     

@@ -403,7 +403,7 @@ public class BoardCharacter : BoardObject
         characterPrefabScript = prefabScript;
     }
 
-    private CharacterPrefabScript GetCharacterPrefabScript()
+    public CharacterPrefabScript GetCharacterPrefabScript()
     {
         if (characterPrefabScript != null)
         {

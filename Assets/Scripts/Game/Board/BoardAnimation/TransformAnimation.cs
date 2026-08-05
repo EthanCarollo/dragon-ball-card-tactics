@@ -59,12 +59,11 @@ public class TransformAnimation : BoardAnimation {
 
     public IEnumerator PlayAnimationCoroutineTransform(BoardCharacter character)
     {
-        var index = 0;
-        foreach (FrameSprite frameSprite in frameSprites)
+        var spriteRenderer = GetCharacterSpriteRenderer(character);
+        foreach (FrameSprite frameSprite in GetValidFrames())
         {
-            character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = frameSprite.sprite;
-            yield return new WaitForSeconds(frameSprite.time);
-            index++;
+            if (spriteRenderer != null) spriteRenderer.sprite = frameSprite.sprite;
+            yield return new WaitForSeconds(GetFrameDuration(frameSprite));
         }
     }
 }

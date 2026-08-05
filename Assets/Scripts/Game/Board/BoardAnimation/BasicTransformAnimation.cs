@@ -55,18 +55,23 @@ public class BasicTransformAnimation : BoardAnimation
         transformObject.transform.localPosition = Vector3.zero;
         var spriteRender = transformObject.AddComponent<SpriteRenderer>();
         spriteRender.spriteSortPoint = SpriteSortPoint.Pivot;
-        spriteRender.sortingOrder = character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>()
-            .spriteRenderer.sortingOrder;
+        var characterSpriteRenderer = GetCharacterSpriteRenderer(character);
+        spriteRender.sortingOrder = characterSpriteRenderer == null ? 0 : characterSpriteRenderer.sortingOrder;
         var index = 0;
-        foreach (FrameSprite frameSprite in frameSprites)
+        foreach (FrameSprite frameSprite in GetValidFrames())
         {
             spriteRender.sprite = frameSprite.sprite;
-            yield return new WaitForSeconds(frameSprite.time);
+            yield return new WaitForSeconds(GetFrameDuration(frameSprite));
             if (index == 2)
             {
-                character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite =
-                    character.character.GetCharacterData().baseCharacter.idleAnimation.frameSprites[0].sprite;
-                character.SetupCharacter(character.character.GetCharacterData().baseCharacter);
+                var currentData = character.character?.GetCharacterData();
+                var baseCharacter = currentData?.baseCharacter;
+                var idleFrames = baseCharacter?.idleAnimation?.frameSprites;
+                if (characterSpriteRenderer != null && idleFrames != null && idleFrames.Length > 0)
+                {
+                    characterSpriteRenderer.sprite = idleFrames[0]?.sprite;
+                }
+                if (baseCharacter != null) character.SetupCharacter(baseCharacter);
             }
             index++;
         }

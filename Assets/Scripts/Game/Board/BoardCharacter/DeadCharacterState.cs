@@ -9,17 +9,30 @@ public class DeadCharacterState : BoardCharacterState
 
     public override void Dead()
     {
-        this.boardCharacter.isDying = true;
-        if (this.boardCharacter.character.GetCharacterData().deadAnimation != null)
+        if (boardCharacter == null || boardCharacter.gameObject == null)
         {
-            this.boardCharacter.PlayAnimation(this.boardCharacter.character.GetCharacterData().deadAnimation);
+            return;
+        }
+
+        this.boardCharacter.isDying = true;
+        var characterData = this.boardCharacter.character?.GetCharacterData();
+        if (characterData?.deadAnimation != null)
+        {
+            this.boardCharacter.PlayAnimation(characterData.deadAnimation);
         }
         else
         {
             // Disappear 
             if (boardCharacter.actualAnimation != null) boardCharacter.actualAnimation.EndAnimation(this.boardCharacter);
             
-            var spriteRenderer = this.boardCharacter.gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>();
+            var characterPrefab = this.boardCharacter.GetCharacterPrefabScript();
+            var spriteRenderer = characterPrefab?.spriteRenderer;
+            if (spriteRenderer == null || ShadersDatabase.Instance == null ||
+                ShadersDatabase.Instance.disappearMaterial == null)
+            {
+                GameObject.Destroy(this.boardCharacter.gameObject);
+                return;
+            }
             spriteRenderer.material = new Material(ShadersDatabase.Instance.disappearMaterial);
             spriteRenderer.material.SetFloat("_Fade", 1f);
             LeanTween.value(this.boardCharacter.gameObject, f =>
