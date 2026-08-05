@@ -6,7 +6,6 @@ using System;
 using System.Collections.Generic;
 using Coffee.UIEffects;
 
-// Todo : Rename the file into TransformationCard.cs
 [CreateAssetMenu(fileName = "TransformationCard", menuName = "Card/TransformationCard")]
 public class TransformationCard : Card
 {
