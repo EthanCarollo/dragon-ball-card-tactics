@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.TextCore.Text;
 using System.Linq;
 
 #if UNITY_EDITOR
@@ -38,7 +37,10 @@ public class CharacterDatabase : ScriptableObject
         {
             for (int i = 0; i < this.characterDatas.Length; i++)
             {
-                this.characterDatas[i].id = i;
+                if (this.characterDatas[i] != null)
+                {
+                    this.characterDatas[i].id = i;
+                }
             }
         }
     }
@@ -49,7 +51,7 @@ public class CharacterDatabase : ScriptableObject
         {
             foreach (var character in characterDatas)
             {
-                if (character.id == id)
+                if (character != null && character.id == id)
                 {
                     return character;
                 }
@@ -99,19 +101,21 @@ public class CharacterDatabase : ScriptableObject
             newCharacterDatas[i] = AssetDatabase.LoadAssetAtPath<CharacterData>(path);
         }
 
+        var currentCharacters = characterDatas ?? new CharacterData[0];
         foreach(var character in newCharacterDatas){
-            if(characterDatas.Contains(character)) continue;
+            if(character == null || currentCharacters.Contains(character)) continue;
             if (character.sameCharacters == null){
-                Debug.LogWarning("This character has same characters to null wtf : " + character.characterName);
+                Debug.LogWarning("Character has no same-character family configured: " + character.characterName);
                 continue;
             }
             if(character.sameCharacters.Contains(null)){
                 Debug.LogWarning("This character contains bad same character : " + character.characterName);
             }
             Debug.LogWarning("Add new character : " + character.characterName);
-            var characterDataList = characterDatas.ToList();
+            var characterDataList = currentCharacters.ToList();
             characterDataList.Add(character);
             characterDatas = characterDataList.ToArray();
+            currentCharacters = characterDatas;
         }
 
         this.AssignUniqueIDs();

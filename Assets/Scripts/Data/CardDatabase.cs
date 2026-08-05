@@ -46,7 +46,10 @@ public class CardDatabase : ScriptableObject
         {
             for (int i = 0; i < cards.Length; i++)
             {
-                cards[i].id = i;
+                if (cards[i] != null)
+                {
+                    cards[i].id = i;
+                }
             }
         }
     }

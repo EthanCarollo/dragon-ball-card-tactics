@@ -115,7 +115,9 @@ public class FightDatabase : ScriptableObject
 
         // Collect all characters present in fights
         var charactersInFights = fights
-            .SelectMany(fight => fight.opponents)
+            .Where(fight => fight != null)
+            .SelectMany(fight => fight.opponents ?? new CharacterContainerFight[0])
+            .Where(opponent => opponent != null && opponent.characterData != null)
             .Select(opponent => opponent.characterData)
             .ToHashSet();
 
@@ -127,6 +129,11 @@ public class FightDatabase : ScriptableObject
         // Log each unused character
         foreach (var character in charactersNotInFights)
         {
+            if (character == null)
+            {
+                continue;
+            }
+
             Debug.Log($"Character '<color=cyan>{character.name}</color>' (ID: {character.id}) is not used in any fight.");
         }
 
