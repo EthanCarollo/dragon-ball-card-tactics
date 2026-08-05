@@ -14,6 +14,9 @@ public class BoardCharacter : BoardObject
     public Vector2Int nextPosition = new Vector2Int(-1, -1);
     public bool isDying = false;
 
+    private int displayedStarCount = -1;
+    private string displayedEffectContent;
+
     public BoardCharacter GetCharacterTarget()
     {
         if(state is AttackingCharacterState fightState){
@@ -163,12 +166,13 @@ public class BoardCharacter : BoardObject
             Debug.LogWarning("Gameobject isn't set :/ (called too early)");
             return;
         }
-        var firstChild = gameObject.transform.GetChild(0);
-        if (firstChild == null)
+        if (gameObject.transform.childCount == 0)
         {
             Debug.LogWarning("Character has no children :/ (called too early)");
             return;
         }
+
+        var firstChild = gameObject.transform.GetChild(0);
         var charPrefabScript = firstChild.GetComponent<CharacterPrefabScript>();
         if (charPrefabScript != null)
         {
@@ -186,11 +190,22 @@ public class BoardCharacter : BoardObject
                     effectContent += "\n" + effect.effect.effectName;
                 }
             }
-            charPrefabScript.effectText.text = effectContent;
+            if (displayedEffectContent != effectContent)
+            {
+                charPrefabScript.effectText.text = effectContent;
+                displayedEffectContent = effectContent;
+            }
+
+            if (displayedStarCount == character.characterStar)
+            {
+                return;
+            }
+
             foreach (Transform child in charPrefabScript.starContainer)
             {
                 MonoBehaviour.Destroy(child.gameObject);
             }
+
             for (int i = 0; i < character.characterStar; i++)
             {
                 var characterStar = new GameObject("CharacterStar");
@@ -198,6 +213,8 @@ public class BoardCharacter : BoardObject
                 characterStar.GetComponent<RectTransform>().sizeDelta = new Vector2(0.2f, 0.2f);
                 characterStar.transform.SetParent(charPrefabScript.starContainer);
             }
+
+            displayedStarCount = character.characterStar;
         }
         else
         {
@@ -306,5 +323,11 @@ public class BoardCharacter : BoardObject
         {
             direction = direction
         };
+    }
+
+    public void ResetUiCache()
+    {
+        displayedStarCount = -1;
+        displayedEffectContent = null;
     }
 }

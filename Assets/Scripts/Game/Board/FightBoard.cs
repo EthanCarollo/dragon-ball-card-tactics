@@ -51,15 +51,22 @@ public class FightBoard : Board
     
     public override void CreateBoard(BoardObject[,] boardCharacterArray)
     {
-        foreach (Transform child in transform)
+        if (BoardArray == null ||
+            BoardArray.GetLength(0) != GameManager.BoardWidth ||
+            BoardArray.GetLength(1) != GameManager.BoardHeight)
         {
-            Destroy(child.gameObject);
+            BoardArray = new GameObject[GameManager.BoardWidth, GameManager.BoardHeight];
         }
 
         for (int x = 0; x < GameManager.BoardWidth; x++)
         {
             for (int y = 0; y < GameManager.BoardHeight; y++)
             {
+                if (BoardArray[x, y] != null)
+                {
+                    continue;
+                }
+
                 float posX = x * _tileWidth;
                 float posY = y * _tileHeight;
                 Vector3 position = new Vector3(posX, posY, 0);
@@ -79,6 +86,11 @@ public class FightBoard : Board
 
     private void InitializeCharacter(BoardObject[,] characters)
     {
+        if (characters == null)
+        {
+            return;
+        }
+
         HashSet<(BoardCharacter, Vector2Int)> activeKeys = new();
         
         for (int x = 0; x < characters.GetLength(0); x++)
@@ -123,9 +135,13 @@ public class FightBoard : Board
         
         foreach (var key in new List<(BoardCharacter, Vector2Int)>(instantiatedCharacters.Keys))
         {
-            if (!activeKeys.Contains(key) && instantiatedCharacters[key] != null)
+            if (!activeKeys.Contains(key))
             {
-                Destroy(instantiatedCharacters[key]);
+                if (instantiatedCharacters[key] != null)
+                {
+                    Destroy(instantiatedCharacters[key]);
+                }
+
                 instantiatedCharacters.Remove(key);
             }
         }
@@ -146,6 +162,7 @@ public class FightBoard : Board
         charPrefabScript.spriteRenderer.sortingOrder = 4;
         charPrefabScript.spriteRenderer.flipX = !character.character.isPlayerCharacter;
 
+        character.ResetUiCache();
         character.SetGameObject(characterGameObject);
         character.SetBoard(this);
         character.SetCharacterSlider();
