@@ -5,7 +5,6 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-[Serializable]
 public class BoardCharacter : BoardObject
 {
     public CharacterContainer character;
@@ -303,13 +302,9 @@ public class BoardCharacter : BoardObject
 
     public override BoardObject Clone()
     {
-        // Reset the character container and clone it to a new BoardObject, but
-        // we have the same gameobject than this boardcharacter, that can cause
-        // some bugs
-        var newCharacter = new CharacterContainer(character.characterId, character.characterPassives, character.characterStar, character.isPlayerCharacter, character.powerMultiplicator);
-        BoardCharacter clonedCharacter = new BoardCharacter(newCharacter);
-        clonedCharacter.SetGameObject(this.gameObject);
-        clonedCharacter.SetBoard(this.board); 
-        return clonedCharacter;
+        return new BoardCharacter(character.Clone())
+        {
+            direction = direction
+        };
     }
 }

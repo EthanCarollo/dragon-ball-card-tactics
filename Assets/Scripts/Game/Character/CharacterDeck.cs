@@ -67,6 +67,9 @@ public class CharacterContainer
     public int maxCharacterStar = 5;
     public List<CharacterPassive> characterPassives = new List<CharacterPassive>();
     public bool isPlayerCharacter = true;
+
+    [NonSerialized]
+    private Dictionary<CharacterPassive, PassiveRuntimeState> passiveRuntimeStates;
     
     public CharacterContainer(int characterId, List<CharacterPassive> characterPassives, int starNumber, bool isPlayerCharacter, float powerMultiplicator = 1)
     {
@@ -108,6 +111,49 @@ public class CharacterContainer
         this.actualKi = actualKi;
         this.characterStar = starNumber;
         this.isPlayerCharacter = isPlayerCharacter;
+    }
+
+    public CharacterContainer Clone()
+    {
+        var clone = new CharacterContainer(characterId, actualHealth, actualKi, characterStar, isPlayerCharacter)
+        {
+            powerMultiplicator = powerMultiplicator,
+            selectedUltimateAttack = selectedUltimateAttack,
+            maxCharacterStar = maxCharacterStar,
+            characterPassives = characterPassives == null
+                ? new List<CharacterPassive>()
+                : new List<CharacterPassive>(characterPassives),
+            activeEffects = activeEffects == null
+                ? new List<InGameEffect>()
+                : activeEffects
+                    .Where(activeEffect => activeEffect != null)
+                    .Select(activeEffect => activeEffect.Clone())
+                    .ToList()
+        };
+
+        return clone;
+    }
+
+    public PassiveRuntimeState GetPassiveRuntimeState(CharacterPassive passive)
+    {
+        if (passive == null)
+        {
+            return null;
+        }
+
+        passiveRuntimeStates ??= new Dictionary<CharacterPassive, PassiveRuntimeState>();
+        if (!passiveRuntimeStates.TryGetValue(passive, out var state))
+        {
+            state = new PassiveRuntimeState();
+            passiveRuntimeStates.Add(passive, state);
+        }
+
+        return state;
+    }
+
+    public void ResetPassiveRuntimeState(CharacterPassive passive)
+    {
+        passiveRuntimeStates?.Remove(passive);
     }
     
     public CharacterData GetCharacterData()

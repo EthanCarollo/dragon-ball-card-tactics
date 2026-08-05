@@ -18,6 +18,7 @@ public abstract class Effect : ScriptableObject {
     }
 }
 
+[Serializable]
 public class InGameEffect{
     public Effect effect;
 
@@ -30,6 +31,16 @@ public class InGameEffect{
         effectDuration = effect.totalEffectDuration;
         tickInterval = effect.tickInterval;
         nextTickTime = effect.tickInterval;
+    }
+
+    public InGameEffect Clone()
+    {
+        return new InGameEffect(effect)
+        {
+            effectDuration = effectDuration,
+            tickInterval = tickInterval,
+            nextTickTime = nextTickTime
+        };
     }
 
     public void UpdateEffect(float deltaTime, BoardCharacter character)

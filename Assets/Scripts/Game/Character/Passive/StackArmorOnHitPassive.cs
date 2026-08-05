@@ -3,27 +3,26 @@ using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Stack Armor On Hit Passive", menuName = "Passives/StackArmorOnHitPassive")]
 public class StackArmorOnHitPassive : CharacterPassive {
-    public int moreArmor = 0;
     public int armorStackedOnHit = 2;
 
     public override void Setup(BoardCharacter character)
     {
-        moreArmor = 0;
+        character.character.ResetPassiveRuntimeState(this);
     }
 
     public override string GetDescription()
     {
-        return "Add " + armorStackedOnHit + " armor on hit (actual armor : " + moreArmor + " ).";
+        return "Add " + armorStackedOnHit + " armor on hit.";
     }
 
     public override void HitCharacter(BoardCharacter character, BoardCharacter target)
     {
-        moreArmor += armorStackedOnHit;
+        character.character.GetPassiveRuntimeState(this).stacks += armorStackedOnHit;
         character.character.NotifyCharacterChanged();
     }
     
     public override int AdditionalArmor(CharacterContainer character)
     {
-        return moreArmor;
+        return character.GetPassiveRuntimeState(this).stacks;
     }
 }

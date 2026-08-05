@@ -7,7 +7,7 @@ public class FightBoard : Board
 {
     public static FightBoard Instance;
     public GameObject tilePrefab;  
-    public BoardState state;
+    [NonSerialized] public BoardState state;
     public Transform fightObjectContainer;
     public Transform boardObjectContainer;
     float _tileWidth = 1.0f;
