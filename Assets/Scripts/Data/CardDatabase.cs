@@ -2,7 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 
 [CreateAssetMenu(fileName = "CardDatabase", menuName = "Card/CardDatabase")]
 public class CardDatabase : ScriptableObject
@@ -28,9 +31,11 @@ public class CardDatabase : ScriptableObject
                 if (_instance == null)
                 {
                     Debug.LogError("CardDatabase instance not found in Resources folder!");
+                    return null;
                 }
+
+                _instance.AssignUniqueIDs();
             }
-            _instance.AssignUniqueIDs();
             return _instance;
         }
     }

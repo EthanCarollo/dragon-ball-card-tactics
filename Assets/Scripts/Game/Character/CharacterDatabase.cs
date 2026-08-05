@@ -1,7 +1,10 @@
 using UnityEngine;
-using UnityEditor;
 using UnityEngine.TextCore.Text;
 using System.Linq;
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 [CreateAssetMenu(fileName = "NewCharacterDatabase", menuName = "Character/CharacterDatabase")]
 public class CharacterDatabase : ScriptableObject
@@ -20,7 +23,9 @@ public class CharacterDatabase : ScriptableObject
                 if (_instance == null)
                 {
                     Debug.LogError("CharacterDatabase instance not found in Resources folder!");
+                    return null;
                 }
+
                 _instance.AssignUniqueIDs();
             }
             return _instance;

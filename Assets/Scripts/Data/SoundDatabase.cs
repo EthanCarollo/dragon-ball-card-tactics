@@ -1,6 +1,4 @@
-using System.Linq;
 using UnityEngine;
-using UnityEditor;
 
 [CreateAssetMenu(fileName = "SoundDatabase", menuName = "SoundData/SoundDatabase")]
 public class SoundDatabase : ScriptableObject

@@ -1,6 +1,9 @@
 using UnityEngine;
 using System.Linq;
+
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 
 [CreateAssetMenu(fileName = "FightDatabase", menuName = "Fight/FightDatabase")]
 public class FightDatabase : ScriptableObject
@@ -11,7 +14,15 @@ public class FightDatabase : ScriptableObject
 
     public Fight GetRandomFight(FightDifficulty difficulty = FightDifficulty.Easy)
     {
-        var filteredFights = fights.Where(card => card.difficulty == difficulty).ToArray();
+        if (fights == null)
+        {
+            Debug.LogWarning("No fights are configured in the FightDatabase.");
+            return null;
+        }
+
+        var filteredFights = fights
+            .Where(fight => fight != null && fight.difficulty == difficulty)
+            .ToArray();
 
         if (filteredFights.Length == 0)
         {
@@ -32,9 +43,11 @@ public class FightDatabase : ScriptableObject
                 if (_instance == null)
                 {
                     Debug.LogError("FightDatabase instance not found in Resources folder!");
+                    return null;
                 }
+
+                _instance.AssignUniqueIDs();
             }
-            _instance.AssignUniqueIDs();
             return _instance;
         }
     }
@@ -56,7 +69,9 @@ public class FightDatabase : ScriptableObject
     [ContextMenu("Refresh Fight List")]
     public void RefreshFights()
     {
-        string[] guids = AssetDatabase.FindAssets("t:Fight");
+        string[] guids = AssetDatabase.FindAssets("t:Fight", new[] { "Assets/Resources/Fight" })
+            .OrderBy(guid => AssetDatabase.GUIDToAssetPath(guid))
+            .ToArray();
         fights = new Fight[guids.Length];
 
         for (int i = 0; i < guids.Length; i++)
@@ -67,6 +82,20 @@ public class FightDatabase : ScriptableObject
 
         EditorUtility.SetDirty(this); // Mark the database as dirty to save changes
         Debug.Log("Fight list refreshed!");
+    }
+
+    [MenuItem("Tools/Databases/Refresh Fight Database")]
+    private static void RefreshFightDatabaseAsset()
+    {
+        var database = Resources.Load<FightDatabase>("FightDatabase");
+        if (database == null)
+        {
+            Debug.LogError("FightDatabase instance not found in Resources folder!");
+            return;
+        }
+
+        database.RefreshFights();
+        AssetDatabase.SaveAssets();
     }
     
     [ContextMenu("Log Characters Not in Fights")]
