@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Frieza (Mecha)
-  m_EditorClassIdentifier: 
-  id: 40
+  m_EditorClassIdentifier:
+  id: 37
   starNumber: 1
   characterName: Frieza (Mecha)
   role: 0
@@ -34,14 +34,16 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: c9b99608c8f494260841c3b7379fd92a, type: 2}
   specialAttackAnimation:
   - name: Super Ki Blast
-    description: 'Ultra Ki Blast \n Passive : Normal attack gives poison effect to
-      Enemy.'
     animation: {fileID: 11400000, guid: ca7edbee71f4242e8a38ee0d917a0322, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter:
+  baseCharacter: {fileID: 0}
+  spriteCredit:
+  sameCharacters:
   - {fileID: 11400000, guid: be6c3934fcbe04ab6b4f28eba24830b5, type: 2}
   - {fileID: 11400000, guid: f9b20bbaea69544a397d0f57a57b3a89, type: 2}
   synergies:
   - {fileID: 11400000, guid: e6b0f87b761094f0f979685b3c42f23a, type: 2}
   - {fileID: 11400000, guid: d650a485b7943417bb2b531cc2a4ba90, type: 2}
   - {fileID: 11400000, guid: 2cb9ba8a614734a358c15cedc22a075f, type: 2}
+  defaultPassive: {fileID: 0}

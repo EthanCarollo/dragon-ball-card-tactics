@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Tien-Shin-Han
-  m_EditorClassIdentifier: 
-  id: 35
+  m_EditorClassIdentifier:
+  id: 89
   starNumber: 1
   characterName: Tien-Shin-Han
   role: 0
@@ -34,7 +34,6 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 7884821de833349818831a9263d2c632, type: 2}
   specialAttackAnimation:
   - name: Charged Kikoha
-    description: 
     animation: {fileID: 11400000, guid: 2b8fd039c48284503a47001f1894e910, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
@@ -43,3 +42,4 @@ MonoBehaviour:
     @Xdocta @izanagi9797 contadodavid YOLOking Alanbrito MatheusAnimaa
   sameCharacters: []
   synergies: []
+  defaultPassive: {fileID: 0}

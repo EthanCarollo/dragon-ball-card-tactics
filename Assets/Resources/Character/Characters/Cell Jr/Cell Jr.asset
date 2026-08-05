@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Cell Jr
-  m_EditorClassIdentifier: 
-  id: 25
+  m_EditorClassIdentifier:
+  id: 28
   starNumber: 1
   characterName: Cell Jr
   role: 0
@@ -34,7 +34,6 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: bbd2ae5114936bc49a0d58d68097a339, type: 2}
   specialAttackAnimation:
   - name: Full-Power Energy Wave
-    description: A powerful ki waves shot.
     animation: {fileID: 11400000, guid: 53087d6719e8e8e4ab8f07e4f886792e, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
@@ -43,3 +42,4 @@ MonoBehaviour:
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: 9c452569d04a944d4a77e1a9eae1b17f, type: 2}
+  defaultPassive: {fileID: 0}

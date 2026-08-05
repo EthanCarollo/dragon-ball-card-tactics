@@ -60,6 +60,33 @@ public class CharacterDatabase : ScriptableObject
     }
 
 #if UNITY_EDITOR
+    [MenuItem("Tools/Databases/Normalize Character IDs")]
+    public static void NormalizeCharacterIds()
+    {
+        var database = Resources.Load<CharacterDatabase>("CharacterDatabase");
+        if (database == null || database.characterDatas == null)
+        {
+            Debug.LogError("CharacterDatabase instance not found or empty.");
+            return;
+        }
+
+        for (int i = 0; i < database.characterDatas.Length; i++)
+        {
+            var character = database.characterDatas[i];
+            if (character == null || character.id == i)
+            {
+                continue;
+            }
+
+            character.id = i;
+            EditorUtility.SetDirty(character);
+        }
+
+        EditorUtility.SetDirty(database);
+        AssetDatabase.SaveAssets();
+        Debug.Log($"Normalized IDs for {database.characterDatas.Length} characters.");
+    }
+
     [ContextMenu("Refresh Character List")]
     public void RefreshCharacterList()
     {

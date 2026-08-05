@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Gokua (Full Power)
-  m_EditorClassIdentifier: 
-  id: 45
+  m_EditorClassIdentifier:
+  id: 64
   starNumber: 1
   characterName: Gokua (Full Power)
   role: 0
@@ -34,8 +34,12 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 6a8fc1c29ee6c4f6d8225adeb28fe9d0, type: 2}
   specialAttackAnimation:
   - name: Multiple attacks
-    description: Launch multiple attacks on multiple enemies
     animation: {fileID: 11400000, guid: e72f096f7e9a24e95b6fb3cf448549a5, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit:
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: fb45fe0120531415a900315cc099c60a, type: 2}
+  defaultPassive: {fileID: 0}

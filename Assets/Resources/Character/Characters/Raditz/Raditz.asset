@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Raditz
-  m_EditorClassIdentifier: 
-  id: 2
+  m_EditorClassIdentifier:
+  id: 80
   starNumber: 1
   characterName: Raditz
   role: 1
@@ -34,8 +34,12 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 1d6a87364f0217c47bad0304b1303209, type: 2}
   specialAttackAnimation:
   - name: 'Double Sunday '
-    description: A powerful ki waves shot from both hands.
     animation: {fileID: 11400000, guid: 4538428d3628ff3439f72569083bca68, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit:
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
+  defaultPassive: {fileID: 0}

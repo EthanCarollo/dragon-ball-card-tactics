@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Saibaman
-  m_EditorClassIdentifier: 
-  id: 12
+  m_EditorClassIdentifier:
+  id: 81
   starNumber: 1
   characterName: Saibaman
   role: 0
@@ -34,7 +34,11 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 17603ebe3497346caa024b9133fd0638, type: 2}
   specialAttackAnimation:
   - name: Huge Fist
-    description: A huge fist !
     animation: {fileID: 11400000, guid: 5daae4aa03ae546f9a69d9a45b002cea, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit:
+  sameCharacters: []
   synergies: []
+  defaultPassive: {fileID: 0}

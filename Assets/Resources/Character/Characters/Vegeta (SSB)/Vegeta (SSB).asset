@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Vegeta (SSB)
-  m_EditorClassIdentifier: 
-  id: 101
+  m_EditorClassIdentifier:
+  id: 106
   starNumber: 1
   characterName: Vegeta (SSB)
   role: 0
@@ -34,11 +34,11 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: d44928e4208576441b14050e4d24682a, type: 2}
   specialAttackAnimation:
   - name: Charged Kikoha
-    description: No description
     animation: {fileID: 11400000, guid: 22416ee0c42bfca439a617289fdde94e, type: 2}
   winPoseAnimation: {fileID: 11400000, guid: 378900aa1449b1b4dbff260bb5ac0d52, type: 2}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 11400000, guid: 0875c67b3acfc094b9a106f94cb6dd4c, type: 2}
+  spriteCredit:
   sameCharacters:
   - {fileID: 11400000, guid: 0875c67b3acfc094b9a106f94cb6dd4c, type: 2}
   - {fileID: 11400000, guid: 88cfd0fd93d384ebea0ba068ea12b6e6, type: 2}
@@ -49,3 +49,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
   - {fileID: 11400000, guid: e05f1db48fa7147409c98a17e75b6c65, type: 2}
   - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}
+  defaultPassive: {fileID: 0}

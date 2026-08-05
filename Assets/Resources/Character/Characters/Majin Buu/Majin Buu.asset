@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Majin Buu
-  m_EditorClassIdentifier: 
-  id: 21
+  m_EditorClassIdentifier:
+  id: 75
   starNumber: 1
   characterName: Majin Buu
   role: 0
@@ -34,7 +34,6 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 486e4c0bb62ea47f68e7ce449e58430e, type: 2}
   specialAttackAnimation:
   - name: Garic Canon
-    description: A powerful ki waves shot from both hands.
     animation: {fileID: 11400000, guid: 99e5d617ea0704d3a8abf74bdef4374d, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
@@ -43,3 +42,4 @@ MonoBehaviour:
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
+  defaultPassive: {fileID: 0}

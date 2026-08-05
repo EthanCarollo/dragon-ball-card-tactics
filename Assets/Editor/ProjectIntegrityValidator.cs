@@ -71,5 +71,183 @@ public static class ProjectIntegrityValidator
                   $"Serialized reference validation failed with {missingReferences.Count} missing GUID(s).");
           }
       }
+
+      [MenuItem("Tools/Project/Validate Runtime Data")]
+      public static void ValidateRuntimeData()
+      {
+          AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport);
+
+          var errors = new List<string>();
+          ValidateCards(Resources.Load<CardDatabase>("CardDatabase"), errors);
+          ValidateCharacters(Resources.Load<CharacterDatabase>("CharacterDatabase"), errors);
+          ValidateFights(Resources.Load<FightDatabase>("FightDatabase"), errors);
+
+          foreach (var error in errors)
+          {
+              Debug.LogError(error);
+          }
+
+          Debug.Log($"Runtime data validation complete. Errors: {errors.Count}.");
+          if (errors.Count > 0)
+          {
+              throw new InvalidOperationException(
+                  $"Runtime data validation failed with {errors.Count} error(s).");
+          }
+      }
+
+      private static void ValidateCards(CardDatabase database, ICollection<string> errors)
+      {
+          if (database == null)
+          {
+              errors.Add("CardDatabase is missing from Resources.");
+              return;
+          }
+
+          ValidateUniqueAssets(database.cards, "CardDatabase.cards", errors);
+          ValidateUniqueAssets(database.selectableCards, "CardDatabase.selectableCards", errors);
+          ValidateUniqueAssets(database.playerCards, "CardDatabase.playerCards", errors);
+
+          foreach (var card in database.cards ?? Array.Empty<Card>())
+          {
+              if (card == null)
+              {
+                  continue;
+              }
+
+              if (card.manaCost < 0)
+              {
+                  errors.Add($"Card '{card.name}' has a negative mana cost.");
+              }
+
+              if (card is CharacterCard characterCard && characterCard.character == null)
+              {
+                  errors.Add($"Character card '{card.name}' has no character assigned.");
+              }
+
+              if (card is TransformationCard transformationCard)
+              {
+                  if (transformationCard.transformations == null || transformationCard.transformations.Length == 0)
+                  {
+                      errors.Add($"Transformation card '{card.name}' has no transformation configured.");
+                      continue;
+                  }
+
+                  foreach (var transformation in transformationCard.transformations)
+                  {
+                      if (transformation == null || transformation.character == null)
+                      {
+                          errors.Add($"Transformation card '{card.name}' has a missing source character.");
+                          continue;
+                      }
+
+                      if (transformation.transformation == null ||
+                          transformation.transformation.newCharacterData == null)
+                      {
+                          errors.Add(
+                              $"Transformation card '{card.name}' for '{transformation.character.characterName}' " +
+                              "has no destination character.");
+                      }
+                  }
+              }
+          }
+      }
+
+      private static void ValidateCharacters(CharacterDatabase database, ICollection<string> errors)
+      {
+          if (database == null)
+          {
+              errors.Add("CharacterDatabase is missing from Resources.");
+              return;
+          }
+
+          ValidateUniqueAssets(database.characterDatas, "CharacterDatabase.characterDatas", errors);
+          var ids = new HashSet<int>();
+          foreach (var character in database.characterDatas ?? Array.Empty<CharacterData>())
+          {
+              if (character == null)
+              {
+                  continue;
+              }
+
+              if (!ids.Add(character.id))
+              {
+                  errors.Add($"Character '{character.characterName}' reuses ID {character.id}.");
+              }
+
+              if (string.IsNullOrWhiteSpace(character.characterName))
+              {
+                  errors.Add("A CharacterData asset has no character name.");
+              }
+
+              if (character.characterPrefab == null)
+              {
+                  errors.Add($"Character '{character.characterName}' has no character prefab.");
+              }
+          }
+      }
+
+      private static void ValidateFights(FightDatabase database, ICollection<string> errors)
+      {
+          if (database == null)
+          {
+              errors.Add("FightDatabase is missing from Resources.");
+              return;
+          }
+
+          ValidateUniqueAssets(database.fights, "FightDatabase.fights", errors);
+          foreach (var fight in database.fights ?? Array.Empty<Fight>())
+          {
+              if (fight == null)
+              {
+                  continue;
+              }
+
+              if (fight.opponents == null || fight.opponents.Length == 0)
+              {
+                  errors.Add($"Fight '{fight.name}' has no opponents.");
+                  continue;
+              }
+
+              var positions = new HashSet<Vector2Int>();
+              foreach (var opponent in fight.opponents)
+              {
+                  if (opponent == null || opponent.characterData == null)
+                  {
+                      errors.Add($"Fight '{fight.name}' has an opponent without character data.");
+                      continue;
+                  }
+
+                  if (!positions.Add(opponent.position))
+                  {
+                      errors.Add($"Fight '{fight.name}' has multiple opponents at {opponent.position}.");
+                  }
+
+                  if (opponent.position.x < 0 || opponent.position.x >= GameManager.BoardWidth ||
+                      opponent.position.y < 0 || opponent.position.y >= GameManager.BoardHeight)
+                  {
+                      errors.Add($"Fight '{fight.name}' places '{opponent.characterData.characterName}' outside the board.");
+                  }
+              }
+          }
+      }
+
+      private static void ValidateUniqueAssets<T>(IEnumerable<T> assets, string fieldName, ICollection<string> errors)
+          where T : UnityEngine.Object
+      {
+          var seen = new HashSet<T>();
+          foreach (var asset in assets ?? Array.Empty<T>())
+          {
+              if (asset == null)
+              {
+                  errors.Add($"{fieldName} contains a null entry.");
+                  continue;
+              }
+
+              if (!seen.Add(asset))
+              {
+                  errors.Add($"{fieldName} contains duplicate asset '{asset.name}'.");
+              }
+          }
+      }
   }
 #endif

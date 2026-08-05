@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Frieza Soldier
-  m_EditorClassIdentifier: 
-  id: 45
+  m_EditorClassIdentifier:
+  id: 38
   starNumber: 1
   characterName: Frieza Soldier
   role: 0
@@ -34,8 +34,11 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 37af010a9d7544d5481ed4f73d137533, type: 2}
   specialAttackAnimation:
   - name: Multiple attacks
-    description: Launch multiple attacks on multiple enemies
     animation: {fileID: 11400000, guid: 06d5bc12b34e34132a19be334ac642ba, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit:
+  sameCharacters: []
   synergies: []
+  defaultPassive: {fileID: 0}

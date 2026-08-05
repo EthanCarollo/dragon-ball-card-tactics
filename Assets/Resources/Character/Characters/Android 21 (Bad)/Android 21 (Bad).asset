@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Android 21 (Bad)
-  m_EditorClassIdentifier: 
-  id: 6
+  m_EditorClassIdentifier:
+  id: 7
   starNumber: 1
   characterName: Android 21 (Bad)
   role: 0
@@ -34,11 +34,11 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 9428eafe1a62e62489faa7f090050fd6, type: 2}
   specialAttackAnimation:
   - name: 'Kamehameha '
-    description: Fires a Kamehameha forward.
     animation: {fileID: 11400000, guid: 8b7814fbfb5b8324e9ddc461445c038e, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 0}
+  spriteCredit:
   sameCharacters:
   - {fileID: 11400000, guid: 12084a8006bfe504fa66250ef4072a91, type: 2}
   synergies:
@@ -46,3 +46,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4ba1bf47f6be1489fb5be013c0e05f1e, type: 2}
   - {fileID: 11400000, guid: 4c06df1b7d77047398c15d5152c8ec1b, type: 2}
   - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
+  defaultPassive: {fileID: 0}

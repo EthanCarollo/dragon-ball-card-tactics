@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Salza
-  m_EditorClassIdentifier: 
-  id: 36
+  m_EditorClassIdentifier:
+  id: 83
   starNumber: 1
   characterName: Salza
   role: 0
@@ -34,8 +34,12 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 3b5ba1a418c6449aca350c9640fe74cd, type: 2}
   specialAttackAnimation:
   - name: Ki Blast
-    description: The most basic form of energy blast.
     animation: {fileID: 11400000, guid: d9484190d964043a0a1c590324c93610, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit:
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: 3783c350991614099bfa12186d81ccd3, type: 2}
+  defaultPassive: {fileID: 0}

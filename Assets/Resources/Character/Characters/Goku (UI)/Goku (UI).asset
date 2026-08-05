@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku (UI)
-  m_EditorClassIdentifier: 
-  id: 57
+  m_EditorClassIdentifier:
+  id: 61
   starNumber: 1
   characterName: Goku (UI)
   role: 0
@@ -34,11 +34,11 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: eef0fb8a0f1094dc8bcebabef3ef2208, type: 2}
   specialAttackAnimation:
   - name: Special
-    description: Attack multiple enemies
     animation: {fileID: 11400000, guid: 97ccaf4207bf1429cb57ebf7fa7a91bd, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
   baseCharacter: {fileID: 11400000, guid: d2a7350768697bc4a9949eb5880349e1, type: 2}
+  spriteCredit:
   sameCharacters:
   - {fileID: 11400000, guid: 9cfac1c9f06f44a5bba686fca9b53cc3, type: 2}
   - {fileID: 11400000, guid: 8c612c643af604c4ba71d5a93fe524c8, type: 2}
@@ -53,3 +53,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d8f72c11ea6754e68bec83ce4ee1f21d, type: 2}
   - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}
   - {fileID: 11400000, guid: e05f1db48fa7147409c98a17e75b6c65, type: 2}
+  defaultPassive: {fileID: 0}

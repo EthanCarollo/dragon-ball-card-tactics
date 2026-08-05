@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Vegeta (Majin)
-  m_EditorClassIdentifier: 
-  id: 99
+  m_EditorClassIdentifier:
+  id: 116
   starNumber: 4
   characterName: Vegeta (Majin)
   role: 0
@@ -34,11 +34,13 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 2ce6ac6e3df90d94896d0e7ff17264c0, type: 2}
   specialAttackAnimation:
   - name: Super Kikoha
-    description: Huge Kikoha !
     animation: {fileID: 11400000, guid: ef71a7aa0aaaec547ac00c31def2145a, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit:
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: 4ba1bf47f6be1489fb5be013c0e05f1e, type: 2}
   - {fileID: 11400000, guid: e05f1db48fa7147409c98a17e75b6c65, type: 2}
+  defaultPassive: {fileID: 0}

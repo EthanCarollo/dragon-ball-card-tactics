@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Turles (Metal)
-  m_EditorClassIdentifier: 
-  id: 29
+  m_EditorClassIdentifier:
+  id: 101
   starNumber: 3
   characterName: Turles (Metal)
   role: 0
@@ -34,7 +34,6 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: a7432993f3a184222ad6c3cd6382a795, type: 2}
   specialAttackAnimation:
   - name: Super Kikoha
-    description: 
     animation: {fileID: 11400000, guid: 9395cbd758be04a03bfe3da576a3fc1b, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
@@ -43,3 +42,4 @@ MonoBehaviour:
   sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: d650a485b7943417bb2b531cc2a4ba90, type: 2}
+  defaultPassive: {fileID: 0}

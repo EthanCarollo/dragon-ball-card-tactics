@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Whis
-  m_EditorClassIdentifier: 
-  id: 44
+  m_EditorClassIdentifier:
+  id: 117
   starNumber: 5
   characterName: Whis
   role: 2
@@ -34,8 +34,6 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: 1e4c5a2fe13164a6399694e5b8f96a63, type: 2}
   specialAttackAnimation:
   - name: Speed Attack !
-    description: Increase the attack speed of every character player by 0.4 for 6
-      seconds.
     animation: {fileID: 11400000, guid: 44ae3f46e94864697840764b43ef5838, type: 2}
   winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
@@ -45,3 +43,4 @@ MonoBehaviour:
   synergies:
   - {fileID: 11400000, guid: b41102e6483034824b88d65afa73abe9, type: 2}
   - {fileID: 11400000, guid: 92d8b234a8cd84d83823a4c703abe5a9, type: 2}
+  defaultPassive: {fileID: 0}

@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Goku (GT Damaged)
-  m_EditorClassIdentifier: 
-  id: 45
+  m_EditorClassIdentifier:
+  id: 52
   starNumber: 1
   characterName: Goku (GT Damaged)
   role: 0
@@ -34,9 +34,12 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: f8cce229fb7901549ae8902f7e391a26, type: 2}
   specialAttackAnimation:
   - name: Multiple attacks
-    description: Launch multiple attacks on multiple enemies
     animation: {fileID: 11400000, guid: 56ad7575243bc7b45b89cf815891c033, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit:
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
+  defaultPassive: {fileID: 0}

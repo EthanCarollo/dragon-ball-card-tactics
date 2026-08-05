@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Shugesh
-  m_EditorClassIdentifier: 
-  id: 16
+  m_EditorClassIdentifier:
+  id: 84
   starNumber: 1
   characterName: Shugesh
   role: 0
@@ -34,10 +34,13 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: f02a4b555be8e704fa18f3cd6b12ea36, type: 2}
   specialAttackAnimation:
   - name: Multiple attack
-    description: 
     animation: {fileID: 11400000, guid: 2a485c4c6023099499b4e2883fe7c8d5, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
-  sameCharacter: []
+  baseCharacter: {fileID: 0}
+  spriteCredit:
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
   - {fileID: 11400000, guid: 93bde18f36b384f3ca211431ececea40, type: 2}
+  defaultPassive: {fileID: 0}

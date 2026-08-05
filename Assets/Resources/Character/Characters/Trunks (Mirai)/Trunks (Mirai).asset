@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65bbf8816fec4f9f9c225a4c8b8dad27, type: 3}
   m_Name: Trunks (Mirai)
-  m_EditorClassIdentifier: 
-  id: 21
+  m_EditorClassIdentifier:
+  id: 94
   starNumber: 1
   characterName: Trunks (Mirai)
   role: 0
@@ -34,9 +34,13 @@ MonoBehaviour:
   criticalAttackAnimation: {fileID: 11400000, guid: e9c35feb08c8c4ae58d1f42dc95e3717, type: 2}
   specialAttackAnimation:
   - name: Garic Canon
-    description: A powerful ki waves shot from both hands.
     animation: {fileID: 11400000, guid: 17414f4f8ca6b485fbfe6b50792f3cf3, type: 2}
+  winPoseAnimation: {fileID: 0}
   deadAnimation: {fileID: 0}
+  baseCharacter: {fileID: 0}
+  spriteCredit:
+  sameCharacters: []
   synergies:
   - {fileID: 11400000, guid: 09b71321303674dfb884845c6d6a9493, type: 2}
   - {fileID: 11400000, guid: f0b4f5f9e5bfe451bbcf7381256adacd, type: 2}
+  defaultPassive: {fileID: 0}
