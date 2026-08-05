@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class FightBoard : Board
 {
@@ -19,17 +18,23 @@ public class FightBoard : Board
         state = new DefaultBoardState(this);
         // state = new FightBoardState(this);
         BoardArray = new GameObject[GameManager.BoardWidth, GameManager.BoardHeight];
-        BoardGameUiManager.Instance.RefreshUI();
+        BoardGameUiManager.Instance?.RefreshUI();
         CreateBoard(GameManager.Instance.boardCharacterArray);
     }
 
     private void Update()
     {
-        state.Update();
+        state?.Update();
     }
 
     public void UpdateState(BoardState newState)
     {
+        if (newState == null)
+        {
+            Debug.LogWarning("Cannot update the fight board with a null state.");
+            return;
+        }
+
         state = newState;
         newState.Start();
     }
@@ -51,6 +56,12 @@ public class FightBoard : Board
     
     public override void CreateBoard(BoardObject[,] boardCharacterArray)
     {
+        if (tilePrefab == null)
+        {
+            Debug.LogError("Cannot create the fight board: tile prefab is missing.");
+            return;
+        }
+
         if (BoardArray == null ||
             BoardArray.GetLength(0) != GameManager.BoardWidth ||
             BoardArray.GetLength(1) != GameManager.BoardHeight)
@@ -106,7 +117,7 @@ public class FightBoard : Board
                 try {
                     if (boardObject is BoardCharacter character)
                     {
-                        if (character.character.IsDead()) continue;
+                        if (character.character == null || character.character.IsDead()) continue;
                         
                         var key = (character, new Vector2Int(x, y));
                         activeKeys.Add(key);
@@ -123,7 +134,8 @@ public class FightBoard : Board
                     Debug.LogError(e);
                     if (boardObject is BoardCharacter character)
                     {
-                        Debug.Log("Exception when instantiating game object of character : " + character.character.GetName());
+                        Debug.Log("Exception when instantiating game object of character : " +
+                                  (character.character == null ? "<missing>" : character.character.GetName()));
                     }
                     else
                     {
@@ -149,24 +161,60 @@ public class FightBoard : Board
     
     private GameObject InstantiateCharacter(BoardCharacter character, Vector3 position)
     {
-        GameObject characterGameObject = Instantiate(character.character.GetCharacterData().characterPrefab, position, Quaternion.identity, boardObjectContainer);
+        if (character == null || character.character == null)
+        {
+            return null;
+        }
+
+        var characterData = character.character.GetCharacterData();
+        if (characterData == null || characterData.characterPrefab == null)
+        {
+            Debug.LogWarning("Cannot instantiate a board character without character data or prefab.");
+            return null;
+        }
+
+        GameObject characterGameObject = Instantiate(
+            characterData.characterPrefab,
+            position,
+            Quaternion.identity,
+            boardObjectContainer);
 
         // Configure GameObject
-        var charPrefabScript = characterGameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>();
+        var charPrefabScript = characterGameObject.GetComponentInChildren<CharacterPrefabScript>();
+        if (charPrefabScript == null)
+        {
+            Debug.LogError($"Character prefab '{characterData.characterPrefab.name}' has no CharacterPrefabScript component.");
+            Destroy(characterGameObject);
+            return null;
+        }
+
         charPrefabScript.assignedBoard = this;
         charPrefabScript.boardCharacter = character;
         charPrefabScript.position = new Vector2Int((int)(position.x / _tileWidth), (int)(position.y / _tileHeight));
-        charPrefabScript.spriteSocle.color = new Color(
-            character.character.isPlayerCharacter ? 0f : 0.7f, 0f, character.character.isPlayerCharacter ? 0.7f : 0f, 0.3f);
-        charPrefabScript.spriteRenderer.sprite = character.character.GetCharacterData().characterSprite;
-        charPrefabScript.spriteRenderer.sortingOrder = 4;
-        charPrefabScript.spriteRenderer.flipX = !character.character.isPlayerCharacter;
+        if (charPrefabScript.spriteSocle != null)
+        {
+            charPrefabScript.spriteSocle.color = new Color(
+                character.character.isPlayerCharacter ? 0f : 0.7f,
+                0f,
+                character.character.isPlayerCharacter ? 0.7f : 0f,
+                0.3f);
+        }
+        if (charPrefabScript.spriteRenderer != null)
+        {
+            charPrefabScript.spriteRenderer.sprite = characterData.characterSprite;
+            charPrefabScript.spriteRenderer.sortingOrder = 4;
+            charPrefabScript.spriteRenderer.flipX = !character.character.isPlayerCharacter;
+        }
 
         character.ResetUiCache();
+        character.SetCharacterPrefabScript(charPrefabScript);
         character.SetGameObject(characterGameObject);
         character.SetBoard(this);
         character.SetCharacterSlider();
-        character.PlayAnimation(SpriteDatabase.Instance.appearAnimation);
+        if (SpriteDatabase.Instance != null)
+        {
+            character.PlayAnimation(SpriteDatabase.Instance.appearAnimation);
+        }
         
         if (GlobalGameConfig.Instance.debug)
         {
@@ -178,7 +226,22 @@ public class FightBoard : Board
 
     public override bool AddCharacterFromBoard(BoardCharacter character, Vector2Int position)
     {
-        GameManager.Instance.boardCharacterArray[position.x, position.y] = character;
+        var board = GameManager.Instance.boardCharacterArray;
+        if (character == null || board == null ||
+            position.x < 0 || position.x >= board.GetLength(0) ||
+            position.y < 0 || position.y >= board.GetLength(1))
+        {
+            Debug.LogWarning("Cannot add a character outside the fight board bounds.");
+            return false;
+        }
+
+        if (board[position.x, position.y] != null)
+        {
+            Debug.LogWarning("Cannot add a character to an occupied board position.");
+            return false;
+        }
+
+        board[position.x, position.y] = character;
         return true;
     }
     

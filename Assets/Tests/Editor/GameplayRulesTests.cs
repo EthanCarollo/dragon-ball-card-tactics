@@ -63,6 +63,30 @@ public class GameplayRulesTests
         Assert.That(grid[1, 0], Is.SameAs(character));
     }
 
+    [Test]
+    public void SwappingCharactersPreservesBothBoardOccupants()
+    {
+        var grid = new BoardObject[2, 1];
+        var firstCharacter = new TestBoardObject();
+        var secondCharacter = new TestBoardObject();
+        grid[0, 0] = firstCharacter;
+        grid[1, 0] = secondCharacter;
+
+        Assert.That(BoardUtils.SwapCharacters(grid, firstCharacter, new Vector2Int(1, 0)), Is.True);
+        Assert.That(grid[0, 0], Is.SameAs(secondCharacter));
+        Assert.That(grid[1, 0], Is.SameAs(firstCharacter));
+    }
+
+    [Test]
+    public void PathfindingRejectsOutOfBoundsPositions()
+    {
+        var grid = new BoardObject[2, 2];
+
+        Assert.That(
+            new AStarPathfinding(grid).FindPath(new Vector2Int(-1, 0), new Vector2Int(1, 1)),
+            Is.Null);
+    }
+
     private sealed class TestBoardObject : BoardObject
     {
         public override BoardObject Clone()

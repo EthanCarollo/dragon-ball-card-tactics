@@ -5,6 +5,11 @@ public static class BoardUtils
 {
     public static Vector2Int GetCharacterPosition(BoardObject[,] board, BoardObject character)
     {
+        if (board == null || character == null)
+        {
+            return new Vector2Int(-1, -1);
+        }
+
         for (int x = 0; x < board.GetLength(0); x++)
         {
             for (int y = 0; y < board.GetLength(1); y++)
@@ -20,6 +25,12 @@ public static class BoardUtils
 
     public static bool MoveCharacter(BoardObject[,] board, BoardObject character, Vector2Int targetPosition)
     {
+        if (board == null || character == null)
+        {
+            Debug.LogWarning("Cannot move a null character or on a null board.");
+            return false;
+        }
+
         Vector2Int currentPosition = BoardUtils.GetCharacterPosition(board, character);
         if (currentPosition.x < 0 || currentPosition.y < 0)
         {
@@ -41,9 +52,40 @@ public static class BoardUtils
         board[currentPosition.x, currentPosition.y] = null;
         return true; 
     }
+
+    public static bool SwapCharacters(BoardObject[,] board, BoardObject firstCharacter, Vector2Int targetPosition)
+    {
+        if (board == null || firstCharacter == null)
+        {
+            Debug.LogWarning("Cannot swap a null character or on a null board.");
+            return false;
+        }
+
+        Vector2Int firstPosition = GetCharacterPosition(board, firstCharacter);
+        if (!IsInBounds(board, firstPosition) || !IsInBounds(board, targetPosition))
+        {
+            Debug.LogWarning("Cannot swap characters outside the board bounds.");
+            return false;
+        }
+
+        if (firstPosition == targetPosition)
+        {
+            return true;
+        }
+
+        BoardObject secondCharacter = board[targetPosition.x, targetPosition.y];
+        board[targetPosition.x, targetPosition.y] = firstCharacter;
+        board[firstPosition.x, firstPosition.y] = secondCharacter;
+        return true;
+    }
     
     public static Vector2Int? GetFirstEmptyAround(BoardObject[,] boardCharacters, BoardObject fromCharacter, BoardObject toCharacter, int range)
     {
+        if (boardCharacters == null || fromCharacter == null || toCharacter == null || range < 0)
+        {
+            return null;
+        }
+
         Vector2Int fromPosition = GetCharacterPosition(boardCharacters, fromCharacter);
         Vector2Int toPosition = GetCharacterPosition(boardCharacters, toCharacter);
         var aStar = new AStarPathfinding(boardCharacters);
@@ -94,6 +136,11 @@ public static class BoardUtils
 
     public static bool AddCharacter(BoardObject[] board, BoardCharacter character)
     {
+        if (board == null || character == null)
+        {
+            return false;
+        }
+
         for (int i = 0; i < board.Length; i++)
         {
             if (board[i] == null)
@@ -167,6 +214,11 @@ public static class BoardUtils
 
     public static Vector2Int FindPosition<T>(T[,] array, T target)
     {
+        if (array == null)
+        {
+            return new Vector2Int(-1, -1);
+        }
+
         for (int row = 0; row < array.GetLength(0); row++)
         {
             for (int col = 0; col < array.GetLength(1); col++)
@@ -178,5 +230,11 @@ public static class BoardUtils
             }
         }
         return new Vector2Int(-1, -1); // Élément non trouvé
+    }
+
+    private static bool IsInBounds<T>(T[,] board, Vector2Int position)
+    {
+        return position.x >= 0 && position.x < board.GetLength(0) &&
+               position.y >= 0 && position.y < board.GetLength(1);
     }
 }

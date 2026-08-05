@@ -1,5 +1,4 @@
 ﻿using System;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
@@ -22,9 +21,18 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
 
     public void Start()
     {
-        effectText.text = "";
-        startMaterial = spriteRenderer.material;
-        boardCharacter.PlayAnimation(SpriteDatabase.Instance.appearAnimation);
+        if (effectText != null)
+        {
+            effectText.text = "";
+        }
+        if (spriteRenderer != null)
+        {
+            startMaterial = spriteRenderer.material;
+        }
+        if (boardCharacter != null && SpriteDatabase.Instance != null)
+        {
+            boardCharacter.PlayAnimation(SpriteDatabase.Instance.appearAnimation);
+        }
     }
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -45,31 +53,48 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
 
     public bool IsValidBoardCharacter()
     {
-        return boardCharacter != null && boardCharacter.character.IsDead() == false;
+        return boardCharacter != null && boardCharacter.character != null && boardCharacter.character.IsDead() == false;
     }
 
     public void ApplyOutlineMaterial(Color outlineColor)
     {
+        if (spriteRenderer == null || ShadersDatabase.Instance == null ||
+            ShadersDatabase.Instance.outlineMaterial == null)
+        {
+            return;
+        }
+
         var newMaterial = new Material(ShadersDatabase.Instance.outlineMaterial);
         spriteRenderer.material = newMaterial;
         spriteRenderer.material.SetColor("_OutlineColor", outlineColor);
-        spriteRenderer.material.SetTexture("_MainTex", spriteRenderer.sprite.texture);
+        if (spriteRenderer.sprite != null)
+        {
+            spriteRenderer.material.SetTexture("_MainTex", spriteRenderer.sprite.texture);
+        }
     }
 
     public void ResetMaterial()
     {
-        spriteRenderer.material = startMaterial;
+        if (spriteRenderer != null && startMaterial != null)
+        {
+            spriteRenderer.material = startMaterial;
+        }
     }
 
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        BoardGameUiManager.Instance.characterBoardUi.ShowCharacterBoard(boardCharacter.character);
+        if (IsValidBoardCharacter() && BoardGameUiManager.Instance != null &&
+            BoardGameUiManager.Instance.characterBoardUi != null)
+        {
+            BoardGameUiManager.Instance.characterBoardUi.ShowCharacterBoard(boardCharacter.character);
+        }
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        if (FightBoard.Instance.IsFighting() || boardCharacter.character.isPlayerCharacter == false)
+        if (!IsValidBoardCharacter() || FightBoard.Instance == null || FightBoard.Instance.IsFighting() ||
+            boardCharacter.character.isPlayerCharacter == false || Camera.main == null)
         {
             return;
         }
@@ -88,6 +113,11 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
         }
         else
         {
+            if (Camera.main == null)
+            {
+                return;
+            }
+
             Vector3 mousePosition = Input.mousePosition;
             mousePosition.z = 10f; 
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -103,7 +133,7 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
                 }
                 CharacterPrefabScript characterPrefab = hit.collider.GetComponent<CharacterPrefabScript>();
                 if (characterPrefab != null && characterPrefab.position.x <= 4){
-                    LeanTween.move(CharacterDragInfo.draggedObject, characterPrefab.position, 0.1f).setEaseOutSine();
+                    LeanTween.move(CharacterDragInfo.draggedObject, characterPrefab.transform.position, 0.1f).setEaseOutSine();
                     return;
                 }
             }
@@ -113,13 +143,20 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (FightBoard.Instance.IsFighting() || boardCharacter.character.isPlayerCharacter == false)
+        if (!IsValidBoardCharacter() || FightBoard.Instance == null || FightBoard.Instance.IsFighting() ||
+            boardCharacter.character.isPlayerCharacter == false)
         {
             return;
         }
         if (CharacterDragInfo.draggedObject != null)
         {
-            MonoBehaviour.DestroyImmediate(CharacterDragInfo.draggedObject);
+            MonoBehaviour.Destroy(CharacterDragInfo.draggedObject);
+            CharacterDragInfo.draggedObject = null;
+            if (Camera.main == null || GameManager.Instance.boardCharacterArray == null)
+            {
+                return;
+            }
+
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
             
@@ -129,24 +166,29 @@ public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragH
                 
                 if (tileScript != null && tileScript.position.x <= 4)
                 {
-                    var characterFrom =
-                        GameManager.Instance.boardCharacterArray[tileScript.position.x, tileScript.position.y];
-                    GameManager.Instance.boardCharacterArray[tileScript.position.x, tileScript.position.y] = boardCharacter;
-                    GameManager.Instance.boardCharacterArray[position.x, position.y] = characterFrom;
-                    boardCharacter.board.CreateBoard(GameManager.Instance.boardCharacterArray);
+                    SwapCharacterTo(tileScript.position);
                 }
 
                 CharacterPrefabScript characterPrefab = hit.collider.GetComponent<CharacterPrefabScript>();
                 
                 if (characterPrefab != null && characterPrefab.position.x <= 4)
                 {
-                    var characterFrom =
-                        GameManager.Instance.boardCharacterArray[characterPrefab.position.x, characterPrefab.position.y];
-                    GameManager.Instance.boardCharacterArray[characterPrefab.position.x, characterPrefab.position.y] = boardCharacter;
-                    GameManager.Instance.boardCharacterArray[position.x, position.y] = characterFrom;
-                    boardCharacter.board.CreateBoard(GameManager.Instance.boardCharacterArray);
+                    SwapCharacterTo(characterPrefab.position);
                 }
             }
+        }
+    }
+
+    private void SwapCharacterTo(Vector2Int targetPosition)
+    {
+        if (boardCharacter == null || boardCharacter.board == null)
+        {
+            return;
+        }
+
+        if (BoardUtils.SwapCharacters(GameManager.Instance.boardCharacterArray, boardCharacter, targetPosition))
+        {
+            boardCharacter.board.CreateBoard(GameManager.Instance.boardCharacterArray);
         }
     }
 }

@@ -11,12 +11,27 @@ public class AStarPathfinding
     public AStarPathfinding(BoardObject[,] grid)
     {
         _grid = grid;
-        _width = grid.GetLength(0);
-        _height = grid.GetLength(1);
+        _width = grid?.GetLength(0) ?? 0;
+        _height = grid?.GetLength(1) ?? 0;
     }
 
     public List<Vector2Int> FindPath(Vector2Int start, Vector2Int end)
     {
+        if (_grid == null || !IsInBounds(start) || !IsInBounds(end))
+        {
+            return null;
+        }
+
+        if (start == end)
+        {
+            return new List<Vector2Int>();
+        }
+
+        if (!IsWalkable(end))
+        {
+            return null;
+        }
+
         Node startNode = new Node(start, null);
         Node endNode = new Node(end, null);
         startNode.GCost = 0; // Set start node GCost to 0
@@ -108,8 +123,9 @@ public class AStarPathfinding
 
     private bool IsWalkable(Vector2Int position)
     {
-        return _grid[position.x, position.y] == null; 
+        return IsInBounds(position) && _grid[position.x, position.y] == null;
     }
+
 
     private int GetDistance(Node a, Node b)
     {
