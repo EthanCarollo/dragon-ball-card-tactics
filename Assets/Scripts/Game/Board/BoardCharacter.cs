@@ -129,6 +129,7 @@ public class BoardCharacter : BoardObject
 
     public void Dead()
     {
+        ReleaseBoardPosition();
         state.Dead();
     }
 

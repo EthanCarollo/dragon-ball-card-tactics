@@ -25,15 +25,28 @@ public abstract class BoardObject
 
     public void RemoveFromBoard()
     {
-        GameObject.Destroy(gameObject);
-        if (this.board is FightBoard fightBoard)
+        if (gameObject != null)
         {
-            for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
+            GameObject.Destroy(gameObject);
+        }
+
+        ReleaseBoardPosition();
+    }
+
+    public void ReleaseBoardPosition()
+    {
+        if (board is not FightBoard || GameManager.Instance.boardCharacterArray == null)
+        {
+            return;
+        }
+
+        for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
+        {
+            for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
             {
-                for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
+                if (GameManager.Instance.boardCharacterArray[x, y] == this)
                 {
-                    BoardObject boardObject = GameManager.Instance.boardCharacterArray[x, y];
-                    if (boardObject == this) GameManager.Instance.boardCharacterArray[x, y] = null;
+                    GameManager.Instance.boardCharacterArray[x, y] = null;
                 }
             }
         }
