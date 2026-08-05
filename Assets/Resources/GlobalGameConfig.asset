@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8901d59f5984c476ea5c54a8cbd99ef1, type: 3}
   m_Name: GlobalGameConfig
   m_EditorClassIdentifier: 
-  debug: 1
+  debug: 0

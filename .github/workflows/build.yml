@@ -56,6 +56,7 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           targetPlatform: ${{ matrix.targetPlatform }}
+          unityVersion: 6000.5.2f1
           buildName: "Dragon Ball Card Tactics" 
           versioning: Tag
 
