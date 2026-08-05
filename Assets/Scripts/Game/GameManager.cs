@@ -8,7 +8,6 @@ using UnityEngine.Tilemaps;
 public class GameManager
 {
     private static GameManager _instance;
-    public static bool DebugMode = true;
     public static int BoardWidth = 11;
     public static int BoardHeight = 7;
     public float elapsedTime = 0f;

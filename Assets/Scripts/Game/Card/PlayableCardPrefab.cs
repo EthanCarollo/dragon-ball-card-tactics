@@ -37,8 +37,6 @@ public class PlayableCardPrefab : CardPrefab, IBeginDragHandler, IDragHandler, I
             return;
         }
 
-            // TODO : Show context menu
-            Debug.Log("Right click");
             if(contextCardMenuObject != null){
                 var existingRectTransform = contextCardMenuObject.GetComponent<RectTransform>();
                 if (existingRectTransform != null)

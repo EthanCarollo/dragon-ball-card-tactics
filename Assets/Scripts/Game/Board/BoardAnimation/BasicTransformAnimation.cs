@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections;
 using System;
-using System.Security.Cryptography;
 
 
 [CreateAssetMenu(fileName = "New Basic Transform Animation", menuName = "BoardAnimation/BasicTransformAnimation")]
