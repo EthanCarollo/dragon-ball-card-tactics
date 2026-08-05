@@ -62,7 +62,7 @@ public class CharacterDataUpdater : EditorWindow
             name = characterName;
         }
         
-        string path = $"Assets/Resources/Character/Character/{folder}/{name}.asset";
+        string path = $"Assets/Resources/Character/Characters/{folder}/{name}.asset";
         CharacterData character = AssetDatabase.LoadAssetAtPath<CharacterData>(path);
         
         if (character != null)
