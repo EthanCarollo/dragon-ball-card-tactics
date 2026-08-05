@@ -1,0 +1,22 @@
+{
+    "name": "DragonBallCardTactics.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "LeanTween",
+        "Coffee.UIEffect",
+        "MackySoft.SerializeReferenceExtensions",
+        "Unity.TextMeshPro",
+        "Unity.Cinemachine",
+        "Unity.InputSystem",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
