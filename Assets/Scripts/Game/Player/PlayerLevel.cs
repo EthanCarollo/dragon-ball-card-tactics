@@ -7,7 +7,12 @@ public class PlayerLevel {
     public int maxUnit = 4;
 
     public void AddExperience(int experience){
-        if (experience <= 0 || CurrentLevel >= MaxLevel){
+        if (experience <= 0)
+        {
+            return;
+        }
+
+        if (CurrentLevel >= MaxLevel){
             CurrentExperience = 100;
             MaxExperience = 100;
             return;
