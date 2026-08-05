@@ -73,7 +73,6 @@ public class CharacterContainer
         this.characterPassives = characterPassives;
         this.powerMultiplicator = powerMultiplicator;
         this.characterId = characterId;
-        this.actualHealth = GetCharacterMaxHealth();
 
         int additionalStars = Mathf.FloorToInt(powerMultiplicator - 1); // Ex: 3.0 → +2 étoiles
         float extraStarChance = powerMultiplicator - Mathf.Floor(powerMultiplicator);
@@ -87,6 +86,7 @@ public class CharacterContainer
         this.characterStar = Mathf.Clamp(starNumber, 1, 5);
 
         this.isPlayerCharacter = isPlayerCharacter;
+        this.actualHealth = GetCharacterMaxHealth();
     }
 
     public bool CanAddStar(){
@@ -94,8 +94,8 @@ public class CharacterContainer
     }
 
     public void AddStar(int starNumber = 1){
-        if(CanAddStar() == false) return;
-        characterStar += starNumber;
+        if (starNumber <= 0 || CanAddStar() == false) return;
+        characterStar = Mathf.Min(characterStar + starNumber, maxCharacterStar);
         this.actualHealth = this.GetCharacterMaxHealth();
         NotifyCharacterChanged();
         return;

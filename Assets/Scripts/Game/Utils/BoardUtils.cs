@@ -21,6 +21,12 @@ public static class BoardUtils
     public static bool MoveCharacter(BoardObject[,] board, BoardObject character, Vector2Int targetPosition)
     {
         Vector2Int currentPosition = BoardUtils.GetCharacterPosition(board, character);
+        if (currentPosition.x < 0 || currentPosition.y < 0)
+        {
+            Debug.LogWarning("Character is not present on the board.");
+            return false;
+        }
+
         if (targetPosition.x < 0 || targetPosition.x >= board.GetLength(0) || targetPosition.y < 0 || targetPosition.y >= board.GetLength(1))
         {
             Debug.LogWarning("Target position is out of bounds.");
@@ -171,6 +177,6 @@ public static class BoardUtils
                 }
             }
         }
-        return new Vector2Int(0, 0); // Élément non trouvé
+        return new Vector2Int(-1, -1); // Élément non trouvé
     }
 }

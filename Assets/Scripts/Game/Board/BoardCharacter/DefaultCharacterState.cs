@@ -32,7 +32,17 @@ public class DefaultCharacterState : BoardCharacterState
     private void FindTarget()
     {
         BoardObject[,] boardCharacters = GameManager.Instance.boardCharacterArray;
+        if (boardCharacters == null)
+        {
+            return;
+        }
+
         Vector2Int characterPosition = BoardUtils.GetCharacterPosition(boardCharacters, boardCharacter);
+        if (characterPosition.x < 0 || characterPosition.y < 0)
+        {
+            return;
+        }
+
         var aStar = new AStarPathfinding(boardCharacters);
         var pathLengthToTarget = 9999;
         for (int x = 0; x < boardCharacters.GetLength(0); x++)
@@ -57,7 +67,7 @@ public class DefaultCharacterState : BoardCharacterState
                         try
                         {
                             var path = aStar.FindPath(characterPosition, emptyPosition.Value);
-                            if (path == null && path.Count < 1)
+                            if (path == null || path.Count < 1)
                             {
                                 continue;
                             }
@@ -75,7 +85,11 @@ public class DefaultCharacterState : BoardCharacterState
                 }
             }
         }
-        BoardUtils.MoveCharacter(boardCharacters, boardCharacter, boardCharacter.nextPosition);
+
+        if (boardCharacter.nextPosition.x >= 0 && boardCharacter.nextPosition.y >= 0)
+        {
+            BoardUtils.MoveCharacter(boardCharacters, boardCharacter, boardCharacter.nextPosition);
+        }
     }
     
     private void MoveTowardsTarget()

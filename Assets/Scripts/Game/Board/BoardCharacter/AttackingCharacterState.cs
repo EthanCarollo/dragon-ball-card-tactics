@@ -33,15 +33,15 @@ public class AttackingCharacterState : BoardCharacterState
             return;
         }
 
-        if (characterTarget.character.IsDead())
+        if (characterTarget == null || characterTarget.character.IsDead())
         {
             boardCharacter.UpdateState(new DefaultCharacterState(boardCharacter));
             return;
         }
         timeSinceLastAttack += Time.deltaTime;
         // Attack only if the animation is idle or run
-        if (canAttack && boardCharacter.actualAnimation == boardCharacter.character.GetCharacterData().idleAnimation || 
-                boardCharacter.actualAnimation == boardCharacter.character.GetCharacterData().runAnimation )
+        if (canAttack && (boardCharacter.actualAnimation == boardCharacter.character.GetCharacterData().idleAnimation ||
+                boardCharacter.actualAnimation == boardCharacter.character.GetCharacterData().runAnimation))
         {
             if (boardCharacter.character.actualKi >= boardCharacter.character.GetCharacterMaxKi())
             {
