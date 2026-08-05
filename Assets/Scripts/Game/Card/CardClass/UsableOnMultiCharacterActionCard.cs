@@ -64,6 +64,11 @@ public class TransformationCard : Card
 
     public override bool CanUseCard()
     {
+        if (CardDatabase.Instance.IsTransformationCardProgressionAvailable(this) == false)
+        {
+            return false;
+        }
+
         
         var characterOnBoard = GameManager.Instance.GetCharactersOnBoard()
             .Where(cha => cha.character.isPlayerCharacter)

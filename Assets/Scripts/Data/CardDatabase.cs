@@ -1,7 +1,8 @@
+using System;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEditor;
-using Unity.VisualScripting;
 
 [CreateAssetMenu(fileName = "CardDatabase", menuName = "Card/CardDatabase")]
 public class CardDatabase : ScriptableObject
@@ -45,19 +46,153 @@ public class CardDatabase : ScriptableObject
         }
     }
 
-    public Card GetRandomCard(CardRarity rarity)
+    public Card GetRandomCard(CardRarity rarity, IEnumerable<Card> excludedCards = null)
     {
-        Debug.Log(rarity);
-        var filteredCards = cards.Where(card => card.rarity == rarity).ToArray();
+        var excludedCardSet = excludedCards == null
+            ? new HashSet<Card>()
+            : new HashSet<Card>(excludedCards.Where(card => card != null));
 
-        if (filteredCards.Length == 0)
+        var availableCards = GetRewardCards(excludedCardSet).ToList();
+        var filteredCards = availableCards.Where(card => card.rarity == rarity).ToList();
+
+        if (filteredCards.Count == 0)
+        {
+            // Keep the requested rarity whenever possible. If it is exhausted by
+            // the progression rules or the already displayed cards, fall back to
+            // the highest available lower rarity.
+            filteredCards = availableCards
+                .Where(card => card.rarity <= rarity)
+                .OrderByDescending(card => card.rarity)
+                .ToList();
+        }
+
+        if (filteredCards.Count == 0)
         {
             Debug.LogWarning($"No cards found with rarity: {rarity}");
             return null;
         }
 
-        // Get a random card from the filtered collection
-        return filteredCards[Random.Range(0, filteredCards.Length)];
+        return filteredCards[UnityEngine.Random.Range(0, filteredCards.Count)];
+    }
+
+    public bool IsTransformationCardProgressionAvailable(TransformationCard transformationCard)
+    {
+        if (transformationCard == null || transformationCard.transformations == null)
+        {
+            return false;
+        }
+
+        return GetPlayerCharacters().Any(character =>
+            transformationCard.transformations.Any(transformation =>
+                transformation != null &&
+                transformation.character == character.character.GetCharacterData() &&
+                transformationCard.manaCost == GetMinimumTransformationCost(transformation.character)));
+    }
+
+    private IEnumerable<Card> GetRewardCards(ISet<Card> excludedCards)
+    {
+        if (cards == null)
+        {
+            return Enumerable.Empty<Card>();
+        }
+
+        int maximumManaCost = GetMaximumRewardManaCost();
+        return cards.Where(card =>
+            card != null &&
+            !excludedCards.Contains(card) &&
+            card.manaCost <= maximumManaCost &&
+            IsRewardCardAvailable(card));
+    }
+
+    private bool IsRewardCardAvailable(Card card)
+    {
+        if (card is CharacterCard characterCard)
+        {
+            if (characterCard.character == null || IsCharacterAlreadyOwned(characterCard.character))
+            {
+                return false;
+            }
+        }
+
+        if (card is TransformationCard transformationCard)
+        {
+            return IsTransformationCardProgressionAvailable(transformationCard);
+        }
+
+        return true;
+    }
+
+    private bool IsCharacterAlreadyOwned(CharacterData characterData)
+    {
+        bool isInPlayerCards = GameManager.Instance.PlayerCards.Any(card =>
+            card is CharacterCard characterCard &&
+            characterCard.character != null &&
+            IsSameCharacterFamily(characterCard.character, characterData));
+
+        if (isInPlayerCards)
+        {
+            return true;
+        }
+
+        return GetPlayerCharacters().Any(character =>
+            IsSameCharacterFamily(character.character.GetCharacterData(), characterData));
+    }
+
+    private IEnumerable<BoardCharacter> GetPlayerCharacters()
+    {
+        return GameManager.Instance.GetCharactersOnBoard()
+            .Where(character =>
+                character != null &&
+                character.character != null &&
+                character.character.isPlayerCharacter &&
+                !character.character.IsDead());
+    }
+
+    private static bool IsSameCharacterFamily(CharacterData first, CharacterData second)
+    {
+        if (first == null || second == null)
+        {
+            return false;
+        }
+
+        if (first == second)
+        {
+            return true;
+        }
+
+        return (first.sameCharacters != null && first.sameCharacters.Contains(second)) ||
+               (second.sameCharacters != null && second.sameCharacters.Contains(first));
+    }
+
+    private int GetMinimumTransformationCost(CharacterData sourceCharacter)
+    {
+        if (cards == null || sourceCharacter == null)
+        {
+            return int.MaxValue;
+        }
+
+        return cards
+            .OfType<TransformationCard>()
+            .SelectMany(card => card.transformations ?? Array.Empty<TransformationsPossible>(),
+                (card, transformation) => new { card, transformation })
+            .Where(item =>
+                item.transformation != null &&
+                item.transformation.character == sourceCharacter &&
+                item.transformation.transformation != null &&
+                item.transformation.transformation.newCharacterData != null &&
+                item.transformation.transformation.newCharacterData != sourceCharacter)
+            .Select(item => item.card.manaCost)
+            .DefaultIfEmpty(int.MaxValue)
+            .Min();
+    }
+
+    private int GetMaximumRewardManaCost()
+    {
+        // The first three rounds only expose cards costing up to 3 mana.
+        // One additional mana point is unlocked every three completed rounds.
+        int completedRounds = Mathf.Max(1, GameManager.Instance.actualRound);
+        int progressionStep = Mathf.Clamp((completedRounds - 1) / 3, 0, 3);
+        return 3 + progressionStep;
     }
 
 

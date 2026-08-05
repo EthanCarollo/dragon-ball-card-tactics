@@ -19,6 +19,14 @@ public class CardPrefab : MonoBehaviour
     protected Card card;
 
     public virtual void SetupCard(Card card){
+        if (card == null)
+        {
+            this.card = null;
+            gameObject.SetActive(false);
+            return;
+        }
+
+        gameObject.SetActive(true);
         var image = this.GetComponent<Image>();
         if (image != null)
         {

@@ -8,6 +8,11 @@ public class GetCardPrefab : CardPrefab, IPointerClickHandler
 
         public void OnPointerClick(PointerEventData eventData)
         {
+                if (card == null)
+                {
+                        return;
+                }
+
                 Debug.Log("GetCardPrefab OnPointerClick");
                 GameManager.Instance.AddCard(card);
                 WinFightUi.Instance.CloseWinFightUi();
@@ -26,10 +31,10 @@ public class GetCardPrefab : CardPrefab, IPointerClickHandler
 
         public void ReloadCard()
         {
-                if(isReloadable == true){
-                        var dropRate = new CardDropRate(GameManager.Instance.Player.Level.CurrentLevel);
+                if (isReloadable == true && card != null)
+                {
                         isReloadable = false;
-                        SetupCard(CardDatabase.Instance.GetRandomCard(dropRate.GetRarityOnDropRate()));
+                        SetupCard(WinFightUi.Instance.RerollCard(card));
                 }
         }
 }
