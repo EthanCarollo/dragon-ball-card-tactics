@@ -85,7 +85,7 @@ public class FightDatabase : ScriptableObject
     }
 
     [MenuItem("Tools/Databases/Refresh Fight Database")]
-    private static void RefreshFightDatabaseAsset()
+    public static void RefreshFightDatabaseAsset()
     {
         var database = Resources.Load<FightDatabase>("FightDatabase");
         if (database == null)
