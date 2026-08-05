@@ -19,7 +19,7 @@ public static class ProjectIntegrityValidator
     };
 
     [MenuItem("Tools/Project/Validate Serialized References")]
-    public static void ValidateSerializedReferences()
+      public static void ValidateSerializedReferences()
     {
         AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport);
 
@@ -70,6 +70,72 @@ public static class ProjectIntegrityValidator
               throw new InvalidOperationException(
                   $"Serialized reference validation failed with {missingReferences.Count} missing GUID(s).");
           }
+      }
+
+      [MenuItem("Tools/Project/Audit Asset Usage")]
+      public static void AuditAssetUsage()
+      {
+          AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport);
+
+          var referencedGuids = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+          var serializedFiles = Directory.EnumerateFiles(Application.dataPath, "*", SearchOption.AllDirectories)
+              .Where(filePath => SerializedAssetExtensions.Contains(
+                  Path.GetExtension(filePath), StringComparer.OrdinalIgnoreCase))
+              .ToList();
+
+          foreach (var filePath in serializedFiles)
+          {
+              foreach (Match match in GuidReferencePattern.Matches(File.ReadAllText(filePath)))
+              {
+                  var guid = match.Groups[1].Value;
+                  if (!guid.StartsWith("0000000000000000", StringComparison.OrdinalIgnoreCase))
+                  {
+                      referencedGuids.Add(guid);
+                  }
+              }
+          }
+
+          var unusedAssets = serializedFiles
+              .Select(filePath => new
+              {
+                  FilePath = filePath,
+                  AssetPath = ToAssetPath(filePath)
+              })
+              .Where(asset => !IsUsageAuditRoot(asset.AssetPath))
+              .Select(asset => new
+              {
+                  asset.AssetPath,
+                  Guid = AssetDatabase.AssetPathToGUID(asset.AssetPath)
+              })
+              .Where(asset => !string.IsNullOrEmpty(asset.Guid) && !referencedGuids.Contains(asset.Guid))
+              .Select(asset => asset.AssetPath)
+              .OrderBy(assetPath => assetPath, StringComparer.OrdinalIgnoreCase)
+              .ToList();
+
+          foreach (var unusedAsset in unusedAssets)
+          {
+              Debug.LogWarning($"Serialized asset is not referenced by another serialized asset: {unusedAsset}");
+          }
+
+          Debug.Log(
+              $"Asset usage audit complete. Serialized files: {serializedFiles.Count}, " +
+              $"potentially unused assets: {unusedAssets.Count}. No assets were deleted.");
+      }
+
+      private static string ToAssetPath(string absolutePath)
+      {
+          var relativePath = absolutePath.Substring(Application.dataPath.Length + 1)
+              .Replace('\\', '/');
+          return "Assets/" + relativePath;
+      }
+
+      private static bool IsUsageAuditRoot(string assetPath)
+      {
+          return assetPath.StartsWith("Assets/Resources/", StringComparison.OrdinalIgnoreCase) ||
+                 assetPath.StartsWith("Assets/Editor/", StringComparison.OrdinalIgnoreCase) ||
+                 assetPath.StartsWith("Assets/ThirdParty/", StringComparison.OrdinalIgnoreCase) ||
+                 assetPath.EndsWith(".prefab", StringComparison.OrdinalIgnoreCase) ||
+                 assetPath.EndsWith(".unity", StringComparison.OrdinalIgnoreCase);
       }
 
       [MenuItem("Tools/Project/Validate Runtime Data")]
