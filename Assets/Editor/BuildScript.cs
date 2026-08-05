@@ -1,6 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Rendering;
+using System.Linq;
 
 public class BuildScript
 {
@@ -11,10 +12,16 @@ public class BuildScript
         
         
         string buildPath = "Build/WebGL";
-        string[] scenes = new string[] {
-            "Assets/Scenes/MainMenuScene.unity",
-            "Assets/Scenes/FightScene.unity"
-        };
+        string[] scenes = EditorBuildSettings.scenes
+            .Where(scene => scene.enabled && !string.IsNullOrEmpty(scene.path))
+            .Select(scene => scene.path)
+            .ToArray();
+
+        if (scenes.Length == 0)
+        {
+            Debug.LogError("Impossible de construire le projet : aucune scène active n'est configurée dans les Build Settings.");
+            return;
+        }
 
         BuildPipeline.BuildPlayer(scenes, buildPath, BuildTarget.WebGL, BuildOptions.None);
         Debug.Log("Build WebGL terminé dans " + buildPath);

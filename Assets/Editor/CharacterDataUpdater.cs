@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEditor;
+using System;
 
 public class CharacterDataUpdater : EditorWindow
 {
@@ -62,8 +63,7 @@ public class CharacterDataUpdater : EditorWindow
             name = characterName;
         }
         
-        string path = $"Assets/Resources/Character/Characters/{folder}/{name}.asset";
-        CharacterData character = AssetDatabase.LoadAssetAtPath<CharacterData>(path);
+        CharacterData character = FindCharacterData(characterName, folder, name);
         
         if (character != null)
         {
@@ -87,7 +87,42 @@ public class CharacterDataUpdater : EditorWindow
         }
         else
         {
-            Debug.LogWarning($"✗ Character not found at path: {path}");
+            Debug.LogWarning($"✗ Character not found in the CharacterData assets: {characterName}");
         }
+    }
+
+    private static CharacterData FindCharacterData(string characterName, string folder, string assetName)
+    {
+        string[] guids = AssetDatabase.FindAssets(
+            "t:CharacterData",
+            new[] { "Assets/Resources/Character/Characters" });
+
+        CharacterData fallback = null;
+        foreach (string guid in guids)
+        {
+            string path = AssetDatabase.GUIDToAssetPath(guid);
+            CharacterData character = AssetDatabase.LoadAssetAtPath<CharacterData>(path);
+            if (character == null)
+            {
+                continue;
+            }
+
+            if (string.Equals(character.characterName, characterName, StringComparison.OrdinalIgnoreCase))
+            {
+                if (string.IsNullOrEmpty(folder) || path.Contains("/" + folder + "/", StringComparison.OrdinalIgnoreCase))
+                {
+                    return character;
+                }
+
+                fallback ??= character;
+            }
+
+            if (fallback == null && string.Equals(character.name, assetName, StringComparison.OrdinalIgnoreCase))
+            {
+                fallback = character;
+            }
+        }
+
+        return fallback;
     }
 }
