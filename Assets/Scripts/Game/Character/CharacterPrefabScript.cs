@@ -7,12 +7,12 @@ using TMPro;
 
 public class CharacterPrefabScript : MonoBehaviour, IPointerClickHandler, IDragHandler, IEndDragHandler, IPointerEnterHandler, IPointerExitHandler
 {
-    public BoardCharacter boardCharacter;
+    [NonSerialized] public BoardCharacter boardCharacter;
     public SpriteRenderer spriteRenderer;
     public SpriteRenderer spriteSocle;
     public Slider healthSlider;
     public Slider kiSlider;
-    public Board assignedBoard;
+    [NonSerialized] public Board assignedBoard;
     public Vector2Int position;
     public Material startMaterial;
     public TextMeshProUGUI effectText;
