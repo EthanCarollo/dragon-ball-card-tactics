@@ -13,8 +13,8 @@ public class FightBoardState : BoardState
 
     public FightBoardState(FightBoard board, bool resetPassives = true) : base(board)
     {
-        BoardGameUiManager.Instance.launchFightButton.SetActive(false);
-        CardUi.Instance.HideCardUi();
+        BoardGameUiManager.Instance?.launchFightButton?.SetActive(false);
+        CardUi.Instance?.HideCardUi();
         
         if(CameraScript.Instance != null){
             CameraScript.Instance.SetupFightCamera();
@@ -59,7 +59,7 @@ public class FightBoardState : BoardState
 
     public override void Update()
     {
-        boardState.Update();
+        boardState?.Update();
     }
 
     public override bool IsFighting()
@@ -77,35 +77,53 @@ public class FightBoardState : BoardState
     {
         if (isFightEnding == false) isFightEnding = true;
         else return;
-        
-        Debug.Log("Ending fight");
-        board.StartCoroutine(EndFightCoroutine(win));
+
+        if (board != null)
+        {
+            board.StartCoroutine(EndFightCoroutine(win));
+        }
     }
 
     private IEnumerator EndFightCoroutine(bool win)
     {
-        foreach (Transform transformObject in board.fightObjectContainer)
+        if (board.fightObjectContainer != null)
         {
-            MonoBehaviour.Destroy(transformObject.gameObject);
+            foreach (Transform transformObject in board.fightObjectContainer)
+            {
+                MonoBehaviour.Destroy(transformObject.gameObject);
+            }
         }
 
-        for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
+        var boardCharacters = GameManager.Instance.boardCharacterArray;
+        if (boardCharacters == null)
         {
-            for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
+            yield break;
+        }
+
+        for (int x = 0; x < boardCharacters.GetLength(0); x++)
+        {
+            for (int y = 0; y < boardCharacters.GetLength(1); y++)
             {
 
-                var character = GameManager.Instance.boardCharacterArray[x, y];
+                var character = boardCharacters[x, y];
                 if (character == null) continue;
 
-                if (character is BoardCharacter boardChar && boardChar.character.isPlayerCharacter == win && boardChar.character.IsDead() == false)
+                if (character is BoardCharacter boardChar && boardChar.character != null &&
+                    boardChar.character.isPlayerCharacter == win && boardChar.character.IsDead() == false)
                 {
-                    if (boardChar.character.GetCharacterData().winPoseAnimation == null)
+                    var characterData = boardChar.character.GetCharacterData();
+                    if (characterData == null)
                     {
-                        boardChar.PlayAnimation(boardChar.character.GetCharacterData().idleAnimation);
+                        continue;
+                    }
+
+                    if (characterData.winPoseAnimation == null)
+                    {
+                        boardChar.PlayAnimation(characterData.idleAnimation);
                     }
                     else
                     {
-                        boardChar.PlayAnimation(boardChar.character.GetCharacterData().winPoseAnimation);
+                        boardChar.PlayAnimation(characterData.winPoseAnimation);
                     }
                 }
             }
@@ -113,25 +131,29 @@ public class FightBoardState : BoardState
 
         yield return new WaitForSeconds(1.25f);
 
-        for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
+        for (int x = 0; x < boardCharacters.GetLength(0); x++)
         {
-            for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
+            for (int y = 0; y < boardCharacters.GetLength(1); y++)
             {
 
-                var character = GameManager.Instance.boardCharacterArray[x, y];
+                var character = boardCharacters[x, y];
                 if (character == null) continue;
 
-                if (character is BoardCharacter boardChar && boardChar.character.isPlayerCharacter == win && boardChar.character.IsDead() == false)
+                if (character is BoardCharacter boardChar && boardChar.character != null &&
+                    boardChar.character.isPlayerCharacter == win && boardChar.character.IsDead() == false)
                 {
-                    boardChar.PlayAnimation(SpriteDatabase.Instance.disappearAnimation);
+                    boardChar.PlayAnimation(SpriteDatabase.Instance?.disappearAnimation);
                 }
             }
         }
 
         yield return new WaitForSeconds(0.3f);
-        foreach (Transform child in FightBoard.Instance.boardObjectContainer)
+        if (FightBoard.Instance?.boardObjectContainer != null)
         {
-            MonoBehaviour.Destroy(child.gameObject);
+            foreach (Transform child in FightBoard.Instance.boardObjectContainer)
+            {
+                MonoBehaviour.Destroy(child.gameObject);
+            }
         }
         board.UpdateState(new DefaultBoardState(board));
         GameManager.Instance.Player.Mana.AddMana(1);
@@ -145,23 +167,24 @@ public class FightBoardState : BoardState
             GameManager.Instance.boardCharacterArray = boardBeforeFight;
             GameManager.Instance.Player.Life.LooseLife(1);
             if(GameManager.Instance.Player.Life.IsAlive() == false){
-                HistoryDatabase.Instance.AddFight(GameManager.Instance.GetCharactersOnBoard()
-                    .Where(character => character.character.isPlayerCharacter).Select(character => character.character).ToArray(), 
+                HistoryDatabase.Instance?.AddFight(GameManager.Instance.GetCharactersOnBoard()
+                    .Where(character => character?.character != null && character.character.isPlayerCharacter)
+                    .Select(character => character.character).ToArray(),
                     GameManager.Instance.actualRound, Mathf.RoundToInt(GameManager.Instance.elapsedTime), GameManager.Instance.historyActions);
 
                 GameManager.Instance.historyActions = new HistoryAction[0];
-                LoosePanelUiManager.Instance.ShowLoosePanel();
+                LoosePanelUiManager.Instance?.ShowLoosePanel();
             } else {
                 GameManager.Instance.GoNextFight();
             }
         } else {
             GameManager.Instance.boardCharacterArray = boardBeforeFightEmpty;
             GameManager.Instance.Player.Level.AddExperience(3);
-            WinFightUi.Instance.OpenWinFightUi(board);
+            WinFightUi.Instance?.OpenWinFightUi(board);
         }
         GameManager.Instance.AddHistoryAction(historyAction);
-        BoardGameUiManager.Instance.characterBoardUi.HideCharacterBoard();
-        BoardGameUiManager.Instance.RefreshUI();
+        BoardGameUiManager.Instance?.characterBoardUi?.HideCharacterBoard();
+        BoardGameUiManager.Instance?.RefreshUI();
         board.CreateBoard(GameManager.Instance.boardCharacterArray);
     }
 
