@@ -7,6 +7,12 @@ class OpenSceneButton : MonoBehaviour, IPointerClickHandler {
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        if (SceneTransitor.Instance == null)
+        {
+            Debug.LogError("Cannot open the scene: SceneTransitor is missing.");
+            return;
+        }
+
         SceneTransitor.Instance.LoadScene(sceneIndex);
     }
 }
