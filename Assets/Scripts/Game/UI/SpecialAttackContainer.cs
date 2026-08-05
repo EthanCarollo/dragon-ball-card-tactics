@@ -14,35 +14,60 @@ public class SpecialAttackContainer : MonoBehaviour, IPointerEnterHandler, IPoin
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        description.text = specialAttack.animation.GetDetailledDescription(attackCharacter);
-        LayoutRebuilder.ForceRebuildLayoutImmediate(this.transform.parent.GetComponent<RectTransform>());
-        LayoutRebuilder.ForceRebuildLayoutImmediate(description.transform.parent.GetComponent<RectTransform>());
-        LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
+        if (specialAttack?.animation == null)
+        {
+            return;
+        }
+
+        if (description != null) description.text = specialAttack.animation.GetDetailledDescription(attackCharacter);
+        RebuildLayout();
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        description.text = specialAttack.animation.GetDescription(attackCharacter);
-        LayoutRebuilder.ForceRebuildLayoutImmediate(this.transform.parent.GetComponent<RectTransform>());
-        LayoutRebuilder.ForceRebuildLayoutImmediate(description.transform.parent.GetComponent<RectTransform>());
-        LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
+        if (specialAttack?.animation == null)
+        {
+            return;
+        }
+
+        if (description != null) description.text = specialAttack.animation.GetDescription(attackCharacter);
+        RebuildLayout();
     }
 
     public void Setup(SpecialAttack attack, CharacterContainer character)
     {
         attackCharacter = character;
         specialAttack = attack;
-        title.text = attack.name;
-        description.text = attack.animation.GetDescription(character);
-        LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
+        if (attack == null || attack.animation == null)
+        {
+            if (title != null) title.text = "No special attack";
+            if (description != null) description.text = string.Empty;
+            return;
+        }
+
+        if (title != null) title.text = attack.name;
+        if (description != null) description.text = attack.animation.GetDescription(character);
+        RebuildLayout();
         try
         {
-            if(attack.animation.GetIcon() != null) spriteImage.sprite = attack.animation.GetIcon();
+            if(spriteImage != null) spriteImage.sprite = attack.animation.GetIcon();
         }
         catch (Exception error)
         {
             Debug.LogWarning(error);
         }
+    }
+
+    private void RebuildLayout()
+    {
+        var ownRectTransform = GetComponent<RectTransform>();
+        if (ownRectTransform != null) LayoutRebuilder.ForceRebuildLayoutImmediate(ownRectTransform);
+
+        var parentRectTransform = transform.parent?.GetComponent<RectTransform>();
+        if (parentRectTransform != null) LayoutRebuilder.ForceRebuildLayoutImmediate(parentRectTransform);
+
+        var descriptionParent = description?.transform.parent?.GetComponent<RectTransform>();
+        if (descriptionParent != null) LayoutRebuilder.ForceRebuildLayoutImmediate(descriptionParent);
     }
 
     

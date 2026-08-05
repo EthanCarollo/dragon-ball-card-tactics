@@ -113,12 +113,19 @@ public class CharacterContainer
     
     public CharacterData GetCharacterData()
     {
-        return CharacterDatabase.Instance.GetCharacterById(characterId);
+        return CharacterDatabase.Instance?.GetCharacterById(characterId);
     }
 
     public SpecialAttack GetCharacterSpecialAttack()
     {
-        return CharacterDatabase.Instance.GetCharacterById(characterId).specialAttackAnimation[selectedUltimateAttack];
+        var characterData = GetCharacterData();
+        if (characterData?.specialAttackAnimation == null || characterData.specialAttackAnimation.Length == 0)
+        {
+            return null;
+        }
+
+        int attackIndex = Mathf.Clamp(selectedUltimateAttack, 0, characterData.specialAttackAnimation.Length - 1);
+        return characterData.specialAttackAnimation[attackIndex];
     }
     
     public bool IsDead()
@@ -128,15 +135,16 @@ public class CharacterContainer
 
     public CharacterPassive[] GetCharacterAdditionalPassives()
     {
-        return characterPassives.ToArray();
+        return (characterPassives ?? new List<CharacterPassive>()).ToArray();
     }
 
     public CharacterPassive[] GetCharacterPassives()
     {
+        var passives = characterPassives ?? new List<CharacterPassive>();
         if(GetDefaultPassive() == null){
-            return characterPassives.ToArray();
+            return passives.ToArray();
         }
-        var getCharacterPassives = new List<CharacterPassive>(characterPassives)
+        var getCharacterPassives = new List<CharacterPassive>(passives)
         {
             GetDefaultPassive()
         };
@@ -183,11 +191,11 @@ public class CharacterContainer
 
     public CharacterPassive GetDefaultPassive()
     {
-        return GetCharacterData().defaultPassive;
+        return GetCharacterData()?.defaultPassive;
     }
     public string GetName()
     {
-        return GetCharacterData().name;
+        return GetCharacterData()?.name ?? "Unknown character";
     }
     public int GetAugmentedAbiltiyValue()
     {
@@ -308,20 +316,28 @@ public class CharacterContainer
     }
     public Synergy[] GetSynergies()
     {
-        return GetCharacterData().synergies;
+        return GetCharacterData()?.synergies;
     }
     public List<Bonus> GetAllActiveBonuses()
     {
         List<Bonus> bonusList = new List<Bonus>();
         var synergies = GetSynergies();
         if(synergies != null && synergies.Count() > 0){
-            foreach (var synergie in synergies)
+        foreach (var synergie in synergies)
+        {
+            if (synergie == null)
             {
-                foreach (var tierBonus in synergie.GetActiveTierBonuses(isPlayerCharacter))
+                continue;
+            }
+
+            foreach (var tierBonus in synergie.GetActiveTierBonuses(isPlayerCharacter))
+            {
+                foreach (var bonus in tierBonus?.Bonuses ?? new List<Bonus>())
                 {
-                    foreach (var bonus in tierBonus.Bonuses)
+                    if (bonus != null)
                     {
-                        bonusList.Add(bonus);   
+                        bonusList.Add(bonus);
+                    }
                     }
                 }
             }
@@ -343,8 +359,15 @@ public class CharacterContainer
 
     public void UpdateEffect(BoardCharacter boardCharacter){
         float deltaTime = Time.deltaTime;
+        activeEffects ??= new List<InGameEffect>();
         for (int i = activeEffects.Count - 1; i >= 0; i--)
         {
+            if (activeEffects[i] == null || activeEffects[i].effect == null)
+            {
+                activeEffects.RemoveAt(i);
+                continue;
+            }
+
             activeEffects[i].UpdateEffect(deltaTime, boardCharacter);
 
             // Retirer les effets terminés

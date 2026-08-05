@@ -11,8 +11,8 @@ public class Synergy : ScriptableObject {
 
     public List<TierBonus> GetActiveTierBonuses(bool isPlayerCharacter){
         List<TierBonus> tierBonuses = new List<TierBonus>();
-        foreach(var tierBonus in Tiers){
-            if(GetActiveUnit(isPlayerCharacter) >= tierBonus.RequiredUnits){
+        foreach(var tierBonus in Tiers ?? new List<TierBonus>()){
+            if(tierBonus != null && GetActiveUnit(isPlayerCharacter) >= tierBonus.RequiredUnits){
                 tierBonuses.Add(tierBonus);
             }
         }
@@ -22,7 +22,12 @@ public class Synergy : ScriptableObject {
     public string GetDescription(){
         string description = "<size=20>" + synergyName + "</size>";
         int iterator = 0;
-        foreach(var tierBonus in Tiers){
+        foreach(var tierBonus in Tiers ?? new List<TierBonus>()){
+            if (tierBonus == null)
+            {
+                continue;
+            }
+
             iterator++;
             description += "<size=14>\n\n" + "Tier " + iterator.ToString() + " - " + tierBonus.RequiredUnits + " Unit</size>";
             description += "<size=10>\n" + tierBonus.Description + "</size>";
@@ -35,6 +40,11 @@ public class Synergy : ScriptableObject {
         var boardCharacters = GameManager.Instance.GetCharactersOnBoard();
         foreach (var boardCharacter in boardCharacters)
         {
+            if (boardCharacter?.character == null)
+            {
+                continue;
+            }
+
             var synergies = boardCharacter.character.GetSynergies();
             if(synergies == null) continue;
             if(boardCharacter.character.isPlayerCharacter == isPlayerCharacter && synergies.Contains(this)){
@@ -49,15 +59,15 @@ public class Synergy : ScriptableObject {
         // Characters on the board with the synergy
         var boardCharactersWithSynergy = GameManager.Instance.GetCharactersOnBoard()
             .Where(boardCharacter =>
-                boardCharacter.character.isPlayerCharacter &&
+                boardCharacter?.character != null && boardCharacter.character.isPlayerCharacter &&
                 boardCharacter.character.GetSynergies() != null &&
                 boardCharacter.character.GetSynergies().Contains(this))
             .ToList();
 
         // Characters in the CharacterDatabase with the synergy
-        var databaseCharactersWithSynergy = CharacterDatabase.Instance.characterDatas
+        var databaseCharactersWithSynergy = (CharacterDatabase.Instance?.characterDatas ?? new CharacterData[0])
             .Where(characterData =>
-                characterData.synergies != null &&
+                characterData != null && characterData.synergies != null &&
                 characterData.synergies.Contains(this))
             .ToList();
 

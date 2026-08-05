@@ -48,107 +48,143 @@ public class CharacterBoardUi : MonoBehaviour
 
         public void RefreshUi()
         {
-                if (characterContainer == null)
+                if (characterBoardUi == null)
                 {
-                        characterBoardUi.gameObject.SetActive(false);
                         return;
                 }
-                characterBoardUi.gameObject.SetActive(true);
-                charNameText.text = characterContainer.GetName();
-                charHealth.maxValue = characterContainer.GetCharacterMaxHealth();
-                charHealth.value = characterContainer.actualHealth;
-                
-                charKi.maxValue = characterContainer.GetCharacterData().maxKi;
-                charKi.value = characterContainer.actualKi;
-                
-                charArmorText.text = "AR: " + characterContainer.GetArmor().ToString();
-                charDamageText.text = "AD: " + characterContainer.GetAttackDamage().ToString();
-                charCriticalText.text = "CC: " + characterContainer.GetCriticalChance().ToString() + "%";
-                charAttackSpeedText.text = "AS: " + characterContainer.GetAttackSpeed().ToString();
-                
-                charHealthText.text = characterContainer.actualHealth + " / " + characterContainer.GetCharacterMaxHealth();
-                charKiText.text = characterContainer.actualKi + " / " + characterContainer.GetCharacterMaxKi();
-                charImage.sprite = characterContainer.GetCharacterData().characterIcon;
 
-                specialAttackContainer.Setup(characterContainer.GetCharacterSpecialAttack(), characterContainer);
-                LayoutRebuilder.ForceRebuildLayoutImmediate(specialAttackContainerLayout);
-
-                if(characterContainer.GetCharacterData().spriteCredit != null && characterContainer.GetCharacterData().spriteCredit != ""){
-                        spriteCreditContainer.SetActive(true);
-                        spriteCredit.gameObject.SetActive(true);
-                        spriteCredit.text = "Sprite Credits : " + characterContainer.GetCharacterData().spriteCredit;
-                        spriteCredit.maskable = false;
-                }else{
-                        spriteCreditContainer.SetActive(false);
-                        spriteCredit.gameObject.SetActive(false);
-                }
-                
-                foreach (Transform child in synergyContainer)
+                if (characterContainer == null || characterContainer.GetCharacterData() == null)
                 {
-                        Destroy(child.gameObject);
+                        characterBoardUi.SetActive(false);
+                        return;
                 }
-                if(characterContainer.GetSynergies() != null && characterContainer.GetSynergies().Length != 0){
-                        synergyContainer.gameObject.SetActive(true);
-                        foreach (var synergy in characterContainer.GetSynergies())
+                characterBoardUi.SetActive(true);
+                var characterData = characterContainer.GetCharacterData();
+                if (charNameText != null) charNameText.text = characterContainer.GetName();
+                if (charHealth != null)
+                {
+                        charHealth.maxValue = characterContainer.GetCharacterMaxHealth();
+                        charHealth.value = characterContainer.actualHealth;
+                }
+
+                if (charKi != null)
+                {
+                        charKi.maxValue = characterData.maxKi;
+                        charKi.value = characterContainer.actualKi;
+                }
+                
+                if (charArmorText != null) charArmorText.text = "AR: " + characterContainer.GetArmor();
+                if (charDamageText != null) charDamageText.text = "AD: " + characterContainer.GetAttackDamage();
+                if (charCriticalText != null) charCriticalText.text = "CC: " + characterContainer.GetCriticalChance() + "%";
+                if (charAttackSpeedText != null) charAttackSpeedText.text = "AS: " + characterContainer.GetAttackSpeed();
+                
+                if (charHealthText != null) charHealthText.text = characterContainer.actualHealth + " / " + characterContainer.GetCharacterMaxHealth();
+                if (charKiText != null) charKiText.text = characterContainer.actualKi + " / " + characterContainer.GetCharacterMaxKi();
+                if (charImage != null) charImage.sprite = characterData.characterIcon;
+
+                specialAttackContainer?.Setup(characterContainer.GetCharacterSpecialAttack(), characterContainer);
+                if (specialAttackContainerLayout != null) LayoutRebuilder.ForceRebuildLayoutImmediate(specialAttackContainerLayout);
+                
+                if(!string.IsNullOrEmpty(characterData.spriteCredit)){
+                        spriteCreditContainer?.SetActive(true);
+                        spriteCredit?.gameObject.SetActive(true);
+                        if (spriteCredit != null)
                         {
-                                Instantiate(synergyPrefab, synergyContainer).GetComponent<SynergyCharacterShowPrefabScript>().Setup(synergy);
+                                spriteCredit.text = "Sprite Credits : " + characterData.spriteCredit;
+                                spriteCredit.maskable = false;
                         }
                 }else{
+                        spriteCreditContainer?.SetActive(false);
+                        spriteCredit?.gameObject.SetActive(false);
+                }
+                
+                if (synergyContainer != null)
+                {
+                        foreach (Transform child in synergyContainer)
+                        {
+                                Destroy(child.gameObject);
+                        }
+                }
+                var synergies = characterContainer.GetSynergies();
+                if(synergyContainer != null && synergies != null && synergies.Length != 0){
+                        synergyContainer.gameObject.SetActive(true);
+                        foreach (var synergy in synergies)
+                        {
+                                if (synergy == null || synergyPrefab == null) continue;
+                                Instantiate(synergyPrefab, synergyContainer).GetComponent<SynergyCharacterShowPrefabScript>()?.Setup(synergy);
+                        }
+                }else if (synergyContainer != null){
                         synergyContainer.gameObject.SetActive(false);
                 }
 
 
                 var alreadyCreatedPassive = new List<CharacterPassive>();
-                foreach (Transform child in passiveContainer)
+                if (passiveContainer != null)
                 {
-                        var passiveContainer = child.gameObject.GetComponent<PassiveContainer>();
-                        if(passiveContainer != null && characterContainer.GetCharacterAdditionalPassives() != null){
-                                if(characterContainer.GetCharacterAdditionalPassives().Contains(passiveContainer.passive)){
-                                        alreadyCreatedPassive.Add(passiveContainer.passive);
-                                        continue;
+                        foreach (Transform child in passiveContainer)
+                        {
+                                var passiveContainerObject = child.gameObject.GetComponent<PassiveContainer>();
+                                if(passiveContainerObject != null && characterContainer.GetCharacterAdditionalPassives() != null){
+                                        if(characterContainer.GetCharacterAdditionalPassives().Contains(passiveContainerObject.passive)){
+                                                alreadyCreatedPassive.Add(passiveContainerObject.passive);
+                                                continue;
+                                        }
                                 }
-                        } 
-                        Destroy(child.gameObject);
+                                Destroy(child.gameObject);
+                        }
                 }
 
-                if(characterContainer.GetCharacterAdditionalPassives() != null){
-                        foreach (var passive in characterContainer.GetCharacterAdditionalPassives()){
-                                if(passive == null || alreadyCreatedPassive.Contains(passive)) continue;
+                var additionalPassives = characterContainer.GetCharacterAdditionalPassives();
+                if(additionalPassives != null){
+                        foreach (var passive in additionalPassives){
+                                if(passive == null || alreadyCreatedPassive.Contains(passive) ||
+                                   passiveLittlePrefab == null || passiveContainer == null) continue;
                                 
-                                Instantiate(passiveLittlePrefab, passiveContainer).GetComponent<PassiveContainer>().Setup(passive);
+                                Instantiate(passiveLittlePrefab, passiveContainer).GetComponent<PassiveContainer>()?.Setup(passive);
                         }
 
-                        if(characterContainer.GetCharacterAdditionalPassives().Length > 0) {
-                                passiveWholeContainer.SetActive(true);
-                        } else {
-                                passiveWholeContainer.SetActive(false);
+                        passiveWholeContainer?.SetActive(additionalPassives.Length > 0);
+                }
+
+                if (starsContainer != null)
+                {
+                        foreach (Transform child in starsContainer)
+                        {
+                                Destroy(child.gameObject);
                         }
                 }
-                
-                foreach (Transform child in starsContainer)
+                if (starsContainer != null && showStars && star != null)
                 {
-                        Destroy(child.gameObject);
-                }
-                for (int i = 0; i < characterContainer.characterStar; i++)
-                {
-                        if(starsContainer != null && showStars == true){
-                                var characterStar = new GameObject();
+                        for (int i = 0; i < characterContainer.characterStar; i++)
+                        {
+                                var characterStar = new GameObject("CharacterStar");
                                 characterStar.AddComponent<Image>().sprite = star;
-                                characterStar.AddComponent<RectTransform>();
+                                characterStar.transform.SetParent(starsContainer, false);
                                 characterStar.GetComponent<RectTransform>().sizeDelta = new Vector2(45, 45);
-                                Instantiate(characterStar, starsContainer);
                         }
                 }
 
-                if (characterContainer.GetDefaultPassive() == null) {
+                var defaultPassive = characterContainer.GetDefaultPassive();
+                if (defaultCharacterPassiveGameObject == null)
+                {
+                        var layoutWithoutPassive = characterBoardUi.GetComponent<RectTransform>();
+                        if (layoutWithoutPassive != null) LayoutRebuilder.ForceRebuildLayoutImmediate(layoutWithoutPassive);
+                        return;
+                }
+
+                if (defaultPassive == null) {
                         defaultCharacterPassiveGameObject.SetActive(false);
                 } else {
                         defaultCharacterPassiveGameObject.SetActive(true);
-                        defaultCharacterPassiveImage.sprite = characterContainer.GetDefaultPassive().passiveImage;
-                        defaultCharacterPassiveText.text = characterContainer.GetDefaultPassive().passiveName + "\n \n" + characterContainer.GetDefaultPassive().GetDescription();
-                        defaultCharacterPassiveText.maskable = false;
+                        if (defaultCharacterPassiveImage != null) defaultCharacterPassiveImage.sprite = defaultPassive.passiveImage;
+                        if (defaultCharacterPassiveText != null)
+                        {
+                                defaultCharacterPassiveText.text = defaultPassive.passiveName + "\n \n" + defaultPassive.GetDescription();
+                                defaultCharacterPassiveText.maskable = false;
+                        }
                 }
-                LayoutRebuilder.ForceRebuildLayoutImmediate(characterBoardUi.gameObject.GetComponent<RectTransform>());
+                var layout = characterBoardUi.GetComponent<RectTransform>();
+                if (layout != null) LayoutRebuilder.ForceRebuildLayoutImmediate(layout);
         }
 
         public void ShowCharacterBoard(CharacterContainer character)

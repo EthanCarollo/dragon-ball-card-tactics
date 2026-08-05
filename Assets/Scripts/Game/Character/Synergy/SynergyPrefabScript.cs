@@ -17,33 +17,50 @@ public class SynergyPrefabScript : MonoBehaviour, IPointerEnterHandler, IPointer
     public GameObject simpleCharacterContainer;
 
     public void Setup(Synergy synergy) {
-        tierDescription.SetActive(false);
+        if (synergy == null)
+        {
+            return;
+        }
+
+        tierDescription?.SetActive(false);
         this.synergy = synergy;
-        synergyNumber.text = synergy.GetActiveUnit(true).ToString();
-        descriptionText.text = synergy.GetDescription();
-        synergyImage.sprite = synergy.synergyImage;
+        if (synergyNumber != null) synergyNumber.text = synergy.GetActiveUnit(true).ToString();
+        if (descriptionText != null) descriptionText.text = synergy.GetDescription();
+        if (synergyImage != null) synergyImage.sprite = synergy.synergyImage;
         var tierBonuses = synergy.GetActiveTierBonuses(true);
-        if(tierBonuses.ToArray().Length == 0){
-            GetComponent<Image>().color = new Color(0.4f, 0.4f, 0.4f);
-            transform.GetChild(0).GetComponent<Image>().color = new Color(0.4f, 0.4f, 0.4f);
+        var image = GetComponent<Image>();
+        if(tierBonuses.Count == 0){
+            if (image != null) image.color = new Color(0.4f, 0.4f, 0.4f);
+            if (transform.childCount > 0)
+            {
+                var childImage = transform.GetChild(0).GetComponent<Image>();
+                if (childImage != null) childImage.color = new Color(0.4f, 0.4f, 0.4f);
+            }
         } else {
-            switch(tierBonuses.ToArray().Length){
+            Color tierColor;
+            switch(tierBonuses.Count){
                 case 1: 
-                    GetComponent<Image>().color = new Color(0.5f, 0.4f, 0.3f);
+                    tierColor = new Color(0.5f, 0.4f, 0.3f);
                     break;
                 case 2: 
-                    GetComponent<Image>().color = new Color(1f, 0.9f, 0.95f);
+                    tierColor = new Color(1f, 0.9f, 0.95f);
                     break;
                 case 3: 
-                    GetComponent<Image>().color = new Color(1f, 0.95f, 0.42f);
+                    tierColor = new Color(1f, 0.95f, 0.42f);
                     break;
                 case 4: 
-                    GetComponent<Image>().color = new Color(0.5f, 0.95f, 1f);
+                    tierColor = new Color(0.5f, 0.95f, 1f);
                     break;
                 default:
-                    GetComponent<Image>().color = new Color(0.6f, 0.6f, 0.9f);
+                    tierColor = new Color(0.6f, 0.6f, 0.9f);
                     break;
             }
+            if (image != null) image.color = tierColor;
+        }
+
+        if (characterContainer == null || simpleCharacterContainer == null)
+        {
+            return;
         }
 
         foreach (Transform child in characterContainer)
@@ -54,40 +71,46 @@ public class SynergyPrefabScript : MonoBehaviour, IPointerEnterHandler, IPointer
         var (boardCharactersWithSynergy, databaseCharactersWithSynergy) = synergy.GetCharactersWithSynergy();
 
         List<int> alreadyCreatedSynergy = new List<int>();
-        foreach (var bc in boardCharactersWithSynergy)
+        foreach (var bc in boardCharactersWithSynergy ?? new List<BoardCharacter>())
         {
-            alreadyCreatedSynergy.Add(bc.character.GetCharacterData().id);
-            Instantiate(simpleCharacterContainer, characterContainer).GetComponent<Image>().sprite = bc.character.GetCharacterData().characterIcon;
+            var characterData = bc?.character?.GetCharacterData();
+            if (characterData == null) continue;
+            alreadyCreatedSynergy.Add(characterData.id);
+            var characterImage = Instantiate(simpleCharacterContainer, characterContainer).GetComponent<Image>();
+            if (characterImage != null) characterImage.sprite = characterData.characterIcon;
         }
-        foreach (var charWithSynergy in databaseCharactersWithSynergy)
+        foreach (var charWithSynergy in databaseCharactersWithSynergy ?? new List<CharacterData>())
         {
+            if (charWithSynergy == null) continue;
             if(alreadyCreatedSynergy.Contains(charWithSynergy.id)) continue;
             var imageCharContainer = Instantiate(simpleCharacterContainer, characterContainer).GetComponent<Image>();
             imageCharContainer.color = new Color(0.4f, 0.4f, 0.4f);
             imageCharContainer.sprite = charWithSynergy.characterIcon;
         }
-        if((tierDescription.GetComponent<RectTransform>().position.y - tierDescription.GetComponent<RectTransform>().sizeDelta.y) < 0){
-            tierDescription.GetComponent<RectTransform>().position = new Vector2(tierDescription.GetComponent<RectTransform>().position.x, tierDescription.GetComponent<RectTransform>().sizeDelta.y + 40);
+        var tierRectTransform = tierDescription?.GetComponent<RectTransform>();
+        if(tierRectTransform != null && (tierRectTransform.position.y - tierRectTransform.sizeDelta.y) < 0){
+            tierRectTransform.position = new Vector2(tierRectTransform.position.x, tierRectTransform.sizeDelta.y + 40);
         }
     }
 
     void IPointerEnterHandler.OnPointerEnter(PointerEventData eventData)
     {
-        tierDescription.SetActive(true);
+        tierDescription?.SetActive(true);
         StartCoroutine(SetTierDescriptionPosition());
     }
 
     void IPointerExitHandler.OnPointerExit(PointerEventData eventData)
     {
-        tierDescription.SetActive(false);
+        tierDescription?.SetActive(false);
         StartCoroutine(SetTierDescriptionPosition());
     }
 
     private IEnumerator SetTierDescriptionPosition(){
         yield return new WaitForEndOfFrame();
         yield return new WaitForEndOfFrame();
-        if((tierDescription.GetComponent<RectTransform>().position.y - tierDescription.GetComponent<RectTransform>().sizeDelta.y) < 0){
-            tierDescription.GetComponent<RectTransform>().position = new Vector2(tierDescription.GetComponent<RectTransform>().position.x, tierDescription.GetComponent<RectTransform>().sizeDelta.y + 40);
+        var tierRectTransform = tierDescription?.GetComponent<RectTransform>();
+        if(tierRectTransform != null && (tierRectTransform.position.y - tierRectTransform.sizeDelta.y) < 0){
+            tierRectTransform.position = new Vector2(tierRectTransform.position.x, tierRectTransform.sizeDelta.y + 40);
         }
     }
 }

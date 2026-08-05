@@ -12,24 +12,45 @@ public class SynergyCharacterShowPrefabScript : MonoBehaviour, IPointerEnterHand
 
     public void OnPointerEnter(PointerEventData eventData)
     {
+        if (synergyDescriptionContainer == null)
+        {
+            return;
+        }
+
         synergyDescriptionContainer.gameObject.SetActive(true);
         LayoutRebuilder.ForceRebuildLayoutImmediate(synergyDescriptionContainer);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
+        if (synergyDescriptionContainer == null)
+        {
+            return;
+        }
+
         synergyDescriptionContainer.gameObject.SetActive(false);
         LayoutRebuilder.ForceRebuildLayoutImmediate(synergyDescriptionContainer);
     }
 
     public void Setup(Synergy synergy) {
+        if (synergy == null)
+        {
+            return;
+        }
+
         this.synergy = synergy;
-        synergyNumber.text = synergy.synergyName;
-        synergyImage.sprite = synergy.synergyImage;
-        synergyDescriptionText.text = synergy.GetDescription();
-        synergyDescriptionText.maskable = false;
-        LayoutRebuilder.ForceRebuildLayoutImmediate(synergyDescriptionContainer);
-        synergyDescriptionContainer.gameObject.SetActive(false);
+        if (synergyNumber != null) synergyNumber.text = synergy.synergyName;
+        if (synergyImage != null) synergyImage.sprite = synergy.synergyImage;
+        if (synergyDescriptionText != null)
+        {
+            synergyDescriptionText.text = synergy.GetDescription();
+            synergyDescriptionText.maskable = false;
+        }
+        if (synergyDescriptionContainer != null)
+        {
+            LayoutRebuilder.ForceRebuildLayoutImmediate(synergyDescriptionContainer);
+            synergyDescriptionContainer.gameObject.SetActive(false);
+        }
     }
 
 }

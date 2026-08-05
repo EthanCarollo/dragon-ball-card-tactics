@@ -24,12 +24,29 @@ public class BoardAnimation : ScriptableObject {
 
     public virtual IEnumerator PlayAnimationCoroutine(BoardCharacter character)
     {
+        if (character == null || character.gameObject == null)
+        {
+            yield break;
+        }
+
         PlaySound(character.gameObject.GetComponentInChildren<AudioSource>());
         character.actualAnimation = this;
-        foreach (FrameSprite frameSprite in frameSprites)
+        var characterPrefab = character.gameObject.GetComponentInChildren<CharacterPrefabScript>();
+        if (characterPrefab == null || characterPrefab.spriteRenderer == null)
         {
-            character.gameObject.transform.GetChild(0).GetComponent<CharacterPrefabScript>().spriteRenderer.sprite = frameSprite.sprite;
-            yield return new WaitForSeconds(frameSprite.time); 
+            EndAnimation(character);
+            yield break;
+        }
+
+        foreach (FrameSprite frameSprite in frameSprites ?? new FrameSprite[0])
+        {
+            if (frameSprite == null)
+            {
+                continue;
+            }
+
+            characterPrefab.spriteRenderer.sprite = frameSprite.sprite;
+            yield return new WaitForSeconds(Mathf.Max(0f, frameSprite.time));
         }
         EndAnimation(character);
     }
@@ -40,7 +57,7 @@ public class BoardAnimation : ScriptableObject {
     }
 
     private void PlaySound(AudioSource audioSource){
-        if(audio != null){
+        if(audio != null && audioSource != null){
             audioSource.PlayOneShot(audio);
         }
     }
