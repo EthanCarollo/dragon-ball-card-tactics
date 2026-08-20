@@ -24,6 +24,7 @@ public static class ProjectIntegrityValidator
         AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport);
 
         var referencesByGuid = new Dictionary<string, HashSet<string>>(StringComparer.OrdinalIgnoreCase);
+        var legacyAssemblyReferences = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         foreach (var filePath in Directory.EnumerateFiles(Application.dataPath, "*", SearchOption.AllDirectories))
         {
             if (!SerializedAssetExtensions.Contains(Path.GetExtension(filePath), StringComparer.OrdinalIgnoreCase))
@@ -31,7 +32,13 @@ public static class ProjectIntegrityValidator
                 continue;
             }
 
-            foreach (Match match in GuidReferencePattern.Matches(File.ReadAllText(filePath)))
+            string serializedContent = File.ReadAllText(filePath);
+            if (serializedContent.Contains("Assembly-CSharp", StringComparison.Ordinal))
+            {
+                legacyAssemblyReferences.Add(filePath.Replace('\\', '/'));
+            }
+
+            foreach (Match match in GuidReferencePattern.Matches(serializedContent))
             {
                 var guid = match.Groups[1].Value;
                 if (guid.StartsWith("0000000000000000", StringComparison.OrdinalIgnoreCase))
@@ -63,12 +70,20 @@ public static class ProjectIntegrityValidator
 
           Debug.Log(
               $"Serialized reference validation complete. " +
-              $"Unique GUIDs: {referencesByGuid.Count}, missing GUIDs: {missingReferences.Count}.");
+              $"Unique GUIDs: {referencesByGuid.Count}, missing GUIDs: {missingReferences.Count}, " +
+              $"legacy assembly references: {legacyAssemblyReferences.Count}.");
 
-          if (missingReferences.Count > 0)
+          foreach (var legacyAssemblyReference in legacyAssemblyReferences.OrderBy(path => path, StringComparer.OrdinalIgnoreCase))
+          {
+              Debug.LogError(
+                  $"Serialized asset still references the removed Assembly-CSharp assembly: {legacyAssemblyReference}");
+          }
+
+          if (missingReferences.Count > 0 || legacyAssemblyReferences.Count > 0)
           {
               throw new InvalidOperationException(
-                  $"Serialized reference validation failed with {missingReferences.Count} missing GUID(s).");
+                  $"Serialized reference validation failed with {missingReferences.Count} missing GUID(s) " +
+                  $"and {legacyAssemblyReferences.Count} legacy assembly reference(s).");
           }
       }
 
