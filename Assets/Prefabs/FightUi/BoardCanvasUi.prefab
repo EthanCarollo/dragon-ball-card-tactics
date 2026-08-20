@@ -4977,7 +4977,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8650321768254245603}
-        m_TargetAssemblyTypeName: BoardGameUiManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: BoardGameUiManager, DragonBallCardTactics.Runtime
         m_MethodName: GoNextSynergyPage
         m_Mode: 1
         m_Arguments:
@@ -5354,7 +5354,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8650321768254245603}
-        m_TargetAssemblyTypeName: BoardGameUiManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: BoardGameUiManager, DragonBallCardTactics.Runtime
         m_MethodName: GoBackSynergyPage
         m_Mode: 1
         m_Arguments:

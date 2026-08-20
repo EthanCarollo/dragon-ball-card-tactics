@@ -606,7 +606,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: -1625550003787693720}
-        m_TargetAssemblyTypeName: GetCardPrefab, Assembly-CSharp
+        m_TargetAssemblyTypeName: GetCardPrefab, DragonBallCardTactics.Runtime
         m_MethodName: ReloadCard
         m_Mode: 1
         m_Arguments:

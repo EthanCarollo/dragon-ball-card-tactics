@@ -253,7 +253,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 725382417860442963}
-        m_TargetAssemblyTypeName: PlayableCardContextMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: PlayableCardContextMenu, DragonBallCardTactics.Runtime
         m_MethodName: RemoveCard
         m_Mode: 1
         m_Arguments:

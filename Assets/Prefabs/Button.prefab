@@ -262,7 +262,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MainMenuUiManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuUiManager, DragonBallCardTactics.Runtime
         m_MethodName: GoToSelectCardMenu
         m_Mode: 1
         m_Arguments:

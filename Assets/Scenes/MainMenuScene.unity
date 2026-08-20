@@ -3407,7 +3407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7483245855283822622, guid: 47a7451c711436e45a10745cf88baaa9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: QuitGameButton, Assembly-CSharp
+      value: QuitGameButton, DragonBallCardTactics.Runtime
       objectReference: {fileID: 0}
     - target: {fileID: 8613698676900029134, guid: 47a7451c711436e45a10745cf88baaa9, type: 3}
       propertyPath: m_Pivot.x
@@ -4238,7 +4238,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 566228815}
-        m_TargetAssemblyTypeName: MainMenuUiManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuUiManager, DragonBallCardTactics.Runtime
         m_MethodName: GoToMainMenu
         m_Mode: 1
         m_Arguments:
@@ -5901,7 +5901,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 566228815}
-        m_TargetAssemblyTypeName: MainMenuUiManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuUiManager, DragonBallCardTactics.Runtime
         m_MethodName: GoToMainMenu
         m_Mode: 1
         m_Arguments:
@@ -6718,7 +6718,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 242828884}
-        m_TargetAssemblyTypeName: WikiMenuManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: WikiMenuManager, DragonBallCardTactics.Runtime
         m_MethodName: GoPreviousCharacter
         m_Mode: 1
         m_Arguments:
@@ -8088,7 +8088,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 242828884}
-        m_TargetAssemblyTypeName: WikiMenuManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: WikiMenuManager, DragonBallCardTactics.Runtime
         m_MethodName: GoNextCharacter
         m_Mode: 1
         m_Arguments:
