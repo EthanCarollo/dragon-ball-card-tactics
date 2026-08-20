@@ -13,15 +13,20 @@ public class DefaultBoardFightState : BoardFightState
     {
         int alivePlayerCount = 0;
         int aliveEnemyCount = 0;
-
-        for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
+        var boardCharacters = GameManager.Instance?.boardCharacterArray;
+        if (boardCharacters == null)
         {
-            for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
+            return;
+        }
+
+        for (int x = 0; x < boardCharacters.GetLength(0); x++)
+        {
+            for (int y = 0; y < boardCharacters.GetLength(1); y++)
             {
-                var character = GameManager.Instance.boardCharacterArray[x, y];
+                var character = boardCharacters[x, y];
                 if (character == null) continue;
 
-                if (character is BoardCharacter boardChar)
+                if (character is BoardCharacter boardChar && boardChar.character != null)
                 {
                     // Check if character is alive
                     if (!boardChar.character.IsDead())

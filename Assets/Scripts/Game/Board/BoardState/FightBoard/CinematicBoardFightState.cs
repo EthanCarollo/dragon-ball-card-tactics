@@ -9,11 +9,17 @@ public class CinematicBoardFightState : BoardFightState
 
     public override void Update()
     {
-        for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
+        var boardCharacters = GameManager.Instance?.boardCharacterArray;
+        if (boardCharacters == null)
         {
-            for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
+            return;
+        }
+
+        for (int x = 0; x < boardCharacters.GetLength(0); x++)
+        {
+            for (int y = 0; y < boardCharacters.GetLength(1); y++)
             {
-                var character = GameManager.Instance.boardCharacterArray[x, y];
+                var character = boardCharacters[x, y];
                 if (character == null) continue;
                 character.UpdateUi();
             }

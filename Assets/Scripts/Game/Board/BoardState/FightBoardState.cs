@@ -38,15 +38,25 @@ public class FightBoardState : BoardState
     public void SetupSynergyStartAction()
     {
         List<Synergy> ingameSynergy = GameManager.Instance.GetActiveSynergy();
-        foreach (var synergy in ingameSynergy)
+        foreach (var synergy in ingameSynergy ?? new List<Synergy>())
         {
+            if (synergy == null)
+            {
+                continue;
+            }
+
             // Maybe a bug here i think, i should fix that but idc
             var tierBonuses = synergy.GetActiveTierBonuses(true);
-            foreach (var tierBonus in tierBonuses)
+            foreach (var tierBonus in tierBonuses ?? new List<TierBonus>())
             {
-                foreach (var bonus in tierBonus.Bonuses)
+                if (tierBonus == null)
                 {
-                    if(bonus.OnStartSetupAction(true) == true) return;
+                    continue;
+                }
+
+                foreach (var bonus in tierBonus.Bonuses ?? new List<Bonus>())
+                {
+                    if (bonus != null && bonus.OnStartSetupAction(true)) return;
                 }
             }
         }
@@ -159,7 +169,7 @@ public class FightBoardState : BoardState
         GameManager.Instance.Player.Mana.AddMana(1);
 
         var historyAction = new EndFightHistoryAction();
-        historyAction.fightEndedId = GameManager.Instance.ActualFight.id;
+        historyAction.fightEndedId = GameManager.Instance.ActualFight?.id ?? -1;
         historyAction.winFight = win;
         historyAction.time = Mathf.RoundToInt(GameManager.Instance.elapsedTime);
 
@@ -190,12 +200,12 @@ public class FightBoardState : BoardState
 
     public override void EndCinematic()
     {
-        boardState.EndCinematic();
+        boardState?.EndCinematic();
         SetupSynergyStartAction();
     }
 
     public override void LaunchCinematic()
     {
-        boardState.LaunchCinematic();
+        boardState?.LaunchCinematic();
     }
 }
