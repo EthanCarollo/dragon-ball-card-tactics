@@ -14,6 +14,11 @@ public class ResetCard : Card
 
     protected BoardCharacter GetCharacterOnMouse()
     {
+        if (Camera.main == null || transformation == null)
+        {
+            return null;
+        }
+
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
 
@@ -22,7 +27,7 @@ public class ResetCard : Card
             (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
         {
             var charactersUpdatable =  GameManager.Instance.GetCharactersOnBoard()
-                .Where(cha => cha.character.isPlayerCharacter)
+                .Where(cha => cha?.character != null && cha.character.isPlayerCharacter && cha.gameObject != null)
                 .ToList()
                 .FindAll(cha => {
                     // Vérifie si le CharacterData de cha.character est dans transformations
@@ -63,9 +68,13 @@ public class ResetCard : Card
 
     public override bool CanUseCard()
     {
+        if (transformation == null)
+        {
+            return false;
+        }
         
         var characterOnBoard = GameManager.Instance.GetCharactersOnBoard()
-            .Where(cha => cha.character.isPlayerCharacter)
+            .Where(cha => cha?.character != null && cha.character.isPlayerCharacter)
             .ToList()
             .Find(cha => cha.character.GetCharacterData().baseCharacter != null);
 
@@ -98,18 +107,17 @@ public class ResetCard : Card
         {
             // Trouve la transformation correspondante pour le CharacterData du personnage
 
-            if (transformation != null)
+            if (transformation == null || !targetCharacter.PlayAnimation(transformation, null))
             {
-                // Joue l'animation de transformation pour le personnage
-                targetCharacter.PlayAnimation(transformation);
+                return;
             }
 
             // Réduit le mana du joueur
             GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
 
             // Met à jour l'UI pour refléter la perte de mana
-            BoardGameUiManager.Instance.ShowLooseMana(manaCost);
-            BoardGameUiManager.Instance.RefreshUI();
+            BoardGameUiManager.Instance?.ShowLooseMana(manaCost);
+            BoardGameUiManager.Instance?.RefreshUI();
 
             // Retire la carte après utilisation
             RegisterCardHistory();
@@ -196,17 +204,29 @@ public class ResetCard : Card
 
     public override void OnEndDrag(PointerEventData eventData)
     {
-        BoardGameUiManager.Instance.HidePlayCardPanel();
+        BoardGameUiManager.Instance?.HidePlayCardPanel();
         GameManager.Instance.ResetCharacterShader();
+
+        if (Camera.main == null)
+        {
+            if (DraggedActionCard.DraggedCard != null)
+            {
+                MonoBehaviour.Destroy(DraggedActionCard.DraggedCard.gameObject);
+            }
+            return;
+        }
 
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
         
-        if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
+        var draggedCard = DraggedActionCard.DraggedCard;
+        var targetCharacter = GetCharacterOnMouse();
+        if (hit.collider != null && targetCharacter != null && draggedCard != null &&
+            (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
         {
-            DraggedActionCard.DraggedCard.GetComponent<UIEffectTweener>().PlayForward();
-            LeanTween.move(DraggedActionCard.DraggedCard, Camera.main.WorldToScreenPoint(new Vector3(GetCharacterOnMouse().gameObject.transform.position.x, GetCharacterOnMouse().gameObject.transform.position.y + 0.25f)), 0.6f).setEaseInCirc();
-            LeanTween.scale(DraggedActionCard.DraggedCard, new Vector3(0.3f, 0.3f, 1f), 0.6f).setEaseInCirc()
+            draggedCard.GetComponent<UIEffectTweener>()?.PlayForward();
+            LeanTween.move(draggedCard, Camera.main.WorldToScreenPoint(new Vector3(targetCharacter.gameObject.transform.position.x, targetCharacter.gameObject.transform.position.y + 0.25f)), 0.6f).setEaseInCirc();
+            LeanTween.scale(draggedCard, new Vector3(0.3f, 0.3f, 1f), 0.6f).setEaseInCirc()
             .setOnComplete(() => {
                 this.UseCard(); 
                 if (DraggedActionCard.DraggedCard != null)

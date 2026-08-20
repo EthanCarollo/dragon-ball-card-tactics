@@ -15,6 +15,11 @@ public class TransformationCard : Card
 
     protected BoardCharacter GetCharacterOnMouse()
     {
+        if (Camera.main == null || transformations == null || transformations.Length == 0)
+        {
+            return null;
+        }
+
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
 
@@ -22,11 +27,11 @@ public class TransformationCard : Card
             (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
         {
             var charactersUpdatable = GameManager.Instance.GetCharactersOnBoard()
-                .Where(cha => cha.character.isPlayerCharacter)
+                .Where(cha => cha?.character != null && cha.character.isPlayerCharacter && cha.gameObject != null)
                 .ToList()
                 .FindAll(cha => {
                     // Vérifie si le CharacterData de cha.character est dans transformations
-                    return transformations.Any(trans => trans.character == cha.character.GetCharacterData());
+                    return transformations.Any(trans => trans?.character != null && trans.character == cha.character.GetCharacterData());
                 });
             if(charactersUpdatable.Count == 0) return null;
 
@@ -58,22 +63,27 @@ public class TransformationCard : Card
 
     public override string GetDescription()
     {
-        return "Transform " + transformations[0].character.characterName + " into " + transformations[0].transformation.newCharacterData.characterName + " or in several other possibilities.";
+        var transformation = transformations?.FirstOrDefault(trans =>
+            trans?.character != null && trans.transformation?.newCharacterData != null);
+        return transformation == null
+            ? "Transforms an unconfigured character."
+            : "Transform " + transformation.character.characterName + " into " + transformation.transformation.newCharacterData.characterName + " or in several other possibilities.";
     }
 
     public override bool CanUseCard()
     {
-        if (CardDatabase.Instance.IsTransformationCardProgressionAvailable(this) == false)
+        if (transformations == null || transformations.Length == 0 || CardDatabase.Instance == null ||
+            CardDatabase.Instance.IsTransformationCardProgressionAvailable(this) == false)
         {
             return false;
         }
 
         
         var characterOnBoard = GameManager.Instance.GetCharactersOnBoard()
-            .Where(cha => cha.character.isPlayerCharacter)
+            .Where(cha => cha?.character != null && cha.character.isPlayerCharacter)
             .ToList()
             .Find(cha =>
-                transformations.Any(trans => trans.character == cha.character.GetCharacterData())
+                transformations.Any(trans => trans?.character != null && trans.character == cha.character.GetCharacterData())
             );
 
         if (characterOnBoard == null)
@@ -106,20 +116,26 @@ public class TransformationCard : Card
             LeanTween.delayedCall(0.5f, () =>
             {
                 // Trouve la transformation correspondante pour le CharacterData du personnage
-                var transformation = transformations.FirstOrDefault(trans => trans.character == targetCharacter.character.GetCharacterData());
-
-                if (transformation != null)
+                if (!CanUseCard() || targetCharacter?.character == null || targetCharacter.character.IsDead() ||
+                    !targetCharacter.character.isPlayerCharacter)
                 {
-                    // Joue l'animation de transformation pour le personnage
-                    targetCharacter.PlayAnimation(transformation.transformation);
+                    return;
+                }
+
+                var transformation = transformations?.FirstOrDefault(trans =>
+                    trans?.character != null && trans.character == targetCharacter.character.GetCharacterData());
+
+                if (transformation?.transformation == null || !targetCharacter.PlayAnimation(transformation.transformation, null))
+                {
+                    return;
                 }
 
                 // Réduit le mana du joueur
                 GameManager.Instance.Player.Mana.CurrentMana -= manaCost;
 
                 // Met à jour l'UI pour refléter la perte de mana
-                BoardGameUiManager.Instance.ShowLooseMana(manaCost);
-                BoardGameUiManager.Instance.RefreshUI();
+                BoardGameUiManager.Instance?.ShowLooseMana(manaCost);
+                BoardGameUiManager.Instance?.RefreshUI();
 
                 // Retire la carte après utilisation
                 RegisterCardHistory();
@@ -210,18 +226,30 @@ public class TransformationCard : Card
 
     public override void OnEndDrag(PointerEventData eventData)
     {
-        BoardGameUiManager.Instance.HidePlayCardPanel();
+        BoardGameUiManager.Instance?.HidePlayCardPanel();
         GameManager.Instance.ResetCharacterShader();
+
+        if (Camera.main == null)
+        {
+            if (DraggedActionCard.DraggedCard != null)
+            {
+                MonoBehaviour.Destroy(DraggedActionCard.DraggedCard.gameObject);
+            }
+            return;
+        }
 
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
         
-        if (hit.collider != null && (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
+        var draggedCard = DraggedActionCard.DraggedCard;
+        var targetCharacter = GetCharacterOnMouse();
+        if (hit.collider != null && targetCharacter != null && draggedCard != null &&
+            (hit.collider.GetComponent<TileBehaviour>() != null || hit.collider.GetComponent<CharacterPrefabScript>() != null))
         {
             this.UseCard();
-            DraggedActionCard.DraggedCard.GetComponent<UIEffectTweener>().PlayForward();
-            LeanTween.move(DraggedActionCard.DraggedCard, Camera.main.WorldToScreenPoint(new Vector3(GetCharacterOnMouse().gameObject.transform.position.x, GetCharacterOnMouse().gameObject.transform.position.y + 0.25f)), 0.6f).setEaseInCirc();
-            LeanTween.scale(DraggedActionCard.DraggedCard, new Vector3(0.3f, 0.3f, 1f), 0.6f).setEaseInCirc()
+            draggedCard.GetComponent<UIEffectTweener>()?.PlayForward();
+            LeanTween.move(draggedCard, Camera.main.WorldToScreenPoint(new Vector3(targetCharacter.gameObject.transform.position.x, targetCharacter.gameObject.transform.position.y + 0.25f)), 0.6f).setEaseInCirc();
+            LeanTween.scale(draggedCard, new Vector3(0.3f, 0.3f, 1f), 0.6f).setEaseInCirc()
             .setOnComplete(() => { 
                 if (DraggedActionCard.DraggedCard != null)
                 {
