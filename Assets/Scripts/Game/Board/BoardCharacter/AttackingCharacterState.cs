@@ -8,7 +8,8 @@ public class AttackingCharacterState : BoardCharacterState
     private bool isSpecialAttacking = false;
     private bool canAttack{
         get {
-            return timeSinceLastAttack >= (1 / boardCharacter.character.GetAttackSpeed());
+            float attackSpeed = Mathf.Max(0.01f, boardCharacter?.character?.GetAttackSpeed() ?? 0f);
+            return timeSinceLastAttack >= (1f / attackSpeed);
         }
     }
     
@@ -22,7 +23,7 @@ public class AttackingCharacterState : BoardCharacterState
         if (isSpecialAttacking) {
             return;
         }
-        if (characterTarget != null && characterTarget.character.IsDead() == false && characterTarget.gameObject != null)
+        if (characterTarget?.character != null && characterTarget.character.IsDead() == false && characterTarget.gameObject != null)
         {
             boardCharacter.direction = BoardUtils.GetDirectionVector(
                 characterTarget.gameObject.transform.position - boardCharacter.gameObject.transform.position); 
@@ -33,7 +34,7 @@ public class AttackingCharacterState : BoardCharacterState
             return;
         }
 
-        if (characterTarget == null || characterTarget.character.IsDead())
+        if (characterTarget?.character == null || characterTarget.character.IsDead())
         {
             boardCharacter.UpdateState(new DefaultCharacterState(boardCharacter));
             return;
@@ -45,20 +46,22 @@ public class AttackingCharacterState : BoardCharacterState
         {
             if (boardCharacter.character.actualKi >= boardCharacter.character.GetCharacterMaxKi())
             {
-                isSpecialAttacking = true;
-                boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterSpecialAttack().animation, () => {
+                var specialAttack = boardCharacter.character.GetCharacterSpecialAttack();
+                if (specialAttack?.animation != null && boardCharacter.PlayAnimation(specialAttack.animation, () => {
                     isSpecialAttacking = false;
-                });
-                boardCharacter.character.actualKi = 0;
+                }))
+                {
+                    isSpecialAttacking = true;
+                    boardCharacter.character.actualKi = 0;
+                }
+                else
+                {
+                    PlayNormalAttack();
+                }
             }
             else
             {
-                if(IsCritical(boardCharacter.character.GetCriticalChance()) == true)
-                {
-                    boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterData().criticalAttackAnimation);
-                } else {
-                    boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterData().attackAnimation);
-                }
+                PlayNormalAttack();
             }
             timeSinceLastAttack = 0f;
         }
@@ -68,8 +71,18 @@ public class AttackingCharacterState : BoardCharacterState
 
     static bool IsCritical(int chance)
     {
-        System.Random random = new System.Random();
-        int randomValue = random.Next(0, 100); 
-        return randomValue < chance; 
+        return UnityEngine.Random.Range(0, 100) < Mathf.Clamp(chance, 0, 100);
+    }
+
+    private void PlayNormalAttack()
+    {
+        if (IsCritical(boardCharacter.character.GetCriticalChance()))
+        {
+            boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterData().criticalAttackAnimation);
+        }
+        else
+        {
+            boardCharacter.PlayAnimation(boardCharacter.character.GetCharacterData().attackAnimation);
+        }
     }
 }

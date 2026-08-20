@@ -120,13 +120,13 @@ public class BoardCharacter : BoardObject
 
     public void Attack(int multiplicator, Particle particle, BoardCharacter target)
     {
-        if (character == null || character.IsDead() || GetCharacterTarget() == null)
+        if (character == null || character.IsDead() || target?.character == null || target.character.IsDead())
         {
             return;
         }
-        if (particle != null && GetCharacterTarget().gameObject != null) {
+        if (particle != null && target.gameObject != null) {
             try {
-                particle.StartParticle(GetCharacterTarget().gameObject.transform.position);
+                particle.StartParticle(target.gameObject.transform.position);
             } catch (Exception error){
                 Debug.LogWarning("Error on starting particle," + error);
             }
@@ -137,15 +137,12 @@ public class BoardCharacter : BoardObject
             passive?.HitCharacter(this, target);
         }
 
-        if (target != null && target.character != null && target.character.IsDead() == false)
+        target.HitDamage(character.GetAttackDamage() * multiplicator);
+        if(target.character.IsDead() == true)
         {
-            target.HitDamage(character.GetAttackDamage() * multiplicator);
-            if(target.character.IsDead() == true)
+            foreach (var passive in character.GetCharacterPassives())
             {
-                foreach (var passive in character.GetCharacterPassives())
-                {
-                    passive?.KilledAnEnemy(this, target);
-                }
+                passive?.KilledAnEnemy(this, target);
             }
         }
     }
@@ -296,11 +293,11 @@ public class BoardCharacter : BoardObject
         }
     }
 
-    public void PlayAnimation(BoardAnimation animation, Action onAnimationComplete = null)
+    public bool PlayAnimation(BoardAnimation animation, Action onAnimationComplete = null)
     {
         if (!isInstantiated || animation == null)
         {
-            return;
+            return false;
         }
         
         try
@@ -308,16 +305,18 @@ public class BoardCharacter : BoardObject
             var characterScript = GetCharacterPrefabScript();
             if (characterScript == null)
             {
-                return;
+                return false;
             }
 
             characterScript.StopAllCoroutines();
             if (actualAnimation != null) actualAnimation.EndAnimation(this);
             characterScript.StartCoroutine(PlayAnimationWithCallback(animation, onAnimationComplete));
+            return true;
         } 
         catch (Exception error)
         {
             Debug.LogError("Cannot run animation on character : " + GetCharacterDisplayName() + "  " + error);
+            return false;
         }
     }
 
