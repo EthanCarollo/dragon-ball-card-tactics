@@ -31,7 +31,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 2093937003940282446
-      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      type: {class: Bonus, ns: , asm: DragonBallCardTactics.Runtime}
       data:
         attackBonus: 8
         maxHpBonus: 80
@@ -39,7 +39,7 @@ MonoBehaviour:
         criticalChanceBonus: 0
         effectsOnHit: []
     - rid: 5533071885913555020
-      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      type: {class: Bonus, ns: , asm: DragonBallCardTactics.Runtime}
       data:
         attackBonus: 120
         maxHpBonus: 320
@@ -47,7 +47,7 @@ MonoBehaviour:
         criticalChanceBonus: 0
         effectsOnHit: []
     - rid: 6739222654909153357
-      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      type: {class: Bonus, ns: , asm: DragonBallCardTactics.Runtime}
       data:
         attackBonus: 0
         maxHpBonus: 0

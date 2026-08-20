@@ -23,7 +23,7 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 2093936444406759499
-      type: {class: Bonus, ns: , asm: Assembly-CSharp}
+      type: {class: Bonus, ns: , asm: DragonBallCardTactics.Runtime}
       data:
         attackBonus: 20
         maxHpBonus: 0
