@@ -13,11 +13,16 @@ public class DamagedTransformPassive : TransformPassive
 
     public override void GetHit(int amount, BoardCharacter character)
     {
+        if (character?.character == null || transformAnimation == null)
+        {
+            return;
+        }
+
         var state = character.character.GetPassiveRuntimeState(this);
-        if (amount >= hitThreshold && !state.triggered && transformAnimation.CanTransform(character))
+        if (state != null && amount >= hitThreshold && !state.triggered && transformAnimation.CanTransform(character))
         {
             character.PlayAnimation(transformAnimation);
-            Debug.Log($"Transformation triggered when receive ${amount} damage on character, now he has ${character.character.actualHealth} hp.");
+            Debug.Log($"Transformation triggered when receiving {amount} damage on character, now he has {character.character.actualHealth} hp.");
             state.triggered = true;
         }
         

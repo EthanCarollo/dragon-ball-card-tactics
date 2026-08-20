@@ -6,12 +6,20 @@ public class SayanSpiritPassive : CharacterPassive
 {
     public override int AdditionalAttack(CharacterContainer character)
     {
-        float healthPercentage = (float)character.actualHealth / character.GetCharacterData().maxHealth * 100;
-        if (character.actualHealth <= 0)
+        if (character == null || character.IsDead())
         {
             return 0;
         }
-        float attackMultiplier = 75 / healthPercentage;
-        return (int)(attackMultiplier * character.GetCharacterData().baseDamage);
+
+        var characterData = character.GetCharacterData();
+        if (characterData == null)
+        {
+            return 0;
+        }
+
+        int maxHealth = Mathf.Max(1, character.GetCharacterMaxHealth());
+        float healthPercentage = Mathf.Max(0.01f, (float)character.actualHealth / maxHealth * 100f);
+        float attackMultiplier = 75f / healthPercentage;
+        return Mathf.FloorToInt(attackMultiplier * characterData.baseDamage);
     }
 }

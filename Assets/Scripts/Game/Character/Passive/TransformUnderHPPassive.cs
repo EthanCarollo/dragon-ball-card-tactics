@@ -16,10 +16,15 @@ public class TransformUnderHPPassive : TransformPassive
     {
         base.UpdatePassive(character);
 
-        float hpThreshold = character.character.GetCharacterData().maxHealth * (hpThresholdPercentage / 100f);
+        if (character?.character == null || transformAnimation == null)
+        {
+            return;
+        }
+
+        float hpThreshold = character.character.GetCharacterMaxHealth() * (Mathf.Clamp(hpThresholdPercentage, 0f, 100f) / 100f);
         var state = character.character.GetPassiveRuntimeState(this);
         
-        if (character.character.actualHealth < hpThreshold && !state.triggered && transformAnimation.CanTransform(character))
+        if (state != null && character.character.actualHealth < hpThreshold && !state.triggered && transformAnimation.CanTransform(character))
         {
             character.PlayAnimation(transformAnimation);
             Debug.Log($"Transformation triggered at {hpThresholdPercentage}% HP.");
