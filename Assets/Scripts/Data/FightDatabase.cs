@@ -60,7 +60,10 @@ public class FightDatabase : ScriptableObject
         {
             for (int i = 0; i < this.fights.Length; i++)
             {
-                this.fights[i].id = i;
+                if (this.fights[i] != null)
+                {
+                    this.fights[i].id = i;
+                }
             }
         }
     }

@@ -106,7 +106,6 @@ public class CharacterDatabase : ScriptableObject
             if(character == null || currentCharacters.Contains(character)) continue;
             if (character.sameCharacters == null){
                 Debug.LogWarning("Character has no same-character family configured: " + character.characterName);
-                continue;
             }
             if(character.sameCharacters.Contains(null)){
                 Debug.LogWarning("This character contains bad same character : " + character.characterName);
