@@ -14,26 +14,33 @@ public class DefaultBoardState : BoardState
 
     public override void Start()
     {
-        BoardGameUiManager.Instance.launchFightButton.SetActive(true);
-        CardUi.Instance.ShowCardUi();
+        BoardGameUiManager.Instance?.launchFightButton?.SetActive(true);
+        CardUi.Instance?.ShowCardUi();
     }
 
     public override void Update()
     {
-        for (int x = 0; x < GameManager.Instance.boardCharacterArray.GetLength(0); x++)
+        var boardCharacters = GameManager.Instance?.boardCharacterArray;
+        if (boardCharacters == null)
         {
-            for (int y = 0; y < GameManager.Instance.boardCharacterArray.GetLength(1); y++)
+            return;
+        }
+
+        for (int x = 0; x < boardCharacters.GetLength(0); x++)
+        {
+            for (int y = 0; y < boardCharacters.GetLength(1); y++)
             {
-                var character = GameManager.Instance.boardCharacterArray[x, y];
+                var character = boardCharacters[x, y];
                 if (character == null) continue;
                 character.UpdateUi();
-                if (character is BoardCharacter boardCharacter && isCinematic == false)
+                if (character is BoardCharacter boardCharacter && boardCharacter.character != null && isCinematic == false)
                 {
                     // On default board state every character are full life
                     boardCharacter.character.actualHealth = boardCharacter.character.GetCharacterMaxHealth();
                     boardCharacter.SetCharacterSlider();
                     
-                    boardCharacter.PlayAnimationIfNotRunning(boardCharacter.character.GetCharacterData().idleAnimation);
+                    var characterData = boardCharacter.character.GetCharacterData();
+                    boardCharacter.PlayAnimationIfNotRunning(characterData?.idleAnimation);
                 }
             }
         }
@@ -53,13 +60,13 @@ public class DefaultBoardState : BoardState
     public override void LaunchCinematic()
     {
         isCinematic = true;
-        BoardGameUiManager.Instance.launchFightButton.SetActive(false);
-        CardUi.Instance.HideCardUi();
+        BoardGameUiManager.Instance?.launchFightButton?.SetActive(false);
+        CardUi.Instance?.HideCardUi();
     }
     public override void EndCinematic()
     {
         isCinematic = false;
-        BoardGameUiManager.Instance.launchFightButton.SetActive(true);
-        CardUi.Instance.ShowCardUi();
+        BoardGameUiManager.Instance?.launchFightButton?.SetActive(true);
+        CardUi.Instance?.ShowCardUi();
     }
 }

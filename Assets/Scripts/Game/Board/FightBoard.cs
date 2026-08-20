@@ -41,17 +41,17 @@ public class FightBoard : Board
 
     public void LaunchFight()
     {
-        state.LaunchFight();
+        state?.LaunchFight();
     }
 
     public bool IsFighting()
     {
-        return state.IsFighting();
+        return state?.IsFighting() ?? false;
     }
 
     public void EndFight(bool win)
     {
-        state.EndFight(win);
+        state?.EndFight(win);
     }
     
     public override void CreateBoard(BoardObject[,] boardCharacterArray)
@@ -216,7 +216,7 @@ public class FightBoard : Board
             character.PlayAnimation(SpriteDatabase.Instance.appearAnimation);
         }
         
-        if (GlobalGameConfig.Instance.debug)
+        if (GlobalGameConfig.Instance?.debug == true)
         {
             Debug.Log($"Instantiate character at position: {position} | Character: {character} | Name: {character.character.GetName()} | ID: {character.character.GetCharacterData().id}");
         }
@@ -249,11 +249,11 @@ public class FightBoard : Board
 
     public void LaunchCinematic()
     {
-        state.LaunchCinematic();
+        state?.LaunchCinematic();
     }
 
     public void EndCinematic()
     {
-        state.EndCinematic();
+        state?.EndCinematic();
     }
 }
