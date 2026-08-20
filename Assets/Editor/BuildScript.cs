@@ -21,8 +21,8 @@ public class BuildScript
 
         if (scenes.Length == 0)
         {
-            Debug.LogError("Impossible de construire le projet : aucune scène active n'est configurée dans les Build Settings.");
-            return;
+            throw new BuildFailedException(
+                "Impossible de construire le projet : aucune scène active n'est configurée dans les Build Settings.");
         }
 
         BuildReport report = BuildPipeline.BuildPlayer(scenes, buildPath, BuildTarget.WebGL, BuildOptions.None);
