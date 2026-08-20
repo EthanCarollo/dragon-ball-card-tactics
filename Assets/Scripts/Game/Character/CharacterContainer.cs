@@ -179,9 +179,12 @@ public class CharacterContainer
             }  
         }
 
-        foreach (var effect in activeEffects)
+        foreach (var activeEffect in activeEffects ?? new List<InGameEffect>())
         {
-            totalAdditionalAttack += effect.effect.attackBonus;
+            if (activeEffect?.effect != null)
+            {
+                totalAdditionalAttack += activeEffect.effect.attackBonus;
+            }
         }
 
         totalAdditionalAttack += (characterStar - 1) * 10;
@@ -265,7 +268,7 @@ public class CharacterContainer
     {
         int maxKi = GetCharacterData().maxKi;
         maxKi -= (characterStar - 1) * 2;
-        return maxKi;
+        return Mathf.Max(0, maxKi);
     }
     public float GetAttackSpeed()
     {
@@ -282,9 +285,12 @@ public class CharacterContainer
             }
         }
 
-        foreach (var effect in activeEffects)
+        foreach (var activeEffect in activeEffects ?? new List<InGameEffect>())
         {
-            attackSpeed += effect.effect.attackSpeedBonus;
+            if (activeEffect?.effect != null)
+            {
+                attackSpeed += activeEffect.effect.attackSpeedBonus;
+            }
         }
         attackSpeed += (float)((characterStar - 1) * 0.05);
         return attackSpeed;
@@ -382,12 +388,23 @@ public class CharacterContainer
 
     public void AddEffect(Effect newEffect)
     {
-        InGameEffect existingEffect = activeEffects.Find(effect => effect.effect.effectName == newEffect.effectName);
+        if (newEffect == null)
+        {
+            return;
+        }
+
+        activeEffects ??= new List<InGameEffect>();
+        InGameEffect existingEffect = activeEffects.Find(activeEffect =>
+            activeEffect?.effect != null &&
+            (activeEffect.effect == newEffect ||
+             (!string.IsNullOrWhiteSpace(newEffect.effectName) && activeEffect.effect.effectName == newEffect.effectName)));
 
         if (existingEffect != null)
         {
             // Si l'effet existe déjà, rafraîchir sa durée.
-            existingEffect.effectDuration = newEffect.totalEffectDuration;
+            existingEffect.effectDuration = Mathf.Max(0f, newEffect.totalEffectDuration);
+            existingEffect.tickInterval = Mathf.Max(0.01f, newEffect.tickInterval);
+            existingEffect.nextTickTime = existingEffect.tickInterval;
             Debug.Log($"Effet {newEffect.effectName} rafraîchi pour {GetName()}. Nouvelle durée : {newEffect.totalEffectDuration}s");
         }
         else
@@ -401,6 +418,12 @@ public class CharacterContainer
 
     public void AddPassive(CharacterPassive passive)
     {
+        if (passive == null)
+        {
+            return;
+        }
+
+        characterPassives ??= new List<CharacterPassive>();
         characterPassives.Add(passive);
         NotifyCharacterChanged();
     }
@@ -412,7 +435,7 @@ public class CharacterContainer
         {
             actualHealth = 0;
         }
-        if (IsDead() && characterGameInstance.isDying == false)
+        if (IsDead() && characterGameInstance != null && characterGameInstance.isDying == false)
         {
             characterGameInstance.Dead(); 
         } else if(IsDead() == false)
@@ -427,21 +450,13 @@ public class CharacterContainer
 
     public void AddKi(int kiAmount)
     {
-        actualKi += kiAmount;
-        if (actualKi > GetCharacterMaxKi())
-        {
-            actualKi = GetCharacterMaxKi();
-        }
+        actualKi = Mathf.Clamp(actualKi + kiAmount, 0, GetCharacterMaxKi());
         NotifyCharacterChanged();
     }
 
     public void Heal(int healAmount)
     {
-        actualHealth += healAmount;
-        if (actualHealth > GetCharacterMaxHealth())
-        {
-            actualHealth = GetCharacterMaxHealth();
-        }
+        actualHealth = Mathf.Clamp(actualHealth + Mathf.Max(0, healAmount), 0, GetCharacterMaxHealth());
         NotifyCharacterChanged();
     }
 }

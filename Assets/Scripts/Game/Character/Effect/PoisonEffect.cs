@@ -10,15 +10,24 @@ public class PoisonEffect : Effect
 
     public override void OnEffectTick(BoardCharacter character)
     {
+        if (character?.character == null)
+        {
+            return;
+        }
+
         try
         {
-            particle.StartParticle(character.gameObject.transform.position);
-            character.HitDamage(damagePerTick);
+            if (particle != null && character.gameObject != null)
+            {
+                particle.StartParticle(character.gameObject.transform.position);
+            }
         }
         catch (System.Exception error)
         {
             Debug.LogError("Error on effect tick poison effect : " + error.ToString());
         }
+
+        character.HitDamage(damagePerTick);
         Debug.Log($"[{effectName}] inflige {damagePerTick} dégâts à {character.character.GetName()}.");
     }
 }

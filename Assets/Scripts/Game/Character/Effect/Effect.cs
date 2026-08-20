@@ -28,9 +28,14 @@ public class InGameEffect{
 
     public InGameEffect(Effect effect){
         this.effect = effect;
-        effectDuration = effect.totalEffectDuration;
-        tickInterval = effect.tickInterval;
-        nextTickTime = effect.tickInterval;
+        if (effect == null)
+        {
+            return;
+        }
+
+        effectDuration = Mathf.Max(0f, effect.totalEffectDuration);
+        tickInterval = Mathf.Max(0.01f, effect.tickInterval);
+        nextTickTime = tickInterval;
     }
 
     public InGameEffect Clone()
@@ -45,7 +50,7 @@ public class InGameEffect{
 
     public void UpdateEffect(float deltaTime, BoardCharacter character)
     {
-        if (effectDuration <= 0) return;
+        if (effect == null || effectDuration <= 0) return;
 
         effectDuration -= deltaTime;
         nextTickTime -= deltaTime;
@@ -53,7 +58,7 @@ public class InGameEffect{
         if (nextTickTime <= 0)
         {
             effect.OnEffectTick(character);
-            nextTickTime = tickInterval;
+            nextTickTime = Mathf.Max(0.01f, tickInterval);
         }
     }
 
