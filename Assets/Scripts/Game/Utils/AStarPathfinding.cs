@@ -35,6 +35,11 @@ public class AStarPathfinding
         Node startNode = new Node(start, null);
         Node endNode = new Node(end, null);
         startNode.GCost = 0; // Set start node GCost to 0
+        var nodesByPosition = new Dictionary<Vector2Int, Node>
+        {
+            [start] = startNode,
+            [end] = endNode
+        };
 
         List<Node> openList = new List<Node>();
         HashSet<Node> closedList = new HashSet<Node>();
@@ -62,7 +67,7 @@ public class AStarPathfinding
                 return RetracePath(startNode, currentNode);
             }
 
-            foreach (Node neighbor in GetNeighbors(currentNode))
+            foreach (Node neighbor in GetNeighbors(currentNode, nodesByPosition))
             {
                 if (closedList.Contains(neighbor) || !IsWalkable(neighbor.Position)) continue;
 
@@ -99,7 +104,7 @@ public class AStarPathfinding
         return path;
     }
 
-    private List<Node> GetNeighbors(Node node)
+    private List<Node> GetNeighbors(Node node, Dictionary<Vector2Int, Node> nodesByPosition)
     {
         List<Node> neighbors = new List<Node>();
         Vector2Int[] directions = { Vector2Int.left, Vector2Int.right, Vector2Int.up, Vector2Int.down, };
@@ -109,7 +114,13 @@ public class AStarPathfinding
             Vector2Int neighborPos = node.Position + direction;
             if (IsInBounds(neighborPos))
             {
-                neighbors.Add(new Node(neighborPos, node));
+                if (!nodesByPosition.TryGetValue(neighborPos, out Node neighbor))
+                {
+                    neighbor = new Node(neighborPos, null);
+                    nodesByPosition.Add(neighborPos, neighbor);
+                }
+
+                neighbors.Add(neighbor);
             }
         }
 
