@@ -90,9 +90,15 @@ public static class BoardUtils
         Vector2Int toPosition = GetCharacterPosition(boardCharacters, toCharacter);
         var aStar = new AStarPathfinding(boardCharacters);
 
-        if (fromPosition.x == -1 && fromPosition.y == -1)
+        if (!IsInBounds(boardCharacters, fromPosition))
         {
             Debug.LogWarning("From character not found on the board.");
+            return null;
+        }
+
+        if (!IsInBounds(boardCharacters, toPosition))
+        {
+            Debug.LogWarning("To character not found on the board.");
             return null;
         }
 
@@ -179,7 +185,11 @@ public static class BoardUtils
 
     public static void InflictDamageInZone(Vector2Int[] tiles, int damage)
     {
-        BoardObject[,] boardChar = GameManager.Instance.boardCharacterArray;
+        BoardObject[,] boardChar = GameManager.Instance?.boardCharacterArray;
+        if (tiles == null || boardChar == null)
+        {
+            return;
+        }
 
         foreach (Vector2Int tile in tiles)
         {
@@ -196,13 +206,19 @@ public static class BoardUtils
 
     public static BoardObject[,] DuplicateBoardObjectGrid(BoardObject[,] board, bool withEnemy)
     {
+        if (board == null)
+        {
+            return null;
+        }
+
         BoardObject[,] duplicateBoard = new BoardObject[board.GetLength(0), board.GetLength(1)];
         
         for (int i = 0; i < duplicateBoard.GetLength(0); i++)
         {
             for (int j = 0; j < duplicateBoard.GetLength(1); j++)
             {
-                if(board[i, j] is BoardCharacter boardCharacter && withEnemy == false && boardCharacter.character.isPlayerCharacter == true){
+                if(board[i, j] is BoardCharacter boardCharacter && withEnemy == false &&
+                    boardCharacter.character != null && boardCharacter.character.isPlayerCharacter == true){
                     duplicateBoard[i, j] = board[i, j]?.Clone();
                 } else if(withEnemy == true) {
                     duplicateBoard[i, j] = board[i, j]?.Clone();
