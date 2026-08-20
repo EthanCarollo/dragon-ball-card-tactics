@@ -13,20 +13,37 @@ public class ButtonScript: MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        Cursor.SetCursor(SpriteDatabase.Instance.pointerCursor, hotSpot, CursorMode.Auto);
-        audioSource.clip = SoundDatabase.Instance.hoverButtonSound;
-        audioSource.Play();
+        var spriteDatabase = SpriteDatabase.Instance;
+        if (spriteDatabase != null && spriteDatabase.pointerCursor != null)
+        {
+            Cursor.SetCursor(spriteDatabase.pointerCursor, hotSpot, CursorMode.Auto);
+        }
+
+        PlaySound(SoundDatabase.Instance?.hoverButtonSound);
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        audioSource.clip = SoundDatabase.Instance.clickButtonSound;
-        audioSource.Play();
+        PlaySound(SoundDatabase.Instance?.clickButtonSound);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        Cursor.SetCursor(SpriteDatabase.Instance.normalCursor, Vector2.zero, CursorMode.Auto);
+        var spriteDatabase = SpriteDatabase.Instance;
+        if (spriteDatabase != null && spriteDatabase.normalCursor != null)
+        {
+            Cursor.SetCursor(spriteDatabase.normalCursor, Vector2.zero, CursorMode.Auto);
+        }
+    }
+
+    private void PlaySound(AudioClip clip)
+    {
+        if (audioSource == null || clip == null)
+        {
+            return;
+        }
+
+        audioSource.PlayOneShot(clip);
     }
 
 }

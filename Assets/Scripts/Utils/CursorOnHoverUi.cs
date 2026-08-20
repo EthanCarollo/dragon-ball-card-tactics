@@ -7,12 +7,20 @@ public class CursorOnHoverUi : MonoBehaviour, IPointerEnterHandler, IPointerExit
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        Cursor.SetCursor(SpriteDatabase.Instance.pointerCursor, hotSpot, CursorMode.Auto);
+        var spriteDatabase = SpriteDatabase.Instance;
+        if (spriteDatabase != null && spriteDatabase.pointerCursor != null)
+        {
+            Cursor.SetCursor(spriteDatabase.pointerCursor, hotSpot, CursorMode.Auto);
+        }
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        Cursor.SetCursor(SpriteDatabase.Instance.normalCursor, Vector2.zero, CursorMode.Auto);
+        var spriteDatabase = SpriteDatabase.Instance;
+        if (spriteDatabase != null && spriteDatabase.normalCursor != null)
+        {
+            Cursor.SetCursor(spriteDatabase.normalCursor, Vector2.zero, CursorMode.Auto);
+        }
     }
     
 }

@@ -6,6 +6,10 @@ public class ActualVersionText : MonoBehaviour
 {
         public void Start()
         {
-                this.GetComponent<TextMeshProUGUI>().text = string.Format("v{0}", Application.version);
+                var versionText = GetComponent<TextMeshProUGUI>();
+                if (versionText != null)
+                {
+                        versionText.text = string.Format("v{0}", Application.version);
+                }
         }
 }
