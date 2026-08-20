@@ -8,6 +8,11 @@ public class Particle : ScriptableObject
 
     public void StartParticle(Vector2 position)
 {
+    if (particleSprites == null || particleSprites.Length == 0 || ParticleManager.Instance == null)
+    {
+        return;
+    }
+
     for (int i = 0; i < 3; i++) 
     {
         var particleObject = new GameObject("Particle" + i);
@@ -27,8 +32,13 @@ public class Particle : ScriptableObject
 
 private IEnumerator AnimateParticle(GameObject particleObject, SpriteRenderer spriteRenderer, float speed)
 {
-    foreach (Sprite particleSprite in particleSprites)
+    foreach (Sprite particleSprite in particleSprites ?? new Sprite[0])
     {
+        if (particleSprite == null)
+        {
+            continue;
+        }
+
         spriteRenderer.sprite = particleSprite;
         yield return new WaitForSeconds(speed);
     }
